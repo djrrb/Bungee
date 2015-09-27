@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cacute" format="1">
+  <advance width="628"/>
+  <unicode hex="0107"/>
+  <outline>
+    <component base="Cacute"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:06:23</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

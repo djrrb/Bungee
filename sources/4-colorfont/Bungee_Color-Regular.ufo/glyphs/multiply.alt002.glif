@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="multiply.alt002" format="1">
+  <advance width="734.0"/>
+  <outline>
+    <contour>
+      <point x="224" y="510" type="line"/>
+      <point x="517" y="217" type="line"/>
+      <point x="510" y="210" type="line"/>
+      <point x="217" y="503" type="line"/>
+    </contour>
+    <contour>
+      <point x="517" y="503" type="line"/>
+      <point x="224" y="210" type="line"/>
+      <point x="217" y="217" type="line"/>
+      <point x="510" y="510" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:15:58</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

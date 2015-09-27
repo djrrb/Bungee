@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Efcyrillic.scrap_beta.alt001" format="1">
+  <advance width="919"/>
+  <outline>
+    <contour>
+      <point x="353" y="473" type="line"/>
+      <point x="353" y="242" type="line"/>
+      <point x="298" y="242" type="line" smooth="yes"/>
+      <point x="259" y="242"/>
+      <point x="251" y="265"/>
+      <point x="251" y="291" type="curve" smooth="yes"/>
+      <point x="251" y="424" type="line" smooth="yes"/>
+      <point x="251" y="450"/>
+      <point x="259" y="473"/>
+      <point x="298" y="473" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="566" y="473" type="line"/>
+      <point x="621" y="473" type="line" smooth="yes"/>
+      <point x="660" y="473"/>
+      <point x="668" y="450"/>
+      <point x="668" y="424" type="curve" smooth="yes"/>
+      <point x="668" y="291" type="line" smooth="yes"/>
+      <point x="668" y="265"/>
+      <point x="660" y="242"/>
+      <point x="621" y="242" type="curve" smooth="yes"/>
+      <point x="566" y="242" type="line"/>
+    </contour>
+    <contour>
+      <point x="537" y="-40" type="line" smooth="yes"/>
+      <point x="562" y="-40"/>
+      <point x="573" y="-29"/>
+      <point x="573" y="-4" type="curve" smooth="yes"/>
+      <point x="573" y="62" type="line"/>
+      <point x="648" y="62" type="line" smooth="yes"/>
+      <point x="829" y="62"/>
+      <point x="884" y="141"/>
+      <point x="884" y="257" type="curve" smooth="yes"/>
+      <point x="884" y="465" type="line" smooth="yes"/>
+      <point x="884" y="581"/>
+      <point x="830" y="660"/>
+      <point x="648" y="660" type="curve" smooth="yes"/>
+      <point x="271" y="660" type="line" smooth="yes"/>
+      <point x="89" y="660"/>
+      <point x="35" y="581"/>
+      <point x="35" y="465" type="curve" smooth="yes"/>
+      <point x="35" y="257" type="line" smooth="yes"/>
+      <point x="35" y="141"/>
+      <point x="89" y="62"/>
+      <point x="271" y="62" type="curve" smooth="yes"/>
+      <point x="346" y="62" type="line"/>
+      <point x="346" y="-4" type="line" smooth="yes"/>
+      <point x="350" y="-28"/>
+      <point x="356" y="-39"/>
+      <point x="379" y="-40" type="curve"/>
+      <point x="381" y="-40"/>
+      <point x="380" y="-40"/>
+      <point x="379" y="-40" type="curve"/>
+      <point x="380" y="-40"/>
+      <point x="381" y="-40"/>
+      <point x="382" y="-40" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="573" y="658" type="move"/>
+      <point x="573" y="724" type="line" smooth="yes"/>
+      <point x="573" y="749"/>
+      <point x="562" y="760"/>
+      <point x="537" y="760" type="curve" smooth="yes"/>
+      <point x="382" y="760" type="line" smooth="yes"/>
+      <point x="381" y="760"/>
+      <point x="380" y="760"/>
+      <point x="379" y="760" type="curve"/>
+      <point x="380" y="760"/>
+      <point x="381" y="760"/>
+      <point x="379" y="760" type="curve"/>
+      <point x="356" y="759"/>
+      <point x="346" y="748"/>
+      <point x="346" y="724" type="curve" smooth="yes"/>
+      <point x="346" y="658" type="line"/>
+    </contour>
+    <contour>
+      <point x="658.0" y="-27.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="658.0" y="720.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-06-27 14:45:50</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.8</real>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

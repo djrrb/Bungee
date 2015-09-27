@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quoteleft.alt002" format="1">
+  <advance width="384"/>
+  <outline>
+    <contour>
+      <point x="125" y="450" type="line"/>
+      <point x="259" y="450" type="line"/>
+      <point x="259" y="460" type="line"/>
+      <point x="135" y="460" type="line"/>
+      <point x="135" y="569" type="line" smooth="yes"/>
+      <point x="135" y="623"/>
+      <point x="165" y="650"/>
+      <point x="213" y="650" type="curve" smooth="yes"/>
+      <point x="259" y="650" type="line"/>
+      <point x="259" y="660" type="line"/>
+      <point x="213" y="660" type="line" smooth="yes"/>
+      <point x="159" y="660"/>
+      <point x="125" y="630"/>
+      <point x="125" y="569" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:16:23</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

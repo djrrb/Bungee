@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period.alt002" format="1">
+  <advance width="384"/>
+  <outline>
+    <contour>
+      <point x="187" y="90" type="line"/>
+      <point x="197" y="90" type="line"/>
+      <point x="197" y="185" type="line"/>
+      <point x="187" y="185" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-30 10:34:58</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

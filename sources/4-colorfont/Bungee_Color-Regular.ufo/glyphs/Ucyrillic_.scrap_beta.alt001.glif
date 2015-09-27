@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ucyrillic.scrap_beta.alt001" format="1">
+  <advance width="709"/>
+  <outline>
+    <contour>
+      <point x="640" y="204" type="curve"/>
+      <point x="640.0" y="684.0" type="line" smooth="yes"/>
+      <point x="640" y="709"/>
+      <point x="629.0" y="720.0"/>
+      <point x="604.0" y="720.0" type="curve" smooth="yes"/>
+      <point x="450.0" y="720.0" type="line" smooth="yes"/>
+      <point x="425.0" y="720.0"/>
+      <point x="414" y="709"/>
+      <point x="414.0" y="684.0" type="curve" smooth="yes"/>
+      <point x="414" y="466" type="line"/>
+      <point x="321" y="466" type="line" smooth="yes"/>
+      <point x="302" y="466"/>
+      <point x="290" y="479"/>
+      <point x="290" y="500" type="curve" smooth="yes"/>
+      <point x="290.0" y="684.0" type="line" smooth="yes"/>
+      <point x="290" y="709"/>
+      <point x="279.0" y="720.0"/>
+      <point x="254.0" y="720.0" type="curve" smooth="yes"/>
+      <point x="99.0" y="720.0" type="line" smooth="yes"/>
+      <point x="74.0" y="720.0"/>
+      <point x="63" y="709"/>
+      <point x="63.0" y="684.0" type="curve" smooth="yes"/>
+      <point x="63" y="443" type="line" smooth="yes"/>
+      <point x="63" y="329"/>
+      <point x="115" y="277"/>
+      <point x="245" y="277" type="curve" smooth="yes"/>
+      <point x="414" y="277" type="line"/>
+      <point x="414" y="237" type="line" smooth="yes"/>
+      <point x="414" y="211"/>
+      <point x="404" y="189"/>
+      <point x="364" y="189" type="curve" smooth="yes"/>
+      <point x="141.0" y="189.0" type="line" smooth="yes"/>
+      <point x="116.0" y="189.0"/>
+      <point x="105.0" y="178.0"/>
+      <point x="105.0" y="153.0" type="curve" smooth="yes"/>
+      <point x="105.0" y="36.0" type="line" smooth="yes"/>
+      <point x="105.0" y="11.0"/>
+      <point x="116" y="0"/>
+      <point x="141.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="394" y="0" type="line" smooth="yes"/>
+      <point x="583" y="0"/>
+      <point x="640" y="83"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 11:26:59</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.0</real>
+        <real>0.0</real>
+        <real>0.8</real>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

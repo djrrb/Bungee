@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron.alt002" format="1">
+  <advance width="500"/>
+  <outline>
+    <contour>
+      <point x="369" y="847" type="line"/>
+      <point x="369" y="837" type="line"/>
+      <point x="130" y="837" type="line"/>
+      <point x="130" y="847" type="line"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="747.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="0.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="747.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="0.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="747.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="0.0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="747.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="0.0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:15:58</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

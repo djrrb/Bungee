@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dagger.alt002" format="1">
+  <advance width="718"/>
+  <outline>
+    <contour>
+      <point x="364" y="620" type="line"/>
+      <point x="364" y="90" type="line"/>
+      <point x="354" y="90" type="line"/>
+      <point x="354" y="620" type="line"/>
+    </contour>
+    <contour>
+      <point x="140" y="448" type="line"/>
+      <point x="578" y="448" type="line"/>
+      <point x="578" y="438" type="line"/>
+      <point x="140" y="438" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:15:58</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

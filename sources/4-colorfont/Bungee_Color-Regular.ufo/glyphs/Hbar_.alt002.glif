@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar.alt002" format="1">
+  <advance width="779"/>
+  <outline>
+    <contour>
+      <point x="120" y="514" type="line"/>
+      <point x="659" y="514" type="line"/>
+      <point x="659" y="504" type="line"/>
+      <point x="120" y="504" type="line"/>
+    </contour>
+    <contour>
+      <point x="191" y="252" type="line"/>
+      <point x="588" y="252" type="line"/>
+      <point x="588" y="242" type="line"/>
+      <point x="191" y="242" type="line"/>
+    </contour>
+    <contour>
+      <point x="593" y="630" type="line"/>
+      <point x="593" y="90" type="line"/>
+      <point x="583" y="90" type="line"/>
+      <point x="583" y="630" type="line"/>
+    </contour>
+    <contour>
+      <point x="196" y="630" type="line"/>
+      <point x="196" y="90" type="line"/>
+      <point x="186" y="90" type="line"/>
+      <point x="186" y="630" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 14:01:34</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

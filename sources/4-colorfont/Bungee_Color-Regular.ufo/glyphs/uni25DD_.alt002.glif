@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni25DD.alt002" format="1">
+  <advance width="1000.0"/>
+  <outline>
+    <contour>
+      <point x="-20" y="-160" type="line"/>
+      <point x="-20" y="880" type="line"/>
+      <point x="129" y="880" type="line" smooth="yes"/>
+      <point x="725" y="880"/>
+      <point x="1020" y="585"/>
+      <point x="1020" y="-11" type="curve" smooth="yes"/>
+      <point x="1020" y="-160" type="line"/>
+    </contour>
+    <contour>
+      <point x="-10" y="870" type="line"/>
+      <point x="-10" y="-150" type="line"/>
+      <point x="-10" y="-150" type="line"/>
+      <point x="1010" y="-150" type="line"/>
+      <point x="1010" y="-11" type="line"/>
+      <point x="1010" y="579"/>
+      <point x="719" y="870"/>
+      <point x="129" y="870" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
