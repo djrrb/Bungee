@@ -1,0 +1,1 @@
+An example of guidelines to follow to design the font.

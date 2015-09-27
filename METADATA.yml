@@ -1,0 +1,25 @@
+---
+unified font repository version: "0.2"
+unified font repository url: https://github.com/raphaelbastide/Unified-Font-Repository/
+typeface family:
+  name: Demo
+  tags:
+  - sans-serif
+  - pixel
+  - 80s
+  - condesed
+  - grotesque
+  - monospace
+  - incomplete
+  - decorative
+  repository url: https://github.com/user/Demo
+  project url: https://website.com/demofontproject
+  tools:
+  - Inkscape
+  - Fontforge
+  similar fonts:
+  - Helvetica
+  - Neue Haas Grotesk
+  sample text:
+  - en_us: The quick brown fox jumps over the lazy dog
+...
