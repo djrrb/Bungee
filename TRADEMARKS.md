@@ -1,1 +1,1 @@
-Demo is a trademark of FontStudio, Inc.
+Bungee is a trademark of The Font Bureau, Inc.
