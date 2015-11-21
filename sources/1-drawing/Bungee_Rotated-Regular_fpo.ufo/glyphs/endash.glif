@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash" format="1">
+  <advance width="734"/>
+  <unicode hex="2013"/>
+  <outline>
+    <contour>
+      <point x="106" y="257" type="curve"/>
+      <point x="628" y="257" type="line" smooth="yes"/>
+      <point x="653" y="257"/>
+      <point x="664" y="267"/>
+      <point x="664" y="293" type="curve" smooth="yes"/>
+      <point x="664" y="427" type="line" smooth="yes"/>
+      <point x="664" y="453"/>
+      <point x="653" y="463"/>
+      <point x="628" y="463" type="curve" smooth="yes"/>
+      <point x="106" y="463" type="line" smooth="yes"/>
+      <point x="81" y="463"/>
+      <point x="70" y="452"/>
+      <point x="70" y="427" type="curve" smooth="yes"/>
+      <point x="70" y="293" type="line" smooth="yes"/>
+      <point x="70" y="267"/>
+      <point x="81" y="257"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 17:18:36</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

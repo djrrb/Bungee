@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iacute.salt" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="673" y="756" type="line" smooth="yes"/>
+      <point x="698" y="759"/>
+      <point x="709" y="767"/>
+      <point x="709" y="792" type="curve" smooth="yes"/>
+      <point x="709" y="888" type="line" smooth="yes"/>
+      <point x="709" y="911"/>
+      <point x="698" y="924"/>
+      <point x="675" y="921" type="curve"/>
+      <point x="326" y="878" type="line" smooth="yes"/>
+      <point x="301" y="875"/>
+      <point x="290" y="867"/>
+      <point x="290" y="842" type="curve" smooth="yes"/>
+      <point x="290" y="746" type="line" smooth="yes"/>
+      <point x="290" y="723"/>
+      <point x="301" y="710"/>
+      <point x="324" y="713" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="579" y="0" type="line" smooth="yes"/>
+      <point x="604" y="0"/>
+      <point x="615" y="11"/>
+      <point x="615" y="36" type="curve" smooth="yes"/>
+      <point x="615" y="644" type="line" smooth="yes"/>
+      <point x="615" y="669"/>
+      <point x="604" y="680"/>
+      <point x="579" y="680" type="curve" smooth="yes"/>
+      <point x="420" y="680" type="line" smooth="yes"/>
+      <point x="395" y="680"/>
+      <point x="384" y="669"/>
+      <point x="384" y="644" type="curve"/>
+      <point x="384" y="36" type="line"/>
+      <point x="384" y="11"/>
+      <point x="395" y="0"/>
+      <point x="420" y="0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

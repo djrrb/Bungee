@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="multiply" format="1">
+  <advance width="691.755065718"/>
+  <unicode hex="00D7"/>
+  <outline>
+    <contour>
+      <point x="206.877532859" y="90" type="curve"/>
+      <point x="615.877532859" y="499" type="line" smooth="yes"/>
+      <point x="633.877532859" y="516"/>
+      <point x="634.877532859" y="531"/>
+      <point x="615.877532859" y="550" type="curve" smooth="yes"/>
+      <point x="535.877532859" y="630" type="line" smooth="yes"/>
+      <point x="516.877532859" y="649"/>
+      <point x="501.877532859" y="648"/>
+      <point x="484.877532859" y="630" type="curve" smooth="yes"/>
+      <point x="75.8775328591" y="221" type="line" smooth="yes"/>
+      <point x="57.8775328591" y="204"/>
+      <point x="57.8775328591" y="188"/>
+      <point x="75.8775328591" y="170" type="curve" smooth="yes"/>
+      <point x="155.877532859" y="90" type="line" smooth="yes"/>
+      <point x="174.877532859" y="71"/>
+      <point x="189.877532859" y="72"/>
+    </contour>
+    <contour>
+      <point x="75.8775328591" y="499" type="curve"/>
+      <point x="484.877532859" y="90" type="line" smooth="yes"/>
+      <point x="501.877532859" y="72"/>
+      <point x="516.877532859" y="71"/>
+      <point x="535.877532859" y="90" type="curve" smooth="yes"/>
+      <point x="615.877532859" y="170" type="line" smooth="yes"/>
+      <point x="634.877532859" y="189"/>
+      <point x="633.877532859" y="204"/>
+      <point x="615.877532859" y="221" type="curve" smooth="yes"/>
+      <point x="206.877532859" y="630" type="line" smooth="yes"/>
+      <point x="189.877532859" y="648"/>
+      <point x="173.877532859" y="648"/>
+      <point x="155.877532859" y="630" type="curve" smooth="yes"/>
+      <point x="75.8775328591" y="550" type="line" smooth="yes"/>
+      <point x="56.8775328591" y="531"/>
+      <point x="57.8775328591" y="516"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:32:49</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

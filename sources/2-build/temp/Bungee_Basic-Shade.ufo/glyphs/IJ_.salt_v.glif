@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="IJ.salt_v" format="1">
+  <advance width="1450"/>
+  <outline>
+    <component base="I.salt_s_v" xOffset="1" yOffset="409"/>
+    <component base="J.s_v" xOffset="1" yOffset="-351"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 14:01:34</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

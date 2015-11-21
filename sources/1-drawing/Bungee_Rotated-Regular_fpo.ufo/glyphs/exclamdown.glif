@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclamdown" format="1">
+  <advance width="830"/>
+  <unicode hex="00A1"/>
+  <outline>
+    <contour>
+      <point x="55" y="268" type="line"/>
+      <point x="55" y="243"/>
+      <point x="66" y="232"/>
+      <point x="91" y="232" type="curve" smooth="yes"/>
+      <point x="222" y="232" type="line" smooth="yes"/>
+      <point x="248" y="232"/>
+      <point x="258" y="243"/>
+      <point x="258" y="268" type="curve" smooth="yes"/>
+      <point x="258" y="452" type="line" smooth="yes"/>
+      <point x="258" y="477"/>
+      <point x="248" y="488"/>
+      <point x="222" y="488" type="curve" smooth="yes"/>
+      <point x="91" y="488" type="line" smooth="yes"/>
+      <point x="66" y="488"/>
+      <point x="55" y="477"/>
+      <point x="55" y="452" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="317" y="282" type="line"/>
+      <point x="317" y="257"/>
+      <point x="328" y="246"/>
+      <point x="353" y="245" type="curve" smooth="yes"/>
+      <point x="739" y="230" type="line" smooth="yes"/>
+      <point x="764" y="229"/>
+      <point x="775" y="239"/>
+      <point x="775" y="264" type="curve" smooth="yes"/>
+      <point x="775" y="455" type="line" smooth="yes"/>
+      <point x="775" y="480"/>
+      <point x="764" y="490"/>
+      <point x="739" y="489" type="curve" smooth="yes"/>
+      <point x="353" y="475" type="line" smooth="yes"/>
+      <point x="328" y="474"/>
+      <point x="317" y="462"/>
+      <point x="317" y="437" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 17:17:26</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

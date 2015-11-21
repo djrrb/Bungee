@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greaterequal" format="1">
+  <advance width="861.0"/>
+  <unicode hex="2265"/>
+  <outline>
+    <contour>
+      <point x="781.0" y="129.0" type="curve"/>
+      <point x="781.0" y="601.0" type="line" smooth="yes"/>
+      <point x="781.0" y="626.0"/>
+      <point x="771.0" y="637.0"/>
+      <point x="745.0" y="637.0" type="curve" smooth="yes"/>
+      <point x="631.0" y="637.0" type="line" smooth="yes"/>
+      <point x="605.0" y="637.0"/>
+      <point x="595.0" y="626.0"/>
+      <point x="595.0" y="601.0" type="curve" smooth="yes"/>
+      <point x="595.0" y="93.0" type="line"/>
+      <point x="745.0" y="93.0" type="line" smooth="yes"/>
+      <point x="771.0" y="93.0"/>
+      <point x="781.0" y="104.0"/>
+    </contour>
+    <component base="greater" xOffset="-1.42108547152e-14" yOffset="6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:32:49</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -91,7 +91,7 @@
                   <key>x</key>
                   <integer>368</integer>
                   <key>y</key>
-                  <integer>720</integer>
+                  <integer>680</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -121,7 +121,7 @@
                   <key>x</key>
                   <integer>358</integer>
                   <key>y</key>
-                  <integer>720</integer>
+                  <integer>680</integer>
                 </dict>
               </array>
             </dict>
@@ -146,7 +146,7 @@
                   <key>x</key>
                   <integer>368</integer>
                   <key>y</key>
-                  <integer>0</integer>
+                  <integer>40</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -156,7 +156,7 @@
                   <key>x</key>
                   <integer>358</integer>
                   <key>y</key>
-                  <integer>0</integer>
+                  <integer>40</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -1541,6 +1541,11 @@
           <key>width</key>
           <integer>628</integer>
         </dict>
+      </dict>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
       </dict>
     </dict>
   </lib>

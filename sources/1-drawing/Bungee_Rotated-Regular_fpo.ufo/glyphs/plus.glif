@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus" format="1">
+  <advance width="718.0"/>
+  <unicode hex="002B"/>
+  <outline>
+    <contour>
+      <point x="266.0" y="621" type="curve"/>
+      <point x="266.0" y="99" type="line" smooth="yes"/>
+      <point x="266.0" y="74"/>
+      <point x="276.0" y="63"/>
+      <point x="302.0" y="63" type="curve" smooth="yes"/>
+      <point x="416.0" y="63" type="line" smooth="yes"/>
+      <point x="442.0" y="63"/>
+      <point x="452.0" y="74"/>
+      <point x="452.0" y="99" type="curve" smooth="yes"/>
+      <point x="452.0" y="621" type="line" smooth="yes"/>
+      <point x="452.0" y="646"/>
+      <point x="441.0" y="657"/>
+      <point x="416.0" y="657" type="curve" smooth="yes"/>
+      <point x="302.0" y="657" type="line" smooth="yes"/>
+      <point x="276.0" y="657"/>
+      <point x="266.0" y="646"/>
+    </contour>
+    <contour>
+      <point x="620.0" y="458" type="curve"/>
+      <point x="98.0" y="458" type="line" smooth="yes"/>
+      <point x="73.0" y="458"/>
+      <point x="62.0" y="448"/>
+      <point x="62.0" y="422" type="curve" smooth="yes"/>
+      <point x="62.0" y="298" type="line" smooth="yes"/>
+      <point x="62.0" y="272"/>
+      <point x="73.0" y="262"/>
+      <point x="98.0" y="262" type="curve" smooth="yes"/>
+      <point x="620.0" y="262" type="line" smooth="yes"/>
+      <point x="645.0" y="262"/>
+      <point x="656.0" y="273"/>
+      <point x="656.0" y="298" type="curve" smooth="yes"/>
+      <point x="656.0" y="422" type="line" smooth="yes"/>
+      <point x="656.0" y="448"/>
+      <point x="645.0" y="458"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:32:49</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

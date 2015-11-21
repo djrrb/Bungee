@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron.v" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="759" y="392" type="line"/>
+      <point x="829" y="450" type="line" smooth="yes"/>
+      <point x="837" y="458"/>
+      <point x="842" y="469"/>
+      <point x="846" y="486" type="curve" smooth="yes"/>
+      <point x="893" y="682" type="line" smooth="yes"/>
+      <point x="900" y="712"/>
+      <point x="881" y="730"/>
+      <point x="847" y="730" type="curve" smooth="yes"/>
+      <point x="709" y="730" type="line" smooth="yes"/>
+      <point x="695" y="730"/>
+      <point x="686" y="727"/>
+      <point x="679" y="721" type="curve" smooth="yes"/>
+      <point x="550" y="613" type="line" smooth="yes"/>
+      <point x="541" y="605"/>
+      <point x="537" y="594"/>
+      <point x="534" y="576" type="curve" smooth="yes"/>
+      <point x="501" y="381" type="line" smooth="yes"/>
+      <point x="496" y="349"/>
+      <point x="514" y="333"/>
+      <point x="547" y="333" type="curve" smooth="yes"/>
+      <point x="630" y="333" type="line"/>
+      <point x="660" y="390" type="line"/>
+    </contour>
+    <contour>
+      <point x="800" y="452" type="curve" smooth="yes"/>
+      <point x="676" y="452" type="line" smooth="yes"/>
+      <point x="651" y="452"/>
+      <point x="636" y="463"/>
+      <point x="640" y="488" type="curve" smooth="yes"/>
+      <point x="673" y="684" type="line" smooth="yes"/>
+      <point x="677" y="709"/>
+      <point x="684" y="720"/>
+      <point x="709" y="720" type="curve" smooth="yes"/>
+      <point x="847" y="720" type="line" smooth="yes"/>
+      <point x="872" y="720"/>
+      <point x="889" y="708"/>
+      <point x="883" y="684" type="curve" smooth="yes"/>
+      <point x="836" y="488" type="line"/>
+      <point x="830" y="464"/>
+      <point x="825" y="452"/>
+    </contour>
+    <contour>
+      <point x="754" y="537" type="line"/>
+      <point x="772" y="630" type="line"/>
+      <point x="761" y="630" type="line"/>
+      <point x="743" y="537" type="line"/>
+    </contour>
+    <component base="L.v"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>365</integer>
+          <key>y</key>
+          <integer>660</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>55</integer>
+          <key>y</key>
+          <integer>309</integer>
+        </dict>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

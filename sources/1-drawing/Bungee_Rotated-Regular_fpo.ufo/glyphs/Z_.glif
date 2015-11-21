@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z" format="1">
+  <advance width="880"/>
+  <unicode hex="005A"/>
+  <outline>
+    <contour>
+      <point x="800" y="624" type="line" smooth="yes"/>
+      <point x="800" y="649"/>
+      <point x="789" y="660"/>
+      <point x="764" y="660" type="curve" smooth="yes"/>
+      <point x="645" y="660" type="line" smooth="yes"/>
+      <point x="620" y="660"/>
+      <point x="609" y="649"/>
+      <point x="609" y="624" type="curve" smooth="yes"/>
+      <point x="609" y="353" type="line"/>
+      <point x="328" y="627" type="line" smooth="yes"/>
+      <point x="309" y="645"/>
+      <point x="292" y="652"/>
+      <point x="265" y="652" type="curve" smooth="yes"/>
+      <point x="116" y="652" type="line" smooth="yes"/>
+      <point x="91" y="652"/>
+      <point x="80" y="641"/>
+      <point x="80" y="616" type="curve" smooth="yes"/>
+      <point x="80" y="104" type="line" smooth="yes"/>
+      <point x="80" y="79"/>
+      <point x="91" y="68"/>
+      <point x="116" y="68" type="curve"/>
+      <point x="237" y="68" type="line"/>
+      <point x="262" y="68"/>
+      <point x="273" y="79"/>
+      <point x="273" y="104" type="curve" smooth="yes"/>
+      <point x="273" y="370" type="line"/>
+      <point x="568" y="85" type="line" smooth="yes"/>
+      <point x="587" y="67"/>
+      <point x="604" y="60"/>
+      <point x="630" y="60" type="curve"/>
+      <point x="764" y="60" type="line"/>
+      <point x="789" y="60"/>
+      <point x="800" y="71"/>
+      <point x="800" y="96" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 17:43:48</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

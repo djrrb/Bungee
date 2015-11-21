@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lessequal" format="1">
+  <advance width="851.0"/>
+  <unicode hex="2264"/>
+  <outline>
+    <contour>
+      <point x="771.0" y="123" type="curve"/>
+      <point x="771.0" y="595" type="line" smooth="yes"/>
+      <point x="771.0" y="620"/>
+      <point x="761.0" y="631"/>
+      <point x="735.0" y="631" type="curve" smooth="yes"/>
+      <point x="585.0" y="631" type="line"/>
+      <point x="585.0" y="123" type="line" smooth="yes"/>
+      <point x="585.0" y="98"/>
+      <point x="596.0" y="87"/>
+      <point x="621.0" y="87" type="curve" smooth="yes"/>
+      <point x="735.0" y="87" type="line" smooth="yes"/>
+      <point x="761.0" y="87"/>
+      <point x="771.0" y="98"/>
+    </contour>
+    <component base="less"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:32:49</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevetilde" format="1">
+  <advance width="950"/>
+  <outline>
+    <component base="breve"/>
+    <component base="tilde" yOffset="260"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
