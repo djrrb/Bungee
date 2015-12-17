@@ -1,0 +1,221 @@
+# ==================================================
+# OpenType Features for Bungee Regular
+# ==================================================
+
+# CLASSES
+
+@ordn_digits = [zero one two three four five six seven eight nine];
+@figures = [zero one two three four five six seven eight nine];
+
+@salt_basic_off = [A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent M N Ntilde Nacute Ncommaaccent Ncaron W Wcircumflex Wgrave Wacute Wdieresis Y Yacute Ycircumflex Ydieresis Ygrave AE IJ quoteleft quoteright ampersand];
+@salt_basic = [A.salt Agrave.salt Aacute.salt Acircumflex.salt Atilde.salt Adieresis.salt Aring.salt Amacron.salt Abreve.salt Aogonek.salt I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt M.salt N.salt Ntilde.salt Nacute.salt Ncommaaccent.salt Ncaron.salt W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt Y.salt Yacute.salt Ycircumflex.salt Ydieresis.salt Ygrave.salt AE.salt IJ.salt quoteleft.salt quoteright.salt ampersand.salt];
+
+@salt_A = [A.salt Agrave.salt Aacute.salt Acircumflex.salt Atilde.salt Adieresis.salt Aring.salt Amacron.salt Abreve.salt Aogonek.salt AE.salt];
+@salt_A_off = [A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek AE];
+@salt_a_off = [a agrave aacute acircumflex atilde adieresis aring amacron abreve aogonek ae];
+
+@salt_E = [E.salt Egrave.salt Eacute.salt Ecircumflex.salt Edieresis.salt Emacron.salt Ebreve.salt Edotaccent.salt Eogonek.salt Ecaron.salt ];
+@salt_E_off = [E Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron ];
+@salt_e_off = [e egrave eacute ecircumflex edieresis emacron ebreve edotaccent eogonek ecaron ];
+
+@salt_IJ = [IJ.stack];
+@salt_IJ_off = [IJ];
+@salt_ij_off = [ij];
+
+@salt_I = [I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt IJ.salt];
+@salt_I_off = [I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent IJ.stack];
+@salt_i = [I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt];
+@salt_i_off = [i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek];
+
+@salt_M = [M.salt];
+@salt_M_off = [M];
+@salt_m_off = [m];
+
+@salt_N = [N.salt Ntilde.salt Nacute.salt Ncommaaccent.salt Ncaron.salt];
+@salt_N_off = [N Ntilde Nacute Ncommaaccent Ncaron];
+@salt_n_off = [n ntilde nacute ncommaaccent ncaron];
+
+@salt_W = [W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt];
+@salt_W_off = [W Wcircumflex Wgrave Wacute Wdieresis];
+@salt_w_off = [w wcircumflex wgrave wacute wdieresis];
+
+@salt_Y = [Y.salt Yacute.salt Ycircumflex.salt Ydieresis.salt Ygrave.salt];
+@salt_Y_off = [Y Yacute Ycircumflex Ydieresis Ygrave];
+@salt_y_off = [y yacute ycircumflex ydieresis ygrave];
+
+@salt_X = [X.salt];
+@salt_X_off = [X];
+@salt_x_off = [x];
+
+@salt_quote = [quoteleft.salt quoteright.salt];
+@salt_quote_off = [quoteleft quoteright];
+
+@salt_ampersand = [ampersand.salt];
+@salt_ampersand_off = [ampersand];
+
+
+
+@arrows = [arrowleft arrowup arrowright arrowdown arrowupleft arrowupright arrowdownright arrowdownleft];
+@indexes = [uni261A uni261B indexup indexdown indexupleft indexupright indexdownright indexdownleft];
+@indexes_salt = [uni261A.salt uni261B.salt indexup.salt indexdown.salt indexupleft.salt indexupright.salt indexdownright.salt indexdownleft.salt];
+@indexes_outline = [uni261C uni261D uni261E uni261F indexupleft.outline indexupright.outline indexdownright.outline indexdownleft.outline];
+@indexes_salt_outline = [uni261C.salt uni261D.salt uni261E.salt uni261F.salt indexdownright.salt_outline indexupleft.salt_outline indexdownleft.salt_outline indexupright.salt_outline];
+
+@arrows_bent = [uni21B0 uni21B1 uni21B2 uni21B3 uni21AB uni21AA];
+
+@downer_off = [I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent M W Wcircumflex Wgrave Wacute Wdieresis AE OE I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt M.salt W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt AE.salt IJ.salt];
+@downer = [.notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef];
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn ROM;
+languagesystem latn CAT;
+
+feature locl { # Localized Forms
+    script latn; # Latin
+        language ROM; # Romanian
+            lookup lookup_ROM { 
+                sub [Scedilla scedilla] by [Scommaaccent scommaaccent];
+            } lookup_ROM;
+        language CAT; # Catalan
+            sub L' periodcentered L by Ldot;
+            sub l' periodcentered l by ldot;
+} locl;
+
+feature ss19 { # Primes
+    sub [quotesingle quotedbl] by [minute second];
+} ss19;
+
+feature ordn { # Ordinals
+    sub @ordn_digits a' by ordfeminine;
+    sub @ordn_digits o' by ordmasculine;
+} ordn;
+
+feature ss05 { # Round A
+    lookup salt_A {
+        sub @salt_A_off by @salt_A;
+        sub @salt_a_off by @salt_A;
+    } salt_A;
+} ss05;
+
+feature ss06 { # Round M
+    lookup salt_M {
+        sub @salt_M_off by @salt_M;
+        sub @salt_m_off by @salt_M;
+    } salt_M;
+} ss06;
+
+feature ss07 { # Round N
+    lookup salt_N {
+        sub @salt_N_off by @salt_N;
+        sub @salt_n_off by @salt_N;
+    } salt_N;
+} ss07;
+
+feature ss08 { # Round W
+    lookup salt_W {
+        sub @salt_W_off by @salt_W;
+        sub @salt_w_off by @salt_W;
+    } salt_W;
+} ss08;
+
+feature ss09 { # Round X
+    lookup salt_X {
+        sub @salt_X_off by @salt_X;
+        sub @salt_x_off by @salt_X;
+    } salt_X;
+} ss09;
+
+feature ss10 { # Round Y
+    lookup salt_Y {
+        sub @salt_Y_off by @salt_Y;
+        sub @salt_y_off by @salt_Y;
+    } salt_Y;
+} ss10;
+
+feature ss01 { # Round forms
+    lookup salt_A;             #5
+    lookup salt_M;             #6
+    lookup salt_N;             #7 
+    lookup salt_W;             #8
+    lookup salt_X;            #9
+    lookup salt_Y;             #10
+} ss01;
+
+feature ss02 { # Serifless I
+    lookup salt_I {
+        sub @salt_I_off by @salt_I;
+        sub @salt_i_off by @salt_i;
+    } salt_I;
+} ss02;
+
+feature ss03 { # Round E
+    lookup salt_E {
+        sub @salt_E_off by @salt_E;
+        sub @salt_e_off by @salt_E;
+    } salt_E;
+} ss03;
+
+feature ss04 { # Alternate Ampersand
+    lookup salt_ampersand {
+        sub @salt_ampersand_off by @salt_ampersand;
+    } salt_ampersand;
+} ss04;
+
+feature ss11 { # Sequential IJ
+    lookup salt_IJ {
+        sub @salt_IJ_off by @salt_IJ;
+        sub @salt_ij_off by @salt_IJ;
+    } salt_IJ;
+} ss11;
+
+
+feature ss12 { # Small Apostrophe
+    lookup salt_quote {
+        sub @salt_quote_off by @salt_quote;
+    } salt_quote;
+} ss12;
+
+feature ss13 { # Indexes
+    lookup indexes {
+        sub @arrows by @indexes;
+     } indexes;
+} ss13;
+
+feature ss14 { # Alternate Indexes
+    lookup salt_indexes {
+        sub @arrows by @indexes_salt;
+        sub @indexes by @indexes_salt;
+     } salt_indexes;
+} ss14;
+
+feature ss15 { # Outline Indexes
+    lookup salt_indexes_outline {
+        sub @indexes by @indexes_outline;
+        sub @indexes_salt by @indexes_salt_outline;
+     } salt_indexes_outline;
+} ss15;
+
+feature salt { # Stylistic alternates
+    lookup salt_A;             #5
+    lookup salt_M;             #6
+    lookup salt_N;             #7 
+    lookup salt_W;             #8
+    lookup salt_X;            #9
+    lookup salt_Y;             #10
+    lookup salt_I;             #2
+    lookup salt_IJ;             #11
+    lookup salt_E;     #3
+    lookup salt_ampersand;     #4
+    lookup salt_quote;         #12
+    lookup indexes;            #13
+    lookup salt_indexes;        #14
+    lookup salt_indexes_outline;            #15
+} salt;
+
+feature ornm { # Ornaments
+    @ornm = [@arrows @indexes @indexes_salt @indexes_outline @indexes_salt_outline @arrows_bent];
+    sub bullet from @ornm;
+} ornm;
+
+

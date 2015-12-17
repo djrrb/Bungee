@@ -730,6 +730,8 @@
 	<string>Tcaron_.glif</string>
 	<key>Tcaron.v</key>
 	<string>Tcaron_.v.glif</string>
+	<key>Tcedilla</key>
+	<string>Tcedilla_.glif</string>
 	<key>Tcommaaccent</key>
 	<string>Tcommaaccent_.glif</string>
 	<key>Tcommaaccent.v</key>
@@ -1154,6 +1156,8 @@
 	<string>commaaccent.glif</string>
 	<key>commaaccent.v</key>
 	<string>commaaccent.v.glif</string>
+	<key>commaaccentcmb</key>
+	<string>commaaccentcmb.glif</string>
 	<key>commaturnedmod</key>
 	<string>commaturnedmod.glif</string>
 	<key>copyright</key>
@@ -1502,12 +1506,16 @@
 	<string>macron.glif</string>
 	<key>macronbelowcmb</key>
 	<string>macronbelowcmb.glif</string>
+	<key>macroncmb</key>
+	<string>macroncmb.glif</string>
 	<key>mdotbelow</key>
 	<string>mdotbelow.glif</string>
 	<key>minus</key>
 	<string>minus.glif</string>
 	<key>minute</key>
 	<string>minute.glif</string>
+	<key>mu</key>
+	<string>mu.glif</string>
 	<key>mu1</key>
 	<string>mu1.glif</string>
 	<key>multiply</key>
