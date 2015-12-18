@@ -5494,6 +5494,13 @@
 			<real>0.0</real>
 			<real>0.25</real>
 		</array>
+		<key>@MMK_L_Ohorn</key>
+		<array>
+			<real>1.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
 		<key>@MMK_L_P</key>
 		<array>
 			<real>0.0</real>
@@ -5532,6 +5539,13 @@
 		<key>@MMK_L_U</key>
 		<array>
 			<real>1.0</real>
+			<real>0.0</real>
+			<real>1.0</real>
+			<real>0.25</real>
+		</array>
+		<key>@MMK_L_Uhorn</key>
+		<array>
+			<real>0.5</real>
 			<real>0.0</real>
 			<real>1.0</real>
 			<real>0.25</real>
@@ -5683,10 +5697,10 @@
 			<real>0.0</real>
 			<real>0.25</real>
 		</array>
-		<key>@MMK_R_E</key>
+		<key>@MMK_R_Eth</key>
 		<array>
-			<real>0.0</real>
 			<real>1.0</real>
+			<real>0.0</real>
 			<real>1.0</real>
 			<real>0.25</real>
 		</array>

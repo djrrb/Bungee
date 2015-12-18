@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onehalf.alt001" format="1">
+  <advance width="1160.44911913"/>
+  <outline>
+    <component base="onesuperior.alt001"/>
+    <component base="twosuperior.alt001" xOffset="675" yOffset="-202"/>
+    <component base="fraction.alt001" xOffset="420"/>
+  </outline>
+</glyph>

@@ -81,7 +81,7 @@ if __name__ == "__main__":
     src = OpenFont(os.path.join(sourcesPath, '1-drawing/Bungee-Regular.ufo'), showUI=False)
 
     f = src.copy()
-    path = os.path.join(sourcesPath, '2-build/Bungee_Vertical-Regular.ufo')
+    path = os.path.join(sourcesPath, '1-drawing/Bungee_Rotated-Regular.ufo')
     f.save(path)
     f.info.familyName = 'Bungee Vertical'
     

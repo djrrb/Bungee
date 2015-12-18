@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Wdieresis.alt000" format="1">
+  <advance width="831"/>
+  <outline>
+    <component base="W.alt000"/>
+    <component base="dieresis.alt000" xOffset="165"/>
+  </outline>
+</glyph>

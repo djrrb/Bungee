@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ydieresis.salt_v.alt001" format="1">
+  <advance width="1000"/>
+  <outline>
+    <component base="dieresis.alt001" xOffset="250" yOffset="-40"/>
+    <component base="Y.salt_s_v.alt001"/>
+  </outline>
+</glyph>

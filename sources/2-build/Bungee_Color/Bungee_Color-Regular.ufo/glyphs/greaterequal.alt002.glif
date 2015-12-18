@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greaterequal.alt002" format="1">
+  <advance width="714"/>
+  <outline>
+    <contour>
+      <point x="180" y="100" type="line"/>
+      <point x="538" y="100" type="line"/>
+      <point x="538" y="90" type="line"/>
+      <point x="180" y="90" type="line"/>
+    </contour>
+    <component base="greater.alt002" yOffset="70"/>
+  </outline>
+</glyph>

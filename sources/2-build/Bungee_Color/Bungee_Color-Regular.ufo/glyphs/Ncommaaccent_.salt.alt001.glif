@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncommaaccent.salt.alt001" format="1">
+  <advance width="746"/>
+  <outline>
+    <component base="N.salt.alt001"/>
+    <component base="commaaccent.alt001" xOffset="123"/>
+  </outline>
+</glyph>

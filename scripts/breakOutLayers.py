@@ -67,6 +67,7 @@ if __name__ == "__main__":
                 'source': src2,
                 'layers': ['foreground'],
                 'tracking': 0,
+                'features': 'vertical',
             },     
             {
                 'familyName': rotateName,
@@ -74,6 +75,7 @@ if __name__ == "__main__":
                 'source': src2,
                 'layers': ['inline'],
                 'tracking': 0,
+                'features': 'vertical',
             },     
             {
                 'familyName': rotateName,
@@ -81,6 +83,7 @@ if __name__ == "__main__":
                 'source': src2,
                 'layers': ['outline'],
                 'tracking': 0,
+                'features': 'vertical',
             },
             {
                 'familyName': rotateName,
@@ -88,6 +91,7 @@ if __name__ == "__main__":
                 'source': src2,
                 'layers': ['shade'],
                 'tracking': 0,
+                'features': 'vertical',
             },    
             
         ]
@@ -138,7 +142,10 @@ if __name__ == "__main__":
         # change the font info
         f.info.familyName = familyName
         f.info.styleName = styleName
-        f.features.text = 'include(../../1-drawing/features_vertical.fea);'
+        if styleMap.get('features') == 'vertical':
+            f.features.text = 'include(../../1-drawing/features_vertical.fea);'
+        else:
+            f.features.text = 'include(../../1-drawing/features.fea);'
 
         # get rid of excess layers
         for l in f.layerOrder:

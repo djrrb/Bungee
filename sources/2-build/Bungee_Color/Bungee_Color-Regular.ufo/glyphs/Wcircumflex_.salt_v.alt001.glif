@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Wcircumflex.salt_v.alt001" format="1">
+  <advance width="1000"/>
+  <outline>
+    <component base="W.salt_s_v.alt001"/>
+    <component base="circumflex.alt001" xOffset="250" yOffset="-40"/>
+  </outline>
+</glyph>

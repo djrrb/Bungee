@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackdownpointingtriangle.alt001" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="250" y="591" type="line"/>
+      <point x="228" y="591"/>
+      <point x="216" y="560"/>
+      <point x="230" y="538" type="curve" smooth="yes"/>
+      <point x="454" y="171" type="line" smooth="yes"/>
+      <point x="466" y="152"/>
+      <point x="479" y="140"/>
+      <point x="500" y="140" type="curve"/>
+      <point x="522" y="140"/>
+      <point x="535" y="152"/>
+      <point x="547" y="171" type="curve" smooth="yes"/>
+      <point x="771" y="538" type="line" smooth="yes"/>
+      <point x="785" y="560"/>
+      <point x="774" y="591"/>
+      <point x="751" y="591" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
