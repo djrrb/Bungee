@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Tcaron" format="1">
-  <advance width="1029.96392173"/>
+  <advance width="656"/>
   <unicode hex="0164"/>
   <outline>
-    <component base="T.s" xOffset="215.0"/>
-    <component base="caron"/>
+    <component base="T"/>
+    <component base="caron" xOffset="78"/>
   </outline>
   <lib>
     <dict>
-      <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 18:10:20</string>
-      <key>com.fontbureau.modifiedBy</key>
-      <string>DJR</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
       </array>
     </dict>
   </lib>

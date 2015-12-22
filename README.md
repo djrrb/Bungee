@@ -16,11 +16,11 @@ The basic *Bungee* family includes Regular and Hairline weights, as well as thre
 
 *Bungee Layers* contains each layer in a separate font, which all share the same metrics. These fonts can be used in combination to create chromatic text by using layered textboxes in a website or advanced design app.
 
-*Bungee Layers Rotated* implements Bungee’s vertical forms by default, with all characters rotated 90° counterclockwise. These fonts can be set in a textbox rotated 90° clockwise to simulate vertical type.
+*Bungee Layers Rotated* implements Bungee’s vertical forms by default, with all characters rotated 90° counterclockwise. These fonts can be set in a textbox rotated 90° clockwise to simulate vertical type, and have a limited character set.
 
-*Bungee Color* contains experiments with the various color font formats out there, including SVG, COLR/CPAL and sbix. None of these formats are widely supported (yet!), so your milage may vary. These fonts are built with <a href="https://github.com/fontfont/RoboChrome">Robochrome</a>.
+*Bungee Color* contains experiments with the various color font formats out there, including SVG, COLR/CPAL and sbix. None of these formats are widely supported (yet!), so your milage may vary. These fonts are built with Jens Kutilek’s <a href="https://github.com/fontfont/RoboChrome">RoboChrome</a>.
 
-In all fonts besides *Bungee Layers Rotated*, Bungee’s vertical forms are accessed via the *vert* and *vpal* OpenType features. These features are activated by vertical typesetting tools in design apps, or in CSS using *--prefix-writing-mode: vertical-rl*.
+In all fonts besides *Bungee Layers Rotated*, Bungee’s vertical forms are accessed via the *vert* and *vpal* OpenType features. These features are activated by vertical typesetting tools in design apps, or in CSS using *-prefix-writing-mode: vertical-rl*.
 
 Bungee was designed in <a href="http://www.robofont.com">RoboFont</a> and its drawing and build sources are available in <a href="http://www.unifiedfontobject.org">UFO format</a>.
 

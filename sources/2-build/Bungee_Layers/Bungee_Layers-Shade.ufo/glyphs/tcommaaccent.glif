@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcommaaccent" format="1">
-  <advance width="1001.0"/>
+  <advance width="656"/>
   <unicode hex="0163"/>
   <unicode hex="021B"/>
   <outline>
@@ -8,10 +8,6 @@
   </outline>
   <lib>
     <dict>
-      <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 18:10:20</string>
-      <key>com.fontbureau.modifiedBy</key>
-      <string>DJR</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.5</real>

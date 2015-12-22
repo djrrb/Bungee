@@ -1,8 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="numbersign" format="1">
-  <advance width="880"/>
+  <advance width="750"/>
   <unicode hex="0023"/>
   <outline>
+    <contour>
+      <point x="137.0" y="-110" type="curve" smooth="yes"/>
+      <point x="255.0" y="-11" type="line"/>
+      <point x="246.0" y="-72" type="line" smooth="yes"/>
+      <point x="242.0" y="-104"/>
+      <point x="259.0" y="-119"/>
+      <point x="292.0" y="-119" type="curve" smooth="yes"/>
+      <point x="397.0" y="-119" type="line" smooth="yes"/>
+      <point x="411.0" y="-119"/>
+      <point x="419.0" y="-115"/>
+      <point x="427.0" y="-110" type="curve" smooth="yes"/>
+      <point x="556.0" y="-1" type="line"/>
+      <point x="564.0" y="5"/>
+      <point x="569.0" y="17"/>
+      <point x="572.0" y="35" type="curve" smooth="yes"/>
+      <point x="574.0" y="49" type="line"/>
+      <point x="675.0" y="134" type="line" smooth="yes"/>
+      <point x="684.0" y="142"/>
+      <point x="689.0" y="153"/>
+      <point x="689.0" y="171" type="curve" smooth="yes"/>
+      <point x="689.0" y="278" type="line" smooth="yes"/>
+      <point x="689.0" y="311"/>
+      <point x="675.0" y="324"/>
+      <point x="643.0" y="324" type="curve" smooth="yes"/>
+      <point x="614.0" y="324" type="line"/>
+      <point x="614.0" y="329" type="line"/>
+      <point x="711.0" y="410" type="line" smooth="yes"/>
+      <point x="720.0" y="418"/>
+      <point x="725.0" y="429"/>
+      <point x="725.0" y="447" type="curve" smooth="yes"/>
+      <point x="725.0" y="554" type="line" smooth="yes"/>
+      <point x="725.0" y="587"/>
+      <point x="711.0" y="600"/>
+      <point x="679.0" y="600" type="curve" smooth="yes"/>
+      <point x="653.0" y="600" type="line"/>
+      <point x="665.0" y="683" type="line" smooth="yes"/>
+      <point x="669.0" y="715"/>
+      <point x="652.0" y="730"/>
+      <point x="619.0" y="730" type="curve" smooth="yes"/>
+      <point x="514.0" y="730" type="line" smooth="yes"/>
+      <point x="500.0" y="730"/>
+      <point x="490.0" y="727"/>
+      <point x="483.0" y="721" type="curve"/>
+      <point x="366.0" y="623" type="line"/>
+      <point x="375.0" y="683" type="line" smooth="yes"/>
+      <point x="379.0" y="715"/>
+      <point x="362.0" y="730"/>
+      <point x="329.0" y="730" type="curve" smooth="yes"/>
+      <point x="224.0" y="730" type="line" smooth="yes"/>
+      <point x="210.0" y="730"/>
+      <point x="200.0" y="727"/>
+      <point x="193.0" y="721" type="curve"/>
+      <point x="64.0" y="613" type="line" smooth="yes"/>
+      <point x="55.0" y="605"/>
+      <point x="50.0" y="593"/>
+      <point x="49.0" y="576" type="curve"/>
+      <point x="48.0" y="567" type="line"/>
+      <point x="-54.0" y="482" type="line" smooth="yes"/>
+      <point x="-63.0" y="474"/>
+      <point x="-68.0" y="463"/>
+      <point x="-68.0" y="445" type="curve" smooth="yes"/>
+      <point x="-68.0" y="338" type="line" smooth="yes"/>
+      <point x="-68.0" y="305"/>
+      <point x="-54.0" y="292"/>
+      <point x="-22.0" y="292" type="curve" smooth="yes"/>
+      <point x="8.0" y="292" type="line"/>
+      <point x="8.0" y="288" type="line"/>
+      <point x="-90.0" y="206" type="line" smooth="yes"/>
+      <point x="-99.0" y="198"/>
+      <point x="-104.0" y="187"/>
+      <point x="-104.0" y="169" type="curve" smooth="yes"/>
+      <point x="-104.0" y="62" type="line" smooth="yes"/>
+      <point x="-104.0" y="29"/>
+      <point x="-90.0" y="16"/>
+      <point x="-58.0" y="16" type="curve" smooth="yes"/>
+      <point x="-32.0" y="16" type="line"/>
+      <point x="-44.0" y="-72" type="line" smooth="yes"/>
+      <point x="-48.0" y="-104"/>
+      <point x="-31.0" y="-119"/>
+      <point x="2.0" y="-119" type="curve" smooth="yes"/>
+      <point x="107.0" y="-119" type="line" smooth="yes"/>
+      <point x="121.0" y="-119"/>
+      <point x="129.0" y="-115"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -10,13 +94,6 @@
       <string>2011-07-29 09:12:13</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

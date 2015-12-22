@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Y.salt" format="1">
-  <advance width="841"/>
+  <advance width="706"/>
   <outline>
+    <contour>
+      <point x="305.0" y="-119" type="line" smooth="yes"/>
+      <point x="319.0" y="-119"/>
+      <point x="330.0" y="-115"/>
+      <point x="336.0" y="-109" type="curve"/>
+      <point x="466.0" y="-1" type="line" smooth="yes"/>
+      <point x="475.0" y="7"/>
+      <point x="480.0" y="18"/>
+      <point x="480.0" y="36" type="curve" smooth="yes"/>
+      <point x="480.0" y="143" type="line"/>
+      <point x="609.0" y="250" type="line" smooth="yes"/>
+      <point x="654.0" y="288"/>
+      <point x="669.0" y="340"/>
+      <point x="669.0" y="402" type="curve" smooth="yes"/>
+      <point x="669.0" y="683" type="line" smooth="yes"/>
+      <point x="669.0" y="715"/>
+      <point x="655.0" y="729"/>
+      <point x="623.0" y="729" type="curve" smooth="yes"/>
+      <point x="469.0" y="729" type="line" smooth="yes"/>
+      <point x="455.0" y="729"/>
+      <point x="444.0" y="726"/>
+      <point x="437.0" y="720" type="curve" smooth="yes"/>
+      <point x="308.0" y="611" type="line" smooth="yes"/>
+      <point x="299.0" y="603"/>
+      <point x="294.0" y="592"/>
+      <point x="294.0" y="574" type="curve" smooth="yes"/>
+      <point x="294.0" y="418" type="line"/>
+      <point x="286.0" y="424"/>
+      <point x="284.0" y="433"/>
+      <point x="284.0" y="443" type="curve" smooth="yes"/>
+      <point x="284.0" y="683" type="line" smooth="yes"/>
+      <point x="284.0" y="715"/>
+      <point x="270.0" y="729"/>
+      <point x="238.0" y="729" type="curve" smooth="yes"/>
+      <point x="83.0" y="729" type="line" smooth="yes"/>
+      <point x="69.0" y="729"/>
+      <point x="58.0" y="726"/>
+      <point x="51.0" y="720" type="curve" smooth="yes"/>
+      <point x="-78.0" y="611" type="line" smooth="yes"/>
+      <point x="-87.0" y="603"/>
+      <point x="-92.0" y="592"/>
+      <point x="-92.0" y="574" type="curve" smooth="yes"/>
+      <point x="-92.0" y="293" type="line" smooth="yes"/>
+      <point x="-92.0" y="191"/>
+      <point x="-53.0" y="115"/>
+      <point x="97.0" y="89" type="curve"/>
+      <point x="97.0" y="-73" type="line" smooth="yes"/>
+      <point x="97.0" y="-105"/>
+      <point x="111.0" y="-119"/>
+      <point x="143.0" y="-119" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="353.0" y="747.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="353.0" y="0.0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -9,13 +66,6 @@
       <string>2011-08-16 00:44:32</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
       <key>org.robofab.postScriptHintData</key>
       <dict>
       </dict>

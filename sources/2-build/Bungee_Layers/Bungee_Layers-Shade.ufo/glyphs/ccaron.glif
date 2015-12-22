@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccaron" format="1">
-  <advance width="1038.96392173"/>
+  <advance width="628"/>
   <unicode hex="010D"/>
   <outline>
     <component base="Ccaron"/>
@@ -8,7 +8,7 @@
   <lib>
     <dict>
       <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 18:10:20</string>
+      <string>2011-07-29 07:06:23</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>com.typemytype.robofont.mark</key>

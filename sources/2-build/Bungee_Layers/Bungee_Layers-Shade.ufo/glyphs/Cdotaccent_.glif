@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Cdotaccent" format="1">
-  <advance width="1013.0"/>
+  <advance width="628"/>
   <unicode hex="010A"/>
   <outline>
-    <component base="C.s" xOffset="189"/>
-    <component base="dotaccent"/>
+    <component base="C"/>
+    <component base="dotaccent" xOffset="105"/>
   </outline>
   <lib>
     <dict>
       <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 18:10:20</string>
+      <string>2011-07-29 07:06:23</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
       </array>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
     </dict>
   </lib>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Edieresis.salt_v" format="1">
-  <advance width="1043"/>
+  <advance width="1000"/>
   <outline>
-    <component base="E.salt_s_v" xOffset="219"/>
-    <component base="dieresis"/>
+    <component base="E.salt_s_v"/>
+    <component base="dieresis" xOffset="250" yOffset="-40"/>
   </outline>
   <lib>
     <dict>

@@ -1,54 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="plusminus" format="1">
-  <advance width="886.0"/>
+  <advance width="734"/>
   <unicode hex="00B1"/>
   <outline>
-    <component base="plus" yOffset="-1"/>
-    <component base="minus" xOffset="541.0" yOffset="-1"/>
+    <component base="plus" yOffset="62"/>
+    <component base="minus" yOffset="-266"/>
   </outline>
   <lib>
     <dict>
       <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 18:32:49</string>
+      <string>2011-07-29 09:35:27</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <real>90.0</real>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>143</integer>
-          <key>y</key>
-          <integer>403</integer>
-        </dict>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <integer>494</integer>
-          <key>y</key>
-          <integer>719</integer>
-        </dict>
-      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
       </array>
     </dict>
   </lib>

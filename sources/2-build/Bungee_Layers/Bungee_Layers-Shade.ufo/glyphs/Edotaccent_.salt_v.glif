@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Edotaccent.salt_v" format="1">
-  <advance width="1014"/>
+  <advance width="1000"/>
   <outline>
-    <component base="dotaccent"/>
-    <component base="E.salt_s_v" xOffset="190"/>
+    <component base="dotaccent" xOffset="250" yOffset="-40"/>
+    <component base="E.salt_s_v"/>
   </outline>
   <lib>
     <dict>

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="egrave" format="1">
-  <advance width="1048.0"/>
+  <advance width="654"/>
   <unicode hex="00E8"/>
   <outline>
     <component base="Egrave"/>
   </outline>
   <lib>
     <dict>
-      <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 18:10:20</string>
-      <key>com.fontbureau.modifiedBy</key>
-      <string>DJR</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.5</real>

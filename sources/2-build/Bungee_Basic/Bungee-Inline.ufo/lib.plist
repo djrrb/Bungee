@@ -4223,42 +4223,10 @@
 			<integer>785</integer>
 		</dict>
 	</array>
-	<key>com.typemytype.robofont.inline.layerShowCoordinates</key>
-	<false/>
-	<key>com.typemytype.robofont.inline.layerShowFill</key>
-	<true/>
-	<key>com.typemytype.robofont.inline.layerShowPoints</key>
-	<false/>
-	<key>com.typemytype.robofont.inline.layerShowStroke</key>
-	<true/>
-	<key>com.typemytype.robofont.inline.layerStrokeColor</key>
-	<array>
-		<real>0.8387</real>
-		<real>0.8775</real>
-		<real>0.5108</real>
-		<real>1.0</real>
-	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
-		<string>inline</string>
-		<string>outline</string>
-	</array>
-	<key>com.typemytype.robofont.outline.layerShowCoordinates</key>
-	<false/>
-	<key>com.typemytype.robofont.outline.layerShowFill</key>
-	<true/>
-	<key>com.typemytype.robofont.outline.layerShowPoints</key>
-	<false/>
-	<key>com.typemytype.robofont.outline.layerShowStroke</key>
-	<true/>
-	<key>com.typemytype.robofont.outline.layerStrokeColor</key>
-	<array>
-		<real>0.5959</real>
-		<real>0.2368</real>
-		<real>0.7948</real>
-		<real>0.7</real>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>

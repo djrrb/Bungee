@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eogonek.salt_v" format="1">
-  <advance width="955.0"/>
+  <advance width="1000"/>
   <outline>
-    <component base="E.salt_s_v"/>
-    <component base="ogonek" xOffset="668" yOffset="162"/>
+    <component base="E.salt_s_v" yOffset="40"/>
+    <component base="ogonek" xOffset="412" yOffset="40"/>
   </outline>
   <lib>
     <dict>

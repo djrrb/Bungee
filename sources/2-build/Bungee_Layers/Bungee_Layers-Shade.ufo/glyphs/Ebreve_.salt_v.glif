@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ebreve.salt_v" format="1">
-  <advance width="1038"/>
+  <advance width="1000"/>
   <outline>
-    <component base="E.salt_s_v" xOffset="214"/>
-    <component base="breve"/>
+    <component base="E.salt_s_v"/>
+    <component base="breve" xOffset="250" yOffset="-40"/>
   </outline>
   <lib>
     <dict>

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rcaron" format="1">
-  <advance width="1033.96392173"/>
+  <advance width="743"/>
   <unicode hex="0159"/>
   <outline>
     <component base="Rcaron"/>
   </outline>
   <lib>
     <dict>
-      <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 18:10:20</string>
-      <key>com.fontbureau.modifiedBy</key>
-      <string>DJR</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.5</real>

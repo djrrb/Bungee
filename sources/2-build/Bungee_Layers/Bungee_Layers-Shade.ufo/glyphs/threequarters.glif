@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="threequarters" format="1">
-  <advance width="1632.0"/>
+  <advance width="1213"/>
   <unicode hex="00BE"/>
   <outline>
-    <component base="three.sups" xOffset="50"/>
-    <component base="fraction" xOffset="648.0"/>
-    <component base="four.sups" xOffset="925"/>
+    <component base="threesuperior"/>
+    <component base="foursuperior" xOffset="705" yOffset="-202"/>
+    <component base="fraction" xOffset="430"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.fontbureau.dateModified</key>
-      <string>2011-07-30 07:58:59</string>
-      <key>com.fontbureau.modifiedBy</key>
-      <string>DJR</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

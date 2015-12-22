@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wcircumflex" format="1">
-  <advance width="1028.96392173"/>
+  <advance width="831"/>
   <unicode hex="0174"/>
   <outline>
-    <component base="W.s" xOffset="215.0"/>
-    <component base="circumflex"/>
+    <component base="W"/>
+    <component base="circumflex" xOffset="165"/>
   </outline>
   <lib>
     <dict>
-      <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 17:08:43</string>
-      <key>com.fontbureau.modifiedBy</key>
-      <string>DJR</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
       </array>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
     </dict>
   </lib>
 </glyph>

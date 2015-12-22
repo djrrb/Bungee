@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="approxequal" format="1">
-  <advance width="649.839328906"/>
+  <advance width="734"/>
   <unicode hex="2248"/>
   <outline>
-    <component base="asciitilde" xOffset="293.0"/>
-    <component base="asciitilde" xOffset="-6.0"/>
+    <component base="asciitilde" yOffset="145"/>
+    <component base="asciitilde" yOffset="-145"/>
   </outline>
   <lib>
     <dict>
       <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 18:32:49</string>
+      <string>2011-07-29 10:24:02</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
       </array>
-      <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
     </dict>
   </lib>
 </glyph>

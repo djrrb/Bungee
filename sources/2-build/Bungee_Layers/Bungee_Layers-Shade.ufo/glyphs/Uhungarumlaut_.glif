@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uhungarumlaut" format="1">
-  <advance width="1116.0"/>
+  <advance width="746"/>
   <unicode hex="0170"/>
   <outline>
-    <component base="U.s" xOffset="297.0"/>
-    <component base="hungarumlaut"/>
+    <component base="U"/>
+    <component base="hungarumlaut" xOffset="162"/>
   </outline>
   <lib>
     <dict>
       <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 18:10:20</string>
+      <string>2011-07-29 07:17:26</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>com.typemytype.robofont.mark</key>
       <array>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
-        <integer>1</integer>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
       </array>
     </dict>
   </lib>

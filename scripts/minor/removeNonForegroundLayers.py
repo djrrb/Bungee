@@ -1,0 +1,7 @@
+for path in [u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Basic/Bungee-Hairline.ufo", u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Basic/Bungee-Inline.ufo", u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Basic/Bungee-Outline.ufo", u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Basic/Bungee-Shade.ufo", u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Layers/Bungee_Layers-Inline.ufo", u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Layers/Bungee_Layers-Outline.ufo", u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Layers/Bungee_Layers-Regular.ufo", u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Layers/Bungee_Layers-Shade.ufo"]+[u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Layers_Rotated/Bungee_Layers_Rotated-Inline.ufo", u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Layers_Rotated/Bungee_Layers_Rotated-Outline.ufo", u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Layers_Rotated/Bungee_Layers_Rotated-Regular.ufo", u"/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/Bungee_Layers_Rotated/Bungee_Layers_Rotated-Shade.ufo"]:
+    f = OpenFont(path, showUI=False)
+    for layerName in f.layerOrder:
+        f.removeLayer(layerName)
+    print f.layerOrder
+    f.save()
+    f.close()

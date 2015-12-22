@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncommaaccent.salt_v" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="261.0" y="1" type="line" smooth="yes"/>
+      <point x="275.0" y="1"/>
+      <point x="286.0" y="5"/>
+      <point x="292.0" y="11" type="curve"/>
+      <point x="420.0" y="119" type="line" smooth="yes"/>
+      <point x="426.0" y="124"/>
+      <point x="430.0" y="130"/>
+      <point x="432.0" y="138" type="curve"/>
+      <point x="432.0" y="47" type="line" smooth="yes"/>
+      <point x="432.0" y="15"/>
+      <point x="446.0" y="1"/>
+      <point x="478.0" y="1" type="curve" smooth="yes"/>
+      <point x="635.0" y="1" type="line" smooth="yes"/>
+      <point x="649.0" y="1"/>
+      <point x="660.0" y="5"/>
+      <point x="666.0" y="11" type="curve"/>
+      <point x="796.0" y="119" type="line" smooth="yes"/>
+      <point x="805.0" y="127"/>
+      <point x="810.0" y="138"/>
+      <point x="810.0" y="156" type="curve" smooth="yes"/>
+      <point x="810.0" y="521" type="line" smooth="yes"/>
+      <point x="810.0" y="647"/>
+      <point x="760.0" y="735"/>
+      <point x="500.0" y="735" type="curve" smooth="yes"/>
+      <point x="370.0" y="735"/>
+      <point x="294.0" y="713"/>
+      <point x="249.0" y="675" type="curve" smooth="yes"/>
+      <point x="120.0" y="567" type="line" smooth="yes"/>
+      <point x="74.0" y="529"/>
+      <point x="61.0" y="476"/>
+      <point x="61.0" y="412" type="curve" smooth="yes"/>
+      <point x="61.0" y="47" type="line" smooth="yes"/>
+      <point x="61.0" y="15"/>
+      <point x="75.0" y="1"/>
+      <point x="107.0" y="1" type="curve" smooth="yes"/>
+    </contour>
+    <component base="commaaccent.v" yOffset="140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>742</integer>
+          <key>y</key>
+          <integer>355</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <integer>0</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string></string>
+          <key>x</key>
+          <integer>441</integer>
+          <key>y</key>
+          <integer>120</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

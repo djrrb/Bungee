@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IJ.salt" format="1">
-  <advance width="1567.0"/>
+  <advance width="1033.0"/>
   <outline>
-    <component base="I.salt_s"/>
-    <component base="J.s" xOffset="760"/>
+    <component base="I.salt"/>
+    <component base="J" xOffset="345"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 06:51:50</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
 </glyph>
