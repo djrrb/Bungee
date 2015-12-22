@@ -4143,6 +4143,13 @@
 	<false/>
 	<key>com.fontfont.colorfont.write_svg</key>
 	<true/>
+	<key>com.typemytype.robofont.background.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>0.8</real>
+		<real>0.2</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
@@ -4223,13 +4230,46 @@
 			<integer>785</integer>
 		</dict>
 	</array>
+	<key>com.typemytype.robofont.inline.layerStrokeColor</key>
+	<array>
+		<real>1.0</real>
+		<real>0.0</real>
+		<real>0.0</real>
+		<real>0.7</real>
+	</array>
+	<key>com.typemytype.robofont.inlineContour.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.25</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
+		<string>inline</string>
+		<string>shade</string>
+		<string>background</string>
+		<string>inlineContour</string>
+		<string>outline</string>
+	</array>
+	<key>com.typemytype.robofont.outline.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>1.0</real>
+		<real>0.7</real>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>
+	<key>com.typemytype.robofont.shade.layerStrokeColor</key>
+	<array>
+		<real>1.0</real>
+		<real>0.75</real>
+		<real>0.0</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.shadow.layerStrokeColor</key>
 	<array>
 		<real>0.0</real>

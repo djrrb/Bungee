@@ -1,4 +1,4 @@
-# Bungee Design Guide
+# Bungee design guide
 
 This document demonstrates how to use some of Bungee's more interesting features, such as its chromatic layers, vertical forms, and stylistic alternates.
 
@@ -22,42 +22,29 @@ The basic *Bungee* family includes Regular and Hairline weights, as well as thre
 
 No design apps have native support for chromatic layers.
 
-1. In one text box, set a line of matching text for each layer.
+1. In one text box, set a line of matching text for each layer. Using the *Bungee Layers* font, style each line, starting with the backmost layer (Shade) and ending with the frontmost (Inline).
 
-[]
+2. Add colors to each line.
 
-2. Using the *Bungee Layers* font, style each line, starting with the backmost layer (Shade) and ending with the frontmost (Inline).
-
-[]
-
-3. Add colors to each line.
-
-[]
-
-4. When you are finished, select all of the text, and set the leading/linespacing to 0.
-
-[]
+3. When you are finished, select all of the text, and set the leading/linespacing to 0.
 
 4. To edit the text, do a find and replace, or increase the leading.
 
-[]
-
 Instead of zeroing out the leading, you can also set each layer in a separate text block, and manage their arrangement in the z axis.
 
-[]
 
 ### On the web
 
 Bungee.js has a bit of javascript that will duplicate text in overlaid <div>s, giving the appearance of layered text without cluttering your markup.
 
-<script type="text/javascript" src="bungee.js">
-<div id="bungee">Layered text!</div>
+	<script type="text/javascript" src="bungee.js">
+	<div id="bungee">Layered text!</div>
 
 Warning: This solution requires loading multiple fonts, which will increase bandwidth usage and download times. 
 
 When only single letters or small bits of text are required, an alternative approach is to use a SVG with alternate text.
 
-<img src="images/layeredText.svg" alt="Layered text" />
+	<img src="images/layeredText.svg" alt="Layered text" />
 
 ### Color font formats
 
@@ -76,19 +63,13 @@ Bungee’s vertical features are implemented via three OpenType features:
 
 Replace default horizontal forms with glyphs drawn for vertical setting. These glyphs are monowidth in appearance, and their widths are adjusted to foster better vertical alignment. The hyphen and other basic punctuation are rotated 90°.
 
-[]
-
 * *vpal*: Vertical Positioning and Layout.
 
 Reset the vertical sidebearings and advance heights for the glyphs. This feature enables Bungee to have proportional vertical spacing, with shorter glyphs occupying less vertical space than taller ones.
 
-[]
-
 * *vkrn*: Vertical Kerning.
 
 Adjust the vertical spacing of individual glyph pairs so that they are more evenly spaced.
-
-[]
 
 ### Apps that support vertical text 
 
@@ -108,15 +89,9 @@ These fonts have Bungee’s vertical forms, spacing, and kerning baked in to the
 
 1. Set the text. 
 
-[Image from InDesign]
-
 2. Change the font to *Bungee Layers Rotated*.
 
-[Image from InDesign]
-
 3. Rotate the text block 90° counterclockwise. 
-
-[Image from InDesign]
 
 Voilà! Pseudo-vertical text.
 
@@ -128,19 +103,49 @@ Apps that do not support vertical text include:
 * Adobe InDesign
 
 
-### On the web
+### On the web with vertical text
 
-The proper way to implement vertical text is via the CSS **writing-mode** selector.
+The proper way to implement vertical text is via the CSS **writing-mode** and **text-orientation** selector, as well as implementing. This will work in recent versions of IE, Firefox, and Chrome.
 
-<style type="text/css">
-	.vertical {
-			writing-mode: vertical-rl;
+	<style type="text/css">
+		.vertical {
+			/* change writing mode to vertical */
+			-ms-writing-mode: tb-rl;
 			-webkit-writing-mode: vertical-rl;
 			-moz-writing-mode: vertical-rl;
-</style>
+			-ms-writing-mode: vertical-rl;
+			writing-mode: vertical-rl;
+			/* use upright orientation */
+			-webkit-text-orientation: upright;
+			-moz-text-orientation: upright;
+			-ms-text-orientation: upright;
+			text-orientation: upright;
+			/* implement spacing and kerning */
+			-moz-font-feature-settings: "vkrn", "vpal";
+			-webkit-font-feature-settings: "vkrn", "vpal";
+			font-feature-settings: "vkrn", "vpal";
+	</style>
 
-<div class="vertical">Vertical Text!</div>
+	<div class="vertical">Bungee</div>
+	
+Learn more about vertical writing modes at http://generatedcontent.org/post/45384206019/writing-modes.
+	
+### On the web with rotated text
+	
+Alternatively, *Bungee Layers Rotated* fonts and a rotated div to simulate the effect.
 
+		.rotated {
+			font-family: "BungeeLayersRotated";
+			display: inline-block;
+			margin-top: 2em;
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			transform: rotate(90deg);
+		}
+		
+		<div class="rotated">Bungee</div>
 
 ## Stylistic alternates
 
@@ -184,9 +189,6 @@ Signpainter John Downer recommends against vertical type that includes problemat
 * Stylistic Set 20: Vertical forms.
 
 Activate Bungee’s vertical forms (identical to the *vert* feature). These forms are better accessed through the vertical text features described above, but this stylistic set can be handy when such tools are not available, or when monowidth letters are required in a non-vertical setting.
-
-[Image of vertical forms used in horizontal cameo letters]
-
 
 ## Other OpenType features
 

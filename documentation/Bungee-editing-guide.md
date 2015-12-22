@@ -1,4 +1,4 @@
-# Bungee Editing Guide
+# Bungee editing guide
 
 This document describes Bungee's development process source structure, in case it is helpful to those attempting to expand or  edit the fonts.
 
@@ -25,7 +25,7 @@ This is the source that I used to determine the proper sidebearings and kerning 
 
 This source is derived from Bungee-Regular.ufo, but has enough unique information that it’s worth storing separately. 
 
-It contains the vertical forms in the default slots, and the extent of the character set is limited. Each glyph is rotated 90° clockwise, which is handled by */scripts/bungeeRotate.py*.
+It contains the vertical forms in the default slots, and the extent of the character set is limited. Each glyph is rotated 90° clockwise, which is handled by */scripts/dev/bungeeRotate.py*.
 
 * features.fea
 
@@ -43,7 +43,7 @@ This feature file omits vertical features and vertical alternates. It can be inc
 
 * 2-build/Bungee_Basic
 
-These build sources are derived from the drawing sources using */scripts/breakOutLayers.py*.
+These build sources are derived from the drawing sources using */scripts/dev/breakOutLayers.py*.
 
 Because these fonts contain interactions between multiple layers, it was necessary to go through each glyph and make manual adjustments, especially where components resulted in the overlapping of contours.
 
@@ -51,11 +51,11 @@ Bungee-Shade.ufo is tracked 150 units.
 
 * 2-build/Bungee_Layers/, Bungee_Layers_Rotated/
 
-These build sources are also derived from the drawing sources using */scripts/breakOutLayers.py*. Few adjustments are needed.
+These build sources are also derived from the drawing sources using */scripts/dev/breakOutLayers.py*. Few adjustments are needed.
 
 * 2-build/Bungee_Color/
 
-This source is derived from the drawing source using */scripts/breakOutLayerIntoAlternates.py*.
+This source is derived from the drawing source using */scripts/dev/breakOutLayerIntoAlternates.py*.
 
 Each layer becomes an alternate glyph in the same UFO, with suffices .alt000 (shade), .alt001 (regular), and .alt002 (inline).
 
