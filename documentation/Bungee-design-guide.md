@@ -24,15 +24,15 @@ No design apps have native support for chromatic layers.
 
 1. In one text box, set a line of matching text for each layer. Using the *Bungee Layers* font, style each line, starting with the backmost layer (Shade) and ending with the frontmost (Inline).
 
-<img src="images/design-layers-1.png" style="width: 6em" alt="Step 1" />
+<img src="images/design-layers-1.png" style="width: 6em" alt="Step 1" width="500" />
 
 2. Add colors to each line.
 
-<img src="images/design-layers-2.png" style="width: 6em" alt="Step 2" />
+<img src="images/design-layers-2.png" style="width: 6em" alt="Step 2" width="500" />
 
 3. When you are finished, select all of the text, and set the leading/linespacing to 0.
 
-<img src="images/design-layers-3.png" style="width: 6em" alt="Step 3" />
+<img src="images/design-layers-3.png" style="width: 6em" alt="Step 3" width="500" />
 
 4. To edit the text, do a find and replace, or increase the leading.
 
@@ -80,7 +80,7 @@ Adjust the vertical spacing of individual glyph pairs so that they are more even
 
 Several professional design applications have separate vertical text tools, which will implement all of the necessary OpenType features and provide a nice interface for setting vertical text.
 
-<img src="images/design-vertical-text.png" style="width: 6em" alt="Vertical Type tool in Adobe Illustrator" />
+<img src="images/design-vertical-text.png" style="width: 6em" alt="Vertical Type tool in Adobe Illustrator" width="500" />
 
 Desktop apps that natively support vertical text include:
 
@@ -96,15 +96,15 @@ These fonts have Bungee’s vertical forms, spacing, and kerning baked in to the
 
 1. Set the text. 
 
-<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 1" width="6em" />
+<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 1" width="6em" width="500" />
 
 2. Change the font family to *Bungee Layers Rotated*.
 
-<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 2" />
+<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 2" width="500" />
 
 3. Rotate the text block 90° counterclockwise. 
 
-<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 3" />
+<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 3"  width="500" />
 
 Voilà! Pseudo-vertical text.
 
@@ -167,7 +167,7 @@ As a display font, Bungee is only intended for small bits of text, sometimes eve
 
 Replace diagonal forms of A, M, N, W, X, and Y with deco-inspired alternates with round shapes and vertical sides. 
 
-<img src="images/design-alternates-round-forms.png" style="height: 3em" alt="Round forms" />
+<img src="images/design-alternates-round-forms.png" style="height: 3em" alt="Round forms" height="200" />
 
 
 Each of these letters can also be implemented separately using the following stylistic sets:
@@ -197,25 +197,25 @@ Replace forms of E with an decorative alternate with a rounded left side.
 
 Replace the default ‘ET’ ampersand with an alternate that resembles a stylized ‘E’ with a vertical stroke.
 	
-<img src="images/design-alternates-ampersand.png" style="height: 3em" alt="Alternate ampersand" />
+<img src="images/design-alternates-ampersand.png" style="height: 3em" alt="Alternate ampersand" height="200" />
 	
 * Stylistic Set 12: Small Quotes.
 
 Replace the curly apostrophe and matching left quote with smaller, less obtrusive versions.
 
-<img src="images/design-alternates-apostrophe.png" style="height: 3em" alt="Small quotes" />
+<img src="images/design-alternates-apostrophe.png" style="height: 3em" alt="Small quotes" height="200" />
 
 * Stylistic Set 18: John Downer Recommendations.
 
 Signpainter John Downer recommends against vertical type that includes problematic characters like I, M, and W, which are unusually narrow or wide. This feature disables those characters.
 
-<img src="images/design-alternates-downer.png" style="width: 3em" alt="Downer" />
+<img src="images/design-alternates-downer.png" style="width: 3em" alt="Downer"  width="200"/>
 
 * Stylistic Set 20: Vertical forms.
 
 Activate Bungee’s vertical forms (identical to the *vert* feature). These forms are better accessed through the vertical text features described above, but this stylistic set can be handy when such tools are not available, or when monowidth letters are required in a non-vertical setting.
 
-<img src="images/design-alternates-vertical.png" style="height: 3em" alt="Vertical forms" />
+<img src="images/design-alternates-vertical.png" style="height: 3em" alt="Vertical forms" height="200" />
 
 ### Other opentype features
 
