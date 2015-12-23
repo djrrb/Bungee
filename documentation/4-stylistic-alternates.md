@@ -59,15 +59,17 @@ Activate Bungee’s vertical forms (identical to the *vert* feature). These form
 
 <img src="images/design-alternates-vertical.png" alt="Vertical forms" height="200" />
 
-## Minor opentype features
+## Other OpenType features
 
-In addition to its stylistic alternates, Bungee also contains several OpenType Stylistic Sets for easy access to certain characters or alternate forms.
+In addition to its stylistic alternates, Bungee also contains several OpenType Stylistic Sets for easy access to certain characters or alternate forms:
 
 * Stylistic Set 11: Sequential IJ.
 * Stylistic Set 13: Indexes (pointing hands).
 * Stylistic Set 14: Alternate Indexes.
 * Stylistic Set 15: Outlined Indexes.
 * Stylistic Set 19: Primes.
+
+These features are included primarily for convenience.
 
 * Previous: [Vertical text](3-vertical-text.md)
 * Next: [Ornaments](5-ornaments.md)
