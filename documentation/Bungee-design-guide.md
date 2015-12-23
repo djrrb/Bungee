@@ -24,15 +24,15 @@ No design apps have native support for chromatic layers.
 
 1. In one text box, set a line of matching text for each layer. Using the *Bungee Layers* font, style each line, starting with the backmost layer (Shade) and ending with the frontmost (Inline).
 
-<img src="images/design-layers-1.png" style="width: 6em" alt="Step 1" width="500" />
+<img src="images/design-layers-1.png" style="width: 6em" alt="Step 1" width="600" />
 
 2. Add colors to each line.
 
-<img src="images/design-layers-2.png" style="width: 6em" alt="Step 2" width="500" />
+<img src="images/design-layers-2.png" style="width: 6em" alt="Step 2" width="600" />
 
 3. When you are finished, select all of the text, and set the leading/linespacing to 0.
 
-<img src="images/design-layers-3.png" style="width: 6em" alt="Step 3" width="500" />
+<img src="images/design-layers-3.png" style="width: 6em" alt="Step 3" width="600" />
 
 4. To edit the text, do a find and replace, or increase the leading.
 
@@ -80,7 +80,7 @@ Adjust the vertical spacing of individual glyph pairs so that they are more even
 
 Several professional design applications have separate vertical text tools, which will implement all of the necessary OpenType features and provide a nice interface for setting vertical text.
 
-<img src="images/design-vertical-text.png" style="width: 6em" alt="Vertical Type tool in Adobe Illustrator" width="500" />
+<img src="images/design-vertical-text.png" style="width: 6em" alt="Vertical Type tool in Adobe Illustrator" width="600" />
 
 Desktop apps that natively support vertical text include:
 
@@ -96,11 +96,11 @@ These fonts have Bungee’s vertical forms, spacing, and kerning baked in to the
 
 1. Set the text. 
 
-<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 1" width="500" />
+<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 1" width="600" />
 
 2. Change the font family to *Bungee Layers Rotated*.
 
-<img src="images/design-vertical-2.png" style="width: 6em" alt="Rotated vertical text, step 2" width="500" />
+<img src="images/design-vertical-2.png" style="width: 6em" alt="Rotated vertical text, step 2" width="600" />
 
 3. Rotate the text block 90° counterclockwise. 
 
@@ -234,18 +234,21 @@ Bungee has a set of ornaments that you can use to assemble additional chromatic 
 
 Some ornaments are designed to connect seamlessly to other ornaments, which you can use to create continuous banners. If you center-align the entire text block, you will not have to worry as much about making the layers line up.
 
-<img src="images/design-ornaments-layer.png" style="height: 3em" alt="Ornaments as layers." width="500" />
+<img src="images/design-ornaments-layer.png" style="height: 3em" alt="Ornaments as layers." width="600" />
 
 In design apps, ornaments can be easily accessed via the Glyph palette.
 
-<img src="images/design-ornaments-glyph-palette.png" style="height: 3em" alt="Glyph palette in Illustrator." width="500" />
+<img src="images/design-ornaments-glyph-palette.png" style="height: 3em" alt="Glyph palette in Illustrator." width="600" />
 
 You can use horizontal scaling and tracking/letter-spacing to make minor adjustments to the positions.
 
-<img src="images/design-ornaments-scale.png" style="height: 3em" alt="Horizontal scaling in Illustrator." width="500" />
+<img src="images/design-ornaments-scale.png" style="height: 3em" alt="Horizontal scaling in Illustrator." width="600" />
 
-Other ornaments can be set independently to encircle a single letter. Use these shapes behind Bungee’s vertical forms (accessible via the glyph palette, under Stylistic Set 20), since they are all approximately the same width. Add *280 units* to the alphabetical layers to make them line up with the independent ornaments.
+Other ornaments can be set independently to encircle a single letter. Use these shapes behind Bungee’s vertical forms (accessible via the glyph palette, under Stylistic Set 20), since they are all approximately the same width. 
 
-<img src="images/design-ornaments-independent.png" style="height: 3em" alt="Using independent ornaments." width="500" />
+<img src="images/design-ornaments-independent-2.png" style="height: 3em" alt="Independent ornaments." width="600" />
 
-<img src="images/design-ornaments-independent-2.png" style="height: 3em" alt="Independent ornaments." width="500" />
+Add *280 units* to the alphabetical layers to make them line up with the independent ornaments.
+
+<img src="images/design-ornaments-independent.png" style="height: 3em" alt="Using independent ornaments." width="600" />
+
