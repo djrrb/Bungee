@@ -5381,20 +5381,6 @@
 				<string>brevegrave</string>
 				<string>brevetilde</string>
 				<string>circumflexgrave</string>
-				<string>Becyrillic.scrap_beta</string>
-				<string>Checyrillic.scrap_beta</string>
-				<string>Decyrillic.scrap_beta</string>
-				<string>Efcyrillic.scrap_beta</string>
-				<string>Elcyrillic.scrap_beta</string>
-				<string>Ereversedcyrillic.scrap_beta</string>
-				<string>Gecyrillic.scrap_beta</string>
-				<string>Iacyrillic.scrap_beta</string>
-				<string>Iicyrillic.scrap_beta</string>
-				<string>Pecyrillic.scrap_beta</string>
-				<string>Shchacyrillic.scrap_beta</string>
-				<string>Softsigncyrillic.scrap_beta</string>
-				<string>Ucyrillic.scrap_beta</string>
-				<string>Zhecyrillic.scrap_beta</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -8048,6 +8034,20 @@
 		<string>brevegrave</string>
 		<string>brevetilde</string>
 		<string>circumflexgrave</string>
+		<string>Becyrillic.scrap_beta</string>
+		<string>Checyrillic.scrap_beta</string>
+		<string>Gecyrillic.scrap_beta</string>
+		<string>Shchacyrillic.scrap_beta</string>
+		<string>Iacyrillic.scrap_beta</string>
+		<string>Iicyrillic.scrap_beta</string>
+		<string>Elcyrillic.scrap_beta</string>
+		<string>Decyrillic.scrap_beta</string>
+		<string>Ereversedcyrillic.scrap_beta</string>
+		<string>Softsigncyrillic.scrap_beta</string>
+		<string>Ucyrillic.scrap_beta</string>
+		<string>Zhecyrillic.scrap_beta</string>
+		<string>Efcyrillic.scrap_beta</string>
+		<string>Pecyrillic.scrap_beta</string>
 	</array>
 </dict>
 </plist>
