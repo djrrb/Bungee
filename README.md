@@ -1,12 +1,12 @@
 # Bungee
 
-In the crowded urban environment, space is always at a premium. From dumpy liquor stores to majestic theaters, sometimes signage has nowhere to go but up. Bungee wrangles the Latin alphabet to work vertically as well as horizontally; with separately glyphs, spacing, and kerning for each orientation. Bungee and comes equipped with chromatic inlines, outlines, shadows, and ornaments, making it the perfect toolkit to take your sign in a new direction.
+In the crowded urban environment, space is always at a premium. From dumpy liquor stores to majestic theaters, sometimes signage has nowhere to go but up. Bungee is a font that wrangles the Latin alphabet to work vertically as well as horizontally; with separately glyphs, spacing, and kerning for each orientation. Bungee and comes equipped with chromatic inlines, outlines, shades, and ornaments, making it the perfect toolkit to take your sign in a new direction.
 
 See more about Bungee at http://bungee.djr.com.
 
 ## Specimen
 
-Coming soon!
+<img src="specimen.png" alt="Bungee Specimen" />
 
 ## Family structure
 
