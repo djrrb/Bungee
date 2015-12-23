@@ -2,39 +2,6 @@
 <glyph name="parenleft.v.alt001" format="1">
   <advance width="1000"/>
   <outline>
-    <contour>
-      <point x="941" y="282" type="line" smooth="yes"/>
-      <point x="941" y="471"/>
-      <point x="858" y="528"/>
-      <point x="737" y="528" type="curve" smooth="yes"/>
-      <point x="266" y="528" type="line" smooth="yes"/>
-      <point x="144" y="528"/>
-      <point x="60" y="471"/>
-      <point x="60" y="282" type="curve" smooth="yes"/>
-      <point x="60" y="228" type="line" smooth="yes"/>
-      <point x="60" y="203"/>
-      <point x="71" y="192"/>
-      <point x="96" y="192" type="curve" smooth="yes"/>
-      <point x="218" y="192" type="line" smooth="yes"/>
-      <point x="243" y="192"/>
-      <point x="254" y="203"/>
-      <point x="254" y="228" type="curve" smooth="yes"/>
-      <point x="254" y="259" type="line" smooth="yes"/>
-      <point x="254" y="291"/>
-      <point x="269" y="300"/>
-      <point x="304" y="300" type="curve" smooth="yes"/>
-      <point x="700" y="300" type="line"/>
-      <point x="735" y="300"/>
-      <point x="750" y="291"/>
-      <point x="750" y="259" type="curve" smooth="yes"/>
-      <point x="750" y="228" type="line" smooth="yes"/>
-      <point x="750" y="203"/>
-      <point x="761" y="192"/>
-      <point x="786" y="192" type="curve" smooth="yes"/>
-      <point x="905" y="192" type="line" smooth="yes"/>
-      <point x="930" y="192"/>
-      <point x="941" y="203"/>
-      <point x="941" y="228" type="curve" smooth="yes"/>
-    </contour>
+    <component base="parenleft.v"/>
   </outline>
 </glyph>

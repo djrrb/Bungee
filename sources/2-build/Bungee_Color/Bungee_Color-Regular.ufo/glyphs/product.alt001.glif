@@ -2,33 +2,6 @@
 <glyph name="product.alt001" format="1">
   <advance width="759"/>
   <outline>
-    <contour>
-      <point x="654" y="0" type="line" smooth="yes"/>
-      <point x="679" y="0"/>
-      <point x="690" y="11"/>
-      <point x="690" y="36" type="curve" smooth="yes"/>
-      <point x="690" y="684" type="line" smooth="yes"/>
-      <point x="690" y="709"/>
-      <point x="679" y="720"/>
-      <point x="654" y="720" type="curve" smooth="yes"/>
-      <point x="105" y="720" type="line" smooth="yes"/>
-      <point x="80" y="720"/>
-      <point x="69" y="709"/>
-      <point x="69" y="684" type="curve" smooth="yes"/>
-      <point x="69" y="36" type="line" smooth="yes"/>
-      <point x="69" y="11"/>
-      <point x="80" y="0"/>
-      <point x="105" y="0" type="curve" smooth="yes"/>
-      <point x="260" y="0" type="line" smooth="yes"/>
-      <point x="285" y="0"/>
-      <point x="296" y="11"/>
-      <point x="296" y="36" type="curve" smooth="yes"/>
-      <point x="296" y="529" type="line"/>
-      <point x="463" y="529" type="line"/>
-      <point x="463" y="36" type="line" smooth="yes"/>
-      <point x="463" y="11"/>
-      <point x="474" y="0"/>
-      <point x="499" y="0" type="curve" smooth="yes"/>
-    </contour>
+    <component base="product"/>
   </outline>
 </glyph>

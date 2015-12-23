@@ -2,7 +2,6 @@
 <glyph name="breveacute.alt001" format="1">
   <advance width="500"/>
   <outline>
-    <component base="breve.alt001"/>
-    <component base="acute.vert.alt001" xOffset="302" yOffset="-15"/>
+    <component base="breveacute"/>
   </outline>
 </glyph>

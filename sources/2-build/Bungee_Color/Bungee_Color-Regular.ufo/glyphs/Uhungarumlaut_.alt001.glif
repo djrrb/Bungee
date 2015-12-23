@@ -2,7 +2,6 @@
 <glyph name="Uhungarumlaut.alt001" format="1">
   <advance width="746"/>
   <outline>
-    <component base="U.alt001"/>
-    <component base="hungarumlaut.alt001" xOffset="162"/>
+    <component base="Uhungarumlaut"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Aogonek.v.alt001" format="1">
   <advance width="1000"/>
   <outline>
-    <component base="A.s_v.alt001" yOffset="40"/>
-    <component base="ogonek.alt001" xOffset="423" yOffset="40"/>
+    <component base="Aogonek.v"/>
   </outline>
 </glyph>

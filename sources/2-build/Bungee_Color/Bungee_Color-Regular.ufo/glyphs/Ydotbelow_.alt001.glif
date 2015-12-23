@@ -2,7 +2,6 @@
 <glyph name="Ydotbelow.alt001" format="1">
   <advance width="705"/>
   <outline>
-    <component base="Y.alt001"/>
-    <component base="dotbelowcmb.alt001" xOffset="352"/>
+    <component base="Ydotbelow"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Udieresisgrave.alt001" format="1">
   <advance width="746"/>
   <outline>
-    <component base="Udieresis.alt001"/>
-    <component base="grave.vert.alt001" xOffset="360" yOffset="-30"/>
+    <component base="Udieresisgrave"/>
   </outline>
 </glyph>

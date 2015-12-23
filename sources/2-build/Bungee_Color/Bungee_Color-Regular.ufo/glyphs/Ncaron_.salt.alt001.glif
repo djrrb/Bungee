@@ -2,7 +2,6 @@
 <glyph name="Ncaron.salt.alt001" format="1">
   <advance width="746"/>
   <outline>
-    <component base="N.salt.alt001"/>
-    <component base="caron.alt001" xOffset="123"/>
+    <component base="Ncaron.salt"/>
   </outline>
 </glyph>

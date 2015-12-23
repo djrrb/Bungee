@@ -2,7 +2,6 @@
 <glyph name="Aacute.v.alt001" format="1">
   <advance width="1000"/>
   <outline>
-    <component base="A.s_v.alt001"/>
-    <component base="acute.alt001" xOffset="251" yOffset="-40"/>
+    <component base="Aacute.v"/>
   </outline>
 </glyph>

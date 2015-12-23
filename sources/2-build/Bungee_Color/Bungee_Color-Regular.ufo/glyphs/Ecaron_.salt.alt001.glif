@@ -2,7 +2,6 @@
 <glyph name="Ecaron.salt.alt001" format="1">
   <advance width="643"/>
   <outline>
-    <component base="E.salt.alt001"/>
-    <component base="caron.alt001" xOffset="104"/>
+    <component base="Ecaron.salt"/>
   </outline>
 </glyph>

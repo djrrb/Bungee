@@ -1,0 +1,1011 @@
+Converted Files:
+****************
+
+Bungee-Hairline.otf
+-------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/Bungee-Hairline.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Hairline.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpnPe9J0.otf. Start time: Wed Dec 23 11:31:29 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ................................
+        Saving font file with new hints...Wed Dec 23 11:31:35 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpnPe9J0.otf. End time: Wed Dec 23 11:31:35 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Hairline.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Hairline.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Hairline.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <Bungee-Hairline> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <Bungee-Hairline> Major version number not in range 1 .. 255 [features 504]
+        makeotfexe [NOTE] Wrote new font file 'tmpaMmXdZ.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmpaMmXdZ.ttf' to temporary Unix Type1 font file '/tmpaMmXdZ.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmpaMmXdZ.ttf.tmp" "-o" "tmpaMmXdZ.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmpaMmXdZ.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Hairline.svg
+
+
+Bungee-Inline.otf
+-----------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/Bungee-Inline.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Inline.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmp0ezecE.otf. Start time: Wed Dec 23 11:31:44 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ............................
+        Saving font file with new hints...Wed Dec 23 11:31:52 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmp0ezecE.otf. End time: Wed Dec 23 11:31:52 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Inline.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Inline.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Inline.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <Bungee-Inline> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <Bungee-Inline> Major version number not in range 1 .. 255 [features 504]
+        makeotfexe [NOTE] Wrote new font file 'tmpifaurN.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmpifaurN.ttf' to temporary Unix Type1 font file '/tmpifaurN.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmpifaurN.ttf.tmp" "-o" "tmpifaurN.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmpifaurN.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Inline.svg
+
+
+Bungee-Outline.otf
+------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/Bungee-Outline.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Outline.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmproi9pm.otf. Start time: Wed Dec 23 11:32:14 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ............................
+        Saving font file with new hints...Wed Dec 23 11:32:22 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmproi9pm.otf. End time: Wed Dec 23 11:32:22 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Outline.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Outline.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Outline.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <Bungee-Outline> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <Bungee-Outline> Major version number not in range 1 .. 255 [features 504]
+        makeotfexe [NOTE] Wrote new font file 'tmp3Q9nV3.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmp3Q9nV3.ttf' to temporary Unix Type1 font file '/tmp3Q9nV3.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmp3Q9nV3.ttf.tmp" "-o" "tmp3Q9nV3.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmp3Q9nV3.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Outline.svg
+
+
+Bungee-Regular.otf
+------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/Bungee-Regular.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Regular.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpfSyd3d.otf. Start time: Wed Dec 23 11:32:51 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .............................
+        Saving font file with new hints...Wed Dec 23 11:32:58 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpfSyd3d.otf. End time: Wed Dec 23 11:32:58 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Regular.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Regular.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Regular.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <Bungee-Regular> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <Bungee-Regular> Major version number not in range 1 .. 255 [features 504]
+        makeotfexe [NOTE] Wrote new font file 'tmpQVgivF.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmpQVgivF.ttf' to temporary Unix Type1 font file '/tmpQVgivF.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmpQVgivF.ttf.tmp" "-o" "tmpQVgivF.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmpQVgivF.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Regular.svg
+
+
+Bungee-Shade.otf
+----------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/Bungee-Shade.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Shade.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpRVlrqQ.otf. Start time: Wed Dec 23 11:33:11 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ............................
+        Saving font file with new hints...Wed Dec 23 11:33:19 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpRVlrqQ.otf. End time: Wed Dec 23 11:33:20 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Shade.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Shade.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Shade.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <Bungee-Shade> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <Bungee-Shade> Major version number not in range 1 .. 255 [features 504]
+        makeotfexe [NOTE] Wrote new font file 'tmpcmIaLn.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmpcmIaLn.ttf' to temporary Unix Type1 font file '/tmpcmIaLn.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmpcmIaLn.ttf.tmp" "-o" "tmpcmIaLn.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmpcmIaLn.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/Bungee-Shade.svg
+
+
+BungeeLayers-Inline.otf
+-----------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/BungeeLayers-Inline.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmppjhkks.otf. Start time: Wed Dec 23 11:33:49 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ..................................
+        Saving font file with new hints...Wed Dec 23 11:33:55 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmppjhkks.otf. End time: Wed Dec 23 11:33:55 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <BungeeLayers-Inline> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <BungeeLayers-Inline> Major version number not in range 1 .. 255 [features 504]
+        makeotfexe [NOTE] Wrote new font file 'tmpW5lcWZ.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmpW5lcWZ.ttf' to temporary Unix Type1 font file '/tmpW5lcWZ.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmpW5lcWZ.ttf.tmp" "-o" "tmpW5lcWZ.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmpW5lcWZ.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.svg
+
+
+BungeeLayers-Outline.otf
+------------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/BungeeLayers-Outline.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpL38gZ_.otf. Start time: Wed Dec 23 11:34:04 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .............................
+        Saving font file with new hints...Wed Dec 23 11:34:11 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpL38gZ_.otf. End time: Wed Dec 23 11:34:11 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <BungeeLayers-Outline> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <BungeeLayers-Outline> Major version number not in range 1 .. 255 [features 504]
+        makeotfexe [NOTE] Wrote new font file 'tmp0d9V1O.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmp0d9V1O.ttf' to temporary Unix Type1 font file '/tmp0d9V1O.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmp0d9V1O.ttf.tmp" "-o" "tmp0d9V1O.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmp0d9V1O.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.svg
+
+
+BungeeLayers-Regular.otf
+------------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/BungeeLayers-Regular.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpcgLG5I.otf. Start time: Wed Dec 23 11:34:24 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .............................
+        Saving font file with new hints...Wed Dec 23 11:34:31 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpcgLG5I.otf. End time: Wed Dec 23 11:34:31 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <BungeeLayers-Regular> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <BungeeLayers-Regular> Major version number not in range 1 .. 255 [features 504]
+        makeotfexe [NOTE] Wrote new font file 'tmppV42sy.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmppV42sy.ttf' to temporary Unix Type1 font file '/tmppV42sy.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmppV42sy.ttf.tmp" "-o" "tmppV42sy.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmppV42sy.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.svg
+
+
+BungeeLayers-Shade.otf
+----------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/BungeeLayers-Shade.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmp05mWCj.otf. Start time: Wed Dec 23 11:34:44 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ...............................
+        Saving font file with new hints...Wed Dec 23 11:34:50 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmp05mWCj.otf. End time: Wed Dec 23 11:34:51 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <BungeeLayers-Shade> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <BungeeLayers-Shade> Major version number not in range 1 .. 255 [features 504]
+        makeotfexe [NOTE] Wrote new font file 'tmpTXc8K7.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmpTXc8K7.ttf' to temporary Unix Type1 font file '/tmpTXc8K7.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmpTXc8K7.ttf.tmp" "-o" "tmpTXc8K7.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmpTXc8K7.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.svg
+
+
+BungeeLayersRotated-Inline.otf
+------------------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/BungeeLayersRotated-Inline.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Inline.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpFg1qYz.otf. Start time: Wed Dec 23 11:35:03 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ..
+        Saving font file with new hints...Wed Dec 23 11:35:06 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpFg1qYz.otf. End time: Wed Dec 23 11:35:06 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Inline.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Inline.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Inline.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <BungeeLayersRotated-Inline> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <BungeeLayersRotated-Inline> Major version number not in range 1 .. 255 [features 415]
+        makeotfexe [NOTE] Wrote new font file 'tmp9hkuAO.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmp9hkuAO.ttf' to temporary Unix Type1 font file '/tmp9hkuAO.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmp9hkuAO.ttf.tmp" "-o" "tmp9hkuAO.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmp9hkuAO.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Inline.svg
+
+
+BungeeLayersRotated-Outline.otf
+-------------------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/BungeeLayersRotated-Outline.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Outline.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpSIWY8Z.otf. Start time: Wed Dec 23 11:35:12 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ..................................
+        Saving font file with new hints...Wed Dec 23 11:35:15 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpSIWY8Z.otf. End time: Wed Dec 23 11:35:15 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Outline.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Outline.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Outline.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <BungeeLayersRotated-Outline> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <BungeeLayersRotated-Outline> Major version number not in range 1 .. 255 [features 415]
+        makeotfexe [NOTE] Wrote new font file 'tmpY8H_NJ.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmpY8H_NJ.ttf' to temporary Unix Type1 font file '/tmpY8H_NJ.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmpY8H_NJ.ttf.tmp" "-o" "tmpY8H_NJ.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmpY8H_NJ.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Outline.svg
+
+
+BungeeLayersRotated-Regular.otf
+-------------------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/BungeeLayersRotated-Regular.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Regular.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpGSB5Tx.otf. Start time: Wed Dec 23 11:35:22 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ..................................
+        Saving font file with new hints...Wed Dec 23 11:35:25 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpGSB5Tx.otf. End time: Wed Dec 23 11:35:25 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Regular.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Regular.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Regular.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <BungeeLayersRotated-Regular> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <BungeeLayersRotated-Regular> Major version number not in range 1 .. 255 [features 415]
+        makeotfexe [NOTE] Wrote new font file 'tmpOkBKgO.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmpOkBKgO.ttf' to temporary Unix Type1 font file '/tmpOkBKgO.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmpOkBKgO.ttf.tmp" "-o" "tmpOkBKgO.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmpOkBKgO.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Regular.svg
+
+
+BungeeLayersRotated-Shade.otf
+-----------------------------
+source: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/BungeeLayersRotated-Shade.otf
+
+Build OTF
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Shade.otf
+    Source is binary a OTF file.
+    Auto hint the existing OTF file.
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpFrdMut.otf. Start time: Wed Dec 23 11:35:32 2015.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .
+        Saving font file with new hints...Wed Dec 23 11:35:35 2015
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpFrdMut.otf. End time: Wed Dec 23 11:35:35 2015.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Shade.woff
+
+Build WOFF2 (OTF)
+'''''''''''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Shade.woff2
+
+Build EOT
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Shade.eot
+    Source is binary a OTF file. Convert to TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotfexe [WARNING] <BungeeLayersRotated-Shade> [internal] Feature block seen before any language system statement.  You should place languagesystem statements before any feature definition [features 3]
+        makeotfexe [WARNING] <BungeeLayersRotated-Shade> Major version number not in range 1 .. 255 [features 415]
+        makeotfexe [NOTE] Wrote new font file 'tmp9For5s.ttf'.
+        
+        
+        
+        makeotf [Note] Converting source font '/tmp9For5s.ttf' to temporary Unix Type1 font file '/tmp9For5s.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "tmp9For5s.ttf.tmp" "-o" "tmp9For5s.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmp9For5s.ttf' Revision 0.000
+        Done.
+        
+        --------------------
+
+Build SVG
+'''''''''
+    path: /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee_OTF/webfonts/BungeeLayersRotated-Shade.svg
+
+
+
+TTFAutohint options:
+********************
+addTTFAutoHintInfo     = False
+dwClearType            = False
+fallbackScript         = False
+gdiClearType           = True
+grayScale              = False
+hintRangeMaximum       = 50
+hintRangeMinimum       = 8
+hintingLimit           = 200
+noHintingLimit         = False
+noXHeightIncreaseLimit = False
+overRideFontLicense    = False
+preHinting             = False
+symbolFont             = False
+xHeightIncreaseLimit   = 14

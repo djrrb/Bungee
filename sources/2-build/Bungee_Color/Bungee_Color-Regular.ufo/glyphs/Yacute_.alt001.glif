@@ -2,7 +2,6 @@
 <glyph name="Yacute.alt001" format="1">
   <advance width="705"/>
   <outline>
-    <component base="Y.alt001"/>
-    <component base="acute.alt001" xOffset="112"/>
+    <component base="Yacute"/>
   </outline>
 </glyph>

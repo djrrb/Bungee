@@ -20,7 +20,7 @@ The basic *Bungee* family includes Regular and Hairline weights, as well as thre
 
 *Bungee Color* contains experiments with the various color font formats out there, including SVG, COLR/CPAL and sbix. None of these formats are widely supported (yet!), so your milage may vary. These fonts are built with Jens Kutilek’s <a href="https://github.com/fontfont/RoboChrome">RoboChrome</a>.
 
-In all fonts besides *Bungee Layers Rotated*, Bungee’s vertical forms are accessed via the *vert* and *vpal* OpenType features. These features are activated by vertical typesetting tools in design apps, or in CSS using *-prefix-writing-mode: vertical-rl*.
+In all fonts besides *Bungee Layers Rotated*, Bungee’s vertical forms are accessed via the *vert* and *vpal* OpenType features. These features are activated by vertical typesetting tools in design apps, or in CSS using *writing-mode: vertical-rl*.
 
 Bungee was designed in <a href="http://www.robofont.com">RoboFont</a> and its drawing and build sources are available in <a href="http://www.unifiedfontobject.org">UFO format</a>.
 

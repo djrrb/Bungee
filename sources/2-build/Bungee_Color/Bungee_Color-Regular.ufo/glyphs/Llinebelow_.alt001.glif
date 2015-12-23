@@ -2,7 +2,6 @@
 <glyph name="Llinebelow.alt001" format="1">
   <advance width="695"/>
   <outline>
-    <component base="L.alt001"/>
-    <component base="macronbelowcmb.alt001" xOffset="347"/>
+    <component base="Llinebelow"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="plusminus.alt001" format="1">
   <advance width="734"/>
   <outline>
-    <component base="plus.alt001" yOffset="62"/>
-    <component base="minus.alt001" yOffset="-266"/>
+    <component base="plusminus"/>
   </outline>
 </glyph>

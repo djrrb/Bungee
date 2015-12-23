@@ -2,7 +2,6 @@
 <glyph name="Edieresis.alt001" format="1">
   <advance width="654"/>
   <outline>
-    <component base="E.alt001"/>
-    <component base="dieresis.alt001" xOffset="97"/>
+    <component base="Edieresis"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="circumflexgrave.alt001" format="1">
   <advance width="500"/>
   <outline>
-    <component base="circumflex.alt001"/>
-    <component base="grave.vert.alt001" xOffset="375" yOffset="-40"/>
+    <component base="circumflexgrave"/>
   </outline>
 </glyph>

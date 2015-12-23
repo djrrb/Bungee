@@ -2,7 +2,6 @@
 <glyph name="Amacron.salt.alt001" format="1">
   <advance width="736"/>
   <outline>
-    <component base="A.salt.alt001"/>
-    <component base="macron.alt001" xOffset="118"/>
+    <component base="Amacron.salt"/>
   </outline>
 </glyph>

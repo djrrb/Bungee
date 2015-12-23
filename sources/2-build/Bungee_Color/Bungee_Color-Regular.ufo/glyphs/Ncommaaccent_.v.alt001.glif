@@ -2,7 +2,6 @@
 <glyph name="Ncommaaccent.v.alt001" format="1">
   <advance width="1000"/>
   <outline>
-    <component base="N.s_v.alt001" yOffset="40"/>
-    <component base="commaaccent.v.alt001" yOffset="40"/>
+    <component base="Ncommaaccent.v"/>
   </outline>
 </glyph>

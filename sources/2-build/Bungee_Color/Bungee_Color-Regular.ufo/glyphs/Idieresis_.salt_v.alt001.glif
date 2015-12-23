@@ -2,7 +2,6 @@
 <glyph name="Idieresis.salt_v.alt001" format="1">
   <advance width="1000"/>
   <outline>
-    <component base="dieresis.alt001" xOffset="250" yOffset="-40"/>
-    <component base="I.salt_s_v.alt001"/>
+    <component base="Idieresis.salt_v"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Scaron.alt001" format="1">
   <advance width="650"/>
   <outline>
-    <component base="S.alt001"/>
-    <component base="caron.alt001" xOffset="85"/>
+    <component base="Scaron"/>
   </outline>
 </glyph>

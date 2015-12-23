@@ -2,5 +2,6 @@
 <glyph name="nbspace.alt001" format="1">
   <advance width="225"/>
   <outline>
+    <component base="nbspace"/>
   </outline>
 </glyph>

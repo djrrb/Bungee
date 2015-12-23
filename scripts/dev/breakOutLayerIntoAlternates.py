@@ -7,7 +7,7 @@ glyphOrderKey = 'public.glyphOrder'
 
 if __name__ == "__main__":
     # get the source
-    scriptPath = os.path.split(__file__)[0]
+    scriptPath = os.path.split(os.path.split(__file__)[0])[0]
     basePath = os.path.split(scriptPath)[0]
     sourcesPath = os.path.join(basePath, 'sources')
     src = OpenFont(os.path.join(sourcesPath, '1-drawing/Bungee-Regular.ufo'), showUI=False)

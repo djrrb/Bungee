@@ -2,7 +2,6 @@
 <glyph name="Sdotaccent.alt001" format="1">
   <advance width="650"/>
   <outline>
-    <component base="S.alt001"/>
-    <component base="dotaccent.alt001" xOffset="80"/>
+    <component base="Sdotaccent"/>
   </outline>
 </glyph>

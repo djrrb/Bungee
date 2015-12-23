@@ -2,7 +2,6 @@
 <glyph name="Hbrevebelow.alt001" format="1">
   <advance width="759"/>
   <outline>
-    <component base="H.alt001"/>
-    <component base="brevebelowcmb.alt001" xOffset="380"/>
+    <component base="Hbrevebelow"/>
   </outline>
 </glyph>

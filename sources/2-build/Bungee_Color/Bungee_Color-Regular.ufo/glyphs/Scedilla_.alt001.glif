@@ -2,7 +2,6 @@
 <glyph name="Scedilla.alt001" format="1">
   <advance width="650"/>
   <outline>
-    <component base="S.alt001"/>
-    <component base="cedilla.alt001" xOffset="75"/>
+    <component base="Scedilla"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Eogonek.salt_v.alt001" format="1">
   <advance width="1000"/>
   <outline>
-    <component base="E.salt_s_v.alt001" yOffset="40"/>
-    <component base="ogonek.alt001" xOffset="412" yOffset="40"/>
+    <component base="Eogonek.salt_v"/>
   </outline>
 </glyph>

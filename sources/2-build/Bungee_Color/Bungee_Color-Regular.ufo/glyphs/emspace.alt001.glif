@@ -2,5 +2,6 @@
 <glyph name="emspace.alt001" format="1">
   <advance width="1000"/>
   <outline>
+    <component base="emspace"/>
   </outline>
 </glyph>

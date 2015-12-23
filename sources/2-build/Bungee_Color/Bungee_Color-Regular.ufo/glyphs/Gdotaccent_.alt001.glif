@@ -2,7 +2,6 @@
 <glyph name="Gdotaccent.alt001" format="1">
   <advance width="708"/>
   <outline>
-    <component base="G.alt001"/>
-    <component base="dotaccent.alt001" xOffset="124"/>
+    <component base="Gdotaccent"/>
   </outline>
 </glyph>

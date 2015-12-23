@@ -2,7 +2,6 @@
 <glyph name="Abrevetilde.alt001" format="1">
   <advance width="730"/>
   <outline>
-    <component base="A.alt001"/>
-    <component base="brevetilde.alt001" xOffset="115"/>
+    <component base="Abrevetilde"/>
   </outline>
 </glyph>

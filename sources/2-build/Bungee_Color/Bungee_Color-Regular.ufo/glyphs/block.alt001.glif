@@ -2,11 +2,6 @@
 <glyph name="block.alt001" format="1">
   <advance width="1000.0"/>
   <outline>
-    <contour>
-      <point x="1040" y="-180" type="line"/>
-      <point x="-40" y="-180" type="line"/>
-      <point x="-40" y="900" type="line"/>
-      <point x="1040" y="900" type="line"/>
-    </contour>
+    <component base="block"/>
   </outline>
 </glyph>

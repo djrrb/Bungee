@@ -2,7 +2,6 @@
 <glyph name="Imacron.v.alt001" format="1">
   <advance width="1000"/>
   <outline>
-    <component base="I.s_v.alt001"/>
-    <component base="macron.alt001" xOffset="250" yOffset="-40"/>
+    <component base="Imacron.v"/>
   </outline>
 </glyph>

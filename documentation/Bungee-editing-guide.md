@@ -64,15 +64,19 @@ With this source, <a href="https://github.com/fontfont/RoboChrome">RoboChrome</a
 
 ## Generate
 
-I use RoboFont’s <a href="https://github.com/typemytype/batchRoboFontExtension">Batch</a> extension to generate the font files.
+* 1. Copy the UFOs and the features.fea file into the */sources/2-build/temp/* folder.
+
+* 2. Run */scripts/dev/generatePrep.py*, which will act on all UFOs the */sources/2-build/temp* folder. This script removes overlap issues with components and splits off double-encoded glyphs.
+
+* Use RoboFont’s <a href="https://github.com/typemytype/batchRoboFontExtension">Batch</a> extension to generate the font files, and then to generate the web fonts from those files. 
 
 
 ##  Minor Changes
 
-For making minor changes to Bungee, you may find it easier to work with TTX, which is a part of fontTools. TTX will convert a generated OTF or TTF file to readable and editable XML.
+For making minor changes to Bungee, you may find it easier to edit the generated fonts directly rather than generating from the source. TTX (part of FontTools) will convert a generated OTF or TTF file to readable and editable XML.
 
-ttx /path/to/Bungee-Regular.ttf
+	ttx /path/to/Bungee-Regular.ttf
 
 When you are done tinkering, you can use the same command to convert the .ttx file back to a font.
 
-ttx /path/to/Bungee-Regular.ttx
+	ttx /path/to/Bungee-Regular.ttx

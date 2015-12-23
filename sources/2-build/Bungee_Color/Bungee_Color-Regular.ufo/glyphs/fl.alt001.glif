@@ -2,7 +2,6 @@
 <glyph name="fl.alt001" format="1">
   <advance width="1313"/>
   <outline>
-    <component base="f.alt001"/>
-    <component base="l.alt001" xOffset="618"/>
+    <component base="fl"/>
   </outline>
 </glyph>

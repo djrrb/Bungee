@@ -2,7 +2,6 @@
 <glyph name="Icircumflex.salt.alt001" format="1">
   <advance width="371.0"/>
   <outline>
-    <component base="I.salt.alt001"/>
-    <component base="circumflex.alt001" xOffset="-64"/>
+    <component base="Icircumflex.salt"/>
   </outline>
 </glyph>

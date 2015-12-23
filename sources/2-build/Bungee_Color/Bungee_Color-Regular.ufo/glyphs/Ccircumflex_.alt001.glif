@@ -2,7 +2,6 @@
 <glyph name="Ccircumflex.alt001" format="1">
   <advance width="628"/>
   <outline>
-    <component base="C.alt001"/>
-    <component base="circumflex.alt001" xOffset="95"/>
+    <component base="Ccircumflex"/>
   </outline>
 </glyph>

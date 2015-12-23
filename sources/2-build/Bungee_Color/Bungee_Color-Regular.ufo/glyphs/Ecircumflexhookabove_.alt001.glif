@@ -2,7 +2,6 @@
 <glyph name="Ecircumflexhookabove.alt001" format="1">
   <advance width="654"/>
   <outline>
-    <component base="E.alt001"/>
-    <component base="circumflexhookabove.alt001" xOffset="87"/>
+    <component base="Ecircumflexhookabove"/>
   </outline>
 </glyph>

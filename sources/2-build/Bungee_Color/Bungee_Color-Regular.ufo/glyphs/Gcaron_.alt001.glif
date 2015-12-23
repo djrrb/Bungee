@@ -2,7 +2,6 @@
 <glyph name="Gcaron.alt001" format="1">
   <advance width="708"/>
   <outline>
-    <component base="G.alt001"/>
-    <component base="caron.alt001" xOffset="105"/>
+    <component base="Gcaron"/>
   </outline>
 </glyph>

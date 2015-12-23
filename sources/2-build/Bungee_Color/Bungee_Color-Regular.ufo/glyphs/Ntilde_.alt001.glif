@@ -2,7 +2,6 @@
 <glyph name="Ntilde.alt001" format="1">
   <advance width="753"/>
   <outline>
-    <component base="N.alt001"/>
-    <component base="tilde.alt001" xOffset="126"/>
+    <component base="Ntilde"/>
   </outline>
 </glyph>

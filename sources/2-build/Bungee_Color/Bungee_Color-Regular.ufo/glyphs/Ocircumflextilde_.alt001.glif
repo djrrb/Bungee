@@ -2,7 +2,6 @@
 <glyph name="Ocircumflextilde.alt001" format="1">
   <advance width="737"/>
   <outline>
-    <component base="O.alt001"/>
-    <component base="circumflextilde.alt001" xOffset="118"/>
+    <component base="Ocircumflextilde"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Ntilde.salt.alt001" format="1">
   <advance width="746"/>
   <outline>
-    <component base="N.salt.alt001"/>
-    <component base="tilde.alt001" xOffset="123"/>
+    <component base="Ntilde.salt"/>
   </outline>
 </glyph>

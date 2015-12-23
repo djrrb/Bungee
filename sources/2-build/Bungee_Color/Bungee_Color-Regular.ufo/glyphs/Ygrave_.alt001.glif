@@ -2,7 +2,6 @@
 <glyph name="Ygrave.alt001" format="1">
   <advance width="705"/>
   <outline>
-    <component base="Y.alt001"/>
-    <component base="grave.alt001" xOffset="92"/>
+    <component base="Ygrave"/>
   </outline>
 </glyph>

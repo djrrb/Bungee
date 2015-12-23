@@ -2,23 +2,6 @@
 <glyph name="blacksquare.alt001" format="1">
   <advance width="1000.0"/>
   <outline>
-    <contour>
-      <point x="720" y="176" type="curve" smooth="yes"/>
-      <point x="720" y="544" type="line" smooth="yes"/>
-      <point x="720" y="569"/>
-      <point x="709" y="580"/>
-      <point x="684" y="580" type="curve" smooth="yes"/>
-      <point x="316" y="580" type="line" smooth="yes"/>
-      <point x="291" y="580"/>
-      <point x="280" y="569"/>
-      <point x="280" y="544" type="curve" smooth="yes"/>
-      <point x="280" y="176" type="line" smooth="yes"/>
-      <point x="280" y="151"/>
-      <point x="291" y="140"/>
-      <point x="316" y="140" type="curve" smooth="yes"/>
-      <point x="684" y="140" type="line" smooth="yes"/>
-      <point x="709" y="140"/>
-      <point x="720" y="151"/>
-    </contour>
+    <component base="blacksquare"/>
   </outline>
 </glyph>

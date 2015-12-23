@@ -2,8 +2,6 @@
 <glyph name="Ldotbelowmacron.alt001" format="1">
   <advance width="695"/>
   <outline>
-    <component base="L.alt001"/>
-    <component base="dotaccent.alt001" xOffset="112" yOffset="-1000"/>
-    <component base="macron.alt001" xOffset="100"/>
+    <component base="Ldotbelowmacron"/>
   </outline>
 </glyph>

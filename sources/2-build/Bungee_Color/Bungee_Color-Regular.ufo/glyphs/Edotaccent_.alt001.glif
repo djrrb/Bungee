@@ -2,7 +2,6 @@
 <glyph name="Edotaccent.alt001" format="1">
   <advance width="654"/>
   <outline>
-    <component base="E.alt001"/>
-    <component base="dotaccent.alt001" xOffset="75"/>
+    <component base="Edotaccent"/>
   </outline>
 </glyph>

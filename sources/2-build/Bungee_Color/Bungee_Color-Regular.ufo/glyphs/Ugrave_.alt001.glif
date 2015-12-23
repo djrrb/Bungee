@@ -2,7 +2,6 @@
 <glyph name="Ugrave.alt001" format="1">
   <advance width="746"/>
   <outline>
-    <component base="U.alt001"/>
-    <component base="grave.alt001" xOffset="113"/>
+    <component base="Ugrave"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="IJ.stack.alt001" format="1">
   <advance width="1263"/>
   <outline>
-    <component base="I.alt001"/>
-    <component base="J.alt001" xOffset="575"/>
+    <component base="IJ.stack"/>
   </outline>
 </glyph>

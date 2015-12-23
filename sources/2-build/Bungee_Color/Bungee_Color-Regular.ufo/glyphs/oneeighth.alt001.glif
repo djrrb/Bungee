@@ -2,8 +2,6 @@
 <glyph name="oneeighth.alt001" format="1">
   <advance width="1183.08"/>
   <outline>
-    <component base="onesuperior.alt001"/>
-    <component base="eight.sups.alt001" xOffset="645" yOffset="-202"/>
-    <component base="fraction.alt001" xOffset="420"/>
+    <component base="oneeighth"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Racute.alt001" format="1">
   <advance width="743"/>
   <outline>
-    <component base="R.alt001"/>
-    <component base="acute.alt001" xOffset="111"/>
+    <component base="Racute"/>
   </outline>
 </glyph>

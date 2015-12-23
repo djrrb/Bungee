@@ -1,5 +1,7 @@
 
-f = CurrentFont()
+f = CurrentFont() # Bungee-Regular
+src = AllFonts()[1] # BungeeRotated-Regular
+
 print 'feature vpal {'
 
 for g in f:
@@ -15,8 +17,8 @@ for g in f:
                 yTopMargin = g.getParent().info.ascender - g.box[3]
             else:
                 yTopMargin = 0
-            yadvance =  int(f[gname].width - 1000)
-            yplacement = int(yTopMargin - f[gname].leftMargin)
+            yadvance =  int(src[gname].width - 1000)
+            yplacement = int(yTopMargin - src[gname].leftMargin)
     
             print '\tpos %s <%s %s %s %s>;' % (g.name, xplacement, yplacement, xadvance, yadvance)
     

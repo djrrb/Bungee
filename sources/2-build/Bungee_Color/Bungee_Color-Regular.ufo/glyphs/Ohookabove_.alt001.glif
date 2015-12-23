@@ -2,7 +2,6 @@
 <glyph name="Ohookabove.alt001" format="1">
   <advance width="737"/>
   <outline>
-    <component base="O.alt001"/>
-    <component base="hookcmb.alt001" xOffset="340"/>
+    <component base="Ohookabove"/>
   </outline>
 </glyph>

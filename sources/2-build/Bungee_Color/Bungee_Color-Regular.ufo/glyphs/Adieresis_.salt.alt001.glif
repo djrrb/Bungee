@@ -2,7 +2,6 @@
 <glyph name="Adieresis.salt.alt001" format="1">
   <advance width="736"/>
   <outline>
-    <component base="A.salt.alt001"/>
-    <component base="dieresis.alt001" xOffset="118"/>
+    <component base="Adieresis.salt"/>
   </outline>
 </glyph>

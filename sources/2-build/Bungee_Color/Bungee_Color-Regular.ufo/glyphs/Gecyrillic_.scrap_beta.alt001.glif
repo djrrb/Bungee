@@ -2,28 +2,6 @@
 <glyph name="Gecyrillic.scrap_beta.alt001" format="1">
   <advance width="595.0"/>
   <outline>
-    <contour>
-      <point x="260" y="0" type="line" smooth="yes"/>
-      <point x="285" y="0"/>
-      <point x="296" y="11"/>
-      <point x="296" y="36" type="curve"/>
-      <point x="296" y="529" type="line"/>
-      <point x="531" y="529" type="line" smooth="yes"/>
-      <point x="556" y="529"/>
-      <point x="567" y="540"/>
-      <point x="567" y="565" type="curve" smooth="yes"/>
-      <point x="567" y="684" type="line" smooth="yes"/>
-      <point x="567" y="709"/>
-      <point x="556" y="720"/>
-      <point x="531" y="720" type="curve" smooth="yes"/>
-      <point x="105" y="720" type="line" smooth="yes"/>
-      <point x="80" y="720"/>
-      <point x="69" y="709"/>
-      <point x="69" y="684" type="curve"/>
-      <point x="69" y="36" type="line"/>
-      <point x="69" y="11"/>
-      <point x="80" y="0"/>
-      <point x="105" y="0" type="curve" smooth="yes"/>
-    </contour>
+    <component base="Gecyrillic.scrap_beta"/>
   </outline>
 </glyph>

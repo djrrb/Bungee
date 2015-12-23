@@ -2,7 +2,6 @@
 <glyph name="semicolon.v.alt001" format="1">
   <advance width="1000"/>
   <outline>
-    <component base="period.alt001" xOffset="308" yOffset="439"/>
-    <component base="comma.alt001" xOffset="308" yOffset="92"/>
+    <component base="semicolon.v"/>
   </outline>
 </glyph>

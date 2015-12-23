@@ -2,7 +2,6 @@
 <glyph name="Egrave.salt.alt001" format="1">
   <advance width="643"/>
   <outline>
-    <component base="E.salt.alt001"/>
-    <component base="grave.alt001" xOffset="87"/>
+    <component base="Egrave.salt"/>
   </outline>
 </glyph>

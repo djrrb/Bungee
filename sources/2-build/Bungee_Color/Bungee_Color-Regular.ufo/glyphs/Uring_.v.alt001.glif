@@ -2,7 +2,6 @@
 <glyph name="Uring.v.alt001" format="1">
   <advance width="1000"/>
   <outline>
-    <component base="U.s_v.alt001"/>
-    <component base="ring.alt001" xOffset="250" yOffset="-40"/>
+    <component base="Uring.v"/>
   </outline>
 </glyph>

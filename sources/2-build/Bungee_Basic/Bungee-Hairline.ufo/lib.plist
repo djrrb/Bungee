@@ -5045,21 +5045,6 @@
 				<string>onehalf</string>
 				<string>onequarter</string>
 				<string>threequarters</string>
-				<string>Becyrillic.scrap_beta</string>
-				<string>Checyrillic.scrap_beta</string>
-				<string>Decyrillic.scrap_beta</string>
-				<string>Efcyrillic.scrap_beta</string>
-				<string>Elcyrillic.scrap_beta</string>
-				<string>Ereversedcyrillic.scrap_beta</string>
-				<string>Gecyrillic.scrap_beta</string>
-				<string>Iacyrillic.scrap_beta</string>
-				<string>Iicyrillic.scrap_beta</string>
-				<string>Pecyrillic.scrap_beta</string>
-				<string>Shchacyrillic.scrap_beta</string>
-				<string>Softsigncyrillic.scrap_beta</string>
-				<string>Ucyrillic.scrap_beta</string>
-				<string>Zhecyrillic.scrap_beta</string>
-				<string>K.salt2</string>
 				<string>Schwa</string>
 				<string>Acaron</string>
 				<string>Adotbelow</string>
@@ -5138,7 +5123,6 @@
 				<string>Yhookabove</string>
 				<string>Ytilde</string>
 				<string>Zdotbelow</string>
-				<string>Ohm</string>
 				<string>mu1</string>
 				<string>liter</string>
 				<string>kgreenlandic</string>
@@ -5260,12 +5244,8 @@
 				<string>threeeighths</string>
 				<string>fiveeighths</string>
 				<string>seveneighths</string>
-				<string>hyphentwo</string>
 				<string>figuredash</string>
 				<string>horizontalbar</string>
-				<string>increment</string>
-				<string>divisionslash</string>
-				<string>bulletoperator</string>
 				<string>colonsign</string>
 				<string>lira</string>
 				<string>naira</string>
@@ -5274,7 +5254,6 @@
 				<string>peso</string>
 				<string>guarani</string>
 				<string>cedi</string>
-				<string>copyrightsound</string>
 				<string>uni2120</string>
 				<string>estimated</string>
 				<string>blacksquare</string>
@@ -5287,7 +5266,6 @@
 				<string>blackdownpointingtriangle</string>
 				<string>blackleftpointingtriangle</string>
 				<string>blackrightpointingtriangle</string>
-				<string>sfthyphen</string>
 				<string>indianrupee</string>
 				<string>turkishlira</string>
 				<string>ruble</string>
@@ -5307,10 +5285,10 @@
 				<string>parenleft.sinf</string>
 				<string>parenright.sinf</string>
 				<string>n.sups</string>
+				<string>zero.sups</string>
 				<string>one.sups</string>
 				<string>two.sups</string>
 				<string>three.sups</string>
-				<string>zero.sups</string>
 				<string>four.sups</string>
 				<string>five.sups</string>
 				<string>six.sups</string>
@@ -7706,21 +7684,6 @@
 		<string>onehalf</string>
 		<string>onequarter</string>
 		<string>threequarters</string>
-		<string>Becyrillic.scrap_beta</string>
-		<string>Checyrillic.scrap_beta</string>
-		<string>Decyrillic.scrap_beta</string>
-		<string>Efcyrillic.scrap_beta</string>
-		<string>Elcyrillic.scrap_beta</string>
-		<string>Ereversedcyrillic.scrap_beta</string>
-		<string>Gecyrillic.scrap_beta</string>
-		<string>Iacyrillic.scrap_beta</string>
-		<string>Iicyrillic.scrap_beta</string>
-		<string>Pecyrillic.scrap_beta</string>
-		<string>Shchacyrillic.scrap_beta</string>
-		<string>Softsigncyrillic.scrap_beta</string>
-		<string>Ucyrillic.scrap_beta</string>
-		<string>Zhecyrillic.scrap_beta</string>
-		<string>K.salt2</string>
 		<string>Schwa</string>
 		<string>Acaron</string>
 		<string>Adotbelow</string>
@@ -7799,7 +7762,6 @@
 		<string>Yhookabove</string>
 		<string>Ytilde</string>
 		<string>Zdotbelow</string>
-		<string>Ohm</string>
 		<string>mu1</string>
 		<string>liter</string>
 		<string>kgreenlandic</string>
@@ -7921,12 +7883,8 @@
 		<string>threeeighths</string>
 		<string>fiveeighths</string>
 		<string>seveneighths</string>
-		<string>hyphentwo</string>
 		<string>figuredash</string>
 		<string>horizontalbar</string>
-		<string>increment</string>
-		<string>divisionslash</string>
-		<string>bulletoperator</string>
 		<string>colonsign</string>
 		<string>lira</string>
 		<string>naira</string>
@@ -7935,7 +7893,6 @@
 		<string>peso</string>
 		<string>guarani</string>
 		<string>cedi</string>
-		<string>copyrightsound</string>
 		<string>uni2120</string>
 		<string>estimated</string>
 		<string>blacksquare</string>
@@ -7948,7 +7905,6 @@
 		<string>blackdownpointingtriangle</string>
 		<string>blackleftpointingtriangle</string>
 		<string>blackrightpointingtriangle</string>
-		<string>sfthyphen</string>
 		<string>indianrupee</string>
 		<string>turkishlira</string>
 		<string>ruble</string>
@@ -7968,10 +7924,10 @@
 		<string>parenleft.sinf</string>
 		<string>parenright.sinf</string>
 		<string>n.sups</string>
+		<string>zero.sups</string>
 		<string>one.sups</string>
 		<string>two.sups</string>
 		<string>three.sups</string>
-		<string>zero.sups</string>
 		<string>four.sups</string>
 		<string>five.sups</string>
 		<string>six.sups</string>

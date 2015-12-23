@@ -2,7 +2,6 @@
 <glyph name="Zacute.alt001" format="1">
   <advance width="660"/>
   <outline>
-    <component base="Z.alt001"/>
-    <component base="acute.alt001" xOffset="90"/>
+    <component base="Zacute"/>
   </outline>
 </glyph>

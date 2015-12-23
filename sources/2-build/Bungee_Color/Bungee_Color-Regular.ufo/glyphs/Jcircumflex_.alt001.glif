@@ -2,7 +2,6 @@
 <glyph name="Jcircumflex.alt001" format="1">
   <advance width="688"/>
   <outline>
-    <component base="J.alt001"/>
-    <component base="circumflex.alt001" xOffset="252"/>
+    <component base="Jcircumflex"/>
   </outline>
 </glyph>

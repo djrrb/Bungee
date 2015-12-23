@@ -2,7 +2,6 @@
 <glyph name="Wacute.alt001" format="1">
   <advance width="831"/>
   <outline>
-    <component base="W.alt001"/>
-    <component base="acute.alt001" xOffset="175"/>
+    <component base="Wacute"/>
   </outline>
 </glyph>

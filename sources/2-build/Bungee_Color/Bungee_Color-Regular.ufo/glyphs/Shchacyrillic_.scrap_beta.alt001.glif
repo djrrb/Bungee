@@ -2,61 +2,6 @@
 <glyph name="Shchacyrillic.scrap_beta.alt001" format="1">
   <advance width="1066"/>
   <outline>
-    <contour>
-      <point x="997" y="36" type="curve" smooth="yes"/>
-      <point x="997" y="684" type="line" smooth="yes"/>
-      <point x="997" y="709"/>
-      <point x="986" y="720"/>
-      <point x="961" y="720" type="curve" smooth="yes"/>
-      <point x="809" y="720" type="line" smooth="yes"/>
-      <point x="783" y="720"/>
-      <point x="773" y="709"/>
-      <point x="773" y="684" type="curve"/>
-      <point x="773" y="189" type="line"/>
-      <point x="648" y="189" type="line"/>
-      <point x="648" y="684" type="line" smooth="yes"/>
-      <point x="648" y="709"/>
-      <point x="637" y="720"/>
-      <point x="611" y="720" type="curve" smooth="yes"/>
-      <point x="459" y="720" type="line" smooth="yes"/>
-      <point x="433" y="720"/>
-      <point x="423" y="709"/>
-      <point x="423" y="684" type="curve"/>
-      <point x="423" y="189" type="line"/>
-      <point x="298" y="189" type="line"/>
-      <point x="298" y="684" type="line" smooth="yes"/>
-      <point x="298" y="709"/>
-      <point x="287" y="720"/>
-      <point x="262" y="720" type="curve" smooth="yes"/>
-      <point x="105" y="720" type="line" smooth="yes"/>
-      <point x="80" y="720"/>
-      <point x="69" y="709"/>
-      <point x="69" y="684" type="curve"/>
-      <point x="69" y="36" type="line"/>
-      <point x="69" y="11"/>
-      <point x="80" y="0"/>
-      <point x="105" y="0" type="curve" smooth="yes"/>
-      <point x="961" y="0" type="line" smooth="yes"/>
-      <point x="986" y="0"/>
-      <point x="997" y="11"/>
-    </contour>
-    <contour>
-      <point x="1051" y="-54" type="curve" smooth="yes"/>
-      <point x="1051" y="153" type="line" smooth="yes"/>
-      <point x="1051" y="178"/>
-      <point x="1040" y="189"/>
-      <point x="1015" y="189" type="curve" smooth="yes"/>
-      <point x="863" y="189" type="line" smooth="yes"/>
-      <point x="838" y="189"/>
-      <point x="827" y="178"/>
-      <point x="827" y="153" type="curve" smooth="yes"/>
-      <point x="827" y="-54" type="line" smooth="yes"/>
-      <point x="827" y="-79"/>
-      <point x="838" y="-90"/>
-      <point x="863" y="-90" type="curve" smooth="yes"/>
-      <point x="1015" y="-90" type="line" smooth="yes"/>
-      <point x="1040" y="-90"/>
-      <point x="1051" y="-79"/>
-    </contour>
+    <component base="Shchacyrillic.scrap_beta"/>
   </outline>
 </glyph>

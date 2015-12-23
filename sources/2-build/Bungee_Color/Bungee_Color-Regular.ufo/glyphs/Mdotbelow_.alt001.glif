@@ -2,7 +2,6 @@
 <glyph name="Mdotbelow.alt001" format="1">
   <advance width="849"/>
   <outline>
-    <component base="M.alt001"/>
-    <component base="dotbelowcmb.alt001" xOffset="424"/>
+    <component base="Mdotbelow"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Eacute.alt001" format="1">
   <advance width="654"/>
   <outline>
-    <component base="E.alt001"/>
-    <component base="acute.alt001" xOffset="107"/>
+    <component base="Eacute"/>
   </outline>
 </glyph>

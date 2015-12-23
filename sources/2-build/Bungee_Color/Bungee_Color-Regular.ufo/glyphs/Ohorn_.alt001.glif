@@ -2,7 +2,6 @@
 <glyph name="Ohorn.alt001" format="1">
   <advance width="747"/>
   <outline>
-    <component base="O.alt001"/>
-    <component base="horncmb.alt001" xOffset="644"/>
+    <component base="Ohorn"/>
   </outline>
 </glyph>

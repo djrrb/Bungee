@@ -2,7 +2,6 @@
 <glyph name="Lcommaaccent.alt001" format="1">
   <advance width="695"/>
   <outline>
-    <component base="L.alt001"/>
-    <component base="commaaccent.alt001" xOffset="114"/>
+    <component base="Lcommaaccent"/>
   </outline>
 </glyph>

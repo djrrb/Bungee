@@ -2,5 +2,6 @@
 <glyph name="space.tab_en.alt001" format="1">
   <advance width="1000"/>
   <outline>
+    <component base="space.tab_en"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Dlinebelow.alt001" format="1">
   <advance width="746"/>
   <outline>
-    <component base="D.alt001"/>
-    <component base="macron.alt001" xOffset="118" yOffset="-982"/>
+    <component base="Dlinebelow"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="brevetilde.alt001" format="1">
   <advance width="500"/>
   <outline>
-    <component base="breve.alt001"/>
-    <component base="tilde.alt001" yOffset="260"/>
+    <component base="brevetilde"/>
   </outline>
 </glyph>

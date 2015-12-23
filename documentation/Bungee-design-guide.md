@@ -18,7 +18,7 @@ The basic *Bungee* family includes Regular and Hairline weights, as well as thre
 
 ## Using chromatic layers
 
-### Desktop apps
+### In design apps
 
 No design apps have native support for chromatic layers.
 
@@ -42,7 +42,9 @@ Bungee.js has a bit of javascript that will duplicate text in overlaid <div>s, g
 
 Warning: This solution requires loading multiple fonts, which will increase bandwidth usage and download times. 
 
-When only single letters or small bits of text are required, an alternative approach is to use a SVG with alternate text.
+### As an image
+
+When only single letters or small bits of text are required, use a SVG with alternate text specified.
 
 	<img src="images/layeredText.svg" alt="Layered text" />
 
@@ -50,7 +52,7 @@ When only single letters or small bits of text are required, an alternative appr
 
 [screenshot of color font used on desktop machine]
 
-The *Bungee Color* family contains experimental fonts in the various color font formats out there, including SVG (Adobe/Mozilla), COLR/CPAL (Microsoft) and sbix (Apple). 
+The *Bungee Color* family contains experimental fonts in the various color font formats out there, including SVG (Adobe/Mozilla), COLR/CPAL (Microsoft) and sbix (Apple).
 
 These fonts were built with Jens Kutilek’s <a href="https://github.com/fontfont/RoboChrome">RoboChrome</a>.
 
@@ -102,10 +104,9 @@ Apps that do not support vertical text include:
 * Apple Pages
 * Adobe InDesign
 
-
 ### On the web with vertical text
 
-The proper way to implement vertical text is via the CSS **writing-mode** and **text-orientation** selector, as well as implementing. This will work in recent versions of IE, Firefox, and Chrome.
+The proper way to implement vertical text is via the CSS **writing-mode** and **text-orientation** selector, as well as implementing. This will work in recent versions of IE, Firefox, and Chrome, but not in older browsers or Safari.
 
 	<style type="text/css">
 		.vertical {
@@ -132,12 +133,11 @@ Learn more about vertical writing modes at http://generatedcontent.org/post/4538
 	
 ### On the web with rotated text
 	
-Alternatively, *Bungee Layers Rotated* fonts and a rotated div to simulate the effect.
+Alternatively, *Bungee Layers Rotated* fonts and a rotated div to simulate the effect. This will require you
+to reposition the div using margins or absolute positioning.
 
 		.rotated {
 			font-family: "BungeeLayersRotated";
-			display: inline-block;
-			margin-top: 2em;
 			-webkit-transform: rotate(90deg);
 			-moz-transform: rotate(90deg);
 			-o-transform: rotate(90deg);
@@ -147,9 +147,10 @@ Alternatively, *Bungee Layers Rotated* fonts and a rotated div to simulate the e
 		
 		<div class="rotated">Bungee</div>
 
+
 ## Stylistic alternates
 
-As a display font, Bungee is intended for small bits of, sometimes even single words.
+As a display font, Bungee is only intended for small bits of text, sometimes even single words.
 
 * Stylistic Set 01: Round Forms.
 

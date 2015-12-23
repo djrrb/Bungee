@@ -2,7 +2,6 @@
 <glyph name="Edotbelow.alt001" format="1">
   <advance width="654"/>
   <outline>
-    <component base="E.alt001"/>
-    <component base="dotbelowcmb.alt001" xOffset="340"/>
+    <component base="Edotbelow"/>
   </outline>
 </glyph>

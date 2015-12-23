@@ -2,7 +2,6 @@
 <glyph name="Rdotbelow.alt001" format="1">
   <advance width="743"/>
   <outline>
-    <component base="R.alt001"/>
-    <component base="dotbelowcmb.alt001" xOffset="387"/>
+    <component base="Rdotbelow"/>
   </outline>
 </glyph>

@@ -2,7 +2,6 @@
 <glyph name="Wdieresis.alt001" format="1">
   <advance width="831"/>
   <outline>
-    <component base="W.alt001"/>
-    <component base="dieresis.alt001" xOffset="165"/>
+    <component base="Wdieresis"/>
   </outline>
 </glyph>

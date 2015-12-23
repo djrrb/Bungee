@@ -2,7 +2,6 @@
 <glyph name="Wgrave.salt_v.alt001" format="1">
   <advance width="1000"/>
   <outline>
-    <component base="grave.alt001" xOffset="250" yOffset="-40"/>
-    <component base="W.salt_s_v.alt001"/>
+    <component base="Wgrave.salt_v"/>
   </outline>
 </glyph>

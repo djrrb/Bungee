@@ -2,7 +2,6 @@
 <glyph name="Gbreve.alt001" format="1">
   <advance width="708"/>
   <outline>
-    <component base="G.alt001"/>
-    <component base="breve.alt001" xOffset="124"/>
+    <component base="Gbreve"/>
   </outline>
 </glyph>

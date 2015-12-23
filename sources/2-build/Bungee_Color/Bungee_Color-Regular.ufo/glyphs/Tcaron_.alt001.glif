@@ -2,7 +2,6 @@
 <glyph name="Tcaron.alt001" format="1">
   <advance width="656"/>
   <outline>
-    <component base="T.alt001"/>
-    <component base="caron.alt001" xOffset="78"/>
+    <component base="Tcaron"/>
   </outline>
 </glyph>
