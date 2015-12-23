@@ -82,6 +82,8 @@ Several professional design applications have separate vertical text tools, whic
 
 <img src="images/design-vertical-text.png" style="width: 6em" alt="Vertical Type tool in Adobe Illustrator" width="600" />
 
+In most apps, the Character palette provides options for vertical tracking and kerning.
+
 Desktop apps that natively support vertical text include:
 
 * Adobe Photoshop
@@ -228,11 +230,13 @@ In addition to its stylistic alternates, Bungee also contains several OpenType S
 * Stylistic Set 19: Primes.
 
 
-## Using Ornaments
+## Ornaments
 
-Bungee has a set of ornaments that you can use to assemble additional chromatic layers.
+In addition to its arrows and pointing indexes, Bungee has a nice set of ornaments that you can use to assemble additional chromatic layers.
 
 Some ornaments are designed to connect seamlessly to other ornaments, which you can use to create continuous banners. If you center-align the entire text block, you will not have to worry as much about making the layers line up.
+
+For example, you can compose a directional sign out of a half circle, two square blocks, and an arrowhead.
 
 <img src="images/design-ornaments-layer.png" style="height: 3em" alt="Ornaments as layers." width="600" />
 
@@ -252,3 +256,4 @@ Add *280 units* to the alphabetical layers to make them line up with the indepen
 
 <img src="images/design-ornaments-independent.png" style="height: 3em" alt="Using independent ornaments." width="600" />
 
+Note that not all ornaments are available in Bungee’s Inline and Shade layers.
