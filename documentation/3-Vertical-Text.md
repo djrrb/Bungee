@@ -35,15 +35,15 @@ In apps that do not have native vertical text tools, the *Bungee Layers Rotated*
 
 These fonts have Bungee’s vertical forms, spacing, and kerning baked in to the default forms, and all characters are rotated 90° counterclockwise. 
 
-1. Set the text. 
+Set the text. 
 
 <img src="images/design-vertical-1.png" alt="Rotated vertical text, step 1" width="650" />
 
-2. Change the font family to *Bungee Layers Rotated*.
+Change the font family to *Bungee Layers Rotated*.
 
 <img src="images/design-vertical-2.png" alt="Rotated vertical text, step 2" width="650" />
 
-3. Rotate the text block 90° counterclockwise. 
+Finally, rotate the text block 90° counterclockwise. 
 
 <img src="images/design-vertical-3.png" alt="Rotated vertical text, step 3" width="650" />
 

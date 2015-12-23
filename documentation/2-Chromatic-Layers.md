@@ -4,19 +4,19 @@
 
 No design apps have native support for chromatic layers.
 
-1. In one text box, set a line of matching text for each layer. Using the *Bungee Layers* font, style each line, starting with the backmost layer (Shade) and ending with the frontmost (Inline).
+In one text box, set a line of matching text for each layer. Using the *Bungee Layers* font, style each line, starting with the backmost layer (Shade) and ending with the frontmost (Inline).
 
 <img src="images/design-layers-1.png" alt="Step 1" width="650" />
 
-2. Add colors to each line.
+Add colors to each line.
 
 <img src="images/design-layers-2.png" alt="Step 2" width="650" />
 
-3. When you are finished, select all of the text, and set the leading/linespacing to 0.
+When you are finished, select all of the text, and set the leading/linespacing to 0.
 
 <img src="images/design-layers-3.png" alt="Step 3" width="650" />
 
-4. To edit the text, do a find and replace, or increase the leading.
+To edit the text, do a find and replace, or increase the leading.
 
 Instead of zeroing out the leading, you can also set each layer in a separate text block, but it takes additional work to manage their alignment and arrangement in the z axis.
 
