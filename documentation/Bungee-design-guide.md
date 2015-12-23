@@ -24,15 +24,15 @@ No design apps have native support for chromatic layers.
 
 1. In one text box, set a line of matching text for each layer. Using the *Bungee Layers* font, style each line, starting with the backmost layer (Shade) and ending with the frontmost (Inline).
 
-<img src="images/design-layers-1.png" style="width: 6em" alt="Step 1" width="600" />
+<img src="images/design-layers-1.png" alt="Step 1" width="650" />
 
 2. Add colors to each line.
 
-<img src="images/design-layers-2.png" style="width: 6em" alt="Step 2" width="600" />
+<img src="images/design-layers-2.png" alt="Step 2" width="650" />
 
 3. When you are finished, select all of the text, and set the leading/linespacing to 0.
 
-<img src="images/design-layers-3.png" style="width: 6em" alt="Step 3" width="600" />
+<img src="images/design-layers-3.png" alt="Step 3" width="650" />
 
 4. To edit the text, do a find and replace, or increase the leading.
 
@@ -80,7 +80,7 @@ Adjust the vertical spacing of individual glyph pairs so that they are more even
 
 Several professional design applications have separate vertical text tools, which will implement all of the necessary OpenType features and provide a nice interface for setting vertical text.
 
-<img src="images/design-vertical-text.png" style="width: 6em" alt="Vertical Type tool in Adobe Illustrator" width="600" />
+<img src="images/design-vertical-text.png" alt="Vertical Type tool in Adobe Illustrator" width="650" />
 
 In most apps, the Character palette provides options for vertical tracking and kerning.
 
@@ -98,15 +98,15 @@ These fonts have Bungee’s vertical forms, spacing, and kerning baked in to the
 
 1. Set the text. 
 
-<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 1" width="600" />
+<img src="images/design-vertical-1.png" alt="Rotated vertical text, step 1" width="650" />
 
 2. Change the font family to *Bungee Layers Rotated*.
 
-<img src="images/design-vertical-2.png" style="width: 6em" alt="Rotated vertical text, step 2" width="600" />
+<img src="images/design-vertical-2.png" alt="Rotated vertical text, step 2" width="650" />
 
 3. Rotate the text block 90° counterclockwise. 
 
-<img src="images/design-vertical-3.png" style="width: 6em" alt="Rotated vertical text, step 3"  height="500" />
+<img src="images/design-vertical-3.png" alt="Rotated vertical text, step 3" width="650" />
 
 Voilà! Pseudo-vertical text.
 
@@ -169,7 +169,7 @@ As a display font, Bungee is only intended for small bits of text, sometimes eve
 
 Replace diagonal forms of A, M, N, W, X, and Y with deco-inspired alternates with round shapes and vertical sides. 
 
-<img src="images/design-alternates-round-forms.png" style="height: 3em" alt="Round forms" height="200" />
+<img src="images/design-alternates-round-forms.png" alt="Round forms" height="200" />
 
 
 Each of these letters can also be implemented separately using the following stylistic sets:
@@ -185,7 +185,7 @@ Each of these letters can also be implemented separately using the following sty
 
 Replace wide, serifed I with an unserifed alternate. This is a very narrow character that may result in less-than-ideal vertical setting.
 
-<img src="images/design-alternates-i.png" style="height: 3em" alt="Serifless I" height="200" />
+<img src="images/design-alternates-i.png" alt="Serifless I" height="200" />
 
 For all you Hawaiians out there, there’s also a special serifless II ligature!
 
@@ -193,31 +193,31 @@ For all you Hawaiians out there, there’s also a special serifless II ligature!
 
 Replace forms of E with an decorative alternate with a rounded left side.
 
-<img src="images/design-alternates-e.png" style="height: 3em" alt="Round E" height="200" />
+<img src="images/design-alternates-e.png" alt="Round E" height="200" />
 	
 * Stylistic Set 04: Alternate Ampersand.
 
 Replace the default ‘ET’ ampersand with an alternate that resembles a stylized ‘E’ with a vertical stroke.
 	
-<img src="images/design-alternates-ampersand.png" style="height: 3em" alt="Alternate ampersand" height="200" />
+<img src="images/design-alternates-ampersand.png" alt="Alternate ampersand" height="200" />
 	
 * Stylistic Set 12: Small Quotes.
 
 Replace the curly apostrophe and matching left quote with smaller, less obtrusive versions.
 
-<img src="images/design-alternates-apostrophe.png" style="height: 3em" alt="Small quotes" height="200" />
+<img src="images/design-alternates-apostrophe.png" alt="Small quotes" height="200" />
 
 * Stylistic Set 18: John Downer Recommendations.
 
 Signpainter John Downer recommends against vertical type that includes problematic characters like I, M, and W, which are unusually narrow or wide. This feature disables those characters.
 
-<img src="images/design-alternates-downer.png" style="width: 3em" alt="Downer"  width="200"/>
+<img src="images/design-alternates-downer.png" style="width: 3em" alt="Downer" width="200"/>
 
 * Stylistic Set 20: Vertical forms.
 
 Activate Bungee’s vertical forms (identical to the *vert* feature). These forms are better accessed through the vertical text features described above, but this stylistic set can be handy when such tools are not available, or when monowidth letters are required in a non-vertical setting.
 
-<img src="images/design-alternates-vertical.png" style="height: 3em" alt="Vertical forms" height="200" />
+<img src="images/design-alternates-vertical.png" alt="Vertical forms" height="200" />
 
 ### Minor opentype features
 
@@ -238,22 +238,22 @@ Some ornaments are designed to connect seamlessly to other ornaments, which you 
 
 For example, you can compose a directional sign out of a half circle, two square blocks, and an arrowhead.
 
-<img src="images/design-ornaments-layer.png" style="height: 3em" alt="Ornaments as layers." width="600" />
+<img src="images/design-ornaments-layer.png" alt="Ornaments as layers." width="650" />
 
 In design apps, ornaments can be easily accessed via the Glyph palette.
 
-<img src="images/design-ornaments-glyph-palette.png" style="height: 3em" alt="Glyph palette in Illustrator." width="600" />
+<img src="images/design-ornaments-glyph-palette.png" alt="Glyph palette in Illustrator." width="600" />
 
 You can use horizontal scaling and tracking/letter-spacing to make minor adjustments to the positions.
 
-<img src="images/design-ornaments-scale.png" style="height: 3em" alt="Horizontal scaling in Illustrator." width="600" />
+<img src="images/design-ornaments-scale.png" alt="Horizontal scaling in Illustrator." width="600" />
 
 Other ornaments can be set independently to encircle a single letter. Use these shapes behind Bungee’s vertical forms (accessible via the glyph palette, under Stylistic Set 20), since they are all approximately the same width. 
 
-<img src="images/design-ornaments-independent-2.png" style="height: 3em" alt="Independent ornaments." width="600" />
+<img src="images/design-ornaments-independent-2.png" alt="Independent ornaments." width="650" />
 
 Add *280 units* to the alphabetical layers to make them line up with the independent ornaments.
 
-<img src="images/design-ornaments-independent.png" style="height: 3em" alt="Using independent ornaments." width="600" />
+<img src="images/design-ornaments-independent.png" alt="Using independent ornaments." width="650" />
 
 Note that not all ornaments are available in Bungee’s Inline and Shade layers.
