@@ -167,7 +167,7 @@ As a display font, Bungee is only intended for small bits of text, sometimes eve
 
 Replace diagonal forms of A, M, N, W, X, and Y with deco-inspired alternates with round shapes and vertical sides. 
 
-<img src="images/design-alternates-round-forms.svg" style="max-height: 4em" alt="Round forms" />
+<img src="images/design-alternates-round-forms.png" style="max-height: 4em" alt="Round forms" />
 
 
 Each of these letters can also be implemented separately using the following stylistic sets:
@@ -183,7 +183,7 @@ Each of these letters can also be implemented separately using the following sty
 
 Replace wide, serifed I with an unserifed alternate. This is a very narrow character that may result in less-than-ideal vertical setting.
 
-<img src="images/design-alternates-i.svg" style="max-height: 4em" alt="Serifless I" />
+<img src="images/design-alternates-i.png" style="max-height: 4em" alt="Serifless I" />
 
 For all you Hawaiians out there, there’s also a special serifless II ligature!
 
@@ -191,31 +191,31 @@ For all you Hawaiians out there, there’s also a special serifless II ligature!
 
 Replace forms of E with an decorative alternate with a rounded left side.
 
-<img src="images/design-alternates-e.svg" style="max-height: 4em" alt="Round E" />
+<img src="images/design-alternates-e.png" style="max-height: 4em" alt="Round E" />
 	
 * Stylistic Set 04: Alternate Ampersand.
 
 Replace the default ‘ET’ ampersand with an alternate that resembles a stylized ‘E’ with a vertical stroke.
 	
-<img src="images/design-alternates-ampersand.svg" style="max-height: 4em" alt="Alternate ampersand" />
+<img src="images/design-alternates-ampersand.png" style="max-height: 4em" alt="Alternate ampersand" />
 	
 * Stylistic Set 12: Small Quotes.
 
 Replace the curly apostrophe and matching left quote with smaller, less obtrusive versions.
 
-<img src="images/design-alternates-apostrophe.svg" style="max-height: 4em" alt="Small quotes" />
+<img src="images/design-alternates-apostrophe.png" style="max-height: 4em" alt="Small quotes" />
 
 * Stylistic Set 18: John Downer Recommendations.
 
 Signpainter John Downer recommends against vertical type that includes problematic characters like I, M, and W, which are unusually narrow or wide. This feature disables those characters.
 
-<img src="images/design-alternates-downer.svg" style="max-width: 4em" alt="Downer" />
+<img src="images/design-alternates-downer.png" style="max-width: 4em" alt="Downer" />
 
 * Stylistic Set 20: Vertical forms.
 
 Activate Bungee’s vertical forms (identical to the *vert* feature). These forms are better accessed through the vertical text features described above, but this stylistic set can be handy when such tools are not available, or when monowidth letters are required in a non-vertical setting.
 
-<img src="images/design-alternates-vertical.svg" style="max-height: 4em" alt="Vertical forms" />
+<img src="images/design-alternates-vertical.png" style="max-height: 4em" alt="Vertical forms" />
 
 ### Other opentype features
 
