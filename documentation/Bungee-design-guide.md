@@ -24,15 +24,15 @@ No design apps have native support for chromatic layers.
 
 1. In one text box, set a line of matching text for each layer. Using the *Bungee Layers* font, style each line, starting with the backmost layer (Shade) and ending with the frontmost (Inline).
 
-<img src="images/design-layers-1.png" style="max-width: 10em" alt="Step 1" />
+<img src="images/design-layers-1.png" style="max-width: 6em" alt="Step 1" />
 
 2. Add colors to each line.
 
-<img src="images/design-layers-2.png" style="max-width: 10em" alt="Step 2" />
+<img src="images/design-layers-2.png" style="max-width: 6em" alt="Step 2" />
 
 3. When you are finished, select all of the text, and set the leading/linespacing to 0.
 
-<img src="images/design-layers-3.png" style="max-width: 10em" alt="Step 3" />
+<img src="images/design-layers-3.png" style="max-width: 6em" alt="Step 3" />
 
 4. To edit the text, do a find and replace, or increase the leading.
 
@@ -80,7 +80,7 @@ Adjust the vertical spacing of individual glyph pairs so that they are more even
 
 Several professional design applications have separate vertical text tools, which will implement all of the necessary OpenType features and provide a nice interface for setting vertical text.
 
-<img src="images/design-vertical-type.png" style="max-width: 10em" alt="Vertical Type tool in Adobe Illustrator" />
+<img src="images/design-vertical-text.png" style="max-width: 6em" alt="Vertical Type tool in Adobe Illustrator" />
 
 Desktop apps that natively support vertical text include:
 
