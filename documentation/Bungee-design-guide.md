@@ -42,8 +42,8 @@ Instead of zeroing out the leading, you can also set each layer in a separate te
 
 Bungee.js is a bit of javascript that will duplicate text in overlaid <div>s, giving the appearance of layered text without cluttering your markup.
 
-	&lt;script type="text/javascript" src="bungee.js">
-	&lt;div id="bungee">Layered text!&lt;/div>
+	<script type="text/javascript" src="bungee.js">
+	<div id="bungee">Layered text!</div>
 
 Warning: This solution requires loading multiple fonts, which will increase bandwidth usage and download times. 
 
@@ -51,7 +51,7 @@ Warning: This solution requires loading multiple fonts, which will increase band
 
 When only single letters or small bits of text are required, use a SVG with alternate text specified.
 
-	&lt;img src="images/layeredText.svg" alt="Layered text" />
+	<svg src="images/layeredText.svg" alt="Layered text" />
 
 ### Color font formats
 
@@ -96,7 +96,7 @@ These fonts have Bungee’s vertical forms, spacing, and kerning baked in to the
 
 1. Set the text. 
 
-<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 1" />
+<img src="images/design-vertical-1.png" style="width: 6em" alt="Rotated vertical text, step 1" width="6em" />
 
 2. Change the font family to *Bungee Layers Rotated*.
 
@@ -183,7 +183,7 @@ Each of these letters can also be implemented separately using the following sty
 
 Replace wide, serifed I with an unserifed alternate. This is a very narrow character that may result in less-than-ideal vertical setting.
 
-<img src="images/design-alternates-i.png" style="height: 3em" alt="Serifless I" />
+<img src="images/design-alternates-i.png" style="height: 3em" alt="Serifless I" height="200" />
 
 For all you Hawaiians out there, there’s also a special serifless II ligature!
 
