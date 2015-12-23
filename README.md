@@ -1,12 +1,14 @@
 # Bungee
 
-In the crowded urban environment, space is always at a premium. From dumpy liquor stores to majestic theaters, sometimes signage has nowhere to go but up. Bungee is a font that wrangles the Latin alphabet to work vertically as well as horizontally; with separately glyphs, spacing, and kerning for each orientation. Bungee and comes equipped with chromatic inlines, outlines, shades, and ornaments, making it the perfect toolkit to take your sign in a new direction.
+In the crowded urban environment, space for signage is always at a premium. From dumpy liquor stores to majestic theaters, sometimes signs have nowhere to go but up. Bungee is a font family that celebrates urban signage. It wrangles the Latin alphabet to work vertically as well as horizontally; with separately glyphs, spacing, and kerning for each orientation. Bungee and comes equipped with chromatic inlines, outlines, shades, and ornaments, making it the perfect toolkit to take your text in a new direction.
 
-See more about Bungee at http://bungee.djr.com.
+See more about Bungee’s design at [http://bungee.djr.com].
+
 
 ## Specimen
 
 <img src="specimen.png" alt="Bungee Specimen" />
+
 
 ## Family structure
 
@@ -14,19 +16,21 @@ Bungee contains several different font sets that allow access to the chromatic l
 
 The basic *Bungee* family includes Regular and Hairline weights, as well as three composite layerings: Inline, Outline, and Shade.
 
-*Bungee Layers* contains each layer in a separate font, which all share the same metrics. These fonts can be used in combination to create chromatic text by using layered textboxes in a website or advanced design app.
+*Bungee Layers* contains each layer in a separate font, which can be used in combination to create chromatic text.
 
-*Bungee Layers Rotated* implements Bungee’s vertical forms by default, with all characters rotated 90° counterclockwise. These fonts can be set in a textbox rotated 90° clockwise to simulate vertical type, and have a limited character set.
+*Bungee Layers Rotated* implements Bungee’s vertical forms by default, with all characters rotated 90° counterclockwise. These fonts can be set in a textbox rotated 90° clockwise to simulate vertical type.
 
 *Bungee Color* contains experiments with the various color font formats out there, including SVG, COLR/CPAL and sbix. None of these formats are widely supported (yet!), so your milage may vary. These fonts are built with Jens Kutilek’s <a href="https://github.com/fontfont/RoboChrome">RoboChrome</a>.
 
-In all fonts besides *Bungee Layers Rotated*, Bungee’s vertical forms are accessed via the *vert* and *vpal* OpenType features. These features are activated by vertical typesetting tools in design apps, or in CSS using *writing-mode: vertical-rl*.
+<a href="/documentation">Check out the docs</a> to learn more about how to use Bungee’s chromatic layers, vertical forms, stylistic alternates, and ornaments.
 
 Bungee was designed in <a href="http://www.robofont.com">RoboFont</a> and its drawing and build sources are available in <a href="http://www.unifiedfontobject.org">UFO format</a>.
 
+
 ## License
 
-This Font Software is currently unlicensed, and will be licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at http://scripts.sil.org/OFL
+Thanks to support from Google and The Font Bureau, Bungee is released under the SIL Open Font License. This license is available with a FAQ at http://scripts.sil.org/OFL
+
 
 ## Repository Layout
 
