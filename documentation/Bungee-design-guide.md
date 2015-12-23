@@ -96,15 +96,15 @@ These fonts have Bungee’s vertical forms, spacing, and kerning baked in to the
 
 1. Set the text. 
 
-<img src="images/design-vertical-1.png" style="max-width: 10em" alt="Rotated vertical text, step 1" />
+<img src="images/design-vertical-1.png" style="max-width: 6em" alt="Rotated vertical text, step 1" />
 
 2. Change the font family to *Bungee Layers Rotated*.
 
-<img src="images/design-vertical-1.png" style="max-width: 10em" alt="Rotated vertical text, step 2" />
+<img src="images/design-vertical-1.png" style="max-width: 6em" alt="Rotated vertical text, step 2" />
 
 3. Rotate the text block 90° counterclockwise. 
 
-<img src="images/design-vertical-1.png" style="max-width: 10em" alt="Rotated vertical text, step 3" />
+<img src="images/design-vertical-1.png" style="max-width: 6em" alt="Rotated vertical text, step 3" />
 
 Voilà! Pseudo-vertical text.
 
