@@ -27,6 +27,9 @@ The basic *Bungee* family includes Regular and Hairline weights, as well as thre
 Bungee was designed in <a href="http://www.robofont.com">RoboFont</a> and its drawing and build sources are available in <a href="http://www.unifiedfontobject.org">UFO format</a>.
 
 
+<img src="specimen2.png" alt="Another Bungee Specimen" />
+
+
 ## License
 
 Thanks to support from Google and The Font Bureau, Bungee is released under the SIL Open Font License. This license is available with a FAQ at http://scripts.sil.org/OFL
