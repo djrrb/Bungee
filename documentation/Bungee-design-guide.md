@@ -24,21 +24,26 @@ No design apps have native support for chromatic layers.
 
 1. In one text box, set a line of matching text for each layer. Using the *Bungee Layers* font, style each line, starting with the backmost layer (Shade) and ending with the frontmost (Inline).
 
+<img src="images/design-layers-1.png" style="max-width: 10em" alt="Step 1" />
+
 2. Add colors to each line.
+
+<img src="images/design-layers-2.png" style="max-width: 10em" alt="Step 2" />
 
 3. When you are finished, select all of the text, and set the leading/linespacing to 0.
 
+<img src="images/design-layers-3.png" style="max-width: 10em" alt="Step 3" />
+
 4. To edit the text, do a find and replace, or increase the leading.
 
-Instead of zeroing out the leading, you can also set each layer in a separate text block, and manage their arrangement in the z axis.
-
+Instead of zeroing out the leading, you can also set each layer in a separate text block, but it takes additional work to manage their alignment and arrangement in the z axis.
 
 ### On the web
 
-Bungee.js has a bit of javascript that will duplicate text in overlaid <div>s, giving the appearance of layered text without cluttering your markup.
+Bungee.js is a bit of javascript that will duplicate text in overlaid <div>s, giving the appearance of layered text without cluttering your markup.
 
-	<script type="text/javascript" src="bungee.js">
-	<div id="bungee">Layered text!</div>
+	&lt;script type="text/javascript" src="bungee.js">
+	&lt;div id="bungee">Layered text!&lt;/div>
 
 Warning: This solution requires loading multiple fonts, which will increase bandwidth usage and download times. 
 
@@ -46,11 +51,9 @@ Warning: This solution requires loading multiple fonts, which will increase band
 
 When only single letters or small bits of text are required, use a SVG with alternate text specified.
 
-	<img src="images/layeredText.svg" alt="Layered text" />
+	&lt;img src="images/layeredText.svg" alt="Layered text" />
 
 ### Color font formats
-
-[screenshot of color font used on desktop machine]
 
 The *Bungee Color* family contains experimental fonts in the various color font formats out there, including SVG (Adobe/Mozilla), COLR/CPAL (Microsoft) and sbix (Apple).
 
@@ -77,6 +80,8 @@ Adjust the vertical spacing of individual glyph pairs so that they are more even
 
 Several professional design applications have separate vertical text tools, which will implement all of the necessary OpenType features and provide a nice interface for setting vertical text.
 
+<img src="images/design-vertical-type.png" style="max-width: 10em" alt="Vertical Type tool in Adobe Illustrator" />
+
 Desktop apps that natively support vertical text include:
 
 * Adobe Photoshop
@@ -91,9 +96,15 @@ These fonts have Bungee’s vertical forms, spacing, and kerning baked in to the
 
 1. Set the text. 
 
-2. Change the font to *Bungee Layers Rotated*.
+<img src="images/design-vertical-1.png" style="max-width: 10em" alt="Rotated vertical text, step 1" />
+
+2. Change the font family to *Bungee Layers Rotated*.
+
+<img src="images/design-vertical-1.png" style="max-width: 10em" alt="Rotated vertical text, step 2" />
 
 3. Rotate the text block 90° counterclockwise. 
+
+<img src="images/design-vertical-1.png" style="max-width: 10em" alt="Rotated vertical text, step 3" />
 
 Voilà! Pseudo-vertical text.
 
@@ -156,6 +167,9 @@ As a display font, Bungee is only intended for small bits of text, sometimes eve
 
 Replace diagonal forms of A, M, N, W, X, and Y with deco-inspired alternates with round shapes and vertical sides. 
 
+<img src="images/design-alternates-round-forms.svg" style="max-height: 4em" alt="Round forms" />
+
+
 Each of these letters can also be implemented separately using the following stylistic sets:
 	
 	* Stylistic Set 05: Round A.
@@ -169,50 +183,50 @@ Each of these letters can also be implemented separately using the following sty
 
 Replace wide, serifed I with an unserifed alternate. This is a very narrow character that may result in less-than-ideal vertical setting.
 
-For all you Hawaiians out there, I drew a special serifless vertical II ligature. Let me know if you actually find a way to use it!
+<img src="images/design-alternates-i.svg" style="max-height: 4em" alt="Serifless I" />
+
+For all you Hawaiians out there, there’s also a special serifless II ligature!
 
 * Stylistic Set 03: Round E.
-	
+
 Replace forms of E with an decorative alternate with a rounded left side.
+
+<img src="images/design-alternates-e.svg" style="max-height: 4em" alt="Round E" />
 	
 * Stylistic Set 04: Alternate Ampersand.
 
 Replace the default ‘ET’ ampersand with an alternate that resembles a stylized ‘E’ with a vertical stroke.
 	
+<img src="images/design-alternates-ampersand.svg" style="max-height: 4em" alt="Alternate ampersand" />
+	
 * Stylistic Set 12: Small Quotes.
 
 Replace the curly apostrophe and matching left quote with smaller, less obtrusive versions.
+
+<img src="images/design-alternates-apostrophe.svg" style="max-height: 4em" alt="Small quotes" />
 
 * Stylistic Set 18: John Downer Recommendations.
 
 Signpainter John Downer recommends against vertical type that includes problematic characters like I, M, and W, which are unusually narrow or wide. This feature disables those characters.
 
+<img src="images/design-alternates-downer.svg" style="max-width: 4em" alt="Downer" />
+
 * Stylistic Set 20: Vertical forms.
 
 Activate Bungee’s vertical forms (identical to the *vert* feature). These forms are better accessed through the vertical text features described above, but this stylistic set can be handy when such tools are not available, or when monowidth letters are required in a non-vertical setting.
 
-## Other OpenType features
+<img src="images/design-alternates-vertical.svg" style="max-height: 4em" alt="Vertical forms" />
+
+### Other opentype features
 
 In addition to its stylistic alternates, Bungee also contains several OpenType Stylistic Sets for easy access to certain characters or alternate forms.
 
 * Stylistic Set 11: Sequential IJ.
-
-Deactivate the ligated form of the Ĳ glyph.
-
-* Stylistic Set 13: Indexes.
-
-Replace directional arrows with pointing hands.
-
-* Stylistic Set 14: Alternate Indexes.
-
-Replace directional arrows and pointing hands with alternate hands where the pointer and thumb are shown.
-
-* Stylistic Set 15: Outline Indexes.
-
-Replace filled indexes with outlined versions.
-
 * Stylistic Set 19: Primes.
+* Stylistic Set 13: Indexes.
+* Stylistic Set 13: Alternate Indexes.
+* Stylistic Set 13: Outlined Indexes.
 
-Replace straight single and double quote with angled minute and second glyphs.
 
+## Tips and Tricks
 
