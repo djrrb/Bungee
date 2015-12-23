@@ -22,7 +22,7 @@ Instead of zeroing out the leading, you can also set each layer in a separate te
 
 ## On the web
 
-Bungee.js is a bit of javascript that will duplicate text in overlaid <div>s, giving the appearance of layered text without cluttering your markup.
+Bungee.js is a bit of javascript that will duplicate text in overlaid `div`s, giving the appearance of layered text without cluttering your markup.
 
 	<script type="text/javascript" src="bungee.js">
 	<div id="bungee">Layered text!</div>
