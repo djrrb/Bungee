@@ -16,9 +16,9 @@ The basic *Bungee* family includes Regular and Hairline weights, as well as thre
 *Bungee Color* contains experiments with the various color font formats out there, including SVG, COLR/CPAL and sbix. None of these formats are widely supported (yet!), so your milage may vary. These fonts are built with Jens Kutilek’s <a href="https://github.com/fontfont/RoboChrome">RoboChrome</a>.
 
 
-## Using chromatic layers 	{#layers}
+## Using chromatic layers 	<a name="#layers"></a>
 
-### In design apps			{#layers-app}
+### In design apps			<a name="#layers-app"></a>
 
 No design apps have native support for chromatic layers.
 
@@ -38,7 +38,7 @@ No design apps have native support for chromatic layers.
 
 Instead of zeroing out the leading, you can also set each layer in a separate text block, but it takes additional work to manage their alignment and arrangement in the z axis.
 
-### On the web			{#layers-web}
+### On the web			<a name="#layers-web"></a>
 
 Bungee.js is a bit of javascript that will duplicate text in overlaid <div>s, giving the appearance of layered text without cluttering your markup.
 
@@ -47,20 +47,20 @@ Bungee.js is a bit of javascript that will duplicate text in overlaid <div>s, gi
 
 Warning: This solution requires loading multiple fonts, which will increase bandwidth usage and download times. 
 
-### As an image			{#layers-image}
+### As an image			<a name="#layers-image"></a>
 
 When only single letters or small bits of text are required, use a SVG with alternate text specified.
 
 	<svg src="images/layeredText.svg" alt="Layered text" />
 
-### Color font formats			{#color-fonts}
+### Color font formats			<a name="#color-fonts"></a>
 
 The *Bungee Color* family contains experimental fonts in the various color font formats out there, including SVG (Adobe/Mozilla), COLR/CPAL (Microsoft) and sbix (Apple).
 
 These fonts were built with Jens Kutilek’s <a href="https://github.com/fontfont/RoboChrome">RoboChrome</a>.
 
 
-## Using vertical text		{#vertical}
+## Using vertical text		<a name="#vertical"></a>
 
 Bungee’s vertical features are implemented via three OpenType features:
 
@@ -76,7 +76,7 @@ Reset the vertical sidebearings and advance heights for the glyphs. This feature
 
 Adjust the vertical spacing of individual glyph pairs so that they are more evenly spaced.
 
-### Apps that support vertical text		{#vertical-type-tool}
+### Apps that support vertical text		<a link="#vertical-type-tool"></a>
 
 Several professional design applications have separate vertical text tools, which will implement all of the necessary OpenType features and provide a nice interface for setting vertical text.
 
@@ -90,7 +90,7 @@ Desktop apps that natively support vertical text include:
 * Adobe Illustrator
 * Apple TextEdit
 
-### Apps that do not support vertical text			{#vertical-app-rotated}
+### Apps that do not support vertical text			<a link="#vertical-app-rotate"></a>
 
 In apps that do not have native vertical text tools, the *Bungee Layers Rotated* family allows you to simulate vertical type. 
 
@@ -117,7 +117,7 @@ Apps that do not support vertical text include:
 * Apple Pages
 * Adobe InDesign
 
-### On the web with vertical text			{#vertical-writing-mode}
+### On the web with vertical text			<a link="#vertical-writing-mode"></a>
 
 The proper way to implement vertical text is via the CSS **writing-mode** and **text-orientation** selector, as well as implementing. This will work in recent versions of IE, Firefox, and Chrome, but not in older browsers or Safari.
 
@@ -144,7 +144,7 @@ The proper way to implement vertical text is via the CSS **writing-mode** and **
 	
 Learn more about vertical writing modes at http://generatedcontent.org/post/45384206019/writing-modes.
 	
-### On the web with rotated text			{#vertical-web-rotated}
+### On the web with rotated text			<a link="#vertical-web-rotated"></a>
 	
 Alternatively, *Bungee Layers Rotated* fonts and a rotated div to simulate the effect. This will require you
 to reposition the div using margins or absolute positioning.
@@ -161,7 +161,7 @@ to reposition the div using margins or absolute positioning.
 		<div class="rotated">Bungee</div>
 
 
-## Stylistic alternates						{#stylistic-alternates}
+## Stylistic alternates						<a link="#stylistic-alternates"></a>
 
 As a display font, Bungee is only intended for small bits of text, sometimes even single letters or words. Since an individual letter can play such a big part of a Bungee composition, Bungee comes with alternates that can help you fine-tune the look and feel of your text. 
 
@@ -232,7 +232,7 @@ In addition to its stylistic alternates, Bungee also contains several OpenType S
 * Stylistic Set 19: Primes.
 
 
-## Ornaments			{#ornaments}
+## Ornaments			<a link="#ornaments"></a>
 
 In addition to its arrows and pointing indexes, Bungee has a nice set of ornaments that you can use to assemble additional chromatic layers.
 
