@@ -4,7 +4,7 @@ In addition to its arrows and pointing indexes, Bungee has a nice set of ornamen
 
 Some ornaments are designed to connect seamlessly to other ornaments, which you can use to create continuous banners. If you center-align the entire text block, you will not have to worry as much about making the layers line up.
 
-In design apps, ornaments can be easily accessed via the Glyph palette.
+In design apps, ornaments can be easily accessed via the Glyphs palette.
 
 For example, you can compose a directional sign out of a half circle, two square blocks, and an arrowhead.
 
@@ -14,7 +14,7 @@ You can use horizontal scaling and tracking/letter-spacing to make minor adjustm
 
 <img src="images/design-ornaments-scale.png" alt="Horizontal scaling in Illustrator." width="600" />
 
-Other ornaments can be set independently to encircle a single letter. Use these shapes behind Bungee’s vertical forms (accessible via the glyph palette, under Stylistic Set 20), since they are all approximately the same width. 
+Other ornaments can be set independently to encircle a single letter. Use these shapes behind Bungee’s vertical forms (accessible via the Glyphs palette, under Stylistic Set 20), since they are all approximately the same width. 
 
 <img src="images/design-ornaments-independent-2.png" alt="Independent ornaments." width="650" />
 
