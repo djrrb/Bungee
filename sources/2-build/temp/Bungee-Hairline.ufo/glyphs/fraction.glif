@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fraction" format="1">
+  <advance width="317"/>
+  <unicode hex="2044"/>
+  <unicode hex="2215"/>
+  <outline>
+    <contour>
+      <point x="114.0" y="90" type="line"/>
+      <point x="214.0" y="630" type="line"/>
+      <point x="204.0" y="630" type="line"/>
+      <point x="104.0" y="90" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:57:03</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

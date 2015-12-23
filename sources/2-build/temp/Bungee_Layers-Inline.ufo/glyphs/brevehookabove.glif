@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevehookabove" format="1">
+  <advance width="500"/>
+  <outline>
+    <component base="breve"/>
+    <component base="hookcmb" xOffset="255" yOffset="250"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

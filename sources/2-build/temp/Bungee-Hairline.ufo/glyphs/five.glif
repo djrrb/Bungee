@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="five" format="1">
+  <advance width="647"/>
+  <unicode hex="0035"/>
+  <outline>
+    <contour>
+      <point x="145.0" y="90" type="line"/>
+      <point x="381.0" y="90" type="line" smooth="yes"/>
+      <point x="464.0" y="90"/>
+      <point x="495.0" y="120"/>
+      <point x="495.0" y="188" type="curve" smooth="yes"/>
+      <point x="495.0" y="276" type="line" smooth="yes"/>
+      <point x="495.0" y="345"/>
+      <point x="460.0" y="374"/>
+      <point x="390.0" y="374" type="curve" smooth="yes"/>
+      <point x="184.0" y="374" type="line"/>
+      <point x="184.0" y="620" type="line"/>
+      <point x="478.0" y="620" type="line"/>
+      <point x="478.0" y="630" type="line"/>
+      <point x="174.0" y="630" type="line"/>
+      <point x="174.0" y="364" type="line"/>
+      <point x="390.0" y="364" type="line" smooth="yes"/>
+      <point x="452.0" y="364"/>
+      <point x="485.0" y="339"/>
+      <point x="485.0" y="276" type="curve" smooth="yes"/>
+      <point x="485.0" y="188" type="line" smooth="yes"/>
+      <point x="485.0" y="126"/>
+      <point x="456.0" y="100"/>
+      <point x="381.0" y="100" type="curve" smooth="yes"/>
+      <point x="145.0" y="100" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 13:14:05</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

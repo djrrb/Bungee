@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="J.s_v" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="433" y="-134" type="curve" smooth="yes"/>
+      <point x="562" y="-134"/>
+      <point x="639" y="-111"/>
+      <point x="685" y="-72" type="curve" smooth="yes"/>
+      <point x="814" y="36" type="line" smooth="yes"/>
+      <point x="860" y="74"/>
+      <point x="875" y="127"/>
+      <point x="875" y="189" type="curve" smooth="yes"/>
+      <point x="875" y="644" type="line" smooth="yes"/>
+      <point x="875" y="676"/>
+      <point x="861" y="690"/>
+      <point x="829" y="690" type="curve" smooth="yes"/>
+      <point x="672" y="690" type="line" smooth="yes"/>
+      <point x="658" y="690"/>
+      <point x="647" y="687"/>
+      <point x="640" y="681" type="curve" smooth="yes"/>
+      <point x="506" y="567" type="line" smooth="yes"/>
+      <point x="497" y="559"/>
+      <point x="492" y="548"/>
+      <point x="492" y="530" type="curve"/>
+      <point x="492" y="351" type="line" smooth="yes"/>
+      <point x="492" y="384"/>
+      <point x="478" y="397"/>
+      <point x="446" y="397" type="curve" smooth="yes"/>
+      <point x="301" y="397" type="line" smooth="yes"/>
+      <point x="286" y="397"/>
+      <point x="276" y="394"/>
+      <point x="269" y="388" type="curve" smooth="yes"/>
+      <point x="139" y="279" type="line" smooth="yes"/>
+      <point x="131" y="272"/>
+      <point x="126" y="260"/>
+      <point x="126" y="242" type="curve" smooth="yes"/>
+      <point x="126" y="80" type="line" smooth="yes"/>
+      <point x="126" y="-46"/>
+      <point x="180" y="-134"/>
+    </contour>
+    <contour>
+      <point x="865" y="189" type="line" smooth="yes"/>
+      <point x="865" y="67"/>
+      <point x="805" y="-15"/>
+      <point x="562" y="-15" type="curve" smooth="yes"/>
+      <point x="321" y="-15"/>
+      <point x="265" y="67"/>
+      <point x="265" y="189" type="curve" smooth="yes"/>
+      <point x="265" y="351" type="line" smooth="yes"/>
+      <point x="265" y="377"/>
+      <point x="276" y="387"/>
+      <point x="301" y="387" type="curve" smooth="yes"/>
+      <point x="446" y="387" type="line" smooth="yes"/>
+      <point x="471" y="387"/>
+      <point x="482" y="377"/>
+      <point x="482" y="351" type="curve" smooth="yes"/>
+      <point x="482" y="229" type="line" smooth="yes"/>
+      <point x="482" y="202"/>
+      <point x="489" y="182"/>
+      <point x="560" y="182" type="curve" smooth="yes"/>
+      <point x="627" y="182"/>
+      <point x="636" y="202"/>
+      <point x="636" y="229" type="curve" smooth="yes"/>
+      <point x="636" y="644" type="line" smooth="yes"/>
+      <point x="636" y="669"/>
+      <point x="647" y="680"/>
+      <point x="672" y="680" type="curve" smooth="yes"/>
+      <point x="829" y="680" type="line" smooth="yes"/>
+      <point x="854" y="680"/>
+      <point x="865" y="669"/>
+      <point x="865" y="644" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="745" y="590" type="line"/>
+      <point x="745" y="213" type="line" smooth="yes"/>
+      <point x="745" y="138"/>
+      <point x="704" y="88"/>
+      <point x="566" y="88" type="curve" smooth="yes"/>
+      <point x="421" y="88"/>
+      <point x="379" y="137"/>
+      <point x="379" y="213" type="curve" smooth="yes"/>
+      <point x="379" y="297" type="line"/>
+      <point x="369" y="297" type="line"/>
+      <point x="369" y="213" type="line" smooth="yes"/>
+      <point x="369" y="133"/>
+      <point x="408" y="78"/>
+      <point x="566" y="78" type="curve" smooth="yes"/>
+      <point x="714" y="78"/>
+      <point x="755" y="134"/>
+      <point x="755" y="213" type="curve" smooth="yes"/>
+      <point x="755" y="590" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

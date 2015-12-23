@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iacute.salt" format="1">
+  <advance width="371.0"/>
+  <outline>
+    <contour>
+      <point x="80.0" y="849" type="line"/>
+      <point x="80.0" y="839" type="line"/>
+      <point x="289.0" y="865" type="line"/>
+      <point x="289.0" y="875" type="line"/>
+    </contour>
+    <component base="I.salt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:25:35</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon" format="1">
+  <advance width="784"/>
+  <unicode hex="003A"/>
+  <unicode hex="FF1A"/>
+  <outline>
+    <contour>
+      <point x="350.0" y="461" type="line" smooth="yes"/>
+      <point x="350.0" y="486"/>
+      <point x="339.0" y="497"/>
+      <point x="314.0" y="497" type="curve" smooth="yes"/>
+      <point x="111.0" y="497" type="line" smooth="yes"/>
+      <point x="85.0" y="497"/>
+      <point x="75.0" y="486"/>
+      <point x="75.0" y="461" type="curve" smooth="yes"/>
+      <point x="75.0" y="259" type="line" smooth="yes"/>
+      <point x="75.0" y="234"/>
+      <point x="85.0" y="223"/>
+      <point x="111.0" y="223" type="curve"/>
+      <point x="314.0" y="223" type="line"/>
+      <point x="339.0" y="223"/>
+      <point x="350.0" y="234"/>
+      <point x="350.0" y="259" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="705.0" y="461" type="line" smooth="yes"/>
+      <point x="705.0" y="486"/>
+      <point x="694.0" y="497"/>
+      <point x="669.0" y="497" type="curve" smooth="yes"/>
+      <point x="466.0" y="497" type="line" smooth="yes"/>
+      <point x="440.0" y="497"/>
+      <point x="430.0" y="486"/>
+      <point x="430.0" y="461" type="curve" smooth="yes"/>
+      <point x="430.0" y="259" type="line" smooth="yes"/>
+      <point x="430.0" y="234"/>
+      <point x="440.0" y="223"/>
+      <point x="466.0" y="223" type="curve"/>
+      <point x="669.0" y="223" type="line"/>
+      <point x="694.0" y="223"/>
+      <point x="705.0" y="234"/>
+      <point x="705.0" y="259" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:16:23</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

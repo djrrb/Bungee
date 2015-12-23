@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I" format="1">
+  <advance width="880"/>
+  <unicode hex="0049"/>
+  <unicode hex="FF29"/>
+  <outline>
+    <contour>
+      <point x="700.0" y="159" type="line"/>
+      <point x="710.0" y="159" type="line"/>
+      <point x="710.0" y="561" type="line"/>
+      <point x="700.0" y="561" type="line"/>
+      <point x="700.0" y="365" type="line"/>
+      <point x="180.0" y="365" type="line"/>
+      <point x="180.0" y="561" type="line"/>
+      <point x="170.0" y="561" type="line"/>
+      <point x="170.0" y="159" type="line"/>
+      <point x="180.0" y="159" type="line"/>
+      <point x="180.0" y="355" type="line"/>
+      <point x="700.0" y="355" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-06-20 14:18:57</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

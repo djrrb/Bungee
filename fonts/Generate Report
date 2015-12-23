@@ -1,0 +1,1041 @@
+Batch Generate Files:
+*********************
+Remove Overlap:
+***************
+Bungee Layers Rotated Inline
+Bungee Layers Rotated Outline
+Bungee Layers Rotated Regular
+Bungee Layers Rotated Shade
+Bungee Layers Inline
+Bungee Layers Outline
+Bungee Layers Regular
+Bungee Layers Shade
+Bungee Hairline
+Bungee Inline
+Bungee Outline
+Bungee Regular
+Bungee Shade
+
+Generate:
+*********
+Bungee Layers Rotated Inline to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayersRotated-Inline.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:48:52 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.............................
+Saving font file with new hints...Thu Dec 24 04:48:55 2015
+Done with font /font.otf. End time: Thu Dec 24 04:48:55 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "BungeeLayersRotated-Inline.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayersRotated-Inline.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayersRotated-Inline.otf'.
+
+--------------------
+Bungee Layers Rotated Inline to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayersRotated-Inline.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayersRotated-Inline.ttf'.
+
+
+
+makeotf [Note] Converting source font '/BungeeLayersRotated-Inline.ttf' to temporary Unix Type1 font file '/BungeeLayersRotated-Inline.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "BungeeLayersRotated-Inline.ttf.tmp" "-o" "BungeeLayersRotated-Inline.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayersRotated-Inline.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Layers Rotated Outline to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayersRotated-Outline.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:48:57 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+....................
+Saving font file with new hints...Thu Dec 24 04:49:00 2015
+Done with font /font.otf. End time: Thu Dec 24 04:49:00 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "BungeeLayersRotated-Outline.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayersRotated-Outline.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayersRotated-Outline.otf'.
+
+--------------------
+Bungee Layers Rotated Outline to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayersRotated-Outline.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayersRotated-Outline.ttf'.
+
+
+
+makeotf [Note] Converting source font '/BungeeLayersRotated-Outline.ttf' to temporary Unix Type1 font file '/BungeeLayersRotated-Outline.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "BungeeLayersRotated-Outline.ttf.tmp" "-o" "BungeeLayersRotated-Outline.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayersRotated-Outline.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Layers Rotated Regular to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayersRotated-Regular.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:49:03 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+....................
+Saving font file with new hints...Thu Dec 24 04:49:06 2015
+Done with font /font.otf. End time: Thu Dec 24 04:49:06 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "BungeeLayersRotated-Regular.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayersRotated-Regular.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayersRotated-Regular.otf'.
+
+--------------------
+Bungee Layers Rotated Regular to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayersRotated-Regular.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayersRotated-Regular.ttf'.
+
+
+
+makeotf [Note] Converting source font '/BungeeLayersRotated-Regular.ttf' to temporary Unix Type1 font file '/BungeeLayersRotated-Regular.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "BungeeLayersRotated-Regular.ttf.tmp" "-o" "BungeeLayersRotated-Regular.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayersRotated-Regular.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Layers Rotated Shade to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayersRotated-Shade.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:49:10 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+............................
+Saving font file with new hints...Thu Dec 24 04:49:13 2015
+Done with font /font.otf. End time: Thu Dec 24 04:49:13 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "BungeeLayersRotated-Shade.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayersRotated-Shade.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayersRotated-Shade.otf'.
+
+--------------------
+Bungee Layers Rotated Shade to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayersRotated-Shade.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayersRotated-Shade.ttf'.
+
+
+
+makeotf [Note] Converting source font '/BungeeLayersRotated-Shade.ttf' to temporary Unix Type1 font file '/BungeeLayersRotated-Shade.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "BungeeLayersRotated-Shade.ttf.tmp" "-o" "BungeeLayersRotated-Shade.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayersRotated-Shade.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Layers Inline to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayers-Inline.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:49:15 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+........................
+Saving font file with new hints...Thu Dec 24 04:49:21 2015
+Done with font /font.otf. End time: Thu Dec 24 04:49:21 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "BungeeLayers-Inline.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayers-Inline.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayers-Inline.otf'.
+
+--------------------
+Bungee Layers Inline to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayers-Inline.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayers-Inline.ttf'.
+
+
+
+makeotf [Note] Converting source font '/BungeeLayers-Inline.ttf' to temporary Unix Type1 font file '/BungeeLayers-Inline.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "BungeeLayers-Inline.ttf.tmp" "-o" "BungeeLayers-Inline.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayers-Inline.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Layers Outline to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayers-Outline.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:49:24 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+...................
+Saving font file with new hints...Thu Dec 24 04:49:30 2015
+Done with font /font.otf. End time: Thu Dec 24 04:49:30 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "BungeeLayers-Outline.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayers-Outline.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayers-Outline.otf'.
+
+--------------------
+Bungee Layers Outline to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayers-Outline.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayers-Outline.ttf'.
+
+
+
+makeotf [Note] Converting source font '/BungeeLayers-Outline.ttf' to temporary Unix Type1 font file '/BungeeLayers-Outline.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "BungeeLayers-Outline.ttf.tmp" "-o" "BungeeLayers-Outline.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayers-Outline.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Layers Regular to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayers-Regular.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:49:34 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+...................
+Saving font file with new hints...Thu Dec 24 04:49:40 2015
+Done with font /font.otf. End time: Thu Dec 24 04:49:40 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "BungeeLayers-Regular.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayers-Regular.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayers-Regular.otf'.
+
+--------------------
+Bungee Layers Regular to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayers-Regular.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayers-Regular.ttf'.
+
+
+
+makeotf [Note] Converting source font '/BungeeLayers-Regular.ttf' to temporary Unix Type1 font file '/BungeeLayers-Regular.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "BungeeLayers-Regular.ttf.tmp" "-o" "BungeeLayers-Regular.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayers-Regular.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Layers Shade to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayers-Shade.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:49:44 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.....................
+Saving font file with new hints...Thu Dec 24 04:49:49 2015
+Done with font /font.otf. End time: Thu Dec 24 04:49:50 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "BungeeLayers-Shade.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayers-Shade.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayers-Shade.otf'.
+
+--------------------
+Bungee Layers Shade to /Users/david/Dropbox/Typefaces/Bungee/fonts/BungeeLayers-Shade.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'BungeeLayers-Shade.ttf'.
+
+
+
+makeotf [Note] Converting source font '/BungeeLayers-Shade.ttf' to temporary Unix Type1 font file '/BungeeLayers-Shade.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "BungeeLayers-Shade.ttf.tmp" "-o" "BungeeLayers-Shade.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'BungeeLayers-Shade.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Hairline to /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee-Hairline.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:49:53 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+......................
+Saving font file with new hints...Thu Dec 24 04:49:58 2015
+Done with font /font.otf. End time: Thu Dec 24 04:49:58 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "Bungee-Hairline.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'Bungee-Hairline.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'Bungee-Hairline.otf'.
+
+--------------------
+Bungee Hairline to /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee-Hairline.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'Bungee-Hairline.ttf'.
+
+
+
+makeotf [Note] Converting source font '/Bungee-Hairline.ttf' to temporary Unix Type1 font file '/Bungee-Hairline.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "Bungee-Hairline.ttf.tmp" "-o" "Bungee-Hairline.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'Bungee-Hairline.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Inline to /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee-Inline.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:50:02 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+..................
+Saving font file with new hints...Thu Dec 24 04:50:09 2015
+Done with font /font.otf. End time: Thu Dec 24 04:50:09 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "Bungee-Inline.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'Bungee-Inline.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'Bungee-Inline.otf'.
+
+--------------------
+Bungee Inline to /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee-Inline.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'Bungee-Inline.ttf'.
+
+
+
+makeotf [Note] Converting source font '/Bungee-Inline.ttf' to temporary Unix Type1 font file '/Bungee-Inline.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "Bungee-Inline.ttf.tmp" "-o" "Bungee-Inline.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'Bungee-Inline.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Outline to /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee-Outline.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:50:17 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+..................
+Saving font file with new hints...Thu Dec 24 04:50:24 2015
+Done with font /font.otf. End time: Thu Dec 24 04:50:24 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "Bungee-Outline.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'Bungee-Outline.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'Bungee-Outline.otf'.
+
+--------------------
+Bungee Outline to /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee-Outline.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'Bungee-Outline.ttf'.
+
+
+
+makeotf [Note] Converting source font '/Bungee-Outline.ttf' to temporary Unix Type1 font file '/Bungee-Outline.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "Bungee-Outline.ttf.tmp" "-o" "Bungee-Outline.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'Bungee-Outline.ttf' Revision 1.000
+Done.
+
+--------------------
+Bungee Regular to /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee-Regular.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:50:30 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.................................
+Saving font file with new hints...Thu Dec 24 04:50:36 2015
+Done with font /font.otf. End time: Thu Dec 24 04:50:36 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "Bungee-Regular.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+makeotf [Error] Failed to build output font file 'Bungee-Regular.otf'.
+
+makeotfexe [FATAL] file error <No such file or directory> [/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/temp/features.fea]
+
+--------------------
+Bungee Regular to /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee-Regular.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [FATAL] file error <No such file or directory> [/Users/david/Dropbox/Typefaces/Bungee/sources/2-build/temp/features.fea]
+
+
+makeotf [Note] Converting source font '/Bungee-Regular.ttf' to temporary Unix Type1 font file '/Bungee-Regular.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "Bungee-Regular.ttf.tmp" "-o" "Bungee-Regular.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+makeotf [Error] Failed to build output font file 'Bungee-Regular.ttf'.
+
+--------------------
+Bungee Shade to /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee-Shade.otf
+--------------------
+
+parts Report
+
+[Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+
+
+autohint Report
+
+Hinting font /font.otf. Start time: Thu Dec 24 04:50:41 2015.
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+.........................................
+..................
+Saving font file with new hints...Thu Dec 24 04:50:49 2015
+Done with font /font.otf. End time: Thu Dec 24 04:50:49 2015.
+
+
+makeotf Report
+
+makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "font.otf.tmp" "-o" "Bungee-Shade.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'Bungee-Shade.otf' Revision 1.000
+Done.
+
+makeotfexe [NOTE] Wrote new font file 'Bungee-Shade.otf'.
+
+--------------------
+Bungee Shade to /Users/david/Dropbox/Typefaces/Bungee/fonts/Bungee-Shade.ttf
+--------------------
+
+ttfautohint Report
+
+
+
+
+makeotf Report
+
+makeotfexe [NOTE] Wrote new font file 'Bungee-Shade.ttf'.
+
+
+
+makeotf [Note] Converting source font '/Bungee-Shade.ttf' to temporary Unix Type1 font file '/Bungee-Shade.ttf.tmp'.
+makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+makeotf [Note] Writing options file /current.fpr
+makeotf [Note] Running makeotfexe with commands:
+   cd ""
+   makeotfexe "-f" "Bungee-Shade.ttf.tmp" "-o" "Bungee-Shade.ttf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+Built release mode font 'Bungee-Shade.ttf' Revision 1.000
+Done.
+
+--------------------

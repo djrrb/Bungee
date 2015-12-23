@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AE.salt" format="1">
+  <advance width="872"/>
+  <outline>
+    <contour>
+      <point x="702.0" y="436" type="line"/>
+      <point x="702.0" y="591" type="line"/>
+      <point x="692.0" y="591" type="line"/>
+      <point x="692.0" y="446" type="line"/>
+      <point x="434.0" y="446" type="line"/>
+      <point x="434.0" y="590" type="line"/>
+      <point x="424.0" y="590" type="line"/>
+      <point x="424.0" y="446" type="line"/>
+      <point x="172.0" y="446" type="line" smooth="yes"/>
+      <point x="172.0" y="591" type="line"/>
+      <point x="162.0" y="591" type="line"/>
+      <point x="162.0" y="303" type="line" smooth="yes"/>
+      <point x="162.0" y="170"/>
+      <point x="216.0" y="136"/>
+      <point x="297.0" y="136" type="curve" smooth="yes"/>
+      <point x="703.0" y="136" type="line"/>
+      <point x="703.0" y="146" type="line"/>
+      <point x="521.0" y="146" type="line"/>
+      <point x="521.0" y="436" type="line"/>
+    </contour>
+    <contour>
+      <point x="297.0" y="146" type="line" smooth="yes"/>
+      <point x="222.0" y="146"/>
+      <point x="172.0" y="178"/>
+      <point x="172.0" y="303" type="curve" smooth="yes"/>
+      <point x="172.0" y="436" type="line"/>
+      <point x="511.0" y="436" type="line"/>
+      <point x="511.0" y="146" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-09 19:56:19</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>90.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string>midpoint x</string>
+          <key>x</key>
+          <integer>287</integer>
+          <key>y</key>
+          <integer>296</integer>
+        </dict>
+        <dict>
+          <key>angle</key>
+          <real>0.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string>midpoint y</string>
+          <key>x</key>
+          <integer>287</integer>
+          <key>y</key>
+          <integer>296</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

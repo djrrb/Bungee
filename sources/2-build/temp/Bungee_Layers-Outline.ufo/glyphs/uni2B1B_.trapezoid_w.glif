@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2B1B.trapezoid_w" format="1">
+  <advance width="1280.0"/>
+  <outline>
+    <contour>
+      <point x="1145.0" y="-190" type="line" smooth="yes"/>
+      <point x="1177.0" y="-190"/>
+      <point x="1191.0" y="-176"/>
+      <point x="1191.0" y="-144" type="curve" smooth="yes"/>
+      <point x="1191.0" y="864" type="line" smooth="yes"/>
+      <point x="1191.0" y="896"/>
+      <point x="1177.0" y="910"/>
+      <point x="1145.0" y="910" type="curve" smooth="yes"/>
+      <point x="37.0" y="910" type="line" smooth="yes"/>
+      <point x="3.0" y="910"/>
+      <point x="-15.0" y="894"/>
+      <point x="-9.0" y="862" type="curve" smooth="yes"/>
+      <point x="191.0" y="-146" type="line" smooth="yes"/>
+      <point x="198.0" y="-178"/>
+      <point x="206.0" y="-190"/>
+      <point x="237.0" y="-190" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dollar" format="1">
+  <advance width="650"/>
+  <unicode hex="0024"/>
+  <outline>
+    <contour>
+      <point x="328.0" y="720" type="line"/>
+      <point x="328.0" y="626" type="line"/>
+      <point x="338.0" y="626" type="line"/>
+      <point x="338.0" y="720" type="line"/>
+    </contour>
+    <contour>
+      <point x="328.0" y="94" type="line"/>
+      <point x="328.0" y="0" type="line"/>
+      <point x="338.0" y="0" type="line"/>
+      <point x="338.0" y="94" type="line"/>
+    </contour>
+    <component base="S"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:09:07</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

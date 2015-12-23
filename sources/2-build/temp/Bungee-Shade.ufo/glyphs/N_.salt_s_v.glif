@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="N.salt_s_v" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="356" y="-110" type="curve" smooth="yes"/>
+      <point x="485" y="-1" type="line" smooth="yes"/>
+      <point x="491" y="4"/>
+      <point x="495" y="10"/>
+      <point x="497" y="18" type="curve"/>
+      <point x="497" y="-73" type="line" smooth="yes"/>
+      <point x="497" y="-105"/>
+      <point x="511" y="-119"/>
+      <point x="543" y="-119" type="curve" smooth="yes"/>
+      <point x="700" y="-119" type="line" smooth="yes"/>
+      <point x="714" y="-119"/>
+      <point x="725" y="-115"/>
+      <point x="731" y="-109" type="curve"/>
+      <point x="861" y="-1" type="line" smooth="yes"/>
+      <point x="870" y="7"/>
+      <point x="875" y="18"/>
+      <point x="875" y="36" type="curve" smooth="yes"/>
+      <point x="875" y="491" type="line" smooth="yes"/>
+      <point x="875" y="617"/>
+      <point x="825" y="705"/>
+      <point x="565" y="705" type="curve" smooth="yes"/>
+      <point x="435" y="705"/>
+      <point x="359" y="683"/>
+      <point x="314" y="645" type="curve" smooth="yes"/>
+      <point x="185" y="537" type="line" smooth="yes"/>
+      <point x="139" y="499"/>
+      <point x="126" y="446"/>
+      <point x="126" y="382" type="curve" smooth="yes"/>
+      <point x="126" y="-73" type="line" smooth="yes"/>
+      <point x="126" y="-105"/>
+      <point x="140" y="-119"/>
+      <point x="172" y="-119" type="curve" smooth="yes"/>
+      <point x="324" y="-119" type="line" smooth="yes"/>
+      <point x="337" y="-119"/>
+      <point x="348" y="-115"/>
+    </contour>
+    <contour>
+      <point x="265" y="491" type="line" smooth="yes"/>
+      <point x="265" y="613"/>
+      <point x="317" y="695"/>
+      <point x="565" y="695" type="curve" smooth="yes"/>
+      <point x="813" y="695"/>
+      <point x="865" y="613"/>
+      <point x="865" y="491" type="curve" smooth="yes"/>
+      <point x="865" y="36" type="line"/>
+      <point x="865" y="11"/>
+      <point x="854" y="0"/>
+      <point x="829" y="0" type="curve" smooth="yes"/>
+      <point x="672" y="0" type="line" smooth="yes"/>
+      <point x="647" y="0"/>
+      <point x="636" y="11"/>
+      <point x="636" y="36" type="curve" smooth="yes"/>
+      <point x="636" y="452" type="line" smooth="yes"/>
+      <point x="636" y="479"/>
+      <point x="624" y="499"/>
+      <point x="563" y="499" type="curve" smooth="yes"/>
+      <point x="501" y="499"/>
+      <point x="489" y="479"/>
+      <point x="489" y="452" type="curve" smooth="yes"/>
+      <point x="489" y="36" type="line" smooth="yes"/>
+      <point x="489" y="11"/>
+      <point x="479" y="0"/>
+      <point x="453" y="0" type="curve" smooth="yes"/>
+      <point x="301" y="0" type="line" smooth="yes"/>
+      <point x="276" y="0"/>
+      <point x="265" y="11"/>
+      <point x="265" y="36" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="755" y="90" type="line"/>
+      <point x="755" y="467" type="line" smooth="yes"/>
+      <point x="755" y="548"/>
+      <point x="714" y="602"/>
+      <point x="564" y="602" type="curve" smooth="yes"/>
+      <point x="414" y="602"/>
+      <point x="372" y="548"/>
+      <point x="372" y="467" type="curve" smooth="yes"/>
+      <point x="372" y="90" type="line"/>
+      <point x="382" y="90" type="line"/>
+      <point x="382" y="467" type="line" smooth="yes"/>
+      <point x="382" y="542"/>
+      <point x="422" y="592"/>
+      <point x="564" y="592" type="curve" smooth="yes"/>
+      <point x="706" y="592"/>
+      <point x="745" y="542"/>
+      <point x="745" y="467" type="curve" smooth="yes"/>
+      <point x="745" y="90" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 06:44:30</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="X.salt" format="1">
+  <advance width="737"/>
+  <outline>
+    <contour>
+      <point x="251.0" y="0" type="line" smooth="yes"/>
+      <point x="276.0" y="0"/>
+      <point x="287.0" y="11"/>
+      <point x="287.0" y="36" type="curve" smooth="yes"/>
+      <point x="287.0" y="230" type="line" smooth="yes"/>
+      <point x="287.0" y="252"/>
+      <point x="298.0" y="265"/>
+      <point x="319.0" y="265" type="curve" smooth="yes"/>
+      <point x="419.0" y="265" type="line" smooth="yes"/>
+      <point x="440.0" y="265"/>
+      <point x="451.0" y="252"/>
+      <point x="451.0" y="230" type="curve" smooth="yes"/>
+      <point x="451.0" y="36" type="line" smooth="yes"/>
+      <point x="451.0" y="11"/>
+      <point x="462.0" y="0"/>
+      <point x="487.0" y="0" type="curve" smooth="yes"/>
+      <point x="641.0" y="0" type="line" smooth="yes"/>
+      <point x="666.0" y="0"/>
+      <point x="677.0" y="11"/>
+      <point x="677.0" y="36" type="curve" smooth="yes"/>
+      <point x="677.0" y="317" type="line" smooth="yes"/>
+      <point x="677.0" y="382"/>
+      <point x="645.0" y="430"/>
+      <point x="591.0" y="446" type="curve"/>
+      <point x="656.0" y="685" type="line" smooth="yes"/>
+      <point x="662.0" y="708"/>
+      <point x="654.0" y="720"/>
+      <point x="629.0" y="720" type="curve" smooth="yes"/>
+      <point x="477.0" y="720" type="line" smooth="yes"/>
+      <point x="451.0" y="720"/>
+      <point x="440.0" y="710"/>
+      <point x="434.0" y="685" type="curve" smooth="yes"/>
+      <point x="386.0" y="454" type="line"/>
+      <point x="353.0" y="454" type="line"/>
+      <point x="305.0" y="685" type="line" smooth="yes"/>
+      <point x="299.0" y="710"/>
+      <point x="287.0" y="720"/>
+      <point x="261.0" y="720" type="curve" smooth="yes"/>
+      <point x="110.0" y="720" type="line" smooth="yes"/>
+      <point x="86.0" y="720"/>
+      <point x="78.0" y="708"/>
+      <point x="84.0" y="685" type="curve" smooth="yes"/>
+      <point x="149.0" y="446" type="line"/>
+      <point x="93.0" y="431"/>
+      <point x="60.0" y="383"/>
+      <point x="60.0" y="317" type="curve" smooth="yes"/>
+      <point x="60.0" y="36" type="line"/>
+      <point x="60.0" y="11"/>
+      <point x="71.0" y="0"/>
+      <point x="96.0" y="0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="179.0" y="90" type="line"/>
+      <point x="169.0" y="90" type="line"/>
+      <point x="169.0" y="256" type="line" smooth="yes"/>
+      <point x="169.0" y="327"/>
+      <point x="202.0" y="364"/>
+      <point x="270.0" y="364" type="curve" smooth="yes"/>
+      <point x="275.0" y="364" type="line"/>
+      <point x="200.0" y="630" type="line"/>
+      <point x="210.0" y="630" type="line"/>
+      <point x="285.0" y="364" type="line"/>
+      <point x="453.0" y="364" type="line"/>
+      <point x="528.0" y="630" type="line"/>
+      <point x="538.0" y="630" type="line"/>
+      <point x="463.0" y="364" type="line"/>
+      <point x="468.0" y="364" type="line" smooth="yes"/>
+      <point x="536.0" y="364"/>
+      <point x="569.0" y="327"/>
+      <point x="569.0" y="256" type="curve" smooth="yes"/>
+      <point x="569.0" y="90" type="line"/>
+      <point x="559.0" y="90" type="line"/>
+      <point x="559.0" y="256" type="line" smooth="yes"/>
+      <point x="559.0" y="320"/>
+      <point x="529.0" y="354"/>
+      <point x="468.0" y="354" type="curve" smooth="yes"/>
+      <point x="270.0" y="354" type="line" smooth="yes"/>
+      <point x="209.0" y="354"/>
+      <point x="179.0" y="320"/>
+      <point x="179.0" y="256" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="368.0" y="747.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="368.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-07 20:22:37</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

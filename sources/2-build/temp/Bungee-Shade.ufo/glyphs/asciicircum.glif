@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asciicircum" format="1">
+  <advance width="814"/>
+  <unicode hex="005E"/>
+  <outline>
+    <contour>
+      <point x="463" y="52" type="curve"/>
+      <point x="595" y="53" type="line" smooth="yes"/>
+      <point x="608" y="53"/>
+      <point x="618" y="56"/>
+      <point x="626" y="62" type="curve" smooth="yes"/>
+      <point x="755" y="170" type="line" smooth="yes"/>
+      <point x="764" y="178"/>
+      <point x="768" y="191"/>
+      <point x="764" y="210" type="curve"/>
+      <point x="656" y="592" type="line" smooth="yes"/>
+      <point x="629" y="680"/>
+      <point x="596" y="727"/>
+      <point x="491" y="727" type="curve" smooth="yes"/>
+      <point x="418" y="727" type="line" smooth="yes"/>
+      <point x="368" y="727"/>
+      <point x="334" y="716"/>
+      <point x="310" y="696" type="curve" smooth="yes"/>
+      <point x="181" y="587" type="line" smooth="yes"/>
+      <point x="153" y="563"/>
+      <point x="137" y="529"/>
+      <point x="124" y="483" type="curve" smooth="yes"/>
+      <point x="16" y="102" type="line"/>
+      <point x="10" y="68"/>
+      <point x="23" y="53"/>
+      <point x="56" y="53" type="curve"/>
+      <point x="188" y="52" type="line" smooth="yes"/>
+      <point x="203" y="52"/>
+      <point x="215" y="55"/>
+      <point x="223" y="62" type="curve"/>
+      <point x="353" y="170" type="line" smooth="yes"/>
+      <point x="361" y="178"/>
+      <point x="365" y="188"/>
+      <point x="368" y="204" type="curve"/>
+      <point x="375" y="231" type="line"/>
+      <point x="412" y="95" type="line"/>
+      <point x="416" y="65"/>
+      <point x="431" y="51"/>
+    </contour>
+    <contour>
+      <point x="155" y="208" type="curve"/>
+      <point x="263" y="589" type="line" smooth="yes"/>
+      <point x="287" y="672"/>
+      <point x="319" y="717"/>
+      <point x="418" y="717" type="curve" smooth="yes"/>
+      <point x="491" y="717" type="line" smooth="yes"/>
+      <point x="590" y="717"/>
+      <point x="621" y="672"/>
+      <point x="646" y="589" type="curve" smooth="yes"/>
+      <point x="754" y="208" type="line" smooth="yes"/>
+      <point x="759" y="183"/>
+      <point x="749" y="172"/>
+      <point x="724" y="172" type="curve" smooth="yes"/>
+      <point x="592" y="171" type="line" smooth="yes"/>
+      <point x="566" y="170"/>
+      <point x="554" y="181"/>
+      <point x="551" y="206" type="curve" smooth="yes"/>
+      <point x="473" y="495" type="line" smooth="yes"/>
+      <point x="470" y="509"/>
+      <point x="467" y="513"/>
+      <point x="455" y="512" type="curve" smooth="yes"/>
+      <point x="442" y="513"/>
+      <point x="439" y="509"/>
+      <point x="436" y="495" type="curve" smooth="yes"/>
+      <point x="358" y="206" type="line" smooth="yes"/>
+      <point x="355" y="181"/>
+      <point x="343" y="170"/>
+      <point x="317" y="171" type="curve" smooth="yes"/>
+      <point x="185" y="172" type="line" smooth="yes"/>
+      <point x="160" y="172"/>
+      <point x="150" y="183"/>
+    </contour>
+    <contour>
+      <point x="645" y="261" type="line"/>
+      <point x="558" y="564" type="line" smooth="yes"/>
+      <point x="548" y="599"/>
+      <point x="538" y="626"/>
+      <point x="491" y="626" type="curve" smooth="yes"/>
+      <point x="418" y="626" type="line" smooth="yes"/>
+      <point x="371" y="626"/>
+      <point x="361" y="600"/>
+      <point x="351" y="563" type="curve" smooth="yes"/>
+      <point x="265" y="261" type="line"/>
+      <point x="276" y="261" type="line"/>
+      <point x="361" y="561" type="line" smooth="yes"/>
+      <point x="370" y="592"/>
+      <point x="377" y="616"/>
+      <point x="418" y="616" type="curve" smooth="yes"/>
+      <point x="491" y="616" type="line" smooth="yes"/>
+      <point x="532" y="616"/>
+      <point x="540" y="591"/>
+      <point x="548" y="562" type="curve" smooth="yes"/>
+      <point x="634" y="261" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-31 06:07:28</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

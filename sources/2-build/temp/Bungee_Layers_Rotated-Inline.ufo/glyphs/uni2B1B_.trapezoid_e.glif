@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2B1B.trapezoid_e" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="-20.0" y="-160" type="line"/>
+      <point x="1020.0" y="-160" type="line"/>
+      <point x="1020.0" y="776" type="line"/>
+      <point x="-20.0" y="982" type="line"/>
+    </contour>
+    <contour>
+      <point x="-10.0" y="970" type="line"/>
+      <point x="1010.0" y="768" type="line"/>
+      <point x="1010.0" y="-150" type="line"/>
+      <point x="-10.0" y="-150" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

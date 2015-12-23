@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign" format="1">
+  <advance width="750"/>
+  <unicode hex="0023"/>
+  <outline>
+    <contour>
+      <point x="534.0" y="495" type="line"/>
+      <point x="496.0" y="230" type="line"/>
+      <point x="217.0" y="230" type="line"/>
+      <point x="255.0" y="495" type="line"/>
+    </contour>
+    <contour>
+      <point x="187.0" y="90" type="line"/>
+      <point x="197.0" y="90" type="line"/>
+      <point x="216.0" y="220" type="line"/>
+      <point x="495.0" y="220" type="line"/>
+      <point x="476.0" y="90" type="line"/>
+      <point x="486.0" y="90" type="line"/>
+      <point x="505.0" y="220" type="line"/>
+      <point x="589.0" y="220" type="line"/>
+      <point x="589.0" y="230" type="line"/>
+      <point x="506.0" y="230" type="line"/>
+      <point x="544.0" y="495" type="line"/>
+      <point x="625.0" y="495" type="line"/>
+      <point x="625.0" y="505" type="line"/>
+      <point x="545.0" y="505" type="line"/>
+      <point x="563.0" y="630" type="line"/>
+      <point x="553.0" y="630" type="line"/>
+      <point x="535.0" y="505" type="line"/>
+      <point x="256.0" y="505" type="line"/>
+      <point x="274.0" y="630" type="line"/>
+      <point x="264.0" y="630" type="line"/>
+      <point x="246.0" y="505" type="line"/>
+      <point x="161.0" y="505" type="line"/>
+      <point x="161.0" y="495" type="line"/>
+      <point x="245.0" y="495" type="line"/>
+      <point x="207.0" y="230" type="line"/>
+      <point x="125.0" y="230" type="line"/>
+      <point x="125.0" y="220" type="line"/>
+      <point x="206.0" y="220" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:12:13</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

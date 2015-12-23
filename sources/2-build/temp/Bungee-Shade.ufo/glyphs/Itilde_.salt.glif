@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Itilde.salt" format="1">
+  <advance width="471"/>
+  <outline>
+    <contour>
+      <point x="413" y="712" type="line"/>
+      <point x="484" y="772" type="line" smooth="yes"/>
+      <point x="493" y="779"/>
+      <point x="499" y="790"/>
+      <point x="499" y="808" type="curve" smooth="yes"/>
+      <point x="499" y="909" type="line" smooth="yes"/>
+      <point x="499" y="943"/>
+      <point x="483" y="954"/>
+      <point x="450" y="945" type="curve" smooth="yes"/>
+      <point x="400.002250656" y="929.211237049"/>
+      <point x="397.684895137" y="926.815696118"/>
+      <point x="323.0" y="937.0" type="curve" smooth="yes"/>
+      <point x="301.0" y="940.0" type="line"/>
+      <point x="284.0" y="942.0" type="line" smooth="yes"/>
+      <point x="211.689343395" y="950.507136071"/>
+      <point x="192.80660343" y="952.898669021"/>
+      <point x="143" y="936" type="curve" smooth="yes"/>
+      <point x="132" y="932"/>
+      <point x="121" y="927"/>
+      <point x="116" y="922" type="curve" smooth="yes"/>
+      <point x="27" y="848" type="line" smooth="yes"/>
+      <point x="16" y="839"/>
+      <point x="12" y="829"/>
+      <point x="12" y="811" type="curve" smooth="yes"/>
+      <point x="12" y="710" type="line" smooth="yes"/>
+      <point x="12" y="676"/>
+      <point x="28" y="665"/>
+      <point x="61" y="674" type="curve" smooth="yes"/>
+      <point x="105.462192629" y="687.948923178"/>
+      <point x="118.251253628" y="692.476165001"/>
+      <point x="182" y="683" type="curve"/>
+      <point x="180" y="703" type="line"/>
+      <point x="208" y="727" type="line"/>
+      <point x="378" y="726" type="line"/>
+    </contour>
+    <contour>
+      <point x="300" y="764" type="line"/>
+      <point x="272" y="768" type="line" smooth="yes"/>
+      <point x="206.233452732" y="777.395221038"/>
+      <point x="193.344397525" y="772.990761517"/>
+      <point x="147" y="759" type="curve" smooth="yes"/>
+      <point x="123" y="752"/>
+      <point x="111" y="760"/>
+      <point x="111" y="785" type="curve" smooth="yes"/>
+      <point x="111" y="886" type="line" smooth="yes"/>
+      <point x="111" y="911"/>
+      <point x="124" y="918"/>
+      <point x="147" y="927" type="curve"/>
+      <point x="202.64128271" y="943.780704309"/>
+      <point x="212.716307639" y="940.26866969"/>
+      <point x="283" y="932" type="curve" smooth="yes"/>
+      <point x="300" y="930" type="line"/>
+      <point x="322" y="927" type="line" smooth="yes"/>
+      <point x="398.694299601" y="916.541686418"/>
+      <point x="401.103296767" y="919.167107488"/>
+      <point x="453" y="935" type="curve" smooth="yes"/>
+      <point x="477" y="942"/>
+      <point x="489" y="934"/>
+      <point x="489" y="909" type="curve" smooth="yes"/>
+      <point x="489" y="808" type="line" smooth="yes"/>
+      <point x="489" y="783"/>
+      <point x="476" y="776"/>
+      <point x="453" y="767" type="curve"/>
+      <point x="397.31216737" y="750.205256826"/>
+      <point x="386.213390674" y="753.223326166"/>
+      <point x="316" y="762" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="399" y="841" type="line"/>
+      <point x="377.221802235" y="838.580200248"/>
+      <point x="358.353883404" y="843.830764575"/>
+      <point x="317" y="849" type="curve" smooth="yes"/>
+      <point x="301" y="851" type="line"/>
+      <point x="273" y="855" type="line" smooth="yes"/>
+      <point x="237.634206395" y="860.052256229"/>
+      <point x="219.095009479" y="862.360218628"/>
+      <point x="201" y="860" type="curve"/>
+      <point x="201" y="849" type="line"/>
+      <point x="218.288980291" y="852.143450962"/>
+      <point x="236.420276404" y="849.939960514"/>
+      <point x="271" y="845" type="curve" smooth="yes"/>
+      <point x="299" y="841" type="line"/>
+      <point x="315" y="839" type="line" smooth="yes"/>
+      <point x="356.543282648" y="833.807089669"/>
+      <point x="377.121563421" y="828.569062602"/>
+      <point x="399" y="831" type="curve"/>
+    </contour>
+    <component base="I.salt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

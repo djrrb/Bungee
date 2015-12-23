@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wgrave" format="1">
+  <advance width="1015"/>
+  <unicode hex="1E81"/>
+  <outline>
+    <component base="Wgrave"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:18:10</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <integer>0</integer>
+        <integer>1</integer>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

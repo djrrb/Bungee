@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edotaccent.salt" format="1">
+  <advance width="743"/>
+  <outline>
+    <contour>
+      <point x="542.0" y="724.0" type="line"/>
+      <point x="584.0" y="759.0" type="line" smooth="yes"/>
+      <point x="593.0" y="767.0"/>
+      <point x="598.0" y="778.0"/>
+      <point x="598.0" y="796.0" type="curve" smooth="yes"/>
+      <point x="598.0" y="923.0" type="line" smooth="yes"/>
+      <point x="598.0" y="955.0"/>
+      <point x="584.0" y="969.0"/>
+      <point x="552.0" y="969.0" type="curve" smooth="yes"/>
+      <point x="394.0" y="969.0" type="line" smooth="yes"/>
+      <point x="380.0" y="969.0"/>
+      <point x="369.0" y="966.0"/>
+      <point x="362.0" y="960.0" type="curve" smooth="yes"/>
+      <point x="233.0" y="851.0" type="line" smooth="yes"/>
+      <point x="224.0" y="843.0"/>
+      <point x="219.0" y="832.0"/>
+      <point x="219.0" y="814.0" type="curve"/>
+      <point x="219.0" y="687.0" type="line"/>
+      <point x="219.0" y="679.0"/>
+      <point x="220.0" y="671.0"/>
+      <point x="222.0" y="665.0" type="curve"/>
+      <point x="265.0" y="700.0" type="line"/>
+      <point x="345" y="721" type="line"/>
+    </contour>
+    <contour>
+      <point x="552" y="760" type="curve" smooth="yes"/>
+      <point x="394" y="760" type="line" smooth="yes"/>
+      <point x="369" y="760"/>
+      <point x="358" y="771"/>
+      <point x="358" y="796" type="curve" smooth="yes"/>
+      <point x="358" y="923" type="line" smooth="yes"/>
+      <point x="358" y="948"/>
+      <point x="369" y="959"/>
+      <point x="394" y="959" type="curve" smooth="yes"/>
+      <point x="552" y="959" type="line"/>
+      <point x="577" y="959"/>
+      <point x="588" y="948"/>
+      <point x="588" y="923" type="curve" smooth="yes"/>
+      <point x="588" y="796" type="line" smooth="yes"/>
+      <point x="588" y="771"/>
+      <point x="577" y="760"/>
+    </contour>
+    <contour>
+      <point x="478" y="830" type="line"/>
+      <point x="478" y="889" type="line"/>
+      <point x="468" y="889" type="line"/>
+      <point x="468" y="830" type="line"/>
+    </contour>
+    <component base="E.salt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:10:06</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

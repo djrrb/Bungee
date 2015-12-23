@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="H.s_v" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="309.0" y="90" type="line"/>
+      <point x="319.0" y="90" type="line"/>
+      <point x="319.0" y="335" type="line"/>
+      <point x="681.0" y="335" type="line"/>
+      <point x="681.0" y="90" type="line"/>
+      <point x="691.0" y="90" type="line"/>
+      <point x="691.0" y="590" type="line"/>
+      <point x="681.0" y="590" type="line"/>
+      <point x="681.0" y="345" type="line"/>
+      <point x="319.0" y="345" type="line"/>
+      <point x="319.0" y="590" type="line"/>
+      <point x="309.0" y="590" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

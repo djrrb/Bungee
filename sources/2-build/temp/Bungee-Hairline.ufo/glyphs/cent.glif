@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cent" format="1">
+  <advance width="628"/>
+  <unicode hex="00A2"/>
+  <outline>
+    <contour>
+      <point x="358.0" y="131" type="line"/>
+      <point x="358" y="40" type="line"/>
+      <point x="368" y="40" type="line"/>
+      <point x="368.0" y="131" type="line"/>
+      <point x="493.0" y="131" type="line"/>
+      <point x="493.0" y="141" type="line"/>
+      <point x="326.0" y="141" type="line" smooth="yes"/>
+      <point x="206.0" y="141"/>
+      <point x="176.0" y="173"/>
+      <point x="176.0" y="260" type="curve" smooth="yes"/>
+      <point x="176.0" y="457" type="line" smooth="yes"/>
+      <point x="176.0" y="546"/>
+      <point x="208.0" y="578"/>
+      <point x="326.0" y="578" type="curve" smooth="yes"/>
+      <point x="493.0" y="578" type="line"/>
+      <point x="493.0" y="588" type="line"/>
+      <point x="368.0" y="588" type="line"/>
+      <point x="368" y="680" type="line"/>
+      <point x="358" y="680" type="line"/>
+      <point x="358.0" y="588" type="line"/>
+      <point x="326.0" y="588" type="line" smooth="yes"/>
+      <point x="198.0" y="588"/>
+      <point x="166.0" y="552"/>
+      <point x="166.0" y="457" type="curve" smooth="yes"/>
+      <point x="166.0" y="260" type="line" smooth="yes"/>
+      <point x="166.0" y="167"/>
+      <point x="196.0" y="131"/>
+      <point x="326.0" y="131" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:09:14</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

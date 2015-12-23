@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tcommaaccent" format="1">
+  <advance width="1002"/>
+  <unicode hex="0162"/>
+  <unicode hex="021A"/>
+  <outline>
+    <contour>
+      <point x="590.0" y="355" type="line"/>
+      <point x="590.0" y="365" type="line"/>
+      <point x="180.0" y="365" type="line"/>
+      <point x="180.0" y="570" type="line"/>
+      <point x="170.0" y="570" type="line"/>
+      <point x="170.0" y="150" type="line"/>
+      <point x="180.0" y="150" type="line"/>
+      <point x="180.0" y="355" type="line"/>
+    </contour>
+    <component base="commaaccent" xOffset="693" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

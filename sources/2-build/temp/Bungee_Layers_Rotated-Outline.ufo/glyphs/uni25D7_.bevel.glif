@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni25D7.bevel" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="1050.0" y="145" type="line"/>
+      <point x="1050.0" y="229" type="line" smooth="yes"/>
+      <point x="1050.0" y="261"/>
+      <point x="1036.0" y="275"/>
+      <point x="1004.0" y="275" type="curve" smooth="yes"/>
+      <point x="990.0" y="275" type="line"/>
+      <point x="985.0" y="350"/>
+      <point x="925.0" y="410"/>
+      <point x="850.0" y="415" type="curve"/>
+      <point x="850.0" y="429" type="line" smooth="yes"/>
+      <point x="850.0" y="461"/>
+      <point x="836.0" y="475"/>
+      <point x="804.0" y="475" type="curve" smooth="yes"/>
+      <point x="196.0" y="475" type="line" smooth="yes"/>
+      <point x="164.0" y="475"/>
+      <point x="150.0" y="461"/>
+      <point x="150.0" y="429" type="curve" smooth="yes"/>
+      <point x="150.0" y="415" type="line"/>
+      <point x="75.0" y="410"/>
+      <point x="15.0" y="350"/>
+      <point x="10.0" y="275" type="curve"/>
+      <point x="-4.0" y="275" type="line" smooth="yes"/>
+      <point x="-36.0" y="275"/>
+      <point x="-50.0" y="261"/>
+      <point x="-50.0" y="229" type="curve" smooth="yes"/>
+      <point x="-50.0" y="145" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 17:09:42</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.5</real>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

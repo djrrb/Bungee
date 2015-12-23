@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni25D7.v_bevel" format="1">
+  <advance width="1335"/>
+  <outline>
+    <contour>
+      <point x="1273" y="436" type="line" smooth="yes"/>
+      <point x="1273" y="411"/>
+      <point x="1262" y="400"/>
+      <point x="1237" y="400" type="curve" smooth="yes"/>
+      <point x="1213" y="400" type="line"/>
+      <point x="1213" y="323"/>
+      <point x="1150" y="260"/>
+      <point x="1073" y="260" type="curve"/>
+      <point x="1073" y="236" type="line" smooth="yes"/>
+      <point x="1073" y="211"/>
+      <point x="1062" y="200"/>
+      <point x="1037" y="200" type="curve" smooth="yes"/>
+      <point x="429" y="200" type="line" smooth="yes"/>
+      <point x="404" y="200"/>
+      <point x="393" y="211"/>
+      <point x="393" y="236" type="curve" smooth="yes"/>
+      <point x="393" y="260" type="line"/>
+      <point x="316" y="260"/>
+      <point x="253" y="323"/>
+      <point x="253" y="400" type="curve"/>
+      <point x="229" y="400" type="line" smooth="yes"/>
+      <point x="204" y="400"/>
+      <point x="193" y="411"/>
+      <point x="193" y="436" type="curve" smooth="yes"/>
+      <point x="193" y="520" type="line" smooth="yes"/>
+      <point x="1273" y="520" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="213" y="520" type="line"/>
+      <point x="213" y="436" type="line" smooth="yes"/>
+      <point x="213" y="424"/>
+      <point x="217" y="420"/>
+      <point x="229" y="420" type="curve" smooth="yes"/>
+      <point x="273" y="420" type="line"/>
+      <point x="273" y="400" type="line" smooth="yes"/>
+      <point x="273" y="334"/>
+      <point x="327" y="280"/>
+      <point x="393" y="280" type="curve" smooth="yes"/>
+      <point x="413" y="280" type="line"/>
+      <point x="413" y="236" type="line" smooth="yes"/>
+      <point x="413" y="224"/>
+      <point x="417" y="220"/>
+      <point x="429" y="220" type="curve" smooth="yes"/>
+      <point x="1037" y="220" type="line" smooth="yes"/>
+      <point x="1049" y="220"/>
+      <point x="1053" y="224"/>
+      <point x="1053" y="236" type="curve" smooth="yes"/>
+      <point x="1053" y="280" type="line"/>
+      <point x="1073" y="280" type="line" smooth="yes"/>
+      <point x="1139" y="280"/>
+      <point x="1193" y="334"/>
+      <point x="1193" y="400" type="curve" smooth="yes"/>
+      <point x="1193" y="420" type="line"/>
+      <point x="1237" y="420" type="line" smooth="yes"/>
+      <point x="1249" y="420"/>
+      <point x="1253" y="424"/>
+      <point x="1253" y="436" type="curve" smooth="yes"/>
+      <point x="1253" y="520" type="line"/>
+      <point x="1243" y="520" type="line"/>
+      <point x="1243" y="436" type="line" smooth="yes"/>
+      <point x="1243" y="432"/>
+      <point x="1241" y="430"/>
+      <point x="1237" y="430" type="curve" smooth="yes"/>
+      <point x="1183" y="430" type="line"/>
+      <point x="1183" y="400" type="line" smooth="yes"/>
+      <point x="1183" y="340"/>
+      <point x="1133" y="290"/>
+      <point x="1073" y="290" type="curve" smooth="yes"/>
+      <point x="1043" y="290" type="line"/>
+      <point x="1043" y="236" type="line" smooth="yes"/>
+      <point x="1043" y="232"/>
+      <point x="1041" y="230"/>
+      <point x="1037" y="230" type="curve" smooth="yes"/>
+      <point x="429" y="230" type="line" smooth="yes"/>
+      <point x="425" y="230"/>
+      <point x="423" y="232"/>
+      <point x="423" y="236" type="curve" smooth="yes"/>
+      <point x="423" y="290" type="line"/>
+      <point x="393" y="290" type="line" smooth="yes"/>
+      <point x="333" y="290"/>
+      <point x="283" y="340"/>
+      <point x="283" y="400" type="curve" smooth="yes"/>
+      <point x="283" y="430" type="line"/>
+      <point x="229" y="430" type="line" smooth="yes"/>
+      <point x="225" y="430"/>
+      <point x="223" y="432"/>
+      <point x="223" y="436" type="curve" smooth="yes"/>
+      <point x="223" y="520" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 17:09:42</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.5</real>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

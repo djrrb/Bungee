@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni25D7.v_rounded" format="1">
+  <advance width="1335"/>
+  <outline>
+    <contour>
+      <point x="668.0" y="190" type="curve" smooth="yes"/>
+      <point x="1119.0" y="190"/>
+      <point x="1218.0" y="299"/>
+      <point x="1218.0" y="455" type="curve" smooth="yes"/>
+      <point x="1218.0" y="520" type="line"/>
+      <point x="118.0" y="520" type="line"/>
+      <point x="118.0" y="455" type="line" smooth="yes"/>
+      <point x="118.0" y="299"/>
+      <point x="217.0" y="190"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-03-27 19:32:31</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

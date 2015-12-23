@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore" format="1">
+  <advance width="734"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="574.0" y="5" type="line"/>
+      <point x="160.0" y="5" type="line"/>
+      <point x="160.0" y="-5" type="line"/>
+      <point x="574.0" y="-5" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:37:06</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

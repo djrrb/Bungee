@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I.s_v" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="245.0" y="-10" type="curve" smooth="yes"/>
+      <point x="755.0" y="-10" type="line" smooth="yes"/>
+      <point x="787.0" y="-10"/>
+      <point x="801.0" y="4"/>
+      <point x="801.0" y="36" type="curve" smooth="yes"/>
+      <point x="801.0" y="155" type="line" smooth="yes"/>
+      <point x="801.0" y="187"/>
+      <point x="787.0" y="201"/>
+      <point x="755.0" y="201" type="curve" smooth="yes"/>
+      <point x="631.0" y="201" type="line"/>
+      <point x="631.0" y="477" type="line"/>
+      <point x="755.0" y="477" type="line" smooth="yes"/>
+      <point x="787.0" y="477"/>
+      <point x="801.0" y="491"/>
+      <point x="801.0" y="523" type="curve" smooth="yes"/>
+      <point x="801.0" y="644" type="line" smooth="yes"/>
+      <point x="801.0" y="676"/>
+      <point x="787.0" y="690"/>
+      <point x="755.0" y="690" type="curve" smooth="yes"/>
+      <point x="245.0" y="690" type="line" smooth="yes"/>
+      <point x="213.0" y="690"/>
+      <point x="199.0" y="676"/>
+      <point x="199.0" y="644" type="curve" smooth="yes"/>
+      <point x="199.0" y="523" type="line" smooth="yes"/>
+      <point x="199.0" y="491"/>
+      <point x="213.0" y="477"/>
+      <point x="245.0" y="477" type="curve" smooth="yes"/>
+      <point x="369.0" y="477" type="line"/>
+      <point x="369.0" y="201" type="line"/>
+      <point x="245.0" y="201" type="line" smooth="yes"/>
+      <point x="213.0" y="201"/>
+      <point x="199.0" y="187"/>
+      <point x="199.0" y="155" type="curve" smooth="yes"/>
+      <point x="199.0" y="36" type="line" smooth="yes"/>
+      <point x="199.0" y="4"/>
+      <point x="213.0" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave" format="1">
+  <advance width="500"/>
+  <unicode hex="0060"/>
+  <outline>
+    <contour>
+      <point x="130.0" y="867" type="line"/>
+      <point x="369.0" y="837" type="line"/>
+      <point x="369.0" y="847" type="line"/>
+      <point x="130.0" y="877" type="line"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="747.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="0.0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:00:27</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
