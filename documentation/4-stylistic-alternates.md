@@ -17,17 +17,17 @@ Replace diagonal forms of A, M, N, W, X, and Y with deco-inspired alternates wit
 
 <img src="images/design-alternates-round-forms.png" alt="Round forms" height="200" />
 
-## Stylistic Set 03: Serifless I.
-
-Replace the serifed I with an serifless alternate. Note: this is a very narrow character that may result in less-than-ideal vertical setting.
-
-<img src="images/design-alternates-i.png" alt="Serifless I" height="200" />
-
 ## Stylistic Set 04: Round E
 
 Replace forms of E with an decorative alternate with a rounded left side.
 
 <img src="images/design-alternates-e.png" alt="Round E" height="200" />
+
+## Stylistic Set 04: Serifless I.
+
+Replace the serifed I with an serifless alternate. Note: this is a very narrow character that may result in less-than-ideal vertical setting.
+
+<img src="images/design-alternates-i.png" alt="Serifless I" height="200" />
 
 ## Stylistic Set 05: Serifless L
 

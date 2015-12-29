@@ -5,15 +5,21 @@ Bungee’s vertical features are implemented via three OpenType features:
 
 * *vert*: Vertical Forms.
 
-Replace default horizontal forms with glyphs drawn for vertical setting. These glyphs are monowidth in appearance, and their widths are adjusted to foster better vertical alignment. The hyphen and other basic punctuation are rotated 90°.
+Replace default horizontal forms with special glyphs drawn for vertical setting. These alternates appear to be monowidth so that they foster better vertical alignment. The hyphen and other basic punctuation are rotated 90°. Accented glyphs are drawn slightly shorter to optically compensate for the height of the diacritic.
+
+<img src="images/design-vert.png" alt="Vertical forms" width="200" />
 
 * *vpal*: Vertical Positioning and Layout.
 
-Reset the vertical sidebearings and advance heights for the glyphs. This feature enables Bungee to have proportional vertical spacing, with shorter glyphs occupying less vertical space than taller ones.
+Reset the vertical sidebearings and advance heights to create proportional vertical spacing. Instead of the fixed-height approach of setting each letter followed by a hard return, this feature allows glyphs with accents or tails (like É or Q) to occupy more vertical space than most characters, and for optical adjustments to be made that improve spacing (for example, the wide crossbar at the top of the letter 'T' is padded by more space than the narrow stem at the bottom).
+
+<img src="images/design-vpal.png" alt="Vertical forms" width="200" />
 
 * *vkrn*: Vertical Kerning.
 
 Adjust the vertical spacing of individual glyph pairs so that they are more evenly spaced.
+
+<img src="images/design-vkrn.png" alt="Vertical forms" width="200" />
 
 ## In apps with the vertical type tool
 
