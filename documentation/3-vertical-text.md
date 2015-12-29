@@ -1,27 +1,28 @@
-
 # Using vertical text
 
 Bungee’s vertical features are implemented via three OpenType features:
 
-* *vert*: Vertical Forms.
+### *vert*: Vertical Forms
 
 Replace default horizontal forms with special glyphs drawn for vertical setting. These alternates appear to be monowidth so that they foster better vertical alignment. The hyphen and other basic punctuation are rotated 90°. Accented glyphs are drawn slightly shorter to optically compensate for the height of the diacritic.
 
 <img src="images/design-vert.png" alt="Vertical forms" width="200" />
 
-* *vpal*: Vertical Positioning and Layout.
+### *vpal*: Vertical Positioning and Layout
 
 Reset the vertical sidebearings and advance heights to create proportional vertical spacing. Instead of the fixed-height approach of setting each letter followed by a hard return, this feature allows glyphs with accents or tails (like É or Q) to occupy more vertical space than most characters, and for optical adjustments to be made that improve spacing (for example, the wide crossbar at the top of the letter 'T' is padded by more space than the narrow stem at the bottom).
 
 <img src="images/design-vpal.png" alt="Vertical forms" width="200" />
 
-* *vkrn*: Vertical Kerning.
+### *vkrn*: Vertical Kerning
 
-Adjust the vertical spacing of individual glyph pairs so that they are more evenly spaced.
+Adjust the vertical spacing of individual glyph pairs so that they are more evenly spaced. These pairs often involve letters like P, F, L, and J, which have large areas of whitespace that need to be tightened when used in combination with certain other letters.
 
 <img src="images/design-vkrn.png" alt="Vertical forms" width="200" />
 
-## In apps with the vertical type tool
+## In design apps
+
+### The vertical text tool
 
 Several professional design applications have separate vertical text tools, which will implement all of the necessary OpenType features and provide a nice interface for setting vertical text.
 
@@ -35,7 +36,7 @@ Desktop apps that natively support vertical text include:
 * Adobe Illustrator
 * Apple TextEdit
 
-## In apps with rotated text 
+### Rotated text 
 
 In apps that do not have native vertical text tools, the *Bungee Layers Rotated* family allows you to simulate vertical type. 
 
@@ -62,7 +63,9 @@ Apps that do not support vertical text include:
 * Apple Pages
 * Adobe InDesign
 
-## On the web with writing-mode
+## On the web
+
+###  Writing-mode: *vertical-rl*
 
 The proper way to implement vertical text is via the CSS **writing-mode** and **text-orientation** selector, as well as implementing. This will work in recent versions of IE, Firefox, and Chrome, but not in older browsers or Safari.
 
@@ -89,7 +92,7 @@ The proper way to implement vertical text is via the CSS **writing-mode** and **
 	
 Learn more about vertical writing modes at http://generatedcontent.org/post/45384206019/writing-modes.
 	
-## On the web with rotated text
+### Rotated text
 	
 Alternatively, *Bungee Layers Rotated* fonts and a rotated div to simulate the effect. This will require you
 to reposition the div using margins or absolute positioning.
