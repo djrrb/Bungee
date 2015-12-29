@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ntilde.salt" format="1">
   <advance width="1005"/>
+  <unicode hex="E126"/>
   <outline>
     <component base="tilde"/>
     <component base="N.salt_s" xOffset="186"/>

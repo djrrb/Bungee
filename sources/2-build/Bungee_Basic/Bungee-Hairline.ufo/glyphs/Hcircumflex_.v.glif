@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Hcircumflex.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E1A6"/>
   <outline>
     <component base="H.s_v"/>
     <component base="circumflex" xOffset="250" yOffset="-40"/>

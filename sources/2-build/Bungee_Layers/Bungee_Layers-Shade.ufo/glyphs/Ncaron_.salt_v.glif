@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ncaron.salt_v" format="1">
   <advance width="1000"/>
+  <unicode hex="E218"/>
   <outline>
     <component base="caron" xOffset="250" yOffset="-40"/>
     <component base="N.salt_s_v"/>

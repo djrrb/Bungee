@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ellipsis.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E23D"/>
   <outline>
     <component base="ellipsis" xOffset="-105" yOffset="222"/>
   </outline>

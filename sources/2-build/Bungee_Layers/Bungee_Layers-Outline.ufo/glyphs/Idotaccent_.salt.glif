@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idotaccent.salt" format="1">
   <advance width="371.0"/>
+  <unicode hex="E11D"/>
   <outline>
     <component base="I.salt"/>
     <component base="dotaccent" xOffset="-66"/>

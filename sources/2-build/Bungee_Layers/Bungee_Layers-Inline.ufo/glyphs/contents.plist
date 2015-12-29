@@ -462,22 +462,44 @@
 	<string>L_.glif</string>
 	<key>L.s_v</key>
 	<string>L_.s_v.glif</string>
+	<key>L.salt</key>
+	<string>L_.salt.glif</string>
+	<key>L.salt_s_v</key>
+	<string>L_.salt_s_v.glif</string>
+	<key>L.salt_v</key>
+	<string>L_.salt_v.glif</string>
 	<key>L.v</key>
 	<string>L_.v.glif</string>
 	<key>Lacute</key>
 	<string>Lacute_.glif</string>
+	<key>Lacute.salt</key>
+	<string>Lacute_.salt.glif</string>
+	<key>Lacute.salt_v</key>
+	<string>Lacute_.salt_v.glif</string>
 	<key>Lacute.v</key>
 	<string>Lacute_.v.glif</string>
 	<key>Lcaron</key>
 	<string>Lcaron_.glif</string>
+	<key>Lcaron.salt</key>
+	<string>Lcaron_.salt.glif</string>
+	<key>Lcaron.salt_v</key>
+	<string>Lcaron_.salt_v.glif</string>
 	<key>Lcaron.v</key>
 	<string>Lcaron_.v.glif</string>
 	<key>Lcommaaccent</key>
 	<string>Lcommaaccent_.glif</string>
+	<key>Lcommaaccent.salt</key>
+	<string>Lcommaaccent_.salt.glif</string>
+	<key>Lcommaaccent.salt_v</key>
+	<string>Lcommaaccent_.salt_v.glif</string>
 	<key>Lcommaaccent.v</key>
 	<string>Lcommaaccent_.v.glif</string>
 	<key>Ldot</key>
 	<string>Ldot_.glif</string>
+	<key>Ldot.salt</key>
+	<string>Ldot_.salt.glif</string>
+	<key>Ldot.salt_v</key>
+	<string>Ldot_.salt_v.glif</string>
 	<key>Ldot.v</key>
 	<string>Ldot_.v.glif</string>
 	<key>Ldotbelow</key>
@@ -488,6 +510,10 @@
 	<string>Llinebelow_.glif</string>
 	<key>Lslash</key>
 	<string>Lslash_.glif</string>
+	<key>Lslash.salt</key>
+	<string>Lslash_.salt.glif</string>
+	<key>Lslash.salt_v</key>
+	<string>Lslash_.salt_v.glif</string>
 	<key>Lslash.v</key>
 	<string>Lslash_.v.glif</string>
 	<key>M</key>
@@ -1040,6 +1066,8 @@
 	<string>blackuppointingtriangle.glif</string>
 	<key>block</key>
 	<string>block.glif</string>
+	<key>block.v</key>
+	<string>block.v.glif</string>
 	<key>braceleft</key>
 	<string>braceleft.glif</string>
 	<key>braceleft.v</key>
@@ -1232,12 +1260,12 @@
 	<string>endash.v.glif</string>
 	<key>eng</key>
 	<string>eng.glif</string>
+	<key>enspace</key>
+	<string>enspace.glif</string>
 	<key>eogonek</key>
 	<string>eogonek.glif</string>
 	<key>equal</key>
 	<string>equal.glif</string>
-	<key>equal.salt</key>
-	<string>equal.salt.glif</string>
 	<key>estimated</key>
 	<string>estimated.glif</string>
 	<key>eth</key>
@@ -1500,8 +1528,6 @@
 	<string>naira.glif</string>
 	<key>napostrophe</key>
 	<string>napostrophe.glif</string>
-	<key>nbspace</key>
-	<string>nbspace.glif</string>
 	<key>ncaron</key>
 	<string>ncaron.glif</string>
 	<key>ncommaaccent</key>

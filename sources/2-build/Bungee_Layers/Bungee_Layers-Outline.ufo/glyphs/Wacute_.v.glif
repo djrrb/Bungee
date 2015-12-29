@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Wacute.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E1D7"/>
   <outline>
     <component base="acute" xOffset="260" yOffset="-40"/>
     <component base="W.s_v"/>

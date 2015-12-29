@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Lcaron.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E1B4"/>
   <outline>
     <component base="L.v"/>
     <component base="caron.2" xOffset="456"/>

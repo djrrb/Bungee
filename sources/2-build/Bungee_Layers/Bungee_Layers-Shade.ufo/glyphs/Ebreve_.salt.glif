@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ebreve.salt" format="1">
   <advance width="643"/>
+  <unicode hex="E110"/>
   <outline>
     <component base="E.salt"/>
     <component base="breve" xOffset="107"/>

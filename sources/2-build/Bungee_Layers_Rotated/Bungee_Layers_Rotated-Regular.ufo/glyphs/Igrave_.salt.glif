@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Igrave.salt" format="1">
   <advance width="1003"/>
+  <unicode hex="E115"/>
   <outline>
     <component base="grave"/>
     <component base="I.salt_s" xOffset="213"/>

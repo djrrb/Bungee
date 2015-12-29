@@ -2,7 +2,6 @@
 <glyph name="quotedbl" format="1">
   <advance width="535"/>
   <unicode hex="0022"/>
-  <unicode hex="FF02"/>
   <outline>
     <component base="quotesingle" xOffset="8" yOffset="-155"/>
     <component base="quotesingle" xOffset="8" yOffset="155"/>

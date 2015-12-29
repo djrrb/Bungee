@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Amacron.salt" format="1">
   <advance width="994"/>
+  <unicode hex="E107"/>
   <outline>
     <component base="macron"/>
     <component base="A.salt_s" xOffset="175"/>

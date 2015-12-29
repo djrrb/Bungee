@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecaron.salt" format="1">
   <advance width="643"/>
+  <unicode hex="E113"/>
   <outline>
     <component base="E.salt"/>
     <component base="caron" xOffset="104"/>

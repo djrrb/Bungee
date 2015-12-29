@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Atilde.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E18D"/>
   <outline>
     <component base="A.s_v"/>
     <component base="tilde" xOffset="251" yOffset="-40"/>

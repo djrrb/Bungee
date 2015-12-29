@@ -4260,7 +4260,6 @@
 			<array>
 				<string>.notdef</string>
 				<string>space</string>
-				<string>nbspace</string>
 				<string>A</string>
 				<string>Agrave</string>
 				<string>Aacute</string>
@@ -4416,6 +4415,12 @@
 				<string>Ibreve.salt</string>
 				<string>Iogonek.salt</string>
 				<string>Idotaccent.salt</string>
+				<string>L.salt</string>
+				<string>Lacute.salt</string>
+				<string>Lcommaaccent.salt</string>
+				<string>Lcaron.salt</string>
+				<string>Ldot.salt</string>
+				<string>Lslash.salt</string>
 				<string>M.salt</string>
 				<string>N.salt</string>
 				<string>Ntilde.salt</string>
@@ -4554,6 +4559,16 @@
 				<string>ogonek</string>
 				<string>commaaccent</string>
 				<string>caron.2</string>
+				<string>acute.vert</string>
+				<string>grave.vert</string>
+				<string>brevehookabove</string>
+				<string>circumflexacute</string>
+				<string>circumflexhookabove</string>
+				<string>breveacute</string>
+				<string>circumflextilde</string>
+				<string>brevegrave</string>
+				<string>brevetilde</string>
+				<string>circumflexgrave</string>
 				<string>arrowleft</string>
 				<string>arrowup</string>
 				<string>arrowright</string>
@@ -4601,7 +4616,9 @@
 				<string>indexupleft.salt_outline</string>
 				<string>indexupright.salt_outline</string>
 				<string>emspace</string>
+				<string>enspace</string>
 				<string>block</string>
+				<string>block.v</string>
 				<string>uni25D6</string>
 				<string>uni25D7</string>
 				<string>uni25D6.v</string>
@@ -4660,7 +4677,6 @@
 				<string>uni2B1B.semichevron_w</string>
 				<string>uni2B1B.semichevron_n</string>
 				<string>uni2B1B.semichevron_s</string>
-				<string>equal.salt</string>
 				<string>space.v</string>
 				<string>A.v</string>
 				<string>Agrave.v</string>
@@ -4818,6 +4834,13 @@
 				<string>Ibreve.salt_v</string>
 				<string>Iogonek.salt_v</string>
 				<string>Idotaccent.salt_v</string>
+				<string>L.salt_v</string>
+				<string>Lacute.salt_v</string>
+				<string>Lcommaaccent.salt_v</string>
+				<string>Lcaron.salt_v</string>
+				<string>Ldot.salt_v</string>
+				<string>Lslash.salt_v</string>
+				<string>L.salt_s_v</string>
 				<string>M.salt_v</string>
 				<string>N.salt_v</string>
 				<string>Ntilde.salt_v</string>
@@ -5297,16 +5320,6 @@
 				<string>nine.sups</string>
 				<string>parenleft.sups</string>
 				<string>parenright.sups</string>
-				<string>acute.vert</string>
-				<string>grave.vert</string>
-				<string>brevehookabove</string>
-				<string>circumflexacute</string>
-				<string>circumflexhookabove</string>
-				<string>breveacute</string>
-				<string>circumflextilde</string>
-				<string>brevegrave</string>
-				<string>brevetilde</string>
-				<string>circumflexgrave</string>
 			</array>
 			<key>type</key>
 			<string>glyphList</string>
@@ -6899,7 +6912,6 @@
 	<array>
 		<string>.notdef</string>
 		<string>space</string>
-		<string>nbspace</string>
 		<string>A</string>
 		<string>Agrave</string>
 		<string>Aacute</string>
@@ -7055,6 +7067,12 @@
 		<string>Ibreve.salt</string>
 		<string>Iogonek.salt</string>
 		<string>Idotaccent.salt</string>
+		<string>L.salt</string>
+		<string>Lacute.salt</string>
+		<string>Lcommaaccent.salt</string>
+		<string>Lcaron.salt</string>
+		<string>Ldot.salt</string>
+		<string>Lslash.salt</string>
 		<string>M.salt</string>
 		<string>N.salt</string>
 		<string>Ntilde.salt</string>
@@ -7193,6 +7211,16 @@
 		<string>ogonek</string>
 		<string>commaaccent</string>
 		<string>caron.2</string>
+		<string>acute.vert</string>
+		<string>grave.vert</string>
+		<string>brevehookabove</string>
+		<string>circumflexacute</string>
+		<string>circumflexhookabove</string>
+		<string>breveacute</string>
+		<string>circumflextilde</string>
+		<string>brevegrave</string>
+		<string>brevetilde</string>
+		<string>circumflexgrave</string>
 		<string>arrowleft</string>
 		<string>arrowup</string>
 		<string>arrowright</string>
@@ -7240,7 +7268,9 @@
 		<string>indexupleft.salt_outline</string>
 		<string>indexupright.salt_outline</string>
 		<string>emspace</string>
+		<string>enspace</string>
 		<string>block</string>
+		<string>block.v</string>
 		<string>uni25D6</string>
 		<string>uni25D7</string>
 		<string>uni25D6.v</string>
@@ -7299,7 +7329,6 @@
 		<string>uni2B1B.semichevron_w</string>
 		<string>uni2B1B.semichevron_n</string>
 		<string>uni2B1B.semichevron_s</string>
-		<string>equal.salt</string>
 		<string>space.v</string>
 		<string>A.v</string>
 		<string>Agrave.v</string>
@@ -7457,6 +7486,13 @@
 		<string>Ibreve.salt_v</string>
 		<string>Iogonek.salt_v</string>
 		<string>Idotaccent.salt_v</string>
+		<string>L.salt_v</string>
+		<string>Lacute.salt_v</string>
+		<string>Lcommaaccent.salt_v</string>
+		<string>Lcaron.salt_v</string>
+		<string>Ldot.salt_v</string>
+		<string>Lslash.salt_v</string>
+		<string>L.salt_s_v</string>
 		<string>M.salt_v</string>
 		<string>N.salt_v</string>
 		<string>Ntilde.salt_v</string>
@@ -7936,16 +7972,6 @@
 		<string>nine.sups</string>
 		<string>parenleft.sups</string>
 		<string>parenright.sups</string>
-		<string>acute.vert</string>
-		<string>grave.vert</string>
-		<string>brevehookabove</string>
-		<string>circumflexacute</string>
-		<string>circumflexhookabove</string>
-		<string>breveacute</string>
-		<string>circumflextilde</string>
-		<string>brevegrave</string>
-		<string>brevetilde</string>
-		<string>circumflexgrave</string>
 		<string>I.s</string>
 		<string>D.s</string>
 		<string>I.salt_s</string>
@@ -7961,6 +7987,7 @@
 		<string>K.s</string>
 		<string>Y.salt_s</string>
 		<string>L.s</string>
+		<string>L.salt_s</string>
 		<string>W.salt_s</string>
 		<string>S.s</string>
 		<string>G.s</string>

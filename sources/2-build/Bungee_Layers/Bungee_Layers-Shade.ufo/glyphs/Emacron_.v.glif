@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Emacron.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E19D"/>
   <outline>
     <component base="macron" xOffset="250" yOffset="-40"/>
     <component base="E.s_v"/>

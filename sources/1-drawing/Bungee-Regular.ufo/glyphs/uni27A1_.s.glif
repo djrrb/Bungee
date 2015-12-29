@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni27A1.s" format="1">
   <advance width="1000"/>
+  <unicode hex="E15C"/>
   <outline>
     <contour>
       <point x="-39" y="66" type="line"/>
@@ -513,6 +514,73 @@
           <key>width</key>
           <integer>1000</integer>
         </dict>
+        <key>metrics</key>
+        <dict>
+          <key>anchors</key>
+          <array>
+          </array>
+          <key>components</key>
+          <array>
+          </array>
+          <key>contours</key>
+          <array>
+            <dict>
+              <key>points</key>
+              <array>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>0</integer>
+                  <key>y</key>
+                  <integer>59</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>0</integer>
+                  <key>y</key>
+                  <integer>710</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1000</integer>
+                  <key>y</key>
+                  <integer>710</integer>
+                </dict>
+                <dict>
+                  <key>segmentType</key>
+                  <string>line</string>
+                  <key>smooth</key>
+                  <false/>
+                  <key>x</key>
+                  <integer>1000</integer>
+                  <key>y</key>
+                  <integer>59</integer>
+                </dict>
+              </array>
+            </dict>
+          </array>
+          <key>lib</key>
+          <dict>
+          </dict>
+          <key>name</key>
+          <string>uni27A1.s</string>
+          <key>unicodes</key>
+          <array>
+          </array>
+          <key>width</key>
+          <integer>1000</integer>
+        </dict>
         <key>outline</key>
         <dict>
           <key>anchors</key>
@@ -750,7 +818,7 @@
                   <key>x</key>
                   <integer>1051</integer>
                   <key>y</key>
-                  <integer>9</integer>
+                  <integer>19</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>
@@ -780,7 +848,7 @@
                   <key>x</key>
                   <integer>-49</integer>
                   <key>y</key>
-                  <integer>9</integer>
+                  <integer>19</integer>
                 </dict>
                 <dict>
                   <key>segmentType</key>

@@ -5,23 +5,19 @@ As a display font, Bungee is only intended for small bits of text, sometimes eve
 
 Bungee’s stylistic alternates can be accessed using OpenType Stylistic Sets (ss01-ss20), or via the Glyphs palette in design apps.
 
-## Stylistic Set 01: Round forms
+## Stylistic Set 01: Vertical forms
+
+Activate Bungee’s vertical forms (identical to the *vert* feature). These forms are better accessed through the vertical text features described above, but this stylistic set can be handy when such tools are not available, or when monowidth letters are required in a non-vertical setting.
+
+<img src="images/design-alternates-vertical.png" alt="Vertical forms" height="200" />
+
+## Stylistic Set 02: Round forms
 
 Replace diagonal forms of A, M, N, W, X, and Y with deco-inspired alternates with round shapes and vertical sides. 
 
 <img src="images/design-alternates-round-forms.png" alt="Round forms" height="200" />
 
-
-Each of these letters can also be implemented separately using the following stylistic sets:
-	
-	* Stylistic Set 05: Round A
-	* Stylistic Set 06: Round M
-	* Stylistic Set 07: Round N
-	* Stylistic Set 08: Round W
-	* Stylistic Set 09: Round X
-	* Stylistic Set 10: Round Y
-	
-## Stylistic Set 02: Serifless I.
+## Stylistic Set 03: Serifless I.
 
 Replace wide, serifed I with an unserifed alternate. This is a very narrow character that may result in less-than-ideal vertical setting.
 
@@ -29,19 +25,31 @@ Replace wide, serifed I with an unserifed alternate. This is a very narrow chara
 
 For all you Hawaiians out there, there’s also a special serifless II ligature!
 
-## Stylistic Set 03: Round E
+## Stylistic Set 04: Round E
 
 Replace forms of E with an decorative alternate with a rounded left side.
 
 <img src="images/design-alternates-e.png" alt="Round E" height="200" />
+
+## Stylistic Set 05: Serifless L
+
+Replace the default form of L with a simplified version without a vertical serif.
+
+<img src="images/design-alternates-l.png" alt="Serifless L" height="200" />
 	
-## Stylistic Set 04: Alternate ampersand
+## Stylistic Set 06: Alternate ampersand
 
 Replace the default ‘ET’ ampersand with an alternate that resembles a stylized ‘E’ with a vertical stroke.
 	
 <img src="images/design-alternates-ampersand.png" alt="Alternate ampersand" height="200" />
+
+## Stylistic Set 07: Sequential IJ
+
+Replace the ligated IJ with two separate letterforms.
 	
-## Stylistic Set 12: Small quotes
+<img src="images/design-alternates-ij.png" alt="Sequential IJ" height="200" />
+	
+## Stylistic Set 08: Small quotes
 
 Replace the curly apostrophe and matching left quote with smaller, less obtrusive versions.
 
@@ -53,23 +61,7 @@ Signpainter John Downer recommends against vertical type that includes problemat
 
 <img src="images/design-alternates-downer.png" style="width: 3em" alt="Downer" width="200"/>
 
-## Stylistic Set 20: Vertical forms
 
-Activate Bungee’s vertical forms (identical to the *vert* feature). These forms are better accessed through the vertical text features described above, but this stylistic set can be handy when such tools are not available, or when monowidth letters are required in a non-vertical setting.
-
-<img src="images/design-alternates-vertical.png" alt="Vertical forms" height="200" />
-
-## Other OpenType features
-
-In addition to its stylistic alternates, Bungee also contains several OpenType Stylistic Sets for easy access to certain characters or alternate forms:
-
-* Stylistic Set 11: Sequential IJ.
-* Stylistic Set 13: Indexes (pointing hands).
-* Stylistic Set 14: Alternate Indexes.
-* Stylistic Set 15: Outlined Indexes.
-* Stylistic Set 19: Primes.
-
-These features are included primarily for convenience.
 
 * Previous: [Vertical text](3-vertical-text.md)
 * Next: [Ornaments](5-ornaments.md)

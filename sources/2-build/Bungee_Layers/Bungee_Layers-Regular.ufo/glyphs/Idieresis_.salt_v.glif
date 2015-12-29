@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Idieresis.salt_v" format="1">
   <advance width="1000"/>
+  <unicode hex="E206"/>
   <outline>
     <component base="dieresis" xOffset="250" yOffset="-40"/>
     <component base="I.salt_s_v"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uacute.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E1CC"/>
   <outline>
     <component base="U.s_v"/>
     <component base="acute" xOffset="270" yOffset="-40"/>

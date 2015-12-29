@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Edieresis.salt" format="1">
   <advance width="1021.0"/>
+  <unicode hex="E10E"/>
   <outline>
     <component base="dieresis"/>
     <component base="E.salt_s" xOffset="197"/>

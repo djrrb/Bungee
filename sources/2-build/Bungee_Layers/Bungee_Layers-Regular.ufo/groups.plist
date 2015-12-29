@@ -263,6 +263,13 @@
 		<string>ldotbelowmacron</string>
 		<string>llinebelow</string>
 	</array>
+	<key>@MMK_L_L.salt</key>
+	<array>
+		<string>L.salt</string>
+		<string>Lacute.salt</string>
+		<string>Lcommaaccent.salt</string>
+		<string>Lslash.salt</string>
+	</array>
 	<key>@MMK_L_O</key>
 	<array>
 		<string>Otilde</string>
@@ -802,6 +809,11 @@
 		<string>thorn</string>
 		<string>Ldot</string>
 		<string>Germandbls</string>
+		<string>L.salt</string>
+		<string>Lacute.salt</string>
+		<string>Lcaron.salt</string>
+		<string>Lcommaaccent.salt</string>
+		<string>Ldot.salt</string>
 	</array>
 	<key>@MMK_R_I</key>
 	<array>

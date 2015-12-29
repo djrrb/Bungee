@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eacute.salt" format="1">
   <advance width="1020"/>
+  <unicode hex="E10C"/>
   <outline>
     <component base="acute"/>
     <component base="E.salt_s" xOffset="196"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Kcommaaccent.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E1B1"/>
   <outline>
     <component base="K.s_v" yOffset="40"/>
     <component base="commaaccent.v" yOffset="40"/>

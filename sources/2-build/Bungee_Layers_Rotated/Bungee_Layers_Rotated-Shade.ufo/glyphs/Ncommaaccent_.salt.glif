@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ncommaaccent.salt" format="1">
   <advance width="982"/>
+  <unicode hex="E128"/>
   <outline>
     <contour>
       <point x="771.0" y="121" type="line" smooth="yes"/>
@@ -39,6 +40,7 @@
       <point x="771.0" y="-65"/>
       <point x="771.0" y="-33" type="curve" smooth="yes"/>
     </contour>
+    <component base="commaaccent" xOffset="660"/>
   </outline>
   <lib>
     <dict>

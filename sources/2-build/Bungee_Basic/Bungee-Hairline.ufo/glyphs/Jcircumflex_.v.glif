@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Jcircumflex.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E1B0"/>
   <outline>
     <component base="J.s_v"/>
     <component base="circumflex" xOffset="340" yOffset="-40"/>

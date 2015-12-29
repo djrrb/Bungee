@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ecircumflex.salt" format="1">
   <advance width="1026.0"/>
+  <unicode hex="E10D"/>
   <outline>
     <component base="circumflex"/>
     <component base="E.salt_s" xOffset="202"/>

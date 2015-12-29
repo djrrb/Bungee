@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Abreve.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E191"/>
   <outline>
     <component base="A.s_v"/>
     <component base="breve" xOffset="251" yOffset="-40"/>

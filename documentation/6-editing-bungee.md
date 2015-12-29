@@ -19,6 +19,8 @@ No layer besides the foreground layer will contain components.
 
 In many glyphs, the *inlineContour* layer contains the original single contour I used to generate the *inline*, to which I added a 10-unit outline using the <a href="http://doc.robofont.com/extensions/download-extensions/outliner/">Outliner RoboFont extension</a>.
 
+The *metrics* layer contains rectangles that show the metrics of the vertical alternates, as expressed in the {vpal} feature. Each rectangle is 1000 units wide, and with variable height.
+
 * /sources/1-drawing/Bungee_Rotated-Regular.ufo
 
 This is the source that I used to determine the proper sidebearings and kerning of the vertical forms.

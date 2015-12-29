@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="IJ.stack_v" format="1">
   <advance width="1000"/>
+  <unicode hex="E226"/>
   <outline>
     <component base="I.s_v" yOffset="412"/>
     <component base="J.s_v" yOffset="-368"/>

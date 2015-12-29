@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ncommaaccent.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E1B7"/>
   <outline>
     <component base="N.s_v" yOffset="40"/>
     <component base="commaaccent.v" yOffset="40"/>

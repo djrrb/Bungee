@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Obreve.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E1BF"/>
   <outline>
     <component base="O.s_v"/>
     <component base="breve" xOffset="250" yOffset="-40"/>

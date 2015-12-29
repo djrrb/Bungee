@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Scedilla.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E1C6"/>
   <outline>
     <component base="S.s_v" yOffset="40"/>
     <component base="cedilla" xOffset="234" yOffset="40"/>

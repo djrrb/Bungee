@@ -220,16 +220,30 @@
 	<string>L_.glif</string>
 	<key>L.s</key>
 	<string>L_.s.glif</string>
+	<key>L.salt</key>
+	<string>L_.salt.glif</string>
+	<key>L.salt_s</key>
+	<string>L_.salt_s.glif</string>
 	<key>Lacute</key>
 	<string>Lacute_.glif</string>
+	<key>Lacute.salt</key>
+	<string>Lacute_.salt.glif</string>
 	<key>Lcaron</key>
 	<string>Lcaron_.glif</string>
+	<key>Lcaron.salt</key>
+	<string>Lcaron_.salt.glif</string>
 	<key>Lcommaaccent</key>
 	<string>Lcommaaccent_.glif</string>
+	<key>Lcommaaccent.salt</key>
+	<string>Lcommaaccent_.salt.glif</string>
 	<key>Ldot</key>
 	<string>Ldot_.glif</string>
+	<key>Ldot.salt</key>
+	<string>Ldot_.salt.glif</string>
 	<key>Lslash</key>
 	<string>Lslash_.glif</string>
+	<key>Lslash.salt</key>
+	<string>Lslash_.salt.glif</string>
 	<key>M</key>
 	<string>M_.glif</string>
 	<key>M.salt</key>
@@ -584,8 +598,6 @@
 	<string>eogonek.glif</string>
 	<key>equal</key>
 	<string>equal.glif</string>
-	<key>equal.salt</key>
-	<string>equal.salt.glif</string>
 	<key>eth</key>
 	<string>eth.glif</string>
 	<key>exclam</key>
@@ -748,8 +760,6 @@
 	<string>n.glif</string>
 	<key>nacute</key>
 	<string>nacute.glif</string>
-	<key>nbspace</key>
-	<string>nbspace.glif</string>
 	<key>ncaron</key>
 	<string>ncaron.glif</string>
 	<key>ncommaaccent</key>
@@ -964,6 +974,8 @@
 	<string>uni25D6_.spike.glif</string>
 	<key>uni25D6.square</key>
 	<string>uni25D6_.square.glif</string>
+	<key>uni25D6.v</key>
+	<string>uni25D6_.v.glif</string>
 	<key>uni25D6.v_bevel</key>
 	<string>uni25D6_.v_bevel.glif</string>
 	<key>uni25D6.v_deco</key>
@@ -990,6 +1002,8 @@
 	<string>uni25D7_.spike.glif</string>
 	<key>uni25D7.square</key>
 	<string>uni25D7_.square.glif</string>
+	<key>uni25D7.v</key>
+	<string>uni25D7_.v.glif</string>
 	<key>uni25D7.v_bevel</key>
 	<string>uni25D7_.v_bevel.glif</string>
 	<key>uni25D7.v_deco</key>

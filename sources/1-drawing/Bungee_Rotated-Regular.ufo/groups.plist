@@ -26,6 +26,16 @@
 		<string>gbreve</string>
 		<string>gcircumflex</string>
 		<string>gdotaccent</string>
+		<string>E.salt</string>
+		<string>Eacute.salt</string>
+		<string>Ebreve.salt</string>
+		<string>Ecaron.salt</string>
+		<string>Ecircumflex.salt</string>
+		<string>Edieresis.salt</string>
+		<string>Edotaccent.salt</string>
+		<string>Egrave.salt</string>
+		<string>Emacron.salt</string>
+		<string>E.salt_s</string>
 	</array>
 	<key>@MMK_L_D</key>
 	<array>
@@ -127,6 +137,8 @@
 		<string>nacute</string>
 		<string>ncaron</string>
 		<string>ntilde</string>
+		<string>X.salt</string>
+		<string>I_I.salt</string>
 	</array>
 	<key>@MMK_L_I</key>
 	<array>
@@ -190,6 +202,11 @@
 		<string>M.salt</string>
 		<string>lacute</string>
 		<string>lcaron</string>
+		<string>L.salt</string>
+		<string>Lacute.salt</string>
+		<string>Lcaron.salt</string>
+		<string>Lslash.salt</string>
+		<string>L.salt_s</string>
 	</array>
 	<key>@MMK_L_M</key>
 	<array>
@@ -357,6 +374,7 @@
 		<string>Ncommaaccent.salt</string>
 		<string>rcommaaccent</string>
 		<string>tcommaaccent</string>
+		<string>Lcommaaccent.salt</string>
 	</array>
 	<key>@MMK_L_accent_ogonek</key>
 	<array>
@@ -365,6 +383,7 @@
 		<string>eogonek</string>
 		<string>Aogonek.salt</string>
 		<string>aogonek</string>
+		<string>Eogonek.salt</string>
 	</array>
 	<key>@MMK_L_accent_ogonek_center</key>
 	<array>
@@ -418,7 +437,6 @@
 	<key>@MMK_L_zero</key>
 	<array>
 		<string>zero</string>
-		<string>zero.salt_slash</string>
 	</array>
 	<key>@MMK_R_A</key>
 	<array>
@@ -461,6 +479,9 @@
 		<string>scedilla</string>
 		<string>scommaaccent</string>
 		<string>germandbls</string>
+		<string>E.salt</string>
+		<string>Eogonek.salt</string>
+		<string>E.salt_s</string>
 	</array>
 	<key>@MMK_R_D</key>
 	<array>
@@ -512,6 +533,8 @@
 		<string>kcommaaccent</string>
 		<string>ncommaaccent</string>
 		<string>uogonek</string>
+		<string>X.salt</string>
+		<string>I_I.salt</string>
 	</array>
 	<key>@MMK_R_I</key>
 	<array>
@@ -564,6 +587,11 @@
 		<string>L.s</string>
 		<string>lcommaaccent</string>
 		<string>ldot</string>
+		<string>L.salt</string>
+		<string>Lcommaaccent.salt</string>
+		<string>Ldot.salt</string>
+		<string>Lslash.salt</string>
+		<string>L.salt_s</string>
 	</array>
 	<key>@MMK_R_M</key>
 	<array>
@@ -657,6 +685,8 @@
 		<string>Nacute.salt</string>
 		<string>Wacute.salt</string>
 		<string>Yacute.salt</string>
+		<string>Eacute.salt</string>
+		<string>Lacute.salt</string>
 	</array>
 	<key>@MMK_R_accent_breve</key>
 	<array>
@@ -674,6 +704,7 @@
 		<string>ubreve</string>
 		<string>Abreve.salt</string>
 		<string>Ibreve.salt</string>
+		<string>Ebreve.salt</string>
 	</array>
 	<key>@MMK_R_accent_caron</key>
 	<array>
@@ -694,6 +725,7 @@
 		<string>tcaron</string>
 		<string>zcaron</string>
 		<string>Ncaron.salt</string>
+		<string>Ecaron.salt</string>
 	</array>
 	<key>@MMK_R_accent_circumflex</key>
 	<array>
@@ -723,6 +755,7 @@
 		<string>Icircumflex.salt</string>
 		<string>Wcircumflex.salt</string>
 		<string>Ycircumflex.salt</string>
+		<string>Ecircumflex.salt</string>
 	</array>
 	<key>@MMK_R_accent_dotaccent</key>
 	<array>
@@ -736,6 +769,7 @@
 		<string>gdotaccent</string>
 		<string>zdotaccent</string>
 		<string>Idotaccent.salt</string>
+		<string>Edotaccent.salt</string>
 	</array>
 	<key>@MMK_R_accent_flat</key>
 	<array>
@@ -769,6 +803,8 @@
 		<string>Ydieresis.salt</string>
 		<string>Amacron.salt</string>
 		<string>Imacron.salt</string>
+		<string>Edieresis.salt</string>
+		<string>Emacron.salt</string>
 	</array>
 	<key>@MMK_R_accent_grave</key>
 	<array>
@@ -790,6 +826,7 @@
 		<string>Igrave.salt</string>
 		<string>Wgrave.salt</string>
 		<string>Ygrave.salt</string>
+		<string>Egrave.salt</string>
 	</array>
 	<key>@MMK_R_accent_hungarumlaut</key>
 	<array>
@@ -866,7 +903,6 @@
 	<key>@MMK_R_zero</key>
 	<array>
 		<string>zero</string>
-		<string>zero.salt_slash</string>
 	</array>
 </dict>
 </plist>

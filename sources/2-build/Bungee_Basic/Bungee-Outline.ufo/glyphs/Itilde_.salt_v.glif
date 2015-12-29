@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Itilde.salt_v" format="1">
   <advance width="1000"/>
+  <unicode hex="E207"/>
   <outline>
     <component base="tilde" xOffset="250" yOffset="-40"/>
     <component base="I.salt_s_v"/>

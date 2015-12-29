@@ -126,8 +126,6 @@
 	<string>B_.glif</string>
 	<key>B.v</key>
 	<string>B_.v.glif</string>
-	<key>Becyrillic.scrap_beta</key>
-	<string>Becyrillic_.scrap_beta.glif</string>
 	<key>C</key>
 	<string>C_.glif</string>
 	<key>C.s_v</key>
@@ -154,8 +152,6 @@
 	<string>Cdotaccent_.glif</string>
 	<key>Cdotaccent.v</key>
 	<string>Cdotaccent_.v.glif</string>
-	<key>Checyrillic.scrap_beta</key>
-	<string>Checyrillic_.scrap_beta.glif</string>
 	<key>D</key>
 	<string>D_.glif</string>
 	<key>D.s_v</key>
@@ -172,8 +168,6 @@
 	<string>Dcroat_.v.glif</string>
 	<key>Ddotbelow</key>
 	<string>Ddotbelow_.glif</string>
-	<key>Decyrillic.scrap_beta</key>
-	<string>Decyrillic_.scrap_beta.glif</string>
 	<key>Delta</key>
 	<string>Delta_.glif</string>
 	<key>Dlinebelow</key>
@@ -250,8 +244,6 @@
 	<string>Edotaccent_.v.glif</string>
 	<key>Edotbelow</key>
 	<string>Edotbelow_.glif</string>
-	<key>Efcyrillic.scrap_beta</key>
-	<string>Efcyrillic_.scrap_beta.glif</string>
 	<key>Egrave</key>
 	<string>Egrave_.glif</string>
 	<key>Egrave.salt</key>
@@ -262,8 +254,6 @@
 	<string>Egrave_.v.glif</string>
 	<key>Ehookabove</key>
 	<string>Ehookabove_.glif</string>
-	<key>Elcyrillic.scrap_beta</key>
-	<string>Elcyrillic_.scrap_beta.glif</string>
 	<key>Emacron</key>
 	<string>Emacron_.glif</string>
 	<key>Emacron.salt</key>
@@ -284,8 +274,6 @@
 	<string>Eogonek_.salt_v.glif</string>
 	<key>Eogonek.v</key>
 	<string>Eogonek_.v.glif</string>
-	<key>Ereversedcyrillic.scrap_beta</key>
-	<string>Ereversedcyrillic_.scrap_beta.glif</string>
 	<key>Eth</key>
 	<string>Eth_.glif</string>
 	<key>Eth.v</key>
@@ -322,8 +310,6 @@
 	<string>Gdotaccent_.glif</string>
 	<key>Gdotaccent.v</key>
 	<string>Gdotaccent_.v.glif</string>
-	<key>Gecyrillic.scrap_beta</key>
-	<string>Gecyrillic_.scrap_beta.glif</string>
 	<key>Germandbls</key>
 	<string>Germandbls_.glif</string>
 	<key>Germandbls.v</key>
@@ -382,8 +368,6 @@
 	<string>Iacute_.salt_v.glif</string>
 	<key>Iacute.v</key>
 	<string>Iacute_.v.glif</string>
-	<key>Iacyrillic.scrap_beta</key>
-	<string>Iacyrillic_.scrap_beta.glif</string>
 	<key>Ibreve</key>
 	<string>Ibreve_.glif</string>
 	<key>Ibreve.salt</key>
@@ -430,8 +414,6 @@
 	<string>Igrave_.v.glif</string>
 	<key>Ihookabove</key>
 	<string>Ihookabove_.glif</string>
-	<key>Iicyrillic.scrap_beta</key>
-	<string>Iicyrillic_.scrap_beta.glif</string>
 	<key>Imacron</key>
 	<string>Imacron_.glif</string>
 	<key>Imacron.salt</key>
@@ -480,22 +462,44 @@
 	<string>L_.glif</string>
 	<key>L.s_v</key>
 	<string>L_.s_v.glif</string>
+	<key>L.salt</key>
+	<string>L_.salt.glif</string>
+	<key>L.salt_s_v</key>
+	<string>L_.salt_s_v.glif</string>
+	<key>L.salt_v</key>
+	<string>L_.salt_v.glif</string>
 	<key>L.v</key>
 	<string>L_.v.glif</string>
 	<key>Lacute</key>
 	<string>Lacute_.glif</string>
+	<key>Lacute.salt</key>
+	<string>Lacute_.salt.glif</string>
+	<key>Lacute.salt_v</key>
+	<string>Lacute_.salt_v.glif</string>
 	<key>Lacute.v</key>
 	<string>Lacute_.v.glif</string>
 	<key>Lcaron</key>
 	<string>Lcaron_.glif</string>
+	<key>Lcaron.salt</key>
+	<string>Lcaron_.salt.glif</string>
+	<key>Lcaron.salt_v</key>
+	<string>Lcaron_.salt_v.glif</string>
 	<key>Lcaron.v</key>
 	<string>Lcaron_.v.glif</string>
 	<key>Lcommaaccent</key>
 	<string>Lcommaaccent_.glif</string>
+	<key>Lcommaaccent.salt</key>
+	<string>Lcommaaccent_.salt.glif</string>
+	<key>Lcommaaccent.salt_v</key>
+	<string>Lcommaaccent_.salt_v.glif</string>
 	<key>Lcommaaccent.v</key>
 	<string>Lcommaaccent_.v.glif</string>
 	<key>Ldot</key>
 	<string>Ldot_.glif</string>
+	<key>Ldot.salt</key>
+	<string>Ldot_.salt.glif</string>
+	<key>Ldot.salt_v</key>
+	<string>Ldot_.salt_v.glif</string>
 	<key>Ldot.v</key>
 	<string>Ldot_.v.glif</string>
 	<key>Ldotbelow</key>
@@ -506,6 +510,10 @@
 	<string>Llinebelow_.glif</string>
 	<key>Lslash</key>
 	<string>Lslash_.glif</string>
+	<key>Lslash.salt</key>
+	<string>Lslash_.salt.glif</string>
+	<key>Lslash.salt_v</key>
+	<string>Lslash_.salt_v.glif</string>
 	<key>Lslash.v</key>
 	<string>Lslash_.v.glif</string>
 	<key>M</key>
@@ -648,8 +656,6 @@
 	<string>P_.glif</string>
 	<key>P.v</key>
 	<string>P_.v.glif</string>
-	<key>Pecyrillic.scrap_beta</key>
-	<string>Pecyrillic_.scrap_beta.glif</string>
 	<key>Q</key>
 	<string>Q_.glif</string>
 	<key>Q.v</key>
@@ -710,10 +716,6 @@
 	<string>Sdotaccent_.glif</string>
 	<key>Sdotbelow</key>
 	<string>Sdotbelow_.glif</string>
-	<key>Shchacyrillic.scrap_beta</key>
-	<string>Shchacyrillic_.scrap_beta.glif</string>
-	<key>Softsigncyrillic.scrap_beta</key>
-	<string>Softsigncyrillic_.scrap_beta.glif</string>
 	<key>T</key>
 	<string>T_.glif</string>
 	<key>T.s_v</key>
@@ -762,8 +764,6 @@
 	<string>Ucircumflex_.glif</string>
 	<key>Ucircumflex.v</key>
 	<string>Ucircumflex_.v.glif</string>
-	<key>Ucyrillic.scrap_beta</key>
-	<string>Ucyrillic_.scrap_beta.glif</string>
 	<key>Udieresis</key>
 	<string>Udieresis_.glif</string>
 	<key>Udieresis.v</key>
@@ -944,8 +944,6 @@
 	<string>Zdotaccent_.v.glif</string>
 	<key>Zdotbelow</key>
 	<string>Zdotbelow_.glif</string>
-	<key>Zhecyrillic.scrap_beta</key>
-	<string>Zhecyrillic_.scrap_beta.glif</string>
 	<key>a</key>
 	<string>a.glif</string>
 	<key>aacute</key>
@@ -1068,6 +1066,8 @@
 	<string>blackuppointingtriangle.glif</string>
 	<key>block</key>
 	<string>block.glif</string>
+	<key>block.v</key>
+	<string>block.v.glif</string>
 	<key>braceleft</key>
 	<string>braceleft.glif</string>
 	<key>braceleft.v</key>
@@ -1260,12 +1260,12 @@
 	<string>endash.v.glif</string>
 	<key>eng</key>
 	<string>eng.glif</string>
+	<key>enspace</key>
+	<string>enspace.glif</string>
 	<key>eogonek</key>
 	<string>eogonek.glif</string>
 	<key>equal</key>
 	<string>equal.glif</string>
-	<key>equal.salt</key>
-	<string>equal.salt.glif</string>
 	<key>estimated</key>
 	<string>estimated.glif</string>
 	<key>eth</key>
@@ -1528,8 +1528,6 @@
 	<string>naira.glif</string>
 	<key>napostrophe</key>
 	<string>napostrophe.glif</string>
-	<key>nbspace</key>
-	<string>nbspace.glif</string>
 	<key>ncaron</key>
 	<string>ncaron.glif</string>
 	<key>ncommaaccent</key>

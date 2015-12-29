@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Aogonek.salt" format="1">
   <advance width="955"/>
+  <unicode hex="E109"/>
   <outline>
     <component base="A.salt_s"/>
     <component base="ogonek" xOffset="668" yOffset="175"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Yacute.v" format="1">
   <advance width="1000"/>
+  <unicode hex="E1D9"/>
   <outline>
     <component base="Y.s_v"/>
     <component base="acute" xOffset="270" yOffset="-40"/>
