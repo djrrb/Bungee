@@ -9,11 +9,9 @@ and any derivative works.
 Basic Font Information
 --------------------------
 
-(Here is where you would describe the purpose and brief specifications for the
-font project, and where users can find more detailed documentation. It can also
-include references to how changes can be contributed back to the Original
-Version. You may also wish to include a short guide to the design, or a
-reference to such a document.) 
+Bungee is an all-caps display typeface designed for experimentation with
+vertical and chromatic text. See more about using and editing
+Bungee in the [docs](/documentation).
 
 
 Information for Contributors
@@ -52,7 +50,7 @@ When you make modifications, be sure to add your name (N), email (E),
 web-address (W) and description (D). This list is sorted by last name in
 alphabetical order.
 
-N: Jane Doe
-E: jane@university.edu
-W: http://art.university.edu/projects/fonts
-D: Contributor - Armenian glyphs and code
+N: David Jonathan Ross
+E: david@djr.com
+W: http://www.djr.com
+D: Typeface designer
