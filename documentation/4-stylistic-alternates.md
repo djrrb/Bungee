@@ -19,11 +19,9 @@ Replace diagonal forms of A, M, N, W, X, and Y with deco-inspired alternates wit
 
 ## Stylistic Set 03: Serifless I.
 
-Replace wide, serifed I with an unserifed alternate. This is a very narrow character that may result in less-than-ideal vertical setting.
+Replace the serifed I with an serifless alternate. Note: this is a very narrow character that may result in less-than-ideal vertical setting.
 
 <img src="images/design-alternates-i.png" alt="Serifless I" height="200" />
-
-For all you Hawaiians out there, there’s also a special serifless II ligature!
 
 ## Stylistic Set 04: Round E
 
@@ -33,7 +31,7 @@ Replace forms of E with an decorative alternate with a rounded left side.
 
 ## Stylistic Set 05: Serifless L
 
-Replace the default form of L with a simplified version without a vertical serif.
+Replace the default form of L with the more conventional form without a vertical serif.
 
 <img src="images/design-alternates-l.png" alt="Serifless L" height="200" />
 	
@@ -43,24 +41,23 @@ Replace the default ‘ET’ ampersand with an alternate that resembles a styliz
 	
 <img src="images/design-alternates-ampersand.png" alt="Alternate ampersand" height="200" />
 
-## Stylistic Set 07: Sequential IJ
-
-Replace the ligated IJ with two separate letterforms.
-	
-<img src="images/design-alternates-ij.png" alt="Sequential IJ" height="200" />
-	
-## Stylistic Set 08: Small quotes
+## Stylistic Set 07: Small quotes
 
 Replace the curly apostrophe and matching left quote with smaller, less obtrusive versions.
 
 <img src="images/design-alternates-apostrophe.png" alt="Small quotes" height="200" />
 
-## Stylistic Set 18: John Downer recommendations
+## Stylistic Set 08: Sequential Ĳ
+
+Replace the ligated Ĳ (U+0132) with two separate letterforms.
+	
+<img src="images/design-alternates-ij.png" alt="Sequential IJ" height="200" />
+	
+## Stylistic Set 09: John Downer recommendations
 
 Signpainter John Downer recommends against vertical type that includes problematic characters like I, M, and W, which are unusually narrow or wide. This feature disables those characters.
 
 <img src="images/design-alternates-downer.png" style="width: 3em" alt="Downer" width="200"/>
-
 
 
 * Previous: [Vertical text](3-vertical-text.md)
