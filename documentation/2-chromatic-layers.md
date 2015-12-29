@@ -1,5 +1,15 @@
 # Using chromatic layers
 
+## Available layers
+
+Besides the Regular style, Bungee also comes with Inline, Outline, and Shade layer fonts. These fonts can be stacked on top of one another to create dimensional and richly chromatic words and phrases.
+
+<img src="images/design-layers.png" alt="Available layers" width="650" />
+
+
+When using vertical text with Bungee’s shade layer, it may be advisable to add some tracking or letterspacing.
+
+
 ## In design apps
 
 No design apps have native support for chromatic layers.
