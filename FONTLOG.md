@@ -30,7 +30,7 @@ contribute to the project or make your own version of the font.
 
 See the project website for the current trunk and the various branches:
 
-http://openfontlibrary.org/projects/foo-font
+http://www.github.com/djrrb/bungee
 
 
 ChangeLog
