@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Bungee_Hairline';
+    src:    url('Bungee-Hairline.eot');
+    src:    url('Bungee-Hairline.eot?#iefix') format('embedded-opentype'),
+            url('Bungee-Hairline.woff') format('woff'),
+            url('Bungee-Hairline.woff2') format('woff2'),
+            url('Bungee-Hairline.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
