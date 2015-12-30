@@ -10,7 +10,7 @@ Note that not all ornaments are available in Bungee’s Inline and Shade layers.
 
 Bungee comes with a variety of straight and bent arrows, as well as four styles of pointing hands (two solid, two outlined).
 
-<img src="images/design-ornaments-arrows.png" alt="Arrows and indexes." width="650" />
+<img src="images/design-ornaments-arrows.png" alt="Arrows and indexes." width="400" />
 
 ## Shapes
 
@@ -18,7 +18,7 @@ Bungee comes with a variety of straight and bent arrows, as well as four styles 
 
 Some shapes are designed to connect seamlessly to other shapes, which you can use to create continuous banners. If you center-align the entire text block, you will not have to worry as much about making the layers line up.
 
-<img src="images/design-ornaments-arrows.png" alt="Banners." width="650" />
+<img src="images/design-ornaments-banners.png" alt="Banners." width="400" />
 
 For example, you can compose a directional sign out of a half circle, two square blocks, and an arrowhead.
 
@@ -32,7 +32,7 @@ You can use horizontal scaling and tracking/letter-spacing to make minor adjustm
 
 Other ornaments can be set independently to encircle a single letter. When enclosing letters within independent shapes, use Bungee’s monowidth vertical forms (accessible via the Glyphs palette, under Vertical Forms or Stylistic Set 01).
 
-<img src="images/design-ornaments-independent-sample.png" alt="Independent ornaments." width="650" />
+<img src="images/design-ornaments-independent-sample.png" alt="Independent ornaments." width="400" />
 
 <img src="images/design-ornaments-independent-2.png" alt="Independent ornaments." width="650" />
 
