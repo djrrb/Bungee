@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name=".notdef" format="1">
+  <advance width="840"/>
+  <outline>
+    <contour>
+      <point x="800.0" y="-20" type="line"/>
+      <point x="800.0" y="740" type="line"/>
+      <point x="40.0" y="740" type="line"/>
+      <point x="40.0" y="-20" type="line"/>
+    </contour>
+    <contour>
+      <point x="790.0" y="730" type="line"/>
+      <point x="790.0" y="-10" type="line"/>
+      <point x="50.0" y="-10" type="line"/>
+      <point x="50.0" y="730" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.5</real>
+      </array>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
