@@ -30,7 +30,7 @@ To edit the text, do a find and replace, or increase the leading.
 
 Instead of zeroing out the leading, you can also set each layer in a separate text block, but it takes additional work to manage their alignment and arrangement in the z axis.
 
-Besides changing fill colors, you can use strokes to outline the fonts. To match the weight of the Inline style, divide the font’s point size by 100. For example, when the font is 72pt, you can match the Inline weight by using a .72pt stroke.
+Besides changing fill colors, you can use strokes to outline the fonts. To match the weight of the Inline style, divide the font’s point size by 100. For example, when the font is 300pt, you can match the Inline weight by using a 3pt stroke.
 
 <img src="images/design-layers-stroke.png" alt="Stroke" width="650" />
 
