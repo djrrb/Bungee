@@ -34,11 +34,11 @@ Other ornaments can be set independently to encircle a single letter. When enclo
 
 <img src="images/design-ornaments-independent-sample.png" alt="Independent ornaments." width="650" />
 
-<img src="images/design-ornaments-independent-2.png" alt="Independent ornaments." width="650" />
 
 Add *280 units* to the alphabetical layers to make them line up with the independent ornaments.
 
 <img src="images/design-ornaments-independent.png" alt="Using independent ornaments." width="650" />
+<img src="images/design-ornaments-independent-2.png" alt="Independent ornaments." width="650" />
 
 
 * Previous: [Stylistic alternates](4-stylistic-alternates.md)
