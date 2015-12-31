@@ -1070,17 +1070,17 @@
               <key>name</key>
               <string>top</string>
               <key>x</key>
-              <integer>352</integer>
+              <real>352.0</real>
               <key>y</key>
-              <integer>747</integer>
+              <real>747.0</real>
             </dict>
             <dict>
               <key>name</key>
               <string>bottom</string>
               <key>x</key>
-              <integer>352</integer>
+              <real>352.0</real>
               <key>y</key>
-              <integer>0</integer>
+              <real>0.0</real>
             </dict>
           </array>
           <key>components</key>
