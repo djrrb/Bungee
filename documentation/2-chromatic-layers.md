@@ -2,7 +2,7 @@
 
 ## Available layers
 
-Besides the Regular style, Bungee also comes with Inline, Outline, and Shade layer fonts. These fonts can be stacked on top of one another to create dimensional and richly chromatic words and phrases.
+Besides the Regular style, Bungee also comes with Inline, Outline, and Shade layer fonts. These fonts can be stacked on top of one another to create unique and dimensional displays.
 
 <img src="images/design-layers.png" alt="Available layers" width="650" />
 
