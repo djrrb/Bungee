@@ -31,15 +31,15 @@
       <point x="261.0" y="60" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="295.0" y="279" type="curve" smooth="yes"/>
-      <point x="424.0" y="279" type="line"/>
-      <point x="424.0" y="436" type="line"/>
-      <point x="295.0" y="436" type="line"/>
-      <point x="268.0" y="436"/>
-      <point x="248.0" y="428"/>
-      <point x="248.0" y="358" type="curve" smooth="yes"/>
-      <point x="248.0" y="287"/>
-      <point x="268.0" y="279"/>
+      <point x="295" y="279" type="line" smooth="yes"/>
+      <point x="268" y="279"/>
+      <point x="248" y="287"/>
+      <point x="248" y="358" type="curve" smooth="yes"/>
+      <point x="248" y="428"/>
+      <point x="268" y="436"/>
+      <point x="295" y="436" type="curve"/>
+      <point x="424" y="436" type="line"/>
+      <point x="424" y="279" type="line"/>
     </contour>
     <contour>
       <point x="46.0" y="359.0" type="move" name="top"/>
