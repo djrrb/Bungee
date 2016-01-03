@@ -4,22 +4,22 @@
   <unicode hex="E157"/>
   <outline>
     <contour>
-      <point x="1040" y="900" type="line"/>
       <point x="1040" y="-180" type="line"/>
-      <point x="-40" y="-180" type="line"/>
-      <point x="-40" y="900" type="line"/>
-    </contour>
-    <contour>
-      <point x="-10" y="-180" type="line"/>
-      <point x="-10" y="900" type="line"/>
-      <point x="-20" y="900" type="line"/>
-      <point x="-20" y="-180" type="line"/>
-    </contour>
-    <contour>
-      <point x="1020" y="-180" type="line"/>
+      <point x="1040" y="900" type="line"/>
       <point x="1020" y="900" type="line"/>
-      <point x="1010" y="900" type="line"/>
+      <point x="1020" y="-180" type="line"/>
+    </contour>
+    <contour>
       <point x="1010" y="-180" type="line"/>
+      <point x="1010" y="900" type="line"/>
+      <point x="-10" y="900" type="line"/>
+      <point x="-10" y="-180" type="line"/>
+    </contour>
+    <contour>
+      <point x="-40" y="-180" type="line"/>
+      <point x="-20" y="-180" type="line"/>
+      <point x="-20" y="900" type="line"/>
+      <point x="-40" y="900" type="line"/>
     </contour>
   </outline>
   <lib>
