@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar" format="1">
+  <advance width="347"/>
+  <unicode hex="007C"/>
+  <outline>
+    <contour>
+      <point x="169.0" y="720" type="line"/>
+      <point x="169.0" y="0" type="line"/>
+      <point x="179.0" y="0" type="line"/>
+      <point x="179.0" y="720" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:15:58</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quoteright.salt" format="1">
+  <advance width="344"/>
+  <unicode hex="E139"/>
+  <outline>
+    <contour>
+      <point x="126.0" y="111" type="line"/>
+      <point x="126.0" y="199" type="line"/>
+      <point x="202.0" y="199" type="line" smooth="yes"/>
+      <point x="235.0" y="199"/>
+      <point x="266.0" y="186"/>
+      <point x="266.0" y="153" type="curve" smooth="yes"/>
+      <point x="266.0" y="112" type="line"/>
+      <point x="276.0" y="112" type="line"/>
+      <point x="276.0" y="153" type="line" smooth="yes"/>
+      <point x="276.0" y="192"/>
+      <point x="241.0" y="209"/>
+      <point x="202.0" y="209" type="curve" smooth="yes"/>
+      <point x="116.0" y="209" type="line"/>
+      <point x="116.0" y="111" type="line"/>
+    </contour>
+  </outline>
+</glyph>

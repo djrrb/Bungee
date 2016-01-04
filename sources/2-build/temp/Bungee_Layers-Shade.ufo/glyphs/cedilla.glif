@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla" format="1">
+  <advance width="500"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="136.0" y="-245" type="line" smooth="yes"/>
+      <point x="153.0" y="-245"/>
+      <point x="166.0" y="-241"/>
+      <point x="175.0" y="-233" type="curve" smooth="yes"/>
+      <point x="304.0" y="-125" type="line" smooth="yes"/>
+      <point x="312.0" y="-119"/>
+      <point x="317.0" y="-110"/>
+      <point x="320.0" y="-99" type="curve" smooth="yes"/>
+      <point x="383.0" y="78" type="line" smooth="yes"/>
+      <point x="392.0" y="102"/>
+      <point x="386.0" y="120"/>
+      <point x="357.0" y="130" type="curve" smooth="yes"/>
+      <point x="241.0" y="173" type="line" smooth="yes"/>
+      <point x="222.0" y="181"/>
+      <point x="209.0" y="179"/>
+      <point x="199.0" y="171" type="curve"/>
+      <point x="69.0" y="62" type="line" smooth="yes"/>
+      <point x="63.0" y="57"/>
+      <point x="59.0" y="50"/>
+      <point x="55.0" y="38" type="curve" smooth="yes"/>
+      <point x="-30.0" y="-192" type="line" smooth="yes"/>
+      <point x="-41.0" y="-223"/>
+      <point x="-36.0" y="-245"/>
+      <point x="10.0" y="-245" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="747.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="250.0" y="0.0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 10:10:07</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

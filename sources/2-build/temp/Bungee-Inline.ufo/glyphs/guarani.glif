@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guarani" format="1">
+  <advance width="688.0"/>
+  <unicode hex="20B2"/>
+  <outline>
+    <contour>
+      <point x="471.0" y="-14" type="curve" smooth="yes"/>
+      <point x="471.0" y="40" type="line"/>
+      <point x="599.0" y="40" type="line" smooth="yes"/>
+      <point x="624.0" y="40"/>
+      <point x="635.0" y="51"/>
+      <point x="635.0" y="76" type="curve" smooth="yes"/>
+      <point x="635.0" y="345" type="line" smooth="yes"/>
+      <point x="635.0" y="370"/>
+      <point x="624.0" y="381"/>
+      <point x="599.0" y="381" type="curve" smooth="yes"/>
+      <point x="454.0" y="381" type="line" smooth="yes"/>
+      <point x="429.0" y="381"/>
+      <point x="418.0" y="370"/>
+      <point x="418.0" y="345" type="curve" smooth="yes"/>
+      <point x="418.0" y="219" type="line"/>
+      <point x="321.0" y="219" type="line" smooth="yes"/>
+      <point x="290.0" y="219"/>
+      <point x="275.0" y="234"/>
+      <point x="275.0" y="268" type="curve" smooth="yes"/>
+      <point x="275.0" y="447" type="line" smooth="yes"/>
+      <point x="275.0" y="481"/>
+      <point x="294.0" y="497"/>
+      <point x="336.0" y="497" type="curve" smooth="yes"/>
+      <point x="554.0" y="497" type="line" smooth="yes"/>
+      <point x="579.0" y="497"/>
+      <point x="590.0" y="508"/>
+      <point x="590.0" y="533" type="curve" smooth="yes"/>
+      <point x="590.0" y="644" type="line" smooth="yes"/>
+      <point x="590.0" y="669"/>
+      <point x="579.0" y="680"/>
+      <point x="554.0" y="680" type="curve" smooth="yes"/>
+      <point x="471.0" y="680" type="line"/>
+      <point x="471.0" y="734" type="line" smooth="yes"/>
+      <point x="471.0" y="759"/>
+      <point x="460.0" y="770"/>
+      <point x="435.0" y="770" type="curve" smooth="yes"/>
+      <point x="290.0" y="770" type="line" smooth="yes"/>
+      <point x="265.0" y="770"/>
+      <point x="254.0" y="759"/>
+      <point x="254.0" y="734" type="curve" smooth="yes"/>
+      <point x="254.0" y="678" type="line"/>
+      <point x="120.0" y="666"/>
+      <point x="58.0" y="600"/>
+      <point x="58.0" y="476" type="curve" smooth="yes"/>
+      <point x="58.0" y="244" type="line" smooth="yes"/>
+      <point x="58.0" y="120"/>
+      <point x="120.0" y="54"/>
+      <point x="254.0" y="42" type="curve"/>
+      <point x="254.0" y="-14" type="line" smooth="yes"/>
+      <point x="254.0" y="-39"/>
+      <point x="265.0" y="-50"/>
+      <point x="290.0" y="-50" type="curve" smooth="yes"/>
+      <point x="435.0" y="-50" type="line" smooth="yes"/>
+      <point x="460.0" y="-50"/>
+      <point x="471.0" y="-39"/>
+    </contour>
+    <contour>
+      <point x="358" y="40" type="line"/>
+      <point x="358.0" y="125" type="line"/>
+      <point x="342.0" y="125" type="line" smooth="yes"/>
+      <point x="195.0" y="125"/>
+      <point x="162.0" y="161"/>
+      <point x="162.0" y="254" type="curve" smooth="yes"/>
+      <point x="162.0" y="464" type="line" smooth="yes"/>
+      <point x="162.0" y="559"/>
+      <point x="194.0" y="595"/>
+      <point x="322.0" y="595" type="curve" smooth="yes"/>
+      <point x="358.0" y="595" type="line"/>
+      <point x="358" y="680" type="line"/>
+      <point x="368" y="680" type="line"/>
+      <point x="368.0" y="595" type="line"/>
+      <point x="495.0" y="595" type="line"/>
+      <point x="495.0" y="585" type="line"/>
+      <point x="322.0" y="585" type="line" smooth="yes"/>
+      <point x="204.0" y="585"/>
+      <point x="172.0" y="553"/>
+      <point x="172.0" y="464" type="curve" smooth="yes"/>
+      <point x="172.0" y="254" type="line" smooth="yes"/>
+      <point x="172.0" y="167"/>
+      <point x="207.0" y="133"/>
+      <point x="342.0" y="135" type="curve" smooth="yes"/>
+      <point x="521.0" y="138" type="line"/>
+      <point x="521.0" y="284" type="line"/>
+      <point x="531.0" y="281" type="line"/>
+      <point x="531.0" y="125" type="line"/>
+      <point x="368.0" y="125" type="line"/>
+      <point x="368" y="40" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

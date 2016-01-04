@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I_I.salt" format="1">
+  <advance width="854"/>
+  <outline>
+    <contour>
+      <point x="157.0" y="541" type="line"/>
+      <point x="697.0" y="541" type="line"/>
+      <point x="697.0" y="551" type="line"/>
+      <point x="157.0" y="551" type="line"/>
+    </contour>
+    <contour>
+      <point x="157.0" y="169" type="line"/>
+      <point x="697.0" y="169" type="line"/>
+      <point x="697.0" y="179" type="line"/>
+      <point x="157.0" y="179" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 17:09:42</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

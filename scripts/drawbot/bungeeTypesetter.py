@@ -32,6 +32,10 @@ if __name__ == "__main__":
     bannerEnd = [9687, 10145, 57702, 57706, 57710, 57718, 57726, 57734, 57714]
     blockShapes = [11035, 11044, 57693, 57694, 57695, 57696, 57729, 57730, 57731, 57732]
 
+    # set the tracking (we could have an interactive slider for this, but for now 
+    # we'll hard code it since it's problematic)
+    Tracking = 0
+
     # cache the global variables
     globalVars = globals()
 
@@ -212,9 +216,7 @@ if __name__ == "__main__":
     elif ( globalVars['Banner Begin'] or globalVars['Banner End'] ) and not globalVars['Block Shapes']:
         doBanner = True
     
-    # set the tracking (we could have an interactive slider for this, but for now 
-    # we'll hard code it since it's problematic)
-    Tracking=0
+
 
     # define margins
     topMargin = 50
@@ -280,6 +282,7 @@ if __name__ == "__main__":
     
     # measure the text
     myTextWidth, myTextHeight = textSize(myText)
+    myTextWidth -= trackingValue
     
     # measureText is the text we will measure for the total dimensions. For now, it is the same as myText.
     measureText = myText
@@ -300,6 +303,7 @@ if __name__ == "__main__":
         # put it all together and measure
         bgText = bgTextBefore + bgTextBase * blocks + bgTextAfter
         totalWidth, totalHeight = textSize(bgText)
+        totalWidth -= trackingValue
         measureText = bgText
         
     # if we have block shapes, calculate the dimensions
@@ -326,13 +330,16 @@ if __name__ == "__main__":
     
     # set the font size and remeasure the text
     fontSize(mySize)
-    tracking(Tracking/1000*mySize)
+    trackingValue = Tracking/1000*mySize
+    tracking(trackingValue)
     lineHeight(mySize*.72)
     
     # recalculate the text dimensions
     if mySize != 250:
         totalWidth, totalHeight = textSize(measureText)
+        totalWidth -= trackingValue
         myTextWidth, myTextHeight = textSize(myText)
+        myTextWidth -= trackingValue
 
     # now we figure out how to position the text
     # the offset is equal to half the difference of the box's width and the total width
@@ -373,14 +380,16 @@ if __name__ == "__main__":
         # - recalculate offsets based on the new text size
         if doBlockShapes:
             scaleValue = .9
-            trackingValue = 420
+            addTracking = 420
             originalMyTextHeight = myTextHeight
             mySize *= scaleValue
             fontSize(mySize)
             lineHeight(mySize)
             openTypeFeatures(ss01=True)
-            tracking(trackingValue/1000*mySize)
+            trackingValue = trackingValue + addTracking/1000*mySize
+            tracking(trackingValue)
             myTextWidth, myTextHeight = textSize(myText)
+            myTextWidth -= trackingValue
             translate(0, (myTextHeight - originalMyTextHeight)/4)
             myTextWidth -= trackingValue/1000*mySize
 

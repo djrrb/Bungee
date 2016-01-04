@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acute.vert" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-68.0" y="999" type="curve"/>
+      <point x="69.0" y="1032" type="line" smooth="yes"/>
+      <point x="100.0" y="1040"/>
+      <point x="113.0" y="1047"/>
+      <point x="113.0" y="1078" type="curve" smooth="yes"/>
+      <point x="113.0" y="1184" type="line" smooth="yes"/>
+      <point x="113.0" y="1216"/>
+      <point x="95.0" y="1233"/>
+      <point x="67.0" y="1227" type="curve" smooth="yes"/>
+      <point x="-70.0" y="1194" type="line" smooth="yes"/>
+      <point x="-101.0" y="1186"/>
+      <point x="-114.0" y="1179"/>
+      <point x="-114.0" y="1148" type="curve" smooth="yes"/>
+      <point x="-114.0" y="1042" type="line" smooth="yes"/>
+      <point x="-114.0" y="1010"/>
+      <point x="-96.0" y="993"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

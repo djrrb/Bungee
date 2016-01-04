@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla" format="1">
+  <advance width="301"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="51.0" y="381" type="line"/>
+      <point x="184.0" y="333" type="line"/>
+      <point x="184.0" y="343" type="line"/>
+      <point x="52.0" y="391" type="line"/>
+    </contour>
+    <contour>
+      <point x="-599.0" y="360.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="148.0" y="360.0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 10:10:07</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,12 +1,13 @@
 
-f = CurrentFont() # Bungee-Regular
+src = OpenFont(u"/Users/david/Dropbox/Typefaces/Bungee/sources/1-drawing/bungee-regular.ufo", showUI=False)
+f = CurrentFont()
 
 print 'feature vpal {'
 
 for gname in f.glyphOrder:
     g = f[gname]
-    metricsLayer = g.getLayer('metrics')
-    
+    metricsLayer = src[g.name].getLayer('metrics')
+
     xplacement = 0
     yplacement = 0
     xadvance = 0
@@ -17,13 +18,17 @@ for gname in f.glyphOrder:
 
         
         if g.box:
-            yTopMargin = f.info.ascender - g.box[3]
+            yTopMargin = f.info.ascender - metricsLayer.box[3]
         else:
             yTopMargin = 0
+        if g.box:
+            yTopSidebearing = metricsLayer.box[3]-g.box[3]
+        else:
+            yTopSidebearing = 0
         yadvance =  int(metricsLayerHeight - 1000)
-        yplacement = int(yTopMargin- (metricsLayer.box[3]-g.box[3]))
+        yplacement = int(yTopMargin - yTopSidebearing)
 
-        print '\tpos %s <%s %s %s %s>;' % (g.name, xplacement, yplacement, xadvance, yadvance)
+        print '\tpos %s <%s %s %s %s>; # %s %s' % (g.name, xplacement, yplacement, xadvance, yadvance, yTopMargin, yTopSidebearing)
 
 
 

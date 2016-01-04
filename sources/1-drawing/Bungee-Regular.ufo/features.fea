@@ -1,1 +1,7 @@
-include(features.fea);
+# standard features
+include(features/classes.fea);
+include(features/features.fea);
+# vertical features
+include(features/vpal.fea);
+include(features/vert-etc.fea);
+include(features/vkrn.fea);

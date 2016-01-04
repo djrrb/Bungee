@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uogonek" format="1">
+  <advance width="961"/>
+  <unicode hex="0172"/>
+  <outline>
+    <contour>
+      <point x="669" y="357" type="curve" smooth="yes"/>
+      <point x="669" y="362"/>
+      <point x="669" y="366"/>
+      <point x="669" y="370" type="curve"/>
+      <point x="680" y="354"/>
+      <point x="690" y="351"/>
+      <point x="716" y="347" type="curve" smooth="yes"/>
+      <point x="799" y="335" type="line" smooth="yes"/>
+      <point x="849" y="327"/>
+      <point x="874" y="337"/>
+      <point x="874" y="386" type="curve" smooth="yes"/>
+      <point x="874" y="410" type="line"/>
+      <point x="864" y="410" type="line"/>
+      <point x="864" y="386" type="line" smooth="yes"/>
+      <point x="864" y="345"/>
+      <point x="841" y="340"/>
+      <point x="801" y="345" type="curve" smooth="yes"/>
+      <point x="716" y="357" type="line" smooth="yes"/>
+      <point x="687" y="361"/>
+      <point x="682" y="365"/>
+      <point x="668" y="390" type="curve"/>
+      <point x="661" y="516"/>
+      <point x="609" y="553"/>
+      <point x="534" y="553" type="curve" smooth="yes"/>
+      <point x="157" y="553" type="line"/>
+      <point x="157" y="543" type="line"/>
+      <point x="534" y="543" type="line" smooth="yes"/>
+      <point x="609" y="543"/>
+      <point x="659" y="502"/>
+      <point x="659" y="357" type="curve" smooth="yes"/>
+      <point x="659" y="218"/>
+      <point x="609" y="180"/>
+      <point x="534" y="180" type="curve" smooth="yes"/>
+      <point x="157" y="180" type="line"/>
+      <point x="157" y="170" type="line"/>
+      <point x="534" y="170" type="line" smooth="yes"/>
+      <point x="615" y="170"/>
+      <point x="669" y="210"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

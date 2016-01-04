@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tbar" format="1">
+  <advance width="756"/>
+  <unicode hex="0166"/>
+  <outline>
+    <contour>
+      <point x="395" y="-119" type="line" smooth="yes"/>
+      <point x="409" y="-119"/>
+      <point x="420" y="-115"/>
+      <point x="426" y="-109" type="curve"/>
+      <point x="556" y="-1" type="line" smooth="yes"/>
+      <point x="565" y="7"/>
+      <point x="570" y="18"/>
+      <point x="570" y="36" type="curve" smooth="yes"/>
+      <point x="570" y="139" type="line"/>
+      <point x="668" y="221" type="line" smooth="yes"/>
+      <point x="677" y="229"/>
+      <point x="682" y="240"/>
+      <point x="682" y="258" type="curve" smooth="yes"/>
+      <point x="682" y="365" type="line" smooth="yes"/>
+      <point x="682" y="397"/>
+      <point x="668" y="411"/>
+      <point x="636" y="411" type="curve" smooth="yes"/>
+      <point x="597" y="411" type="line"/>
+      <point x="602" y="413"/>
+      <point x="606" y="415"/>
+      <point x="610" y="419" type="curve"/>
+      <point x="739" y="526" type="line" smooth="yes"/>
+      <point x="748" y="534"/>
+      <point x="753" y="545"/>
+      <point x="753" y="563" type="curve" smooth="yes"/>
+      <point x="753" y="684" type="line" smooth="yes"/>
+      <point x="753" y="716"/>
+      <point x="739" y="730"/>
+      <point x="707" y="730" type="curve" smooth="yes"/>
+      <point x="179" y="730" type="line" smooth="yes"/>
+      <point x="165" y="730"/>
+      <point x="154" y="727"/>
+      <point x="147" y="721" type="curve" smooth="yes"/>
+      <point x="18" y="612" type="line" smooth="yes"/>
+      <point x="9" y="604"/>
+      <point x="4" y="593"/>
+      <point x="4" y="575" type="curve" smooth="yes"/>
+      <point x="4" y="454" type="line" smooth="yes"/>
+      <point x="4" y="422"/>
+      <point x="18" y="408"/>
+      <point x="50" y="408" type="curve" smooth="yes"/>
+      <point x="187" y="408" type="line"/>
+      <point x="187" y="376" type="line"/>
+      <point x="88" y="293" type="line" smooth="yes"/>
+      <point x="79" y="285"/>
+      <point x="74" y="274"/>
+      <point x="74" y="256" type="curve" smooth="yes"/>
+      <point x="74" y="149" type="line" smooth="yes"/>
+      <point x="74" y="117"/>
+      <point x="88" y="103"/>
+      <point x="120" y="103" type="curve" smooth="yes"/>
+      <point x="187" y="103" type="line"/>
+      <point x="187" y="-73" type="line" smooth="yes"/>
+      <point x="187" y="-105"/>
+      <point x="201" y="-119"/>
+      <point x="233" y="-119" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="560" y="36" type="line" smooth="yes"/>
+      <point x="560" y="22"/>
+      <point x="557" y="13"/>
+      <point x="550" y="7" type="curve" smooth="yes"/>
+      <point x="544" y="2"/>
+      <point x="535" y="0"/>
+      <point x="524" y="0" type="curve" smooth="yes"/>
+      <point x="362" y="0" type="line" smooth="yes"/>
+      <point x="337" y="0"/>
+      <point x="326" y="11"/>
+      <point x="326" y="36" type="curve" smooth="yes"/>
+      <point x="326" y="222" type="line"/>
+      <point x="249" y="222" type="line" smooth="yes"/>
+      <point x="224" y="222"/>
+      <point x="213" y="233"/>
+      <point x="213" y="258" type="curve" smooth="yes"/>
+      <point x="213" y="365" type="line" smooth="yes"/>
+      <point x="213" y="379"/>
+      <point x="216" y="388"/>
+      <point x="223" y="394" type="curve" smooth="yes"/>
+      <point x="229" y="399"/>
+      <point x="238" y="401"/>
+      <point x="249" y="401" type="curve" smooth="yes"/>
+      <point x="326" y="401" type="line"/>
+      <point x="326" y="527" type="line"/>
+      <point x="179" y="527" type="line" smooth="yes"/>
+      <point x="154" y="527"/>
+      <point x="143" y="538"/>
+      <point x="143" y="563" type="curve" smooth="yes"/>
+      <point x="143" y="684" type="line" smooth="yes"/>
+      <point x="143" y="698"/>
+      <point x="146" y="707"/>
+      <point x="153" y="713" type="curve" smooth="yes"/>
+      <point x="159" y="718"/>
+      <point x="168" y="720"/>
+      <point x="179" y="720" type="curve" smooth="yes"/>
+      <point x="707" y="720" type="line" smooth="yes"/>
+      <point x="732" y="720"/>
+      <point x="743" y="709"/>
+      <point x="743" y="684" type="curve" smooth="yes"/>
+      <point x="743" y="563" type="line" smooth="yes"/>
+      <point x="743" y="549"/>
+      <point x="740" y="540"/>
+      <point x="733" y="534" type="curve" smooth="yes"/>
+      <point x="727" y="529"/>
+      <point x="718" y="527"/>
+      <point x="707" y="527" type="curve" smooth="yes"/>
+      <point x="560" y="527" type="line"/>
+      <point x="560" y="401" type="line"/>
+      <point x="636" y="401" type="line" smooth="yes"/>
+      <point x="661" y="401"/>
+      <point x="672" y="390"/>
+      <point x="672" y="365" type="curve" smooth="yes"/>
+      <point x="672" y="258" type="line" smooth="yes"/>
+      <point x="672" y="244"/>
+      <point x="669" y="235"/>
+      <point x="662" y="229" type="curve" smooth="yes"/>
+      <point x="656" y="224"/>
+      <point x="647" y="222"/>
+      <point x="636" y="222" type="curve" smooth="yes"/>
+      <point x="560" y="222" type="line"/>
+    </contour>
+    <contour>
+      <point x="582" y="306" type="line"/>
+      <point x="582" y="316" type="line"/>
+      <point x="448" y="316" type="line"/>
+      <point x="448" y="620" type="line"/>
+      <point x="653" y="620" type="line"/>
+      <point x="653" y="630" type="line"/>
+      <point x="233" y="630" type="line"/>
+      <point x="233" y="620" type="line"/>
+      <point x="438" y="620" type="line"/>
+      <point x="438" y="316" type="line"/>
+      <point x="303" y="316" type="line"/>
+      <point x="303" y="306" type="line"/>
+      <point x="438" y="306" type="line"/>
+      <point x="438" y="90" type="line"/>
+      <point x="448" y="90" type="line"/>
+      <point x="448" y="306" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:57:27</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

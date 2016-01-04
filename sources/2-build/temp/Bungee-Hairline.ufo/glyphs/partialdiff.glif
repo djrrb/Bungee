@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="partialdiff" format="1">
+  <advance width="692"/>
+  <unicode hex="2202"/>
+  <outline>
+    <contour>
+      <point x="334.0" y="71" type="curve" smooth="yes"/>
+      <point x="442.0" y="71"/>
+      <point x="527.0" y="84"/>
+      <point x="527.0" y="187" type="curve" smooth="yes"/>
+      <point x="527.0" y="515" type="line" smooth="yes"/>
+      <point x="527.0" y="604"/>
+      <point x="478.0" y="630"/>
+      <point x="393.0" y="630" type="curve" smooth="yes"/>
+      <point x="217.0" y="630" type="line"/>
+      <point x="217.0" y="620" type="line"/>
+      <point x="393.0" y="620" type="line" smooth="yes"/>
+      <point x="470.0" y="620"/>
+      <point x="517.0" y="598"/>
+      <point x="517.0" y="515" type="curve" smooth="yes"/>
+      <point x="517.0" y="324" type="line"/>
+      <point x="491.0" y="380"/>
+      <point x="413.0" y="383"/>
+      <point x="331.0" y="383" type="curve" smooth="yes"/>
+      <point x="233.0" y="383"/>
+      <point x="155.0" y="378"/>
+      <point x="155.0" y="275" type="curve" smooth="yes"/>
+      <point x="155.0" y="187" type="line" smooth="yes"/>
+      <point x="155.0" y="86"/>
+      <point x="234.0" y="71"/>
+    </contour>
+    <contour>
+      <point x="334.0" y="81" type="curve" smooth="yes"/>
+      <point x="242.0" y="81"/>
+      <point x="165.0" y="92"/>
+      <point x="165.0" y="187" type="curve" smooth="yes"/>
+      <point x="165.0" y="275" type="line" smooth="yes"/>
+      <point x="165.0" y="372"/>
+      <point x="243.0" y="373"/>
+      <point x="331.0" y="373" type="curve" smooth="yes"/>
+      <point x="420.0" y="373"/>
+      <point x="517.0" y="375"/>
+      <point x="517.0" y="278" type="curve"/>
+      <point x="517.0" y="187" type="line" smooth="yes"/>
+      <point x="517.0" y="90"/>
+      <point x="432.0" y="81"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 15:04:18</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

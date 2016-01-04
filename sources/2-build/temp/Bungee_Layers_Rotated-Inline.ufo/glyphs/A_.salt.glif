@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A.salt" format="1">
+  <advance width="860"/>
+  <unicode hex="E100"/>
+  <outline>
+    <contour>
+      <point x="703.0" y="165" type="line"/>
+      <point x="703.0" y="175" type="line"/>
+      <point x="522.0" y="175" type="line"/>
+      <point x="522.0" y="543" type="line"/>
+      <point x="703.0" y="543" type="line"/>
+      <point x="703.0" y="553" type="line"/>
+      <point x="286.0" y="553" type="line" smooth="yes"/>
+      <point x="205.0" y="553"/>
+      <point x="151.0" y="514"/>
+      <point x="151.0" y="359" type="curve" smooth="yes"/>
+      <point x="151.0" y="202"/>
+      <point x="205.0" y="165"/>
+      <point x="286.0" y="165" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="286.0" y="175" type="line" smooth="yes"/>
+      <point x="211.0" y="175"/>
+      <point x="161.0" y="210"/>
+      <point x="161.0" y="359" type="curve" smooth="yes"/>
+      <point x="161.0" y="506"/>
+      <point x="211.0" y="543"/>
+      <point x="286.0" y="543" type="curve" smooth="yes"/>
+      <point x="512.0" y="543" type="line"/>
+      <point x="512.0" y="175" type="line"/>
+    </contour>
+    <contour>
+      <point x="46.0" y="359.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="46.0" y="359.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="793.0" y="359.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="793.0" y="359.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="46.0" y="359.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="46.0" y="359.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="793.0" y="359.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="793.0" y="359.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-28 09:40:08</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Delta" format="1">
+  <advance width="880"/>
+  <unicode hex="2206"/>
+  <outline>
+    <contour>
+      <point x="607.0" y="157" type="curve" smooth="yes"/>
+      <point x="710.0" y="157" type="line"/>
+      <point x="710.0" y="559" type="line"/>
+      <point x="607.0" y="559" type="line" smooth="yes"/>
+      <point x="569.0" y="559"/>
+      <point x="536.0" y="554"/>
+      <point x="515.0" y="549" type="curve" smooth="yes"/>
+      <point x="265.0" y="486" type="line" smooth="yes"/>
+      <point x="176.0" y="464"/>
+      <point x="175.0" y="444"/>
+      <point x="175.0" y="382" type="curve" smooth="yes"/>
+      <point x="175.0" y="331" type="line" smooth="yes"/>
+      <point x="175.0" y="269"/>
+      <point x="176.0" y="248"/>
+      <point x="265.0" y="227" type="curve" smooth="yes"/>
+      <point x="512.0" y="168" type="line" smooth="yes"/>
+      <point x="536.0" y="162"/>
+      <point x="569.0" y="157"/>
+    </contour>
+    <contour>
+      <point x="607.0" y="167" type="line" smooth="yes"/>
+      <point x="569.0" y="167"/>
+      <point x="538.0" y="172"/>
+      <point x="514.0" y="178" type="curve" smooth="yes"/>
+      <point x="267.0" y="237" type="line" smooth="yes"/>
+      <point x="186.0" y="256"/>
+      <point x="185.0" y="275"/>
+      <point x="185.0" y="331" type="curve" smooth="yes"/>
+      <point x="185.0" y="382" type="line" smooth="yes"/>
+      <point x="185.0" y="438"/>
+      <point x="186.0" y="456"/>
+      <point x="267.0" y="476" type="curve" smooth="yes"/>
+      <point x="517.0" y="539" type="line" smooth="yes"/>
+      <point x="538.0" y="544"/>
+      <point x="569.0" y="549"/>
+      <point x="607.0" y="549" type="curve" smooth="yes"/>
+      <point x="700.0" y="549" type="line"/>
+      <point x="700.0" y="167" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:47:47</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

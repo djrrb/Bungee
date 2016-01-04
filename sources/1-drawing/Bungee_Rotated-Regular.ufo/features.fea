@@ -1,1 +1,5 @@
-include(features_vertical.fea);
+# standard features
+include(features/classes_rotated.fea);
+include(features/features_rotated.fea);
+# vertical features
+include(features/ss01_rotated.fea);

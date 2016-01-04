@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iogonek.salt" format="1">
+  <advance width="938"/>
+  <unicode hex="E11C"/>
+  <outline>
+    <contour>
+      <point x="851" y="357" type="curve" smooth="yes"/>
+      <point x="851" y="381" type="line"/>
+      <point x="841" y="381" type="line"/>
+      <point x="841" y="357" type="line" smooth="yes"/>
+      <point x="841" y="316"/>
+      <point x="818" y="311"/>
+      <point x="778" y="316" type="curve" smooth="yes"/>
+      <point x="693" y="328" type="line" smooth="yes"/>
+      <point x="664" y="332"/>
+      <point x="659" y="336"/>
+      <point x="645" y="361" type="curve"/>
+      <point x="645" y="365" type="line"/>
+      <point x="145" y="365" type="line"/>
+      <point x="145" y="355" type="line"/>
+      <point x="637" y="355" type="line"/>
+      <point x="653" y="327"/>
+      <point x="661" y="323"/>
+      <point x="693" y="318" type="curve" smooth="yes"/>
+      <point x="776" y="306" type="line" smooth="yes"/>
+      <point x="826" y="298"/>
+      <point x="851" y="308"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

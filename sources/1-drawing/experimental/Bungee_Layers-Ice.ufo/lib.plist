@@ -4263,6 +4263,13 @@
 		<real>0.5108</real>
 		<real>1.0</real>
 	</array>
+	<key>com.typemytype.robofont.inlineContour.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>0.25</real>
+		<real>1.0</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
@@ -4272,6 +4279,15 @@
 		<string>outline</string>
 		<string>shade</string>
 		<string>background</string>
+		<string>inlineContour</string>
+		<string>metrics</string>
+	</array>
+	<key>com.typemytype.robofont.metrics.layerStrokeColor</key>
+	<array>
+		<real>0.5</real>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.7</real>
 	</array>
 	<key>com.typemytype.robofont.outline.layerShow</key>
 	<true/>

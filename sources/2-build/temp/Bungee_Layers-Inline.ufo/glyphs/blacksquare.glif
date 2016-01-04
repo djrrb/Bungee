@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blacksquare" format="1">
+  <advance width="1000.0"/>
+  <unicode hex="25A0"/>
+  <outline>
+    <contour>
+      <point x="587.0" y="449" type="line"/>
+      <point x="414.0" y="449" type="line"/>
+      <point x="414.0" y="275" type="line"/>
+      <point x="587.0" y="275" type="line"/>
+    </contour>
+    <contour>
+      <point x="577.0" y="439" type="line"/>
+      <point x="577.0" y="285" type="line"/>
+      <point x="424.0" y="285" type="line"/>
+      <point x="424.0" y="439" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
