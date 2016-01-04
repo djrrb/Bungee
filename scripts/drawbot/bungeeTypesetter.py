@@ -394,20 +394,27 @@ if __name__ == "__main__":
         # - scale the text down by 90%
         # - add tracking (usually 280, but in this case 420 because of the 90% scale)
         # - recalculate offsets based on the new text size
+            
         if doBlockShapes:
-            scaleValue = .9
             addTracking = 420
-            originalMyTextHeight = myTextHeight
-            mySize *= scaleValue
-            fontSize(mySize)
-            lineHeight(mySize)
             openTypeFeatures(ss01=True)
-            trackingValue = trackingValue + addTracking/1000*mySize
-            tracking(trackingValue)
-            myTextWidth, myTextHeight = textSize(myText)
-            myTextWidth -= trackingValue
-            translate(0, (myTextHeight - originalMyTextHeight)/4)
-            myTextWidth -= trackingValue/1000*mySize
+            scaleValue = .9
+        else:
+            scaleValue = 1
+            addTracking = 0
+        originalMyTextHeight = myTextHeight
+        mySize *= scaleValue
+        fontSize(mySize)
+        lineHeight(mySize)
+        
+        # tracking is weird. We just want the width without that extra space at the end. So attempt to subtract it from the total width. Why .82? I dunno!
+        trackingValue = trackingValue + addTracking/1000*mySize
+        tracking(trackingValue)
+        myTextWidth, myTextHeight = textSize(myText)
+        myTextWidth -= trackingValue * .82
+        if doBlockShapes:
+            translate(0, (myTextHeight - originalMyTextHeight)/6)
+        myTextWidth -= trackingValue/1000*mySize
 
     # now translate to the position where we can draw the text
     translate(-(myTextWidth-totalWidth)/2, 0)
