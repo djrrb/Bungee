@@ -199,7 +199,21 @@ if __name__ == "__main__":
         args=dict(
             value=False
             )
-        ),        
+        ),
+    dict(
+        name='Alternate &', 
+        ui='CheckBox', 
+        args=dict(
+            value=False
+            )
+        ),    
+    # dict(
+    #     name='Small Quotes', 
+    #     ui='CheckBox', 
+    #     args=dict(
+    #         value=False
+    #         )
+    #     ),        
         
     ], globalVars)
 
@@ -263,7 +277,9 @@ if __name__ == "__main__":
         ss02=globalVars['Round Forms'], 
         ss03=globalVars['Round E'], 
         ss04=globalVars['Serifless I'], 
-        ss05=globalVars['Serifless L']
+        ss05=globalVars['Serifless L'],
+        ss06=globalVars['Alternate &'],
+        ss07=globalVars['Small Quotes'],
         )
         
     if doBanner or doBlockShapes:
