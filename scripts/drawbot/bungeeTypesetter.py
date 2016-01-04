@@ -279,7 +279,7 @@ if __name__ == "__main__":
         ss04=globalVars['Serifless I'], 
         ss05=globalVars['Serifless L'],
         ss06=globalVars['Alternate &'],
-        ss07=globalVars['Small Quotes'],
+        #ss07=globalVars['Small Quotes'],
         )
         
     if doBanner or doBlockShapes:
