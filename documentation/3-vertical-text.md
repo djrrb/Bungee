@@ -69,24 +69,24 @@ Apps that do not support vertical text include:
 
 The proper way to implement vertical text is via the CSS **writing-mode** and **text-orientation** selector, as well as implementing. This will work in recent versions of IE, Firefox, and Chrome, but not in older browsers or Safari.
 
-	<style type="text/css">
-		.vertical {
-			/* change writing mode to vertical */
-			-ms-writing-mode: tb-rl;
-			-webkit-writing-mode: vertical-rl;
-			-moz-writing-mode: vertical-rl;
-			-ms-writing-mode: vertical-rl;
-			writing-mode: vertical-rl;
-			/* use upright orientation */
-			-webkit-text-orientation: upright;
-			-moz-text-orientation: upright;
-			-ms-text-orientation: upright;
-			text-orientation: upright;
-			/* implement spacing and kerning */
-			-moz-font-feature-settings: "vkrn", "vpal";
-			-webkit-font-feature-settings: "vkrn", "vpal";
-			font-feature-settings: "vkrn", "vpal";
-	</style>
+    <style type="text/css">
+        .vertical {
+            /* change writing mode to vertical */
+            -ms-writing-mode: tb-rl;
+            -webkit-writing-mode: vertical-rl;
+            -moz-writing-mode: vertical-rl;
+            -ms-writing-mode: vertical-rl;
+            writing-mode: vertical-rl;
+            /* use upright orientation */
+            -webkit-text-orientation: upright;
+            -moz-text-orientation: upright;
+            -ms-text-orientation: upright;
+            text-orientation: upright;
+            /* implement spacing and kerning */
+            -moz-font-feature-settings: "vkrn", "vpal";
+            -webkit-font-feature-settings: "vkrn", "vpal";
+            font-feature-settings: "vkrn", "vpal";
+    </style>
 
 	<div class="vertical">Bungee</div>
 	

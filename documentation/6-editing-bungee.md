@@ -2,7 +2,6 @@
 
 This document describes Bungee's development process source structure, in case it is helpful to those attempting to expand or  edit the fonts.
 
-
 ## Sources
 
 ### Drawing Sources
@@ -77,10 +76,10 @@ With this source, <a href="https://github.com/fontfont/RoboChrome">RoboChrome</a
 
 For making minor changes to Bungee, you may find it easier to edit the generated fonts directly rather than generating from the source. TTX (part of FontTools) will convert a generated OTF or TTF file to readable and editable XML.
 
-	ttx /path/to/Bungee-Regular.ttf
+    ttx /path/to/Bungee-Regular.ttf
 
 When you are done tinkering, you can use the same command to convert the .ttx file back to a font.
 
-	ttx /path/to/Bungee-Regular.ttx
+    ttx /path/to/Bungee-Regular.ttx
 	
 * Previous: [Ornaments](5-ornaments.md)

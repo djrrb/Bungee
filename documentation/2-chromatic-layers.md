@@ -40,14 +40,14 @@ Besides changing fill colors, you can use strokes to outline the fonts. To match
 
 Bungee.js is a bit of javascript that will duplicate text in overlaid `div`s, giving the appearance of layered text without cluttering your markup.
 
-	<script type="text/javascript" src="bungee.js">
-	<div id="bungee">Layered text!</div>
+    <script type="text/javascript" src="bungee.js">
+    <div id="bungee">Layered text!</div>
 
 ### As an image
 
 When only single letters or small bits of text are required, or the text is especially illustrative, it may not be worth it to load multiple font files. Instead, you can use a SVG with alternate text specified.
 
-	<svg src="images/layeredText.svg" alt="Layered text" />
+    <svg src="images/layeredText.svg" alt="Layered text" />
 
 ## Color font formats
 
