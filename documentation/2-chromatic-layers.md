@@ -53,7 +53,7 @@ When only single letters or small bits of text are required, or the text is espe
 
 The *Bungee Color* family contains experimental fonts in the various color font formats out there, including SVG (Adobe/Mozilla), COLR/CPAL (Microsoft) and sbix (Apple).
 
-These fonts were built with Jens Kutilek’s <a href="https://github.com/fontfont/RoboChrome">RoboChrome</a>.
+These fonts were built with Jens Kutilek’s [RoboChrome](https://github.com/fontfont/RoboChrome).
 
 * Previous: [Family structure](1-family-structure.md)
 * Next: [Vertical text](3-vertical-text.md)
