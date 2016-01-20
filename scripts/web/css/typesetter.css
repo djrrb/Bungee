@@ -1,0 +1,73 @@
+/* Styles specific to the typesetter */
+
+/* reset */
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: sans-serif;
+    background-color: #DDD;
+    padding: 1em;
+}
+
+#controls > * {
+    padding-bottom: 0.5em;
+}
+
+#controls label + label {
+    padding-left: 1em;
+}
+
+#shape-controls li {
+    list-style-type: none;
+    display: inline;
+    font-family: "Bungee Inline";
+    font-size: 2em;
+}
+
+#shape-controls input {
+    display: none;
+}
+
+#shape-controls input + label {
+    display: inline-block;
+    padding: 0.25em;
+}
+
+#shape-controls input:checked + label {
+    background-color: white;
+}
+
+.preview.vertical {
+    float: left;
+    margin-right: 0.25in;
+}
+
+.preview.vertical + :not(.preview) {
+    clear: left;
+}
+
+#svg {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#code {
+    font-family: monospace;
+    padding: 1em;
+    border: 1px solid black;
+    white-space: pre;
+    overflow: auto;
+}
+
+/* Styles that end-users would actually use */
+
+.bungee {
+    display: inline-block;
+    padding: 0.25in;
+    border: 1px solid black;
+}
+

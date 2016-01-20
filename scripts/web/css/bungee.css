@@ -1,0 +1,144 @@
+/* Styles that end-users would actually use */
+
+.bungee {
+    position: relative;
+    display: inline-block;
+    font-size: 72px;
+    white-space: nowrap;
+    padding: 0.25in;
+    -moz-font-feature-settings: "kern";
+    -webkit-font-feature-settings: "kern";
+    font-feature-settings: "kern";
+}
+
+.bungee.vertical {
+    /* change writing mode to vertical */
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+/*
+.bungee.vertical:not(.rotated), .bungee.vertical:not(.rotated) * {
+    /* use upright orientation * /
+    -webkit-text-orientation: upright;
+    -moz-text-orientation: upright;
+    -ms-text-orientation: upright;
+    text-orientation: upright;
+    /* implement spacing and kerning * /
+    -moz-font-feature-settings: "vkrn", "vpal";
+    -webkit-font-feature-settings: "vkrn", "vpal";
+    font-feature-settings: "vkrn", "vpal";
+}
+*/
+
+.bungee * {
+    position: relative;
+    background: transparent;
+}
+
+.bungee.shapes {
+    -moz-font-feature-settings: "ss01", "kern" 0;
+    -webkit-font-feature-settings: "ss01", "kern" 0;
+    font-feature-settings: "ss01", "kern" 0;
+    letter-spacing: 0.28em;
+}
+
+.bungee.vertical.shapes span {
+    position: relative;
+    left: -0.14em;
+}
+
+.bungee.shapes.shadow span {
+    top: -0.04em;
+    left: 0.04em;
+}
+
+.bungee.vertical.shapes.shadow span {
+    left: -0.1em;
+}
+
+.bungee > div > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+.bungee > div > div:first-child {
+    position: relative; /* to make it have an actual size */
+}
+
+.bungee.background > div > div.background {
+    opacity: 1;
+}
+
+.bungee .background.regular {
+    z-index: 2;
+    color: #7e1414;
+}
+
+.bungee .background.outline {
+    z-index: 1;
+    color: #b2c021;
+}
+
+.bungee .regular {
+    font-family: "Bungee Regular";
+    z-index: 13;
+    color: white;
+}
+
+.bungee .outline {
+    font-family: "Bungee Outline";
+    z-index: 12;
+    color: #b2c021;
+}
+
+.bungee .inline {
+    font-family: "Bungee Inline";
+    z-index: 14;
+    color: #7e1414;
+}
+
+.bungee .shadow {
+    font-family: "Bungee Shade";
+    z-index: 11;
+    color: #513620;
+}
+
+.bungee.vertical.rotated .regular {
+    font-family: "Bungee Rotated Regular";
+}
+
+.bungee.vertical.rotated .outline {
+    font-family: "Bungee Rotated Outline";
+}
+
+.bungee.vertical.rotated .inline {
+    font-family: "Bungee Rotated Inline";
+}
+
+.bungee.vertical.rotated .shadow {
+    font-family: "Bungee Rotated Shade";
+}
+
+.bungee.regular .regular {
+    opacity: 1;
+}
+
+.bungee.outline .outline {
+    opacity: 1;
+}
+
+.bungee.inline .inline {
+    opacity: 1;
+}
+
+.bungee.shadow .shadow {
+    opacity: 1;
+}
+

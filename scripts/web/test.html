@@ -1,0 +1,97 @@
+<style>
+  @font-face {
+    font-family: 'Bungee Regular';
+    src: url(/fonts/Bungee-Regular.eot?#ie) format(embedded-opentype),
+         url(/fonts/Bungee-Regular.woff2) format(woff2),
+         url(/fonts/Bungee-Regular.woff) format(woff),
+         url(/fonts/Bungee-Regular.ttf) format(opentype),
+         url(/fonts/Bungee-Regular.svg#web) format(svg);
+  }
+
+  @font-face {
+    font-family: 'Bungee Outline';
+    src: url(/fonts/Bungee-Outline.eot?#ie) format(embedded-opentype),
+         url(/fonts/Bungee-Outline.woff2) format(woff2),
+         url(/fonts/Bungee-Outline.woff) format(woff),
+         url(/fonts/Bungee-Outline.ttf) format(opentype),
+         url(/fonts/Bungee-Outline.svg#web) format(svg);
+  }
+
+  @font-face {
+    font-family: 'Bungee Inline';
+    src: url(/fonts/Bungee-Inline.eot?#ie) format(embedded-opentype),
+         url(/fonts/Bungee-Inline.woff2) format(woff2),
+         url(/fonts/Bungee-Inline.woff) format(woff),
+         url(/fonts/Bungee-Inline.ttf) format(opentype),
+         url(/fonts/Bungee-Inline.svg#web) format(svg);
+  }
+
+  @font-face {
+    font-family: 'Bungee Shade';
+    src: url(/fonts/Bungee-Shade.eot?#ie) format(embedded-opentype),
+         url(/fonts/Bungee-Shade.woff2) format(woff2),
+         url(/fonts/Bungee-Shade.woff) format(woff),
+         url(/fonts/Bungee-Shade.ttf) format(opentype),
+         url(/fonts/Bungee-Shade.svg#web) format(svg);
+  }
+
+  .Bungee {
+    color: transparent;
+    font-size: 144px;
+    background: transparent;
+  }
+
+  .Bungee.vertical {
+    -webkit-writing-mode: vertical-rl;
+  }
+
+  .Bungee * {
+    position: relative;
+    font-size: inherit;
+    background: transparent;
+  }
+
+  .Bungee > div > div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: opacity 0.2s;
+  }
+
+  .Bungee > div > div:first-child {
+    position: relative;
+  }
+
+  .Bungee .Regular {
+    font-family: 'Bungee Regular';
+    z-index: 3;
+    color: white;
+  }
+
+  .Bungee .Outline {
+    font-family: 'Bungee Outline';
+    z-index: 2;
+    color: rgb(178, 192, 33);
+  }
+
+  .Bungee .Inline {
+    font-family: 'Bungee Inline';
+    z-index: 4;
+    color: rgb(126, 20, 20);
+  }
+
+  .Bungee .Shade {
+    font-family: 'Bungee Shade';
+    z-index: 1;
+    color: rgb(81, 54, 32);
+  }
+</style>
+
+<div class="Bungee">
+  <div>
+    <div class="Regular">Hello.</div>
+    <div class="Inline">Hello.</div>
+    <div class="Outline">Hello.</div>
+    <div class="Shade">Hello.</div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+/* reset */
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: sans-serif;
+    padding: 1em;
+}

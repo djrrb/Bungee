@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1">
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bungee.js"></script>
+        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="stylesheet" href="/css/bungee.css">
+        <style>
+        </style>
+    </head>
+    <body>
+        <form id='controls'>
+            <fieldset id='orientation-controls'>
+                Orientation:
+                <label><input type='radio' name='orientation' value='horizontal' checked> Horizontal</label>
+                <label><input type='radio' name='orientation' value='vertical'> Vertical</label>
+            </fieldset>
+            <fieldset id='layer-controls'>
+                Layers:
+                <label><input type='checkbox' name='layer' value='regular' checked> Base</label>
+                <label><input type='checkbox' name='layer' value='inline' checked> Inline</label>
+                <label><input type='checkbox' name='layer' value='outline' checked> Outline</label>
+                <label><input type='checkbox' name='layer' value='shade' checked> Shadow</label>
+            </fieldset>
+            <fieldset id='stylistic-sets'>
+                Alternates:
+                <label><input type='checkbox' name='ss' value='ss02'> Round</label>
+                <label><input type='checkbox' name='ss' value='ss03'> E</label>
+                <label><input type='checkbox' name='ss' value='ss04'> I</label>
+                <label><input type='checkbox' name='ss' value='ss05'> L</label>
+                <label><input type='checkbox' name='ss' value='ss06'> &amp;</label>
+                <label><input type='checkbox' name='ss' value='ss07'> ’</label>
+                <label><input type='checkbox' name='ss' value='ss08'> Ĳ</label>
+                <label><input type='checkbox' name='ss' value='ss09'> Downer</label>
+            </fieldset>
+            <fieldset id='size-control'>
+                <label>Size: <input type='range' name='size' value='120' min='24' max='288'></label>
+            </fieldset>
+            <fieldset id='text-control'>
+                <label>Text: <input type='text' name='text' value='Root-Beer'></label>
+            </fieldset>
+            <div id='shape-controls'>
+                <fieldset>Beginning shapes: <script>Bungee.shapeInputList('begin');</script></fieldset>
+                <fieldset>Ending shapes: <script>Bungee.shapeInputList('end');</script></fieldset>
+                <fieldset>Background shapes: <script>Bungee.shapeInputList('shape');</script></fieldset>
+            </div>
+        </form>
+        <div class='preview' id='rotated-preview'>
+            <h3>Text:</h3>
+            <div class='bungee rotated'></div>
+        </div>
+        <div class='preview'>
+            <h3>SVG:</h3>
+            <div id='svg'></div>
+        </div>
+        <h3>Code:</h3>
+        <div id='code'></div>
+    </body>
+</html>
