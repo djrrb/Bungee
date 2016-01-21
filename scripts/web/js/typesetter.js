@@ -13,6 +13,25 @@
         var textcontrol = $('#controls input[name=text]');
         var shapecontrols = $('#shape-controls input');
         var globalCSS;
+
+        var defaultStyles = {};
+
+        var temp = $('<div class="bungee"></div>');
+        $('body').append(temp);
+        $.each(temp.css('font-feature-settings').split(/,/), function(i, tag) {
+            var m = /['"]([a-z]{4})["'](\s+(\d+|on|off))?/.exec(tag);
+            if (!m) {
+                return;
+            }
+            if (!m[2] || m[3] === 'on') {
+                m[3] = '1';
+            } else if (m[3] === 'off') {
+                m[3] = '0';
+            }
+            defaultStyles[m[1]] = m[3];
+        });
+        temp.remove();
+        temp = null;
     
         //process initial url
         if (window.location.hash.length > 1) {
@@ -84,7 +103,7 @@
         }
         
         function doSVG() {
-            var reference = bungees.filter('.rotated');
+            var reference = bungees;
             var req = {};
             req.text = textcontrol.val(); //reference.find('span').first().text().trim();
             req.size = sizecontrol.val();
@@ -123,10 +142,12 @@
             }
 
             var text = false;
+            /*
+            // SPAN is for live editing
             if (actor.tagName==='SPAN') {
                 text = $(evt.target).text();
-            } else if (actor.tagName === 'LABEL') {
-                // this will fall through to the related input
+            } else */ if (actor.tagName === 'LABEL') {
+                // this will be called again for the actual input element
                 return;
             } else if (textcontrol.is(actor) || actor.tagName !== 'INPUT') {
                 text = textcontrol.val();
@@ -144,25 +165,6 @@
                 });
             }
             
-            var ffs = {};
-            bungees.css('font-feature-settings', '');
-            console.log(bungees.css('font-feature-settings'));
-            $.each(bungees.css('font-feature-settings').split(/,/), function(i, tag) {
-                var m = /['"]([a-z]{4})["'](\s+(\d+|on|off))?/.exec(tag);
-                if (!m) {
-                    return;
-                }
-                if (!m[2] || m[3] === 'on') {
-                    m[3] = '1';
-                } else if (m[3] === 'off') {
-                    m[3] = '0';
-                }
-                ffs[m[1]] = m[3];
-                sscontrols.filter(':checked').each(function() {
-                    ffs[this.value] = '1';
-                });
-            });
-
             if (!evt || layercontrols.is(actor)) {
                 layercontrols.each(function() {
                     bungees[this.checked ? 'addClass' : 'removeClass'](this.value);
@@ -210,9 +212,15 @@
                 }
             }
 
+            var ffs = $.extend({}, defaultStyles);
+
+            sscontrols.filter(':checked').each(function() {
+                ffs[this.value] = '1';
+            });
+
             if (shape) {
                 ffs['ss01'] = '1';
-                ffs['kern'] = '0';
+                //ffs['kern'] = '0'; //not necessary per DJR
             }
     
             var newffs = [];
@@ -220,7 +228,7 @@
                 newffs.push('"' + tag + '" ' + ffs[tag]);
             }
             bungees.css('font-feature-settings', newffs.join(', '));
-
+console.log(bungees.css('font-feature-settings'));
             if (evt) {
                 setURL();
                 setTimeout(doCode);
@@ -237,9 +245,12 @@
         sizecontrol.on('input change', updateLayers);
         shapecontrols.on('click', updateLayers);
         textcontrol.on('keyup', updateLayers);
-        bungees.on('keyup', updateLayers);
+
+        // not doing live editing for now
+        //bungees.on('keyup', updateLayers);
 
         updateLayers();
+        doCode();
         doSVG();
     }); //window.onload
 })();

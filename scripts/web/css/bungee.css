@@ -6,6 +6,8 @@
     font-size: 72px;
     white-space: nowrap;
     padding: 0.25in;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
     -moz-font-feature-settings: "kern";
     -webkit-font-feature-settings: "kern";
     font-feature-settings: "kern";
@@ -39,9 +41,9 @@
 }
 
 .bungee.shapes {
-    -moz-font-feature-settings: "ss01", "kern" 0;
-    -webkit-font-feature-settings: "ss01", "kern" 0;
-    font-feature-settings: "ss01", "kern" 0;
+    -moz-font-feature-settings: "ss01";
+    -webkit-font-feature-settings: "ss01";
+    font-feature-settings: "ss01";
     letter-spacing: 0.28em;
 }
 
@@ -68,7 +70,7 @@
     transition: opacity 0.2s;
 }
 
-.bungee > div > div:first-child {
+.bungee > div > div:last-child {
     position: relative; /* to make it have an actual size */
 }
 
@@ -78,51 +80,45 @@
 
 .bungee .background.regular {
     z-index: 2;
-    color: #7e1414;
 }
 
 .bungee .background.outline {
     z-index: 1;
-    color: #b2c021;
 }
 
 .bungee .regular {
     font-family: "Bungee Regular";
     z-index: 13;
-    color: white;
 }
 
 .bungee .outline {
     font-family: "Bungee Outline";
     z-index: 12;
-    color: #b2c021;
 }
 
 .bungee .inline {
     font-family: "Bungee Inline";
     z-index: 14;
-    color: #7e1414;
 }
 
 .bungee .shadow {
     font-family: "Bungee Shade";
     z-index: 11;
-    color: #513620;
 }
 
-.bungee.vertical.rotated .regular {
+.bungee.vertical/*.rotated*/ .regular {
     font-family: "Bungee Rotated Regular";
 }
 
-.bungee.vertical.rotated .outline {
+.bungee.vertical/*.rotated*/ .outline {
     font-family: "Bungee Rotated Outline";
 }
 
-.bungee.vertical.rotated .inline {
+.bungee.vertical/*.rotated*/ .inline {
     font-family: "Bungee Rotated Inline";
 }
 
-.bungee.vertical.rotated .shadow {
+.bungee.vertical/*.rotated*/ .shadow {
     font-family: "Bungee Rotated Shade";
 }
 

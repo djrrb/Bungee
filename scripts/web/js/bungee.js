@@ -40,10 +40,12 @@
             var text = master.html().trim();
             master.html('<div></div>');
             var wrapper = master.children();
-            wrapper.append("<div class='shadow'>" + text + "</div>");
-            wrapper.append("<div class='outline'>" + text + "</div>");
-            wrapper.append("<div class='regular'>" + text + "</div>");
-            wrapper.append("<div class='inline'>" + text + "</div>");
+            wrapper.append("<div class='background outline'></div>");
+            wrapper.append("<div class='background regular'></div>");
+            wrapper.append("<div class='shadow'><span>" + text + "</span></div>");
+            wrapper.append("<div class='outline'><span>" + text + "</span></div>");
+            wrapper.append("<div class='regular'><span>" + text + "</span></div>");
+            wrapper.append("<div class='inline'><span>" + text + "</span></div>");
 
             master.data('layers-done', true);
 
@@ -53,7 +55,7 @@
         }
     };
 
-    $(window).on('load', function() {
+    $(function() {
         $('.bungee').each(Bungee.makeLayers);
     }); //window.onload
 })();

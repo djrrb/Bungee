@@ -1,61 +1,59 @@
 /* Styles specific to the typesetter */
 
-/* reset */
-* {
+#typesetter * {
     border: none;
     padding: 0;
     margin: 0;
 }
 
-html {
-    font-family: sans-serif;
+#typesetter {
     background-color: #DDD;
     padding: 1em;
 }
 
-#controls > * {
+#typesetter #controls > * {
     padding-bottom: 0.5em;
 }
 
-#controls label + label {
+#typesetter #controls label + label {
     padding-left: 1em;
 }
 
-#shape-controls li {
+#typesetter #shape-controls li {
     list-style-type: none;
     display: inline;
     font-family: "Bungee Inline";
     font-size: 2em;
 }
 
-#shape-controls input {
+#typesetter #shape-controls input {
     display: none;
 }
 
-#shape-controls input + label {
+#typesetter #shape-controls input + label {
     display: inline-block;
     padding: 0.25em;
 }
 
-#shape-controls input:checked + label {
+#typesetter #shape-controls input:checked + label {
     background-color: white;
 }
 
-.preview.vertical {
+#typesetter .preview.vertical {
     float: left;
     margin-right: 0.25in;
 }
 
-.preview.vertical + :not(.preview) {
+#typesetter .preview.vertical + :not(.preview) {
     clear: left;
 }
 
-#svg {
+#typesetter #svg {
     display: inline-block;
     border: 1px solid black;
 }
 
-#code {
+#typesetter #code {
     font-family: monospace;
     padding: 1em;
     border: 1px solid black;
@@ -63,11 +61,32 @@ html {
     overflow: auto;
 }
 
-/* Styles that end-users would actually use */
-
-.bungee {
+#typesetter .bungee {
     display: inline-block;
     padding: 0.25in;
     border: 1px solid black;
 }
 
+#typesetter .bungee .regular {
+    color: white;
+}
+
+#typesetter .bungee .outline {
+    color: #b2c021;
+}
+
+#typesetter .bungee .inline {
+    color: #7e1414;
+}
+
+#typesetter .bungee .shadow {
+    color: #513620;
+}
+
+#typesetter .bungee .background.regular {
+    color: #7e1414;
+}
+
+#typesetter .bungee .background.outline {
+    color: #b2c021;
+}
