@@ -95,7 +95,7 @@
     z-index: 14;
 }
 
-.bungee .shadow {
+.bungee .shade {
     font-family: "Bungee Shade";
     z-index: 11;
 }
@@ -112,7 +112,7 @@
     font-family: "Bungee Rotated Inline";
 }
 
-.bungee.vertical/*.rotated*/ .shadow {
+.bungee.vertical/*.rotated*/ .shade {
     font-family: "Bungee Rotated Shade";
 }
 
@@ -128,7 +128,7 @@
     opacity: 1;
 }
 
-.bungee.shadow .shadow {
+.bungee.shade .shade {
     opacity: 1;
 }
 
@@ -143,8 +143,8 @@
     top: -0.0445em; /* -left * 80% */
 }
 
-.bungee.shapes.shadow span {
-    /* offset slightly to compensate for shadow */
+.bungee.shapes.shade span {
+    /* offset slightly to compensate for shade */
     left: 0.0956em; /* left + 0.04 */
     top: -0.0845em; /* top - 0.04 */
 }
@@ -155,7 +155,7 @@
     top: 0.056em; /* (1/fontsize - 1)/2 */
 }
 
-.bungee.vertical.shapes.shadow span {
+.bungee.vertical.shapes.shade span {
     left: -0.1156em; /* left + 0.04 */
     top: -0.016em; /* top - 0.04 */
 }
@@ -167,7 +167,7 @@
     left: 0.056em; 
 }
 
-.no-vertical-text .bungee.vertical.shapes.shadow span {
+.no-vertical-text .bungee.vertical.shapes.shade span {
     top: -0.096em; /* top - 0.04 */
     left: 0.016em; /* left - 0.04 */
 }

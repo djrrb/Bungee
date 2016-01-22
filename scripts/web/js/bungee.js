@@ -40,15 +40,15 @@
             var text = master.html().trim();
             master.html('<div></div>');
             var wrapper = master.children();
-            wrapper.append("<div class='shadow'><span>" + text + "</span></div>");
+            wrapper.append("<div class='shade'><span>" + text + "</span></div>");
             wrapper.append("<div class='outline'><span>" + text + "</span></div>");
             wrapper.append("<div class='regular'><span>" + text + "</span></div>");
             wrapper.append("<div class='inline'><span>" + text + "</span></div>");
 
             master.addClass('already-done', true);
 
-            if (!/shadow|outline|regular|inline/.test(el.className)) {
-                master.addClass('shadow outline regular inline');
+            if (!/shade|outline|regular|inline/.test(el.className)) {
+                master.addClass('shade outline regular inline');
             }
         },
         
