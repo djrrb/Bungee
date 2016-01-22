@@ -133,9 +133,13 @@
 
 ####
 
-@downer_off = [I.v Igrave.v Iacute.v Icircumflex.v Idieresis.v Itilde.v Imacron.v Ibreve.v Iogonek.v Idotaccent.v M.v W.v Wcircumflex.v Wgrave.v Wacute.v Wdieresis.v AE.v OE.v I.salt_v Igrave.salt_v Iacute.salt_v Icircumflex.salt_v Idieresis.salt_v Itilde.salt_v Imacron.salt_v Ibreve.salt_v Iogonek.salt_v Idotaccent.salt_v M.salt_v W.salt_v Wcircumflex.salt_v Wgrave.salt_v Wacute.salt_v Wdieresis.salt_v AE.salt_v IJ.salt_v IJ.stack_v];
 
-@downer = [.notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef];
+@downer_off = [I.v Igrave.v Iacute.v Icircumflex.v Idieresis.v Itilde.v Imacron.v Ibreve.v Iogonek.v Idotaccent.v J.v Jcircumflex.v L.v Lacute.v Lcommaaccent.v Lcaron.v M.v Ldot.v Lslash.v I.salt_v Igrave.salt_v Iacute.salt_v Icircumflex.salt_v Idieresis.salt_v Itilde.salt_v Imacron.salt_v Ibreve.salt_v Iogonek.salt_v Idotaccent.salt_v L.salt_v Lacute.salt_v Lcommaaccent.salt_v Lcaron.salt_v Ldot.salt_v Lslash.salt_v L.salt_s_v M.salt_v W.salt_v Wcircumflex.salt_v Wgrave.salt_v Wacute.salt_v Wdieresis.salt_v IJ.salt_v IJ.stack_v I.s_v J.s_v L.s_v W.s_v I.salt_s_v W.salt_s_v];
+
+@downer = [.notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef];
+
+
+
 
 @arrows_bent = [uni21B0 uni21B1 uni21B2 uni21B3 uni21AB uni21AA];
 
