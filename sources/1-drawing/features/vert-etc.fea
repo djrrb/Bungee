@@ -6,6 +6,10 @@ feature vert { # Vertical alternates
 } vert;
 
 feature ss01 { # Vertical alternates, hack
+    featureNames {
+        name "Vertical alternates";
+        name 1 "Vertical alternates";
+	};
     sub @vertical_off by @vertical;
     sub @vertical_lc_off by @vertical_lc;
     sub @vertical_other_off by @vertical_other;
@@ -754,7 +758,11 @@ feature liga { # I ligature
     sub I.salt_v I.salt_v by I_I.salt_v;
 } liga;
 
-feature ss09 { # John Downer Remove Problem Chars
+feature ss09 { # John Downer Recommendations
+    featureNames {
+        name "John Downer's Recommendations";
+        name 1 "John Downer's Recommendations";
+	};
     lookup downer {
         sub @downer_off by @downer;
         } downer;

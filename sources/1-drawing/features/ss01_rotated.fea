@@ -1,4 +1,8 @@
-feature ss01 { 
+feature ss01 {
+    featureNames {
+        name "Monospaced forms";
+        name 1 "Monospaced forms";
+	};
 	pos .notdef <80 0 160 0>;
 	pos space <386 0 771 0>;
 	pos A <76 0 151 0>;
@@ -528,3 +532,15 @@ feature ss01 {
 	pos T.s <93 0 185 0>;
 
 } ss01;
+
+
+
+feature ss09 { # John Downer Recommendations
+    featureNames {
+        name "John Downer's Recommendations";
+        name 1 "John Downer's Recommendations";
+	};
+    lookup downer {
+        sub @downer_off by @downer;
+        } downer;
+} ss09;

@@ -23,13 +23,13 @@ Replace forms of E with an decorative alternate with a rounded left side.
 
 <img src="images/design-alternates-e.png" alt="Round E" height="200" />
 
-## Stylistic Set 04: Serifless I.
+## Stylistic Set 04: Sans-serif I
 
 Replace the serifed I with an serifless alternate. Note: this is a very narrow character that may result in less-than-ideal vertical setting.
 
 <img src="images/design-alternates-i.png" alt="Serifless I" height="200" />
 
-## Stylistic Set 05: Serifless L
+## Stylistic Set 05: Sans-serif L
 
 Replace the default form of L with the more conventional form without a vertical serif.
 
@@ -53,9 +53,9 @@ Replace the ligated Ĳ (U+0132) with two separate letterforms.
 	
 <img src="images/design-alternates-ij.png" alt="Sequential IJ" height="200" />
 	
-## Stylistic Set 09: John Downer recommendations
+## Stylistic Set 09: John Downer’s recommendations
 
-Signpainter John Downer recommends against vertical type that includes problematic characters like I, M, and W, which are unusually narrow or wide. This feature disables those characters.
+Sign painter and type designer John Downer warns against vertical type and lettering which includes problematic characters like I, J, L, M, and W, which are unusually narrow or wide. This feature disables those characters.
 
 <img src="images/design-alternates-downer.png" style="width: 3em" alt="Downer" width="200"/>
 

@@ -130,7 +130,17 @@ if __name__ == "__main__":
 
         ]
         
-    for styleMap in buildStyles + buildStyles_basic + buildStyles_rotated:
+    allStyles = buildStyles + buildStyles_basic + buildStyles_rotated
+    
+    # allStyles = [{
+    #             'familyName': advancedName,
+    #             'styleName': 'Shade2',
+    #             'source': src1,
+    #             'layers': ['shade2'],
+    #             'tracking': 0,
+    #     }]
+        
+    for styleMap in allStyles:
         
         # make a copy of the UFO
         familyName = styleMap['familyName'] 

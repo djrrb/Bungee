@@ -4280,6 +4280,7 @@
 		<string>inline</string>
 		<string>background</string>
 		<string>outline</string>
+		<string>shade2</string>
 		<string>shade</string>
 		<string>metrics</string>
 	</array>
@@ -4302,10 +4303,10 @@
 	<true/>
 	<key>com.typemytype.robofont.outline.layerStrokeColor</key>
 	<array>
-		<real>0.5959</real>
-		<real>0.2368</real>
-		<real>0.7948</real>
-		<real>0.7</real>
+		<real>1.0</real>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.51</real>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>
@@ -4321,10 +4322,25 @@
 	<true/>
 	<key>com.typemytype.robofont.shade.layerStrokeColor</key>
 	<array>
-		<real>0.0</real>
+		<real>0.298</real>
+		<real>0.298</real>
+		<real>0.298</real>
 		<real>1.0</real>
+	</array>
+	<key>com.typemytype.robofont.shade2.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.shade2.layerShowFill</key>
+	<true/>
+	<key>com.typemytype.robofont.shade2.layerShowPoints</key>
+	<false/>
+	<key>com.typemytype.robofont.shade2.layerShowStroke</key>
+	<true/>
+	<key>com.typemytype.robofont.shade2.layerStrokeColor</key>
+	<array>
+		<real>0.702</real>
+		<real>0.702</real>
+		<real>0.702</real>
 		<real>1.0</real>
-		<real>0.7</real>
 	</array>
 	<key>com.typemytype.robofont.shadow.layerStrokeColor</key>
 	<array>
