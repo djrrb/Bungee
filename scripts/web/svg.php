@@ -36,9 +36,9 @@ $text = isset($_GET['text']) && is_string($_GET['text']) && strlen($_GET['text']
 
 $size = isset($_GET['size']) && is_numeric($_GET['size']) ? (int)$_GET['size'] : 144;
 
-$width = $_GET['width'];
-$height = $_GET['height'];
-$padding = $_GET['padding'];
+$padding = round($size*0.1 + 18);
+$height = round($size + $padding*2);
+//width will be determined by text length
 
 $subset = array('notdef' => true);
 for ($i=0, $l=mb_strlen($text); $i<$l; $i++) {
@@ -47,18 +47,15 @@ for ($i=0, $l=mb_strlen($text); $i<$l; $i++) {
 
 $kerns = array();
 
-ob_start();
-
-print "<?xml version='1.0' encoding='utf-8' ?>";
-print '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">';
-print "<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='$width' height='$height'>";
-print "<defs>";
-
 # Font definitions
 
 $charwidths = array();
 $em = 1000;
 $baseline = 0;
+
+ob_start();
+
+print "<defs>";
 
 foreach ($layers as $style => $color) {
     $font = file_get_contents("fonts/BungeeLayers" . ($_GET['orientation']==='vertical' ? 'Rotated' : '') . "-" . ucfirst($style) . ".svg");
@@ -127,10 +124,11 @@ $scale = $size / $em;
 
 print "</defs>";
 
-print "<!-- Text: $text (" . mb_strlen($text) . " bytes) -->";
+$svgdefs = ob_get_clean();
 
-#border
-#print "<rect x='0' y='0' width='$width' height='$height' stroke='black' fill='transparent'/>";
+ob_start();
+
+print "<!-- Text: $text (" . mb_strlen($text) . " bytes) -->";
 
 if ($_GET['orientation'] === 'vertical') {
     print "<g transform='rotate(90) translate(0,-$height)'>";
@@ -155,14 +153,35 @@ foreach ($layers as $style => $color) {
     }
 }
 
+#now we have all the information we need to calculate the final dimensions
+$width = round($x + $padding);
+
 if ($_GET['orientation'] === 'vertical') {
     print "</g>";
+    $temp = $width;
+    $width = $height;
+    $height = $temp;
 }
+
+$svgcontent = ob_get_clean();
+
+
+ob_start();
+
+print "<?xml version='1.0' encoding='utf-8' ?>";
+print '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">';
+print "<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='$width' height='$height'>";
+
+print $svgdefs; unset($svgdefs);
+
+#border
+#print "<rect x='0' y='0' width='$width' height='$height' stroke='black' fill='transparent'/>";
+
+print $svgcontent; unset($svgcontent);
 
 print "</svg>";
 
 $output = ob_get_clean();
-
 
 if (DEBUG) {
     header("Content-type: text/plain; charset=utf-8");
