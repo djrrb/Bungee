@@ -6,11 +6,7 @@
     font-size: 72px;
     white-space: nowrap;
     padding: 0.25in;
-    -webkit-font-kerning: normal;
-    font-kerning: normal;
-    -moz-font-feature-settings: "kern";
-    -webkit-font-feature-settings: "kern";
-    font-feature-settings: "kern";
+    text-rendering: optimizeLegibility;
 }
 
 .bungee.vertical {
@@ -19,6 +15,18 @@
     -webkit-writing-mode: vertical-rl;
     -moz-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
+}
+
+/* for browsers that don't support vertical mode */
+.no-vertical-text .bungee.vertical {
+    -moz-transform-origin: left bottom;
+    -moz-transform: translateY(-100%) rotate(90deg);
+    -ms-transform-origin: left bottom;
+    -ms-transform: translateY(-100%) rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: translateY(-100%) rotate(90deg);
+    transform-origin: left bottom;
+    transform: translateY(-100%) rotate(90deg);
 }
 
 /*
@@ -41,24 +49,10 @@
 }
 
 .bungee.shapes {
-    -moz-font-feature-settings: "ss01";
-    -webkit-font-feature-settings: "ss01";
-    font-feature-settings: "ss01";
+    -moz-font-feature-settings: "ss01", "liga" 0;
+    -webkit-font-feature-settings: "ss01", "liga" 0;
+    font-feature-settings: "ss01", "liga" 0;
     letter-spacing: 0.28em;
-}
-
-.bungee.vertical.shapes span {
-    position: relative;
-    left: -0.14em;
-}
-
-.bungee.shapes.shadow span {
-    top: -0.04em;
-    left: 0.04em;
-}
-
-.bungee.vertical.shapes.shadow span {
-    left: -0.1em;
 }
 
 .bungee > div > div {
@@ -138,3 +132,42 @@
     opacity: 1;
 }
 
+
+/* manipulations for block shapes */
+
+.bungee.shapes span {
+    /* smaller font size inside shapes */
+    font-size: 0.9em;
+    letter-spacing: 0.4222em ; /* 1.28/fontsize - 1 */
+    left: 0.0556em; /* (1-fontsize)/2/fontsize */
+    top: -0.0445em; /* -left * 80% */
+}
+
+.bungee.shapes.shadow span {
+    /* offset slightly to compensate for shadow */
+    left: 0.0956em; /* left + 0.04 */
+    top: -0.0845em; /* top - 0.04 */
+}
+
+.bungee.vertical.shapes span {
+    /* Chrome wants to push everything right */
+    left: -0.1556em; /* this seems to be roughly -0.14/fontsize */
+    top: 0.056em; /* (1/fontsize - 1)/2 */
+}
+
+.bungee.vertical.shapes.shadow span {
+    left: -0.1156em; /* left + 0.04 */
+    top: -0.016em; /* top - 0.04 */
+}
+
+
+/* for no-vertical-text browsers, need to rotate all the transforms */
+.no-vertical-text .bungee.vertical.shapes span {
+    top: -0.056em; 
+    left: 0.056em; 
+}
+
+.no-vertical-text .bungee.vertical.shapes.shadow span {
+    top: -0.096em; /* top - 0.04 */
+    left: 0.016em; /* left - 0.04 */
+}

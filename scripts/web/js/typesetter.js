@@ -40,7 +40,7 @@
                 var eq = clause.split('=', 2);
                 switch (eq[0]) {
                     case 'text':
-                        textcontrol.val(decodeURIComponent(eq[1].replace(/\+/g, '%20')));
+                        textcontrol.val(Bungee.cleanupText(decodeURIComponent(eq[1].replace(/\+/g, '%20'))));
                         break;
                     case 'size':
                         sizecontrol.val(eq[1]);
@@ -51,7 +51,7 @@
                 }
             });
         }
-    
+
         function doCode() {
             var tab = "  ";
             if (!globalCSS) {
@@ -83,7 +83,7 @@
             $('.bungee > div > div').each(function() {
                 var div = $(this);
                 if (div.closest('.bungee.'+this.className).length) {
-                    code += tab + tab + '<div class="' + this.className + '">' + textcontrol.val().trim() + "</div>\n";
+                    code += tab + tab + '<div class="' + this.className + '">' + Bungee.cleanupText(textcontrol.val()) + "</div>\n";
                 }
             });
             code += tab + "</div>\n</div>";
@@ -105,7 +105,7 @@
         function doSVG() {
             var reference = bungees;
             var req = {};
-            req.text = textcontrol.val(); //reference.find('span').first().text().trim();
+            req.text = Bungee.cleanupText(textcontrol.val()); //reference.find('span').first().text().trim();
             req.size = sizecontrol.val();
             req.orientation = orientationcontrols.filter(':checked').val();
             req.padding = parseInt(reference.css('padding'));
@@ -150,7 +150,7 @@
                 // this will be called again for the actual input element
                 return;
             } else if (textcontrol.is(actor) || actor.tagName !== 'INPUT') {
-                text = textcontrol.val();
+                text = Bungee.cleanupText(textcontrol.val());
             }
             
             if (text !== false) {
@@ -202,7 +202,7 @@
                 if (shape) {
                     bungees.addClass('background shapes');
                     str = [];
-                    for (var i=0, l=textcontrol.val().length; i<l; i++) {
+                    for (var i=0, l=Bungee.cleanupText(textcontrol.val()).length; i<l; i++) {
                         str.push(String.fromCharCode(shape));
                     }
                     str = str.join('');
@@ -220,6 +220,7 @@
 
             if (shape) {
                 ffs['ss01'] = '1';
+                ffs['liga'] = '0';
                 //ffs['kern'] = '0'; //not necessary per DJR
             }
     
@@ -228,7 +229,7 @@
                 newffs.push('"' + tag + '" ' + ffs[tag]);
             }
             bungees.css('font-feature-settings', newffs.join(', '));
-console.log(bungees.css('font-feature-settings'));
+
             if (evt) {
                 setURL();
                 setTimeout(doCode);

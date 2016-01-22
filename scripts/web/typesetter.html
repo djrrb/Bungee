@@ -15,7 +15,7 @@
     </head>
     <body>
         <div id='typesetter'>
-            <form id='controls'>
+            <form id='controls' onsubmit='return false'>
                 <fieldset id='orientation-controls'>
                     Orientation:
                     <label><input type='radio' name='orientation' value='horizontal' checked> Horizontal</label>
@@ -26,7 +26,7 @@
                     <label><input type='checkbox' name='layer' value='regular' checked> Base</label>
                     <label><input type='checkbox' name='layer' value='inline' checked> Inline</label>
                     <label><input type='checkbox' name='layer' value='outline' checked> Outline</label>
-                    <label><input type='checkbox' name='layer' value='shade' checked> Shadow</label>
+                    <label><input type='checkbox' name='layer' value='shadow' checked> Shadow</label>
                 </fieldset>
                 <fieldset id='stylistic-sets'>
                     Alternates:

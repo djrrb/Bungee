@@ -33,29 +33,39 @@
                 el = this;
             }
             var master = $(el);
-            if (master.data('layers-done')) {
+            if (master.hasClass('already-done')) {
                 return;
             }
             //remember the content and then get rid of it
             var text = master.html().trim();
             master.html('<div></div>');
             var wrapper = master.children();
-            wrapper.append("<div class='background outline'></div>");
-            wrapper.append("<div class='background regular'></div>");
             wrapper.append("<div class='shadow'><span>" + text + "</span></div>");
             wrapper.append("<div class='outline'><span>" + text + "</span></div>");
             wrapper.append("<div class='regular'><span>" + text + "</span></div>");
             wrapper.append("<div class='inline'><span>" + text + "</span></div>");
 
-            master.data('layers-done', true);
+            master.addClass('already-done', true);
 
             if (!/shadow|outline|regular|inline/.test(el.className)) {
                 master.addClass('shadow outline regular inline');
             }
+        },
+        
+        cleanupText: function(text) {
+            return text.replace(/\s+/g, ' ').trim();
         }
     };
 
+    //pretty up Bungee elements on document ready
     $(function() {
+        // see if browser support writing-mode
+        var test = $('<div class="bungee vertical" style="display:none"></div>');
+        $('body').append(test);
+        console.log(test.css('writing-mode'));
+        if (!test.css('writing-mode')) {
+            $('html').addClass('no-vertical-text');
+        }
         $('.bungee').each(Bungee.makeLayers);
-    }); //window.onload
+    });
 })();
