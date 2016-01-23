@@ -40,10 +40,10 @@
             var text = master.html().trim();
             master.html('<div></div>');
             var wrapper = master.children();
-            wrapper.append("<div class='shade'><span>" + text + "</span></div>");
-            wrapper.append("<div class='outline'><span>" + text + "</span></div>");
-            wrapper.append("<div class='regular'><span>" + text + "</span></div>");
-            wrapper.append("<div class='inline'><span>" + text + "</span></div>");
+            wrapper.append("<div class='layer shade'><span>" + text + "</span></div>");
+            wrapper.append("<div class='layer outline'><span>" + text + "</span></div>");
+            wrapper.append("<div class='layer regular'><span>" + text + "</span></div>");
+            wrapper.append("<div class='layer inline'><span>" + text + "</span></div>");
 
             master.addClass('already-done', true);
 

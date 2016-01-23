@@ -33,11 +33,22 @@ if (empty($layers)) {
 }
 
 $orientation = isset($_GET['orientation']) ? $_GET['orientation'] : 'horizontal';
-$text = mb_strtoupper(isset($_GET['text']) && is_string($_GET['text']) && strlen($_GET['text']) ? $_GET['text'] : "Hello!");
+$text = isset($_GET['text']) && is_string($_GET['text']) && strlen($_GET['text']) ? $_GET['text'] : "Hello!";
 $size = isset($_GET['size']) && is_numeric($_GET['size']) ? (int)$_GET['size'] : 144;
 $ss = !empty($_GET['ss']) ? explode(',', $_GET['ss']) : array();
+$shape = !empty($_GET['shape']) ? dechex($_GET['shape']) : false;
+$begin = !empty($_GET['begin']) ? dechex($_GET['begin']) : false;
+$end = !empty($_GET['end']) ? dechex($_GET['end']) : false;
+$letterspacing = 0.0;
 
 #stylesets should be sorted numerically, except ss01 last
+if ($shape) {
+    #block shapes always get ss01
+    $ss[] = 'ss01';
+    $letterspacing = 0.28;
+}
+
+#cleanup on aisle ss
 $ss = array_unique($ss);
 sort($ss);
 $ss01 = array_search('ss01', $ss);
@@ -46,8 +57,8 @@ if ($ss01 !== false) {
     #ss01 always needs to be at the end
     unset($ss[$ss01]);
 
-    #but it is applied by default in the vertical fonts
-    if ($orientation !== 'vertical') {
+    #ss01 not needed in vertical mode unless shapes are on
+    if ($orientation !== 'vertical' or $shape) {
         $ss[] = 'ss01';
     }
 }
@@ -62,6 +73,14 @@ $subset = array();
 for ($i=0, $l=mb_strlen($text); $i<$l; $i++) {
     $subset[uniord(mb_substr($text, $i, 1))] = true;
 }
+if (!empty($shape)) { 
+    $subset[$shape] = true; 
+    if (!in_array('ss01', $ss)) {
+        $ss[] = 'ss01';
+    }
+}
+if (!empty($begin)) { $subset[$begin] = true; }
+if (!empty($end)) { $subset[$end] = true; }
 $subset = array_keys($subset);
 
 #load up alternates and figure out character mappings
@@ -180,10 +199,25 @@ if ($orientation === 'vertical') {
     print "<g transform='rotate(90) translate(0,-$height)'>";
 }
 
+# Shapes
+if ($shape) {
+    foreach (array('outline' => $layers['outline'], 'regular' => $layers['inline']) as $style => $color) {
+        if (!isset($charwidths[$style][$shape])) {
+            continue;
+        }
+        $x = $padding;
+        $y = $height-$padding-$baseline*$scale;
+        for ($i=0,$l=mb_strlen($text); $i<$l; $i++) {
+            print "<use transform='translate($x $y) scale($scale -$scale)' xlink:href='#{$style}-$shape' style='stroke:none;fill:#$color' />";
+            $x += $charwidths[$style][$shape]*$scale;
+        }
+    }
+}
+
 # Text layers output
 $prev = null;
 foreach ($layers as $style => $color) {
-    $x = $padding;
+    $x = $padding + $size*$letterspacing/2;
     $y = $height-$padding-$baseline*$scale;
     for ($i=0,$l=mb_strlen($text); $i<$l; $i++) {
         $id = uniord(mb_substr($text, $i, 1));
@@ -197,7 +231,7 @@ foreach ($layers as $style => $color) {
             $x += $kerns[$prev][$id]*$scale;
         }
         print "<use transform='translate($x $y) scale($scale -$scale)' xlink:href='#{$style}-$id' style='stroke:none;fill:#$color' />";
-        $x += $charwidths[$style][$id]*$scale;
+        $x += $charwidths[$style][$id]*$scale*(1+$letterspacing);
         $prev = $id;
     }
 }

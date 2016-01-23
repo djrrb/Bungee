@@ -103,14 +103,14 @@
         }
         
         function doSVG() {
-            var reference = bungees;
+            var reference = bungees.find('.layer').not('.background');
             var req = {};
             req.text = Bungee.cleanupText(textcontrol.val()); //reference.find('span').first().text().trim();
             req.size = sizecontrol.val();
             req.orientation = orientationcontrols.filter(':checked').val();
             req.layers = {};
             layercontrols.filter(':checked').each(function() {
-                var color = reference.find('.' + this.value).css('color');
+                var color = reference.filter('.' + this.value).css('color');
                 if (/(\d+),\s*(\d+),\s*(\d+)/.test(color)) {
                     var red = RegExp.$1;
                     var green = RegExp.$2;
@@ -125,6 +125,9 @@
                 }
                 req.layers[this.value] = color;
             });
+            shapecontrols.filter(':checked').each(function() {
+                req[this.name] = this.value;
+            })
             req.ss = [];
             sscontrols.filter(':checked').each(function() {
                 req.ss.push(this.value);
@@ -208,8 +211,8 @@
                         str.push(String.fromCharCode(shape));
                     }
                     str = str.join('');
-                    bungees.children().prepend('<div class="background outline">' + str + '</div>');
-                    bungees.children().prepend('<div class="background regular">' + str + '</div>');
+                    bungees.children().prepend('<div class="background layer outline">' + str + '</div>');
+                    bungees.children().prepend('<div class="background layer regular">' + str + '</div>');
                 } else {
                 }
             }

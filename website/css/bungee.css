@@ -55,7 +55,7 @@
     letter-spacing: 0.28em;
 }
 
-.bungee > div > div {
+.bungee .layer {
     position: absolute;
     top: 0;
     left: 0;
@@ -64,11 +64,11 @@
     transition: opacity 0.2s;
 }
 
-.bungee > div > div:last-child {
+.bungee .layer:last-child {
     position: relative; /* to make it have an actual size */
 }
 
-.bungee.background > div > div.background {
+.bungee.background .layer.background {
     opacity: 1;
 }
 
