@@ -6,18 +6,31 @@ import json
 # however for now it's just a manual copy/paste job
 
 
+def lower(l):
+    l2 = []
+    for i, s in enumerate(l):
+        l2.append(s.lower())
+    return l2
+        
+
 
 salt_A = 'A.salt Agrave.salt Aacute.salt Acircumflex.salt Atilde.salt Adieresis.salt Aring.salt Amacron.salt Abreve.salt Aogonek.salt AE.salt'.split(' ')
 
 salt_A_off = 'A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek AE'.split(' ')
 
+salt_a_off = lower(salt_A_off)
+
 salt_E = 'E.salt Egrave.salt Eacute.salt Ecircumflex.salt Edieresis.salt Emacron.salt Ebreve.salt Edotaccent.salt Eogonek.salt Ecaron.salt'.split(' ')
 
 salt_E_off = 'E Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron'.split(' ')
 
+salt_e_off = lower(salt_E_off)
+
 salt_IJ = ['IJ.stack']
 
 salt_IJ_off = ['IJ'];
+
+salt_ij_off = lower(salt_IJ_off)
 
 salt_I = 'I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt IJ.salt'.split(' ')
 
@@ -30,29 +43,38 @@ salt_L = 'L.salt Lacute.salt Lcommaaccent.salt Lcaron.salt Ldot.salt Lslash.salt
 
 salt_L_off = 'L Lacute Lcommaaccent Lcaron Ldot Lslash'.split(' ')
 
+salt_l_off = lower(salt_L_off)
+
 salt_M = ['M.salt']
 
 salt_M_off = ['M']
 
+salt_m_off = ['m']
 
 salt_N = 'N.salt Ntilde.salt Nacute.salt Ncommaaccent.salt Ncaron.salt'.split(' ')
 
 salt_N_off = 'N Ntilde Nacute Ncommaaccent Ncaron'.split(' ')
 
+salt_n_off = lower(salt_N_off)
 
 salt_W = 'W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt'.split(' ')
 
 salt_W_off = 'W Wcircumflex Wgrave Wacute Wdieresis'.split(' ')
 
+salt_w_off = lower(salt_W_off)
 
 salt_Y = 'Y.salt Yacute.salt Ycircumflex.salt Ydieresis.salt Ygrave.salt'.split(' ')
 
 salt_Y_off = 'Y Yacute Ycircumflex Ydieresis Ygrave'.split(' ')
 
+salt_y_off = lower(salt_Y_off)
+
 
 salt_X = ['X.salt']
 
 salt_X_off = ['X']
+
+salt_x_off = ['x']
 
 salt_quote = ['quoteleft.salt', 'quoteright.salt'];
 salt_quote_off = ['quoteleft', 'quoteright'];
@@ -70,6 +92,12 @@ vertical_other = 'space.v commaaccent.v zero.v one.v two.v three.v four.v five.v
 
 vertical_other_off = 'space commaaccent zero one two three four five six seven eight nine quoteleft quoteright quotedblleft quotedblright quotesinglbase quotedblbase guilsinglleft guilsinglright guillemotleft guillemotright period comma ellipsis exclamdown questiondown dagger daggerdbl perthousand exclam quotedbl percent ampersand ampersand.salt quotesingle asterisk colon semicolon question quoteleft.salt quoteright.salt'.split(' ')
 
+
+vertical_lc = 'A.v Agrave.v Aacute.v Acircumflex.v Atilde.v Adieresis.v Aring.v Amacron.v Abreve.v Aogonek.v B.v C.v Ccedilla.v Cacute.v Ccircumflex.v Cdotaccent.v Ccaron.v D.v Dcaron.v E.v Egrave.v Eacute.v Ecircumflex.v Edieresis.v Emacron.v Ebreve.v Edotaccent.v Eogonek.v Ecaron.v F.v G.v Gcircumflex.v Gbreve.v Gdotaccent.v Gcommaaccent.v H.v Hcircumflex.v I.v Igrave.v Iacute.v Icircumflex.v Idieresis.v Itilde.v Imacron.v Ibreve.v Iogonek.v J.v Jcircumflex.v K.v Kcommaaccent.v L.v Lacute.v Lcommaaccent.v Lcaron.v M.v N.v Ntilde.v Nacute.v Ncommaaccent.v Ncaron.v O.v Ograve.v Oacute.v Ocircumflex.v Otilde.v Odieresis.v Omacron.v Obreve.v Ohungarumlaut.v P.v Q.v R.v Racute.v Rcommaaccent.v Rcaron.v S.v Sacute.v Scircumflex.v Scedilla.v Scaron.v Scommaaccent.v T.v Tcommaaccent.v Tcaron.v U.v Ugrave.v Uacute.v Ucircumflex.v Udieresis.v Utilde.v Umacron.v Ubreve.v Uring.v Uhungarumlaut.v Uogonek.v V.v W.v Wcircumflex.v Wgrave.v Wacute.v Wdieresis.v X.v Y.v Yacute.v Ycircumflex.v Ydieresis.v Ygrave.v Z.v Zacute.v Zdotaccent.v Zcaron.v AE.v Eth.v Oslash.v Thorn.v Dcroat.v Hbar.v IJ.v Ldot.v Lslash.v Eng.v OE.v Tbar.v Germandbls.v'.split(' ')
+
+vertical_lc_off = 'a agrave aacute acircumflex atilde adieresis aring amacron abreve aogonek b c ccedilla cacute ccircumflex cdotaccent ccaron d dcaron e egrave eacute ecircumflex edieresis emacron ebreve edotaccent eogonek ecaron f g gcircumflex gbreve gdotaccent gcommaaccent h hcircumflex i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek j jcircumflex k kcommaaccent l lacute lcommaaccent lcaron m n ntilde nacute ncommaaccent ncaron o ograve oacute ocircumflex otilde odieresis omacron obreve ohungarumlaut p q r racute rcommaaccent rcaron s sacute scircumflex scedilla scaron scommaaccent t tcommaaccent tcaron u ugrave uacute ucircumflex udieresis utilde umacron ubreve uring uhungarumlaut uogonek v w wcircumflex wgrave wacute wdieresis x y yacute ycircumflex ydieresis ygrave z zacute zdotaccent zcaron ae eth oslash thorn dcroat hbar ij ldot lslash eng oe tbar germandbls'.split(' ')
+
+
 vertical_sorts = 'hyphen.v braceleft.v endash.v parenright.v emdash.v parenleft.v bracketright.v braceright.v bracketleft.v'.split(' ')
 
 vertical_sorts_off = 'hyphen braceleft endash parenright emdash parenleft bracketright braceright bracketleft'.split(' ')
@@ -77,19 +105,18 @@ vertical_sorts_off = 'hyphen braceleft endash parenright emdash parenleft bracke
 
 downer_off = 'I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent J Jcircumflex L Lacute Lcommaaccent Lcaron M W Wcircumflex Wgrave Wacute Wdieresis I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt L.salt Lacute.salt Lcommaaccent.salt Lcaron.salt Ldot.salt Lslash.salt M.salt W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt IJ.salt IJ.stack i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek j jcircumflex l lacute lcommaaccent m w wcircumflex wgrave wacute wdieresis dotlessi'.split(' ')
 
-
 basedir = os.path.split( os.path.split(__file__)[0] )[0]
 
 
 feaMap = {
-    'ss01': (vertical + vertical_other + vertical_sorts, vertical_off + vertical_other_off + vertical_sorts_off),
-    'ss02': (salt_A + salt_M + salt_N + salt_W + salt_X + salt_Y, salt_A_off + salt_M_off + salt_N_off + salt_W_off + salt_X_off + salt_Y_off),
-    'ss03': (salt_E, salt_E_off),
-    'ss04': (salt_I, salt_I_off),
-    'ss05': (salt_L, salt_L_off),
+    'ss01': (vertical + vertical_other + vertical_sorts + vertical_lc, vertical_off + vertical_other_off + vertical_sorts_off + vertical_lc_off),
+    'ss02': (salt_A + salt_A + salt_M + salt_M + salt_N + salt_N + salt_W + salt_W + salt_X + salt_X + salt_Y + salt_Y, salt_A_off + salt_a_off + salt_M_off + salt_m_off + salt_N_off + salt_n_off + salt_W_off + salt_w_off + salt_X_off + salt_x_off + salt_Y_off + salt_y_off),
+    'ss03': (salt_E+salt_E, salt_E_off+salt_e_off),
+    'ss04': (salt_I+salt_I, salt_I_off+salt_i_off),
+    'ss05': (salt_L+salt_L, salt_L_off+salt_l_off),
     'ss06': (salt_ampersand, salt_ampersand_off),
     'ss07': (salt_quote, salt_quote_off),
-    'ss08': (salt_IJ, salt_IJ_off),
+    'ss08': (salt_IJ+salt_IJ, salt_IJ_off+salt_ij_off),
     }
     
 keys = sorted(feaMap.keys())
