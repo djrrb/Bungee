@@ -1,4 +1,11 @@
+import os
 import json
+# this script spits out a json file which covers the basic GSUB of the rotated fonts
+
+# ideally this should parse the latest and greatest features.
+# however for now it's just a manual copy/paste job
+
+
 
 salt_A = 'A.salt Agrave.salt Aacute.salt Acircumflex.salt Atilde.salt Adieresis.salt Aring.salt Amacron.salt Abreve.salt Aogonek.salt AE.salt'.split(' ')
 
@@ -53,19 +60,6 @@ salt_quote_off = ['quoteleft', 'quoteright'];
 salt_ampersand = ['ampersand.salt'];
 salt_ampersand_off = ['ampersand'];
 
-downer_off = 'I.v Igrave.v Iacute.v Icircumflex.v Idieresis.v Itilde.v Imacron.v Ibreve.v Iogonek.v Idotaccent.v M.v W.v Wcircumflex.v Wgrave.v Wacute.v Wdieresis.v AE.v OE.v I.salt_v Igrave.salt_v Iacute.salt_v Icircumflex.salt_v Idieresis.salt_v Itilde.salt_v Imacron.salt_v Ibreve.salt_v Iogonek.salt_v Idotaccent.salt_v M.salt_v W.salt_v Wcircumflex.salt_v Wgrave.salt_v Wacute.salt_v Wdieresis.salt_v AE.salt_v IJ.salt_v IJ.stack_v'.split(' ')
-
-
-
-
-downer = '.notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef'.split(' ')
-
-
-downer_off_rotated = 'I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent M W Wcircumflex Wgrave Wacute Wdieresis AE OE I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt M.salt W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt AE.salt IJ.salt'.split(' ')
-
-downer_rotated = '.notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef'.split(' ')
-
-
 
 
 vertical = 'A.v Agrave.v Aacute.v Acircumflex.v Atilde.v Adieresis.v Aring.v Amacron.v Abreve.v Aogonek.v B.v C.v Ccedilla.v Cacute.v Ccircumflex.v Cdotaccent.v Ccaron.v D.v Dcaron.v E.v Egrave.v Eacute.v Ecircumflex.v Edieresis.v Emacron.v Ebreve.v Edotaccent.v Eogonek.v Ecaron.v F.v G.v Gcircumflex.v Gbreve.v Gdotaccent.v Gcommaaccent.v H.v Hcircumflex.v I.v Igrave.v Iacute.v Icircumflex.v Idieresis.v Itilde.v Imacron.v Ibreve.v Iogonek.v Idotaccent.v J.v Jcircumflex.v K.v Kcommaaccent.v L.v Lacute.v Lcommaaccent.v Lcaron.v M.v N.v Ntilde.v Nacute.v Ncommaaccent.v Ncaron.v O.v Ograve.v Oacute.v Ocircumflex.v Otilde.v Odieresis.v Omacron.v Obreve.v Ohungarumlaut.v P.v Q.v R.v Racute.v Rcommaaccent.v Rcaron.v S.v Sacute.v Scircumflex.v Scedilla.v Scaron.v Scommaaccent.v T.v Tcommaaccent.v Tcaron.v U.v Ugrave.v Uacute.v Ucircumflex.v Udieresis.v Utilde.v Umacron.v Ubreve.v Uring.v Uhungarumlaut.v Uogonek.v V.v W.v Wcircumflex.v Wgrave.v Wacute.v Wdieresis.v X.v Y.v Yacute.v Ycircumflex.v Ydieresis.v Ygrave.v Z.v Zacute.v Zdotaccent.v Zcaron.v AE.v Eth.v Oslash.v Thorn.v Dcroat.v Hbar.v IJ.v Ldot.v Lslash.v Eng.v OE.v Tbar.v Germandbls.v A.salt_v Agrave.salt_v Aacute.salt_v Acircumflex.salt_v Atilde.salt_v Adieresis.salt_v Aring.salt_v Amacron.salt_v Abreve.salt_v Aogonek.salt_v E.salt_v Egrave.salt_v Eacute.salt_v Ecircumflex.salt_v Edieresis.salt_v Emacron.salt_v Ebreve.salt_v Edotaccent.salt_v Eogonek.salt_v Ecaron.salt_v I.salt_v Igrave.salt_v Iacute.salt_v Icircumflex.salt_v Idieresis.salt_v Itilde.salt_v Imacron.salt_v Ibreve.salt_v Iogonek.salt_v Idotaccent.salt_v M.salt_v N.salt_v Ntilde.salt_v Nacute.salt_v Ncommaaccent.salt_v Ncaron.salt_v W.salt_v Wcircumflex.salt_v Wgrave.salt_v Wacute.salt_v Wdieresis.salt_v X.salt_v Y.salt_v Yacute.salt_v Ycircumflex.salt_v Ydieresis.salt_v Ygrave.salt_v AE.salt_v IJ.salt_v IJ.stack_v L.salt_v Lacute.salt_v Lcommaaccent.salt_v Lcaron.salt_v Ldot.salt_v Lslash.salt_v block.v'.split(' ')
@@ -81,6 +75,10 @@ vertical_sorts = 'hyphen.v braceleft.v endash.v parenright.v emdash.v parenleft.
 vertical_sorts_off = 'hyphen braceleft endash parenright emdash parenleft bracketright braceright bracketleft'.split(' ')
 
 
+downer_off = 'I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent J Jcircumflex L Lacute Lcommaaccent Lcaron M W Wcircumflex Wgrave Wacute Wdieresis I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt L.salt Lacute.salt Lcommaaccent.salt Lcaron.salt Ldot.salt Lslash.salt M.salt W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt IJ.salt IJ.stack i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek j jcircumflex l lacute lcommaaccent m w wcircumflex wgrave wacute wdieresis I.s I.salt_s W.salt_s dotlessi'.split(' ')
+
+
+basedir = os.path.split( os.path.split(__file__)[0] )[0]
 
 
 feaMap = {
@@ -92,18 +90,36 @@ feaMap = {
     'ss06': (salt_ampersand, salt_ampersand_off),
     'ss07': (salt_quote, salt_quote_off),
     'ss08': (salt_IJ, salt_IJ_off),
-    'ss09': (downer+downer_rotated, downer_off+downer_off_rotated),
     }
     
 keys = sorted(feaMap.keys())
-f = CurrentFont()
+sourcePath = os.path.join(basedir, 'sources/1-drawing/Bungee-Regular.ufo')
+try:
+    f = OpenFont(sourcePath, showUI=False)
+except:
+    f = OpenFont(sourcePath)
 results = {}
+downer = []
 for key in keys:
     on, off = feaMap[key]
-    #offCodes = [f[name].unicodes[0] for name in off]
-    #onCodes = [f[name].unicodes[0] for name in on]
-    results[key] = zip(off, on)
+    offCodes = [f[name].unicodes[0] for name in off]
+    onCodes = [f[name].unicodes[0] for name in on]
+    results[key] = dict(zip(offCodes, onCodes))
 print results
-myFile = open('/users/david/desktop/Bungee-gnameMap.json', 'wb')
+
+downerCodes = [f[name].unicodes[0] for name in downer_off]
+
+webdir = os.path.join(basedir, 'website')
+jsonpath = os.path.join(webdir, 'Bungee_gsub.json')
+
+myFile = open(jsonpath, 'wb')
 myFile.write(json.dumps(results, sort_keys=True))
+myFile.close()
+
+jsonpath = os.path.join(webdir, 'Bungee_downer.json')
+
+
+
+myFile = open(jsonpath, 'wb')
+myFile.write(json.dumps(downer_off, sort_keys=True))
 myFile.close()
