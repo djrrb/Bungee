@@ -40,12 +40,16 @@ $ss = !empty($_GET['ss']) ? explode(',', $_GET['ss']) : array();
 #stylesets should be sorted numerically, except ss01 last
 $ss = array_unique($ss);
 sort($ss);
-$i = array_search('ss01', $ss);
-if ($orientation === 'vertical' or $i !== false) {
-    if ($i !== false) {
-        unset($ss[$i]);
+$ss01 = array_search('ss01', $ss);
+
+if ($ss01 !== false) {
+    #ss01 always needs to be at the end
+    unset($ss[$ss01]);
+
+    #but it is applied by default in the vertical fonts
+    if ($orientation !== 'vertical') {
+        $ss[] = 'ss01';
     }
-    $ss[] = 'ss01';
 }
 
 #calculate size
