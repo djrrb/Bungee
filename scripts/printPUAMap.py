@@ -75,7 +75,7 @@ vertical_sorts = 'hyphen.v braceleft.v endash.v parenright.v emdash.v parenleft.
 vertical_sorts_off = 'hyphen braceleft endash parenright emdash parenleft bracketright braceright bracketleft'.split(' ')
 
 
-downer_off = 'I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent J Jcircumflex L Lacute Lcommaaccent Lcaron M W Wcircumflex Wgrave Wacute Wdieresis I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt L.salt Lacute.salt Lcommaaccent.salt Lcaron.salt Ldot.salt Lslash.salt M.salt W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt IJ.salt IJ.stack i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek j jcircumflex l lacute lcommaaccent m w wcircumflex wgrave wacute wdieresis I.s I.salt_s W.salt_s dotlessi'.split(' ')
+downer_off = 'I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent J Jcircumflex L Lacute Lcommaaccent Lcaron M W Wcircumflex Wgrave Wacute Wdieresis I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt L.salt Lacute.salt Lcommaaccent.salt Lcaron.salt Ldot.salt Lslash.salt M.salt W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt IJ.salt IJ.stack i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek j jcircumflex l lacute lcommaaccent m w wcircumflex wgrave wacute wdieresis dotlessi'.split(' ')
 
 
 basedir = os.path.split( os.path.split(__file__)[0] )[0]
@@ -98,8 +98,8 @@ try:
     f = OpenFont(sourcePath, showUI=False)
 except:
     f = OpenFont(sourcePath)
+    
 results = {}
-downer = []
 for key in keys:
     on, off = feaMap[key]
     offCodes = [f[name].unicodes[0] for name in off]
@@ -110,16 +110,14 @@ print results
 downerCodes = [f[name].unicodes[0] for name in downer_off]
 
 webdir = os.path.join(basedir, 'website')
-jsonpath = os.path.join(webdir, 'Bungee_gsub.json')
+jsonpath = os.path.join(webdir, 'bungee_gsub.json')
 
 myFile = open(jsonpath, 'wb')
 myFile.write(json.dumps(results, sort_keys=True))
 myFile.close()
 
-jsonpath = os.path.join(webdir, 'Bungee_downer.json')
-
-
+jsonpath = os.path.join(webdir, 'bungee_downer.json')
 
 myFile = open(jsonpath, 'wb')
-myFile.write(json.dumps(downer_off, sort_keys=True))
+myFile.write(json.dumps(downerCodes))
 myFile.close()
