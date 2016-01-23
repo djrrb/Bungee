@@ -62,7 +62,6 @@
         // see if browser support writing-mode
         var test = $('<div class="bungee vertical" style="display:none"></div>');
         $('body').append(test);
-        console.log(test.css('writing-mode'));
         if (!test.css('writing-mode')) {
             $('html').addClass('no-vertical-text');
         }

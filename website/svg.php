@@ -32,18 +32,56 @@ if (empty($layers)) {
     $layers = $styles;
 }
 
-$text = isset($_GET['text']) && is_string($_GET['text']) && strlen($_GET['text']) ? $_GET['text'] : "Hello!";
-
+$orientation = isset($_GET['orientation']) ? $_GET['orientation'] : 'horizontal';
+$text = mb_strtoupper(isset($_GET['text']) && is_string($_GET['text']) && strlen($_GET['text']) ? $_GET['text'] : "Hello!");
 $size = isset($_GET['size']) && is_numeric($_GET['size']) ? (int)$_GET['size'] : 144;
+$ss = !empty($_GET['ss']) ? explode(',', $_GET['ss']) : array();
 
+#stylesets should be sorted numerically, except ss01 last
+$ss = array_unique($ss);
+sort($ss);
+$i = array_search('ss01', $ss);
+if ($orientation === 'vertical' or $i !== false) {
+    if ($i !== false) {
+        unset($ss[$i]);
+    }
+    $ss[] = 'ss01';
+}
+
+#calculate size
 $padding = round($size*0.1 + 18);
 $height = round($size + $padding*2);
 //width will be determined by text length
 
-$subset = array('notdef' => true);
+#what characters do we actually need?
+$subset = array();
 for ($i=0, $l=mb_strlen($text); $i<$l; $i++) {
     $subset[uniord(mb_substr($text, $i, 1))] = true;
 }
+$subset = array_keys($subset);
+
+#load up alternates and figure out character mappings
+$allalts = json_decode(file_get_contents('bungee_gsub.json'), true);
+
+#figure out character mappings
+$myalts = array();
+foreach ($subset as $orighex) {
+    if ($orighex === "notdef") {
+        continue;
+    }
+
+    $replacement = hexdec($orighex);
+    foreach ($ss as $styleset) {
+        if (isset($allalts[$styleset][$replacement])) {
+            #update value and keep going
+            $replacement = $allalts[$styleset][$replacement];
+        }
+    }
+    $myalts[$orighex] = dechex($replacement);
+}
+
+#update subset to use alternates
+$subset = array_fill_keys(array_values($myalts), true);
 
 $kerns = array();
 
@@ -58,7 +96,7 @@ ob_start();
 print "<defs>";
 
 foreach ($layers as $style => $color) {
-    $font = file_get_contents("fonts/BungeeLayers" . ($_GET['orientation']==='vertical' ? 'Rotated' : '') . "-" . ucfirst($style) . ".svg");
+    $font = file_get_contents("fonts/BungeeLayers" . ($orientation==='vertical' ? 'Rotated' : '') . "-" . ucfirst($style) . ".svg");
     preg_match_all('/<(font-face|glyph|missing-glyph|hkern)\b(.*?)>/u', $font, $matches, PREG_SET_ORDER);
     foreach ($matches as $m) {
         $tag = $m[1];
@@ -76,16 +114,20 @@ foreach ($layers as $style => $color) {
                 }
                 break;
                 
-            case 'glyph': case 'missing-glyph':
-                if ($tag === 'missing-glyph') {
-                    $id = 'notdef';
-                } else {
-                    if (!isset($attr['unicode'])) {
-                        break;
-                    }
-                    $id = uniord(html_entity_decode($attr['unicode']));
+            case 'missing-glyph':
+                if (!empty($attr['d'])) {
+                    print "<path id='$style-notdef' d='{$attr['d']}' />";
                 }
+                $charwidths[$style]['notdef'] = (int)$attr['horiz-adv-x'];
+                break;
             
+            case 'glyph':
+                if (!isset($attr['unicode'])) {
+                    break;
+                }
+
+                $id = uniord(html_entity_decode($attr['unicode']));
+
                 if (isset($subset[$id])) {
                     if (isset($attr['d'])) {
                         print "<path id='$style-$id' d='{$attr['d']}' />";
@@ -130,7 +172,7 @@ ob_start();
 
 print "<!-- Text: $text (" . mb_strlen($text) . " bytes) -->";
 
-if ($_GET['orientation'] === 'vertical') {
+if ($orientation === 'vertical') {
     print "<g transform='rotate(90) translate(0,-$height)'>";
 }
 
@@ -141,6 +183,9 @@ foreach ($layers as $style => $color) {
     $y = $height-$padding-$baseline*$scale;
     for ($i=0,$l=mb_strlen($text); $i<$l; $i++) {
         $id = uniord(mb_substr($text, $i, 1));
+        if (isset($myalts[$id])) {
+            $id = $myalts[$id];
+        }
         if (!isset($charwidths[$style][$id])) {
             $id = 'notdef';
         }
@@ -156,7 +201,7 @@ foreach ($layers as $style => $color) {
 #now we have all the information we need to calculate the final dimensions
 $width = round($x + $padding);
 
-if ($_GET['orientation'] === 'vertical') {
+if ($orientation === 'vertical') {
     print "</g>";
     $temp = $width;
     $width = $height;

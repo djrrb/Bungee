@@ -108,9 +108,6 @@
             req.text = Bungee.cleanupText(textcontrol.val()); //reference.find('span').first().text().trim();
             req.size = sizecontrol.val();
             req.orientation = orientationcontrols.filter(':checked').val();
-            req.padding = parseInt(reference.css('padding'));
-            req.width = reference.innerWidth();
-            req.height = req.orientation == "vertical" ? reference.innerHeight() : parseInt(req.size) + req.padding*2;
             req.layers = {};
             layercontrols.filter(':checked').each(function() {
                 var color = reference.find('.' + this.value).css('color');
@@ -128,6 +125,11 @@
                 }
                 req.layers[this.value] = color;
             });
+            req.ss = [];
+            sscontrols.filter(':checked').each(function() {
+                req.ss.push(this.value);
+            });
+            req.ss = req.ss.join(',');
     
             $('#svg').html('<img src="/svg.php?' + $.param(req) + '" alt="SVG rendition">');
         }
