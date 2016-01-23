@@ -39,13 +39,14 @@ $ss = !empty($_GET['ss']) ? explode(',', $_GET['ss']) : array();
 $shape = !empty($_GET['shape']) ? dechex($_GET['shape']) : false;
 $begin = !empty($_GET['begin']) ? dechex($_GET['begin']) : false;
 $end = !empty($_GET['end']) ? dechex($_GET['end']) : false;
-$letterspacing = 0.0;
+
+$textscale = 1.0;
 
 #stylesets should be sorted numerically, except ss01 last
 if ($shape) {
     #block shapes always get ss01
     $ss[] = 'ss01';
-    $letterspacing = 0.28;
+    $textscale = 0.9;
 }
 
 #cleanup on aisle ss
@@ -57,8 +58,8 @@ if ($ss01 !== false) {
     #ss01 always needs to be at the end
     unset($ss[$ss01]);
 
-    #ss01 not needed in vertical mode unless shapes are on
-    if ($orientation !== 'vertical' or $shape) {
+    #ss01 not needed in vertical mode
+    if ($orientation !== 'vertical') {
         $ss[] = 'ss01';
     }
 }
@@ -75,9 +76,6 @@ for ($i=0, $l=mb_strlen($text); $i<$l; $i++) {
 }
 if (!empty($shape)) { 
     $subset[$shape] = true; 
-    if (!in_array('ss01', $ss)) {
-        $ss[] = 'ss01';
-    }
 }
 if (!empty($begin)) { $subset[$begin] = true; }
 if (!empty($end)) { $subset[$end] = true; }
@@ -185,7 +183,8 @@ foreach ($layers as $style => $color) {
     }
 }
 
-$scale = $size / $em;
+$em2px = $size / $em;
+$text2px = $em2px * $textscale;
 
 print "</defs>";
 
@@ -206,19 +205,31 @@ if ($shape) {
             continue;
         }
         $x = $padding;
-        $y = $height-$padding-$baseline*$scale;
+        $y = $height-$padding-$baseline*$em2px;
         for ($i=0,$l=mb_strlen($text); $i<$l; $i++) {
-            print "<use transform='translate($x $y) scale($scale -$scale)' xlink:href='#{$style}-$shape' style='stroke:none;fill:#$color' />";
-            $x += $charwidths[$style][$shape]*$scale;
+            print "<use transform='translate($x $y) scale($em2px -$em2px)' xlink:href='#{$style}-$shape' style='stroke:none;fill:#$color' />";
+            $x += $charwidths[$style][$shape]*$em2px;
         }
     }
 }
 
 # Text layers output
 $prev = null;
+$shadenudge = isset($layers['shade']) ? 0.04 * $size*$textscale : 0.0;
 foreach ($layers as $style => $color) {
-    $x = $padding + $size*$letterspacing/2;
-    $y = $height-$padding-$baseline*$scale;
+    $x = $padding;
+    if ($shape) {
+        $x += $charwidths['regular'][$shape]*$em2px*0.14;
+        if ($orientation === 'vertical') {
+            $x += $size*(1-$textscale)/2;
+        }
+    }
+    $y = $height-$padding-$baseline*$em2px;
+    if ($textscale < 1.0) {
+        $y -= $size*(1-$textscale)/2;
+    }
+    $x += $shadenudge * ($orientation === 'vertical' ? -1 : 1);
+    $y -= $shadenudge;
     for ($i=0,$l=mb_strlen($text); $i<$l; $i++) {
         $id = uniord(mb_substr($text, $i, 1));
         if (isset($myalts[$id])) {
@@ -228,10 +239,10 @@ foreach ($layers as $style => $color) {
             $id = 'notdef';
         }
         if (isset($kerns[$prev][$id])) {
-            $x += $kerns[$prev][$id]*$scale;
+            $x += $kerns[$prev][$id]*$em2px;
         }
-        print "<use transform='translate($x $y) scale($scale -$scale)' xlink:href='#{$style}-$id' style='stroke:none;fill:#$color' />";
-        $x += $charwidths[$style][$id]*$scale*(1+$letterspacing);
+        print "<use transform='translate($x $y) scale($text2px -$text2px)' xlink:href='#{$style}-$id' style='stroke:none;fill:#$color' />";
+        $x += $shape ? $charwidths['regular'][$shape]*$em2px : $charwidths[$style][$id]*$text2px;
         $prev = $id;
     }
 }
