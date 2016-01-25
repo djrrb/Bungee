@@ -279,9 +279,11 @@ $output = ob_get_clean();
 
 if (DEBUG) {
     header("Content-type: text/plain; charset=utf-8");
+    header("Cache-control: no-cache");
     $output = str_replace("><", ">\n<", $output);
 } else {
     header("Content-type: image/svg+xml");
+    header("Cache-control: max-age=3600");
 }
 
 header("Content-length: " . strlen($output));
