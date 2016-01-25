@@ -257,7 +257,7 @@ foreach ($layers as $style => $color) {
         if (!isset($charwidths[$style][$id])) {
             $id = 'notdef';
         }
-        if (isset($kerns[$prev][$id])) {
+        if (!$shape and isset($kerns[$prev][$id])) {
             $x += $kerns[$prev][$id]*$em2px;
         }
         print "<use transform='translate($x $y) scale($text2px -$text2px)' xlink:href='#{$style}-$id' style='stroke:none;fill:#$color' />";

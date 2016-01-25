@@ -258,7 +258,7 @@
             if (shape) {
                 ffs['ss01'] = '1';
                 ffs['liga'] = '0';
-                //ffs['kern'] = '0'; //not necessary per DJR
+                ffs['kern'] = '0';
             }
     
             var newffs = [];
