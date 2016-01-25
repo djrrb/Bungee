@@ -32,6 +32,11 @@ if (empty($layers)) {
     $layers = $styles;
 }
 
+$backgroundlayers = array(
+    'outline' => $layers['outline'], 
+    'regular' => $layers['inline']
+);
+
 $orientation = isset($_GET['orientation']) ? $_GET['orientation'] : 'horizontal';
 $text = isset($_GET['text']) && is_string($_GET['text']) && strlen($_GET['text']) ? $_GET['text'] : "Hello!";
 $size = isset($_GET['size']) && is_numeric($_GET['size']) ? (int)$_GET['size'] : 144;
@@ -47,6 +52,10 @@ if ($shape) {
     #block shapes always get ss01
     $ss[] = 'ss01';
     $textscale = 0.9;
+    $begin = $end = false;
+} else if ($begin or $end) {
+    $textscale = 0.9;
+    $shape = false;
 }
 
 #cleanup on aisle ss
@@ -74,11 +83,18 @@ $subset = array();
 for ($i=0, $l=mb_strlen($text); $i<$l; $i++) {
     $subset[uniord(mb_substr($text, $i, 1))] = true;
 }
-if (!empty($shape)) { 
+if ($shape) { 
     $subset[$shape] = true; 
 }
-if (!empty($begin)) { $subset[$begin] = true; }
-if (!empty($end)) { $subset[$end] = true; }
+if ($begin) {
+    $subset[$begin] = true;
+}
+if ($end) {
+    $subset[$end] = true;
+}
+if ($begin or $end) {
+    $subset[uniord("█")] = true; //block shape!
+}
 $subset = array_keys($subset);
 
 #load up alternates and figure out character mappings
@@ -200,7 +216,7 @@ if ($orientation === 'vertical') {
 
 # Shapes
 if ($shape) {
-    foreach (array('outline' => $layers['outline'], 'regular' => $layers['inline']) as $style => $color) {
+    foreach ($backgroundlayers as $style => $color) {
         if (!isset($charwidths[$style][$shape])) {
             continue;
         }
@@ -214,8 +230,11 @@ if ($shape) {
 }
 
 # Text layers output
+ob_start(); 
+
 $prev = null;
 $shadenudge = isset($layers['shade']) ? 0.04 * $size*$textscale : 0.0;
+$textwidth = 0;
 foreach ($layers as $style => $color) {
     $x = $padding;
     if ($shape) {
@@ -245,10 +264,56 @@ foreach ($layers as $style => $color) {
         $x += $shape ? $charwidths['regular'][$shape]*$em2px : $charwidths[$style][$id]*$text2px;
         $prev = $id;
     }
+
+    $textwidth = $x - $padding;
+}
+
+$textcontent = ob_get_clean();
+
+#banner!
+$bannerwidth = 0;
+if ($begin or $end) {
+    foreach ($backgroundlayers as $style => $color) {
+        $x = $padding;
+        $y = $height-$padding-$baseline*$em2px;
+        if ($begin) {
+            print "<use transform='translate($x $y) scale($em2px -$em2px)' xlink:href='#{$style}-$begin' style='stroke:none;fill:#$color' />";
+            $x += $charwidths[$style][$begin]*$em2px;
+        }
+        $id = uniord("█");
+        #squeeze blocks into slightly smaller space
+        $blockwidth = $charwidths[$style][$id]*$em2px;
+        $remainder = fmod($textwidth, $blockwidth);
+        if ($remainder) {
+            $numberofblocks = ceil($textwidth / $blockwidth);
+            $advancewidth = (($numberofblocks-2)*$blockwidth + $remainder) / ($numberofblocks-1); //work shown upon request
+        } else {
+            $numberofblocks = $textwidth/$blockwidth;
+            $advancewidth = $blockwidth;
+        }
+        for ($i=0; $i<$numberofblocks; $i++) {
+            print "<use transform='translate($x $y) scale($em2px -$em2px)' xlink:href='#{$style}-$id' style='stroke:none;fill:#$color' />";
+            $x += $advancewidth;
+        }
+        $x += $blockwidth - $advancewidth;
+        if ($end) {
+            print "<use transform='translate($x $y) scale($em2px -$em2px)' xlink:href='#{$style}-$end' style='stroke:none;fill:#$color' />";
+            $x += $charwidths[$style][$end]*$em2px;
+        }
+        $bannerwidth = $x - $padding;
+    }
 }
 
 #now we have all the information we need to calculate the final dimensions
-$width = round($x + $padding);
+$width = round(max($textwidth, $bannerwidth) + 2*$padding);
+
+if ($begin) {
+    print "<g transform='translate(" . ($charwidths['regular'][$begin]*$em2px) . " 0)'>";
+}
+print $textcontent;
+if ($begin) {
+    print "</g>";
+}
 
 if ($orientation === 'vertical') {
     print "</g>";
