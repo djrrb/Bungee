@@ -184,10 +184,11 @@
                 bungees.css('font-size', sizecontrol.val() + 'px');
             }
     
-            var begin, end, shape;
-            begin = shapecontrols.filter('[name=begin]:checked').val();
-            end = shapecontrols.filter('[name=end]:checked').val();
-            shape = shapecontrols.filter('[name=shape]:checked').val();
+            var begin = shapecontrols.filter('[name=begin]:checked').val(),
+                end = shapecontrols.filter('[name=end]:checked').val(),
+                shape = shapecontrols.filter('[name=shape]:checked').val(),
+                block = "█",
+                bannerstring, beginwidth, blockwidth, textwidth;
 
             if (shapecontrols.is(actor)) {
                 if (actor.name === 'shape') {
@@ -200,20 +201,51 @@
                 }
             }
             
-            if (!evt || shapecontrols.is(actor) || textcontrol.is(actor)) {
-                bungees.removeClass('background shapes').find('.background').remove();
+            if (!evt || shapecontrols.is(actor) || textcontrol.is(actor) || orientationcontrols.is(actor) || sizecontrol.is(actor)) {
+                bungees.removeClass('background shapes').find('.background.layer').remove();
+                bungees.find('.layer').css('left', '');
 
                 var str;
                 if (shape) {
-                    bungees.addClass('background shapes');
+                    shape = String.fromCharCode(shape);
                     str = [];
                     for (var i=0, l=Bungee.cleanupText(textcontrol.val()).length; i<l; i++) {
-                        str.push(String.fromCharCode(shape));
+                        str.push(shape);
                     }
                     str = str.join('');
-                    bungees.children().prepend('<div class="background layer outline">' + str + '</div>');
+                    bungees.addClass('background shapes');
                     bungees.children().prepend('<div class="background layer regular">' + str + '</div>');
-                } else {
+                    bungees.children().prepend('<div class="background layer outline">' + str + '</div>');
+                } else if (begin || end) {
+                    begin = String.fromCharCode(begin);
+                    end = String.fromCharCode(end);
+                    bannerstring = "";
+                    if (begin) {
+                        bannerstring += String.fromCharCode(begin);
+                    }
+                    bannerstring += block;
+                    if (end) {
+                        bannerstring += String.fromCharCode(end);
+                    }
+                    bungees.addClass('background banner');
+                    bungees.children().prepend('<div class="background layer regular"><header>' + begin + '</header><figure>' + block + '</figure><footer>' + end + '</footer></div>');
+                    bungees.children().prepend('<div class="background layer outline"><header>' + begin + '</header><figure>' + block + '</figure><footer>' + end + '</footer></div>');
+                    setTimeout(function() {
+                        //move text after left shape
+                        var left = bungees.find('.background.layer').first().find('header');
+                        var main = bungees.find('.background.layer').first().find('figure');
+                        bungees.find('.layer:not(.background)').css('left', left.width() + 'px');
+                        //expand blocks to fill width
+                        var textwidth = bungees.find('.layer:not(.background)').first().width();
+                        var blockwidth = main.width();
+                        var numberblocks = Math.ceil(textwidth/blockwidth);
+                        var remainder = textwidth - (numberblocks-1)*blockwidth;
+                        var banner = [];
+                        for (var i=0; i<numberblocks; i++) {
+                            banner.push(block);
+                        }
+                        bungees.find('.background.layer figure').text(banner.join('')).width(textwidth);
+                    });
                 }
             }
 
