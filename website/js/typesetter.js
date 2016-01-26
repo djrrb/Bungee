@@ -146,6 +146,7 @@
                 actor = textcontrol.get(0);
             }
 
+            var orientation = orientationcontrols.filter(':checked').val();
             var text = false;
             /*
             // SPAN is for live editing
@@ -188,7 +189,9 @@
                 end = shapecontrols.filter('[name=end]:checked').val(),
                 shape = shapecontrols.filter('[name=shape]:checked').val(),
                 block = "█",
-                bannerstring, beginwidth, blockwidth, textwidth;
+                bannerstring, beginwidth, blockwidth, textwidth, 
+                leftProp = orientation === 'vertical' ? 'top' : 'left',
+                widthProp = orientation === 'vertical' ? 'height' : 'width';
 
             if (shapecontrols.is(actor)) {
                 if (actor.name === 'shape') {
@@ -203,7 +206,7 @@
             
             if (!evt || shapecontrols.is(actor) || textcontrol.is(actor) || orientationcontrols.is(actor) || sizecontrol.is(actor)) {
                 bungees.removeClass('background shapes').find('.background.layer').remove();
-                bungees.find('.layer').css('left', '');
+                bungees.find('.layer').css({'left':'', 'top':''});
 
                 var str;
                 if (shape) {
@@ -243,17 +246,18 @@
                         //move text after left shape
                         var left = bungees.find('.background.layer').first().find('header');
                         var main = bungees.find('.background.layer').first().find('figure');
-                        bungees.find('.layer:not(.background)').css('left', left.width() + 'px');
+                        bungees.find('.layer:not(.background)').css(leftProp, left[widthProp]() + 'px');
+
                         //expand blocks to fill width
-                        var textwidth = bungees.find('.layer:not(.background)').first().width();
-                        var blockwidth = main.width();
+                        var textwidth = bungees.find('.layer:not(.background)').first()[widthProp]();
+                        var blockwidth = main[widthProp]();
                         var numberblocks = Math.ceil(textwidth/blockwidth);
                         var remainder = textwidth - (numberblocks-1)*blockwidth;
                         var banner = [];
                         for (var i=0; i<numberblocks; i++) {
                             banner.push(block);
                         }
-                        bungees.find('.background.layer figure').text(banner.join('')).width(textwidth);
+                        bungees.find('.background.layer figure').text(banner.join(''))[widthProp](textwidth);
                     });
                 }
             }
