@@ -210,7 +210,7 @@ $svgdefs = ob_get_clean();
 
 ob_start();
 
-print "<!-- Text: $text (" . mb_strlen($text) . " bytes) -->";
+print "<!-- Text: " . str_replace('--', '- -', str_replace('--', '- -', $text)) . " (" . mb_strlen($text) . " bytes) -->";
 
 if ($orientation === 'vertical') {
     print "<g transform='rotate(90) translate(0,-$height)'>";
