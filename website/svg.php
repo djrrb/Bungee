@@ -78,6 +78,8 @@ $padding = round($size*0.1 + 18);
 $height = round($size + $padding*2);
 //width will be determined by text length
 
+
+
 #what characters do we actually need?
 $subset = array();
 for ($i=0, $l=mb_strlen($text); $i<$l; $i++) {
@@ -127,6 +129,9 @@ $kerns = array();
 $charwidths = array();
 $em = 1000;
 $baseline = 0;
+
+$em2px = $size / $em;
+$text2px = $em2px * $textscale;
 
 ob_start();
 
@@ -199,9 +204,6 @@ foreach ($layers as $style => $color) {
     }
 }
 
-$em2px = $size / $em;
-$text2px = $em2px * $textscale;
-
 print "</defs>";
 
 $svgdefs = ob_get_clean();
@@ -238,15 +240,14 @@ $textwidth = 0;
 foreach ($layers as $style => $color) {
     $x = $padding;
     if ($shape) {
-        $x += $charwidths['regular'][$shape]*$em2px*0.14;
         if ($orientation === 'vertical') {
-            $x += $size*(1-$textscale)/2;
+            //this 1.08 seems to be a hack. Should theoretically be 1.0
+            $x += $charwidths['regular'][$shape]*$em2px*0.14 + $size*0.72*(1.08-$textscale)/2;
+        } else {
+            $x += $charwidths['regular'][$shape]*$em2px*0.109375 + $size*(1-$textscale)/2;
         }
     }
-    $y = $height-$padding-$baseline*$em2px;
-    if ($textscale < 1.0) {
-        $y -= $size*(1-$textscale)/2;
-    }
+    $y = $height-$padding - $baseline*$em2px - $size*(0.72)*(1-$textscale)/2;
     $x += $shadenudge * ($orientation === 'vertical' ? -1 : 1);
     $y -= $shadenudge;
     for ($i=0,$l=mb_strlen($text); $i<$l; $i++) {
