@@ -192,11 +192,11 @@
 
             if (shapecontrols.is(actor)) {
                 if (actor.name === 'shape') {
-                    shapecontrols.filter('[name=begin][value=""]').prop('checked',true);
-                    shapecontrols.filter('[name=end][value=""]').prop('checked',true);
+                    $('#begin-').prop('checked', true);
+                    $('#end-').prop('checked', true);
                     begin = end = "";
                 } else {
-                    shapecontrols.filter('[name=shape][value=""]').prop('checked',true);
+                    $('#shape-').prop('checked', true);
                     shape = "";
                 }
             }
@@ -217,6 +217,15 @@
                     bungees.children().prepend('<div class="background layer regular">' + str + '</div>');
                     bungees.children().prepend('<div class="background layer outline">' + str + '</div>');
                 } else if (begin || end) {
+                    if (!begin) {
+                        begin = Bungee.beginChars[Bungee.beginChars.length-1];
+                        $('#begin-' + begin).prop('checked', true);
+                    }
+                    if (!end) {
+                        end = Bungee.endChars[Bungee.endChars.length-1];
+                        $('#end-' + end).prop('checked', true);
+                    }
+
                     begin = String.fromCharCode(begin);
                     end = String.fromCharCode(end);
                     bannerstring = "";
