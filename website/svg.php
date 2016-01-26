@@ -44,6 +44,7 @@ $ss = !empty($_GET['ss']) ? explode(',', $_GET['ss']) : array();
 $shape = !empty($_GET['shape']) ? dechex($_GET['shape']) : false;
 $begin = !empty($_GET['begin']) ? dechex($_GET['begin']) : false;
 $end = !empty($_GET['end']) ? dechex($_GET['end']) : false;
+$format = !empty($_GET['format']) ? $_GET['format'] : 'svg';
 
 $textscale = 1.0;
 
@@ -349,15 +350,58 @@ print "</svg>";
 
 $output = ob_get_clean();
 
+$tempdir = sys_get_temp_dir();
+$outfile = $tempfile = tempnam($tempdir, 'bungee-svg-');
+file_put_contents($tempfile, $output);
+unset($output);
+
+function convert($args) {
+    $cmd = '/usr/local/bin/inkscape';
+    foreach ($args as $k => $v) {
+        $cmd .= " {$k} " . escapeshellarg($v);
+    }
+    exec($cmd, $output, $err);
+}
+
+switch ($format) {
+    case 'pdf':
+        header("Content-type: application/pdf");
+        $outfile = tempnam($tempdir, 'bungee-pdf-');
+        convert(array('-f' => $tempfile, '-A' => $outfile));
+        break;
+    case 'png':
+        header("Content-type: image/png");
+        $outfile = tempnam($tempdir, 'bungee-png-');
+        convert(array('-f' => $tempfile, '-e' => $outfile, '-d' => 180));
+        break;
+    default: //svg
+        $format = 'svg';
+        if (DEBUG) {
+            header("Content-type: text/plain; charset=utf-8");
+            $output = str_replace("><", ">\n<", $output);
+        } else {
+            header("Content-type: image/svg+xml");
+        }
+}
+
+$safetext = "Bungee-" . preg_replace('/[^\w-]+/u', '-', $text);
+
 if (DEBUG) {
-    header("Content-type: text/plain; charset=utf-8");
     header("Cache-control: no-cache");
-    $output = str_replace("><", ">\n<", $output);
 } else {
-    header("Content-type: image/svg+xml");
     header("Cache-control: max-age=3600");
 }
 
-header("Content-length: " . strlen($output));
-print $output;
+clearstatcache();
+
+header("Content-disposition: inline; filename=$safetext.$format");
+header("Content-length: " . filesize($outfile));
+
+readfile($outfile);
+
+unlink($tempfile);
+if ($tempfile !== $outfile) {
+    unlink($outfile);
+}
+
 exit(0);

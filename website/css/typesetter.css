@@ -48,7 +48,7 @@
     clear: left;
 }
 
-#typesetter #svg {
+#svg, #png {
     display: inline-block;
     border: 1px solid black;
 }

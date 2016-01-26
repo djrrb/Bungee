@@ -133,8 +133,24 @@
                 req.ss.push(this.value);
             });
             req.ss = req.ss.join(',');
-    
+            
             $('#svg').html('<img src="/svg.php?' + $.param(req) + '" alt="SVG rendition">');
+
+            req.format = 'png';
+            var png = $('<img src="/svg.php?' + $.param(req) + '" alt="PNG rendition">');
+
+            png.on('load', function() {
+                var img = $(this);
+                img.css({
+                    'width': (img.width()/2) + 'px',
+                    'height': (img.height()/2) + 'px'
+                });
+            });
+
+            $('#png').html(png);
+            
+            req.format='pdf';
+            $('#pdf').attr('href', '/svg.php?' + $.param(req));
         }
     
         function updateLayers(evt) {
