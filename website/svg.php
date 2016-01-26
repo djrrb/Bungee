@@ -33,8 +33,8 @@ if (empty($layers)) {
 }
 
 $backgroundlayers = array(
-    'outline' => $layers['outline'], 
-    'regular' => $layers['inline']
+    'outline' => isset($layers['outline']) ? $layers['outline'] : $styles['outline'], 
+    'regular' => isset($layers['inline']) ? $layers['inline'] : $styles['inline'],
 );
 
 $orientation = isset($_GET['orientation']) ? $_GET['orientation'] : 'horizontal';
@@ -218,7 +218,9 @@ if ($orientation === 'vertical') {
 }
 
 # Shapes
+$shapewidth = 0;
 if ($shape) {
+    $shapewidth = $charwidths[array_shift(array_keys($layers))][$shape];
     foreach ($backgroundlayers as $style => $color) {
         if (!isset($charwidths[$style][$shape])) {
             continue;
@@ -242,9 +244,9 @@ foreach ($layers as $style => $color) {
     $x = $padding;
     if ($shape) {
         if ($orientation === 'vertical') {
-            //$x += $charwidths['regular'][$shape]*$em2px*0.14 + $size*(0.72)*(1-$textscale)/2;
+            //$x += $shapewidth*$em2px*0.14 + $size*(0.72)*(1-$textscale)/2;
         } else {
-            $x += $charwidths['regular'][$shape]*$em2px*0.109375 + $size*(1-$textscale)/2;
+            $x += $shapewidth*$em2px*0.109375 + $size*(1-$textscale)/2;
         }
     }
     $y = $height-$padding - $baseline*$em2px - $size*(0.72)*(1-$textscale)/2;
@@ -265,11 +267,11 @@ foreach ($layers as $style => $color) {
         $ss01fudge = 0;
         if ($orientation === 'vertical' and $shape) {
             #this fakes the modified ss01 sidebearings to do simple vertical centering
-            $ss01fudge = ($charwidths['regular'][$shape]*$em2px - $charwidths[$style][$id]*$text2px)/2;
+            $ss01fudge = ($shapewidth*$em2px - $charwidths[$style][$id]*$text2px)/2;
             $x += $ss01fudge;
         }
         print "<use transform='translate($x $y) scale($text2px -$text2px)' xlink:href='#{$style}-$id' style='stroke:none;fill:#$color' />";
-        $x += $shape ? $charwidths['regular'][$shape]*$em2px - $ss01fudge : $charwidths[$style][$id]*$text2px;
+        $x += $shape ? $shapewidth*$em2px - $ss01fudge : $charwidths[$style][$id]*$text2px;
         $prev = $id;
     }
 
@@ -280,7 +282,11 @@ $textcontent = ob_get_clean();
 
 #banner!
 $bannerwidth = 0;
+$beginwidth = 0;
 if ($begin or $end) {
+    if ($begin) {
+        $beginwidth = $charwidths[array_shift(array_keys($layers))][$begin];
+    }
     foreach ($backgroundlayers as $style => $color) {
         $x = $padding;
         $y = $height-$padding-$baseline*$em2px;
@@ -316,7 +322,7 @@ if ($begin or $end) {
 $width = round(max($textwidth, $bannerwidth) + 2*$padding);
 
 if ($begin) {
-    print "<g transform='translate(" . ($charwidths['regular'][$begin]*$em2px) . " 0)'>";
+    print "<g transform='translate(" . ($beginwidth*$em2px) . " 0)'>";
 }
 print $textcontent;
 if ($begin) {
