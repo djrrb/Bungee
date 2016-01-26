@@ -241,8 +241,7 @@ foreach ($layers as $style => $color) {
     $x = $padding;
     if ($shape) {
         if ($orientation === 'vertical') {
-            //this 1.08 seems to be a hack. Should theoretically be 1.0
-            $x += $charwidths['regular'][$shape]*$em2px*0.14 + $size*0.72*(1.08-$textscale)/2;
+            //$x += $charwidths['regular'][$shape]*$em2px*0.14 + $size*(0.72)*(1-$textscale)/2;
         } else {
             $x += $charwidths['regular'][$shape]*$em2px*0.109375 + $size*(1-$textscale)/2;
         }
@@ -261,8 +260,15 @@ foreach ($layers as $style => $color) {
         if (!$shape and isset($kerns[$prev][$id])) {
             $x += $kerns[$prev][$id]*$em2px;
         }
+
+        $ss01fudge = 0;
+        if ($orientation === 'vertical' and $shape) {
+            #this fakes the modified ss01 sidebearings to do simple vertical centering
+            $ss01fudge = ($charwidths['regular'][$shape]*$em2px - $charwidths[$style][$id]*$text2px)/2;
+            $x += $ss01fudge;
+        }
         print "<use transform='translate($x $y) scale($text2px -$text2px)' xlink:href='#{$style}-$id' style='stroke:none;fill:#$color' />";
-        $x += $shape ? $charwidths['regular'][$shape]*$em2px : $charwidths[$style][$id]*$text2px;
+        $x += $shape ? $charwidths['regular'][$shape]*$em2px - $ss01fudge : $charwidths[$style][$id]*$text2px;
         $prev = $id;
     }
 
