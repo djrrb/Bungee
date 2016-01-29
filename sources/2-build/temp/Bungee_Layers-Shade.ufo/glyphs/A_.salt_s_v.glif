@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="A.salt_s_v" format="1">
+  <advance width="1000"/>
+  <unicode hex="E259"/>
+  <outline>
+    <contour>
+      <point x="438.0" y="368" type="curve" smooth="yes"/>
+      <point x="438.0" y="358" type="line"/>
+      <point x="428.0" y="358" type="line"/>
+      <point x="428.0" y="393" type="line"/>
+      <point x="436.0" y="387"/>
+      <point x="438.0" y="378"/>
+    </contour>
+    <contour>
+      <point x="414.0" y="-1" type="line" smooth="yes"/>
+      <point x="423.0" y="7"/>
+      <point x="428.0" y="18"/>
+      <point x="428.0" y="36" type="curve" smooth="yes"/>
+      <point x="428.0" y="46" type="line"/>
+      <point x="438.0" y="46" type="line"/>
+      <point x="438.0" y="-73" type="line" smooth="yes"/>
+      <point x="438.0" y="-105"/>
+      <point x="452.0" y="-119"/>
+      <point x="484.0" y="-119" type="curve" smooth="yes"/>
+      <point x="636.0" y="-119" type="line" smooth="yes"/>
+      <point x="650.0" y="-119"/>
+      <point x="661.0" y="-115"/>
+      <point x="667.0" y="-109" type="curve"/>
+      <point x="797.0" y="-1" type="line" smooth="yes"/>
+      <point x="806.0" y="7"/>
+      <point x="811.0" y="18"/>
+      <point x="811.0" y="36" type="curve" smooth="yes"/>
+      <point x="811.0" y="491" type="line" smooth="yes"/>
+      <point x="811.0" y="616"/>
+      <point x="760.0" y="705"/>
+      <point x="499.0" y="705" type="curve" smooth="yes"/>
+      <point x="369.0" y="705"/>
+      <point x="293.0" y="683"/>
+      <point x="248.0" y="645" type="curve" smooth="yes"/>
+      <point x="119.0" y="536" type="line" smooth="yes"/>
+      <point x="73.0" y="499"/>
+      <point x="60.0" y="445"/>
+      <point x="60.0" y="382" type="curve" smooth="yes"/>
+      <point x="60.0" y="-73" type="line" smooth="yes"/>
+      <point x="60.0" y="-105"/>
+      <point x="74.0" y="-119"/>
+      <point x="106.0" y="-119" type="curve" smooth="yes"/>
+      <point x="253.0" y="-119" type="line" smooth="yes"/>
+      <point x="267.0" y="-119"/>
+      <point x="278.0" y="-115"/>
+      <point x="284.0" y="-109" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-09 19:56:19</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

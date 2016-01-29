@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="1">
+  <advance width="249"/>
+  <unicode hex="00AF"/>
+  <outline>
+    <contour>
+      <point x="120.0" y="240" type="line"/>
+      <point x="130.0" y="240" type="line"/>
+      <point x="130.0" y="479" type="line"/>
+      <point x="120.0" y="479" type="line"/>
+    </contour>
+    <contour>
+      <point x="220.0" y="360.0" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="967.0" y="360.0" type="move" name="_bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 06:59:44</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

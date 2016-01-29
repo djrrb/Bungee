@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam" format="1">
+  <advance width="424"/>
+  <unicode hex="0021"/>
+  <outline>
+    <contour>
+      <point x="207.0" y="630" type="line"/>
+      <point x="207.0" y="352" type="line"/>
+      <point x="217.0" y="352" type="line"/>
+      <point x="217.0" y="630" type="line"/>
+    </contour>
+    <contour>
+      <point x="217.0" y="80" type="line"/>
+      <point x="217.0" y="123" type="line"/>
+      <point x="207.0" y="123" type="line"/>
+      <point x="207.0" y="80" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-07 20:25:57</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni25DD.curve_v" format="1">
+  <advance width="1280.0"/>
+  <unicode hex="FF3C"/>
+  <outline>
+    <contour>
+      <point x="1160.0" y="880.0" type="line"/>
+      <point x="120.0" y="880.0" type="line"/>
+      <point x="120.0" y="301.0" type="line"/>
+      <point x="120.0" y="8.0"/>
+      <point x="288.0" y="-160.0"/>
+      <point x="580.0" y="-160.0" type="curve" smooth="yes"/>
+      <point x="1160.0" y="-160.0" type="line" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="130.0" y="870.0" type="line" smooth="yes"/>
+      <point x="1150.0" y="870.0" type="line"/>
+      <point x="1150.0" y="-150.0" type="line"/>
+      <point x="580.0" y="-150.0" type="line" smooth="yes"/>
+      <point x="294.0" y="-150.0"/>
+      <point x="130.0" y="14.0"/>
+      <point x="130.0" y="301.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 17:09:42</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+      </array>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>1.0</real>
+        <real>1.0</real>
+        <real>0.5</real>
+      </array>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

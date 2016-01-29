@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dollar" format="1">
+  <advance width="1010"/>
+  <unicode hex="0024"/>
+  <outline>
+    <contour>
+      <point x="766.0" y="180" type="line"/>
+      <point x="776.0" y="180" type="line"/>
+      <point x="776.0" y="361" type="line"/>
+      <point x="865.0" y="361" type="line"/>
+      <point x="865.0" y="371" type="line"/>
+      <point x="776.0" y="371" type="line"/>
+      <point x="776.0" y="429" type="line" smooth="yes"/>
+      <point x="776.0" y="497"/>
+      <point x="734.0" y="540"/>
+      <point x="675.0" y="540" type="curve" smooth="yes"/>
+      <point x="617.0" y="540" type="line" smooth="yes"/>
+      <point x="547.0" y="540"/>
+      <point x="527.0" y="511"/>
+      <point x="519.0" y="471" type="curve" smooth="yes"/>
+      <point x="476.0" y="260" type="line" smooth="yes"/>
+      <point x="470.0" y="229"/>
+      <point x="456.0" y="209"/>
+      <point x="409.0" y="209" type="curve" smooth="yes"/>
+      <point x="327.0" y="209" type="line" smooth="yes"/>
+      <point x="280.0" y="209"/>
+      <point x="246.0" y="245"/>
+      <point x="246.0" y="301" type="curve" smooth="yes"/>
+      <point x="246.0" y="523" type="line"/>
+      <point x="236.0" y="523" type="line"/>
+      <point x="236.0" y="371" type="line"/>
+      <point x="145.0" y="371" type="line"/>
+      <point x="145.0" y="361" type="line"/>
+      <point x="236.0" y="361" type="line"/>
+      <point x="236.0" y="301" type="line" smooth="yes"/>
+      <point x="236.0" y="239"/>
+      <point x="274.0" y="199"/>
+      <point x="327.0" y="199" type="curve" smooth="yes"/>
+      <point x="409.0" y="199" type="line" smooth="yes"/>
+      <point x="464.0" y="199"/>
+      <point x="479.0" y="223"/>
+      <point x="486.0" y="258" type="curve" smooth="yes"/>
+      <point x="529.0" y="469" type="line" smooth="yes"/>
+      <point x="537.0" y="506"/>
+      <point x="554.0" y="530"/>
+      <point x="617.0" y="530" type="curve" smooth="yes"/>
+      <point x="675.0" y="530" type="line" smooth="yes"/>
+      <point x="728.0" y="530"/>
+      <point x="766.0" y="491"/>
+      <point x="766.0" y="429" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:09:07</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eogonek.salt" format="1">
+  <advance width="643"/>
+  <unicode hex="E112"/>
+  <outline>
+    <contour>
+      <point x="594" y="-152" type="curve" smooth="yes"/>
+      <point x="594" y="-80" type="line" smooth="yes"/>
+      <point x="594" y="-54"/>
+      <point x="586" y="-46"/>
+      <point x="558" y="-46" type="curve" smooth="yes"/>
+      <point x="517" y="-46" type="line"/>
+      <point x="524" y="0" type="line"/>
+      <point x="558" y="0" type="line" smooth="yes"/>
+      <point x="583" y="0"/>
+      <point x="594" y="11"/>
+      <point x="594" y="36" type="curve" smooth="yes"/>
+      <point x="594" y="153" type="line" smooth="yes"/>
+      <point x="594" y="178"/>
+      <point x="583" y="189"/>
+      <point x="558" y="189" type="curve" smooth="yes"/>
+      <point x="337" y="189" type="line" smooth="yes"/>
+      <point x="285" y="189"/>
+      <point x="276" y="209"/>
+      <point x="276" y="237" type="curve" smooth="yes"/>
+      <point x="276" y="275" type="line"/>
+      <point x="478" y="275" type="line" smooth="yes"/>
+      <point x="503" y="275"/>
+      <point x="514" y="286"/>
+      <point x="514" y="311" type="curve" smooth="yes"/>
+      <point x="514" y="418" type="line" smooth="yes"/>
+      <point x="514" y="444"/>
+      <point x="503" y="454"/>
+      <point x="478" y="454" type="curve" smooth="yes"/>
+      <point x="276" y="454" type="line"/>
+      <point x="276" y="481" type="line" smooth="yes"/>
+      <point x="276" y="507"/>
+      <point x="285" y="531"/>
+      <point x="337" y="531" type="curve" smooth="yes"/>
+      <point x="558" y="531" type="line" smooth="yes"/>
+      <point x="583" y="531"/>
+      <point x="594" y="542"/>
+      <point x="594" y="567" type="curve" smooth="yes"/>
+      <point x="594" y="684" type="line" smooth="yes"/>
+      <point x="594" y="709"/>
+      <point x="583" y="720"/>
+      <point x="558" y="720" type="curve" smooth="yes"/>
+      <point x="304" y="720" type="line" smooth="yes"/>
+      <point x="115" y="720"/>
+      <point x="58" y="637"/>
+      <point x="58" y="515" type="curve" smooth="yes"/>
+      <point x="58" y="204" type="line" smooth="yes"/>
+      <point x="58" y="83"/>
+      <point x="115" y="0"/>
+      <point x="304" y="0" type="curve" smooth="yes"/>
+      <point x="358" y="0" type="line"/>
+      <point x="349" y="-51" type="line" smooth="yes"/>
+      <point x="335" y="-144"/>
+      <point x="364" y="-186"/>
+      <point x="450" y="-186" type="curve" smooth="yes"/>
+      <point x="561" y="-186" type="line" smooth="yes"/>
+      <point x="587" y="-186"/>
+      <point x="594" y="-178"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:10:06</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

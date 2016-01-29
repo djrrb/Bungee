@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackrightpointingtriangle" format="1">
+  <advance width="1000"/>
+  <unicode hex="25B6"/>
+  <outline>
+    <contour>
+      <point x="333.0" y="86" type="curve" smooth="yes"/>
+      <point x="700.0" y="309" type="line" smooth="yes"/>
+      <point x="723.0" y="324"/>
+      <point x="736.0" y="340"/>
+      <point x="736.0" y="364" type="curve" smooth="yes"/>
+      <point x="736.0" y="390"/>
+      <point x="723.0" y="405"/>
+      <point x="700.0" y="419" type="curve" smooth="yes"/>
+      <point x="333.0" y="644" type="line" smooth="yes"/>
+      <point x="302.0" y="663"/>
+      <point x="265.0" y="644"/>
+      <point x="265.0" y="615" type="curve" smooth="yes"/>
+      <point x="265.0" y="114" type="line" smooth="yes"/>
+      <point x="265.0" y="87"/>
+      <point x="302.0" y="66"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

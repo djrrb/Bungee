@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uogonek" format="1">
+  <advance width="961"/>
+  <unicode hex="0172"/>
+  <outline>
+    <contour>
+      <point x="807" y="245" type="line" smooth="yes"/>
+      <point x="910" y="230"/>
+      <point x="954" y="263"/>
+      <point x="954" y="356" type="curve" smooth="yes"/>
+      <point x="954" y="467" type="line" smooth="yes"/>
+      <point x="954" y="501"/>
+      <point x="944" y="510"/>
+      <point x="910" y="510" type="curve" smooth="yes"/>
+      <point x="838" y="510" type="line" smooth="yes"/>
+      <point x="805" y="510"/>
+      <point x="794" y="500"/>
+      <point x="794" y="464" type="curve" smooth="yes"/>
+      <point x="794" y="435" type="line"/>
+      <point x="769" y="439" type="line"/>
+      <point x="751" y="624"/>
+      <point x="670" y="670"/>
+      <point x="558" y="670" type="curve" smooth="yes"/>
+      <point x="103" y="670" type="line" smooth="yes"/>
+      <point x="71" y="670"/>
+      <point x="57" y="656"/>
+      <point x="57" y="624" type="curve" smooth="yes"/>
+      <point x="57" y="472" type="line" smooth="yes"/>
+      <point x="57" y="439"/>
+      <point x="71" y="426"/>
+      <point x="103" y="426" type="curve" smooth="yes"/>
+      <point x="519" y="426" type="line" smooth="yes"/>
+      <point x="542" y="426"/>
+      <point x="556" y="411"/>
+      <point x="556" y="362" type="curve" smooth="yes"/>
+      <point x="556" y="314"/>
+      <point x="542" y="299"/>
+      <point x="519" y="299" type="curve" smooth="yes"/>
+      <point x="103" y="299" type="line" smooth="yes"/>
+      <point x="71" y="299"/>
+      <point x="57" y="285"/>
+      <point x="57" y="253" type="curve" smooth="yes"/>
+      <point x="57" y="96" type="line" smooth="yes"/>
+      <point x="57" y="64"/>
+      <point x="71" y="50"/>
+      <point x="103" y="50" type="curve" smooth="yes"/>
+      <point x="558" y="50" type="line" smooth="yes"/>
+      <point x="664" y="50"/>
+      <point x="743" y="91"/>
+      <point x="765" y="253" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

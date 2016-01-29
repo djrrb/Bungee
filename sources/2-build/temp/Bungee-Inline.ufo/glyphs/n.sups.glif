@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="n.sups" format="1">
+  <advance width="573.04"/>
+  <unicode hex="207F"/>
+  <outline>
+    <component base="N.salt" xScale="0.72" yScale="0.72" xOffset="18" yOffset="202"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

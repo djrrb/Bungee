@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="verticallinemod" format="1">
+  <advance width="356"/>
+  <unicode hex="02C8"/>
+  <outline>
+    <contour>
+      <point x="253.0" y="345" type="line" smooth="yes"/>
+      <point x="288.0" y="345"/>
+      <point x="295.0" y="351"/>
+      <point x="295.0" y="386" type="curve" smooth="yes"/>
+      <point x="295.0" y="679" type="line" smooth="yes"/>
+      <point x="295.0" y="714"/>
+      <point x="290.0" y="720"/>
+      <point x="256.0" y="720" type="curve" smooth="yes"/>
+      <point x="101.0" y="720" type="line" smooth="yes"/>
+      <point x="66.0" y="720"/>
+      <point x="61.0" y="714"/>
+      <point x="61.0" y="679" type="curve" smooth="yes"/>
+      <point x="61.0" y="386" type="line" smooth="yes"/>
+      <point x="61.0" y="351"/>
+      <point x="68.0" y="345"/>
+      <point x="103.0" y="345" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>1.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketright" format="1">
+  <advance width="429"/>
+  <unicode hex="005D"/>
+  <outline>
+    <contour>
+      <point x="272.0" y="709" type="line"/>
+      <point x="135.0" y="709" type="line"/>
+      <point x="135.0" y="699" type="line"/>
+      <point x="262.0" y="699" type="line"/>
+      <point x="262.0" y="22" type="line"/>
+      <point x="135.0" y="22" type="line"/>
+      <point x="135.0" y="12" type="line"/>
+      <point x="272.0" y="12" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 17:17:46</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

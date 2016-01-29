@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Y.salt" format="1">
+  <advance width="706"/>
+  <unicode hex="E130"/>
+  <outline>
+    <contour>
+      <point x="358.0" y="90" type="line"/>
+      <point x="358.0" y="292" type="line"/>
+      <point x="510.0" y="292"/>
+      <point x="554.0" y="346"/>
+      <point x="554.0" y="427" type="curve" smooth="yes"/>
+      <point x="554.0" y="630" type="line"/>
+      <point x="544.0" y="630" type="line"/>
+      <point x="544.0" y="427" type="line" smooth="yes"/>
+      <point x="544.0" y="352"/>
+      <point x="502.0" y="302"/>
+      <point x="353.0" y="302" type="curve" smooth="yes"/>
+      <point x="204.0" y="302"/>
+      <point x="163.0" y="352"/>
+      <point x="163.0" y="427" type="curve" smooth="yes"/>
+      <point x="163.0" y="630" type="line"/>
+      <point x="153.0" y="630" type="line"/>
+      <point x="153.0" y="427" type="line" smooth="yes"/>
+      <point x="153.0" y="347"/>
+      <point x="195.0" y="293"/>
+      <point x="348.0" y="292" type="curve"/>
+      <point x="348.0" y="90" type="line"/>
+    </contour>
+    <contour>
+      <point x="353.0" y="747.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="353.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-16 00:44:32</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

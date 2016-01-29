@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="T.s" format="1">
+  <advance width="815"/>
+  <outline>
+    <contour>
+      <point x="670.0" y="355" type="line"/>
+      <point x="670.0" y="365" type="line"/>
+      <point x="180.0" y="365" type="line"/>
+      <point x="180.0" y="570" type="line"/>
+      <point x="170.0" y="570" type="line"/>
+      <point x="170.0" y="150" type="line"/>
+      <point x="180.0" y="150" type="line"/>
+      <point x="180.0" y="355" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.5</real>
+        <real>0.0</real>
+        <real>0.5</real>
+        <real>0.5</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
