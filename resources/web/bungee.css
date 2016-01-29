@@ -1,0 +1,189 @@
+/* Styles that end-users would actually use */
+
+.bungee {
+    position: relative;
+    display: inline-block;
+    font-size: 72px;
+    white-space: nowrap;
+    padding: 0.25in;
+    text-rendering: optimizeLegibility;
+}
+
+.bungee.vertical {
+    /* change writing mode to vertical */
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-rl;
+    -moz-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+/* for browsers that don't support vertical mode */
+.no-vertical-text .bungee.vertical {
+    -moz-transform-origin: left bottom;
+    -moz-transform: translateY(-100%) rotate(90deg);
+    -ms-transform-origin: left bottom;
+    -ms-transform: translateY(-100%) rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: translateY(-100%) rotate(90deg);
+    transform-origin: left bottom;
+    transform: translateY(-100%) rotate(90deg);
+}
+
+/*
+.bungee.vertical:not(.rotated), .bungee.vertical:not(.rotated) * {
+    /* use upright orientation * /
+    -webkit-text-orientation: upright;
+    -moz-text-orientation: upright;
+    -ms-text-orientation: upright;
+    text-orientation: upright;
+    /* implement spacing and kerning * /
+    -moz-font-feature-settings: "vkrn", "vpal";
+    -webkit-font-feature-settings: "vkrn", "vpal";
+    font-feature-settings: "vkrn", "vpal";
+}
+*/
+
+.bungee * {
+    position: relative;
+    background: transparent;
+}
+
+.bungee.shapes {
+    -moz-font-feature-settings: "ss01", "liga" 0;
+    -webkit-font-feature-settings: "ss01", "liga" 0;
+    font-feature-settings: "ss01", "liga" 0;
+    letter-spacing: 0.28em;
+}
+
+.bungee .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+.bungee .layer:first-child {
+    position: relative; /* to make it have an actual size */
+}
+
+.bungee.background .layer.background {
+    opacity: 1;
+}
+
+.bungee .background.regular {
+    z-index: 2;
+}
+
+.bungee .background.outline {
+    z-index: 1;
+}
+
+.bungee .regular {
+    font-family: "Bungee Regular";
+    z-index: 13;
+}
+
+.bungee .outline {
+    font-family: "Bungee Outline";
+    z-index: 12;
+}
+
+.bungee .inline {
+    font-family: "Bungee Inline";
+    z-index: 14;
+}
+
+.bungee .shade {
+    font-family: "Bungee Shade";
+    z-index: 11;
+}
+
+.bungee.vertical/*.rotated*/ .regular {
+    font-family: "Bungee Rotated Regular";
+}
+
+.bungee.vertical/*.rotated*/ .outline {
+    font-family: "Bungee Rotated Outline";
+}
+
+.bungee.vertical/*.rotated*/ .inline {
+    font-family: "Bungee Rotated Inline";
+}
+
+.bungee.vertical/*.rotated*/ .shade {
+    font-family: "Bungee Rotated Shade";
+}
+
+.bungee.regular .regular {
+    opacity: 1;
+}
+
+.bungee.outline .outline {
+    opacity: 1;
+}
+
+.bungee.inline .inline {
+    opacity: 1;
+}
+
+.bungee.shade .shade {
+    opacity: 1;
+}
+
+
+/* manipulations for block shapes and banners */
+
+.bungee.background header,
+.bungee.background footer,
+.bungee.background figure
+ {
+    display: inline-block;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.bungee.background figure {
+    overflow: hidden;
+}
+
+.bungee.background span {
+    /* smaller font size inside shapes */
+    font-size: 0.9em;
+    left: 0.0556em; /* (1-fontsize)/2/fontsize */
+    top: -0.0445em; /* -left * 80% */
+}
+
+.bungee.background.shapes span {
+    letter-spacing: 0.4222em ; /* 1.28/fontsize - 1 */
+}
+
+.bungee.background.shade span {
+    /* offset slightly to compensate for shade */
+    left: 0.0956em; /* left + 0.04 */
+    top: -0.0845em; /* top - 0.04 */
+}
+
+.bungee.vertical.background span {
+    /* Chrome wants to push everything right */
+    left: -0.1556em; /* this seems to be roughly -0.14/fontsize */
+    top: 0.056em; /* (1/fontsize - 1)/2 */
+}
+
+.bungee.vertical.background.shade span {
+    left: -0.1156em; /* left + 0.04 */
+    top: -0.016em; /* top - 0.04 */
+}
+
+
+/* for no-vertical-text browsers, need to rotate all the transforms */
+.no-vertical-text .bungee.vertical.background span {
+    top: -0.056em; 
+    left: 0.056em; 
+}
+
+.no-vertical-text .bungee.vertical.background.shade span {
+    top: -0.096em; /* top - 0.04 */
+    left: 0.016em; /* left - 0.04 */
+}
