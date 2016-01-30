@@ -7,9 +7,13 @@ feature vpal { # Vertical Positioning and Layout
 	pos uni2B1B <0 -140 0 280>;
 	pos uni2B24 <0 -140 0 280>;
 	pos uni2B24.salt <0 -140 0 280>;
+	pos uni2B24.salt_v <0 -140 0 280>;
 	pos uni25DD.curve <0 -140 0 280>;
+	pos uni25DD.curve_v <0 -140 0 280>;
 	pos uni2B1B.trapezoid_e <0 -140 0 280>;
+	pos uni2B1B.trapezoid_e_v <0 -140 0 280>;
 	pos uni2B1B.trapezoid_w <0 -140 0 280>;
+	pos uni2B1B.trapezoid_w_v <0 -140 0 280>;
 	pos arrowleft.chevron <0 -140 0 280>;
 	pos arrowup.chevron <0 -210 0 435>;
 	pos arrowright.chevron <0 -140 0 280>;

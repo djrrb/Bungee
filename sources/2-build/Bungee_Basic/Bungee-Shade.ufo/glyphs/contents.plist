@@ -1984,12 +1984,16 @@
 	<string>uni25D7_.v_square.glif</string>
 	<key>uni25D7.v_wings</key>
 	<string>uni25D7_.v_wings.glif</string>
+	<key>uni25D7.wings</key>
+	<string>uni25D7_.wings.glif</string>
 	<key>uni25DC</key>
 	<string>uni25DC_.glif</string>
 	<key>uni25DD</key>
 	<string>uni25DD_.glif</string>
 	<key>uni25DD.curve</key>
 	<string>uni25DD_.curve.glif</string>
+	<key>uni25DD.curve_v</key>
+	<string>uni25DD_.curve_v.glif</string>
 	<key>uni25DE</key>
 	<string>uni25DE_.glif</string>
 	<key>uni25DF</key>
@@ -2018,8 +2022,6 @@
 	<string>uni261F_.glif</string>
 	<key>uni261F.salt</key>
 	<string>uni261F_.salt.glif</string>
-	<key>uni26D7.wings</key>
-	<string>uni26D7_.wings.glif</string>
 	<key>uni27A1</key>
 	<string>uni27A1_.glif</string>
 	<key>uni27A1.n</key>
@@ -2048,12 +2050,18 @@
 	<string>uni2B1B_.semichevron_w.glif</string>
 	<key>uni2B1B.trapezoid_e</key>
 	<string>uni2B1B_.trapezoid_e.glif</string>
+	<key>uni2B1B.trapezoid_e_v</key>
+	<string>uni2B1B_.trapezoid_e_v.glif</string>
 	<key>uni2B1B.trapezoid_w</key>
 	<string>uni2B1B_.trapezoid_w.glif</string>
+	<key>uni2B1B.trapezoid_w_v</key>
+	<string>uni2B1B_.trapezoid_w_v.glif</string>
 	<key>uni2B24</key>
 	<string>uni2B24_.glif</string>
 	<key>uni2B24.salt</key>
 	<string>uni2B24_.salt.glif</string>
+	<key>uni2B24.salt_v</key>
+	<string>uni2B24_.salt_v.glif</string>
 	<key>uogonek</key>
 	<string>uogonek.glif</string>
 	<key>uring</key>

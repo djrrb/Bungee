@@ -4,4 +4,5 @@ include(features/features.fea);
 # vertical features
 include(features/vpal.fea);
 include(features/vert-etc.fea);
+include(features/tracking.fea);
 include(features/vkrn.fea);

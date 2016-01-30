@@ -903,7 +903,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>-2</integer>
+                  <real>-2.0</real>
                   <key>y</key>
                   <integer>83</integer>
                 </dict>
@@ -913,7 +913,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>164</integer>
+                  <real>164.0</real>
                   <key>y</key>
                   <integer>83</integer>
                 </dict>
@@ -921,7 +921,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>230</integer>
+                  <real>230.0</real>
                   <key>y</key>
                   <integer>83</integer>
                 </dict>
@@ -929,7 +929,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>275</integer>
+                  <real>275.0</real>
                   <key>y</key>
                   <integer>98</integer>
                 </dict>
@@ -939,7 +939,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>304</integer>
+                  <real>304.0</real>
                   <key>y</key>
                   <integer>122</integer>
                 </dict>
@@ -949,7 +949,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>433</integer>
+                  <real>433.0</real>
                   <key>y</key>
                   <integer>230</integer>
                 </dict>
@@ -957,7 +957,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>467</integer>
+                  <real>467.0</real>
                   <key>y</key>
                   <integer>258</integer>
                 </dict>
@@ -965,7 +965,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>480</integer>
+                  <real>480.0</real>
                   <key>y</key>
                   <integer>300</integer>
                 </dict>
@@ -975,7 +975,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>480</integer>
+                  <real>480.0</real>
                   <key>y</key>
                   <integer>350</integer>
                 </dict>
@@ -985,7 +985,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>480</integer>
+                  <real>480.0</real>
                   <key>y</key>
                   <integer>586</integer>
                 </dict>
@@ -993,7 +993,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>480</integer>
+                  <real>480.0</real>
                   <key>y</key>
                   <integer>678</integer>
                 </dict>
@@ -1001,7 +1001,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>443</integer>
+                  <real>443.0</real>
                   <key>y</key>
                   <integer>741</integer>
                 </dict>
@@ -1011,7 +1011,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>254</integer>
+                  <real>254.0</real>
                   <key>y</key>
                   <integer>741</integer>
                 </dict>
@@ -1019,7 +1019,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>167</integer>
+                  <real>167.0</real>
                   <key>y</key>
                   <integer>741</integer>
                 </dict>
@@ -1027,7 +1027,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>113</integer>
+                  <real>113.0</real>
                   <key>y</key>
                   <integer>725</integer>
                 </dict>
@@ -1037,7 +1037,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>81</integer>
+                  <real>81.0</real>
                   <key>y</key>
                   <integer>698</integer>
                 </dict>
@@ -1047,7 +1047,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>-48</integer>
+                  <real>-48.0</real>
                   <key>y</key>
                   <integer>590</integer>
                 </dict>
@@ -1055,7 +1055,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>-81</integer>
+                  <real>-81.0</real>
                   <key>y</key>
                   <integer>563</integer>
                 </dict>
@@ -1063,7 +1063,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>-92</integer>
+                  <real>-92.0</real>
                   <key>y</key>
                   <integer>524</integer>
                 </dict>
@@ -1073,7 +1073,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>-92</integer>
+                  <real>-92.0</real>
                   <key>y</key>
                   <integer>477</integer>
                 </dict>
@@ -1083,7 +1083,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>-92</integer>
+                  <real>-92.0</real>
                   <key>y</key>
                   <integer>408</integer>
                 </dict>
@@ -1091,7 +1091,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>-92</integer>
+                  <real>-92.0</real>
                   <key>y</key>
                   <integer>333</integer>
                 </dict>
@@ -1099,7 +1099,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>-65</integer>
+                  <real>-65.0</real>
                   <key>y</key>
                   <integer>287</integer>
                 </dict>
@@ -1109,7 +1109,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>21</integer>
+                  <real>21.0</real>
                   <key>y</key>
                   <integer>273</integer>
                 </dict>
@@ -1119,7 +1119,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>-26</integer>
+                  <real>-26.0</real>
                   <key>y</key>
                   <integer>233</integer>
                 </dict>
@@ -1127,7 +1127,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>-33</integer>
+                  <real>-33.0</real>
                   <key>y</key>
                   <integer>227</integer>
                 </dict>
@@ -1135,7 +1135,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>-37</integer>
+                  <real>-37.0</real>
                   <key>y</key>
                   <integer>218</integer>
                 </dict>
@@ -1145,7 +1145,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>-37</integer>
+                  <real>-37.0</real>
                   <key>y</key>
                   <integer>204</integer>
                 </dict>
@@ -1155,7 +1155,7 @@
                   <key>smooth</key>
                   <true/>
                   <key>x</key>
-                  <integer>-37</integer>
+                  <real>-37.0</real>
                   <key>y</key>
                   <integer>119</integer>
                 </dict>
@@ -1163,7 +1163,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>-37</integer>
+                  <real>-37.0</real>
                   <key>y</key>
                   <integer>94</integer>
                 </dict>
@@ -1171,7 +1171,7 @@
                   <key>smooth</key>
                   <false/>
                   <key>x</key>
-                  <integer>-27</integer>
+                  <real>-27.0</real>
                   <key>y</key>
                   <integer>83</integer>
                 </dict>

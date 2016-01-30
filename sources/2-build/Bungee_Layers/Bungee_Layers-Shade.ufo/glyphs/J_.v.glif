@@ -34,10 +34,10 @@
       <point x="204.0" y="388" type="curve" smooth="yes"/>
       <point x="74.0" y="279" type="line" smooth="yes"/>
       <point x="66.0" y="272"/>
-      <point x="61.0" y="260"/>
+      <point x="61" y="260"/>
       <point x="61.0" y="242" type="curve" smooth="yes"/>
-      <point x="61.0" y="80" type="line" smooth="yes"/>
-      <point x="61.0" y="-46"/>
+      <point x="61" y="110" type="line" smooth="yes"/>
+      <point x="61" y="-16"/>
       <point x="115.0" y="-135"/>
     </contour>
   </outline>

@@ -109,6 +109,17 @@
 
 @vertical_sorts_off = [hyphen braceleft endash parenright emdash parenleft bracketright braceright bracketleft];
 
+@vertical_banners = [uni25D6.v uni25D7.v uni25D6.v_deco uni25D7.v_deco uni25D6.v_bevel uni25D7.v_bevel uni25D6.v_spike uni25D7.v_spike uni25D6.v_square uni25D7.v_square uni25D6.v_rounded uni25D7.v_rounded uni2B1B.semichevron_n uni2B1B.semichevron_s uni25D6.v_wings uni25D7.v_wings uni27A1.s uni27A1.n uni21AB.v_arrow uni21AC.v_arrow];
+
+@vertical_banners_off = [uni25D6 uni25D7 uni25D6.deco uni25D7.deco uni25D6.bevel uni25D7.bevel uni25D6.spike uni25D7.spike uni25D6.square uni25D7.square uni25D6.rounded uni25D7.rounded uni2B1B.semichevron_e uni2B1B.semichevron_w uni25D6.wings uni25D7.wings uni27A1.w uni27A1 uni21AB.arrow uni21AC.arrow];
+
+@vertical_blocks = [uni2B24.salt_v uni25DD.curve_v uni2B1B.trapezoid_e_v uni2B1B.trapezoid_w_v arrowleft.chevron arrowright.chevron uni2B1B.chevron_w uni2B1B.chevron_e];
+
+@vertical_blocks_off = [uni2B24.salt uni25DD.curve uni2B1B.trapezoid_e uni2B1B.trapezoid_w arrowup.chevron arrowdown.chevron uni2B1B.chevron_n uni2B1B.chevron_s];
+
+@vertical_ornaments = [@vertical_banners @vertical_blocks];
+@vertical_ornaments_off = [@vertical_banners_off @vertical_blocks_off];
+
 ####
 
 @sups =  [zero.sups one.sups two.sups three.sups four.sups five.sups six.sups seven.sups eight.sups nine.sups];
@@ -143,6 +154,6 @@
 
 @arrows_bent = [uni21B0 uni21B1 uni21B2 uni21B3 uni21AB uni21AA];
 
-@blocks = [emspace enspace block block.v uni25D6 uni25D7 uni25D6.v uni25D7.v uni25DC uni25DD uni25DE uni25DF uni27A1 uni27A1.w uni27A1.n uni27A1.s uni2B1B uni2B24 uni2B24.salt uni25DD.curve uni2B1B.trapezoid_e uni2B1B.trapezoid_w arrowleft.chevron arrowup.chevron arrowright.chevron arrowdown.chevron uni25D6.deco uni25D7.deco uni25D6.v_deco uni25D7.v_deco uni25D6.bevel uni25D7.bevel uni25D6.v_bevel uni25D7.v_bevel uni25D6.spike uni25D7.spike uni25D6.v_spike uni25D7.v_spike uni25D6.square uni25D7.square uni25D6.v_square uni25D7.v_square uni25D6.rounded uni25D7.rounded uni25D6.v_rounded uni25D7.v_rounded uni21AB.arrow uni21AC.arrow uni21AB.v_arrow uni21AC.v_arrow uni25D6.wings uni26D7.wings uni25D6.v_wings uni25D7.v_wings uni2B1B.chevron_e uni2B1B.chevron_n uni2B1B.chevron_s uni2B1B.chevron_w uni2B1B.semichevron_e uni2B1B.semichevron_w uni2B1B.semichevron_n uni2B1B.semichevron_s];
+@blocks = [emspace enspace block block.v uni25D6 uni25D7 uni25D6.v uni25D7.v uni25DC uni25DD uni25DE uni25DF uni27A1 uni27A1.w uni27A1.n uni27A1.s uni2B1B uni2B24 uni2B24.salt uni25DD.curve uni2B1B.trapezoid_e uni2B1B.trapezoid_w arrowleft.chevron arrowup.chevron arrowright.chevron arrowdown.chevron uni25D6.deco uni25D7.deco uni25D6.v_deco uni25D7.v_deco uni25D6.bevel uni25D7.bevel uni25D6.v_bevel uni25D7.v_bevel uni25D6.spike uni25D7.spike uni25D6.v_spike uni25D7.v_spike uni25D6.square uni25D7.square uni25D6.v_square uni25D7.v_square uni25D6.rounded uni25D7.rounded uni25D6.v_rounded uni25D7.v_rounded uni21AB.arrow uni21AC.arrow uni21AB.v_arrow uni21AC.v_arrow uni25D6.wings uni25D7.wings uni25D6.v_wings uni25D7.v_wings uni2B1B.chevron_e uni2B1B.chevron_n uni2B1B.chevron_s uni2B1B.chevron_w uni2B1B.semichevron_e uni2B1B.semichevron_w uni2B1B.semichevron_n uni2B1B.semichevron_s uni2B24.salt_v uni25DD.curve_v uni2B1B.trapezoid_e_v uni2B1B.trapezoid_w_v];
 
 @ornm = [@arrows @indexes @indexes_salt @indexes_outline @indexes_salt_outline @arrows_bent @blocks];

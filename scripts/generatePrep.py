@@ -18,8 +18,7 @@ def hex2dec(s):
 
 if __name__ == "__main__":
     scriptPath = os.path.split(__file__)[0]
-    devPath = os.path.split(scriptPath)[0]
-    basePath = os.path.split(devPath)[0] 
+    basePath = os.path.split(scriptPath)[0] 
     tempPath = os.path.join(basePath, 'sources/2-build/temp')
 
     paths = []

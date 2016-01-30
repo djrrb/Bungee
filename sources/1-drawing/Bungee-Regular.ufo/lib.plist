@@ -4721,24 +4721,6 @@
 				<string>uni25D7</string>
 				<string>uni25D6.v</string>
 				<string>uni25D7.v</string>
-				<string>uni25DC</string>
-				<string>uni25DD</string>
-				<string>uni25DE</string>
-				<string>uni25DF</string>
-				<string>uni27A1</string>
-				<string>uni27A1.w</string>
-				<string>uni27A1.n</string>
-				<string>uni27A1.s</string>
-				<string>uni2B1B</string>
-				<string>uni2B24</string>
-				<string>uni2B24.salt</string>
-				<string>uni25DD.curve</string>
-				<string>uni2B1B.trapezoid_e</string>
-				<string>uni2B1B.trapezoid_w</string>
-				<string>arrowleft.chevron</string>
-				<string>arrowup.chevron</string>
-				<string>arrowright.chevron</string>
-				<string>arrowdown.chevron</string>
 				<string>uni25D6.deco</string>
 				<string>uni25D7.deco</string>
 				<string>uni25D6.v_deco</string>
@@ -4759,22 +4741,44 @@
 				<string>uni25D7.rounded</string>
 				<string>uni25D6.v_rounded</string>
 				<string>uni25D7.v_rounded</string>
-				<string>uni21AB.arrow</string>
-				<string>uni21AC.arrow</string>
-				<string>uni21AB.v_arrow</string>
-				<string>uni21AC.v_arrow</string>
-				<string>uni25D6.wings</string>
-				<string>uni26D7.wings</string>
-				<string>uni25D6.v_wings</string>
-				<string>uni25D7.v_wings</string>
-				<string>uni2B1B.chevron_e</string>
-				<string>uni2B1B.chevron_n</string>
-				<string>uni2B1B.chevron_s</string>
-				<string>uni2B1B.chevron_w</string>
 				<string>uni2B1B.semichevron_e</string>
 				<string>uni2B1B.semichevron_w</string>
 				<string>uni2B1B.semichevron_n</string>
 				<string>uni2B1B.semichevron_s</string>
+				<string>uni25D6.wings</string>
+				<string>uni25D7.wings</string>
+				<string>uni25D6.v_wings</string>
+				<string>uni25D7.v_wings</string>
+				<string>uni27A1.w</string>
+				<string>uni27A1</string>
+				<string>uni27A1.s</string>
+				<string>uni27A1.n</string>
+				<string>uni21AB.arrow</string>
+				<string>uni21AC.arrow</string>
+				<string>uni21AB.v_arrow</string>
+				<string>uni21AC.v_arrow</string>
+				<string>uni2B1B</string>
+				<string>uni2B24</string>
+				<string>uni2B24.salt</string>
+				<string>uni2B24.salt_v</string>
+				<string>uni25DD.curve</string>
+				<string>uni25DD.curve_v</string>
+				<string>uni2B1B.trapezoid_e</string>
+				<string>uni2B1B.trapezoid_e_v</string>
+				<string>uni2B1B.trapezoid_w</string>
+				<string>uni2B1B.trapezoid_w_v</string>
+				<string>uni25DC</string>
+				<string>uni25DD</string>
+				<string>uni25DF</string>
+				<string>uni25DE</string>
+				<string>arrowleft.chevron</string>
+				<string>arrowright.chevron</string>
+				<string>arrowup.chevron</string>
+				<string>arrowdown.chevron</string>
+				<string>uni2B1B.chevron_w</string>
+				<string>uni2B1B.chevron_e</string>
+				<string>uni2B1B.chevron_n</string>
+				<string>uni2B1B.chevron_s</string>
 				<string>space.v</string>
 				<string>A.v</string>
 				<string>Agrave.v</string>
@@ -7394,24 +7398,6 @@
 		<string>uni25D7</string>
 		<string>uni25D6.v</string>
 		<string>uni25D7.v</string>
-		<string>uni25DC</string>
-		<string>uni25DD</string>
-		<string>uni25DE</string>
-		<string>uni25DF</string>
-		<string>uni27A1</string>
-		<string>uni27A1.w</string>
-		<string>uni27A1.n</string>
-		<string>uni27A1.s</string>
-		<string>uni2B1B</string>
-		<string>uni2B24</string>
-		<string>uni2B24.salt</string>
-		<string>uni25DD.curve</string>
-		<string>uni2B1B.trapezoid_e</string>
-		<string>uni2B1B.trapezoid_w</string>
-		<string>arrowleft.chevron</string>
-		<string>arrowup.chevron</string>
-		<string>arrowright.chevron</string>
-		<string>arrowdown.chevron</string>
 		<string>uni25D6.deco</string>
 		<string>uni25D7.deco</string>
 		<string>uni25D6.v_deco</string>
@@ -7432,22 +7418,44 @@
 		<string>uni25D7.rounded</string>
 		<string>uni25D6.v_rounded</string>
 		<string>uni25D7.v_rounded</string>
-		<string>uni21AB.arrow</string>
-		<string>uni21AC.arrow</string>
-		<string>uni21AB.v_arrow</string>
-		<string>uni21AC.v_arrow</string>
-		<string>uni25D6.wings</string>
-		<string>uni26D7.wings</string>
-		<string>uni25D6.v_wings</string>
-		<string>uni25D7.v_wings</string>
-		<string>uni2B1B.chevron_e</string>
-		<string>uni2B1B.chevron_n</string>
-		<string>uni2B1B.chevron_s</string>
-		<string>uni2B1B.chevron_w</string>
 		<string>uni2B1B.semichevron_e</string>
 		<string>uni2B1B.semichevron_w</string>
 		<string>uni2B1B.semichevron_n</string>
 		<string>uni2B1B.semichevron_s</string>
+		<string>uni25D6.wings</string>
+		<string>uni25D7.wings</string>
+		<string>uni25D6.v_wings</string>
+		<string>uni25D7.v_wings</string>
+		<string>uni27A1.w</string>
+		<string>uni27A1</string>
+		<string>uni27A1.s</string>
+		<string>uni27A1.n</string>
+		<string>uni21AB.arrow</string>
+		<string>uni21AC.arrow</string>
+		<string>uni21AB.v_arrow</string>
+		<string>uni21AC.v_arrow</string>
+		<string>uni2B1B</string>
+		<string>uni2B24</string>
+		<string>uni2B24.salt</string>
+		<string>uni2B24.salt_v</string>
+		<string>uni25DD.curve</string>
+		<string>uni25DD.curve_v</string>
+		<string>uni2B1B.trapezoid_e</string>
+		<string>uni2B1B.trapezoid_e_v</string>
+		<string>uni2B1B.trapezoid_w</string>
+		<string>uni2B1B.trapezoid_w_v</string>
+		<string>uni25DC</string>
+		<string>uni25DD</string>
+		<string>uni25DF</string>
+		<string>uni25DE</string>
+		<string>arrowleft.chevron</string>
+		<string>arrowright.chevron</string>
+		<string>arrowup.chevron</string>
+		<string>arrowdown.chevron</string>
+		<string>uni2B1B.chevron_w</string>
+		<string>uni2B1B.chevron_e</string>
+		<string>uni2B1B.chevron_n</string>
+		<string>uni2B1B.chevron_s</string>
 		<string>space.v</string>
 		<string>A.v</string>
 		<string>Agrave.v</string>
