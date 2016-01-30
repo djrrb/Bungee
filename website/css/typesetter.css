@@ -11,6 +11,8 @@
     padding: 1em;
 }
 
+/* controls */
+
 #typesetter #controls > * {
     padding-bottom: 0.5em;
 }
@@ -38,6 +40,8 @@
 #typesetter #shape-controls input:checked + label {
     background-color: white;
 }
+
+/* preview box */
 
 #typesetter .preview.vertical {
     float: left;
@@ -67,6 +71,13 @@
     border: 1px solid black;
 }
 
+#typesetter .bungee .layer {
+    /* cute little fade in/out when layers are toggled */
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+
+/* arbitrary colors; these need to be set by UI eventually */
 #typesetter .bungee .regular {
     color: white;
 }

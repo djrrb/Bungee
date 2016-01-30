@@ -139,7 +139,7 @@ ob_start();
 print "<defs>";
 
 foreach ($layers as $style => $color) {
-    $font = file_get_contents("fonts/BungeeLayers" . ($orientation==='vertical' ? 'Rotated' : '') . "-" . ucfirst($style) . ".svg");
+    $font = file_get_contents("css/fonts/BungeeLayers" . ($orientation==='vertical' ? 'Rotated' : '') . "-" . ucfirst($style) . ".svg");
     preg_match_all('/<(font-face|glyph|missing-glyph|hkern)\b(.*?)>/u', $font, $matches, PREG_SET_ORDER);
     foreach ($matches as $m) {
         $tag = $m[1];
