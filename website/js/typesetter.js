@@ -4,7 +4,7 @@
 
     $(window).on('load', function() {
         var Bungee = window.Bungee;
-        var bungees = $('.bungee');
+        var bungees = $('#typesetter .bungee');
         var allcontrols = $('#controls input');
         var layercontrols = $('#controls input[name=layer]');
         var orientationcontrols = $('#controls input[name=orientation]');
@@ -54,41 +54,53 @@
 
         function doCode() {
             var tab = "  ";
-            if (!globalCSS) {
-                var css = [];
-                $.each(document.styleSheets, function(i, ss) {
-                    $.each(ss.cssRules, function(j, rule) {
-                        if (rule.cssText.indexOf('bungee') >= 0) {
-                            css.push(rule.cssText);
-                        }
-                    });
-                });
+            var code = "";
             
-                globalCSS = css.join("\n\n")
-                    .replace(/\{\s*/g, "{\n" + tab)
-                    .replace(/;\s*/g, ";\n" + tab)
-                    .replace(RegExp(tab + "\\}", "g"), "}")
-                    .replace(/,\s*url/g, ",\n" + tab + "     url")
-                    .replace(/url\((['"]?)http:\/\/\S+\//g, "url($1/path/to/fonts/")
-                    .replace(/\n.*?opacity.+?\n/g, "\n")
-                    .replace(/\n.+?\{\s*\}/g, "\n")
-                    .replace(/\n\n+/g, "\n\n")
-                    .trim()
-                    ;
-            }
+            var styles = {};
             
-            var code = "<style>\n" + tab + globalCSS.replace(/(\n+)/g, "$1" + tab) + "\n</style>";
-            
-            code += '\n\n<div class="bungee">\n' + tab + '<div>\n';
-            $('.bungee > div > div').each(function() {
-                var div = $(this);
-                if (div.closest('.bungee.'+this.className).length) {
-                    code += tab + tab + '<div class="' + this.className + '">' + Bungee.cleanupText(textcontrol.val()) + "</div>\n";
+            styles['.bungee'] = {
+                'font-size': bungees.css('font-size')
+            };
+
+            $('.bungee .layer').each(function() {
+                styles['.bungee .' + this.className.replace(/ /g, '.').replace('.layer', '')] = {
+                    'color': $(this).css('color')
                 }
             });
-            code += tab + "</div>\n</div>";
             
-            code = code.replace(/[<>&]/g, function(c) { return "&#" + c.charCodeAt(0) + ";"; });
+            code += '<!-- put this stuff inside <head> -->\n';
+            code += tab + '<!-- copy these files from resources/web folder -->\n';
+            code += tab + '<link rel="stylesheet" href="bungee.css">\n';
+            code += tab + '<script src="bungee.js"></script>\n';
+            code += tab + '<style>';
+            for (var cls in styles) {
+                code += '\n';
+                code += tab + tab + cls + ' {\n';
+                for (var rule in styles[cls]) {
+                    code += tab + tab + tab + rule + ': ' + styles[cls][rule] + ';\n';
+                }
+                code += tab + tab + '}\n';
+            }
+            code += tab + '</style>\n';
+            code += '<!-- end of </head> content -->\n\n';
+            
+            var topclass = bungees.prop('className');
+            var allfour = / (regular|inline|outline|shade)/g;
+            if (topclass.match(allfour).length === 4) {
+                topclass = topclass.replace(allfour, '');
+            }
+            code += '<div class="' + topclass + '">';
+            code += bungees.find('.layer span').first().text().trim();
+            code += '</div>\n';
+            
+            code = code.replace(/[<>&]/g, function(c) { 
+                switch(c) {
+                    case '<': return '&lt;';
+                    case '>': return '&gt;';
+                    case '&': return '&amp;';
+                    default: return "&#" + c.charCodeAt(0) + ";";
+                }
+            });
             
             $('#code').html(code);
         }

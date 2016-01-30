@@ -33,7 +33,7 @@
                 el = this;
             }
             var master = $(el);
-            if (master.hasClass('already-done')) {
+            if (master.find('.layer').length > 0) {
                 return;
             }
             //remember the content and then get rid of it
@@ -44,8 +44,6 @@
             wrapper.append("<div class='layer outline'><span>" + text + "</span></div>");
             wrapper.append("<div class='layer regular'><span>" + text + "</span></div>");
             wrapper.append("<div class='layer inline'><span>" + text + "</span></div>");
-
-            master.addClass('already-done', true);
 
             if (!/shade|outline|regular|inline/.test(el.className)) {
                 master.addClass('shade outline regular inline');
