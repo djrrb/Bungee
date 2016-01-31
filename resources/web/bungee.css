@@ -113,19 +113,19 @@
 
 /* for "true" vertical writing-mode support, this is what you would use */
 /* but browser support isn't reliable enough yet, so we just use special rotated fonts */
-/*
+
 .bungee.vertical, .bungee.vertical * {
-    /* use upright orientation * /
+    /* use upright orientation */
     -webkit-text-orientation: upright;
     -moz-text-orientation: upright;
     -ms-text-orientation: upright;
     text-orientation: upright;
-    /* implement spacing and kerning * /
+    /* implement spacing and kerning */
     -moz-font-feature-settings: "vkrn", "vpal";
     -webkit-font-feature-settings: "vkrn", "vpal";
     font-feature-settings: "vkrn", "vpal";
 }
-*/
+
 
 .bungee * {
     position: relative;
@@ -162,7 +162,7 @@
     font-family: "Bungee Shade";
     z-index: 11;
 }
-
+/*
 .bungee.vertical .regular {
     font-family: "Bungee Rotated Regular";
 }
@@ -178,7 +178,7 @@
 .bungee.vertical .shade {
     font-family: "Bungee Rotated Shade";
 }
-
+*/
 .bungee.regular .regular {
     opacity: 1;
 }
