@@ -94,6 +94,7 @@
         if (!test.css('writing-mode')) {
             $('html').addClass('no-vertical-text');
         }
+        test.remove();
         $('.bungee').each(Bungee.makeLayers);
     });
 })();

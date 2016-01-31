@@ -12,26 +12,7 @@
         var sizecontrol = $('#controls input[name=size]');
         var textcontrol = $('#controls input[name=text]');
         var backgroundcontrols = $('#background-controls input');
-        var globalCSS;
-
-        var defaultStyles = {};
-
-        var temp = $('<div class="bungee"></div>');
-        $('body').append(temp);
-        $.each(temp.css('font-feature-settings').split(/,/), function(i, tag) {
-            var m = /['"]([a-z]{4})["'](\s+(\d+|on|off))?/.exec(tag);
-            if (!m) {
-                return;
-            }
-            if (!m[2] || m[3] === 'on') {
-                m[3] = '1';
-            } else if (m[3] === 'off') {
-                m[3] = '0';
-            }
-            defaultStyles[m[1]] = m[3];
-        });
-        temp.remove();
-        temp = null;
+        var temp;
     
         //process initial url
         if (window.location.hash.length > 1) {
@@ -290,7 +271,7 @@
                 }
             }
 
-            var ffs = $.extend({}, defaultStyles);
+            var ffs = {};
 
             sscontrols.filter(':checked').each(function() {
                 ffs[this.value] = '1';
