@@ -41,7 +41,7 @@ $orientation = isset($_GET['orientation']) ? $_GET['orientation'] : 'horizontal'
 $text = isset($_GET['text']) && is_string($_GET['text']) && strlen($_GET['text']) ? $_GET['text'] : "Hello!";
 $size = isset($_GET['size']) && is_numeric($_GET['size']) ? (int)$_GET['size'] : 144;
 $ss = !empty($_GET['ss']) ? explode(',', $_GET['ss']) : array();
-$shape = !empty($_GET['shape']) ? dechex($_GET['shape']) : false;
+$block = !empty($_GET['block']) ? dechex($_GET['block']) : false;
 $begin = !empty($_GET['begin']) ? dechex($_GET['begin']) : false;
 $end = !empty($_GET['end']) ? dechex($_GET['end']) : false;
 $format = !empty($_GET['format']) ? $_GET['format'] : 'svg';
@@ -49,14 +49,14 @@ $format = !empty($_GET['format']) ? $_GET['format'] : 'svg';
 $textscale = 1.0;
 
 #stylesets should be sorted numerically, except ss01 last
-if ($shape) {
+if ($block) {
     #block shapes always get ss01
     $ss[] = 'ss01';
     $textscale = 0.9;
     $begin = $end = false;
 } else if ($begin or $end) {
     $textscale = 0.9;
-    $shape = false;
+    $block = false;
 }
 
 #cleanup on aisle ss
@@ -86,8 +86,8 @@ $subset = array();
 for ($i=0, $l=mb_strlen($text); $i<$l; $i++) {
     $subset[uniord(mb_substr($text, $i, 1))] = true;
 }
-if ($shape) { 
-    $subset[$shape] = true; 
+if ($block) { 
+    $subset[$block] = true; 
 }
 if ($begin) {
     $subset[$begin] = true;
@@ -217,19 +217,19 @@ if ($orientation === 'vertical') {
     print "<g transform='rotate(90) translate(0,-$height)'>";
 }
 
-# Shapes
-$shapewidth = 0;
-if ($shape) {
-    $shapewidth = $charwidths[array_shift(array_keys($layers))][$shape];
+# blocks
+$blockwidth = 0;
+if ($block) {
+    $blockwidth = $charwidths[array_shift(array_keys($layers))][$block];
     foreach ($backgroundlayers as $style => $color) {
-        if (!isset($charwidths[$style][$shape])) {
+        if (!isset($charwidths[$style][$block])) {
             continue;
         }
         $x = $padding;
         $y = $height-$padding-$baseline*$em2px;
         for ($i=0,$l=mb_strlen($text); $i<$l; $i++) {
-            print "<use transform='translate($x $y) scale($em2px -$em2px)' xlink:href='#{$style}-$shape' style='stroke:none;fill:#$color' />";
-            $x += $charwidths[$style][$shape]*$em2px;
+            print "<use transform='translate($x $y) scale($em2px -$em2px)' xlink:href='#{$style}-$block' style='stroke:none;fill:#$color' />";
+            $x += $charwidths[$style][$block]*$em2px;
         }
     }
 }
@@ -242,11 +242,11 @@ $shadenudge = isset($layers['shade']) ? 0.04 * $size*$textscale : 0.0;
 $textwidth = 0;
 foreach ($layers as $style => $color) {
     $x = $padding;
-    if ($shape) {
+    if ($block) {
         if ($orientation === 'vertical') {
-            //$x += $shapewidth*$em2px*0.14 + $size*(0.72)*(1-$textscale)/2;
+            //$x += $blockwidth*$em2px*0.14 + $size*(0.72)*(1-$textscale)/2;
         } else {
-            $x += $shapewidth*$em2px*0.109375 + $size*(1-$textscale)/2;
+            $x += $blockwidth*$em2px*0.109375 + $size*(1-$textscale)/2;
         }
     }
     $y = $height-$padding - $baseline*$em2px - $size*(0.72)*(1-$textscale)/2;
@@ -260,18 +260,18 @@ foreach ($layers as $style => $color) {
         if (!isset($charwidths[$style][$id])) {
             $id = 'notdef';
         }
-        if (!$shape and isset($kerns[$prev][$id])) {
+        if (!$block and isset($kerns[$prev][$id])) {
             $x += $kerns[$prev][$id]*$em2px;
         }
 
         $ss01fudge = 0;
-        if ($orientation === 'vertical' and $shape) {
+        if ($orientation === 'vertical' and $block) {
             #this fakes the modified ss01 sidebearings to do simple vertical centering
-            $ss01fudge = ($shapewidth*$em2px - $charwidths[$style][$id]*$text2px)/2;
+            $ss01fudge = ($blockwidth*$em2px - $charwidths[$style][$id]*$text2px)/2;
             $x += $ss01fudge;
         }
         print "<use transform='translate($x $y) scale($text2px -$text2px)' xlink:href='#{$style}-$id' style='stroke:none;fill:#$color' />";
-        $x += $shape ? $shapewidth*$em2px - $ss01fudge : $charwidths[$style][$id]*$text2px;
+        $x += $block ? $blockwidth*$em2px - $ss01fudge : $charwidths[$style][$id]*$text2px;
         $prev = $id;
     }
 

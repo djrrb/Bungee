@@ -21,23 +21,23 @@
     padding-left: 1em;
 }
 
-#typesetter #shape-controls li {
+#typesetter #background-controls li {
     list-style-type: none;
     display: inline;
     font-family: "Bungee Inline";
     font-size: 2em;
 }
 
-#typesetter #shape-controls input {
+#typesetter #background-controls input {
     display: none;
 }
 
-#typesetter #shape-controls input + label {
+#typesetter #background-controls input + label {
     display: inline-block;
     padding: 0.25em;
 }
 
-#typesetter #shape-controls input:checked + label {
+#typesetter #background-controls input:checked + label {
     background-color: white;
 }
 

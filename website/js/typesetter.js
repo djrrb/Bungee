@@ -11,7 +11,7 @@
         var sscontrols = $('#controls input[name=ss]');
         var sizecontrol = $('#controls input[name=size]');
         var textcontrol = $('#controls input[name=text]');
-        var shapecontrols = $('#shape-controls input');
+        var backgroundcontrols = $('#background-controls input');
         var globalCSS;
 
         var defaultStyles = {};
@@ -137,8 +137,8 @@
                 }
                 req.layers[this.value] = color;
             });
-            shapecontrols.filter(':checked').each(function() {
-                req[this.name] = this.value;
+            backgroundcontrols.filter(':checked').each(function() {
+                req[this.name] = Bungee[this.name + 'Chars'][this.value];
             })
             req.ss = [];
             sscontrols.filter(':checked').each(function() {
@@ -213,63 +213,63 @@
                 bungees.css('font-size', sizecontrol.val() + 'px');
             }
     
-            var begin = shapecontrols.filter('[name=begin]:checked').val(),
-                end = shapecontrols.filter('[name=end]:checked').val(),
-                shape = shapecontrols.filter('[name=shape]:checked').val(),
-                block = "█",
-                bannerstring, beginwidth, blockwidth, textwidth, 
+            var begin = backgroundcontrols.filter('[name=begin]:checked').val(),
+                end = backgroundcontrols.filter('[name=end]:checked').val(),
+                block = backgroundcontrols.filter('[name=block]:checked').val(),
+                square = "█",
+                bannerstring, beginwidth, squarewidth, textwidth, 
                 leftProp = orientation === 'vertical' ? 'top' : 'left',
                 widthProp = orientation === 'vertical' ? 'height' : 'width';
 
-            if (shapecontrols.is(actor)) {
-                if (actor.name === 'shape') {
+            if (backgroundcontrols.is(actor)) {
+                if (actor.name === 'block' || actor.value === "") {
                     $('#begin-').prop('checked', true);
                     $('#end-').prop('checked', true);
                     begin = end = "";
                 } else {
-                    $('#shape-').prop('checked', true);
-                    shape = "";
+                    $('#block-').prop('checked', true);
+                    block = "";
                 }
             }
             
-            if (!evt || shapecontrols.is(actor) || textcontrol.is(actor) || orientationcontrols.is(actor) || sizecontrol.is(actor)) {
-                bungees.removeClass('background shapes').find('.background.layer').remove();
+            if (!evt || backgroundcontrols.is(actor) || textcontrol.is(actor) || orientationcontrols.is(actor) || sizecontrol.is(actor)) {
+                bungees.removeClass('background block').find('.background.layer').remove();
                 bungees.find('.layer').css({'left':'', 'top':''});
 
                 var str;
-                if (shape) {
-                    shape = String.fromCharCode(shape);
+                if (block) {
+                    block = String.fromCharCode(Bungee.blockChars[block]);
                     str = [];
                     for (var i=0, l=Bungee.cleanupText(textcontrol.val()).length; i<l; i++) {
-                        str.push(shape);
+                        str.push(block);
                     }
                     str = str.join('');
-                    bungees.addClass('background shapes');
+                    bungees.addClass('background block');
                     bungees.children().prepend('<div class="background layer regular">' + str + '</div>');
                     bungees.children().prepend('<div class="background layer outline">' + str + '</div>');
                 } else if (begin || end) {
                     if (!begin) {
-                        begin = Bungee.beginChars[Bungee.beginChars.length-1];
-                        $('#begin-' + begin).prop('checked', true);
+                        begin = end;
+                        $('#begin-' + end).prop('checked', true);
                     }
                     if (!end) {
-                        end = Bungee.endChars[Bungee.endChars.length-1];
-                        $('#end-' + end).prop('checked', true);
+                        end = begin;
+                        $('#end-' + begin).prop('checked', true);
                     }
 
-                    begin = String.fromCharCode(begin);
-                    end = String.fromCharCode(end);
+                    begin = String.fromCharCode(Bungee.beginChars[begin]);
+                    end = String.fromCharCode(Bungee.endChars[end]);
                     bannerstring = "";
                     if (begin) {
-                        bannerstring += String.fromCharCode(begin);
+                        bannerstring += begin;
                     }
-                    bannerstring += block;
+                    bannerstring += square;
                     if (end) {
-                        bannerstring += String.fromCharCode(end);
+                        bannerstring += end;
                     }
                     bungees.addClass('background banner');
-                    bungees.children().prepend('<div class="background layer regular"><header>' + begin + '</header><figure>' + block + '</figure><footer>' + end + '</footer></div>');
-                    bungees.children().prepend('<div class="background layer outline"><header>' + begin + '</header><figure>' + block + '</figure><footer>' + end + '</footer></div>');
+                    bungees.children().prepend('<div class="background layer regular"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
+                    bungees.children().prepend('<div class="background layer outline"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
                     setTimeout(function() {
                         //move text after left shape
                         var left = bungees.find('.background.layer').first().find('header');
@@ -278,12 +278,12 @@
 
                         //expand blocks to fill width
                         var textwidth = bungees.find('.layer:not(.background)').first()[widthProp]();
-                        var blockwidth = main[widthProp]();
-                        var numberblocks = Math.ceil(textwidth/blockwidth);
-                        var remainder = textwidth - (numberblocks-1)*blockwidth;
+                        var squarewidth = main[widthProp]();
+                        var numbersquares = Math.ceil(textwidth/squarewidth);
+                        var remainder = textwidth - (numbersquares-1)*squarewidth;
                         var banner = [];
-                        for (var i=0; i<numberblocks; i++) {
-                            banner.push(block);
+                        for (var i=0; i<numbersquares; i++) {
+                            banner.push(square);
                         }
                         bungees.find('.background.layer figure').text(banner.join(''))[widthProp](textwidth);
                     });
@@ -296,7 +296,7 @@
                 ffs[this.value] = '1';
             });
 
-            if (shape) {
+            if (block) {
                 ffs['ss01'] = '1';
                 ffs['liga'] = '0';
                 ffs['kern'] = '0';
@@ -322,7 +322,7 @@
         orientationcontrols.on('change', updateLayers);
         sscontrols.on('change', updateLayers);
         sizecontrol.on('input change', updateLayers);
-        shapecontrols.on('click', updateLayers);
+        backgroundcontrols.on('click', updateLayers);
         textcontrol.on('keyup', updateLayers);
 
         // not doing live editing for now

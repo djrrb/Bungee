@@ -198,10 +198,13 @@
 
 /* manipulations for block shapes and banners */
 
-.bungee.shapes {
-    -moz-font-feature-settings: "ss01", "liga" 0;
-    -webkit-font-feature-settings: "ss01", "liga" 0;
-    font-feature-settings: "ss01", "liga" 0;
+.bungee.block {
+    -moz-font-feature-settings: "ss01", "liga" 0, "kern" 0;
+    -webkit-font-feature-settings: "ss01", "liga" 0, "kern" 0;
+    font-feature-settings: "ss01", "liga" 0, "kern" 0;
+}
+
+.bungee.block.vertical .layer.background {
     letter-spacing: 0.28em;
 }
 
@@ -239,7 +242,7 @@
     top: -0.0445em; /* -left * 80% */
 }
 
-.bungee.background.shapes span {
+.bungee.background.block span {
     letter-spacing: 0.4222em ; /* 1.28/fontsize - 1 */
 }
 

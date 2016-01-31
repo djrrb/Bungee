@@ -3,26 +3,55 @@
     "use strict";
 
     var Bungee = window.Bungee = {
-        beginChars: [9686, 57690, 57701, 57705, 57709, 57717, /* 57725, */ 57733, 57713],
-        endChars: [9687, 10145, 57702, 57706, 57710, 57718, /* 57726, */ 57734, 57714],
-        shapeChars: [11035, 11044, 57693, 57694, 57695, 57696, 57729, 57730, 57731, 57732],
+        beginChars: {
+            'circle': 0x25D6,
+            'deco-big': 0xE165,
+            'deco': 0xE169,
+            'crown': 0xE16D,
+            'square': 0xE171,
+            'rounded': 0xE175,
+            'swallowtail': 0xE185,
+            'arrow': 0xE15A
+        },
+        endChars: {
+            'circle': 0x25D7,
+            'deco-big': 0xE166,
+            'deco': 0xE16A,
+            'crown': 0xE16E,
+            'square': 0xE172,
+            'rounded': 0xE176,
+            'swallowtail': 0xE186,
+            'arrow': 0x27A1
+        },
+        blockChars: {
+            'square': 0x2B1B,
+            'circle': 0x2B24,
+            'shield': 0xE15D,
+            'box-rounded': 0xE15E,
+            'box-slant-right': 0xE15F,
+            'box-slant-left': 0xE160,
+            'chevron-left': 0xE184,
+            'chevron-right': 0xE181,
+            'chevron-up': 0xE182,
+            'chevron-down': 0xE183
+        },
         
-        shapeInputList: function(list) {
-            var i, u, c;
-            var l = window.Bungee[list + 'Chars'];
-            if (!l) {
+        backgroundInputList: function(type) {
+            var name, unicode, c;
+            var list = window.Bungee[type + 'Chars'];
+            if (!list) {
                 return;
             }
             document.write('<ul><li>');
-            document.write('<input id="' + list + '-" type="radio" name="' + list + '" value="" checked>');
-            document.write('<label for="' + list + '-">&nbsp;&nbsp;</label>');
+            document.write('<input id="' + type + '-" type="radio" name="' + type + '" value="" checked>');
+            document.write('<label for="' + type + '-">&nbsp;&nbsp;</label>');
             document.write('</li>');
-            for (i in l) {
-                u = l[i];
-                c = String.fromCharCode(u);
+            for (name in list) {
+                unicode = list[name];
+                c = String.fromCharCode(unicode);
                 document.write('<li>');
-                document.write('<input id="' + list + '-' + u + '" type="radio" name="' + list + '" value="' + u + '">');
-                document.write('<label for="' + list + '-' + u + '">' + c + '</label>');
+                document.write('<input id="' + type + '-' + name + '" type="radio" name="' + type + '" value="' + name + '">');
+                document.write('<label for="' + type + '-' + name + '">' + c + '</label>');
                 document.write('</li>');
             }
             document.write('</ul>');
@@ -40,6 +69,8 @@
             var text = master.html().trim();
             master.html('<div></div>');
             var wrapper = master.children();
+            wrapper.append("<div class='layer background outline'></div>");
+            wrapper.append("<div class='layer background regular'></div>");
             wrapper.append("<div class='layer shade'><span>" + text + "</span></div>");
             wrapper.append("<div class='layer outline'><span>" + text + "</span></div>");
             wrapper.append("<div class='layer regular'><span>" + text + "</span></div>");
