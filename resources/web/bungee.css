@@ -81,6 +81,11 @@
 
 /* top-level element classes */
 
+.bungee, .bungee * {
+    margin: 0;
+    padding: 0;
+}
+
 .bungee {
     position: relative;
     display: inline-block;
@@ -96,25 +101,6 @@
     -webkit-writing-mode: vertical-rl;
     -moz-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
-}
-
-/* for browsers that don't support vertical mode */
-/* Javascript will set .no-vertical-text on <html> */
-.no-vertical-text .bungee.vertical {
-    -moz-transform-origin: left bottom;
-    -moz-transform: translateY(-100%) rotate(90deg);
-    -ms-transform-origin: left bottom;
-    -ms-transform: translateY(-100%) rotate(90deg);
-    -webkit-transform-origin: left bottom;
-    -webkit-transform: translateY(-100%) rotate(90deg);
-    transform-origin: left bottom;
-    transform: translateY(-100%) rotate(90deg);
-}
-
-/* for "true" vertical writing-mode support, this is what you would use */
-/* but browser support isn't reliable enough yet, so we just use special rotated fonts */
-
-.bungee.vertical, .bungee.vertical * {
     /* use upright orientation */
     -webkit-text-orientation: upright;
     -moz-text-orientation: upright;
@@ -126,6 +112,25 @@
     font-feature-settings: "vkrn", "vpal";
 }
 
+/* for browsers that don't support vertical mode */
+/* Javascript will set .no-vertical-text on <html> */
+.no-vertical-text .bungee.vertical {
+    /* reset these things just to be safe */
+    -ms-writing-mode: lr-tb;
+    -webkit-writing-mode: horizontal-tb;
+    -moz-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
+    /* and rotate the whole thing clockwise */
+    /* note this will break document flow unless you absolutely position it */
+    -moz-transform-origin: left bottom;
+    -moz-transform: translateY(-100%) rotate(90deg);
+    -ms-transform-origin: left bottom;
+    -ms-transform: translateY(-100%) rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: translateY(-100%) rotate(90deg);
+    transform-origin: left bottom;
+    transform: translateY(-100%) rotate(90deg);
+}
 
 .bungee * {
     position: relative;
@@ -162,23 +167,23 @@
     font-family: "Bungee Shade";
     z-index: 11;
 }
-/*
-.bungee.vertical .regular {
+
+.no-vertical-text .bungee.vertical .regular {
     font-family: "Bungee Rotated Regular";
 }
 
-.bungee.vertical .outline {
+.no-vertical-text .bungee.vertical .outline {
     font-family: "Bungee Rotated Outline";
 }
 
-.bungee.vertical .inline {
+.no-vertical-text .bungee.vertical .inline {
     font-family: "Bungee Rotated Inline";
 }
 
-.bungee.vertical .shade {
+.no-vertical-text .bungee.vertical .shade {
     font-family: "Bungee Rotated Shade";
 }
-*/
+
 .bungee.regular .regular {
     opacity: 1;
 }
@@ -204,8 +209,10 @@
     font-feature-settings: "ss01", "liga" 0, "kern" 0;
 }
 
-.bungee.block.vertical .layer.background {
-    letter-spacing: 0.28em;
+.bungee.vertical.block {
+    -moz-font-feature-settings: "ss01", "liga" 0, "kern" 0, "vkrn", "vpal";
+    -webkit-font-feature-settings: "ss01", "liga" 0, "kern" 0, "vkrn", "vpal";
+    font-feature-settings: "ss01", "liga" 0, "kern" 0, "vert", "vpal";
 }
 
 .bungee.background .layer.background {
@@ -220,47 +227,53 @@
     z-index: 1;
 }
 
-
-
-.bungee.background header,
-.bungee.background footer,
-.bungee.background figure
+.bungee.banner header,
+.bungee.banner footer,
+.bungee.banner figure
  {
     display: inline-block;
     font-weight: normal;
     vertical-align: middle;
 }
 
-.bungee.background figure {
+.bungee.banner figure {
     overflow: hidden;
 }
+
+/* horizontal mode nudges */
 
 .bungee.background span {
     /* smaller font size inside shapes */
     font-size: 0.9em;
-    left: 0.0556em; /* (1-fontsize)/2/fontsize */
-    top: -0.0445em; /* -left * 80% */
+    top: -0.04em; /* -(1-fontsize)/2 * 80% */
 }
 
 .bungee.background.block span {
+    /* nudge line up to compensate for smaller font */
     letter-spacing: 0.4222em ; /* 1.28/fontsize - 1 */
+    left: 0.2111em; /* (1.28-fontsize)/2/fontsize */
 }
 
 .bungee.background.shade span {
     /* offset slightly to compensate for shade */
-    left: 0.0956em; /* left + 0.04 */
-    top: -0.0845em; /* top - 0.04 */
+    left: 0.2511em; /* left + 0.04 */
 }
 
-.bungee.vertical.background span {
-    /* Chrome wants to push everything right */
-    left: -0.1556em; /* this seems to be roughly -0.14/fontsize */
-    top: 0.056em; /* (1/fontsize - 1)/2 */
+.bungee.background.block.shade span {
+    top: -0.08em; /* top - 0.04 */
 }
 
-.bungee.vertical.background.shade span {
-    left: -0.1156em; /* left + 0.04 */
-    top: -0.016em; /* top - 0.04 */
+/* vertical mode nudges */
+
+.bungee.vertical.background.block span {
+    left: 0;
+    top: 0.28em; /* (1.28/fontsize - 1)/2 */
+    letter-spacing: 0.56em;
+}
+
+.bungee.vertical.background.block.shade span {
+    left: 0.04em; /* left + 0.04 */
+    top: 0.1711em; /* top - 0.04 */
 }
 
 
