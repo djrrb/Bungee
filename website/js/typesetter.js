@@ -4,7 +4,7 @@
 
     $(window).on('load', function() {
         var Bungee = window.Bungee;
-        var bungees = $('#typesetter .bungee');
+        var preview = $('#typesetter .bungee');
         var allcontrols = $('#controls input');
         var layercontrols = $('#controls input[name=layer]');
         var orientationcontrols = $('#controls input[name=orientation]');
@@ -40,10 +40,10 @@
             var styles = {};
             
             styles['.bungee'] = {
-                'font-size': bungees.css('font-size')
+                'font-size': preview.css('font-size')
             };
 
-            $('.bungee .layer').each(function() {
+            preview.find('.layer').each(function() {
                 styles['.bungee .' + this.className.replace(/ /g, '.').replace('.layer', '')] = {
                     'color': $(this).css('color')
                 }
@@ -65,13 +65,13 @@
             code += tab + '</style>\n';
             code += '<!-- end of </head> content -->\n\n';
             
-            var topclass = bungees.prop('className');
+            var topclass = preview.prop('className');
             var allfour = / (regular|inline|outline|shade)/g;
             if (topclass.match(allfour).length === 4) {
                 topclass = topclass.replace(allfour, '');
             }
             code += '<div class="' + topclass + '">';
-            code += bungees.find('.layer span').first().text().trim();
+            code += preview.find('.layer.text span').first().html().trim();
             code += '</div>\n';
             
             code = code.replace(/[<>&]/g, function(c) { 
@@ -87,7 +87,7 @@
         }
     
         function setURL() {
-            var url = $('#controls').serialize(); // + '&text=' + encodeURIComponent(bungees.find('span').first().text().trim());
+            var url = $('#controls').serialize(); // + '&text=' + encodeURIComponent(preview.find('span').first().text().trim());
             if (window.history && history.pushState) {
                 history.pushState({}, '', '#' + url);
             } else {
@@ -96,7 +96,7 @@
         }
         
         function doSVG() {
-            var reference = bungees.find('.layer').not('.background');
+            var reference = preview.find('.layer.text');
             var req = {};
             req.text = Bungee.cleanupText(textcontrol.val()); //reference.find('span').first().text().trim();
             req.size = sizecontrol.val();
@@ -146,7 +146,7 @@
             $('#pdf').attr('href', '/svg.php?' + $.param(req));
         }
     
-        function updateLayers(evt) {
+        function updatePreview(evt) {
             var actor;
             if (evt) {
                 //evt will either be a real event, or an element
@@ -155,139 +155,61 @@
                 actor = textcontrol.get(0);
             }
 
-            var orientation = orientationcontrols.filter(':checked').val();
-            var text = false;
-            /*
-            // SPAN is for live editing
-            if (actor.tagName==='SPAN') {
-                text = $(evt.target).text();
-            } else */ if (actor.tagName === 'LABEL') {
+            if (actor.tagName === 'LABEL') {
                 // this will be called again for the actual input element
                 return;
-            } else if (textcontrol.is(actor) || actor.tagName !== 'INPUT') {
-                text = Bungee.cleanupText(textcontrol.val());
             }
-            
-            if (text !== false) {
-                //text has been edited
-                if (!textcontrol.is(actor)) {
-                    textcontrol.val(text);
+                        
+            var classes = [];
+            $.each(preview.prop('className').split(/\s+/), function(i, cls) {
+                if (!/^(block|banner|background|begin-.+|end-.+|block-.+|alt-.+|horizontal|vertical|regular|inline|outline|shade)$/.test(cls)) {
+                    classes.push(cls);
                 }
-                bungees.find('div > span').each(function() {
-                    if (this !== actor) { //changing active element unfocuses element
-                        $(this).text(text);
-                    }
+            });
+
+            var text = Bungee.cleanupText(textcontrol.val());
+            
+            var layers = layercontrols.filter(':checked');
+            if (layers.length < 4) {
+                layers.each(function() {
+                    classes.push(this.value);
                 });
             }
+
+            var orientation = orientationcontrols.filter(':checked').val();
+            classes.push(orientation);
+            $('.preview').removeClass('horizontal vertical').addClass(orientation);
             
-            if (!evt || layercontrols.is(actor)) {
-                layercontrols.each(function() {
-                    bungees[this.checked ? 'addClass' : 'removeClass'](this.value);
-                });
-            }
-            
-            if (!evt || orientationcontrols.is(actor)) {
-                bungees.add('.preview').removeClass('horizontal vertical').addClass(orientationcontrols.filter(':checked').val());
-            }
-            
-            if (!evt || sizecontrol.is(actor)) {
-                bungees.css('font-size', sizecontrol.val() + 'px');
-            }
-    
-            var begin = backgroundcontrols.filter('[name=begin]:checked').val(),
-                end = backgroundcontrols.filter('[name=end]:checked').val(),
-                block = backgroundcontrols.filter('[name=block]:checked').val(),
-                square = "█",
-                bannerstring, beginwidth, squarewidth, textwidth, 
-                leftProp = orientation === 'vertical' ? 'top' : 'left',
-                widthProp = orientation === 'vertical' ? 'height' : 'width';
+            preview.css('font-size', sizecontrol.val() + 'px');
 
             if (backgroundcontrols.is(actor)) {
                 if (actor.name === 'block' || actor.value === "") {
                     $('#begin-').prop('checked', true);
                     $('#end-').prop('checked', true);
-                    begin = end = "";
                 } else {
                     $('#block-').prop('checked', true);
-                    block = "";
+                    if (actor.name === 'begin' && $('#end-').prop('checked')) {
+                        $('#end-' + actor.value).prop('checked', true);
+                    } else if (actor.name === 'end' && $('#begin-').prop('checked')) {
+                        $('#begin-' + actor.value).prop('checked', true);
+                    }
                 }
             }
             
-            if (!evt || backgroundcontrols.is(actor) || textcontrol.is(actor) || orientationcontrols.is(actor) || sizecontrol.is(actor)) {
-                bungees.removeClass('background block').find('.background.layer').remove();
-                bungees.find('.layer').css({'left':'', 'top':''});
-
-                var str;
-                if (block) {
-                    block = String.fromCharCode(Bungee.blockChars[block]);
-                    str = [];
-                    for (var i=0, l=Bungee.cleanupText(textcontrol.val()).length; i<l; i++) {
-                        str.push(block);
-                    }
-                    str = str.join('');
-                    bungees.addClass('background block');
-                    bungees.children().prepend('<div class="background layer regular">' + str + '</div>');
-                    bungees.children().prepend('<div class="background layer outline">' + str + '</div>');
-                } else if (begin || end) {
-                    if (!begin) {
-                        begin = end;
-                        $('#begin-' + end).prop('checked', true);
-                    }
-                    if (!end) {
-                        end = begin;
-                        $('#end-' + begin).prop('checked', true);
-                    }
-
-                    begin = String.fromCharCode(Bungee.beginChars[begin]);
-                    end = String.fromCharCode(Bungee.endChars[end]);
-                    bannerstring = "";
-                    if (begin) {
-                        bannerstring += begin;
-                    }
-                    bannerstring += square;
-                    if (end) {
-                        bannerstring += end;
-                    }
-                    bungees.addClass('background banner');
-                    bungees.children().prepend('<div class="background layer regular"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
-                    bungees.children().prepend('<div class="background layer outline"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
-                    setTimeout(function() {
-                        //move text after left shape
-                        var left = bungees.find('.background.layer').first().find('header');
-                        var main = bungees.find('.background.layer').first().find('figure');
-                        bungees.find('.layer:not(.background)').css(leftProp, left[widthProp]() + 'px');
-
-                        //expand blocks to fill width
-                        var textwidth = bungees.find('.layer:not(.background)').first()[widthProp]();
-                        var squarewidth = main[widthProp]();
-                        var numbersquares = Math.ceil(textwidth/squarewidth);
-                        var remainder = textwidth - (numbersquares-1)*squarewidth;
-                        var banner = [];
-                        for (var i=0; i<numbersquares; i++) {
-                            banner.push(square);
-                        }
-                        bungees.find('.background.layer figure').text(banner.join(''))[widthProp](textwidth);
-                    });
-                }
+            var begin=backgroundcontrols.filter('[name=begin]:checked').val(),
+                end=backgroundcontrols.filter('[name=end]:checked').val(),
+                block=backgroundcontrols.filter('[name=block]:checked').val();
+            
+            if (begin && end) {
+                classes.push('begin-' + begin);
+                classes.push('end-' + end);
+            } else if (block) {
+                classes.push('block-' + block);
             }
-
-            var ffs = {};
-
-            sscontrols.filter(':checked').each(function() {
-                ffs[this.value] = '1';
-            });
-
-            if (block) {
-                ffs['ss01'] = '1';
-                ffs['liga'] = '0';
-                ffs['kern'] = '0';
-            }
-    
-            var newffs = [];
-            for (var tag in ffs) {
-                newffs.push('"' + tag + '" ' + ffs[tag]);
-            }
-            bungees.css('font-feature-settings', newffs.join(', '));
+            
+            //update the preview!
+            preview.prop('className', classes.join(' ')).html(text);
+            Bungee.init(preview);
 
             if (evt) {
                 setURL();
@@ -299,17 +221,14 @@
             }
         }
     
-        layercontrols.on('change', updateLayers);
-        orientationcontrols.on('change', updateLayers);
-        sscontrols.on('change', updateLayers);
-        sizecontrol.on('input change', updateLayers);
-        backgroundcontrols.on('click', updateLayers);
-        textcontrol.on('keyup', updateLayers);
+        layercontrols.on('change', updatePreview);
+        orientationcontrols.on('change', updatePreview);
+        sscontrols.on('change', updatePreview);
+        sizecontrol.on('input change', updatePreview);
+        backgroundcontrols.on('click', updatePreview);
+        textcontrol.on('keyup', updatePreview);
 
-        // not doing live editing for now
-        //bungees.on('keyup', updateLayers);
-
-        updateLayers();
+        updatePreview();
         doCode();
         doSVG();
     }); //window.onload
