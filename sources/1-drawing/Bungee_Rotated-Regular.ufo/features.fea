@@ -2,4 +2,6 @@
 include(features/classes_rotated.fea);
 include(features/features_rotated.fea);
 # vertical features
-include(features/ss01_rotated.fea);
+include(features/vertical_rotated.fea);
+# blocks
+include(features/blocks_rotated.fea);

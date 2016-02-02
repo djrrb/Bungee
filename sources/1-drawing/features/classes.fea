@@ -1,8 +1,6 @@
 # ==================================================
-# OpenType Features for Bungee Regular
+# OpenType Classes for Bungee
 # ==================================================
-
-# CLASSES
 
 @ordn_digits = [zero one two three four five six seven eight nine];
 
@@ -113,12 +111,9 @@
 
 @vertical_banners_off = [uni25D6 uni25D7 uni25D6.deco uni25D7.deco uni25D6.bevel uni25D7.bevel uni25D6.spike uni25D7.spike uni25D6.square uni25D7.square uni25D6.rounded uni25D7.rounded uni2B1B.semichevron_e uni2B1B.semichevron_w uni25D6.wings uni25D7.wings uni27A1.w uni27A1 uni21AB.arrow uni21AC.arrow];
 
-@vertical_blocks = [uni2B24.salt_v uni25DD.curve_v uni2B1B.trapezoid_e_v uni2B1B.trapezoid_w_v arrowleft.chevron arrowright.chevron uni2B1B.chevron_w uni2B1B.chevron_e];
+@vertical_ornaments = [@vertical_banners];
+@vertical_ornaments_off = [@vertical_banners_off];
 
-@vertical_blocks_off = [uni2B24.salt uni25DD.curve uni2B1B.trapezoid_e uni2B1B.trapezoid_w arrowup.chevron arrowdown.chevron uni2B1B.chevron_n uni2B1B.chevron_s];
-
-@vertical_ornaments = [@vertical_banners @vertical_blocks];
-@vertical_ornaments_off = [@vertical_banners_off @vertical_blocks_off];
 
 ####
 
@@ -145,9 +140,9 @@
 ####
 
 
-@downer_off = [I.v Igrave.v Iacute.v Icircumflex.v Idieresis.v Itilde.v Imacron.v Ibreve.v Iogonek.v Idotaccent.v J.v Jcircumflex.v L.v Lacute.v Lcommaaccent.v Lcaron.v M.v Ldot.v Lslash.v I.salt_v Igrave.salt_v Iacute.salt_v Icircumflex.salt_v Idieresis.salt_v Itilde.salt_v Imacron.salt_v Ibreve.salt_v Iogonek.salt_v Idotaccent.salt_v L.salt_v Lacute.salt_v Lcommaaccent.salt_v Lcaron.salt_v Ldot.salt_v Lslash.salt_v L.salt_s_v M.salt_v W.salt_v Wcircumflex.salt_v Wgrave.salt_v Wacute.salt_v Wdieresis.salt_v IJ.salt_v IJ.stack_v I.s_v J.s_v L.s_v W.s_v I.salt_s_v W.salt_s_v];
+@downer_off = [I.v Igrave.v Iacute.v Icircumflex.v Idieresis.v Itilde.v Imacron.v Ibreve.v Iogonek.v Idotaccent.v J.v Jcircumflex.v L.v Lacute.v Lcommaaccent.v Lcaron.v M.v Ldot.v Lslash.v I.salt_v Igrave.salt_v Iacute.salt_v Icircumflex.salt_v Idieresis.salt_v Itilde.salt_v Imacron.salt_v Ibreve.salt_v Iogonek.salt_v Idotaccent.salt_v L.salt_v Lacute.salt_v Lcommaaccent.salt_v Lcaron.salt_v Ldot.salt_v Lslash.salt_v L.salt_s_v M.salt_v W.salt_v Wcircumflex.salt_v Wgrave.salt_v Wacute.salt_v Wdieresis.salt_v IJ.salt_v IJ.stack_v I.s_v J.s_v L.s_v W.s_v I.salt_s_v W.salt_s_v W.v Wcircumflex.v Wgrave.v Wacute.v Wdieresis.v];
 
-@downer = [.notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef];
+@downer = [.notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef];
 
 
 

@@ -1,0 +1,335 @@
+Converted Files:
+****************
+
+Bungee-Regular.ufo
+------------------
+source: /Users/david/Documents/Typefaces/Bungee/sources/1-drawing/Bungee-Regular.ufo
+
+Build OTF
+'''''''''
+    path: /Users/david/Documents/Typefaces/Bungee/documentation/samples/untitled folder/Bungee-Regular.otf
+    Source is a UFO file. Generate OTF.
+        --------------------
+        
+        parts Report
+        
+        [Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+        
+        
+        makeotf Report
+        
+        makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "font.otf.tmp" "-o" "tmpdL4jBS.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmpdL4jBS.otf' Revision 1.000
+        Done.
+        
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: A.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Agrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Aacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Acircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Atilde.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Adieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Aring.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Amacron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Abreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Aogonek.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: B.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: C.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ccedilla.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Cacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ccircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Cdotaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ccaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: D.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Dcaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: E.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Egrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Eacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ecircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Edieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Emacron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ebreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Edotaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Eogonek.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ecaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: F.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: G.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Gcircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Gbreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Gdotaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Gcommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: H.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Hcircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: I.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Igrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Iacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Icircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Idieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Itilde.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Imacron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ibreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Iogonek.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: J.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Jcircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: K.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Kcommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: L.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Lacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Lcommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Lcaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: M.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: N.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ntilde.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Nacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ncommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ncaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: O.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ograve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Oacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ocircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Otilde.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Odieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Omacron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Obreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ohungarumlaut.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: P.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Q.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: R.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Racute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Rcommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Rcaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: S.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Sacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Scircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Scedilla.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Scaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Scommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: T.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Tcommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Tcaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: U.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ugrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Uacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ucircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Udieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Utilde.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Umacron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ubreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Uring.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Uhungarumlaut.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Uogonek.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: V.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: W.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Wcircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Wgrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Wacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Wdieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: X.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Y.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Yacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ycircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ydieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ygrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Z.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Zacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Zdotaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Zcaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: AE.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Eth.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Oslash.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Thorn.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Dcroat.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Hbar.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: IJ.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Ldot.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Lslash.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Eng.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: OE.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Tbar.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss12' feature: Germandbls.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: A.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Agrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Aacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Acircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Atilde.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Adieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Aring.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Amacron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Abreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Aogonek.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: B.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: C.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ccedilla.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Cacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ccircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Cdotaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ccaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: D.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Dcaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: E.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Egrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Eacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ecircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Edieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Emacron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ebreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Edotaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Eogonek.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ecaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: F.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: G.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Gcircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Gbreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Gdotaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Gcommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: H.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Hcircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: I.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Igrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Iacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Icircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Idieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Itilde.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Imacron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ibreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Iogonek.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: J.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Jcircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: K.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Kcommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: L.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Lacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Lcommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Lcaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: M.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: N.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ntilde.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Nacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ncommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ncaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: O.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ograve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Oacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ocircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Otilde.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Odieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Omacron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Obreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ohungarumlaut.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: P.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Q.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: R.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Racute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Rcommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Rcaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: S.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Sacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Scircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Scedilla.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Scaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Scommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: T.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Tcommaaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Tcaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: U.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ugrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Uacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ucircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Udieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Utilde.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Umacron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ubreve.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Uring.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Uhungarumlaut.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Uogonek.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: V.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: W.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Wcircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Wgrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Wacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Wdieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: X.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Y.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Yacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ycircumflex.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ydieresis.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ygrave.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Z.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Zacute.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Zdotaccent.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Zcaron.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: AE.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Eth.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Oslash.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Thorn.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Dcroat.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Hbar.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: IJ.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Ldot.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Lslash.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Eng.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: OE.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Tbar.v
+        makeotfexe [NOTE] <Bungee-Regular> Removing duplicate single positioning in 'ss13' feature: Germandbls.v
+        makeotfexe [NOTE] Wrote new font file 'tmpdL4jBS.otf'.
+        
+        --------------------
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpdL4jBS.otf. Start time: Mon Feb  1 18:12:39 2016.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ....................................
+        Saving font file with new hints...Mon Feb  1 18:12:46 2016
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpdL4jBS.otf. End time: Mon Feb  1 18:12:46 2016.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Documents/Typefaces/Bungee/documentation/samples/untitled folder/Bungee-Regular.woff
+
+
+
+TTFAutohint options:
+********************
+addTTFAutoHintInfo     = False
+dwClearType            = False
+fallbackScript         = False
+gdiClearType           = True
+grayScale              = False
+hintRangeMaximum       = 50
+hintRangeMinimum       = 8
+hintingLimit           = 200
+noHintingLimit         = False
+noXHeightIncreaseLimit = False
+overRideFontLicense    = False
+preHinting             = False
+symbolFont             = False
+xHeightIncreaseLimit   = 14

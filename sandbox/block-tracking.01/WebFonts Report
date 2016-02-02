@@ -1,0 +1,87 @@
+Converted Files:
+****************
+
+Bungee-Regular.ufo
+------------------
+source: /Users/david/Documents/Typefaces/Bungee/sources/1-drawing/Bungee-Regular.ufo
+
+Build OTF
+'''''''''
+    path: /Users/david/Documents/Typefaces/Bungee/documentation/samples/untitled folder 7/Bungee-Regular.otf
+    Source is a UFO file. Generate OTF.
+        --------------------
+        
+        parts Report
+        
+        [Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'c David Jonathan Ross 20082015	'
+        
+        
+        makeotf Report
+        
+        makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe "-f" "font.otf.tmp" "-o" "tmpBJLBqb.otf" -ff "features" -gf "glyphOrder" -mf "menuname" -r
+        Built release mode font 'tmpBJLBqb.otf' Revision 1.000
+        Done.
+        
+        makeotfexe [NOTE] Wrote new font file 'tmpBJLBqb.otf'.
+        
+        --------------------
+        Hinting font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpBJLBqb.otf. Start time: Tue Feb  2 10:49:58 2016.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        ....................................
+        Saving font file with new hints...Tue Feb  2 10:50:04 2016
+        Done with font /var/folders/pw/s1l1bh2d0c559xgnrxlndqpm0000gq/T/tmpBJLBqb.otf. End time: Tue Feb  2 10:50:04 2016.
+        
+
+Build WOFF (OTF)
+''''''''''''''''
+    path: /Users/david/Documents/Typefaces/Bungee/documentation/samples/untitled folder 7/Bungee-Regular.woff
+
+
+
+TTFAutohint options:
+********************
+addTTFAutoHintInfo     = False
+dwClearType            = False
+fallbackScript         = False
+gdiClearType           = True
+grayScale              = False
+hintRangeMaximum       = 50
+hintRangeMinimum       = 8
+hintingLimit           = 200
+noHintingLimit         = False
+noXHeightIncreaseLimit = False
+overRideFontLicense    = False
+preHinting             = False
+symbolFont             = False
+xHeightIncreaseLimit   = 14

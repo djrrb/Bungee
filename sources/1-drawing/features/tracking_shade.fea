@@ -1,9 +1,0 @@
-feature ss11 {
-    featureNames {
-        name "Block spacing";
-        name 1 "Block spacing";
-	};
-    sub @vertical_sorts by @vertical_sorts_off;
-    pos @all <65 0 130 0>;
-    } ss11;
-    

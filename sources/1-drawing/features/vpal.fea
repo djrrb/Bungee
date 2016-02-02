@@ -1,3 +1,8 @@
+# ==================================================
+# Vertical Spacing for Bungee
+# ==================================================
+
+
 feature vpal { # Vertical Positioning and Layout
 	pos block.v <0 0 0 0>;
 	pos uni25D6.v <0 0 0 -247>;
@@ -300,4 +305,6 @@ feature vpal { # Vertical Positioning and Layout
 	pos N.salt_s_v <0 108 0 -181>;
 	pos W.salt_s_v <0 100 0 -158>;
 	pos Y.salt_s_v <0 114 0 -199>;
+	
+	pos space.v <0 0 0 -771>; # 0 0
 } vpal;

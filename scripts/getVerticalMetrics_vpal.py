@@ -1,12 +1,11 @@
 
-src = OpenFont(u"/Users/david/Dropbox/Typefaces/Bungee/sources/1-drawing/bungee-regular.ufo", showUI=False)
 f = CurrentFont()
 
 print 'feature vpal {'
 
 for gname in f.glyphOrder:
     g = f[gname]
-    metricsLayer = src[g.name].getLayer('metrics')
+    metricsLayer = f[g.name].getLayer('metrics')
 
     xplacement = 0
     yplacement = 0
