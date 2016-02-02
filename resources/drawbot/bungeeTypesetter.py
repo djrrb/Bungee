@@ -291,7 +291,7 @@ if __name__ == "__main__":
     trackingValue = Tracking/1000*250
     tracking(trackingValue)
     
-    # if there is no text, add a space so we don't hit an traceback
+    # if there is no text, add a space so we don't hit a traceback
     if myText == '':
         myText = ' '
         print 'Enter some text!'
@@ -392,12 +392,15 @@ if __name__ == "__main__":
         # if we are dealing with them, make some modifications to the text that follows:
         # - turn vertical alternates are turned ON
         # - scale the text down by 90%
-        # - add tracking (usually 280, but in this case 420 because of the 90% scale)
+        # - add tracking (usually 280, but in this case 140 because of the 90% scale)
         # - recalculate offsets based on the new text size
             
         if doBlockShapes:
-            addTracking = 420
-            openTypeFeatures(ss01=True)
+            addTracking = 140
+            if isVertical:
+                openTypeFeatures(ss12=True)
+            else:
+                openTypeFeatures(ss11=True)
             scaleValue = .9
         else:
             scaleValue = 1
