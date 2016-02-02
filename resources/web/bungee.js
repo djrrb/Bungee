@@ -111,8 +111,9 @@
             //add the text layers
             var layers = classes.match(/\b(regular|inline|outline|shade)(-\S+)?/gi);
             if (!layers) {
-                master.addClass('regular inline outline shade');
-                classes += ' regular inline outline shade';
+                layers = ['regular', 'outline', 'inline', 'shade']
+                master.addClass(layers.join(' '));
+                classes += ' ' + layers.join(' ');
             }
             var match, layer;
             for (var i in layers) {

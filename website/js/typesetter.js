@@ -71,7 +71,7 @@
                 topclass = topclass.replace(allfour, '');
             }
             code += '<div class="' + topclass + '">';
-            code += preview.find('.layer.text span').first().html().trim();
+            code += Bungee.cleanupText(textcontrol.val());
             code += '</div>\n';
             
             code = code.replace(/[<>&]/g, function(c) { 
