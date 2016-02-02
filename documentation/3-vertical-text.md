@@ -4,19 +4,19 @@ Bungee’s vertical features are implemented via three OpenType features:
 
 ### *vert*: Vertical Forms
 
-Replace default horizontal forms with special glyphs drawn for vertical setting. These alternates appear to be monowidth so that they foster better vertical alignment. The hyphen and other basic punctuation are rotated 90°. Accented glyphs are drawn slightly shorter to optically compensate for the height of the diacritic.
+This feature replaces the default horizontal forms with special glyphs drawn for vertical setting. These alternates appear to be monowidth so that they foster better vertical alignment. The hyphen and other basic punctuation are rotated 90°. Accented glyphs are drawn slightly shorter to optically compensate for the height of the diacritic.
 
 <img src="images/design-vert.png" alt="Vertical forms" width="200" />
 
 ### *vpal*: Vertical Positioning and Layout
 
-Reset the vertical sidebearings and advance heights to create proportional vertical spacing. Instead of the fixed-height approach of setting each letter followed by a hard return, this feature allows glyphs with accents or tails (like É or Q) to occupy more vertical space than most characters, and for optical adjustments to be made that improve spacing (for example, the wide crossbar at the top of the letter 'T' is padded by more space than the narrow stem at the bottom).
+This feature resets the glyphs’ vertical sidebearings and advance heights to create proportional vertical spacing. Instead of the fixed-height approach of setting each letter followed by a hard return, Bungee’s glyphs with accents or tails (like É or Q) occupy more vertical space than most characters, and optical adjustments are used to improve spacing (for example, the wide crossbar at the top of the letter 'T' is padded by more space than the narrow stem at the bottom).
 
 <img src="images/design-vpal.png" alt="Vertical forms" width="200" />
 
 ### *vkrn*: Vertical Kerning
 
-Adjust the vertical spacing of individual glyph pairs so that they are more evenly spaced. These pairs often involve letters like P, F, L, and J, which have large areas of whitespace that need to be tightened when used in combination with certain other letters.
+This feature adjusts the vertical spacing of individual glyph pairs so that they are more evenly spaced. These pairs often involve letters like P, F, L, and J, which have large areas of whitespace that need to be tightened when used in combination with certain other letters.
 
 <img src="images/design-vkrn.png" alt="Vertical forms" width="200" />
 
@@ -30,7 +30,7 @@ Several professional design applications have separate vertical text tools, whic
 
 In most apps, the Character palette provides options for vertical tracking and kerning.
 
-Desktop apps that natively support vertical text include:
+Desktop apps that natively support vertical text in one way or another include:
 
 * Adobe Photoshop
 * Adobe Illustrator

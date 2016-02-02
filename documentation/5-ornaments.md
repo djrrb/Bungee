@@ -34,7 +34,7 @@ In order to use blockformat the letter layers to space correctly with the block 
 
 <img src="images/design-ornaments-block-2.png" alt="Block shapes." width="650" />
 
-Use either OpenType Stylistic Set 11 (Horizontal block spacing) or OpenType Stylistic Set 12 (Vertical block spacing) to respace all characters so they are centered on the block width.
+Use either OpenType **Stylistic Set 11** (Horizontal block spacing) or OpenType **Stylistic Set 12** (Vertical block spacing) to respace all characters so they are centered on the block width.
 
 <img src="images/design-ornaments-independent-sample.png" alt="Block shapes." width="650" />
 
