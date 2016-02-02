@@ -8,7 +8,7 @@
         var allcontrols = $('#controls input');
         var layercontrols = $('#controls input[name=layer]');
         var orientationcontrols = $('#controls input[name=orientation]');
-        var sscontrols = $('#controls input[name=ss]');
+        var altcontrols = $('#controls input[name=alt]');
         var sizecontrol = $('#controls input[name=size]');
         var textcontrol = $('#controls input[name=text]');
         var backgroundcontrols = $('#background-controls input');
@@ -44,7 +44,7 @@
             };
 
             preview.find('.layer').each(function() {
-                styles['.bungee .' + this.className.replace(/ /g, '.').replace('.layer', '')] = {
+                styles['.bungee .' + this.className.replace(/\s+/g, '.').replace('.layer', '')] = {
                     'color': $(this).css('color')
                 }
             });
@@ -66,10 +66,12 @@
             code += '<!-- end of </head> content -->\n\n';
             
             var topclass = preview.prop('className');
-            var allfour = / (regular|inline|outline|shade)/g;
+            var allfour = /\b(regular|inline|outline|shade)\b(?!-)/g;
             if (topclass.match(allfour).length === 4) {
-                topclass = topclass.replace(allfour, '');
+                topclass = topclass.replace(allfour, ' ');
             }
+            topclass = topclass.replace(/(^|\s)(horizontal|background|block|banner)\b(?!-)/g, ' ');
+            topclass = topclass.replace(/\s\s+/g, ' ').trim();
             code += '<div class="' + topclass + '">';
             code += Bungee.cleanupText(textcontrol.val());
             code += '</div>\n';
@@ -122,8 +124,8 @@
                 req[this.name] = Bungee[this.name + 'Chars'][this.value];
             })
             req.ss = [];
-            sscontrols.filter(':checked').each(function() {
-                req.ss.push(this.value);
+            altcontrols.filter(':checked').each(function() {
+                req.ss.push(Bungee.stylisticAlternates[this.value]);
             });
             req.ss = req.ss.join(',');
             
@@ -182,6 +184,7 @@
             
             preview.css('font-size', sizecontrol.val() + 'px');
 
+            //backgrounds
             if (backgroundcontrols.is(actor)) {
                 if (actor.name === 'block' || actor.value === "") {
                     $('#begin-').prop('checked', true);
@@ -207,6 +210,11 @@
                 classes.push('block-' + block);
             }
             
+            //alts
+            altcontrols.filter(':checked').each(function() {
+                classes.push('alt-' + this.value);
+            });
+            
             //update the preview!
             preview.prop('className', classes.join(' ')).html(text);
             Bungee.init(preview);
@@ -223,7 +231,7 @@
     
         layercontrols.on('change', updatePreview);
         orientationcontrols.on('change', updatePreview);
-        sscontrols.on('change', updatePreview);
+        altcontrols.on('change', updatePreview);
         sizecontrol.on('input change', updatePreview);
         backgroundcontrols.on('click', updatePreview);
         textcontrol.on('keyup', updatePreview);
