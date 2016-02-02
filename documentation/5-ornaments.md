@@ -1,22 +1,20 @@
 # Ornaments
 
-Bungee comes with a fun set of arrows, indexes, and shapes that. 
+Bungee comes with a large set of arrows, pointing fists, and background shapes that are inspired by the shapes and decorations on old commercial signs.
 
-Unicode values are assigned to ornaments when they are available. Otherwise, codepoints in the Private Use Area area are used. In design apps, ornaments can be easily accessed via the Glyphs palette. 
+Unicode values are assigned to ornaments when they are available; otherwise, codepoints in the Private Use Area area are used. In design apps, ornaments can be easily accessed via the Glyphs palette. See the (HTML demonstrations)[/examples] for examples of them in use.
 
 Note that not all ornaments are available in Bungee’s Inline and Shade layers.
 
 ## Arrows and Indexes
 
-Bungee comes with a variety of straight and bent arrows, as well as four styles of pointing hands (two solid, two outlined).
+Bungee contains a variety of straight and bent arrows in all directions, as well as four styles of pointing hands (two solid, two outlined).
 
 <img src="images/design-ornaments-arrows.png" alt="Arrows and indexes." width="400" />
 
-## Shapes
+## Banners
 
-### Banner Shapes
-
-Some shapes are designed to connect seamlessly to other shapes, which you can use to create continuous banners. You can elongate banners using the Full Block character (█, U+2588). 
+To create continuous banners of any size, use Bungee’s various beginning and ending banner elements, connected by as many Full Blocks (█, U+2588) as you need.
 
 <img src="images/design-ornaments-banners.png" alt="Banners." width="650" />
 
@@ -24,20 +22,27 @@ For example, here is a directional sign out of a half circle, two full blocks, a
 
 <img src="images/design-ornaments-layer.png" alt="Ornaments as layers." width="650" />
 
-If you center-align the entire text block, you will not have to worry as much about making the layers line up. You can use horizontal scaling and tracking/letter-spacing to make minor adjustments to the positions.
+If you center-align the entire text block, you will not have to worry as much about making the layers line up. You can use horizontal scaling, tracking, or CSS letter-spacing to make minor adjustments to the length of the banner.
 
 <img src="images/design-ornaments-scale.png" alt="Horizontal scaling in Illustrator." width="600" />
 
-### Independent Shapes
+## Blocks
 
-Other ornaments can be set independently to encircle a single letter. When enclosing letters within independent shapes, use Bungee’s monowidth vertical forms (accessible via the Glyphs palette, under Vertical Forms or Stylistic Set 01).
+Bungee’s block shapes are designed to encircle a single letter. These blocks are wider and taller than the letters, occupying exactly 1.28× the height and width of the em. 
 
-<img src="images/design-ornaments-independent-sample.png" alt="Independent ornaments." width="650" />
+In order to use blockformat the letter layers to space correctly with the block shapes.
 
-Add *280 units* to the alphabetical layers to make them line up with the independent ornaments.
+<img src="images/design-ornaments-block-2.png" alt="Block shapes." width="650" />
 
-<img src="images/design-ornaments-independent.png" alt="Using independent ornaments." width="650" />
-<img src="images/design-ornaments-independent-2.png" alt="Independent ornaments." width="650" />
+Use either OpenType Stylistic Set 11 (Horizontal block spacing) or OpenType Stylistic Set 12 (Vertical block spacing) to respace all characters so they are centered on the block width.
+
+<img src="images/design-ornaments-independent-sample.png" alt="Block shapes." width="650" />
+
+When OpenType features are not available, you can add 280 units of tracking to the alphabetical layers to make them align with the default spacing of the block shapes.
+
+<img src="images/design-ornaments-block.png" alt="Using independent ornaments." width="650" />
+
+If you wish to have more space around the letterforms, simply set that layer at a smaller font size than the blocks, add tracking, and reposition it accordingly.
 
 
 * Previous: [Stylistic alternates](4-stylistic-alternates.md)

@@ -4,8 +4,8 @@
 
 feature ss11 { # Block forms (experimental feature)
     featureNames {
-        name "Block forms";
-        name 1 "Block forms";
+        name "Horizontal block spacing";
+        name 1 "Horizontal block spacing";
 	};
 	lookup monospace {
 	pos .notdef <140 0 280 0>;
@@ -1088,8 +1088,8 @@ feature ss11 { # Block forms (experimental feature)
 
 feature ss12 { # Vertical Block forms (experimental feature)
     featureNames {
-        name "Vertical block forms";
-        name 1 "Vertical block forms";
+        name "Vertical block spacing";
+        name 1 "Vertical block spacing";
 	};
 	lookup monospace_vertical {
 
