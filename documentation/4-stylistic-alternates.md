@@ -27,37 +27,37 @@ Replace forms of E with an decorative alternate with a rounded left side.
 
 Replace the serifed I with an serifless alternate. Note: this is a very narrow character that may result in less-than-ideal vertical setting.
 
-<img src="images/design-alternates-i.png" alt="Serifless I" height="200" />
+<img src="images/design-alternates-i.png" alt="Serifless I" height="200" style="background:#871414" />
 
 ## Stylistic Set 05: Sans-serif L
 
 Replace the default form of L with the more conventional form without a vertical serif.
 
-<img src="images/design-alternates-l.png" alt="Serifless L" height="200" />
+<img src="images/design-alternates-l.png" alt="Serifless L" height="200" style="background:#871414" />
 	
 ## Stylistic Set 06: Alternate ampersand
 
 Replace the default ‘ET’ ampersand with an alternate that resembles a stylized ‘E’ with a vertical stroke.
 	
-<img src="images/design-alternates-ampersand.png" alt="Alternate ampersand" height="200" />
+<img src="images/design-alternates-ampersand.png" alt="Alternate ampersand" height="200" style="background:#871414" />
 
 ## Stylistic Set 07: Small quotes
 
 Replace the curly apostrophe and matching left quote with smaller, less obtrusive versions.
 
-<img src="images/design-alternates-apostrophe.png" alt="Small quotes" height="200" />
+<img src="images/design-alternates-apostrophe.png" alt="Small quotes" height="200" style="background:#871414" />
 
 ## Stylistic Set 08: Sequential Ĳ
 
 Replace the ligated Ĳ (U+0132) with two separate letterforms.
 	
-<img src="images/design-alternates-ij.png" alt="Sequential IJ" height="200" />
+<img src="images/design-alternates-ij.png" alt="Sequential IJ" height="200" style="background:#871414" />
 	
 ## Stylistic Set 09: John Downer’s recommendations
 
 Sign painter and type designer John Downer warns against vertical type and lettering which includes problematic characters like I, J, L, M, and W, which are unusually narrow or wide. This feature disables those characters.
 
-<img src="images/design-alternates-downer.png" style="width: 3em" alt="Downer" width="200"/>
+<img src="images/design-alternates-downer.png" style="width: 3em" alt="Downer" width="200" style="background:#871414" />
 
 
 * Previous: [Vertical text](3-vertical-text.md)
