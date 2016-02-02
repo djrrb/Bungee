@@ -233,47 +233,60 @@
  {
     display: inline-block;
     font-weight: normal;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
 .bungee.banner figure {
     overflow: hidden;
 }
 
-/* horizontal mode nudges */
+/* block shapes */
 
-.bungee.background span {
-    /* smaller font size inside shapes */
+.bungee.block span {
     font-size: 0.9em;
+    letter-spacing: 0.4222em ; /* 1.28/fontsize - 1 */
+    left: 0.2111em; /* letterspacing/2 */
     top: -0.04em; /* -(1-fontsize)/2 * 80% */
 }
 
-.bungee.background.block span {
-    /* nudge line up to compensate for smaller font */
-    letter-spacing: 0.4222em ; /* 1.28/fontsize - 1 */
-    left: 0.2111em; /* (1.28-fontsize)/2/fontsize */
-}
-
-.bungee.background.shade span {
+.bungee.block.shade span {
     /* offset slightly to compensate for shade */
     left: 0.2511em; /* left + 0.04 */
-}
-
-.bungee.background.block.shade span {
     top: -0.08em; /* top - 0.04 */
 }
 
-/* vertical mode nudges */
-
-.bungee.vertical.background.block span {
+.bungee.vertical.block span {
+    letter-spacing: 0.56em; /* this is a mystery */
     left: 0;
-    top: 0.28em; /* (1.28/fontsize - 1)/2 */
-    letter-spacing: 0.56em;
+    top: 0.28em; /* letterspacing/2 */
 }
 
-.bungee.vertical.background.block.shade span {
+.bungee.vertical.block.shade span {
     left: 0.04em; /* left + 0.04 */
-    top: 0.1711em; /* top - 0.04 */
+    top: 0.24em; /* top - 0.04 */
+}
+
+/* banners */
+.bungee.banner span {
+    font-size: 0.9em;
+    left: 0;
+    top: -0.04em; /* -(1-fontsize)/2 * 80% */
+}
+
+.bungee.banner.shade span {
+    /* offset slightly to compensate for shade */
+    left: 0.04em; /* left + 0.04 */
+    top: -0.08em; /* top - 0.04 */
+}
+
+.bungee.vertical.banner span {
+    left: 0;
+    top: 0;
+}
+
+.bungee.vertical.banner.shade span {
+    left: 0.04em; /* left + 0.04 */
+    top: -0.04em; /* top - 0.04 */
 }
 
 
