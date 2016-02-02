@@ -109,15 +109,24 @@
             });
 
             //add the text layers
-            var layers = classes.match(/\b(regular|inline|outline|shade)\b/gi);
+            var layers = classes.match(/\b(regular|inline|outline|shade)(-\S+)?/gi);
             if (!layers) {
                 master.addClass('regular inline outline shade');
                 classes += ' regular inline outline shade';
             }
-            wrapper.append("<div class='layer text shade'><span>" + text + "</span></div>");
-            wrapper.append("<div class='layer text outline'><span>" + text + "</span></div>");
-            wrapper.append("<div class='layer text regular'><span>" + text + "</span></div>");
-            wrapper.append("<div class='layer text inline'><span>" + text + "</span></div>");
+            var match, layer;
+            for (var i in layers) {
+                layer = $("<div class='layer text'><span>" + text + "</span></div>");
+                master.addClass(layers[i]);
+                if (match = layers[i].match(/^(\w+)-(\S+)/)) {
+                    master.addClass(match[1]);
+                    layer.addClass(match[1]);
+                    layer.css('color', (match[2].match(/^([0-9a-f]{3}|[0-9a-f]{6})$/i) ? '#' : '') + match[2]);
+                } else {
+                    layer.addClass(layers[i]);
+                }
+                wrapper.append(layer);
+            }
 
             //process banner/block classes
             var begin=(classes.match(/begin-(\S+)/) || ['',''])[1], 
