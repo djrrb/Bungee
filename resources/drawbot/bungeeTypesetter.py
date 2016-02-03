@@ -391,8 +391,8 @@ if __name__ == "__main__":
         # the block shapes are especially finnicky.
         # if we are dealing with them, make some modifications to the text that follows:
         # - turn vertical alternates are turned ON
-        # - scale the text down by 90%
-        # - add tracking (usually 280, but in this case 140 because of the 90% scale)
+        # - scale the text down to 90%
+        # - add tracking of 140
         # - recalculate offsets based on the new text size
             
         if doBlockShapes:
