@@ -42,7 +42,7 @@ When OpenType features are not available, you can add 280 units of tracking to t
 
 <img src="images/design-ornaments-block.png" alt="Using independent ornaments." width="650" />
 
-If you wish to have more space around the letterforms, simply set that layer at a smaller font size than the blocks, add tracking, and reposition it accordingly.
+If you wish to have more space around the letterforms, simply set that layer at a smaller font size than the blocks, add tracking, and reposition it accordingly. For example, centering and scaling the font 90% will involve 142 units of tracking and a 36-unit vertical shift.
 
 
 * Previous: [Stylistic alternates](4-stylistic-alternates.md)
