@@ -1,45 +1,7 @@
 <html>
 	<head>
 	
-	<!--
-	
-			  @font-face {
-			font-family: 'Bungee Regular';
-			src: url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.eot?#ie) format(embedded-opentype),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.woff2) format(woff2),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.woff) format(woff),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.ttf) format(opentype),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.svg#BungeeRegular) format(svg);
-		  }
 
-		  @font-face {
-			font-family: 'Bungee Outline';
-			src: url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.eot?#ie) format(embedded-opentype),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.woff2) format(woff2),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.woff) format(woff),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.ttf) format(opentype),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.svg#BungeeOutline) format(svg);
-		  }
-
-		  @font-face {
-			font-family: 'Bungee Inline';
-			src: url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.eot?#ie) format(embedded-opentype),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.woff2) format(woff2),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.woff) format(woff),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.ttf) format(opentype),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.svg#BungeeInline) format(svg);
-		  }
-
-		  @font-face {
-			font-family: 'Bungee Shade';
-			src: url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.eot?#ie) format(embedded-opentype),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.woff2) format(woff2),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.woff) format(woff),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.ttf) format(opentype),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.svg#BungeeShade) format(svg);
-		  }
-		  
-		  -->
 	
 		<style>
 		
@@ -50,7 +12,6 @@
 			src: url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.eot?#ie) format(embedded-opentype),
 				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.woff2) format(woff2),
 				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.woff) format(woff),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.ttf) format(opentype),
 				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Regular.svg#BungeeRegular) format(svg);
 		  }
 
@@ -59,21 +20,21 @@
 			src: url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.eot?#ie) format(embedded-opentype),
 				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.woff2) format(woff2),
 				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.woff) format(woff),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.ttf) format(opentype),
 				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Outline.svg#BungeeOutline) format(svg);
 		  }
 
 		  @font-face {
 			font-family: 'Bungee Inline';
-				 src: url(BungeeLayers-Inline.woff) format(woff);
-		  }
+			src: url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.eot?#ie) format(embedded-opentype),
+				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.woff2) format(woff2),
+				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.woff) format(woff),
+				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Inline.svg#BungeeShade) format(svg);		  }
 
 		  @font-face {
 			font-family: 'Bungee Shade';
 			src: url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.eot?#ie) format(embedded-opentype),
 				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.woff2) format(woff2),
 				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.woff) format(woff),
-				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.ttf) format(opentype),
 				 url(../../fonts/Bungee_OTF/webfonts/BungeeLayers-Shade.svg#BungeeShade) format(svg);
 		  }
 
@@ -148,21 +109,21 @@
 			text-orientation: upright;
 			/* implement spacing and kerning */
 			-moz-font-feature-settings: "vkrn", "vpal";
-			-webkit-font-feature-settings: "vkrn", "vpal";
-			font-feature-settings: "vkrn", "vpal";
+			-webkit-font-feature-settings: "vkrn", "vpal", 'ss02', 'ss03';
+			font-feature-settings: "vkrn", "vpal", 'ss02', 'ss03';
 		}
 		  
 		</style>
 	</head>
 	<body>
 
-		<div class="Bungee vertical">
-		  <div>
-		  	<div class="Regular">Bungee</div>
-			<div class="Inline">Bungee</div>
-		  	<div class="Outline">Bungee</div>
-		  	<div class="Shade">Bungee</div>
-		  </div>
+		<div class="Bungee vertical" style="height: 100em">
+
+		  	<div class="Regular">H-ELO</div>
+			<div class="Inline">H-ELO</div>
+		  	<div class="Outline">H-ELO</div>
+		  	<div class="Shade">H-ELO</div>
+
 		</div>
 		
 	</body>
