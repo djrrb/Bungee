@@ -291,12 +291,13 @@
 
 
 /* for no-vertical-text browsers, need to rotate all the transforms */
-.no-vertical-text .bungee.vertical.background span {
-    top: -0.056em; 
-    left: 0.056em; 
+
+.no-vertical-text .bungee.vertical.block span {
+    top: -0.0556em; /* (1-fontsize)/fontsize/2 */
+    left: 0.28em; /* letterspacing/2 */
 }
 
-.no-vertical-text .bungee.vertical.background.shade span {
-    top: -0.096em; /* top - 0.04 */
-    left: 0.016em; /* left - 0.04 */
+.no-vertical-text .bungee.vertical.block.shade span {
+    top: -0.0956em; /* top - 0.04 */
+    left: 0.24em; /* left - 0.04 */
 }

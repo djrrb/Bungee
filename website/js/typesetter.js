@@ -8,6 +8,7 @@
         var allcontrols = $('#controls input');
         var layercontrols = $('#controls input[name=layer]');
         var orientationcontrols = $('#controls input[name=orientation]');
+        var rotatedcontrol = $('#controls input[name=rotated]');
         var altcontrols = $('#controls input[name=alt]');
         var sizecontrol = $('#controls input[name=size]');
         var textcontrol = $('#controls input[name=text]');
@@ -182,6 +183,9 @@
             classes.push(orientation);
             $('.preview').removeClass('horizontal vertical').addClass(orientation);
             
+            //rotated mode
+            $('html')[rotatedcontrol.prop('checked') ? 'addClass' : 'removeClass']('no-vertical-text');
+            
             preview.css('font-size', sizecontrol.val() + 'px');
 
             //backgrounds
@@ -228,12 +232,9 @@
                 }
             }
         }
-    
-        layercontrols.on('change', updatePreview);
-        orientationcontrols.on('change', updatePreview);
-        altcontrols.on('change', updatePreview);
-        sizecontrol.on('input change', updatePreview);
-        backgroundcontrols.on('click', updatePreview);
+
+        allcontrols.on('change', updatePreview);
+        sizecontrol.on('input', updatePreview);
         textcontrol.on('keyup', updatePreview);
 
         updatePreview();

@@ -52,6 +52,10 @@
     clear: left;
 }
 
+.no-vertical-text #typesetter .preview + .preview {
+    display: none;
+}
+
 #svg, #png {
     display: inline-block;
     border: 1px solid black;
