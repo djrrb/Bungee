@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Udieresisgrave.alt000" format="1">
+  <advance width="746"/>
+  <outline>
+    <component base="Udieresis.alt000"/>
+    <component base="grave.vert.alt000" xOffset="360" yOffset="-30"/>
+  </outline>
+</glyph>

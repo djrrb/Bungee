@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2B1B.alt002" format="1">
+  <advance width="1280.0"/>
+  <outline>
+    <contour>
+      <point x="120" y="-160" type="line" smooth="yes"/>
+      <point x="1160" y="-160" type="line"/>
+      <point x="1160" y="880" type="line" smooth="yes"/>
+      <point x="120" y="880" type="line"/>
+    </contour>
+    <contour>
+      <point x="1150" y="-150" type="line" smooth="yes"/>
+      <point x="130" y="-150" type="line"/>
+      <point x="130" y="870" type="line" smooth="yes"/>
+      <point x="1150" y="870" type="line"/>
+    </contour>
+  </outline>
+</glyph>

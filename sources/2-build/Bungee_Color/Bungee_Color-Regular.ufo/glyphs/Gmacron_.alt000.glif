@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Gmacron.alt000" format="1">
+  <advance width="708"/>
+  <outline>
+    <component base="G.alt000"/>
+    <component base="macron.alt000" xOffset="131"/>
+  </outline>
+</glyph>

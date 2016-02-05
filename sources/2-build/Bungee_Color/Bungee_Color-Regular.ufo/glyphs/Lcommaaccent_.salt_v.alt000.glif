@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcommaaccent.salt_v.alt000" format="1">
+  <advance width="1000"/>
+  <outline>
+    <component base="L.salt_s_v.alt000" yOffset="40"/>
+    <component base="commaaccent.v.alt000" yOffset="40"/>
+  </outline>
+</glyph>

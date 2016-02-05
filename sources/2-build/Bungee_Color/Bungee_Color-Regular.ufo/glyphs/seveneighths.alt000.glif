@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seveneighths.alt000" format="1">
+  <advance width="1141"/>
+  <outline>
+    <component base="seven.sups.alt000"/>
+    <component base="eight.sups.alt000" xOffset="603" yOffset="-202"/>
+    <component base="fraction.alt000" xOffset="378"/>
+  </outline>
+</glyph>

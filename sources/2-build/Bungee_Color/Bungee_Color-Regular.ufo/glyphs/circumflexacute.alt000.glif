@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexacute.alt000" format="1">
+  <advance width="500.0"/>
+  <outline>
+    <component base="circumflex.alt000"/>
+    <component base="acute.vert.alt000" xOffset="395" yOffset="-15"/>
+  </outline>
+</glyph>

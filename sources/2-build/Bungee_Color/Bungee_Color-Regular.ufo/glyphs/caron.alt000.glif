@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.alt000" format="1">
+  <advance width="500"/>
+  <outline>
+    <contour>
+      <point x="123.0" y="633" type="line" smooth="yes"/>
+      <point x="136.0" y="634"/>
+      <point x="152.0" y="637"/>
+      <point x="165.0" y="643" type="curve" smooth="yes"/>
+      <point x="292.0" y="689" type="line"/>
+      <point x="293.0" y="689" type="line" smooth="yes"/>
+      <point x="307.0" y="695"/>
+      <point x="316.0" y="700"/>
+      <point x="324.0" y="705" type="curve" smooth="yes"/>
+      <point x="453.0" y="814" type="line" smooth="yes"/>
+      <point x="464.0" y="823"/>
+      <point x="469.0" y="834"/>
+      <point x="469.0" y="860" type="curve" smooth="yes"/>
+      <point x="469.0" y="941" type="line" smooth="yes"/>
+      <point x="469.0" y="989"/>
+      <point x="459.0" y="996"/>
+      <point x="415.0" y="982" type="curve" smooth="yes"/>
+      <point x="278.0" y="942" type="line" smooth="yes"/>
+      <point x="257.0" y="936"/>
+      <point x="243.0" y="936"/>
+      <point x="222.0" y="942" type="curve" smooth="yes"/>
+      <point x="85.0" y="982" type="line" smooth="yes"/>
+      <point x="61.0" y="989"/>
+      <point x="48.0" y="988"/>
+      <point x="41.0" y="982" type="curve" smooth="yes"/>
+      <point x="-88.0" y="873" type="line" smooth="yes"/>
+      <point x="-96.0" y="867"/>
+      <point x="-99.0" y="855"/>
+      <point x="-99.0" y="832" type="curve" smooth="yes"/>
+      <point x="-99.0" y="751" type="line" smooth="yes"/>
+      <point x="-99.0" y="709"/>
+      <point x="-91.0" y="704"/>
+      <point x="-51.0" y="689" type="curve" smooth="yes"/>
+      <point x="87.0" y="639" type="line" smooth="yes"/>
+      <point x="97.0" y="634"/>
+      <point x="109.0" y="633"/>
+      <point x="122.0" y="633" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>
