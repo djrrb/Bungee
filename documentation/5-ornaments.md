@@ -36,11 +36,11 @@ In order to use blockformat the letter layers to space correctly with the block 
 
 Use either OpenType **Stylistic Set 11** (Horizontal block spacing) or OpenType **Stylistic Set 12** (Vertical block spacing) to respace all characters so they are centered on the block width.
 
-<img src="images/design-ornaments-independent-sample.png" alt="Block shapes." width="650" />
+<img src="images/design-ornaments-blocks.2.png" alt="Block shapes." width="650" />
 
 When OpenType features are not available, you can add 280 units of tracking to the alphabetical layers to make them align with the default spacing of the block shapes.
 
-<img src="images/design-ornaments-block.png" alt="Using independent ornaments." width="650" />
+<img src="images/design-ornaments-blocks.png" alt="Using block shapes." width="650" />
 
 If you wish to have more space around the letterforms, simply set that layer at a smaller font size than the blocks, add tracking, and reposition it accordingly. For example, centering and scaling the font 90% will involve 142 units of tracking and a 36-unit vertical shift.
 

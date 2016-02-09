@@ -26,7 +26,6 @@ palettes = {
             'signOutline': 'EE0000',
             'background': 'FEFEFE'
         },
-
     'palette02':
         {
             'inline': '92C9D2',
