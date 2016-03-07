@@ -104,26 +104,6 @@
     font-feature-settings: "vkrn", "vpal";
 }
 
-/* for browsers that don't support vertical mode */
-/* Javascript will set .no-vertical-text on <html> */
-.no-vertical-text .bungee.vertical {
-    /* reset these things just to be safe */
-    -ms-writing-mode: lr-tb;
-    -webkit-writing-mode: horizontal-tb;
-    -moz-writing-mode: horizontal-tb;
-    writing-mode: horizontal-tb;
-    /* and rotate the whole thing clockwise */
-    /* note this will break document flow unless you absolutely position it */
-    -moz-transform-origin: left bottom;
-    -moz-transform: translateY(-100%) rotate(90deg);
-    -ms-transform-origin: left bottom;
-    -ms-transform: translateY(-100%) rotate(90deg);
-    -webkit-transform-origin: left bottom;
-    -webkit-transform: translateY(-100%) rotate(90deg);
-    transform-origin: left bottom;
-    transform: translateY(-100%) rotate(90deg);
-}
-
 .bungee * {
     position: relative;
     background: transparent;
@@ -158,22 +138,6 @@
 .bungee .shade {
     font-family: "Bungee Shade";
     z-index: 11;
-}
-
-.no-vertical-text .bungee.vertical .regular {
-    font-family: "Bungee Rotated Regular";
-}
-
-.no-vertical-text .bungee.vertical .outline {
-    font-family: "Bungee Rotated Outline";
-}
-
-.no-vertical-text .bungee.vertical .inline {
-    font-family: "Bungee Rotated Inline";
-}
-
-.no-vertical-text .bungee.vertical .shade {
-    font-family: "Bungee Rotated Shade";
 }
 
 .bungee.regular .regular {
@@ -243,8 +207,8 @@
 
 .bungee.block.shade span {
     /* offset slightly to compensate for shade */
-    left: 0.2511em; /* left + 0.04 */
-    top: -0.08em; /* top - 0.04 */
+    left: 0.2311em; /* left + 0.02 */
+    top: -0.06em; /* top - 0.02 */
 }
 
 .bungee.vertical.block span {
@@ -254,8 +218,8 @@
 }
 
 .bungee.vertical.block.shade span {
-    left: 0.04em; /* left + 0.04 */
-    top: 0.24em; /* top - 0.04 */
+    left: 0.02em; /* left + 0.02 */
+    top: 0.26em; /* top - 0.02 */
 }
 
 /* banners */
@@ -267,8 +231,8 @@
 
 .bungee.banner.shade span {
     /* offset slightly to compensate for shade */
-    left: 0.04em; /* left + 0.04 */
-    top: -0.08em; /* top - 0.04 */
+    left: 0.02em; /* left + 0.02 */
+    top: -0.06em; /* top - 0.02 */
 }
 
 .bungee.vertical.banner span {
@@ -277,12 +241,55 @@
 }
 
 .bungee.vertical.banner.shade span {
-    left: 0.04em; /* left + 0.04 */
-    top: -0.04em; /* top - 0.04 */
+    left: 0.02em; /* left + 0.02 */
+    top: -0.02em; /* top - 0.02 */
 }
 
 
+
+
+
+
+/* HACKS FOR OLDER BROWSERS */
+
+/* for browsers that don't support vertical mode */
+/* Javascript will set .no-vertical-text on <html> */
+
+.no-vertical-text .bungee.vertical {
+    /* reset these things just to be safe */
+    -ms-writing-mode: lr-tb;
+    -webkit-writing-mode: horizontal-tb;
+    -moz-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
+    /* and rotate the whole thing clockwise */
+    /* note this will break document flow unless you absolutely position it */
+    -moz-transform-origin: left bottom;
+    -moz-transform: translateY(-100%) rotate(90deg);
+    -ms-transform-origin: left bottom;
+    -ms-transform: translateY(-100%) rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    -webkit-transform: translateY(-100%) rotate(90deg);
+    transform-origin: left bottom;
+    transform: translateY(-100%) rotate(90deg);
+}
+
 /* for no-vertical-text browsers, need to rotate all the transforms */
+
+.no-vertical-text .bungee.vertical .regular {
+    font-family: "Bungee Rotated Regular";
+}
+
+.no-vertical-text .bungee.vertical .outline {
+    font-family: "Bungee Rotated Outline";
+}
+
+.no-vertical-text .bungee.vertical .inline {
+    font-family: "Bungee Rotated Inline";
+}
+
+.no-vertical-text .bungee.vertical .shade {
+    font-family: "Bungee Rotated Shade";
+}
 
 .no-vertical-text .bungee.vertical.block span {
     top: -0.0556em; /* (1-fontsize)/fontsize/2 */
@@ -290,6 +297,16 @@
 }
 
 .no-vertical-text .bungee.vertical.block.shade span {
-    top: -0.0956em; /* top - 0.04 */
-    left: 0.24em; /* left - 0.04 */
+    top: -0.0756em; /* top - 0.02 */
+    left: 0.26em; /* left - 0.02 */
+}
+
+.no-vertical-text .bungee.vertical.banner span {
+    left: 0;
+    top: -0.04em;
+}
+
+.no-vertical-text .bungee.vertical.banner.shade span {
+    left: -0.02em; /* left + 0.02 rotated */
+    top: -0.06em; /* top - 0.02 rotated */
 }

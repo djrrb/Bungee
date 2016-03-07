@@ -82,6 +82,7 @@
             }
 
             var temp;
+            var rotatedhack = $('html').hasClass('no-vertical-text');
             var master = Bungee.reset(el);
             var classes = master.prop('className');
             var orientation = master.hasClass('vertical') ? 'vertical' : 'horizontal';
@@ -134,8 +135,8 @@
                 end=(classes.match(/end-(\S+)/) || ['',''])[1],
                 block=(classes.match(/block-(\S+)/) || ['',''])[1], 
                 square = "█",
-                leftProp = orientation === 'vertical' ? 'top' : 'left',
-                widthProp = orientation === 'vertical' ? 'height' : 'width';
+                leftProp = orientation === 'vertical' && !rotatedhack ? 'top' : 'left',
+                widthProp = orientation === 'vertical' && !rotatedhack ? 'height' : 'width';
 
             //banners!
             if (begin || end || master.hasClass('banner')) {
@@ -213,13 +214,35 @@
 
     //pretty up Bungee elements on document ready
     $(function() {
-        // see if browser support writing-mode
-        var test = $('<div class="bungee vertical" style="display:none"></div>');
-        $('body').append(test);
-        if (!test.css('writing-mode')) {
+        // see if browser support the necessary vertical CSS
+        var hack = false;
+        
+        function testFeature(feature) {
+            var test = document.createElement('div');
+            var prefixes = ['', '-ms-', '-webkit-', '-moz-'];
+            var camelName = '';
+            for (var i in prefixes) {
+                camelName = prefixes[i] + feature;
+                camelName = camelName.replace(/^-/, '');
+                camelName = camelName.replace(/-(.)/g, function(h, c) { return c.toUpperCase(); });
+                if (test.style[camelName] !== undefined) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        //browser detection === bad, I know, but Safari is buggy even when it supports writing-mode and font-feature-settings (as of 9.1, Feb 2016)
+        var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') >= 0 && navigator.userAgent.indexOf('Safari') >= 0;
+        
+        if (isSafari
+            || !testFeature('font-feature-settings')
+            || !testFeature('writing-mode')
+            || !testFeature('text-orientation')
+        ) {
             $('html').addClass('no-vertical-text');
         }
-        test.remove();
+
         $('.bungee').each(Bungee.init);
     });
 })();
