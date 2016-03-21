@@ -17,7 +17,7 @@ Replace diagonal forms of A, M, N, W, X, and Y with deco-inspired alternates wit
 
 <img src="images/design-alternates-round-forms.png" alt="Round forms" height="200" />
 
-## Stylistic Set 04: Round E
+## Stylistic Set 03: Round E
 
 Replace forms of E with an decorative alternate with a rounded left side.
 
