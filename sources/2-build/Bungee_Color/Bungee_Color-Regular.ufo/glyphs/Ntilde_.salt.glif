@@ -8,6 +8,17 @@
   </outline>
   <lib>
     <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Ntilde.salt.alt001</string>
+          <string>Ntilde.salt.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

@@ -2,12 +2,24 @@
 <glyph name="Tcaron" format="1">
   <advance width="656"/>
   <unicode hex="0164"/>
+  <unicode hex="0165"/>
   <outline>
     <component base="T"/>
     <component base="caron" xOffset="78"/>
   </outline>
   <lib>
     <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Tcaron.alt001</string>
+          <string>Tcaron.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

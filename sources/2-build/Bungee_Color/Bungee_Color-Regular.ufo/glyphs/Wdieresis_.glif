@@ -2,12 +2,24 @@
 <glyph name="Wdieresis" format="1">
   <advance width="831"/>
   <unicode hex="1E84"/>
+  <unicode hex="1E85"/>
   <outline>
     <component base="W"/>
     <component base="dieresis" xOffset="165"/>
   </outline>
   <lib>
     <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Wdieresis.alt001</string>
+          <string>Wdieresis.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

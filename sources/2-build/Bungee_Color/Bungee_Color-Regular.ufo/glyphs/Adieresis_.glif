@@ -2,12 +2,24 @@
 <glyph name="Adieresis" format="1">
   <advance width="730"/>
   <unicode hex="00C4"/>
+  <unicode hex="00E4"/>
   <outline>
     <component base="A"/>
     <component base="dieresis" xOffset="115"/>
   </outline>
   <lib>
     <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Adieresis.alt001</string>
+          <string>Adieresis.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

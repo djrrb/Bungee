@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L.salt.alt001" format="1">
+  <advance width="615"/>
+  <outline>
+    <contour>
+      <point x="260" y="720" type="curve" smooth="yes"/>
+      <point x="105" y="720" type="line" smooth="yes"/>
+      <point x="80" y="720"/>
+      <point x="69" y="709"/>
+      <point x="69" y="684" type="curve" smooth="yes"/>
+      <point x="69" y="36" type="line" smooth="yes"/>
+      <point x="69" y="11"/>
+      <point x="80" y="0"/>
+      <point x="105" y="0" type="curve" smooth="yes"/>
+      <point x="551" y="0" type="line" smooth="yes"/>
+      <point x="576" y="0"/>
+      <point x="587" y="11"/>
+      <point x="587" y="36" type="curve" smooth="yes"/>
+      <point x="587" y="157" type="line" smooth="yes"/>
+      <point x="587" y="182"/>
+      <point x="576" y="193"/>
+      <point x="551" y="193" type="curve" smooth="yes"/>
+      <point x="296" y="193" type="line"/>
+      <point x="296" y="684" type="line" smooth="yes"/>
+      <point x="296" y="709"/>
+      <point x="285" y="720"/>
+    </contour>
+  </outline>
+</glyph>

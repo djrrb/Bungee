@@ -2,6 +2,7 @@
 <glyph name="Eogonek" format="1">
   <advance width="654"/>
   <unicode hex="0118"/>
+  <unicode hex="0119"/>
   <outline>
     <component base="E"/>
     <component base="ogonek" xOffset="227"/>
@@ -12,6 +13,17 @@
       <string>2011-07-29 07:10:06</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Eogonek.alt001</string>
+          <string>Eogonek.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

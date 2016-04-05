@@ -2,6 +2,7 @@
 <glyph name="Lcommaaccent" format="1">
   <advance width="695"/>
   <unicode hex="013B"/>
+  <unicode hex="013C"/>
   <outline>
     <component base="L"/>
     <component base="commaaccent" xOffset="114"/>
@@ -12,6 +13,17 @@
       <string>2011-07-29 07:12:34</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Lcommaaccent.alt001</string>
+          <string>Lcommaaccent.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

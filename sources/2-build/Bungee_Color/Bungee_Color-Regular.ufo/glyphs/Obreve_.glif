@@ -2,12 +2,24 @@
 <glyph name="Obreve" format="1">
   <advance width="737"/>
   <unicode hex="014E"/>
+  <unicode hex="014F"/>
   <outline>
     <component base="O"/>
     <component base="breve" xOffset="118"/>
   </outline>
   <lib>
     <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Obreve.alt001</string>
+          <string>Obreve.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

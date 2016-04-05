@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron.salt_v.alt001" format="1">
+  <advance width="1000"/>
+  <outline>
+    <component base="L.salt_v.alt001"/>
+    <component base="caron.2.alt001" xOffset="456"/>
+  </outline>
+</glyph>

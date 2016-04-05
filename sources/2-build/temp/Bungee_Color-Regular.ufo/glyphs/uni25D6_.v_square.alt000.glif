@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni25D6.v_square.alt000" format="1">
+  <advance width="1280"/>
+  <outline>
+    <contour>
+      <point x="90" y="215" type="line"/>
+      <point x="1190" y="215" type="line"/>
+      <point x="1190" y="441" type="line" smooth="yes"/>
+      <point x="1190" y="491"/>
+      <point x="1166" y="515"/>
+      <point x="1116" y="515" type="curve" smooth="yes"/>
+      <point x="164" y="515" type="line" smooth="yes"/>
+      <point x="114" y="515"/>
+      <point x="90" y="491"/>
+      <point x="90" y="441" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

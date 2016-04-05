@@ -2,6 +2,7 @@
 <glyph name="Ccedilla" format="1">
   <advance width="628"/>
   <unicode hex="00C7"/>
+  <unicode hex="00E7"/>
   <outline>
     <component base="C"/>
     <component base="cedilla" xOffset="125"/>
@@ -12,6 +13,17 @@
       <string>2011-07-29 10:11:51</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Ccedilla.alt001</string>
+          <string>Ccedilla.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

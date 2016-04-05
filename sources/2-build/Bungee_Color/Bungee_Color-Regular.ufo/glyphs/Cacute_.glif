@@ -2,6 +2,7 @@
 <glyph name="Cacute" format="1">
   <advance width="628"/>
   <unicode hex="0106"/>
+  <unicode hex="0107"/>
   <outline>
     <component base="C"/>
     <component base="acute" xOffset="125"/>
@@ -12,6 +13,17 @@
       <string>2011-07-29 07:06:23</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Cacute.alt001</string>
+          <string>Cacute.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

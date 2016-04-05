@@ -2,12 +2,24 @@
 <glyph name="Dcaron" format="1">
   <advance width="746"/>
   <unicode hex="010E"/>
+  <unicode hex="010F"/>
   <outline>
     <component base="D"/>
     <component base="caron" xOffset="123"/>
   </outline>
   <lib>
     <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Dcaron.alt001</string>
+          <string>Dcaron.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

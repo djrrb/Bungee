@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tdieresis.alt001" format="1">
+  <advance width="656"/>
+  <outline>
+    <component base="T.alt001"/>
+    <component base="dieresis.alt001" xOffset="81"/>
+  </outline>
+</glyph>

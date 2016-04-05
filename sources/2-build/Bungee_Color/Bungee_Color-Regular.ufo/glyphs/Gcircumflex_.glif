@@ -2,6 +2,7 @@
 <glyph name="Gcircumflex" format="1">
   <advance width="708"/>
   <unicode hex="011C"/>
+  <unicode hex="011D"/>
   <outline>
     <component base="G"/>
     <component base="circumflex" xOffset="131"/>
@@ -12,6 +13,17 @@
       <string>2011-07-29 07:12:34</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Gcircumflex.alt001</string>
+          <string>Gcircumflex.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

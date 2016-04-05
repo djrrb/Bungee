@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="blackrightpointingtriangle.alt000" format="1">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="265" y="114" type="curve" smooth="yes"/>
+      <point x="265" y="615" type="line" smooth="yes"/>
+      <point x="265" y="644"/>
+      <point x="302" y="663"/>
+      <point x="333" y="644" type="curve" smooth="yes"/>
+      <point x="700" y="419" type="line" smooth="yes"/>
+      <point x="723" y="405"/>
+      <point x="736" y="390"/>
+      <point x="736" y="364" type="curve" smooth="yes"/>
+      <point x="736" y="340"/>
+      <point x="723" y="324"/>
+      <point x="700" y="309" type="curve" smooth="yes"/>
+      <point x="333" y="86" type="line" smooth="yes"/>
+      <point x="302" y="66"/>
+      <point x="265" y="87"/>
+    </contour>
+  </outline>
+</glyph>

@@ -2,12 +2,24 @@
 <glyph name="Scedilla" format="1">
   <advance width="650"/>
   <unicode hex="015E"/>
+  <unicode hex="015F"/>
   <outline>
     <component base="S"/>
     <component base="cedilla" xOffset="75"/>
   </outline>
   <lib>
     <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Scedilla.alt001</string>
+          <string>Scedilla.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

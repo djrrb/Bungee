@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Edieresis.salt.alt001" format="1">
+  <advance width="643"/>
+  <outline>
+    <component base="E.salt.alt001"/>
+    <component base="dieresis.alt001" xOffset="107"/>
+  </outline>
+</glyph>

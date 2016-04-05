@@ -4121,18 +4121,16 @@
 		<integer>1024</integer>
 	</array>
 	<key>com.fontfont.colorfont.color</key>
-	<string>#000000</string>
+	<string>#000000FF</string>
 	<key>com.fontfont.colorfont.colorbg</key>
-	<string>#ffffff</string>
+	<string>#FFFFFFFF</string>
 	<key>com.fontfont.colorfont.colorpalette</key>
 	<array>
 		<dict>
 			<key>0</key>
-			<string>#701502ff</string>
+			<string>#5e6f68ff</string>
 			<key>1</key>
-			<string>#cb1f05ff</string>
-			<key>2</key>
-			<string>#fc7b86ff</string>
+			<string>#b60e21ff</string>
 		</dict>
 	</array>
 	<key>com.fontfont.colorfont.prefer_placed_images</key>
@@ -4145,20 +4143,29 @@
 	<false/>
 	<key>com.fontfont.colorfont.write_svg</key>
 	<true/>
+	<key>com.typemytype.robofont.background.layerShow</key>
+	<true/>
+	<key>com.typemytype.robofont.background.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.25</real>
+		<real>0.7</real>
+	</array>
 	<key>com.typemytype.robofont.compileSettings.MacRomanFirst</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.checkOutlines</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.decompose</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.path</key>
-	<string>/Users/david/Dropbox/Typefaces/Bungee/Bungee/sources/2-build/Bungee-Regular.otf</string>
+	<string>/Users/david/Documents/Typefaces/Bungee/sources/2-build/Bungee_Color/Bungee_Color-Regular.ttf</string>
 	<key>com.typemytype.robofont.compileSettings.releaseMode</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>com.typemytype.robofont.foreground.layerStrokeColor</key>
 	<array>
 		<real>0.5</real>
@@ -4239,13 +4246,102 @@
 			<integer>202</integer>
 		</dict>
 	</array>
+	<key>com.typemytype.robofont.inline.layerShow</key>
+	<true/>
+	<key>com.typemytype.robofont.inline.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.inline.layerShowFill</key>
+	<true/>
+	<key>com.typemytype.robofont.inline.layerShowPoints</key>
+	<false/>
+	<key>com.typemytype.robofont.inline.layerShowStroke</key>
+	<true/>
+	<key>com.typemytype.robofont.inline.layerStrokeColor</key>
+	<array>
+		<real>0.8387</real>
+		<real>0.8775</real>
+		<real>0.5108</real>
+		<real>1.0</real>
+	</array>
+	<key>com.typemytype.robofont.inlineContour.layerShow</key>
+	<false/>
+	<key>com.typemytype.robofont.inlineContour.layerStrokeColor</key>
+	<array>
+		<real>0.5</real>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.09</real>
+	</array>
 	<key>com.typemytype.robofont.italicSlantOffset</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.layerOrder</key>
 	<array>
+		<string>inlineContour</string>
+		<string>inline</string>
+		<string>background</string>
+		<string>outline</string>
+		<string>shade2</string>
+		<string>shade</string>
+		<string>metrics</string>
+	</array>
+	<key>com.typemytype.robofont.metrics.layerStrokeColor</key>
+	<array>
+		<real>0.0</real>
+		<real>0.25</real>
+		<real>1.0</real>
+		<real>0.7</real>
+	</array>
+	<key>com.typemytype.robofont.outline.layerShow</key>
+	<true/>
+	<key>com.typemytype.robofont.outline.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.outline.layerShowFill</key>
+	<true/>
+	<key>com.typemytype.robofont.outline.layerShowPoints</key>
+	<false/>
+	<key>com.typemytype.robofont.outline.layerShowStroke</key>
+	<true/>
+	<key>com.typemytype.robofont.outline.layerStrokeColor</key>
+	<array>
+		<real>1.0</real>
+		<real>0.0</real>
+		<real>1.0</real>
+		<real>0.51</real>
 	</array>
 	<key>com.typemytype.robofont.segmentType</key>
 	<string>curve</string>
+	<key>com.typemytype.robofont.shade.layerShow</key>
+	<true/>
+	<key>com.typemytype.robofont.shade.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.shade.layerShowFill</key>
+	<true/>
+	<key>com.typemytype.robofont.shade.layerShowPoints</key>
+	<false/>
+	<key>com.typemytype.robofont.shade.layerShowStroke</key>
+	<true/>
+	<key>com.typemytype.robofont.shade.layerStrokeColor</key>
+	<array>
+		<real>0.298</real>
+		<real>0.298</real>
+		<real>0.298</real>
+		<real>1.0</real>
+	</array>
+	<key>com.typemytype.robofont.shade2.layerShowCoordinates</key>
+	<false/>
+	<key>com.typemytype.robofont.shade2.layerShowFill</key>
+	<true/>
+	<key>com.typemytype.robofont.shade2.layerShowPoints</key>
+	<false/>
+	<key>com.typemytype.robofont.shade2.layerShowStroke</key>
+	<true/>
+	<key>com.typemytype.robofont.shade2.layerStrokeColor</key>
+	<array>
+		<real>0.702</real>
+		<real>0.702</real>
+		<real>0.702</real>
+		<real>1.0</real>
+	</array>
 	<key>com.typemytype.robofont.shadow.layerStrokeColor</key>
 	<array>
 		<real>0.0</real>

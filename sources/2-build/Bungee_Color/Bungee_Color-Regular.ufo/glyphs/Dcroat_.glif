@@ -2,6 +2,7 @@
 <glyph name="Dcroat" format="1">
   <advance width="756"/>
   <unicode hex="0110"/>
+  <unicode hex="0111"/>
   <outline>
     <component base="Eth"/>
   </outline>
@@ -11,6 +12,17 @@
       <string>2011-07-29 07:54:28</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Dcroat.alt001</string>
+          <string>Dcroat.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

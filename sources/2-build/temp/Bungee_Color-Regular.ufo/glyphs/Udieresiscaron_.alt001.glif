@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Udieresiscaron.alt001" format="1">
+  <advance width="746"/>
+  <outline>
+    <component base="Udieresis.alt001"/>
+    <component base="caron.alt001" xOffset="122" yOffset="220"/>
+  </outline>
+</glyph>

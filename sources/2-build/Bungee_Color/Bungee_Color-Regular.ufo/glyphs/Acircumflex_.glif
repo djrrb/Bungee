@@ -2,12 +2,26 @@
 <glyph name="Acircumflex" format="1">
   <advance width="730"/>
   <unicode hex="00C2"/>
+  <unicode hex="00E2"/>
   <outline>
     <component base="A"/>
     <component base="circumflex" xOffset="115"/>
   </outline>
   <lib>
     <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Acircumflex.alt001</string>
+          <string>Acircumflex.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
+      <key>com.fontfont.colorfont.svg</key>
+      <string></string>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

@@ -2,6 +2,7 @@
 <glyph name="Rcommaaccent" format="1">
   <advance width="743"/>
   <unicode hex="0156"/>
+  <unicode hex="0157"/>
   <outline>
     <component base="R"/>
     <component base="commaaccent" xOffset="131"/>
@@ -12,6 +13,17 @@
       <string>2011-07-29 07:16:46</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Rcommaaccent.alt001</string>
+          <string>Rcommaaccent.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hookcmb.alt000" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="100" y="757" type="curve" smooth="yes"/>
+      <point x="100" y="757" type="line"/>
+      <point x="-40" y="738" type="line" smooth="yes"/>
+      <point x="-60" y="735"/>
+      <point x="-69" y="742"/>
+      <point x="-72" y="763" type="curve" smooth="yes"/>
+      <point x="-83" y="841" type="line" smooth="yes"/>
+      <point x="-86" y="861"/>
+      <point x="-78" y="871"/>
+      <point x="-58" y="874" type="curve" smooth="yes"/>
+      <point x="31" y="888" type="line" smooth="yes"/>
+      <point x="37" y="889"/>
+      <point x="42" y="889"/>
+      <point x="42" y="895" type="curve" smooth="yes"/>
+      <point x="42" y="900"/>
+      <point x="36" y="899"/>
+      <point x="33" y="899" type="curve" smooth="yes"/>
+      <point x="-96" y="899" type="line" smooth="yes"/>
+      <point x="-116" y="899"/>
+      <point x="-125" y="908"/>
+      <point x="-125" y="928" type="curve" smooth="yes"/>
+      <point x="-125" y="1001" type="line" smooth="yes"/>
+      <point x="-125" y="1021"/>
+      <point x="-116" y="1030"/>
+      <point x="-96" y="1030" type="curve" smooth="yes"/>
+      <point x="72" y="1030" type="line" smooth="yes"/>
+      <point x="147" y="1030"/>
+      <point x="190" y="991"/>
+      <point x="190" y="918" type="curve" smooth="yes"/>
+      <point x="190" y="854" type="line" smooth="yes"/>
+      <point x="190" y="789"/>
+      <point x="156" y="765"/>
+    </contour>
+  </outline>
+</glyph>

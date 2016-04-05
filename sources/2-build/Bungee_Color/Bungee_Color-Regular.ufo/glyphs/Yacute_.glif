@@ -2,6 +2,7 @@
 <glyph name="Yacute" format="1">
   <advance width="705"/>
   <unicode hex="00DD"/>
+  <unicode hex="00FD"/>
   <outline>
     <component base="Y"/>
     <component base="acute" xOffset="112"/>
@@ -12,6 +13,17 @@
       <string>2011-08-16 00:43:40</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Yacute.alt001</string>
+          <string>Yacute.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>

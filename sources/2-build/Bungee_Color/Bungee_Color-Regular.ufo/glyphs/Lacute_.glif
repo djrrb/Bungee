@@ -2,6 +2,7 @@
 <glyph name="Lacute" format="1">
   <advance width="695"/>
   <unicode hex="0139"/>
+  <unicode hex="013A"/>
   <outline>
     <component base="L"/>
     <component base="acute" xOffset="29"/>
@@ -12,6 +13,17 @@
       <string>2011-08-07 19:43:07</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Lacute.alt001</string>
+          <string>Lacute.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
       <key>com.typemytype.robofont.mark</key>
       <array>
         <real>0.0</real>
