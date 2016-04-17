@@ -14,7 +14,7 @@ feature vkrn {
     @MMK_L_H_vkrn = [A.s_v A.salt_s_v A.salt_v A.v Aacute.salt_v Aacute.v Abreve.salt_v Abreve.v Acircumflex.salt_v Acircumflex.v Adieresis.salt_v Adieresis.v Agrave.salt_v Agrave.v Amacron.salt_v Amacron.v Aring.salt_v Aring.v Atilde.salt_v Atilde.v H.s_v H.v Hbar.v Hcircumflex.v I_I.salt_v K.s_v K.v N.s_v N.salt_s_v N.salt_v N.v Nacute.salt_v Nacute.v Ncaron.salt_v Ncaron.v Ntilde.salt_v Ntilde.v R.s_v R.v Racute.v Rcaron.v X.salt_v X.v];
     @MMK_L_I_vkrn = [AE.salt_v AE.v E.s_v E.v Eacute.v Ebreve.v Ecaron.v Ecircumflex.v Edieresis.v Edotaccent.v Egrave.v Emacron.v I.s_v I.v Iacute.v Ibreve.v Icircumflex.v Idieresis.v Idotaccent.v Igrave.v Imacron.v Itilde.v L.s_v L.salt_s_v L.salt_v L.v Lacute.salt_v Lacute.v Lcaron.salt_v Lcaron.v Lslash.salt_v Lslash.v M.salt_v Z.s_v Z.v Zacute.v Zcaron.v Zdotaccent.v];
     @MMK_L_M_vkrn = [M.v];
-    @MMK_L_O_vkrn = [IJ.salt_v IJ.stack_v J.s_v J.v Jcircumflex.v O.s_v O.v Oacute.v Obreve.v Ocircumflex.v Odieresis.v Ograve.v Ohungarumlaut.v Omacron.v Otilde.v U.s_v U.v Uacute.v Ubreve.v Ucircumflex.v Udieresis.v Ugrave.v Uhungarumlaut.v Umacron.v Uring.v Utilde.v];
+    @MMK_L_O_vkrn = [IJ.salt_v J.s_v J.v Jcircumflex.v O.s_v O.v Oacute.v Obreve.v Ocircumflex.v Odieresis.v Ograve.v Ohungarumlaut.v Omacron.v Otilde.v U.s_v U.v Uacute.v Ubreve.v Ucircumflex.v Udieresis.v Ugrave.v Uhungarumlaut.v Umacron.v Uring.v Utilde.v];
     @MMK_L_Oslash_vkrn = [Oslash.v];
     @MMK_L_P_vkrn = [P.v];
     @MMK_L_Q_vkrn = [Q.v];
@@ -41,7 +41,7 @@ feature vkrn {
     @MMK_R_D_vkrn = [D.s_v D.v Dcroat.v Eth.v P.v R.s_v R.v Rcommaaccent.v];
     @MMK_R_H_vkrn = [H.s_v H.v Hbar.v IJ.v I_I.salt_v K.s_v K.v Kcommaaccent.v N.s_v N.v Ncommaaccent.v U.s_v U.v Uogonek.v V.v X.salt_v X.v Y.s_v Y.salt_s_v Y.salt_v Y.v];
     @MMK_R_I.salt_vkrn = [I.salt_s_v I.salt_v IJ.salt_v Iogonek.salt_v];
-    @MMK_R_I_vkrn = [E.s_v E.v Eogonek.v F.v I.s_v I.v IJ.stack_v Iogonek.v T.s_v T.v Tbar.v Tcommaaccent.v Z.s_v Z.v];
+    @MMK_R_I_vkrn = [E.s_v E.v Eogonek.v F.v I.s_v I.v Iogonek.v T.s_v T.v Tbar.v Tcommaaccent.v Z.s_v Z.v];
     @MMK_R_J_vkrn = [J.s_v J.v];
     @MMK_R_L_vkrn = [L.s_v L.salt_s_v L.salt_v L.v Lcommaaccent.salt_v Lcommaaccent.v Ldot.salt_v Ldot.v Lslash.salt_v Lslash.v];
     @MMK_R_M.salt_vkrn = [M.salt_v];

@@ -190,7 +190,6 @@ feature ss11 { # Block forms (experimental feature)
 	pos Ygrave.salt <287 0 574 0>;
 	pos AE.salt <134 0 267 0>;
 	pos IJ.salt <124 0 247 0>;
-	pos IJ.stack <9 0 17 0>;
 	pos ordfeminine <380 0 760 0>;
 	pos ordmasculine <378 0 755 0>;
 	pos zero <277 0 553 0>;
@@ -614,7 +613,6 @@ feature ss11 { # Block forms (experimental feature)
 	pos Ygrave.salt_v <140 0 280 0>;
 	pos AE.salt_v <140 0 280 0>;
 	pos IJ.salt_v <140 0 280 0>;
-	pos IJ.stack_v <140 0 280 0>;
 	pos commaaccent.v <140 0 280 0>;
 	pos zero.v <140 0 280 0>;
 	pos one.v <140 0 280 0>;
@@ -1300,7 +1298,7 @@ feature ss12 { # Vertical Block forms (experimental feature)
 	pos Ygrave.salt_v <0 -139 0 277>;
 	pos AE.salt_v <0 -204 0 408>;
 	pos IJ.salt_v <0 144 0 -287>;
-	pos IJ.stack_v <0 172 0 -344>;
+
 	pos commaaccent.v <0 -486 0 971>;
 	pos zero.v <0 -208 0 416>;
 	pos one.v <0 -204 0 408>;

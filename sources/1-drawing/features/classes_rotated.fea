@@ -24,16 +24,10 @@
 @salt_e_off = [e egrave eacute ecircumflex edieresis emacron ebreve edotaccent eogonek ecaron ];
 
 
-@salt_IJ = [IJ.stack];
 
-@salt_IJ_off = [IJ];
+@salt_I = [I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt];
 
-@salt_ij_off = [ij];
-
-
-@salt_I = [I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt IJ.salt];
-
-@salt_I_off = [I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent IJ.stack];
+@salt_I_off = [I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent];
 
 @salt_i = [I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt];
 
@@ -116,7 +110,7 @@
 
 @ornm = [@arrows @indexes @indexes_salt @indexes_outline @indexes_salt_outline @arrows_bent @blocks];
 
-@downer_off = [I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent J Jcircumflex L Lacute Lcommaaccent Lcaron M W Wcircumflex Wgrave Wacute Wdieresis I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt L.salt Lacute.salt Lcommaaccent.salt Lcaron.salt Ldot.salt Lslash.salt M.salt W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt IJ.salt IJ.stack i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek j jcircumflex l lacute lcommaaccent m w wcircumflex wgrave wacute wdieresis I.s I.salt_s W.salt_s dotlessi];
+@downer_off = [I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent J Jcircumflex L Lacute Lcommaaccent Lcaron M W Wcircumflex Wgrave Wacute Wdieresis I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt L.salt Lacute.salt Lcommaaccent.salt Lcaron.salt Ldot.salt Lslash.salt M.salt W.salt Wcircumflex.salt Wgrave.salt Wacute.salt Wdieresis.salt IJ.salt i igrave iacute icircumflex idieresis itilde imacron ibreve iogonek j jcircumflex l lacute lcommaaccent m w wcircumflex wgrave wacute wdieresis I.s I.salt_s W.salt_s dotlessi];
 
-@downer = [.notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef];
+@downer = [.notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef];
 
