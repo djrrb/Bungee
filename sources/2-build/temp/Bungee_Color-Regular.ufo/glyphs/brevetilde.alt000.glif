@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brevetilde.alt000" format="1">
-  <advance width="500"/>
-  <outline>
-    <component base="breve.alt000"/>
-    <component base="tilde.alt000" yOffset="260"/>
-  </outline>
-</glyph>

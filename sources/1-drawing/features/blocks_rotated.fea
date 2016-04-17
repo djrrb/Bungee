@@ -187,7 +187,6 @@ feature ss12 { # Vertical Block forms (experimental feature)
 	pos Ydieresis.salt <138 0 276 0>;
 	pos Ygrave.salt <139 0 277 0>;
 	pos AE.salt <204 0 408 0>;
-	pos IJ.salt <-144 0 -287 0>;
 	pos ordfeminine <200 0 400 0>;
 	pos ordmasculine <199 0 398 0>;
 	pos zero <208 0 416 0>;

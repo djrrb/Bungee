@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Amacron.salt_v.alt000" format="1">
-  <advance width="1000"/>
-  <outline>
-    <component base="A.salt_s_v.alt000"/>
-    <component base="macron.alt000" xOffset="250" yOffset="-40"/>
-  </outline>
-</glyph>

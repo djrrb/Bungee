@@ -228,7 +228,6 @@ feature vpal { # Vertical Positioning and Layout
 	pos Ydieresis.salt_v <0 -89 0 4>;
 	pos Ygrave.salt_v <0 -88 0 3>;
 	pos AE.salt_v <0 68 0 -128>;
-	pos IJ.salt_v <0 -284 0 567>;
 	pos commaaccent.v <0 893 0 -691>;
 	pos zero.v <0 68 0 -136>;
 	pos one.v <0 68 0 -128>;
