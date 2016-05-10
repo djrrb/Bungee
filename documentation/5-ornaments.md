@@ -2,7 +2,7 @@
 
 Bungee comes with a large set of arrows, pointing fists, and background shapes that are inspired by the shapes and decorations on old commercial signs.
 
-Unicode values are assigned to ornaments when they are available; otherwise, codepoints in the Private Use Area area are used. In design apps, ornaments can be easily accessed via the Glyphs palette. See the (HTML demonstrations)[/examples] for examples of them in use.
+Unicode values are assigned to ornaments when they are available; otherwise, codepoints in the Private Use Area area are used. In design apps, ornaments can be easily accessed via the Glyphs palette. See the [HTML demonstrations](/examples) for examples of them in use.
 
 Note that not all ornaments are available in Bungee’s Inline and Shade layers.
 
