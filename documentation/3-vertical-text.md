@@ -86,27 +86,28 @@ The proper way to implement vertical text is via the CSS **writing-mode** and **
             -moz-font-feature-settings: "vkrn", "vpal";
             -webkit-font-feature-settings: "vkrn", "vpal";
             font-feature-settings: "vkrn", "vpal";
+        }
     </style>
 
 	<div class="vertical">Bungee</div>
 	
-Learn more about vertical writing modes at http://generatedcontent.org/post/45384206019/writing-modes.
+Learn more about vertical writing modes at <http://generatedcontent.org/post/45384206019/writing-modes>
 	
 ### Rotated text
 	
-Alternatively, *Bungee Layers Rotated* fonts and a rotated div to simulate the effect. This will require you
+Alternatively, use *Bungee Layers Rotated* fonts and a rotated div to simulate the effect. This will require you
 to reposition the div using margins or absolute positioning.
 
-		.rotated {
-			font-family: "BungeeLayersRotated";
-			-webkit-transform: rotate(90deg);
-			-moz-transform: rotate(90deg);
-			-o-transform: rotate(90deg);
-			-ms-transform: rotate(90deg);
-			transform: rotate(90deg);
-		}
-		
-		<div class="rotated">Bungee</div>
+	.rotated {
+		font-family: "BungeeLayersRotated";
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
+	}
+	
+	<div class="rotated">Bungee</div>
 
 
 * Previous: [Chromatic layers](2-chromatic-layers.md)
