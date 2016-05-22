@@ -67,7 +67,7 @@ Apps that do not support vertical text include:
 
 ###  Writing-mode: *vertical-rl*
 
-The proper way to implement vertical text is via the CSS **writing-mode** and **text-orientation** selector, as well as implementing. This will work in recent versions of IE, Firefox, and Chrome, but not in older browsers or Safari.
+The proper way to implement vertical text is via the CSS **writing-mode** and **text-orientation** selectors. This will work in recent versions of IE, Firefox, and Chrome, but not in older browsers or Safari.
 
     <style type="text/css">
         .vertical {
