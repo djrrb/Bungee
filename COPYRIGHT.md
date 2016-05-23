@@ -1,1 +1,1 @@
-Copyright (c) 2009-2015, David Jonathan Ross <david@djr.com>
+Copyright (c) 2011-2016, David Jonathan Ross <david@djr.com>
