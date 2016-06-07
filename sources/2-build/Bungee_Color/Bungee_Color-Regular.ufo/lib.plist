@@ -4128,9 +4128,9 @@
 	<array>
 		<dict>
 			<key>0</key>
-			<string>#5e6f68ff</string>
+			<string>#c90900ff</string>
 			<key>1</key>
-			<string>#b60e21ff</string>
+			<string>#ff9580ff</string>
 		</dict>
 	</array>
 	<key>com.fontfont.colorfont.prefer_placed_images</key>
@@ -4157,9 +4157,11 @@
 	<key>com.typemytype.robofont.compileSettings.autohint</key>
 	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.checkOutlines</key>
-	<integer>1</integer>
+	<integer>0</integer>
+	<key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
+	<true/>
 	<key>com.typemytype.robofont.compileSettings.decompose</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>com.typemytype.robofont.compileSettings.generateFormat</key>
 	<integer>1</integer>
 	<key>com.typemytype.robofont.compileSettings.path</key>

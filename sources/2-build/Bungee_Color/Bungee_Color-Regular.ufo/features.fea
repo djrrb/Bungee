@@ -22,16 +22,12 @@
 @salt_E_off = [E Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron ];
 
 
-@salt_IJ = [IJ.stack];
 
-@salt_IJ_off = [IJ];
+@salt_I = [I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt];
 
+@salt_I_off = [I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent];
 
-@salt_I = [I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt Idotaccent.salt IJ.salt];
-
-@salt_I_off = [I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent IJ.stack];
-
-@salt_i = [I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt Iogonek.salt];
+@salt_i = [I.salt Igrave.salt Iacute.salt Icircumflex.salt Idieresis.salt Itilde.salt Imacron.salt Ibreve.salt];
 
 
 @salt_L = [L.salt Lacute.salt Lcommaaccent.salt Lcaron.salt Ldot.salt Lslash.salt];
@@ -177,17 +173,6 @@ feature ss07 { # Small Apostrophe
     } salt_quote;
 } ss07;
 
-feature ss08 { # Sequential IJ
-    featureNames {
-        name "Sequential IJ";
-        name 1 "Sequential IJ";
-	};
-    lookup salt_IJ {
-        sub @salt_IJ_off by @salt_IJ;
-    } salt_IJ;
-} ss08;
-
-
 feature salt { # Stylistic alternates
     lookup salt_A;            
     lookup salt_M;            
@@ -200,8 +185,6 @@ feature salt { # Stylistic alternates
     lookup salt_I;
 	lookup salt_L;
     
-    lookup salt_IJ;
-
     lookup salt_ampersand;
     lookup salt_quote;
     
