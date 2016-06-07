@@ -49,6 +49,11 @@ When only single letters or small bits of text are required, or the text is espe
 
     <svg src="images/layeredText.svg" alt="Layered text" />
 
+### Bungee.js
+
+For information on how to use Bungee.js to build Bungee layouts on the fly, [see the bungee.js documentation](https://github.com/djrrb/Bungee/tree/master/resources/web).
+
+
 ## Color font formats
 
 The *Bungee Color* family contains experimental fonts in the various color font formats out there, including SVG (Adobe/Mozilla), COLR/CPAL (Microsoft) and sbix (Apple).

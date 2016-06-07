@@ -109,6 +109,10 @@ to reposition the div using margins or absolute positioning.
 	
 	<div class="rotated">Bungee</div>
 
+### Bungee.js
+
+For information on how to use Bungee.js to build Bungee layouts on the fly, [see the bungee.js documentation](https://github.com/djrrb/Bungee/tree/master/resources/web).
+
 
 * Previous: [Chromatic layers](2-chromatic-layers.md)
 * Next: [Stylistic alternates](4-stylistic-alternates.md)
