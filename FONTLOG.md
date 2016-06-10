@@ -39,6 +39,8 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+10 June 2016 (David Jonathan Ross) Bungee v1
+- Fonts for initial release
 27 Sept 2015 (David Jonathan Ross) Bungee v0.9
 - Initial push of font "Bungee"
 
