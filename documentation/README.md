@@ -7,4 +7,5 @@ This collection of docs demonstrates how to use some of Bungee's more interestin
 3. [Vertical text](3-vertical-text.md)
 4. [Stylistic alternates](4-stylistic-alternates.md)
 5. [Ornaments](5-ornaments.md)
-6. [Editing Bungee](5-editing-bungee.md)
+6. [Color fonts](6-color-fonts.md)
+7. [Editing Bungee](6-editing-bungee.md)
