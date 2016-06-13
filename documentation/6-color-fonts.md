@@ -22,3 +22,7 @@ Bungee was one of the fonts that Microsoft used to test its format in 2013. Rath
 Apple’s format embeds PNG data into a special font table. It works in Mac OS X.
 
 ![Apple Font Book with color](images/color-sbix-mac.png)
+
+
+* Previous: [Ornaments](5-ornaments.md)
+* Next: [Editing Bungee](7-editing-bungee.md)
