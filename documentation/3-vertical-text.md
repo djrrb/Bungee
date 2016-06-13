@@ -36,7 +36,7 @@ Desktop apps that natively support vertical text in one way or another include:
 * Adobe Illustrator
 * Apple TextEdit
 
-### Rotated text 
+### Rotated text box
 
 In apps that do not have native vertical text tools, the *Bungee Layers Rotated* family allows you to simulate vertical type. 
 
@@ -93,7 +93,7 @@ The proper way to implement vertical text is via the CSS **writing-mode** and **
 	
 Learn more about vertical writing modes at <http://generatedcontent.org/post/45384206019/writing-modes>
 	
-### Rotated text
+### Rotated text container
 	
 Alternatively, use *Bungee Layers Rotated* fonts and a rotated div to simulate the effect. This will require you
 to reposition the div using margins or absolute positioning.
