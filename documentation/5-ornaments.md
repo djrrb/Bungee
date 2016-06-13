@@ -46,4 +46,4 @@ If you wish to have more space around the letterforms, simply set that layer at 
 
 
 * Previous: [Stylistic alternates](4-stylistic-alternates.md)
-* Next: [Editing Bungee](6-editing-bungee.md)
+* Next: [Color fonts](6-color-fonts.md)

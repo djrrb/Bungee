@@ -82,4 +82,4 @@ When you are done tinkering, you can use the same command to convert the .ttx fi
 
     ttx /path/to/Bungee-Regular.ttx
 	
-* Previous: [Ornaments](5-ornaments.md)
+* Previous: [Color fonts](6-color-fonts.md)
