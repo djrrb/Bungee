@@ -1,3 +1,36 @@
+/*
+
+BUILDING BUNGEE LAYOUTS ON THE FLY WITH JAVASCRIPT
+
+Use bungee.js to create a completely styled Bungee layout with a single
+element. Various classes on the element determine the appearance.
+
+Example:
+    <div class="bungee horizontal regular-efbb43 inline-eae2b1 outline-3e0e00 shade-c9060e background-333333 sign-111111 block-square alt-e alt-rounded" style="font-size: 120px">LAUNDROMAT</div>
+
+Required: 
+ * "bungee" — this class determines which elements get this magic applied.
+
+Orientation:
+ * "horizontal" or "vertical" — default is horizontal
+
+Layers: 
+ * "layer[-color[-opacity]]"
+ * layer: background, sign, shade, outline, regular, inline (from "bottom" to "top")
+ * color: any valid HTML color, minus the pound sign. Examples: F00, FF0000, red
+ * opacity: number from 0 to 100, specifying % opacity. Default 100% opaque.
+
+Block shapes:
+ * "block-xxx" where xxx is one of the values in [blockChars] below
+
+Banner mode:
+ * "begin-xxx" where xxx is one of the values in [beginChars] below
+ * "end-xxx" where xxx is one of the values in [endChars] below
+
+Alternate characters:
+ * "alt-xxx" where xxx is one of the values in [stylisticAlternates] below
+
+*/
 
 (function() {
     "use strict";
@@ -71,7 +104,7 @@
             el = $(el);
             el.css('font-feature-settings', '');
             if (el.find('.layer').length > 0) {
-                el.html(el.find('span').first().html().trim());
+                el.text(el.find('span').first().text().trim());
             }
             return el;
         },
@@ -87,8 +120,27 @@
             var classes = master.prop('className');
             var orientation = master.hasClass('vertical') ? 'vertical' : 'horizontal';
 
+            function setLayerColor(layer, classname, cssname) {
+                var match = classname.match(/^(\w+)-(\w+)(?:-([\d\.]+))?/);
+                
+                if (match) {
+                    master.addClass(match[1]);
+                    classes += ' ' + match[1];
+                    layer.addClass(match[1]);
+                    layer.css(cssname || 'color', (match[2].match(/^([0-9a-f]{3}|[0-9a-f]{6})$/i) ? '#' : '') + match[2]);
+                    if (match[3]) {
+                        layer.css('opacity', (parseFloat(match[3])/100).toString());
+                    }
+                } else {
+                    layer.addClass(classname);
+                }
+                
+                return layer;
+            }
+
+
             //remember the content and then get rid of it
-            var text = Bungee.cleanupText(master.html());
+            var text = Bungee.cleanupText(master.text());
             master.html('<div></div>');
             var wrapper = master.children();
 
@@ -108,6 +160,11 @@
                 }
                 ffs[m[1]] = m[3];
             });
+            
+            //background color
+            if (temp = classes.match(/background-\S+/)) {
+                setLayerColor(master, temp[0], 'background-color');
+            }
 
             //add the text layers
             var layers = classes.match(/\b(regular|inline|outline|shade)(-\S+)?/gi);
@@ -116,17 +173,13 @@
                 master.addClass(layers.join(' '));
                 classes += ' ' + layers.join(' ');
             }
-            var match, layer;
+
+            var layer;
             for (var i in layers) {
-                layer = $("<div class='layer text'><span>" + text + "</span></div>");
+                layer = $("<div class='layer text'><span></span></div>");
+                layer.children().text(text); //to avoid special HTML chars
                 master.addClass(layers[i]);
-                if (match = layers[i].match(/^(\w+)-(\S+)/)) {
-                    master.addClass(match[1]);
-                    layer.addClass(match[1]);
-                    layer.css('color', (match[2].match(/^([0-9a-f]{3}|[0-9a-f]{6})$/i) ? '#' : '') + match[2]);
-                } else {
-                    layer.addClass(layers[i]);
-                }
+                setLayerColor(layer, layers[i]);
                 wrapper.append(layer);
             }
 
@@ -134,6 +187,7 @@
             var begin=(classes.match(/begin-(\S+)/) || ['',''])[1], 
                 end=(classes.match(/end-(\S+)/) || ['',''])[1],
                 block=(classes.match(/block-(\S+)/) || ['',''])[1], 
+                signcolor=(classes.match(/sign-\S+/) || [''])[0],
                 square = "█",
                 leftProp = orientation === 'vertical' && !rotatedhack ? 'top' : 'left',
                 widthProp = orientation === 'vertical' && !rotatedhack ? 'height' : 'width';
@@ -141,25 +195,25 @@
             //banners!
             if (begin || end || master.hasClass('banner')) {
                 //zero out any conflicting classes
-                classes = classes.replace(/(^|\s)(background|banner|begin-\S+|end-\S+|block|block-\S+)($|\s)/g, ' ');
+                classes = classes.replace(/\b(banner|begin|end|block)(?:-\S+)?/g, ' ');
                 master.prop('className', classes);
                 if (!(begin in Bungee.beginChars)) { begin = 'square'; }
                 if (!(end in Bungee.endChars)) { end = 'square'; }
-                master.addClass('background banner begin-' + begin + ' end-' + end);
+                master.addClass('sign banner begin-' + begin + ' end-' + end);
                 begin = String.fromCharCode(Bungee.beginChars[begin]);
                 end = String.fromCharCode(Bungee.endChars[end]);
-                wrapper.prepend('<div class="background layer regular"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
-                wrapper.prepend('<div class="background layer outline"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
+                wrapper.prepend('<div class="layer sign banner regular"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
+                //wrapper.prepend('<div class="layer sign banner outline"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
                 //give browser a second to lay everything out, then position text
                 master.css('visibility', 'hidden'); //hide the dirty work
                 setTimeout(function() { master.css('visibility', ''); }, 100);
                 setTimeout(function() {
                     //move text after beginning shape
-                    var left = master.find('.background header').first();
-                    var main = master.find('.background figure').first();
-                    master.find('.text').css(leftProp, left[widthProp]() + 'px');
-                    //expand blocks to fill width
                     var textsize = parseFloat(master.css('font-size'));
+                    var left = master.find('.sign header').first();
+                    var main = master.find('.sign figure').first();
+                    master.find('.text').css(leftProp, (left[widthProp]()/textsize) + 'em');
+                    //expand blocks to fill width
                     var textwidth = master.find('.layer.text').first()[widthProp]();// + 0.1*textsize;
                     var squarewidth = main[widthProp]();
                     var numbersquares = Math.ceil(textwidth/squarewidth);
@@ -167,27 +221,33 @@
                     for (var i=0; i<numbersquares; i++) {
                         banner.push(square);
                     }
-                    master.find('.background figure').text(banner.join(''))[widthProp](textwidth);
+                    master.find('.sign figure').text(banner.join('')).css(widthProp, (textwidth/textsize) + 'em');
                 }, 10);
             } else if (block || master.hasClass('block')) {
                 //zero out any conflicting classes
-                classes = classes.replace(/(^|\s)(background|banner|begin-\S+|end-\S+|block|block-\S+)($|\s)/g, ' ');
+                classes = classes.replace(/\b(banner|begin|end|block)(?:-\S+)?/g, ' ');
                 master.prop('className', classes);
                 if (!(block in Bungee.blockChars)) { block = 'square'; }
-                master.addClass('background block block-' + block);
+                master.addClass('sign block block-' + block);
                 block = String.fromCharCode(Bungee.blockChars[block]);
                 var str = [];
                 for (var i=0, l=text.length; i<l; i++) {
                     str.push(block);
                 }
                 str = str.join('');
-                wrapper.prepend('<div class="background layer regular">' + str + '</div>');
-                wrapper.prepend('<div class="background layer outline">' + str + '</div>');
+                wrapper.prepend('<div class="layer sign block regular">' + str + '</div>');
+                //wrapper.prepend('<div class="layer sign block outline">' + str + '</div>');
 
                 //turn on block features
-                ffs['ss01'] = '1';
-                ffs['liga'] = '0';
-                ffs['kern'] = '0';
+                if (orientation === 'horizontal') {
+                    ffs.ss01 = '1';
+                } else {
+                    ffs.vpal = '0';
+                }
+            }
+            
+            if (signcolor) {
+                setLayerColor(master.find('.sign'), signcolor);
             }
             
             // stylistic alternates

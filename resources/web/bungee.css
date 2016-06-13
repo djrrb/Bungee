@@ -2,73 +2,73 @@
 
 @font-face {
 	font-family: "Bungee Regular";
-	src: url("fonts/BungeeLayers-Regular.eot?#ie") format("embedded-opentype"),
-		url("fonts/BungeeLayers-Regular.woff2") format("woff2"),
-		url("fonts/BungeeLayers-Regular.woff") format("woff"),
-		url("fonts/BungeeLayers-Regular.svg#font") format("svg");
+	src: url("../fonts/BungeeLayers-Regular.eot?#ie") format("embedded-opentype"),
+		url("../fonts/BungeeLayers-Regular.woff2") format("woff2"),
+		url("../fonts/BungeeLayers-Regular.woff") format("woff"),
+		url("../fonts/BungeeLayers-Regular.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Outline";
-	src: url("fonts/BungeeLayers-Outline.eot?#ie") format("embedded-opentype"),
-		url("fonts/BungeeLayers-Outline.woff2") format("woff2"),
-		url("fonts/BungeeLayers-Outline.woff") format("woff"),
-		url("fonts/BungeeLayers-Outline.svg#font") format("svg");
+	src: url("../fonts/BungeeLayers-Outline.eot?#ie") format("embedded-opentype"),
+		url("../fonts/BungeeLayers-Outline.woff2") format("woff2"),
+		url("../fonts/BungeeLayers-Outline.woff") format("woff"),
+		url("../fonts/BungeeLayers-Outline.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Inline";
-	src: url("fonts/BungeeLayers-Inline.eot?#ie") format("embedded-opentype"),
-		url("fonts/BungeeLayers-Inline.woff2") format("woff2"),
-		url("fonts/BungeeLayers-Inline.woff") format("woff"),
-		url("fonts/BungeeLayers-Inline.svg#font") format("svg");
+	src: url("../fonts/BungeeLayers-Inline.eot?#ie") format("embedded-opentype"),
+		url("../fonts/BungeeLayers-Inline.woff2") format("woff2"),
+		url("../fonts/BungeeLayers-Inline.woff") format("woff"),
+		url("../fonts/BungeeLayers-Inline.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Shade";
-	src: url("fonts/BungeeLayers-Shade.eot?#ie") format("embedded-opentype"),
-		url("fonts/BungeeLayers-Shade.woff2") format("woff2"),
-		url("fonts/BungeeLayers-Shade.woff") format("woff"),
-		url("fonts/BungeeLayers-Shade.svg#font") format("svg");
+	src: url("../fonts/BungeeLayers-Shade.eot?#ie") format("embedded-opentype"),
+		url("../fonts/BungeeLayers-Shade.woff2") format("woff2"),
+		url("../fonts/BungeeLayers-Shade.woff") format("woff"),
+		url("../fonts/BungeeLayers-Shade.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Rotated Regular";
-	src: url("fonts/BungeeLayersRotated-Regular.eot?#ie") format("embedded-opentype"),
-		url("fonts/BungeeLayersRotated-Regular.woff2") format("woff2"),
-		url("fonts/BungeeLayersRotated-Regular.woff") format("woff"),
-		url("fonts/BungeeLayersRotated-Regular.svg#font") format("svg");
+	src: url("../fonts/BungeeLayersRotated-Regular.eot?#ie") format("embedded-opentype"),
+		url("../fonts/BungeeLayersRotated-Regular.woff2") format("woff2"),
+		url("../fonts/BungeeLayersRotated-Regular.woff") format("woff"),
+		url("../fonts/BungeeLayersRotated-Regular.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Rotated Outline";
-	src: url("fonts/BungeeLayersRotated-Outline.eot?#ie") format("embedded-opentype"),
-		url("fonts/BungeeLayersRotated-Outline.woff2") format("woff2"),
-		url("fonts/BungeeLayersRotated-Outline.woff") format("woff"),
-		url("fonts/BungeeLayersRotated-Outline.svg#font") format("svg");
+	src: url("../fonts/BungeeLayersRotated-Outline.eot?#ie") format("embedded-opentype"),
+		url("../fonts/BungeeLayersRotated-Outline.woff2") format("woff2"),
+		url("../fonts/BungeeLayersRotated-Outline.woff") format("woff"),
+		url("../fonts/BungeeLayersRotated-Outline.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Rotated Inline";
-	src: url("fonts/BungeeLayersRotated-Inline.eot?#ie") format("embedded-opentype"),
-		url("fonts/BungeeLayersRotated-Inline.woff2") format("woff2"),
-		url("fonts/BungeeLayersRotated-Inline.woff") format("woff"),
-		url("fonts/BungeeLayersRotated-Inline.svg#font") format("svg");
+	src: url("../fonts/BungeeLayersRotated-Inline.eot?#ie") format("embedded-opentype"),
+		url("../fonts/BungeeLayersRotated-Inline.woff2") format("woff2"),
+		url("../fonts/BungeeLayersRotated-Inline.woff") format("woff"),
+		url("../fonts/BungeeLayersRotated-Inline.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Rotated Shade";
-	src: url("fonts/BungeeLayersRotated-Shade.eot?#ie") format("embedded-opentype"),
-		url("fonts/BungeeLayersRotated-Shade.woff2") format("woff2"),
-		url("fonts/BungeeLayersRotated-Shade.woff") format("woff"),
-		url("fonts/BungeeLayersRotated-Shade.svg#font") format("svg");
+	src: url("../fonts/BungeeLayersRotated-Shade.eot?#ie") format("embedded-opentype"),
+		url("../fonts/BungeeLayersRotated-Shade.woff2") format("woff2"),
+		url("../fonts/BungeeLayersRotated-Shade.woff") format("woff"),
+		url("../fonts/BungeeLayersRotated-Shade.svg#font") format("svg");
 }
 
 /* top-level element classes */
@@ -76,6 +76,7 @@
 .bungee, .bungee * {
     margin: 0;
     padding: 0;
+    line-height: 1.2; /* needed for banners */
 }
 
 .bungee {
@@ -99,9 +100,9 @@
     -ms-text-orientation: upright;
     text-orientation: upright;
     /* implement spacing and kerning */
-    -moz-font-feature-settings: "vkrn", "vpal";
-    -webkit-font-feature-settings: "vkrn", "vpal";
-    font-feature-settings: "vkrn", "vpal";
+    -moz-font-feature-settings: "vpal";
+    -webkit-font-feature-settings: "vpal";
+    font-feature-settings: "vpal";
 }
 
 .bungee * {
@@ -160,26 +161,27 @@
 /* manipulations for block shapes and banners */
 
 .bungee.block {
-    -moz-font-feature-settings: "ss01", "liga" 0, "kern" 0;
-    -webkit-font-feature-settings: "ss01", "liga" 0, "kern" 0;
-    font-feature-settings: "ss01", "liga" 0, "kern" 0;
+    -moz-font-feature-settings: "ss01";
+    -webkit-font-feature-settings: "ss01";
+    font-feature-settings: "ss01";
 }
 
 .bungee.vertical.block {
-    -moz-font-feature-settings: "ss01", "liga" 0, "kern" 0, "vkrn", "vpal";
-    -webkit-font-feature-settings: "ss01", "liga" 0, "kern" 0, "vkrn", "vpal";
-    font-feature-settings: "ss01", "liga" 0, "kern" 0, "vert", "vpal";
+    -moz-font-feature-settings: "vpal" 0;
+    -webkit-font-feature-settings: "vpal" 0;
+    font-feature-settings: "vpal" 0;
+    letter-spacing: 0.28em;
 }
 
-.bungee.background .layer.background {
+.bungee.sign .layer.sign {
     opacity: 1;
 }
 
-.bungee .background.regular {
+.bungee .sign.regular {
     z-index: 2;
 }
 
-.bungee .background.outline {
+.bungee .sign.outline {
     z-index: 1;
 }
 
@@ -199,45 +201,40 @@
 /* block shapes */
 
 .bungee.block span {
-    font-size: 0.9em;
-    letter-spacing: 0.4222em ; /* 1.28/fontsize - 1 */
-    left: 0.2111em; /* letterspacing/2 */
-    top: -0.04em; /* -(1-fontsize)/2 * 80% */
+    position: relative;
+    top: 0;
+    left: 0.14em;
+    letter-spacing: 0.28em;
 }
 
 .bungee.block.shade span {
     /* offset slightly to compensate for shade */
-    left: 0.2311em; /* left + 0.02 */
-    top: -0.06em; /* top - 0.02 */
+    position: relative;
+    left: 0.16em; /* left + 0.02 */
+    top: -0.02em; /* top - 0.02 */
 }
 
 .bungee.vertical.block span {
-    letter-spacing: 0.56em; /* this is a mystery */
     left: 0;
-    top: 0.28em; /* letterspacing/2 */
+    top: 0.0em;
+    letter-spacing: 0.28em;
 }
 
 .bungee.vertical.block.shade span {
-    left: 0.02em; /* left + 0.02 */
-    top: 0.26em; /* top - 0.02 */
+    left: 0.02em;
+    top: -0.02em;
 }
 
 /* banners */
 .bungee.banner span {
-    font-size: 0.9em;
-    left: 0;
-    top: -0.04em; /* -(1-fontsize)/2 * 80% */
 }
 
 .bungee.banner.shade span {
-    /* offset slightly to compensate for shade */
-    left: 0.02em; /* left + 0.02 */
-    top: -0.06em; /* top - 0.02 */
+    left: 0.02em;
+    top: -0.02em;
 }
 
 .bungee.vertical.banner span {
-    left: 0;
-    top: 0;
 }
 
 .bungee.vertical.banner.shade span {
@@ -292,7 +289,7 @@
 }
 
 .no-vertical-text .bungee.vertical.block span {
-    top: -0.0556em; /* (1-fontsize)/fontsize/2 */
+    top: -0.0556em; /* (1-fontsize)../fontsize/2 */
     left: 0.28em; /* letterspacing/2 */
 }
 
