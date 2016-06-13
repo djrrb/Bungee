@@ -1,7 +1,7 @@
 /* The Fonts */
 
 @font-face {
-	font-family: "Bungee Regular";
+	font-family: "Bungee Demo Regular";
 	src: url("../fonts/BungeeLayers-Regular.eot?#ie") format("embedded-opentype"),
 		url("../fonts/BungeeLayers-Regular.woff2") format("woff2"),
 		url("../fonts/BungeeLayers-Regular.woff") format("woff"),
@@ -10,7 +10,7 @@
 
 
 @font-face {
-	font-family: "Bungee Outline";
+	font-family: "Bungee Demo Outline";
 	src: url("../fonts/BungeeLayers-Outline.eot?#ie") format("embedded-opentype"),
 		url("../fonts/BungeeLayers-Outline.woff2") format("woff2"),
 		url("../fonts/BungeeLayers-Outline.woff") format("woff"),
@@ -19,7 +19,7 @@
 
 
 @font-face {
-	font-family: "Bungee Inline";
+	font-family: "Bungee Demo Inline";
 	src: url("../fonts/BungeeLayers-Inline.eot?#ie") format("embedded-opentype"),
 		url("../fonts/BungeeLayers-Inline.woff2") format("woff2"),
 		url("../fonts/BungeeLayers-Inline.woff") format("woff"),
@@ -28,7 +28,7 @@
 
 
 @font-face {
-	font-family: "Bungee Shade";
+	font-family: "Bungee Demo Shade";
 	src: url("../fonts/BungeeLayers-Shade.eot?#ie") format("embedded-opentype"),
 		url("../fonts/BungeeLayers-Shade.woff2") format("woff2"),
 		url("../fonts/BungeeLayers-Shade.woff") format("woff"),
@@ -37,7 +37,7 @@
 
 
 @font-face {
-	font-family: "Bungee Rotated Regular";
+	font-family: "Bungee Demo Rotated Regular";
 	src: url("../fonts/BungeeLayersRotated-Regular.eot?#ie") format("embedded-opentype"),
 		url("../fonts/BungeeLayersRotated-Regular.woff2") format("woff2"),
 		url("../fonts/BungeeLayersRotated-Regular.woff") format("woff"),
@@ -46,7 +46,7 @@
 
 
 @font-face {
-	font-family: "Bungee Rotated Outline";
+	font-family: "Bungee Demo Rotated Outline";
 	src: url("../fonts/BungeeLayersRotated-Outline.eot?#ie") format("embedded-opentype"),
 		url("../fonts/BungeeLayersRotated-Outline.woff2") format("woff2"),
 		url("../fonts/BungeeLayersRotated-Outline.woff") format("woff"),
@@ -55,7 +55,7 @@
 
 
 @font-face {
-	font-family: "Bungee Rotated Inline";
+	font-family: "Bungee Demo Rotated Inline";
 	src: url("../fonts/BungeeLayersRotated-Inline.eot?#ie") format("embedded-opentype"),
 		url("../fonts/BungeeLayersRotated-Inline.woff2") format("woff2"),
 		url("../fonts/BungeeLayersRotated-Inline.woff") format("woff"),
@@ -64,7 +64,7 @@
 
 
 @font-face {
-	font-family: "Bungee Rotated Shade";
+	font-family: "Bungee Demo Rotated Shade";
 	src: url("../fonts/BungeeLayersRotated-Shade.eot?#ie") format("embedded-opentype"),
 		url("../fonts/BungeeLayersRotated-Shade.woff2") format("woff2"),
 		url("../fonts/BungeeLayersRotated-Shade.woff") format("woff"),
@@ -122,22 +122,22 @@
 }
 
 .bungee .regular {
-    font-family: "Bungee Regular";
+    font-family: "Bungee Demo Regular";
     z-index: 13;
 }
 
 .bungee .outline {
-    font-family: "Bungee Outline";
+    font-family: "Bungee Demo Outline";
     z-index: 12;
 }
 
 .bungee .inline {
-    font-family: "Bungee Inline";
+    font-family: "Bungee Demo Inline";
     z-index: 14;
 }
 
 .bungee .shade {
-    font-family: "Bungee Shade";
+    font-family: "Bungee Demo Shade";
     z-index: 11;
 }
 
@@ -273,19 +273,19 @@
 /* for no-vertical-text browsers, need to rotate all the transforms */
 
 .no-vertical-text .bungee.vertical .regular {
-    font-family: "Bungee Rotated Regular";
+    font-family: "Bungee Demo Rotated Regular";
 }
 
 .no-vertical-text .bungee.vertical .outline {
-    font-family: "Bungee Rotated Outline";
+    font-family: "Bungee Demo Rotated Outline";
 }
 
 .no-vertical-text .bungee.vertical .inline {
-    font-family: "Bungee Rotated Inline";
+    font-family: "Bungee Demo Rotated Inline";
 }
 
 .no-vertical-text .bungee.vertical .shade {
-    font-family: "Bungee Rotated Shade";
+    font-family: "Bungee Demo Rotated Shade";
 }
 
 .no-vertical-text .bungee.vertical.block span {
