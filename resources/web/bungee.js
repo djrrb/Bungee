@@ -214,6 +214,7 @@ Alternate characters:
                     master.find('.layer.text').css(leftProp, (left[widthProp]()/textsize) + 'em');
                     //expand blocks to fill width
                     var textwidth = master.find('.layer.text').first()[widthProp]();// + 0.1*textsize;
+                    var squarewidth = main[widthProp]();
                     var numbersquares = Math.ceil(textwidth/squarewidth);
                     var banner = [];
                     for (var i=0; i<numbersquares; i++) {
