@@ -203,7 +203,6 @@ Alternate characters:
                 begin = String.fromCharCode(Bungee.beginChars[begin]);
                 end = String.fromCharCode(Bungee.endChars[end]);
                 wrapper.prepend('<div class="layer sign banner regular"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
-                //wrapper.prepend('<div class="layer sign banner outline"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
                 //give browser a second to lay everything out, then position text
                 master.css('visibility', 'hidden'); //hide the dirty work
                 setTimeout(function() { master.css('visibility', ''); }, 100);
@@ -212,16 +211,15 @@ Alternate characters:
                     var textsize = parseFloat(master.css('font-size'));
                     var left = master.find('.sign header').first();
                     var main = master.find('.sign figure').first();
-                    master.find('.text').css(leftProp, (left[widthProp]()/textsize) + 'em');
+                    master.find('.layer.text').css(leftProp, (left[widthProp]()/textsize) + 'em');
                     //expand blocks to fill width
                     var textwidth = master.find('.layer.text').first()[widthProp]();// + 0.1*textsize;
-                    var squarewidth = main[widthProp]();
                     var numbersquares = Math.ceil(textwidth/squarewidth);
                     var banner = [];
                     for (var i=0; i<numbersquares; i++) {
                         banner.push(square);
                     }
-                    master.find('.sign figure').text(banner.join('')).css(widthProp, (textwidth/textsize) + 'em');
+                    main.text(banner.join('')).css(widthProp, (textwidth/textsize) + 'em');
                 }, 10);
             } else if (block || master.hasClass('block')) {
                 //zero out any conflicting classes
@@ -236,7 +234,6 @@ Alternate characters:
                 }
                 str = str.join('');
                 wrapper.prepend('<div class="layer sign block regular">' + str + '</div>');
-                //wrapper.prepend('<div class="layer sign block outline">' + str + '</div>');
 
                 //turn on block features
                 if (orientation === 'horizontal') {

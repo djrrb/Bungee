@@ -189,13 +189,17 @@
 .bungee.banner footer,
 .bungee.banner figure
  {
-    display: inline-block;
-    font-weight: normal;
-    vertical-align: top;
+    display: inline-block !important;
+    font-weight: normal !important;
+    vertical-align: top !important;
+    width: auto !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .bungee.banner figure {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 /* block shapes */
