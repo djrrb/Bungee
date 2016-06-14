@@ -198,10 +198,7 @@ Alternate characters:
                 begin = String.fromCharCode(Bungee.beginChars[begin]);
                 end = String.fromCharCode(Bungee.endChars[end]);
                 wrapper.children('.layer.text').first().before('<div class="layer sign banner regular"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
-                //give browser a second to lay everything out, then position text
-                master.css('visibility', 'hidden'); //hide the dirty work
-                setTimeout(function() { master.css('visibility', ''); }, 100);
-                setTimeout(function() {
+                (function() {
                     //move text after beginning shape
                     var textsize = parseFloat(master.css('font-size'));
                     var left = master.find('.sign header').first();
@@ -216,7 +213,7 @@ Alternate characters:
                         banner.push(square);
                     }
                     main.text(banner.join('')).css(widthProp, (textwidth/textsize) + 'em');
-                }, 10);
+                })();
             } else if (block || master.hasClass('block')) {
                 //zero out any conflicting classes
                 classes = classes.replace(/\b(banner|begin|end|block)(?:-\S+)?/g, ' ');
