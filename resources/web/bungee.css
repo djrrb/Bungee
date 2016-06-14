@@ -202,7 +202,7 @@
     display: inline-block !important;
     font-weight: normal !important;
     vertical-align: top !important;
-    width: auto !important;
+    width: auto;
     max-width: none !important;
     margin: 0 !important;
     padding: 0 !important;
