@@ -288,22 +288,24 @@
     font-family: "Bungee Demo Rotated Shade";
 }
 
+.no-vertical-text .bungee.vertical.block {
+    letter-spacing: 0;
+}
+
 .no-vertical-text .bungee.vertical.block span {
-    top: -0.0556em; /* (1-fontsize)/fontsize/2 */
-    left: 0.28em; /* letterspacing/2 */
+    letter-spacing: 0.41em;
+    left: 0.205em;
 }
 
 .no-vertical-text .bungee.vertical.block.shade span {
-    top: -0.0756em; /* top - 0.02 */
-    left: 0.26em; /* left - 0.02 */
+    left: 0.185em; /* left - 0.02 */
+    top: -0.02em; /* top - 0.02 */
 }
 
 .no-vertical-text .bungee.vertical.banner span {
-    left: 0;
-    top: -0.04em;
 }
 
 .no-vertical-text .bungee.vertical.banner.shade span {
-    left: -0.02em; /* left + 0.02 rotated */
-    top: -0.06em; /* top - 0.02 rotated */
+    left: -0.02em; /* left - 0.02 */
+    top: -0.02em; /* top - 0.02 */
 }
