@@ -119,11 +119,11 @@
 
 .bungee .layer.background {
     position: absolute;
-    z-index: -1;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    opacity: 1;
 }
 
 .bungee .layer:not(.background):first-child,

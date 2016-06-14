@@ -161,12 +161,6 @@ Alternate characters:
                 ffs[m[1]] = m[3];
             });
             
-            //background color
-            if (temp = classes.match(/background-\S+/)) {
-                var bg = $("<div class='layer background'></div>").appendTo(wrapper);
-                setLayerColor(bg, temp[0], 'background-color');
-            }
-
             //add the text layers
             var layers = classes.match(/\b(regular|inline|outline|shade)(-\S+)?/gi);
             if (!layers) {
@@ -244,6 +238,13 @@ Alternate characters:
                     ffs.vpal = '0';
                 }
             }
+
+            //background color
+            if (temp = classes.match(/background-\S+/)) {
+                var bg = $("<div class='layer background'></div>").prependTo(wrapper);
+                setLayerColor(bg, temp[0], 'background-color');
+            }
+
             
             if (signcolor) {
                 setLayerColor(master.find('.sign'), signcolor);
