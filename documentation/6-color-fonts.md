@@ -2,9 +2,9 @@
 
 Thanks in large part to the popularity of Emoji, several specifications for color fonts have emerged in the past few years.
 
-All three versions of Bungee Color are normal OpenType fonts with extra data added. These fonts were generated with Jens Kutílek’s incredible [Robochrome](https://github.com/fontfont/RoboChrome), and mastered with the help of [Roel Nieskens](https://pixelambacht.nl).
+All three variants of Bungee Color are normal OpenType fonts with extra data added. These fonts were generated with [Jens Kutílek](http://kutilek.com)’s incredible [RoboChrome](https://github.com/fontfont/RoboChrome), and mastered with the help of [Roel Nieskens](https://pixelambacht.nl).
 
-As of 2016, none of these formats are widely supported beyond the companies who proposed them. Color fonts are still an experimental technology, which is why I think it is important to have good open source examples to experiment with. I hope Bungee is helpful to the further development of these formats. 
+As of Bungee’s release, none of these formats are widely supported beyond products made by the companies who proposed them. Color fonts are still an experimental technology, which is why I think it is important to have good open source examples to experiment with. I hope Bungee is helpful to the further development of these formats. 
 
 ## SVG ([Mozilla](https://hacks.mozilla.org/2014/10/svg-colors-in-opentype-fonts/))
 
