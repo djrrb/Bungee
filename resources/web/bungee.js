@@ -163,7 +163,8 @@ Alternate characters:
             
             //background color
             if (temp = classes.match(/background-\S+/)) {
-                setLayerColor(master, temp[0], 'background-color');
+                var bg = $("<div class='layer background'></div>").appendTo(wrapper);
+                setLayerColor(bg, temp[0], 'background-color');
             }
 
             //add the text layers
@@ -202,7 +203,7 @@ Alternate characters:
                 master.addClass('sign banner begin-' + begin + ' end-' + end);
                 begin = String.fromCharCode(Bungee.beginChars[begin]);
                 end = String.fromCharCode(Bungee.endChars[end]);
-                wrapper.prepend('<div class="layer sign banner regular"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
+                wrapper.children('.layer.text').first().before('<div class="layer sign banner regular"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
                 //give browser a second to lay everything out, then position text
                 master.css('visibility', 'hidden'); //hide the dirty work
                 setTimeout(function() { master.css('visibility', ''); }, 100);

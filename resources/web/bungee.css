@@ -117,7 +117,17 @@
     opacity: 0;
 }
 
-.bungee .layer:first-child {
+.bungee .layer.background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bungee .layer:not(.background):first-child,
+.bungee .layer.background + .layer {
     position: relative; /* to make it have an actual size */
 }
 
