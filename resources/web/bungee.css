@@ -214,44 +214,44 @@
 
 /* block shapes */
 
-.bungee.block span {
+.bungee.block .layer span {
     position: relative;
     top: 0;
     left: 0.14em;
     letter-spacing: 0.28em;
 }
 
-.bungee.block.shade span {
+.bungee.block.shade .layer span {
     /* offset slightly to compensate for shade */
     position: relative;
     left: 0.16em; /* left + 0.02 */
     top: -0.02em; /* top - 0.02 */
 }
 
-.bungee.vertical.block span {
+.bungee.vertical.block .layer span {
     left: 0;
     top: 0.0em;
     letter-spacing: 0.28em;
 }
 
-.bungee.vertical.block.shade span {
+.bungee.vertical.block.shade .layer span {
     left: 0.02em;
     top: -0.02em;
 }
 
 /* banners */
-.bungee.banner span {
+.bungee.banner .layer span {
 }
 
-.bungee.banner.shade span {
+.bungee.banner.shade .layer span {
     left: 0.02em;
     top: -0.02em;
 }
 
-.bungee.vertical.banner span {
+.bungee.vertical.banner .layer span {
 }
 
-.bungee.vertical.banner.shade span {
+.bungee.vertical.banner.shade .layer span {
     left: 0.02em; /* left + 0.02 */
     top: -0.02em; /* top - 0.02 */
 }
@@ -306,20 +306,20 @@
     letter-spacing: 0;
 }
 
-.no-vertical-text .bungee.vertical.block span {
+.no-vertical-text .bungee.vertical.block .layer span {
     letter-spacing: 0.41em;
     left: 0.205em;
 }
 
-.no-vertical-text .bungee.vertical.block.shade span {
+.no-vertical-text .bungee.vertical.block.shade .layer span {
     left: 0.185em; /* left - 0.02 */
     top: -0.02em; /* top - 0.02 */
 }
 
-.no-vertical-text .bungee.vertical.banner span {
+.no-vertical-text .bungee.vertical.banner .layer span {
 }
 
-.no-vertical-text .bungee.vertical.banner.shade span {
+.no-vertical-text .bungee.vertical.banner.shade .layer span {
     left: -0.02em; /* left - 0.02 */
     top: -0.02em; /* top - 0.02 */
 }
