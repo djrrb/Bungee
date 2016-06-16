@@ -291,7 +291,7 @@ Alternate characters:
         }
 
         //browser detection === bad, I know, but Safari is buggy even when it supports writing-mode and font-feature-settings (as of 9.1, Feb 2016)
-        var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') >= 0 && navigator.userAgent.indexOf('Safari') >= 0;
+        var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') === 0;
         var isFirefox = navigator.userAgent.indexOf('Gecko/') >= 0;
         
         if (isSafari || isFirefox
