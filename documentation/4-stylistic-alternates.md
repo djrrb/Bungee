@@ -47,12 +47,6 @@ Replace the curly apostrophe and matching left quote with smaller, less obtrusiv
 
 <img src="images/design-alternates-apostrophe.png" alt="Small quotes" height="200" style="background:#871414" />
 
-## Stylistic Set 08: Sequential Ĳ
-
-Replace the ligated Ĳ (U+0132) with two separate letterforms.
-	
-<img src="images/design-alternates-ij.png" alt="Sequential IJ" height="200" style="background:#871414" />
-	
 ## Stylistic Set 09: John Downer’s recommendations
 
 Sign painter and type designer John Downer warns against vertical type and lettering which includes problematic characters like I, J, L, M, and W, which are unusually narrow or wide. This feature disables those characters.
