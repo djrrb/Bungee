@@ -9,4 +9,4 @@
 #
 # Also note that glyphID's might change. They are referenced
 # by the SVG table. Keep them matched up!
-pyftsubset Bungee_Color-Regular_svg.ttf --verbose --glyphs-file=subset-glyphs.txt --no-subset-tables+='SVG ' --drop-tables-='SVG ' --output-file=Bungee_Color-Regular-svg-subset.ttf
+pyftsubset Bungee_Color-Regular_svg.ttf --verbose --name-IDs='*' --glyphs-file=glyphs-to-keep.txt --no-subset-tables+='SVG ' --drop-tables-='SVG ' --output-file=Bungee_Color-Regular-svg-subset.ttf
