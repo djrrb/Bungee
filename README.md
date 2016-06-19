@@ -18,7 +18,7 @@ The basic *Bungee* family includes Regular and Hairline weights, as well as thre
 
 *Bungee Layers Rotated* implements Bungee’s vertical forms by default, with all characters rotated 90° counterclockwise. These fonts can be set in a textbox rotated 90° clockwise to simulate vertical type.
 
-*Bungee Color* contains experiments with the various color font formats out there, including SVG, COLR/CPAL and sbix. None of these formats are widely supported (yet!), so your milage may vary. These fonts are built with Jens Kutilek’s [RoboChrome](https://github.com/fontfont/RoboChrome).
+*Bungee Color* contains experiments with the various color font formats out there, including SVG, COLR/CPAL and sbix. None of these formats are widely supported (yet!), so your milage may vary. These fonts are built with Jens Kutílek’s [RoboChrome](https://github.com/fontfont/RoboChrome), and produced with help from [Roel Nieskens](https://pixelambacht.nl).
 
 [Check out the docs](/documentation) to learn more about how to use Bungee’s chromatic layers, vertical forms, stylistic alternates, and ornaments.
 
