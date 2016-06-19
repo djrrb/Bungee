@@ -21,7 +21,7 @@ if __name__ == "__main__":
         NSColor.colorWithCalibratedRed_green_blue_alpha_(250/255, 207/255, 207/255, 1), # 0, inline
         NSColor.colorWithCalibratedRed_green_blue_alpha_(238/255, 58/255, 55/255, 1),   # 1, regular 
         NSColor.colorWithCalibratedRed_green_blue_alpha_(197/255, 26/255, 40/255, 1), # 2, outline
-        NSColor.colorWithCalibratedRed_green_blue_alpha_(159/255, 28/255, 32/255, 1), # 3, shade
+        NSColor.colorWithCalibratedRed_green_blue_alpha_(0/255, 0/255, 0/255, .2), # 3, shade
         NSColor.colorWithCalibratedRed_green_blue_alpha_(70/255, 20/255, 20/255, 1), # 4, background
         NSColor.colorWithCalibratedRed_green_blue_alpha_(135/255, 20/255, 20/255, 1) # 5, sign
     ]
