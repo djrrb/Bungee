@@ -263,6 +263,15 @@ Alternate characters:
                 newffs.push('"' + tag + '" ' + ffs[tag]);
             }
             master.css('font-feature-settings', newffs.join(', '));
+            
+            //apply accessibility attributes to avoid reading multiple layers to screen readers
+            // cf. http://john.foliot.ca/aria-hidden/
+            master.find('.layer').attr({
+                'aria-hidden': 'true',
+                'role': 'presentation'
+            });
+            
+            master.find('.layer.text').first().removeAttr('aria-hidden').removeAttr('role');
         },
         
         cleanupText: function(text) {

@@ -110,6 +110,12 @@
     background: transparent;
 }
 
+/* hide extra layers from screen readers, but make sure they're visible */
+.bungee [aria-hidden] {
+    visibility: visible !important;
+    display: block !important;
+}
+
 .bungee .layer {
     position: absolute;
     top: 0;
