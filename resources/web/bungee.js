@@ -3,6 +3,8 @@
 
 BUILDING BUNGEE LAYOUTS ON THE FLY WITH JAVASCRIPT
 
+Note: this script requires jQuery 2.x.
+
 Use bungee.js to create a completely styled Bungee layout with a single
 element. Various classes on the element determine the appearance.
 
