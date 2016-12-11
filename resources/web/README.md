@@ -2,6 +2,8 @@
 
 Use `bungee.js` and `bungee.css` to create a completely styled Bungee layout with a single element. Various classes on the element determine the appearance.
 
+Note: `bungee.js` requires jQuery 2.x.
+
 ## Example:
 
 ```
