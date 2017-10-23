@@ -3,21 +3,19 @@
 
 BUILDING BUNGEE LAYOUTS ON THE FLY WITH JAVASCRIPT
 
-Note: this script requires jQuery 2.x.
-
 Use bungee.js to create a completely styled Bungee layout with a single
 element. Various classes on the element determine the appearance.
 
 Example:
     <div class="bungee horizontal regular-efbb43 inline-eae2b1 outline-3e0e00 shade-c9060e background-333333 sign-111111 block-square alt-e alt-rounded" style="font-size: 120px">LAUNDROMAT</div>
 
-Required: 
+Required:
  * "bungee" — this class determines which elements get this magic applied.
 
 Orientation:
  * "horizontal" or "vertical" — default is horizontal
 
-Layers: 
+Layers:
  * "layer[-color[-opacity]]"
  * layer: background, sign, shade, outline, regular, inline (from "bottom" to "top")
  * color: any valid HTML color, minus the pound sign. Examples: F00, FF0000, red
@@ -80,11 +78,13 @@ Alternate characters:
             'quote': 'ss07', 'apostrophe': 'ss07',
             'ij': 'ss08'
         },
-        
+
         backgroundInputList: function(type) {
             var name, unicode, c;
             var list = window.Bungee[type + 'Chars'];
-            var ucfirst = function(c) { return c.replace('-', ' ').toUpperCase(); };
+            var ucfirst = function(c) {
+                return c.replace('-', ' ').toUpperCase();
+            };
             if (!list) {
                 return;
             }
@@ -102,56 +102,57 @@ Alternate characters:
             }
             document.write('</ul>');
         },
-        
+
         reset: function(el) {
-            el = $(el);
-            el.css('font-feature-settings', '');
-            if (el.find('.layer').length > 0) {
-                el.text(el.find('span').first().text().trim());
+            el.style.fontFeatureSettings = '';
+
+            // Reset element's content to simply a string.
+            if (el.querySelectorAll('.layer').length > 0) {
+                var originalText = el.querySelector('span').textContent.trim();
+                el.textContent = originalText;
             }
             return el;
         },
-        
+
         init: function(el) {
             if (typeof el === 'number') {
                 el = this;
             }
 
             var temp;
-            var rotatedhack = $('html').hasClass('no-vertical-text');
+            var rotatedhack = document.documentElement.classList.contains('no-vertical-text');
             var master = Bungee.reset(el);
-            var classes = master.prop('className');
-            var orientation = master.hasClass('vertical') ? 'vertical' : 'horizontal';
+            var classes = master.className;
+            var orientation = master.classList.contains('vertical') ? 'vertical' : 'horizontal';
 
             function setLayerColor(layer, classname, cssname) {
                 var match = classname.match(/^(\w+)-(\w+)(?:-([\d\.]+))?/);
-                
+
                 if (match) {
-                    master.addClass(match[1]);
+                    master.classList.add(match[1]);
                     classes += ' ' + match[1];
-                    layer.addClass(match[1]);
-                    layer.css(cssname || 'color', (match[2].match(/^([0-9a-f]{3}|[0-9a-f]{6})$/i) ? '#' : '') + match[2]);
+                    layer.classList.add(match[1]);
+                    layer.style[cssname || 'color'] = (match[2].match(/^([0-9a-f]{3}|[0-9a-f]{6})$/i) ? '#' : '') + match[2];
                     if (match[3]) {
-                        layer.css('opacity', (parseFloat(match[3])/100).toString());
+                        layer.style.opacity = (parseFloat(match[3])/100).toString();
                     }
                 } else {
-                    layer.addClass(classname);
+                    layer.classList.add(classname);
                 }
-                
+
                 return layer;
             }
 
-
             //remember the content and then get rid of it
-            var text = Bungee.cleanupText(master.text());
-            master.html('<div></div>');
-            var wrapper = master.children();
+            var text = Bungee.cleanupText(master.textContent);
+            master.innerHTML = '<div></div>';
+            var wrapper = master.firstElementChild;
 
             //build up a list of opentype features that will be applied to the text
             var ffs = {};
 
             //first get default styles
-            $.each(master.css('font-feature-settings').split(/,/), function(i, tag) {
+            master.style.fontFeatureSettings.split(/,/).forEach(function(tag) {
                 var m = /['"]([a-z]{4})["'](\s+(\d+|on|off))?/.exec(tag);
                 if (!m) {
                     return;
@@ -163,73 +164,106 @@ Alternate characters:
                 }
                 ffs[m[1]] = m[3];
             });
-            
+
             //add the text layers
             var layers = classes.match(/\b(regular|inline|outline|shade)(-\S+)?/gi);
             if (!layers) {
                 layers = ['regular', 'outline', 'inline', 'shade']
-                master.addClass(layers.join(' '));
+                master.classList.add(layers.join(' '));
                 classes += ' ' + layers.join(' ');
             }
 
             var layer;
             for (var i in layers) {
-                layer = $("<div class='layer text'><span></span></div>");
-                layer.children().text(text); //to avoid special HTML chars
-                master.addClass(layers[i]);
+                layer = document.createElement('div');
+                layer.classList.add('layer', 'text');
+                var textWrapper = document.createElement('span');
+                textWrapper.textContent = text;
+                layer.appendChild(textWrapper);
+                master.classList.add(layers[i]);
                 setLayerColor(layer, layers[i]);
                 wrapper.append(layer);
+                wrapper.appendChild(layer);
             }
 
             //process banner/block classes
-            var begin=(classes.match(/begin-(\S+)/) || ['',''])[1], 
+            var begin=(classes.match(/begin-(\S+)/) || ['',''])[1],
                 end=(classes.match(/end-(\S+)/) || ['',''])[1],
-                block=(classes.match(/block-(\S+)/) || ['',''])[1], 
+                block=(classes.match(/block-(\S+)/) || ['',''])[1],
                 signcolor=(classes.match(/sign-\S+/) || [''])[0],
                 square = "█",
                 leftProp = orientation === 'vertical' && !rotatedhack ? 'top' : 'left',
                 widthProp = orientation === 'vertical' && !rotatedhack ? 'height' : 'width';
 
             //banners!
-            if (begin || end || master.hasClass('banner')) {
+            if (begin || end || master.classList.contains('banner')) {
                 //zero out any conflicting classes
                 classes = classes.replace(/\b(banner|begin|end|block)(?:-\S+)?/g, ' ');
-                master.prop('className', classes);
-                if (!(begin in Bungee.beginChars)) { begin = 'square'; }
-                if (!(end in Bungee.endChars)) { end = 'square'; }
-                master.addClass('sign banner begin-' + begin + ' end-' + end);
+                master.className = classes;
+                if (!(begin in Bungee.beginChars)) {
+                    begin = 'square';
+                }
+                if (!(end in Bungee.endChars)) {
+                    end = 'square';
+                }
+                master.classList.add('sign', 'banner', 'begin-' + begin, 'end-' + end);
                 begin = String.fromCharCode(Bungee.beginChars[begin]);
                 end = String.fromCharCode(Bungee.endChars[end]);
-                wrapper.children('.layer.text').first().before('<div class="layer sign banner regular"><header>' + begin + '</header><figure>' + square + '</figure><footer>' + end + '</footer></div>');
+                var textLayerEl = wrapper.querySelector('.layer.text');
+
+                var bannerWrapper = document.createElement('div');
+                bannerWrapper.classList.add('layer', 'sign', 'banner', 'regular');
+                var header = document.createElement('header');
+                header.innerHTML = begin;
+                var figure = document.createElement('figure');
+                figure.innerHTML = square;
+                var footer = document.createElement('footer');
+                footer.innerHTML = end;
+                bannerWrapper.append(header, figure, footer);
+                textLayerEl.parentNode.insertBefore(bannerWrapper, textLayerEl);
+
                 (function() {
                     //move text after beginning shape
-                    var textsize = parseFloat(master.css('font-size'));
-                    var left = master.find('.sign header').first();
-                    var main = master.find('.sign figure').first();
-                    master.find('.layer.text').css(leftProp, (left[widthProp]()/textsize) + 'em');
+                    var textsize = parseFloat(getComputedStyle(master).fontSize);
+                    var left = master.querySelector('.sign header');
+                    var main = master.querySelector('.sign figure');
+
+                    //calculate offset for text, apply to all layers
+                    var widthAlign = parseFloat(getComputedStyle(left)[widthProp]) / textsize;
+                    var textLayers = master.querySelectorAll('.layer.text');
+                    Array.prototype.forEach.call(textLayers, function(el) {
+                        el.style[leftProp] = widthAlign + 'em';
+                    });
+
                     //expand blocks to fill width
-                    var textwidth = master.find('.layer.text').first()[widthProp]();// + 0.1*textsize;
-                    var squarewidth = main[widthProp]();
-                    var numbersquares = Math.ceil(textwidth/squarewidth);
+                    var textwidth = parseFloat(getComputedStyle(master.querySelector('.layer.text'))[widthProp])
+                    var squarewidth = parseFloat(getComputedStyle(main)[widthProp]);
+                    var numbersquares = Math.ceil(textwidth / squarewidth);
                     var banner = [];
-                    for (var i=0; i<numbersquares; i++) {
+                    for (var i = 0; i < numbersquares; i++) {
                         banner.push(square);
                     }
-                    main.text(banner.join('')).css(widthProp, (textwidth/textsize) + 'em');
+                    main.textContent = banner.join('');
+                    main.style[widthProp] = (textwidth / textsize) + 'em';
                 })();
-            } else if (block || master.hasClass('block')) {
+            } else if (block || master.classList.contains('block')) {
                 //zero out any conflicting classes
                 classes = classes.replace(/\b(banner|begin|end|block)(?:-\S+)?/g, ' ');
-                master.prop('className', classes);
-                if (!(block in Bungee.blockChars)) { block = 'square'; }
-                master.addClass('sign block block-' + block);
+                master.className = classes;
+                if (!(block in Bungee.blockChars)) {
+                    block = 'square';
+                }
+                master.classList.add('sign', 'block', 'block-' + block);
                 block = String.fromCharCode(Bungee.blockChars[block]);
                 var str = [];
-                for (var i=0, l=text.length; i<l; i++) {
+                for (var i = 0, l = text.length; i < l; i++) {
                     str.push(block);
                 }
                 str = str.join('');
-                wrapper.prepend('<div class="layer sign block regular">' + str + '</div>');
+                var layerEl = document.createElement('div');
+                layerEl.classList.add('layer', 'sign', 'block', 'regular');
+                layerEl.innerHTML = str;
+                wrapper.prepend(layerEl)
 
                 //turn on block features
                 if (orientation === 'horizontal') {
@@ -241,15 +275,17 @@ Alternate characters:
 
             //background color
             if (temp = classes.match(/background-\S+/)) {
-                var bg = $("<div class='layer background'></div>").prependTo(wrapper);
+                var bg = document.createElement('div');
+                bg.classList.add('layer', 'background');
+                wrapper.prepend(bg);
                 setLayerColor(bg, temp[0], 'background-color');
             }
 
-            
+            //sign color
             if (signcolor) {
-                setLayerColor(master.find('.sign'), signcolor);
+                setLayerColor(master.querySelector('.sign'), signcolor);
             }
-            
+
             // stylistic alternates
             var alts = classes.toLowerCase().match(RegExp("\\balt-(" + Object.keys(Bungee.stylisticAlternates).join('|') + ")\\b", 'g'));
             for (var i in alts) {
@@ -264,28 +300,29 @@ Alternate characters:
             for (var tag in ffs) {
                 newffs.push('"' + tag + '" ' + ffs[tag]);
             }
-            master.css('font-feature-settings', newffs.join(', '));
-            
+            master.style.fontFeatureSettings = newffs.join(', ');
+
             //apply accessibility attributes to avoid reading multiple layers to screen readers
             // cf. http://john.foliot.ca/aria-hidden/
-            master.find('.layer').attr({
-                'aria-hidden': 'true',
-                'role': 'presentation'
+            var accLayers = master.querySelectorAll('.layer');
+            Array.prototype.forEach.call(accLayers, function(el, i) {
+                // Don't apply ARIA roles to first element in set.
+                if (i == 0) {
+                    return;
+                }
+                el.setAttribute('aria-hidden', 'true');
+                el.setAttribute('role', 'presentation');
             });
-            
-            master.find('.layer.text').first().removeAttr('aria-hidden').removeAttr('role');
         },
-        
+
         cleanupText: function(text) {
             return text.replace(/\s+/g, ' ').trim();
         }
     };
 
     //pretty up Bungee elements on document ready
-    $(function() {
+    document.addEventListener('DOMContentLoaded', function() {
         // see if browser support the necessary vertical CSS
-        var hack = false;
-        
         function testFeature(feature) {
             var test = document.createElement('div');
             var prefixes = ['', '-ms-', '-webkit-', '-moz-'];
@@ -304,15 +341,16 @@ Alternate characters:
         //browser detection === bad, I know, but Safari is buggy even when it supports writing-mode and font-feature-settings (as of 9.1, Feb 2016)
         var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') === 0;
         var isFirefox = navigator.userAgent.indexOf('Gecko/') >= 0;
-        
+
         if (isSafari || isFirefox
             || !testFeature('font-feature-settings')
             || !testFeature('writing-mode')
             || !testFeature('text-orientation')
         ) {
-            $('html').addClass('no-vertical-text');
+            document.documentElement.classList.add('no-vertical-text');
         }
 
-        $('.bungee').each(Bungee.init);
+        var elements = document.querySelectorAll('.bungee');
+        Array.prototype.forEach.call(elements, Bungee.init);
     });
 })();
