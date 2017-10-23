@@ -119,7 +119,7 @@ Alternate characters:
                 el = this;
             }
 
-            var temp;
+            var temp, i;
             var rotatedhack = document.documentElement.classList.contains('no-vertical-text');
             var master = Bungee.reset(el);
             var classes = master.className;
@@ -168,13 +168,13 @@ Alternate characters:
             //add the text layers
             var layers = classes.match(/\b(regular|inline|outline|shade)(-\S+)?/gi);
             if (!layers) {
-                layers = ['regular', 'outline', 'inline', 'shade']
+                layers = ['regular', 'outline', 'inline', 'shade'];
                 master.classList.add(layers.join(' '));
                 classes += ' ' + layers.join(' ');
             }
 
             var layer;
-            for (var i in layers) {
+            for (i in layers) {
                 layer = document.createElement('div');
                 layer.classList.add('layer', 'text');
                 var textWrapper = document.createElement('span');
@@ -236,11 +236,11 @@ Alternate characters:
                     });
 
                     //expand blocks to fill width
-                    var textwidth = parseFloat(getComputedStyle(master.querySelector('.layer.text'))[widthProp])
+                    var textwidth = parseFloat(getComputedStyle(master.querySelector('.layer.text'))[widthProp]);
                     var squarewidth = parseFloat(getComputedStyle(main)[widthProp]);
                     var numbersquares = Math.ceil(textwidth / squarewidth);
                     var banner = [];
-                    for (var i = 0; i < numbersquares; i++) {
+                    for (i = 0; i < numbersquares; i++) {
                         banner.push(square);
                     }
                     main.textContent = banner.join('');
@@ -256,14 +256,15 @@ Alternate characters:
                 master.classList.add('sign', 'block', 'block-' + block);
                 block = String.fromCharCode(Bungee.blockChars[block]);
                 var str = [];
-                for (var i = 0, l = text.length; i < l; i++) {
+                var length = text.length;
+                for (i = 0; i < length; i++) {
                     str.push(block);
                 }
                 str = str.join('');
                 var layerEl = document.createElement('div');
                 layerEl.classList.add('layer', 'sign', 'block', 'regular');
                 layerEl.innerHTML = str;
-                wrapper.prepend(layerEl)
+                wrapper.prepend(layerEl);
 
                 //turn on block features
                 if (orientation === 'horizontal') {
@@ -274,7 +275,8 @@ Alternate characters:
             }
 
             //background color
-            if (temp = classes.match(/background-\S+/)) {
+            temp = classes.match(/background-\S+/);
+            if (temp) {
                 var bg = document.createElement('div');
                 bg.classList.add('layer', 'background');
                 wrapper.prepend(bg);
@@ -288,7 +290,7 @@ Alternate characters:
 
             // stylistic alternates
             var alts = classes.toLowerCase().match(RegExp("\\balt-(" + Object.keys(Bungee.stylisticAlternates).join('|') + ")\\b", 'g'));
-            for (var i in alts) {
+            for (i in alts) {
                 temp = alts[i].substr(4);
                 if (temp in Bungee.stylisticAlternates) {
                     ffs[Bungee.stylisticAlternates[temp]] = '1';
@@ -307,7 +309,7 @@ Alternate characters:
             var accLayers = master.querySelectorAll('.layer');
             Array.prototype.forEach.call(accLayers, function(el, i) {
                 // Don't apply ARIA roles to first element in set.
-                if (i == 0) {
+                if (i === 0) {
                     return;
                 }
                 el.setAttribute('aria-hidden', 'true');
@@ -342,10 +344,12 @@ Alternate characters:
         var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') === 0;
         var isFirefox = navigator.userAgent.indexOf('Gecko/') >= 0;
 
-        if (isSafari || isFirefox
-            || !testFeature('font-feature-settings')
-            || !testFeature('writing-mode')
-            || !testFeature('text-orientation')
+        if (
+            isSafari ||
+            isFirefox ||
+            !testFeature('font-feature-settings') ||
+            !testFeature('writing-mode') ||
+            !testFeature('text-orientation')
         ) {
             document.documentElement.classList.add('no-vertical-text');
         }
