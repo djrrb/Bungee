@@ -1,5 +1,4 @@
 /*
-© 2016 Chris Lewis info@chrislewis.codes
 
 BUILDING BUNGEE LAYOUTS ON THE FLY WITH JAVASCRIPT
 
