@@ -116,7 +116,11 @@ Alternate characters:
 
         init: function(el) {
             if (typeof el === 'number') {
+                //jQuery.each(): index in element list
                 el = this;
+            } else if (el.jquery) {
+                //unwrap jquery
+                el = el[0];
             }
 
             var temp, i;
@@ -173,17 +177,28 @@ Alternate characters:
                 classes += ' ' + layers.join(' ');
             }
 
-            var layer;
+            var layer, pieces, textWrapper;
             for (i in layers) {
-                layer = document.createElement('div');
-                layer.classList.add('layer', 'text');
-                var textWrapper = document.createElement('span');
-                textWrapper.textContent = text;
-                layer.appendChild(textWrapper);
                 master.classList.add(layers[i]);
-                setLayerColor(layer, layers[i]);
-                wrapper.append(layer);
-                wrapper.appendChild(layer);
+                pieces = layers[i].split('-');
+                // don't add multiple children for duplicate classes like "regular" and "regular-ffffff"
+                // see if we've already created a layer for this class
+                layer = wrapper.querySelector('.layer.' + pieces[0]);
+                if (layer) {
+                    //if so, only override it if this one has a specific color defined
+                    if (pieces.length > 1) {
+                        setLayerColor(layer, layers[i]);
+                    }
+                } else {
+                    //haven't seen this layer before, so create one
+                    layer = document.createElement('div');
+                    layer.classList.add('layer', 'text', pieces[0]);
+                    textWrapper = document.createElement('span');
+                    textWrapper.textContent = text;
+                    layer.appendChild(textWrapper);
+                    wrapper.appendChild(layer);
+                    setLayerColor(layer, layers[i]);
+                }
             }
 
             //process banner/block classes
@@ -219,7 +234,9 @@ Alternate characters:
                 figure.innerHTML = square;
                 var footer = document.createElement('footer');
                 footer.innerHTML = end;
-                bannerWrapper.append(header, figure, footer);
+                bannerWrapper.appendChild(header);
+                bannerWrapper.appendChild(figure);
+                bannerWrapper.appendChild(footer);
                 textLayerEl.parentNode.insertBefore(bannerWrapper, textLayerEl);
 
                 (function() {
@@ -280,12 +297,16 @@ Alternate characters:
                 var bg = document.createElement('div');
                 bg.classList.add('layer', 'background');
                 wrapper.prepend(bg);
-                setLayerColor(bg, temp[0], 'background-color');
+                setLayerColor(bg, temp[0], 'backgroundColor');
             }
 
             //sign color
+            var signLayer;
             if (signcolor) {
-                setLayerColor(master.querySelector('.sign'), signcolor);
+                signLayer = master.querySelector('.sign');
+                if (signLayer) {
+                    setLayerColor(signLayer, signcolor);
+                }
             }
 
             // stylistic alternates
@@ -306,10 +327,11 @@ Alternate characters:
 
             //apply accessibility attributes to avoid reading multiple layers to screen readers
             // cf. http://john.foliot.ca/aria-hidden/
-            var accLayers = master.querySelectorAll('.layer');
-            Array.prototype.forEach.call(accLayers, function(el, i) {
+            var accLayers = master.querySelectorAll('.layer'), accFirstText = true;
+            Array.prototype.forEach.call(accLayers, function(el) {
                 // Don't apply ARIA roles to first element in set.
-                if (i === 0) {
+                if (accFirstText && el.classList.contains('text')) {
+                    accFirstText = false;
                     return;
                 }
                 el.setAttribute('aria-hidden', 'true');
