@@ -58,7 +58,7 @@ For information on how to use Bungee.js to build Bungee layouts on the fly, [see
 
 The *Bungee Color* family contains experimental fonts in the various color font formats out there, including SVG (Adobe/Mozilla), COLR/CPAL (Microsoft) and sbix (Apple).
 
-These fonts were built with Jens Kutilek’s [RoboChrome](https://github.com/fontfont/RoboChrome).
+These fonts were built with Jens Kutilek’s [RoboChrome](https://github.com/jenskutilek/RoboChrome).
 
 * Previous: [Family structure](1-family-structure.md)
 * Next: [Vertical text](3-vertical-text.md)
