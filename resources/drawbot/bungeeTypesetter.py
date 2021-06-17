@@ -294,7 +294,7 @@ if __name__ == "__main__":
     # if there is no text, add a space so we don't hit a traceback
     if myText == '':
         myText = ' '
-        print 'Enter some text!'
+        print('Enter some text!')
     
     # measure the text
     myTextWidth, myTextHeight = textSize(myText)
@@ -306,14 +306,14 @@ if __name__ == "__main__":
     # if we have a banner, calculate the dimensions of the background
     if doBanner:
         # define banner middle, beginning, and ending defaults
-        bgTextBase = u'█'
-        bgTextBefore = unichr(57713)
-        bgTextAfter = unichr(57714)
+        bgTextBase = '█'
+        bgTextBefore = chr(57713)
+        bgTextAfter = chr(57714)
         # get customized beginnings and endings from the UI
         if globalVars['Banner Begin']:
-            bgTextBefore = unichr(bannerBegin[int(globalVars['Banner Begin'])-1])
+            bgTextBefore = chr(bannerBegin[int(globalVars['Banner Begin'])-1])
         if globalVars['Banner End']:
-            bgTextAfter = unichr(bannerEnd[int(globalVars['Banner End'])-1])
+            bgTextAfter = chr(bannerEnd[int(globalVars['Banner End'])-1])
         # guesstimate the number of full blocks (bgTextBase) that should appear between the banner ends
         blocks = int(round(myTextWidth/240))
         # put it all together and measure
@@ -324,7 +324,7 @@ if __name__ == "__main__":
         
     # if we have block shapes, calculate the dimensions
     elif doBlockShapes:
-        bgText = unichr(blockShapes[int(globalVars['Block Shapes'])-1]) * len(myText)
+        bgText = chr(blockShapes[int(globalVars['Block Shapes'])-1]) * len(myText)
         totalWidth, totalHeight = textSize(bgText)
         measureText = bgText
         
