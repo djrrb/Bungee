@@ -1,0 +1,169 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Bungee Color</title>
+        <link rel="stylesheet" href="fonts.css" />
+        <style type="text/css">
+            body {
+                max-width: 60em;
+                padding: 2em;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            h1, h2, pre, p, ul {
+                font-family: 'InputMono', 'Input', monospace;
+            }
+            
+            p {
+                font-size: .7em;
+            }
+
+            h1, h2 {
+                font-size: .7em;
+                font-weight: normal;
+                text-transform: uppercase;
+                letter-spacing: .1em;
+            }
+
+            h1 {
+                font-weight: bold;
+                margin-bottom: 2em;
+            }
+            
+            h2 {
+                margin-bottom: 1rem;
+            }
+
+            p {
+                margin: 0;
+                overflow: hidden;
+                line-height: 1.4;
+            }
+
+            pre {
+                margin-top: 1rem;
+                background: #efefef;
+                padding: 1em;
+                overflow: scroll;
+                font-size: .7em;
+                line-height: 1.4;
+            }
+        
+            li {
+                            font-size: .7em;
+                            line-height: 2em;
+
+            }
+            section {
+                border-top: 1px solid #ccc;
+                padding: 2em 0;
+            }
+        
+            strong {
+                font-weight: 700;
+                font-synthesis: none;
+            }
+            
+@font-palette-values --custom {
+    font-family: "Bungee COLR";
+    base-palette: 1;
+    override-colors: 0 blue;
+}
+
+            
+        
+        </style>
+    </head>
+    <body>
+        <h1>Bungee Color</h1>
+        
+        <section>
+        
+        <p>Customizing font palettes in CSS is a <a href="https://caniuse.com/css-font-palette">recently-supported feature in browsers</a>.</p>
+        
+        <p>Use <a href="https://wakamaifondue.com/beta">Wakamai Fondue</a> to view predefined color palettes.</p>
+
+    </section>
+
+		<section>
+
+        <h2>Bungee Color Regular</h2>
+
+
+			<p style="
+			    font-family: 'Bungee COLR'; 
+			    font-size: 6rem; 
+			    line-height: 1.2em;
+                hyphens: true;
+                font-synthesis: none;
+			    ">
+
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit
+
+			</p>
+			<div class="code">
+				<code>
+					<pre>@font-face {
+    src: url('fonts/BradleyInitialsDJR-Regular.woff2') format("woff2"),
+         url('fonts/BradleyInitialsDJR-Regular.woff') format("woff");
+    font-family: 'Bungee COLR';
+    }
+</pre>
+				</code>
+			</div>
+			
+			
+		</section>
+	
+	
+	
+	
+	
+		<section>
+
+        <h2>Bungee Color, custom palette</h2>
+
+
+			<p style="
+			    font-family: 'Bungee COLR'; 
+			    font-size: 6rem; 
+			    line-height: 1.2em;
+                hyphens: true;
+                font-synthesis: none;
+                font-palette: --custom;
+			    ">
+
+
+Lorem ipsum dolor sit amet consectetur adipiscing elit
+
+			</p>
+			<div class="code">
+				<code>
+					<pre>@font-face {
+    src: url('BungeeColor-Regular_COLRv0.woff2') format("woff2"),
+         url('BungeeColor-Regular_COLRv0.woff') format("woff");
+    font-family: 'Bungee COLR';
+    }
+    
+@font-palette-values --custom {
+    font-family: "Bungee COLR";
+    base-palette: 1;
+    override-colors: 0 aqua;
+}
+    
+p {
+    font-palette: --custom;
+}
+</pre>
+				</code>
+			</div>
+			
+			
+		</section>
+	
+	
+	
+	    </body>
+</html>
