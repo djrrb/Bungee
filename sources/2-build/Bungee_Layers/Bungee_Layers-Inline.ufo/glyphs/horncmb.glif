@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="horncmb" format="1">
-  <advance width="0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="horncmb" format="2">
   <unicode hex="031B"/>
   <outline>
     <contour>
@@ -18,13 +17,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.5</real>
-        <real>1.0</real>
-        <real>0.5</real>
-        <real>0.5</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.5,1,0.5,0.5</string>
     </dict>
   </lib>
 </glyph>

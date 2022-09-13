@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I.s_v" format="2">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="505" y="585" type="line"/>
+      <point x="495" y="585" type="line"/>
+      <point x="495" y="95" type="line"/>
+      <point x="505" y="95" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="590" type="line"/>
+      <point x="299" y="580" type="line"/>
+      <point x="701" y="580" type="line"/>
+      <point x="701" y="590" type="line"/>
+    </contour>
+    <contour>
+      <point x="299" y="100" type="line"/>
+      <point x="299" y="90" type="line"/>
+      <point x="701" y="90" type="line"/>
+      <point x="701" y="100" type="line"/>
+    </contour>
+  </outline>
+</glyph>

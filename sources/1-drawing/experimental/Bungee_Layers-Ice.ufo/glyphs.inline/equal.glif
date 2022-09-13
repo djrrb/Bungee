@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal" format="2">
+  <advance width="734"/>
+  <outline>
+    <contour>
+      <point x="160" y="215" type="line"/>
+      <point x="574" y="215" type="line"/>
+      <point x="574" y="205" type="line"/>
+      <point x="160" y="205" type="line"/>
+    </contour>
+    <contour>
+      <point x="160" y="515" type="line"/>
+      <point x="574" y="515" type="line"/>
+      <point x="574" y="505" type="line"/>
+      <point x="160" y="505" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:15:58</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>equal</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>734</integer>
+        </dict>
+        <key>inlineContour</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>equal</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>734</integer>
+        </dict>
+      </dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+    </dict>
+  </lib>
+</glyph>

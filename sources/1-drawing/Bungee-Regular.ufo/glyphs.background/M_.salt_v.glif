@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M.salt_v" format="2">
+  <advance width="1000"/>
+  <anchor x="448.0" y="747.0" name="top"/>
+  <anchor x="448.0" y="0.0" name="bottom"/>
+  <anchor x="620.0" y="747.0" name="top"/>
+  <anchor x="620.0" y="0.0" name="bottom"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-28 09:40:08</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>M.salt</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>1090</integer>
+        </dict>
+        <key>inlineContour</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>M.salt</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>1090</integer>
+        </dict>
+      </dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+    </dict>
+  </lib>
+</glyph>

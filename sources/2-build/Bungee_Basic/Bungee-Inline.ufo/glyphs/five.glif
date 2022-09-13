@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="five" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five" format="2">
   <advance width="647"/>
   <unicode hex="0035"/>
   <outline>
@@ -81,8 +81,7 @@
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>

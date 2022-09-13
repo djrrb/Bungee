@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="multiply" format="1">
-  <advance width="734.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="multiply" format="2">
+  <advance width="734"/>
   <unicode hex="00D7"/>
   <outline>
     <contour>
@@ -55,8 +55,7 @@
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>

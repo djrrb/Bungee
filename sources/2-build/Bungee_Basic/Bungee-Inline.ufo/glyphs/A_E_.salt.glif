@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AE.salt" format="2">
+  <advance width="1013"/>
+  <unicode hex="E135"/>
+  <outline>
+    <contour>
+      <point x="283.0" y="489" type="line" smooth="yes"/>
+      <point x="283.0" y="516"/>
+      <point x="295.0" y="536"/>
+      <point x="366.0" y="536" type="curve"/>
+      <point x="448.0" y="536" type="line"/>
+      <point x="448.0" y="368" type="line"/>
+      <point x="283.0" y="368" type="line"/>
+    </contour>
+    <contour>
+      <point x="283.0" y="36" type="curve" smooth="yes"/>
+      <point x="283.0" y="185" type="line"/>
+      <point x="448.0" y="185" type="line"/>
+      <point x="448.0" y="36" type="line" smooth="yes"/>
+      <point x="448.0" y="11"/>
+      <point x="459.0" y="0"/>
+      <point x="484.0" y="0" type="curve" smooth="yes"/>
+      <point x="928.0" y="0" type="line" smooth="yes"/>
+      <point x="953.0" y="0"/>
+      <point x="964.0" y="11"/>
+      <point x="964.0" y="36" type="curve" smooth="yes"/>
+      <point x="964.0" y="153" type="line" smooth="yes"/>
+      <point x="964.0" y="178"/>
+      <point x="953.0" y="189"/>
+      <point x="928.0" y="189" type="curve" smooth="yes"/>
+      <point x="675.0" y="189" type="line"/>
+      <point x="675.0" y="275" type="line"/>
+      <point x="847.0" y="275" type="line" smooth="yes"/>
+      <point x="872.0" y="275"/>
+      <point x="883.0" y="286"/>
+      <point x="883.0" y="311" type="curve" smooth="yes"/>
+      <point x="883.0" y="418" type="line" smooth="yes"/>
+      <point x="883.0" y="444"/>
+      <point x="872.0" y="454"/>
+      <point x="847.0" y="454" type="curve" smooth="yes"/>
+      <point x="675.0" y="454" type="line"/>
+      <point x="675.0" y="531" type="line"/>
+      <point x="928.0" y="531" type="line" smooth="yes"/>
+      <point x="953.0" y="531"/>
+      <point x="964.0" y="542"/>
+      <point x="964.0" y="567" type="curve" smooth="yes"/>
+      <point x="964.0" y="684" type="line" smooth="yes"/>
+      <point x="964.0" y="709"/>
+      <point x="953.0" y="720"/>
+      <point x="928.0" y="720" type="curve" smooth="yes"/>
+      <point x="367.0" y="720" type="line" smooth="yes"/>
+      <point x="119.0" y="720"/>
+      <point x="64.0" y="637"/>
+      <point x="64.0" y="516" type="curve" smooth="yes"/>
+      <point x="64.0" y="36" type="line" smooth="yes"/>
+      <point x="64.0" y="11"/>
+      <point x="75.0" y="0"/>
+      <point x="100.0" y="0" type="curve" smooth="yes"/>
+      <point x="247.0" y="0" type="line" smooth="yes"/>
+      <point x="272.0" y="0"/>
+      <point x="283.0" y="11"/>
+    </contour>
+    <contour>
+      <point x="180.0" y="495" type="curve" smooth="yes"/>
+      <point x="180.0" y="281" type="line"/>
+      <point x="558.0" y="281" type="line"/>
+      <point x="558.0" y="620" type="line"/>
+      <point x="337.0" y="620" type="line" smooth="yes"/>
+      <point x="212.0" y="620"/>
+      <point x="180.0" y="570"/>
+    </contour>
+    <contour>
+      <point x="558.0" y="89" type="line"/>
+      <point x="558.0" y="271" type="line"/>
+      <point x="180.0" y="271" type="line"/>
+      <point x="180.0" y="89" type="line"/>
+      <point x="170.0" y="89" type="line"/>
+      <point x="170.0" y="495" type="line" smooth="yes"/>
+      <point x="170.0" y="576"/>
+      <point x="204.0" y="630"/>
+      <point x="337.0" y="630" type="curve" smooth="yes"/>
+      <point x="874.0" y="630" type="line"/>
+      <point x="874.0" y="620" type="line"/>
+      <point x="568.0" y="620" type="line" smooth="yes"/>
+      <point x="568.0" y="368" type="line"/>
+      <point x="794.0" y="368" type="line"/>
+      <point x="794.0" y="358" type="line"/>
+      <point x="568.0" y="358" type="line"/>
+      <point x="568.0" y="99" type="line"/>
+      <point x="875.0" y="99" type="line"/>
+      <point x="875.0" y="89" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-09 19:56:19</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

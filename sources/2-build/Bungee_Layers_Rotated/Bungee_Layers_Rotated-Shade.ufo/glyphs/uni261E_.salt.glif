@@ -1,18 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni261E.salt" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni261E.salt" format="2">
   <advance width="1022"/>
   <unicode hex="E150"/>
   <outline>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.5</real>
-      </array>
+      <key>public.markColor</key>
+      <string>1,0,1,0.5</string>
     </dict>
   </lib>
 </glyph>

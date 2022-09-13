@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotaccent" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccent" format="2">
   <advance width="233"/>
   <unicode hex="02D9"/>
+  <anchor x="229.0" y="360.0" name="_top"/>
+  <anchor x="976.0" y="360.0" name="_bottom"/>
   <outline>
     <contour>
       <point x="216.0" y="440" type="line" smooth="yes"/>
@@ -21,12 +23,6 @@
       <point x="216.0" y="257"/>
       <point x="216.0" y="282" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="229.0" y="360.0" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="976.0" y="360.0" type="move" name="_bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
@@ -35,8 +31,7 @@
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>

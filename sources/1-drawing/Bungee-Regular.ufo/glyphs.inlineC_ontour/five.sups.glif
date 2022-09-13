@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five.sups" format="2">
+  <advance width="493"/>
+  <outline>
+    <contour>
+      <point x="359" y="651" type="move" smooth="yes"/>
+      <point x="143" y="651" type="line" smooth="yes"/>
+      <point x="143" y="467" type="line" smooth="yes"/>
+      <point x="295" y="467" type="line" smooth="yes"/>
+      <point x="343" y="467"/>
+      <point x="368" y="448"/>
+      <point x="368" y="400" type="curve" smooth="yes"/>
+      <point x="368" y="337" type="line" smooth="yes"/>
+      <point x="368" y="290"/>
+      <point x="347" y="270"/>
+      <point x="290" y="270" type="curve" smooth="yes"/>
+      <point x="119" y="270" type="line" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

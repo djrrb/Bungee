@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Wacute.salt_v" format="2">
+  <advance width="1000"/>
+  <unicode hex="E21C"/>
+  <outline>
+    <contour>
+      <point x="660" y="664" type="line"/>
+      <point x="770" y="757" type="line"/>
+      <point x="779" y="763"/>
+      <point x="784" y="775"/>
+      <point x="784" y="792" type="curve" smooth="yes"/>
+      <point x="784" y="888" type="line" smooth="yes"/>
+      <point x="784" y="919"/>
+      <point x="769" y="935"/>
+      <point x="739" y="931" type="curve" smooth="yes"/>
+      <point x="390" y="888" type="line" smooth="yes"/>
+      <point x="376" y="887"/>
+      <point x="365" y="883"/>
+      <point x="359" y="877" type="curve"/>
+      <point x="229" y="768" type="line" smooth="yes"/>
+      <point x="221" y="761"/>
+      <point x="216" y="751"/>
+      <point x="216" y="733" type="curve" smooth="yes"/>
+      <point x="216" y="668" type="line"/>
+      <point x="233" y="683" type="line"/>
+      <point x="391" y="685" type="line"/>
+      <point x="407" y="658" type="line"/>
+      <point x="408" y="615" type="line"/>
+      <point x="492" y="684" type="line"/>
+      <point x="633" y="685" type="line"/>
+    </contour>
+    <contour>
+      <point x="738" y="756" type="curve" smooth="yes"/>
+      <point x="389" y="713" type="line" smooth="yes"/>
+      <point x="366" y="710"/>
+      <point x="355" y="723"/>
+      <point x="355" y="746" type="curve" smooth="yes"/>
+      <point x="355" y="842" type="line" smooth="yes"/>
+      <point x="355" y="867"/>
+      <point x="366" y="875"/>
+      <point x="391" y="878" type="curve" smooth="yes"/>
+      <point x="740" y="921" type="line"/>
+      <point x="763" y="924"/>
+      <point x="774" y="911"/>
+      <point x="774" y="888" type="curve" smooth="yes"/>
+      <point x="774" y="792" type="line" smooth="yes"/>
+      <point x="774" y="767"/>
+      <point x="763" y="759"/>
+    </contour>
+    <contour>
+      <point x="445" y="807" type="line"/>
+      <point x="445" y="797" type="line"/>
+      <point x="684" y="827" type="line"/>
+      <point x="684" y="837" type="line"/>
+    </contour>
+    <component base="W.salt_s_v"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

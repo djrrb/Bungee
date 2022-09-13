@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Udieresisgrave" format="2">
+  <advance width="746"/>
+  <unicode hex="01DB"/>
+  <outline>
+    <component base="Udieresis"/>
+    <component base="grave.vert" xOffset="360" yOffset="-30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,1,0.5,0.5</string>
+    </dict>
+  </lib>
+</glyph>

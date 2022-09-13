@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2B1B.chevron_n" format="2">
+  <advance width="1280"/>
+  <unicode hex="E182"/>
+  <outline>
+    <contour>
+      <point x="1180" y="767" type="line" smooth="yes"/>
+      <point x="1180" y="792"/>
+      <point x="1168" y="794"/>
+      <point x="1144" y="803" type="curve" smooth="yes"/>
+      <point x="667" y="992" type="line" smooth="yes"/>
+      <point x="649" y="999"/>
+      <point x="628" y="999"/>
+      <point x="610" y="992" type="curve" smooth="yes"/>
+      <point x="136" y="803" type="line" smooth="yes"/>
+      <point x="112" y="794"/>
+      <point x="100" y="792"/>
+      <point x="100" y="767" type="curve" smooth="yes"/>
+      <point x="100" y="-241" type="line" smooth="yes"/>
+      <point x="100" y="-266"/>
+      <point x="116" y="-285"/>
+      <point x="140" y="-275" type="curve" smooth="yes"/>
+      <point x="640" y="-77" type="line"/>
+      <point x="1140" y="-275" type="line" smooth="yes"/>
+      <point x="1164" y="-285"/>
+      <point x="1180" y="-266"/>
+      <point x="1180" y="-241" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,1,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

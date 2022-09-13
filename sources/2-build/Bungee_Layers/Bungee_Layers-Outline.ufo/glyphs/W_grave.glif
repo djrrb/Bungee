@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Wgrave" format="2">
+  <advance width="831"/>
+  <unicode hex="1E80"/>
+  <outline>
+    <component base="W"/>
+    <component base="grave" xOffset="155"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:18:10</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

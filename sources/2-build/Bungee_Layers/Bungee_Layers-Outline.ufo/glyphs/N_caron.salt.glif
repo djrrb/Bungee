@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ncaron.salt" format="2">
+  <advance width="746"/>
+  <unicode hex="E129"/>
+  <outline>
+    <component base="N.salt"/>
+    <component base="caron" xOffset="123"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

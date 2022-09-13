@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lcaron.salt" format="2">
+  <advance width="867"/>
+  <unicode hex="E121"/>
+  <guideline x="365" y="660" angle="0" identifier="CitC2IoWCN"/>
+  <guideline x="55" y="309" angle="90.0" identifier="bHl71ODSSf"/>
+  <outline>
+    <component base="L.salt" xOffset="12"/>
+    <component base="caron.2" xOffset="40" yOffset="206"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.guideline.magnetic.CitC2IoWCN</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.bHl71ODSSf</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

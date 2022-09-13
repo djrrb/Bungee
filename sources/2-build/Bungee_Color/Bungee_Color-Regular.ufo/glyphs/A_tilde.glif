@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Atilde" format="2">
+  <advance width="730"/>
+  <unicode hex="00C3"/>
+  <unicode hex="00E3"/>
+  <outline>
+    <component base="A"/>
+    <component base="tilde" xOffset="115"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Atilde.alt001</string>
+          <string>Atilde.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
+      <key>com.fontfont.colorfont.svg</key>
+      <string></string>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

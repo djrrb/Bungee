@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J" format="2">
+  <advance width="688"/>
+  <outline>
+    <contour>
+      <point x="150" y="292" type="move"/>
+      <point x="150" y="213" type="line"/>
+      <point x="150" y="135"/>
+      <point x="189" y="83"/>
+      <point x="333" y="83" type="curve"/>
+      <point x="470" y="83"/>
+      <point x="509" y="136"/>
+      <point x="509" y="213" type="curve"/>
+      <point x="509" y="630" type="line"/>
+    </contour>
+  </outline>
+</glyph>

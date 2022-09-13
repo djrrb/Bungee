@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash.salt" format="2">
+  <advance width="625"/>
+  <unicode hex="E123"/>
+  <outline>
+    <contour>
+      <point x="20" y="428" type="curve" smooth="yes"/>
+      <point x="20" y="321" type="line" smooth="yes"/>
+      <point x="20" y="295"/>
+      <point x="31" y="281"/>
+      <point x="56" y="285" type="curve" smooth="yes"/>
+      <point x="364" y="335" type="line" smooth="yes"/>
+      <point x="389" y="339"/>
+      <point x="400" y="345"/>
+      <point x="400" y="371" type="curve" smooth="yes"/>
+      <point x="400" y="478" type="line" smooth="yes"/>
+      <point x="400" y="504"/>
+      <point x="389" y="518"/>
+      <point x="364" y="514" type="curve" smooth="yes"/>
+      <point x="56" y="464" type="line" smooth="yes"/>
+      <point x="31" y="460"/>
+      <point x="20" y="453"/>
+    </contour>
+    <component base="L.salt" xOffset="10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:08:14</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Lslash.salt.alt001</string>
+          <string>Lslash.salt.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
+    </dict>
+  </lib>
+</glyph>

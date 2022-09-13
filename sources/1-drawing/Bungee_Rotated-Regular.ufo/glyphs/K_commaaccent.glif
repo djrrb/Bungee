@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kcommaaccent" format="2">
+  <advance width="1089"/>
+  <unicode hex="0136"/>
+  <guideline x="747" y="485" angle="90.0" identifier="lGV5MnTxmr"/>
+  <guideline x="732" y="468" angle="90.0" identifier="JWib3ez9qO"/>
+  <outline>
+    <component base="K.s"/>
+    <component base="commaaccent" xOffset="780"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.guideline.magnetic.JWib3ez9qO</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.lGV5MnTxmr</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

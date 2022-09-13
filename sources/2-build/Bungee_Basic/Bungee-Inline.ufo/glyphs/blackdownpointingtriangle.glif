@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="blackdownpointingtriangle" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackdownpointingtriangle" format="2">
   <advance width="1000"/>
   <unicode hex="25BC"/>
   <outline>
@@ -33,18 +33,13 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.5</real>
-        <real>1.0</real>
-        <real>0.5</real>
-        <real>0.5</real>
-      </array>
       <key>floqMemesDict</key>
       <dict>
         <key>parentID</key>
         <string>none</string>
       </dict>
+      <key>public.markColor</key>
+      <string>0.5,1,0.5,0.5</string>
     </dict>
   </lib>
 </glyph>

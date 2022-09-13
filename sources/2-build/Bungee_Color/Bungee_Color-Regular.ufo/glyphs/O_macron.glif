@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omacron" format="2">
+  <advance width="737"/>
+  <unicode hex="014C"/>
+  <unicode hex="014D"/>
+  <outline>
+    <component base="O"/>
+    <component base="macron" xOffset="118"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Omacron.alt001</string>
+          <string>Omacron.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

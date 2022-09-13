@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pecyrillic.scrap_beta" format="2">
+  <advance width="759"/>
+  <outline>
+    <contour>
+      <point x="182.0" y="630.0" type="move"/>
+      <point x="182.0" y="90.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="182.0" y="360.0" type="move"/>
+      <point x="576.0" y="360.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="576.0" y="630.0" type="move"/>
+      <point x="576.0" y="90.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

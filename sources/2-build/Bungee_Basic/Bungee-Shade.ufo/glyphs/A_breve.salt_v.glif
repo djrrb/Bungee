@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Abreve.salt_v" format="2">
+  <advance width="1000"/>
+  <unicode hex="E1F5"/>
+  <outline>
+    <contour>
+      <point x="682" y="693" type="curve"/>
+      <point x="748" y="748" type="line" smooth="yes"/>
+      <point x="781" y="775"/>
+      <point x="792" y="813"/>
+      <point x="792" y="857" type="curve" smooth="yes"/>
+      <point x="792" y="901" type="line" smooth="yes"/>
+      <point x="792" y="933"/>
+      <point x="778" y="947"/>
+      <point x="746" y="947" type="curve" smooth="yes"/>
+      <point x="655" y="947" type="line" smooth="yes"/>
+      <point x="640" y="947"/>
+      <point x="631" y="944"/>
+      <point x="626" y="939" type="curve"/>
+      <point x="627" y="940" type="line"/>
+      <point x="537" y="865" type="line"/>
+      <point x="523" y="868"/>
+      <point x="519" y="875"/>
+      <point x="519" y="885" type="curve" smooth="yes"/>
+      <point x="519" y="906" type="line" smooth="yes"/>
+      <point x="519" y="938"/>
+      <point x="508" y="947"/>
+      <point x="480" y="947" type="curve" smooth="yes"/>
+      <point x="384" y="947" type="line" smooth="yes"/>
+      <point x="370" y="947"/>
+      <point x="359" y="944"/>
+      <point x="352" y="938" type="curve" smooth="yes"/>
+      <point x="223" y="829" type="line" smooth="yes"/>
+      <point x="214" y="821"/>
+      <point x="209" y="810"/>
+      <point x="209" y="792" type="curve" smooth="yes"/>
+      <point x="209" y="748" type="line" smooth="yes"/>
+      <point x="209" y="690"/>
+      <point x="226" y="643"/>
+      <point x="289" y="617" type="curve"/>
+      <point x="361" y="692"/>
+      <point x="492" y="718"/>
+    </contour>
+    <contour>
+      <point x="782" y="857" type="line"/>
+      <point x="782" y="772"/>
+      <point x="739" y="714"/>
+      <point x="565" y="714" type="curve" smooth="yes"/>
+      <point x="391" y="714"/>
+      <point x="348" y="772"/>
+      <point x="348" y="857" type="curve" smooth="yes"/>
+      <point x="348" y="901" type="line" smooth="yes"/>
+      <point x="348" y="926"/>
+      <point x="359" y="937"/>
+      <point x="384" y="937" type="curve" smooth="yes"/>
+      <point x="480" y="937" type="line" smooth="yes"/>
+      <point x="501" y="937"/>
+      <point x="509" y="930"/>
+      <point x="509" y="906" type="curve" smooth="yes"/>
+      <point x="509" y="885" type="line" smooth="yes"/>
+      <point x="509" y="866"/>
+      <point x="517" y="852"/>
+      <point x="566" y="852" type="curve" smooth="yes"/>
+      <point x="616" y="852"/>
+      <point x="625" y="866"/>
+      <point x="625" y="885" type="curve" smooth="yes"/>
+      <point x="625" y="906" type="line" smooth="yes"/>
+      <point x="625" y="930"/>
+      <point x="632" y="937"/>
+      <point x="655" y="937" type="curve" smooth="yes"/>
+      <point x="746" y="937" type="line"/>
+      <point x="771" y="937"/>
+      <point x="782" y="926"/>
+      <point x="782" y="901" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="699" y="867" type="line"/>
+      <point x="699" y="858" type="line" smooth="yes"/>
+      <point x="699" y="822"/>
+      <point x="672" y="788"/>
+      <point x="564" y="788" type="curve" smooth="yes"/>
+      <point x="456" y="788"/>
+      <point x="434" y="822"/>
+      <point x="434" y="858" type="curve" smooth="yes"/>
+      <point x="434" y="867" type="line"/>
+      <point x="424" y="867" type="line"/>
+      <point x="424" y="858" type="line" smooth="yes"/>
+      <point x="424" y="820"/>
+      <point x="440" y="778"/>
+      <point x="564" y="778" type="curve" smooth="yes"/>
+      <point x="688" y="778"/>
+      <point x="709" y="820"/>
+      <point x="709" y="858" type="curve" smooth="yes"/>
+      <point x="709" y="867" type="line"/>
+    </contour>
+    <component base="A.salt_s_v"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

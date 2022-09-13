@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright" format="2">
+  <advance width="429"/>
+  <outline>
+    <contour>
+      <point x="272" y="708" type="line"/>
+      <point x="135" y="708" type="line"/>
+      <point x="135" y="698" type="line"/>
+      <point x="262" y="698" type="line"/>
+      <point x="262" y="21" type="line"/>
+      <point x="135" y="21" type="line"/>
+      <point x="135" y="11" type="line"/>
+      <point x="272" y="11" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:15:58</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>bracketright</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>429</integer>
+        </dict>
+        <key>inlineContour</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>bracketright</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>429</integer>
+        </dict>
+      </dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+    </dict>
+  </lib>
+</glyph>

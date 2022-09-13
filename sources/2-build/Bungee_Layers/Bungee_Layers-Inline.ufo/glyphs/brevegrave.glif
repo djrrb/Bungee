@@ -1,29 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="brevegrave" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevegrave" format="2">
   <advance width="500"/>
+  <guideline x="144.2754641048623" y="1310.2461564925966" angle="0" identifier="EkIP75EXnD"/>
   <outline>
     <component base="breve"/>
     <component base="grave.vert" xOffset="201" yOffset="-15"/>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>name</key>
-          <string></string>
-          <key>x</key>
-          <real>144.2754641048623</real>
-          <key>y</key>
-          <real>1310.2461564925966</real>
-        </dict>
-      </array>
+      <key>com.typemytype.robofont.guideline.magnetic.EkIP75EXnD</key>
+      <real>5.0</real>
       <key>floqMemesDict</key>
       <dict>
         <key>parentID</key>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Becyrillic.scrap_beta" format="2">
+  <advance width="682"/>
+  <outline>
+    <contour>
+      <point x="411" y="-10" type="curve" smooth="yes"/>
+      <point x="105" y="-10" type="line" smooth="yes"/>
+      <point x="73" y="-10"/>
+      <point x="59" y="4"/>
+      <point x="59" y="36" type="curve" smooth="yes"/>
+      <point x="59" y="684" type="line" smooth="yes"/>
+      <point x="59" y="716"/>
+      <point x="73" y="730"/>
+      <point x="105" y="730" type="curve" smooth="yes"/>
+      <point x="569" y="730" type="line" smooth="yes"/>
+      <point x="601" y="730"/>
+      <point x="615" y="716"/>
+      <point x="615" y="684" type="curve" smooth="yes"/>
+      <point x="615" y="567" type="line" smooth="yes"/>
+      <point x="615" y="535"/>
+      <point x="601" y="521"/>
+      <point x="569" y="521" type="curve" smooth="yes"/>
+      <point x="296" y="521" type="line"/>
+      <point x="306" y="531" type="line"/>
+      <point x="306" y="473" type="line"/>
+      <point x="296" y="483" type="line"/>
+      <point x="411" y="483" type="line" smooth="yes"/>
+      <point x="603" y="483"/>
+      <point x="657" y="403"/>
+      <point x="657" y="288" type="curve" smooth="yes"/>
+      <point x="657" y="185" type="line" smooth="yes"/>
+      <point x="657" y="70"/>
+      <point x="603" y="-10"/>
+    </contour>
+    <contour>
+      <point x="304" y="187" type="line"/>
+      <point x="294" y="197" type="line"/>
+      <point x="384" y="197" type="line" smooth="yes"/>
+      <point x="413" y="197"/>
+      <point x="421" y="209"/>
+      <point x="421" y="226" type="curve" smooth="yes"/>
+      <point x="421" y="254" type="line" smooth="yes"/>
+      <point x="421" y="271"/>
+      <point x="413" y="283"/>
+      <point x="384" y="283" type="curve" smooth="yes"/>
+      <point x="294" y="283" type="line"/>
+      <point x="304" y="293" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zcaron.v" format="2">
+  <advance width="1000"/>
+  <unicode hex="E1DF"/>
+  <outline>
+    <contour>
+      <point x="670" y="687" type="line"/>
+      <point x="773" y="774" type="line" smooth="yes"/>
+      <point x="784" y="783"/>
+      <point x="789" y="794"/>
+      <point x="789" y="820" type="curve" smooth="yes"/>
+      <point x="789" y="901" type="line" smooth="yes"/>
+      <point x="789" y="949"/>
+      <point x="779" y="956"/>
+      <point x="735" y="942" type="curve" smooth="yes"/>
+      <point x="598" y="902" type="line" smooth="yes"/>
+      <point x="577" y="896"/>
+      <point x="563" y="896"/>
+      <point x="542" y="902" type="curve" smooth="yes"/>
+      <point x="405" y="942" type="line" smooth="yes"/>
+      <point x="381" y="949"/>
+      <point x="368" y="948"/>
+      <point x="361" y="942" type="curve" smooth="yes"/>
+      <point x="232" y="833" type="line" smooth="yes"/>
+      <point x="224" y="827"/>
+      <point x="221" y="815"/>
+      <point x="221" y="792" type="curve" smooth="yes"/>
+      <point x="221" y="711" type="line" smooth="yes"/>
+      <point x="221" y="669"/>
+      <point x="229" y="664"/>
+      <point x="269" y="649" type="curve"/>
+      <point x="284" y="683" type="line"/>
+    </contour>
+    <contour>
+      <point x="601" y="892" type="curve"/>
+      <point x="738" y="932" type="line" smooth="yes"/>
+      <point x="772" y="943"/>
+      <point x="779" y="937"/>
+      <point x="779" y="901" type="curve" smooth="yes"/>
+      <point x="779" y="820" type="line" smooth="yes"/>
+      <point x="779" y="784"/>
+      <point x="770" y="780"/>
+      <point x="738" y="767" type="curve" smooth="yes"/>
+      <point x="610" y="721" type="line" smooth="yes"/>
+      <point x="598" y="716"/>
+      <point x="583" y="713"/>
+      <point x="571" y="712" type="curve" smooth="yes"/>
+      <point x="559" y="712"/>
+      <point x="549" y="713"/>
+      <point x="539" y="717" type="curve" smooth="yes"/>
+      <point x="402" y="767" type="line" smooth="yes"/>
+      <point x="368" y="780"/>
+      <point x="360" y="784"/>
+      <point x="360" y="820" type="curve" smooth="yes"/>
+      <point x="360" y="901" type="line" smooth="yes"/>
+      <point x="360" y="937"/>
+      <point x="367" y="943"/>
+      <point x="402" y="932" type="curve" smooth="yes"/>
+      <point x="539" y="892" type="line"/>
+      <point x="562" y="886"/>
+      <point x="578" y="886"/>
+    </contour>
+    <contour>
+      <point x="450" y="839" type="line"/>
+      <point x="450" y="828" type="line"/>
+      <point x="533" y="801" type="line" smooth="yes"/>
+      <point x="545" y="798"/>
+      <point x="554" y="795"/>
+      <point x="569" y="795" type="curve"/>
+      <point x="584" y="795"/>
+      <point x="593" y="798"/>
+      <point x="605" y="801" type="curve" smooth="yes"/>
+      <point x="688" y="828" type="line"/>
+      <point x="688" y="839" type="line"/>
+      <point x="601" y="811" type="line" smooth="yes"/>
+      <point x="591" y="808"/>
+      <point x="582" y="805"/>
+      <point x="569" y="805" type="curve"/>
+      <point x="556" y="805"/>
+      <point x="547" y="808"/>
+      <point x="537" y="811" type="curve" smooth="yes"/>
+    </contour>
+    <component base="Z.s_v"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

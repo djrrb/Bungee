@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25D7" format="2">
+  <advance width="546"/>
+  <outline>
+    <contour>
+      <point x="6" y="-190" type="curve" smooth="yes"/>
+      <point x="-30" y="-190" type="line"/>
+      <point x="-40" y="-190" type="line"/>
+      <point x="-40" y="910" type="line"/>
+      <point x="6" y="910" type="line" smooth="yes"/>
+      <point x="329" y="910"/>
+      <point x="556" y="683"/>
+      <point x="556" y="360" type="curve" smooth="yes"/>
+      <point x="556" y="37"/>
+      <point x="329" y="-190"/>
+    </contour>
+  </outline>
+</glyph>

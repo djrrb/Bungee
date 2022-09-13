@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eogonek" format="2">
+  <advance width="963"/>
+  <unicode hex="0118"/>
+  <guideline x="706" y="650" angle="0" identifier="CF0a0se8ik"/>
+  <guideline x="790" y="257" angle="90.0" identifier="tGqxrtvQDA"/>
+  <outline>
+    <component base="E.s"/>
+    <component base="ogonek" xOffset="676" yOffset="162"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.guideline.magnetic.CF0a0se8ik</key>
+      <real>5.0</real>
+      <key>com.typemytype.robofont.guideline.magnetic.tGqxrtvQDA</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

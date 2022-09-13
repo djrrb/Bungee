@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="quoteleft.salt" format="1">
-  <advance width="307.119931271"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteleft.salt" format="2">
+  <advance width="307"/>
   <unicode hex="E138"/>
   <outline>
     <contour>
@@ -45,16 +45,10 @@
       <string>2011-07-30 07:16:23</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.0</real>
-        <real>0.5</real>
-        <real>0.0</real>
-        <real>0.5</real>
-      </array>
       <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
     </dict>
   </lib>
 </glyph>

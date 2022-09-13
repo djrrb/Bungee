@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="circumflexacute" format="1">
-  <advance width="500.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexacute" format="2">
+  <advance width="500"/>
   <outline>
     <component base="circumflex"/>
     <component base="acute.vert" xOffset="395" yOffset="-15"/>

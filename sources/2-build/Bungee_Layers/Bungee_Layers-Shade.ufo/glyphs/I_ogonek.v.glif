@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iogonek.v" format="2">
+  <advance width="1000"/>
+  <unicode hex="E1AE"/>
+  <guideline x="791" y="103" angle="90.0" identifier="MB1BB4omUg"/>
+  <outline>
+    <component base="I.s_v" yOffset="40"/>
+    <component base="ogonek" xOffset="413" yOffset="40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:10:20</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.guideline.magnetic.MB1BB4omUg</key>
+      <real>5.0</real>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

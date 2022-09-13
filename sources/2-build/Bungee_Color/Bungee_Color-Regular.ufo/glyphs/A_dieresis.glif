@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Adieresis" format="2">
+  <advance width="730"/>
+  <unicode hex="00C4"/>
+  <unicode hex="00E4"/>
+  <outline>
+    <component base="A"/>
+    <component base="dieresis" xOffset="115"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontfont.colorfont.layers</key>
+      <array>
+        <array>
+          <string>Adieresis.alt001</string>
+          <string>Adieresis.alt002</string>
+        </array>
+        <array>
+          <integer>0</integer>
+          <integer>1</integer>
+        </array>
+      </array>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
+    </dict>
+  </lib>
+</glyph>

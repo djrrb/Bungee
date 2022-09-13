@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ldot.v" format="2">
+  <advance width="1000"/>
+  <outline>
+    <contour>
+      <point x="582.0" y="-339" type="line" smooth="yes"/>
+      <point x="596.0" y="-339"/>
+      <point x="607.0" y="-335"/>
+      <point x="613.0" y="-329" type="curve"/>
+      <point x="743.0" y="-221" type="line" smooth="yes"/>
+      <point x="752.0" y="-213"/>
+      <point x="757.0" y="-202"/>
+      <point x="757.0" y="-184" type="curve" smooth="yes"/>
+      <point x="757.0" y="-57" type="line" smooth="yes"/>
+      <point x="757.0" y="-25"/>
+      <point x="743.0" y="-11"/>
+      <point x="711.0" y="-11" type="curve" smooth="yes"/>
+      <point x="553.0" y="-11" type="line" smooth="yes"/>
+      <point x="539.0" y="-11"/>
+      <point x="528.0" y="-14"/>
+      <point x="521.0" y="-20" type="curve" smooth="yes"/>
+      <point x="392.0" y="-129" type="line" smooth="yes"/>
+      <point x="383.0" y="-137"/>
+      <point x="378.0" y="-148"/>
+      <point x="378.0" y="-166" type="curve"/>
+      <point x="378.0" y="-293" type="line"/>
+      <point x="378.0" y="-325"/>
+      <point x="392.0" y="-339"/>
+      <point x="424.0" y="-339" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

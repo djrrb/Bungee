@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni21B0" format="2">
+  <advance width="1000"/>
+  <unicode hex="21B0"/>
+  <outline>
+    <contour>
+      <point x="595" y="517" type="curve" smooth="yes"/>
+      <point x="513" y="517" type="line"/>
+      <point x="554" y="675" type="line" smooth="yes"/>
+      <point x="556" y="695"/>
+      <point x="524" y="709"/>
+      <point x="502" y="694" type="curve" smooth="yes"/>
+      <point x="178" y="476" type="line" smooth="yes"/>
+      <point x="160" y="466"/>
+      <point x="148" y="454"/>
+      <point x="148" y="434" type="curve"/>
+      <point x="148" y="414"/>
+      <point x="160" y="402"/>
+      <point x="178" y="391" type="curve" smooth="yes"/>
+      <point x="502" y="173" type="line" smooth="yes"/>
+      <point x="524" y="159"/>
+      <point x="556" y="172"/>
+      <point x="554" y="192" type="curve" smooth="yes"/>
+      <point x="513" y="351" type="line"/>
+      <point x="579" y="351" type="line" smooth="yes"/>
+      <point x="624" y="351"/>
+      <point x="646" y="334"/>
+      <point x="646" y="290" type="curve" smooth="yes"/>
+      <point x="646" y="30" type="line" smooth="yes"/>
+      <point x="644" y="10"/>
+      <point x="655" y="0"/>
+      <point x="677" y="0" type="curve" smooth="yes"/>
+      <point x="782" y="0" type="line" smooth="yes"/>
+      <point x="804" y="0"/>
+      <point x="813" y="10"/>
+      <point x="813" y="30" type="curve" smooth="yes"/>
+      <point x="813" y="339" type="line" smooth="yes"/>
+      <point x="813" y="446"/>
+      <point x="763" y="517"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-07 20:25:57</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>1,0,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>
