@@ -1,7 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="A.salt" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="A.salt" format="2">
   <advance width="860"/>
   <unicode hex="E100"/>
+  <anchor x="46" y="359" name="top"/>
+  <anchor x="46" y="359" name="top"/>
+  <anchor x="793" y="359" name="bottom"/>
+  <anchor x="793" y="359" name="bottom"/>
+  <anchor x="46" y="359" name="top"/>
+  <anchor x="46" y="359" name="top"/>
+  <anchor x="793" y="359" name="bottom"/>
+  <anchor x="793" y="359" name="bottom"/>
   <outline>
     <contour>
       <point x="793" y="243" type="line" smooth="yes"/>
@@ -41,30 +49,6 @@
       <point x="424" y="248" type="line"/>
       <point x="607" y="248" type="line"/>
     </contour>
-    <contour>
-      <point x="46" y="359" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="46" y="359" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="793" y="359" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="793" y="359" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="46" y="359" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="46" y="359" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="793" y="359" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="793" y="359" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
@@ -73,8 +57,7 @@
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>

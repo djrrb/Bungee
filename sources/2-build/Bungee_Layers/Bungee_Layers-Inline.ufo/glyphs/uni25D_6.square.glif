@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25D6.square" format="2">
+  <advance width="350"/>
+  <unicode hex="E171"/>
+  <outline>
+    <contour>
+      <point x="390" y="870" type="line"/>
+      <point x="390" y="880" type="line"/>
+      <point x="164" y="880" type="line" smooth="yes"/>
+      <point x="135" y="880"/>
+      <point x="120" y="865"/>
+      <point x="120" y="836" type="curve" smooth="yes"/>
+      <point x="120" y="-116" type="line" smooth="yes"/>
+      <point x="120" y="-145"/>
+      <point x="135" y="-160"/>
+      <point x="164" y="-160" type="curve" smooth="yes"/>
+      <point x="390" y="-160" type="line"/>
+      <point x="390" y="-150" type="line"/>
+      <point x="164" y="-150" type="line" smooth="yes"/>
+      <point x="141" y="-150"/>
+      <point x="130" y="-139"/>
+      <point x="130" y="-116" type="curve" smooth="yes"/>
+      <point x="130" y="836" type="line" smooth="yes"/>
+      <point x="130" y="859"/>
+      <point x="141" y="870"/>
+      <point x="164" y="870" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-04-09 10:04:02</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>public.markColor</key>
+      <string>0,1,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

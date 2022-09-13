@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="N.salt" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N.salt" format="2">
   <advance width="746"/>
   <unicode hex="E125"/>
+  <anchor x="373.0" y="747.0" name="top"/>
+  <anchor x="373.0" y="0.0" name="bottom"/>
   <outline>
     <contour>
       <point x="64.0" y="531" type="curve" smooth="yes"/>
@@ -54,12 +56,6 @@
       <point x="529.0" y="642"/>
       <point x="572.0" y="588"/>
       <point x="572.0" y="507" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="373.0" y="747.0" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="373.0" y="0.0" type="move" name="bottom"/>
     </contour>
   </outline>
   <lib>

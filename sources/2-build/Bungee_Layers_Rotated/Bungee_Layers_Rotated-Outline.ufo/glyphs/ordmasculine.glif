@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ordmasculine" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ordmasculine" format="2">
   <advance width="882"/>
   <unicode hex="00BA"/>
+  <anchor x="57.0" y="125.0" name="top"/>
+  <anchor x="595.0" y="125.0" name="bottom"/>
   <outline>
     <contour>
       <point x="812.0" y="547" type="line" smooth="yes"/>
@@ -53,12 +55,6 @@
       <point x="450.0" y="315"/>
       <point x="437.0" y="315" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="57.0" y="125.0" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="595.0" y="125.0" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
@@ -67,8 +63,7 @@
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance width="855"/>
+  <unicode hex="0141"/>
+  <outline>
+    <contour>
+      <point x="400.0" y="94" type="line"/>
+      <point x="367.0" y="294" type="line"/>
+      <point x="357.0" y="294" type="line"/>
+      <point x="390.0" y="94" type="line"/>
+    </contour>
+    <component base="L"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:08:14</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

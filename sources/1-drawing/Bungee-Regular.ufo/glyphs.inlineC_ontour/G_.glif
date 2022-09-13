@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="G" format="2">
+  <advance width="708"/>
+  <outline>
+    <contour>
+      <point x="500" y="625" type="move"/>
+      <point x="326" y="625" type="line"/>
+      <point x="203" y="625"/>
+      <point x="171" y="591"/>
+      <point x="171" y="499" type="curve"/>
+      <point x="171" y="219" type="line"/>
+      <point x="171" y="129"/>
+      <point x="205" y="95"/>
+      <point x="346" y="95" type="curve"/>
+      <point x="541" y="95" type="line"/>
+      <point x="541" y="291" type="line"/>
+    </contour>
+  </outline>
+</glyph>

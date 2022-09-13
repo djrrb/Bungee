@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gecyrillic.scrap_beta" format="2">
+  <advance width="595"/>
+  <outline>
+    <contour>
+      <point x="260" y="-10" type="curve" smooth="yes"/>
+      <point x="105" y="-10" type="line" smooth="yes"/>
+      <point x="73" y="-10"/>
+      <point x="59" y="4"/>
+      <point x="59" y="36" type="curve" smooth="yes"/>
+      <point x="59" y="684" type="line" smooth="yes"/>
+      <point x="59" y="716"/>
+      <point x="73" y="730"/>
+      <point x="105" y="730" type="curve" smooth="yes"/>
+      <point x="531" y="730" type="line" smooth="yes"/>
+      <point x="563" y="730"/>
+      <point x="577" y="716"/>
+      <point x="577" y="684" type="curve" smooth="yes"/>
+      <point x="577" y="565" type="line" smooth="yes"/>
+      <point x="577" y="533"/>
+      <point x="563" y="519"/>
+      <point x="531" y="519" type="curve" smooth="yes"/>
+      <point x="296" y="519" type="line"/>
+      <point x="306" y="529" type="line"/>
+      <point x="306" y="36" type="line" smooth="yes"/>
+      <point x="306" y="4"/>
+      <point x="292" y="-10"/>
+    </contour>
+  </outline>
+</glyph>

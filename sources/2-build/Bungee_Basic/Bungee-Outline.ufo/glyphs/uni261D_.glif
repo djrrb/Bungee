@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni261D" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni261D" format="2">
   <advance width="1000"/>
   <unicode hex="261D"/>
   <outline>
@@ -265,16 +265,10 @@
       <string>2011-10-27 17:09:42</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>1.0</real>
-        <real>0.0</real>
-        <real>1.0</real>
-        <real>0.5</real>
-      </array>
       <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
+      <dict/>
+      <key>public.markColor</key>
+      <string>1,0,1,0.5</string>
     </dict>
   </lib>
 </glyph>

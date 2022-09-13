@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="multiply" format="2">
+  <advance width="734"/>
+  <outline>
+    <contour>
+      <point x="224" y="510" type="line"/>
+      <point x="517" y="217" type="line"/>
+      <point x="510" y="210" type="line"/>
+      <point x="217" y="503" type="line"/>
+    </contour>
+    <contour>
+      <point x="517" y="503" type="line"/>
+      <point x="224" y="210" type="line"/>
+      <point x="217" y="217" type="line"/>
+      <point x="510" y="510" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:15:58</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>multiply</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>701</integer>
+        </dict>
+        <key>inlineContour</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>multiply</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>701</integer>
+        </dict>
+      </dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2B1B.chevron_e" format="2">
+  <advance width="1280"/>
+  <outline>
+    <contour>
+      <point x="1045" y="875" type="curve" smooth="yes"/>
+      <point x="37" y="875" type="line" smooth="yes"/>
+      <point x="36" y="875"/>
+      <point x="23" y="877"/>
+      <point x="26" y="869" type="curve" smooth="yes"/>
+      <point x="228" y="360" type="line"/>
+      <point x="224" y="351" type="line"/>
+      <point x="26" y="-150" type="line" smooth="yes"/>
+      <point x="23" y="-157"/>
+      <point x="36" y="-155"/>
+      <point x="37" y="-155" type="curve" smooth="yes"/>
+      <point x="1045" y="-155" type="line" smooth="yes"/>
+      <point x="1057" y="-155"/>
+      <point x="1054" y="-144"/>
+      <point x="1058" y="-135" type="curve" smooth="yes"/>
+      <point x="1247" y="339" type="line" smooth="yes"/>
+      <point x="1251" y="351"/>
+      <point x="1251" y="366"/>
+      <point x="1247" y="378" type="curve" smooth="yes"/>
+      <point x="1058" y="855" type="line" smooth="yes"/>
+      <point x="1054" y="864"/>
+      <point x="1057" y="875"/>
+    </contour>
+  </outline>
+</glyph>

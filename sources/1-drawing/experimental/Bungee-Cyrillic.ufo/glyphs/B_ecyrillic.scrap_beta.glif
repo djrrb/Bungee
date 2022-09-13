@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Becyrillic.scrap_beta" format="2">
+  <advance width="682"/>
+  <anchor x="341.0" y="-27.0" name="top"/>
+  <anchor x="341.0" y="720.0" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="411" y="0" type="line" smooth="yes"/>
+      <point x="593" y="0"/>
+      <point x="647" y="75"/>
+      <point x="647" y="185" type="curve" smooth="yes"/>
+      <point x="647" y="288" type="line" smooth="yes"/>
+      <point x="647" y="398"/>
+      <point x="593" y="473"/>
+      <point x="411" y="473" type="curve" smooth="yes"/>
+      <point x="296" y="473" type="line"/>
+      <point x="296" y="531" type="line"/>
+      <point x="569" y="531" type="line" smooth="yes"/>
+      <point x="594" y="531"/>
+      <point x="605" y="542"/>
+      <point x="605" y="567" type="curve" smooth="yes"/>
+      <point x="605" y="684" type="line" smooth="yes"/>
+      <point x="605" y="709"/>
+      <point x="594" y="720"/>
+      <point x="569" y="720" type="curve" smooth="yes"/>
+      <point x="105" y="720" type="line" smooth="yes"/>
+      <point x="80" y="720"/>
+      <point x="69" y="709"/>
+      <point x="69" y="684" type="curve"/>
+      <point x="69" y="36" type="line"/>
+      <point x="69" y="11"/>
+      <point x="80" y="0"/>
+      <point x="105" y="0" type="curve"/>
+    </contour>
+    <contour>
+      <point x="294" y="187" type="line"/>
+      <point x="294" y="293" type="line"/>
+      <point x="384" y="293" type="line" smooth="yes"/>
+      <point x="423" y="293"/>
+      <point x="431" y="275"/>
+      <point x="431" y="254" type="curve" smooth="yes"/>
+      <point x="431" y="226" type="line" smooth="yes"/>
+      <point x="431" y="205"/>
+      <point x="423" y="187"/>
+      <point x="384" y="187" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-06-27 14:45:50</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>1,0,0,0.8</string>
+    </dict>
+  </lib>
+</glyph>

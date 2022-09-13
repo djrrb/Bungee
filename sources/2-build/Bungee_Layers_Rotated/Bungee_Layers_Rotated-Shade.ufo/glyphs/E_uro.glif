@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Euro" format="2">
+  <advance width="880"/>
+  <unicode hex="20AC"/>
+  <outline>
+    <contour>
+      <point x="540.0" y="-29" type="curve" smooth="yes"/>
+      <point x="540.0" y="-25" type="line"/>
+      <point x="543.0" y="-25" type="line"/>
+      <point x="567.0" y="-53" type="line" smooth="yes"/>
+      <point x="573.0" y="-60"/>
+      <point x="580.0" y="-63"/>
+      <point x="595.0" y="-63" type="curve" smooth="yes"/>
+      <point x="667.0" y="-63" type="line" smooth="yes"/>
+      <point x="694.0" y="-63"/>
+      <point x="700.0" y="-53"/>
+      <point x="700.0" y="-29" type="curve" smooth="yes"/>
+      <point x="700.0" y="-25" type="line"/>
+      <point x="705.0" y="-25" type="line" smooth="yes"/>
+      <point x="831.0" y="-25"/>
+      <point x="919.0" y="33"/>
+      <point x="919.0" y="231" type="curve" smooth="yes"/>
+      <point x="919.0" y="475" type="line" smooth="yes"/>
+      <point x="919.0" y="489"/>
+      <point x="915.0" y="500"/>
+      <point x="909.0" y="506" type="curve"/>
+      <point x="801.0" y="636" type="line" smooth="yes"/>
+      <point x="793.0" y="645"/>
+      <point x="782.0" y="650"/>
+      <point x="764.0" y="650" type="curve" smooth="yes"/>
+      <point x="655.0" y="650" type="line" smooth="yes"/>
+      <point x="623.0" y="650"/>
+      <point x="609.0" y="636"/>
+      <point x="609.0" y="604" type="curve" smooth="yes"/>
+      <point x="609.0" y="507" type="line"/>
+      <point x="584.0" y="537" type="line" smooth="yes"/>
+      <point x="579.0" y="543"/>
+      <point x="572.0" y="546"/>
+      <point x="558.0" y="546" type="curve" smooth="yes"/>
+      <point x="486.0" y="546" type="line" smooth="yes"/>
+      <point x="459.0" y="546"/>
+      <point x="452.0" y="536"/>
+      <point x="452.0" y="512" type="curve" smooth="yes"/>
+      <point x="452.0" y="504" type="line"/>
+      <point x="424.0" y="537" type="line" smooth="yes"/>
+      <point x="419.0" y="543"/>
+      <point x="412.0" y="546"/>
+      <point x="398.0" y="546" type="curve" smooth="yes"/>
+      <point x="340.0" y="546" type="line"/>
+      <point x="264.0" y="636" type="line" smooth="yes"/>
+      <point x="256.0" y="645"/>
+      <point x="245.0" y="650"/>
+      <point x="227.0" y="650" type="curve" smooth="yes"/>
+      <point x="116.0" y="650" type="line" smooth="yes"/>
+      <point x="84.0" y="650"/>
+      <point x="70.0" y="636"/>
+      <point x="70.0" y="604" type="curve" smooth="yes"/>
+      <point x="70.0" y="360" type="line" smooth="yes"/>
+      <point x="70.0" y="268"/>
+      <point x="89.0" y="206"/>
+      <point x="122.0" y="167" type="curve" smooth="yes"/>
+      <point x="231.0" y="38" type="line" smooth="yes"/>
+      <point x="267.0" y="-5"/>
+      <point x="320.0" y="-23"/>
+      <point x="383.0" y="-25" type="curve"/>
+      <point x="407.0" y="-53" type="line" smooth="yes"/>
+      <point x="413.0" y="-60"/>
+      <point x="420.0" y="-63"/>
+      <point x="435.0" y="-63" type="curve" smooth="yes"/>
+      <point x="507.0" y="-63" type="line" smooth="yes"/>
+      <point x="534.0" y="-63"/>
+      <point x="540.0" y="-53"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 06:37:18</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+    </dict>
+  </lib>
+</glyph>

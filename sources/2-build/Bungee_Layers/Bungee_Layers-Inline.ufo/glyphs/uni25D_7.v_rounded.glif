@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25D7.v_rounded" format="2">
+  <advance width="1280"/>
+  <unicode hex="E178"/>
+  <outline>
+    <contour>
+      <point x="1150" y="520" type="line"/>
+      <point x="1150" y="455" type="line" smooth="yes"/>
+      <point x="1150" y="310"/>
+      <point x="1023" y="230"/>
+      <point x="640" y="230" type="curve" smooth="yes"/>
+      <point x="257" y="230"/>
+      <point x="130" y="310"/>
+      <point x="130" y="455" type="curve" smooth="yes"/>
+      <point x="130" y="520" type="line"/>
+      <point x="120" y="520" type="line"/>
+      <point x="120" y="455" type="line" smooth="yes"/>
+      <point x="120" y="308"/>
+      <point x="240" y="220"/>
+      <point x="640" y="220" type="curve" smooth="yes"/>
+      <point x="1040" y="220"/>
+      <point x="1160" y="308"/>
+      <point x="1160" y="455" type="curve" smooth="yes"/>
+      <point x="1160" y="520" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-03-27 19:32:31</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>public.markColor</key>
+      <string>0,1,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

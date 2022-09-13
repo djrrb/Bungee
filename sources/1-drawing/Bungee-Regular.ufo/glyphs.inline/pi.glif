@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pi" format="2">
+  <advance width="721"/>
+  <outline>
+    <contour>
+      <point x="542" y="90" type="line"/>
+      <point x="542" y="475" type="line"/>
+      <point x="547" y="470" type="line"/>
+      <point x="175" y="470" type="line"/>
+      <point x="180" y="475" type="line"/>
+      <point x="180" y="90" type="line"/>
+      <point x="170" y="90" type="line"/>
+      <point x="170" y="480" type="line"/>
+      <point x="552" y="480" type="line"/>
+      <point x="552" y="90" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:49:10</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>pi</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>721</integer>
+        </dict>
+        <key>inlineContour</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>pi</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>721</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

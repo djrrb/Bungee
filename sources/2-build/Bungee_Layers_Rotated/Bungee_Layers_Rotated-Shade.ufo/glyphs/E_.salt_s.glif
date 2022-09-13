@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="E.salt_s" format="1">
-  <advance width="824.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E.salt_s" format="2">
+  <advance width="824"/>
   <outline>
     <contour>
       <point x="871.0" y="485" type="line" smooth="yes"/>
@@ -48,16 +48,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-      </array>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.5</real>
-        <real>0.0</real>
-        <real>0.5</real>
-        <real>0.5</real>
-      </array>
+      <key>public.markColor</key>
+      <string>0.5,0,0.5,0.5</string>
     </dict>
   </lib>
 </glyph>

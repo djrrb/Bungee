@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25D7.bevel" format="2">
+  <advance width="350"/>
+  <outline>
+    <contour>
+      <point x="-15" y="-155" type="line"/>
+      <point x="44" y="-155" type="line" smooth="yes"/>
+      <point x="52" y="-155"/>
+      <point x="55" y="-152"/>
+      <point x="55" y="-144" type="curve" smooth="yes"/>
+      <point x="55" y="-95" type="line"/>
+      <point x="80" y="-95" type="line" smooth="yes"/>
+      <point x="143" y="-95"/>
+      <point x="195" y="-43"/>
+      <point x="195" y="20" type="curve" smooth="yes"/>
+      <point x="195" y="45" type="line"/>
+      <point x="244" y="45" type="line" smooth="yes"/>
+      <point x="252" y="45"/>
+      <point x="255" y="48"/>
+      <point x="255" y="56" type="curve" smooth="yes"/>
+      <point x="255" y="664" type="line" smooth="yes"/>
+      <point x="255" y="672"/>
+      <point x="252" y="675"/>
+      <point x="244" y="675" type="curve" smooth="yes"/>
+      <point x="195" y="675" type="line"/>
+      <point x="195" y="700" type="line" smooth="yes"/>
+      <point x="195" y="763"/>
+      <point x="143" y="815"/>
+      <point x="80" y="815" type="curve" smooth="yes"/>
+      <point x="55" y="815" type="line"/>
+      <point x="55" y="864" type="line" smooth="yes"/>
+      <point x="55" y="872"/>
+      <point x="52" y="875"/>
+      <point x="44" y="875" type="curve" smooth="yes"/>
+      <point x="-15" y="875" type="line"/>
+      <point x="-15" y="875" type="line"/>
+      <point x="-15" y="-155" type="line"/>
+    </contour>
+  </outline>
+</glyph>

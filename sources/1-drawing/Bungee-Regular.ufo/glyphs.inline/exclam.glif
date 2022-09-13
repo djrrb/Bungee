@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
+  <advance width="424"/>
+  <outline>
+    <contour>
+      <point x="217" y="630" type="line"/>
+      <point x="217" y="352" type="line"/>
+      <point x="207" y="352" type="line"/>
+      <point x="207" y="630" type="line"/>
+    </contour>
+    <contour>
+      <point x="207" y="80" type="line"/>
+      <point x="207" y="123" type="line"/>
+      <point x="217" y="123" type="line"/>
+      <point x="217" y="80" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-30 10:34:58</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>exclam</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>424</integer>
+        </dict>
+        <key>inlineContour</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>exclam</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>424</integer>
+        </dict>
+      </dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+    </dict>
+  </lib>
+</glyph>

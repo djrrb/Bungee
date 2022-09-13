@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2B1B.semichevron_w" format="2">
+  <advance width="650"/>
+  <unicode hex="E186"/>
+  <outline>
+    <contour>
+      <point x="-40" y="900" type="line" smooth="yes"/>
+      <point x="-40" y="900"/>
+      <point x="-40" y="-180"/>
+      <point x="-40" y="-180" type="curve"/>
+      <point x="615" y="-180" type="line" smooth="yes"/>
+      <point x="640" y="-180"/>
+      <point x="659" y="-164"/>
+      <point x="643" y="-124" type="curve" smooth="yes"/>
+      <point x="451" y="360" type="line"/>
+      <point x="645" y="848" type="line" smooth="yes"/>
+      <point x="659" y="884"/>
+      <point x="640" y="900"/>
+      <point x="615" y="900" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,1,1,0.5</string>
+    </dict>
+  </lib>
+</glyph>

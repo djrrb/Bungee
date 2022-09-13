@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ring" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ring" format="2">
   <advance width="500"/>
   <unicode hex="02DA"/>
+  <anchor x="250.0" y="747.0" name="_top"/>
+  <anchor x="250.0" y="0.0" name="_bottom"/>
   <outline>
     <contour>
       <point x="467.0" y="995" type="line" smooth="yes"/>
@@ -34,12 +36,6 @@
       <point x="301.0" y="1005"/>
       <point x="310.0" y="991"/>
       <point x="310.0" y="965" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="250.0" y="747.0" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="250.0" y="0.0" type="move" name="_bottom"/>
     </contour>
   </outline>
   <lib>

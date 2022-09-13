@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dollar" format="2">
+  <advance width="650"/>
+  <outline>
+    <contour>
+      <point x="338" y="720" type="line"/>
+      <point x="338" y="626" type="line"/>
+      <point x="328" y="626" type="line"/>
+      <point x="328" y="720" type="line"/>
+    </contour>
+    <contour>
+      <point x="338" y="94" type="line"/>
+      <point x="338" y="0" type="line"/>
+      <point x="328" y="0" type="line"/>
+      <point x="328" y="94" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:09:07</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>dollar</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>650</integer>
+        </dict>
+        <key>inlineContour</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>dollar</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>650</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

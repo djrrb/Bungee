@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="L.salt_s" format="1">
-  <advance width="815.0"/>
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L.salt_s" format="2">
+  <advance width="815"/>
   <outline>
     <contour>
       <point x="145" y="166" type="line"/>
@@ -19,8 +19,7 @@
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>

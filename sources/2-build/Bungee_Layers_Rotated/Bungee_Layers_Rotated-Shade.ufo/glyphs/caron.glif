@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="caron" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caron" format="2">
   <advance width="269"/>
   <unicode hex="02C7"/>
+  <anchor x="257.0" y="360.0" name="_top"/>
+  <anchor x="1004.0" y="360.0" name="_bottom"/>
   <outline>
     <contour>
       <point x="254.0" y="11" type="line" smooth="yes"/>
@@ -42,12 +44,6 @@
       <point x="150.0" y="11"/>
       <point x="173.0" y="11" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="257.0" y="360.0" type="move" name="_top"/>
-    </contour>
-    <contour>
-      <point x="1004.0" y="360.0" type="move" name="_bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
@@ -56,8 +52,7 @@
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>

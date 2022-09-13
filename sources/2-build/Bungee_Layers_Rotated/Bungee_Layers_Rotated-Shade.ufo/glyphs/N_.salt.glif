@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="N.salt" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N.salt" format="2">
   <advance width="860"/>
   <unicode hex="E125"/>
+  <anchor x="46.0" y="369.0" name="top"/>
+  <anchor x="793.0" y="369.0" name="bottom"/>
   <outline>
     <contour>
       <point x="912.0" y="119" type="line" smooth="yes"/>
@@ -40,12 +42,6 @@
       <point x="912.0" y="-65"/>
       <point x="912.0" y="-33" type="curve" smooth="yes"/>
     </contour>
-    <contour>
-      <point x="46.0" y="369.0" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="793.0" y="369.0" type="move" name="bottom"/>
-    </contour>
   </outline>
   <lib>
     <dict>
@@ -54,8 +50,7 @@
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
-      <dict>
-      </dict>
+      <dict/>
     </dict>
   </lib>
 </glyph>
