@@ -200,8 +200,6 @@ layerStyles = [
     dict(
         styleName="Shade",
         layers=["shade"],
-        tracking=100,
-        offset=15,
         decompose=True,
     ),
 ]
