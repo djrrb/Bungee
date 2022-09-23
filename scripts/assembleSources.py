@@ -238,6 +238,7 @@ def main():
         for style in family["styles"]:
             styleName = style["styleName"]
             outputPath = outputFolder / f"{baseFileName}-{styleName}.ufo"
+            print("assembling", outputPath.name)
             breakOutLayers(familyName, sourcePath, style, outputPath)
 
 
