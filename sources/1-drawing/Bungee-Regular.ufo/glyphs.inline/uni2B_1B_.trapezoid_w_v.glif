@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2B1B.trapezoid_w_v" format="2">
+  <advance width="1280"/>
+  <outline>
+    <contour>
+      <point x="120" y="882" type="line"/>
+      <point x="120" y="-260" type="line"/>
+      <point x="1160" y="-54" type="line"/>
+      <point x="1160" y="882.0" type="line"/>
+    </contour>
+    <contour>
+      <point x="130" y="-248" type="line"/>
+      <point x="130" y="872.0" type="line"/>
+      <point x="1150" y="872" type="line"/>
+      <point x="1150" y="-46" type="line"/>
+    </contour>
+  </outline>
+</glyph>
