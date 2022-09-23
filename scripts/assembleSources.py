@@ -15,7 +15,7 @@ def breakOutLayers(familyName, source, style, outputPath):
     styleName = style["styleName"]
     sourceFont = ufoLib2.Font.open(source)
     extraTracking = style.get("tracking", 0)
-    offset = style.get("offset", 0)
+    trackingOffset = style.get("trackingOffset", 0)
     decomposeAllLayers = style.get("decompose", False)
 
     newFont = ufoLib2.Font()
@@ -65,7 +65,7 @@ def breakOutLayers(familyName, source, style, outputPath):
 
     if extraTracking:
         for glyph in newFont:
-            moveGlyphHor(glyph, extraTracking + offset)
+            moveGlyphHor(glyph, trackingOffset)
             glyph.width += extraTracking
 
     newFont.save(outputPath, overwrite=True)
@@ -190,7 +190,7 @@ bungeeBasic = dict(
             styleName="Shade",
             layers=["shade", "foreground", "inline"],
             tracking=100,
-            offset=15,
+            trackingOffset=115,
             decompose=True,
         ),
     ],
