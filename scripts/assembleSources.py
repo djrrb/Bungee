@@ -23,6 +23,9 @@ def breakOutLayers(familyName, source, style, outputPath):
     newFont.info.familyName = familyName
     newFont.info.styleName = styleName
     newFont.lib["public.glyphOrder"] = sourceFont.lib["public.glyphOrder"]
+    newFont.kerning = sourceFont.kerning
+    newFont.groups = sourceFont.groups
+    newFont.features.text = fixFeatures(sourceFont.features.text)
 
     for glyph in sourceFont:
         sourceGlyph = sourceFont[glyph.name]
@@ -155,6 +158,15 @@ def reverseContours(glyph):
     glyph.draw(ReverseContourPen(recPen))
     glyph.clear()
     recPen.replay(glyph.getPen())
+
+
+def fixFeatures(features):
+    lines = features.splitlines()
+    lines = [
+        line.replace("include(features/", "include(../../sources/1-drawing/features/")
+        for line in lines
+    ]
+    return "\n".join(lines) + "\n"
 
 
 bungeeBasic = dict(
