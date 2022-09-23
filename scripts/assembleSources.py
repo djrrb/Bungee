@@ -1,4 +1,3 @@
-import os
 import pathlib
 from copy import deepcopy
 from pathops.operations import union
@@ -12,15 +11,17 @@ from fontTools.pens.transformPen import TransformPointPen
 import ufoLib2
 
 
-def breakOutLayers(familyName, source, style, outputFolder):
+def breakOutLayers(familyName, source, style, outputPath):
     styleName = style["styleName"]
     sourceFont = ufoLib2.Font.open(source)
-    folderName = familyName.replace(" ", "_")
     extraTracking = style.get("tracking", 0)
     offset = style.get("offset", 0)
     decomposeAllLayers = style.get("decompose", False)
+
     newFont = ufoLib2.Font()
     newFont.info = deepcopy(sourceFont.info)
+    newFont.info.familyName = familyName
+    newFont.info.styleName = styleName
     newFont.lib["public.glyphOrder"] = sourceFont.lib["public.glyphOrder"]
 
     for glyph in sourceFont:
@@ -64,13 +65,7 @@ def breakOutLayers(familyName, source, style, outputFolder):
             moveGlyphHor(glyph, extraTracking + offset)
             glyph.width += extraTracking
 
-    if os.path.exists(outputFolder):
-        None
-    else:
-        os.makedirs(outputFolder)
-
-    fileName = f"{outputFolder}/{folderName}-{styleName}.ufo"
-    newFont.save(fileName, overwrite=True)
+    newFont.save(outputPath, overwrite=True)
 
 
 class DecomposingRecordingPointPen(RecordingPointPen):
@@ -240,9 +235,12 @@ def main():
         folderName = family.get("folderName", familyName.replace(" ", "_"))
         outputFolder = buildDir / folderName
         outputFolder.mkdir(exist_ok=True)
-        source = family["source"]
+        sourcePath = repoDir / family["source"]
+        baseFileName = familyName.replace(" ", "")
         for style in family["styles"]:
-            breakOutLayers(familyName, source, style, outputFolder)
+            styleName = style["styleName"]
+            outputPath = outputFolder / f"{baseFileName}-{styleName}.ufo"
+            breakOutLayers(familyName, sourcePath, style, outputPath)
 
 
 main()
