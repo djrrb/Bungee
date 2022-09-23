@@ -228,6 +228,7 @@ def main():
     repoDir = pathlib.Path(__file__).resolve().parent.parent
     buildDir = repoDir / "build"
     buildDir.mkdir(exist_ok=True)
+
     for family in families:
         familyName = family["familyName"]
         folderName = family.get("folderName", familyName.replace(" ", "_"))
