@@ -5,9 +5,10 @@ set -x  # echo commands
 
 
 python scripts/assembleSources.py
+python scripts/assembleRotatedSources.py
 
 
-for folder in Bungee_Basic Bungee_Layers
+for folder in Bungee_Basic Bungee_Layers Bungee_Rotated
 do
     for ufo in build/$folder/*.ufo
     do
