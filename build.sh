@@ -14,6 +14,7 @@ do
         fontmake -o ttf \
             --overlaps-backend pathops \
             --output-dir build/fonts/$folder \
+            --no-production-names \
             -u $ufo
     done
 done
