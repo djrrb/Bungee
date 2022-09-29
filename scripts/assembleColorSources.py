@@ -39,14 +39,11 @@ colorTable = """
 colorGlyphs = {}
 palettes, colorIndices = parseColorTable(colorTable)
 
-sourceFont = ufoLib2.Font.open("build/Bungee_Layers/BungeeLayers-Regular.ufo")
-inlineFont = ufoLib2.Font.open("build/Bungee_Layers/BungeeLayers-Inline.ufo")
-
 repoDir = pathlib.Path(__file__).resolve().parent.parent
-outputPath = repoDir / "build" / "Bungee_Color" / "BungeeColor-Regular.ufo"
-outputPath.mkdir(exist_ok=True)
+layersDir = repoDir / "build" / "Bungee_Layers"
 
-print("assembling", outputPath.name)
+sourceFont = ufoLib2.Font.open(layersDir / "BungeeLayers-Regular.ufo")
+inlineFont = ufoLib2.Font.open(layersDir / "BungeeLayers-Inline.ufo")
 
 
 for glyph in inlineFont:
@@ -64,5 +61,8 @@ for glyph in inlineFont:
 
 sourceFont.lib[COLOR_PALETTES_KEY] = palettes
 sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphs
+sourceFont.info.familyName = "Bungee Color"
+sourceFont.info.styleName = "Regular"
 
+outputPath = repoDir / "build" / "Bungee_Color" / "BungeeColor-Regular-COLRv0.ufo"
 sourceFont.save(outputPath, overwrite=True)
