@@ -32,7 +32,7 @@ def colorFromHex(hexString):
 inlineSuffix = ".inline"
 
 colorTable = """
-    foreground  C90900  FFFFFF  23849F  666666  0B5BA8  EFBB43  FFDA99  FFE10B
+    regular     C90900  FFFFFF  23849F  666666  0B5BA8  EFBB43  FFDA99  FFE10B
     inline      FF9580  E8E8E7  F6EECD  DCF676  55A5FE  EAE2B1  FF5140  FF0035
 """
 
