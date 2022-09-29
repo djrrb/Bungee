@@ -87,24 +87,25 @@ def transformGlyph(glyph, transformation):
 
 
 verticalShapeExceptions = {
-    "uni25DD.curve_v": "uni25DD.curve_v",  # maps to itself
-    "uni2B24.salt_v": "uni2B24.salt_v",  # maps to itself
-    "uni2B1B.trapezoid_e": "uni2B1B.trapezoid_e",
+    # These are exceptions to the general "unverticalGlyphName" algorithm.
+    #
+    # - "v" glyphs that do *not* map to a non-v glyph, but to themselves:
+    "uni25DD.curve_v": "uni25DD.curve_v",
+    "uni2B24.salt_v": "uni2B24.salt_v",
     "uni2B1B.trapezoid_e_v": "uni2B1B.trapezoid_e_v",
-    "uni2B1B.trapezoid_w": "uni2B1B.trapezoid_w",
     "uni2B1B.trapezoid_w_v": "uni2B1B.trapezoid_w_v",
-    "uni2B1B.semichevron_e": "uni2B1B.semichevron_e",
-    "uni2B1B.semichevron_w": "uni2B1B.semichevron_w",
-    "uni2B1B.semichevron_n": "uni2B1B.semichevron_n",
-    "uni2B1B.semichevron_s": "uni2B1B.semichevron_s",
-    "uni2B1B.chevron_w": "uni2B1B.chevron_w",
-    "uni2B1B.chevron_e": "uni2B1B.chevron_e",
-    "uni2B1B.chevron_n": "uni2B1B.chevron_n",
-    "uni2B1B.chevron_s": "uni2B1B.chevron_s",
-    "uni27A1.w": "uni27A1.w",
-    "uni27A1": "uni27A1",  # ????
-    "uni27A1.s": "uni27A1.s",
-    "uni27A1.n": "uni27A1.n",
+    # - n(orth), e(ast), s(outh), w(est) mapping:
+    "uni2B1B.semichevron_n": "uni2B1B.semichevron_e",
+    "uni2B1B.semichevron_s": "uni2B1B.semichevron_w",
+    "uni27A1.s": "uni27A1.w",
+    "uni27A1.n": "uni27A1",
+    # - Glyphs that also exist in unmapped form, but need to be ignored:
+    "uni2B1B.semichevron_e": None,
+    "uni2B1B.semichevron_w": None,
+    "uni27A1.w": None,
+    "uni27A1": None,
+    "uni25D6.wings": None,
+    "uni25D7.wings": None,
 }
 
 
