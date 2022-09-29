@@ -43,10 +43,10 @@ sourceFont = ufoLib2.Font.open("build/Bungee_Layers/BungeeLayers-Regular.ufo")
 inlineFont = ufoLib2.Font.open("build/Bungee_Layers/BungeeLayers-Inline.ufo")
 
 repoDir = pathlib.Path(__file__).resolve().parent.parent
-outputFolder = repoDir / "build" / "Bungee_Color" / "BungeeColor-Regular.ufo"
-outputFolder.mkdir(exist_ok=True)
+outputPath = repoDir / "build" / "Bungee_Color" / "BungeeColor-Regular.ufo"
+outputPath.mkdir(exist_ok=True)
 
-print("assembling", outputFolder.name)
+print("assembling", outputPath.name)
 
 
 for glyph in inlineFont:
@@ -65,4 +65,4 @@ for glyph in inlineFont:
 sourceFont.lib[COLOR_PALETTES_KEY] = palettes
 sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphs
 
-sourceFont.save(outputFolder, overwrite=True)
+sourceFont.save(outputPath, overwrite=True)
