@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cu2qu
+Version: 1.6.7.post1
+Summary: Cubic-to-quadratic bezier curve conversion
+Home-page: https://github.com/googlefonts
+Author: James Godfrey-Kittle, Behdad Esfahbod
+Author-email: jamesgk@google.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Vector-Based
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+Requires-Dist: fonttools[ufo] (>=3.32.0)
+Provides-Extra: cli
+Requires-Dist: defcon (>=0.6.0) ; extra == 'cli'
+
+cu2qu
+=====
+
+This library provides functions which take in UFO objects (Defcon Fonts
+or Robofab RFonts) and converts any cubic curves to quadratic. The most
+useful function is probably ``fonts_to_quadratic``.
+
+This library is now maintained as part of https://github.com/fonttools/fonttools
+
+

@@ -2,20 +2,14 @@ import math
 import pathlib
 from copy import deepcopy
 from fontTools.misc.transform import Transform
-from pathops.operations import union
-from fontTools.pens.recordingPen import RecordingPen, RecordingPointPen
-from fontTools.pens.reverseContourPen import ReverseContourPen
-from fontTools.pens.transformPen import TransformPointPen
 import ufoLib2
 
 
-def fixFeatureIncludes(features):
-    lines = features.splitlines()
-    lines = [
-        line.replace("include(features/", "include(../../sources/1-drawing/features/")
-        for line in lines
-    ]
-    return "\n".join(lines) + "\n"
+from assembleTools import (
+    decomposeComponents,
+    fixFeatureIncludes,
+    transformGlyph,
+)
 
 
 def getLowerCaseGlyphNames(font):
@@ -38,52 +32,12 @@ def getLowerCaseGlyphNames(font):
     return lcGlyphNames
 
 
-class DecomposingRecordingPointPen(RecordingPointPen):
-    def __init__(self, glyphSet):
-        super(DecomposingRecordingPointPen, self).__init__()
-        self.glyphSet = glyphSet
-
-    def addComponent(self, glyphName, transformation, identifier=None, **kwargs):
-        glyph = self.glyphSet[glyphName]
-        tPen = TransformPointPen(self, transformation)
-        glyph.drawPoints(tPen)
-
-
-def decomposeComponents(glyph, font):
-    recPen = DecomposingRecordingPointPen(font)
-    glyph.drawPoints(recPen)
-    glyph.clear()
-    recPen.replay(glyph.getPointPen())
-
-
-def removeOverlaps(glyph):
-    recPen = RecordingPen()
-    union(glyph.contours, recPen)
-    glyph.clearContours()
-    recPen.replay(glyph.getPen())
-
-
-def reverseContours(glyph):
-    recPen = RecordingPen()
-    glyph.draw(ReverseContourPen(recPen))
-    glyph.clear()
-    recPen.replay(glyph.getPen())
-
-
 def rotateTranslateGlyph(newGlyph):
     y = 360 - newGlyph.width / 2
     t = Transform()
     t = t.rotate(math.radians(90))
     t = t.translate(y, 0)
     transformGlyph(newGlyph, t)
-
-
-def transformGlyph(glyph, transformation):
-    recPen = RecordingPointPen()
-    tPen = TransformPointPen(recPen, transformation)
-    glyph.drawPoints(tPen)
-    glyph.clear()
-    recPen.replay(glyph.getPointPen())
 
 
 verticalShapeExceptions = {

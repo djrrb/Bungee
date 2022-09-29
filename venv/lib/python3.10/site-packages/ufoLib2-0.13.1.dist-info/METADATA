@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ufoLib2
+Version: 0.13.1
+Summary: ufoLib2 is a UFO font processing library.
+Home-page: https://github.com/fonttools/ufoLib2
+Author: Adrien Tétar
+Author-email: adri-from-59@hotmail.fr
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Text Processing :: Fonts
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs (>=20.1.0)
+Requires-Dist: fonttools[ufo] (>=4.0.0)
+Requires-Dist: typing-extensions ; python_version < "3.8"
+Provides-Extra: converters
+Requires-Dist: cattrs (>=1.10.0) ; extra == 'converters'
+Provides-Extra: lxml
+Requires-Dist: lxml ; extra == 'lxml'
+
+# ufoLib2
+
+ufoLib2 is meant to be a thin representation of the Unified Font Object (UFO) version 3 data model, intended for programmatic manipulation and fast batch processing of UFOs.
+
+It resembles the defcon library, but does without notifications, the layout engine and other support classes. Where useful and possible, ufoLib2 tries to be API-compatible with defcon.
+
+It does not replace `fontTools.ufoLib` but builds on it. The eventual goal is to merge it into `fontTools.ufoLib.objects`.
+
+Documentation: https://ufolib2.readthedocs.io/en/latest/
+
+

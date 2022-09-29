@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cffsubr
+Version: 0.2.9.post1
+Summary: Standalone CFF subroutinizer based on the AFDKO tx tool
+Home-page: https://github.com/adobe-type-tools/cffsubr
+Author: Cosimo Lupo
+Author-email: cosimo@anthrotype.com
+License: Apache 2.0
+Platform: posix
+Platform: nt
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: Fonts
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: fontTools (>=4.10.2)
+Requires-Dist: importlib-resources ; python_version < "3.7"
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+
+![Build wheels](https://github.com/adobe-type-tools/cffsubr/workflows/Build%20wheels/badge.svg)
+
+# cffsubr
+
+Standalone CFF subroutinizer based on the [AFDKO](https://github.com/adobe-type-tools/afdko) tx tool.
+
+

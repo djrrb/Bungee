@@ -1,14 +1,19 @@
 import pathlib
 from copy import deepcopy
-from pathops.operations import union
 from fontTools.misc.arrayTools import sectRect
 from fontTools.misc.transform import Transform
 from fontTools.pens.boundsPen import ControlBoundsPen
 from fontTools.pens.pointPen import PointToSegmentPen
-from fontTools.pens.recordingPen import RecordingPen, RecordingPointPen
-from fontTools.pens.reverseContourPen import ReverseContourPen
-from fontTools.pens.transformPen import TransformPointPen
 import ufoLib2
+
+
+from assembleTools import (
+    DecomposingRecordingPointPen,
+    decomposeComponents,
+    fixFeatureIncludes,
+    removeOverlaps,
+    reverseContours,
+)
 
 
 def breakOutLayers(familyName, source, style, outputPath):
@@ -25,7 +30,7 @@ def breakOutLayers(familyName, source, style, outputPath):
     newFont.lib["public.glyphOrder"] = sourceFont.lib["public.glyphOrder"]
     newFont.kerning = sourceFont.kerning
     newFont.groups = sourceFont.groups
-    newFont.features.text = fixFeatures(sourceFont.features.text)
+    newFont.features.text = fixFeatureIncludes(sourceFont.features.text)
 
     for glyph in sourceFont:
         sourceGlyph = sourceFont[glyph.name]
@@ -71,17 +76,6 @@ def breakOutLayers(familyName, source, style, outputPath):
     newFont.save(outputPath, overwrite=True)
 
 
-class DecomposingRecordingPointPen(RecordingPointPen):
-    def __init__(self, glyphSet):
-        super(DecomposingRecordingPointPen, self).__init__()
-        self.glyphSet = glyphSet
-
-    def addComponent(self, glyphName, transformation, identifier=None, **kwargs):
-        glyph = self.glyphSet[glyphName]
-        tPen = TransformPointPen(self, transformation)
-        glyph.drawPoints(tPen)
-
-
 def doCompomentsOverlap(glyph, font):
     boxes = []
     for component in glyph.components:
@@ -101,13 +95,6 @@ def doCompomentsOverlap(glyph, font):
                     return True
 
     return False
-
-
-def decomposeComponents(glyph, font):
-    recPen = DecomposingRecordingPointPen(font)
-    glyph.drawPoints(recPen)
-    glyph.clear()
-    recPen.replay(glyph.getPointPen())
 
 
 def decomposeNestedComponents(glyph, font):
@@ -138,35 +125,6 @@ def moveGlyphHor(glyph, dx):
     for contour in glyph:
         for pt in contour.points:
             pt.x += dx
-
-
-def removeOverlaps(glyph):
-    recPen = RecordingPen()
-    union(glyph.contours, recPen)
-    glyph.clearContours()
-    recPen.replay(glyph.getPen())
-
-
-def decomposeAndRemoveOverlaps(font):
-    for glyph in font:
-        decomposeComponents(glyph, font)
-        removeOverlaps(glyph)
-
-
-def reverseContours(glyph):
-    recPen = RecordingPen()
-    glyph.draw(ReverseContourPen(recPen))
-    glyph.clear()
-    recPen.replay(glyph.getPen())
-
-
-def fixFeatures(features):
-    lines = features.splitlines()
-    lines = [
-        line.replace("include(features/", "include(../../sources/1-drawing/features/")
-        for line in lines
-    ]
-    return "\n".join(lines) + "\n"
 
 
 bungeeBasic = dict(

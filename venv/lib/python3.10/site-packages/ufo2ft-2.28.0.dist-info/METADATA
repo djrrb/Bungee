@@ -1,0 +1,243 @@
+Metadata-Version: 2.1
+Name: ufo2ft
+Version: 2.28.0
+Summary: A bridge between UFOs and FontTools.
+Home-page: https://github.com/googlefonts/ufo2ft
+Author: Tal Leming, James Godfrey-Kittle
+Author-email: tal@typesupply.com
+Maintainer: Cosimo Lupo
+Maintainer-email: cosimo@anthrotype.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Vector-Based
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: fonttools[ufo] (>=4.34.0)
+Requires-Dist: cu2qu (>=1.6.7)
+Requires-Dist: cffsubr (>=0.2.8)
+Requires-Dist: booleanOperations (>=0.9.0)
+Provides-Extra: cffsubr
+Provides-Extra: compreffor
+Requires-Dist: compreffor (>=0.4.6) ; extra == 'compreffor'
+Provides-Extra: pathops
+Requires-Dist: skia-pathops (>=0.5.1) ; extra == 'pathops'
+
+|GitHub Actions status| |PyPI Version| |Codecov| |Gitter Chat|
+
+ufo2ft
+======
+
+ufo2ft ("UFO to FontTools") is a fork of
+`ufo2fdk <https://github.com/typesupply/ufo2fdk>`__ whose goal is to
+generate OpenType font binaries from UFOs without the FDK dependency.
+
+The library provides two functions, ``compileOTF`` and ``compileTTF``,
+which work exactly the same way:
+
+.. code:: python
+
+    from defcon import Font
+    from ufo2ft import compileOTF
+    ufo = Font('MyFont-Regular.ufo')
+    otf = compileOTF(ufo)
+    otf.save('MyFont-Regular.otf')
+
+In most cases, the behavior of ufo2ft should match that of ufo2fdk,
+whose documentation is retained below (and hopefully is still accurate).
+
+Naming Data
+~~~~~~~~~~~
+
+As with any OpenType compiler, you have to set the font naming data to a
+particular standard for your naming to be set correctly. In ufo2fdk, you
+can get away with setting *two* naming attributes in your font.info
+object for simple fonts:
+
+-  familyName: The name for your family. For example, "My Garamond".
+-  styleName: The style name for this particular font. For example,
+   "Display Light Italic"
+
+ufo2fdk will create all of the other naming data based on thse two
+fields. If you want to use the fully automatic naming system, all of the
+other name attributes should be set to ``None`` in your font. However,
+if you want to override the automated system at any level, you can
+specify particular naming attributes and ufo2fdk will honor your
+settings. You don't have to set *all* of the attributes, just the ones
+you don't want to be automated. For example, in the family "My Garamond"
+you have eight weights. It would be nice to style map the italics to the
+romans for each weight. To do this, in the individual romans and
+italics, you need to set the style mapping data. This is done through
+the ``styleMapFamilyName`` and ``styleMapStyleName`` attributes. In each
+of your roman and italic pairs you would do this:
+
+**My Garamond-Light.ufo**
+
+-  familyName = "My Garamond"
+-  styleName = "Light"
+-  styleMapFamilyName = "My Garamond Display Light"
+-  styleMapStyleName = "regular"
+
+**My Garamond-Light Italic.ufo**
+
+-  familyName = "My Garamond"
+-  styleName = "Display Light Italic"
+-  styleMapFamilyName = "My Garamond Display Light"
+-  styleMapStyleName = "italic"
+
+**My Garamond-Book.ufo**
+
+-  familyName = "My Garamond"
+-  styleName = "Book"
+-  styleMapFamilyName = "My Garamond Display Book"
+-  styleMapStyleName = "regular"
+
+**My Garamond-Book Italic.ufo**
+
+-  familyName = "My Garamond"
+-  styleName = "Display Book Italic"
+-  styleMapFamilyName = "My Garamond Display Book"
+-  styleMapStyleName = "italic"
+
+**etc.**
+
+Additionally, if you have defined any naming data, or any data for that
+matter, in table definitions within your font's features that data will
+be honored.
+
+
+Feature generation
+~~~~~~~~~~~~~~~~~~
+
+If your font's features do not contain kerning/mark/mkmk features,
+ufo2ft will create them based on your font's kerning/anchor data.
+
+In addition to
+`Adobe OpenType feature files <http://www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html>`__,
+ufo2ft also supports the
+`MTI/Monotype format <http://monotype.github.io/OpenType_Table_Source/otl_source.html>`__.
+For example, a GPOS table in this format would be stored within the UFO at
+``data/com.github.googlei18n.ufo2ft.mtiFeatures/GPOS.mti``.
+
+
+Fallbacks
+~~~~~~~~~
+
+Most of the fallbacks have static values. To see what is set for these,
+look at ``fontInfoData.py`` in the source code.
+
+In some cases, the fallback values are dynamically generated from other
+data in the info object. These are handled internally with functions.
+
+Merging TTX
+~~~~~~~~~~~
+
+If the UFO data directory has a ``com.github.fonttools.ttx`` folder with TTX
+files ending with ``.ttx``, these will be merged in the generated font.
+The index TTX (generated when using using ``ttx -s``) is not required.
+
+.. |GitHub Actions status| image:: https://github.com/googlefonts/ufo2ft/workflows/Test%20+%20Deploy/badge.svg
+.. |PyPI Version| image:: https://img.shields.io/pypi/v/ufo2ft.svg
+   :target: https://pypi.org/project/ufo2ft/
+.. |Codecov| image:: https://codecov.io/gh/googlefonts/ufo2ft/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/googlefonts/ufo2ft
+.. |Gitter Chat| image:: https://badges.gitter.im/fonttools-dev/ufo2ft.svg
+   :alt: Join the chat at https://gitter.im/fonttools-dev/ufo2ft
+   :target: https://gitter.im/fonttools-dev/ufo2ft?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
+
+Color fonts
+~~~~~~~~~~~
+
+ufo2ft supports building ``COLR`` and ``CPAL`` tables.
+
+If there is ``com.github.googlei18n.ufo2ft.colorPalettes`` key in font lib, and
+``com.github.googlei18n.ufo2ft.colorLayerMapping`` key in the font or
+in any of the glyphs lib, then ufo2ft will build ``CPAL`` table from the color
+palettes, and ``COLR`` table from the color layers.
+
+``colorPalettes`` is a array of palettes, each palette is a array of colors and
+each color is a array of floats representing RGBA colors. For example:
+
+.. code:: xml
+
+    <key>com.github.googlei18n.ufo2ft.colorPalettes</key>
+    <array>
+      <array>
+        <array>
+          <real>0.26</real>
+          <real>0.0</real>
+          <real>0.23</real>
+          <real>1.0</real>
+        </array>
+        <array>
+          <real>0.86</real>
+          <real>0.73</real>
+          <real>0.28</real>
+          <real>1.0</real>
+        </array>
+      </array>
+    </array>
+
+
+``colorLayerMapping`` is a array of color layers, each color layer is a array of
+layer name and palette color index. It is a per-glyph key, but if present in
+the font lib then it will be used for all glyphs that lack it. For example:
+
+.. code:: xml
+
+      <key>com.github.googlei18n.ufo2ft.colorLayerMapping</key>
+      <array>
+        <array>
+          <string>color.1</string>
+          <integer>1</integer>
+        </array>
+        <array>
+          <string>color.2</string>
+          <integer>0</integer>
+        </array>
+      </array>
+
+With these this key present, ufo2ft will copy the color layers into individual
+glyphs and setup ``COLR`` table.
+
+Alternatively, if the color layers are already separate UFO glyphs, the
+``com.github.googlei18n.ufo2ft.colorLayers`` font lib key can be used. It uses
+a table keyed by base glyph, and the value is an array of color layers, each
+color layer is an array of glyph name and palette color index. For example:
+
+.. code:: xml
+
+    <key>com.github.googlei18n.ufo2ft.colorLayers</key>
+    <dict>
+      <key>alef-ar</key>
+      <array>
+        <array>
+          <string>alef-ar.color0</string>
+          <integer>2</integer>
+        </array>
+      </array>
+      <key>alefHamzaabove-ar</key>
+      <array>
+        <array>
+          <string>alefHamzaabove-ar.color0</string>
+          <integer>1</integer>
+        </array>
+        <array>
+          <string>alefHamzaabove-ar.color1</string>
+          <integer>2</integer>
+        </array>
+      </array>
+    <dict>

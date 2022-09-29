@@ -1,0 +1,3 @@
+[console_scripts]
+glyphs2ufo = glyphsLib.cli:_glyphs2ufo_entry_point
+ufo2glyphs = glyphsLib.cli:_ufo2glyphs_entry_point

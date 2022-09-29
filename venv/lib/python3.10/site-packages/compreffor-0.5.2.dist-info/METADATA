@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: compreffor
+Version: 0.5.2
+Summary: A CFF subroutinizer for fontTools.
+Author: Sam Fishman
+License: Apache 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: fonttools (>=4)
+
+|CI Build Status|
+
+A CFF table subroutinizer for FontTools.
+
+.. |CI Build Status| image:: https://github.com/googlefonts/compreffor/workflows/Build%20+%20Deploy/badge.svg
+   :target: https://github.com/googlefonts/compreffor/actions?query=workflow%3A%22Build+%2B+Deploy%22

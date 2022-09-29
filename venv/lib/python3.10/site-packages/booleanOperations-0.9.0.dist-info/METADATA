@@ -1,0 +1,223 @@
+Metadata-Version: 2.1
+Name: booleanOperations
+Version: 0.9.0
+Summary: Boolean operations on paths.
+Home-page: https://github.com/typemytype/booleanOperations
+Author: Frederik Berlaen
+Author-email: frederik@typemytype.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Vector-Based
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Requires-Dist: pyclipper (>=1.1.0.post1)
+Requires-Dist: fonttools (>=4.0.2)
+
+|Build Status| |PyPI| |Python Versions|
+
+BooleanOperations
+=================
+
+Boolean operations on paths which uses a super fast `polygon clipper
+library by Angus Johnson <http://www.angusj.com/delphi/clipper.php>`__.
+
+You can download the latest version from PyPI:
+
+https://pypi.org/project/booleanOperations.
+
+Install
+-------
+
+`Pip <https://pip.pypa.io/en/stable/>`__ is the recommended tool to
+install booleanOperations.
+
+To install the latest version:
+
+.. code:: sh
+
+    pip install booleanOperations
+
+BooleanOperations depends on the following packages:
+
+- `pyclipper <https://pypi.org/project/pyclipper/>`__: Cython wrapper for
+  the C++ Clipper library
+- `fonttools <github.com/behdad/fonttools>`__
+
+All dependencies are available on PyPI, so they will be resolved
+automatically upon installing booleanOperations.
+
+BooleanOperationManager
+-----------------------
+
+Containing a ``BooleanOperationManager`` handling all boolean operations
+on paths. Paths must be similar to ``defcon``, ``robofab`` contours. A
+manager draws the result in a ``pointPen``.
+
+.. code:: py
+
+    from booleanOperations import BooleanOperationManager
+
+    manager = BooleanOperationManager()
+
+BooleanOperationManager()
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create a ``BooleanOperationManager``.
+
+manager.union(contours, pointPen)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Performs a union on all ``contours`` and draw it in the ``pointPen``.
+(this is a what a remove overlaps does)
+
+manager.difference(contours, clipContours, pointPen)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Knock out the ``clipContours`` from the ``contours`` and draw it in the
+``pointPen``.
+
+manager.intersection(contours, clipContours, pointPen)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Draw only the overlaps from the ``contours`` with the
+``clipContours``\ and draw it in the ``pointPen``.
+
+manager.xor(contours, clipContours, pointPen)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Draw only the parts that not overlaps from the ``contours`` with the
+``clipContours``\ and draw it in the ``pointPen``.
+
+manager.getIntersections(contours)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Returning all intersection for the given contours
+
+BooleanGlyph
+------------
+
+A glyph like object with boolean powers.
+
+.. code:: py
+
+    from booleanOperations.booleanGlyph import BooleanGlyph
+
+    booleanGlyph = BooleanGlyph(sourceGlyph)
+
+BooleanGlyph(sourceGlyph)
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Create a ``BooleanGlyph`` object from ``sourceGlyph``. This is a very
+shallow glyph object with basic support.
+
+booleanGlyph.union(other)
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Perform a **union** with the ``other``. Other must be a glyph or
+``BooleanGlyph`` object.
+
+.. code:: py
+
+    result = BooleanGlyph(glyph).union(BooleanGlyph(glyph2))
+    result = BooleanGlyph(glyph) | BooleanGlyph(glyph2)
+
+booleanGlyph.difference(other)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Perform a **difference** with the ``other``. Other must be a glyph or
+``BooleanGlyph`` object.
+
+.. code:: py
+
+    result = BooleanGlyph(glyph).difference(BooleanGlyph(glyph2))
+    result = BooleanGlyph(glyph) % BooleanGlyph(glyph2)
+
+booleanGlyph.intersection(other)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Perform a **intersection** with the ``other``. Other must be a glyph or
+``BooleanGlyph`` object.
+
+.. code:: py
+
+    result = BooleanGlyph(glyph).intersection(BooleanGlyph(glyph2))
+    result = BooleanGlyph(glyph) & BooleanGlyph(glyph2)
+
+booleanGlyph.xor(other)
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Perform a **xor** with the ``other``. Other must be a glyph or
+``BooleanGlyph`` object.
+
+.. code:: py
+
+    result = BooleanGlyph(glyph).xor(BooleanGlyph(glyph2))
+    result = BooleanGlyph(glyph) ^ BooleanGlyph(glyph2)
+
+booleanGlyph.removeOverlap()
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Perform a **union** on it self. This will remove all overlapping
+contours and self intersecting contours.
+
+.. code:: py
+
+    result = BooleanGlyph(glyph).removeOverlap()
+
+--------------
+
+booleanGlyph.name
+^^^^^^^^^^^^^^^^^
+
+The **name** of the ``sourceGlyph``.
+
+booleanGlyph.unicodes
+^^^^^^^^^^^^^^^^^^^^^
+
+The **unicodes** of the ``sourceGlyph``.
+
+booleanGlyph.width
+^^^^^^^^^^^^^^^^^^
+
+The **width** of the ``sourceGlyph``.
+
+booleanGlyph.lib
+^^^^^^^^^^^^^^^^
+
+The **lib** of the ``sourceGlyph``.
+
+booleanGlyph.note
+^^^^^^^^^^^^^^^^^
+
+The **note** of the ``sourceGlyph``.
+
+booleanGlyph.contours
+^^^^^^^^^^^^^^^^^^^^^
+
+List the **contours** of the glyph.
+
+booleanGlyph.components
+^^^^^^^^^^^^^^^^^^^^^^^
+
+List the **components** of the glyph.
+
+booleanGlyph.anchors
+^^^^^^^^^^^^^^^^^^^^
+
+List the **anchors** of the glyph.
+
+.. |Build Status| image:: https://api.travis-ci.org/typemytype/booleanOperations.svg
+   :target: https://travis-ci.org/typemytype/booleanOperations
+.. |PyPI| image:: https://img.shields.io/pypi/v/booleanOperations.svg
+   :target: https://pypi.org/project/booleanOperations/
+.. |Python Versions| image:: https://img.shields.io/badge/python-3.6,%203.7-blue.svg
+
+

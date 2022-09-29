@@ -1,0 +1,3 @@
+[console_scripts]
+cu2qu = cu2qu.cli:main [cli]
+

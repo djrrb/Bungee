@@ -1,0 +1,3 @@
+[console_scripts]
+fontmake = fontmake.__main__:main
+
