@@ -50,16 +50,16 @@ print("assembling", outputFolder.name)
 
 
 for glyph in inlineFont:
-    inlineGlyphName = f"{glyph.name}{inlineSuffix}"
+    inlineGlyphName = glyph.name + inlineSuffix
     sourceFont[inlineGlyphName] = inlineFont[glyph.name].copy()
     inlineGlyph = sourceFont[inlineGlyphName]
     inlineGlyph.unicode = None
 
     for compo in inlineGlyph.components:
-        inlineBaseGlyph = f"{compo.baseGlyph}{inlineSuffix}"
+        inlineBaseGlyph = compo.baseGlyph + inlineSuffix
         compo.baseGlyph = inlineBaseGlyph
 
-    colorGlyphs[glyph.name] = [(glyph.name, 0), (glyph.name + inlineSuffix, 1)]
+    colorGlyphs[glyph.name] = [(glyph.name, 0), (inlineGlyphName, 1)]
 
 
 sourceFont.lib[COLOR_PALETTES_KEY] = palettes
