@@ -18,13 +18,6 @@ def fixFeatureIncludes(features):
     return "\n".join(lines) + "\n"
 
 
-def componentDepth(glyphName, font):
-    glyph = font[glyphName]
-    if not glyph.components:
-        return 0
-    return 1 + max(componentDepth(compo.baseGlyph, font) for compo in glyph.components)
-
-
 def getLowerCaseGlyphNames(font):
     cmap = {g.unicode: g.name for g in font if g.unicode}
     lcGlyphNames = set()
