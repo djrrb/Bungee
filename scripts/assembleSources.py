@@ -170,7 +170,6 @@ layerStyles = [
     dict(
         styleName="Shade",
         layers=["shade"],
-        decompose=True,
     ),
 ]
 
