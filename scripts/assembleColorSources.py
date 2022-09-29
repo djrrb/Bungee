@@ -1,4 +1,5 @@
 import pathlib
+from fontTools.ttLib.tables import otTables as ot
 import ufoLib2
 from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
 
@@ -36,13 +37,55 @@ colorTableRegular = """
     inline      FF9580  E8E8E7  F6EECD  DCF676  55A5FE  EAE2B1  FF5140  FF0035
 """
 
+colorTableSpice = """
+    color1     C90900
+    color2     FFD700
+"""
+
+palettesRegular, colorIndexRegular = parseColorTable(colorTableRegular)
+palettesSpice, colorIndexSpice = parseColorTable(colorTableSpice)
+
+gradient_color1 = colorIndexSpice["color1"]
+gradient_color2 = colorIndexSpice["color2"]
+
+gradient_color1_color2 = {
+    "Format": ot.PaintFormat.PaintLinearGradient,
+    "ColorLine": {
+        "ColorStop": [(0.0, gradient_color1), (1.0, gradient_color2)],
+        "Extend": "reflect",
+    },
+    "x0": 0,
+    "y0": 0,
+    "x1": 0,
+    "y1": 900,
+    "x2": 100,
+    "y2": 0,
+}
+
+gradient_color2_color1 = {
+    "Format": ot.PaintFormat.PaintLinearGradient,
+    "ColorLine": {
+        "ColorStop": [(0.0, gradient_color2), (1.0, gradient_color1)],
+        "Extend": "reflect",
+    },
+    "x0": 0,
+    "y0": 0,
+    "x1": 0,
+    "y1": 900,
+    "x2": 100,
+    "y2": 0,
+}
+
 repoDir = pathlib.Path(__file__).resolve().parent.parent
 layersDir = repoDir / "build" / "Bungee_Layers"
+outputDir = repoDir / "build" / "Bungee_Color"
+outputDir.mkdir(exist_ok=True)
 
 sourceFont = ufoLib2.Font.open(layersDir / "BungeeLayers-Regular.ufo")
 inlineFont = ufoLib2.Font.open(layersDir / "BungeeLayers-Inline.ufo")
 
-colorGlyphs = {}
+colorGlyphsRegular = {}
+colorGlyphsSpice = {}
 
 for glyph in inlineFont:
     inlineGlyphName = glyph.name + inlineSuffix
@@ -54,14 +97,32 @@ for glyph in inlineFont:
         inlineBaseGlyph = compo.baseGlyph + inlineSuffix
         compo.baseGlyph = inlineBaseGlyph
 
-    colorGlyphs[glyph.name] = [(glyph.name, 0), (inlineGlyphName, 1)]
+    colorGlyphsRegular[glyph.name] = [
+        (glyph.name, colorIndexRegular["regular"]),
+        (inlineGlyphName, colorIndexRegular["inline"]),
+    ]
+
+    gradientLayers = [
+        {
+            "Format": ot.PaintFormat.PaintGlyph,
+            "Paint": gradient_color1_color2 if suffix else gradient_color2_color1,
+            "Glyph": glyph.name + suffix,
+        }
+        for suffix in ["", inlineSuffix]
+    ]
+    colorGlyphsSpice[glyph.name] = (ot.PaintFormat.PaintColrLayers, gradientLayers)
 
 
-palettesRegular, _ = parseColorTable(colorTableRegular)
 sourceFont.lib[COLOR_PALETTES_KEY] = palettesRegular
-sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphs
+sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphsRegular
 sourceFont.info.familyName = "Bungee Color"
 sourceFont.info.styleName = "Regular"
 
-outputPath = repoDir / "build" / "Bungee_Color" / "BungeeColor-Regular-COLRv0.ufo"
-sourceFont.save(outputPath, overwrite=True)
+sourceFont.save(outputDir / "BungeeColor-Regular-COLRv0.ufo", overwrite=True)
+
+sourceFont.lib[COLOR_PALETTES_KEY] = palettesSpice
+sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphsSpice
+sourceFont.info.familyName = "Bungee Spice"
+sourceFont.info.styleName = "Regular"
+
+sourceFont.save(outputDir / "BungeeSpice-Regular-COLRv1.ufo", overwrite=True)
