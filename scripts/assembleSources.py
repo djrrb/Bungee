@@ -133,6 +133,10 @@ bungeeBasic = dict(
     source="sources/1-drawing/Bungee-Regular.ufo",
     styles=[
         dict(
+            styleName="Regular",
+            layers=["foreground"],
+        ),
+        dict(
             styleName="Hairline",
             layers=["inline"],
         ),
