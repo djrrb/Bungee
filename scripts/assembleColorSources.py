@@ -31,13 +31,10 @@ def colorFromHex(hexString):
 
 inlineSuffix = ".inline"
 
-colorTable = """
+colorTableRegular = """
     regular     C90900  FFFFFF  23849F  666666  0B5BA8  EFBB43  FFDA99  FFE10B
     inline      FF9580  E8E8E7  F6EECD  DCF676  55A5FE  EAE2B1  FF5140  FF0035
 """
-
-colorGlyphs = {}
-palettes, colorIndices = parseColorTable(colorTable)
 
 repoDir = pathlib.Path(__file__).resolve().parent.parent
 layersDir = repoDir / "build" / "Bungee_Layers"
@@ -45,6 +42,7 @@ layersDir = repoDir / "build" / "Bungee_Layers"
 sourceFont = ufoLib2.Font.open(layersDir / "BungeeLayers-Regular.ufo")
 inlineFont = ufoLib2.Font.open(layersDir / "BungeeLayers-Inline.ufo")
 
+colorGlyphs = {}
 
 for glyph in inlineFont:
     inlineGlyphName = glyph.name + inlineSuffix
@@ -59,7 +57,8 @@ for glyph in inlineFont:
     colorGlyphs[glyph.name] = [(glyph.name, 0), (inlineGlyphName, 1)]
 
 
-sourceFont.lib[COLOR_PALETTES_KEY] = palettes
+palettesRegular, _ = parseColorTable(colorTableRegular)
+sourceFont.lib[COLOR_PALETTES_KEY] = palettesRegular
 sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphs
 sourceFont.info.familyName = "Bungee Color"
 sourceFont.info.styleName = "Regular"
