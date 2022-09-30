@@ -69,9 +69,29 @@ def breakOutLayers(familyName, source, style, outputPath):
             newGlyph.components.extend(sourceGlyph.components)
 
     if extraTracking:
+        trackingAndOffset = {}
         for glyph in newFont:
-            moveGlyphHor(glyph, trackingOffset)
-            glyph.width += extraTracking
+            if glyph.name not in sourceFont.layers["shade"]:
+                # No shade, no tracking
+                t = o = 0
+            elif ".v" in glyph.name or glyph.name.endswith("_v"):
+                # No tracking, but adjust centering
+                t = 0
+                o = 65
+            else:
+                t = extraTracking
+                o = trackingOffset
+            trackingAndOffset[glyph.name] = (t, o)
+        for glyph in newFont:
+            t, o = trackingAndOffset[glyph.name]
+            if o:
+                moveGlyphHor(glyph, o)
+            if t:
+                glyph.width += t
+            for compo in glyph.components:
+                _, baseOffset = trackingAndOffset[compo.baseGlyph]
+                x, y = compo.transformation[-2:]
+                compo.transformation = compo.transformation[:4] + (x + o - baseOffset, y)
 
     newFont.save(outputPath, overwrite=True)
 
