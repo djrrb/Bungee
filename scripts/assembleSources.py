@@ -72,7 +72,7 @@ def breakOutLayers(familyName, source, style, outputPath):
         trackingAndOffset = {}
         shadeLayer = sourceFont.layers["shade"]
         for glyph in newFont:
-            if not any(
+            if glyph.name != "space" and not any(
                 n in shadeLayer
                 for n in allUsedGlyphNames(sourceFont[glyph.name], sourceFont)
             ):
