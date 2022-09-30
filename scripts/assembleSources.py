@@ -70,8 +70,12 @@ def breakOutLayers(familyName, source, style, outputPath):
 
     if extraTracking:
         trackingAndOffset = {}
+        shadeLayer = sourceFont.layers["shade"]
         for glyph in newFont:
-            if glyph.name not in sourceFont.layers["shade"]:
+            if not any(
+                n in shadeLayer
+                for n in allUsedGlyphNames(sourceFont[glyph.name], sourceFont)
+            ):
                 # No shade, no tracking
                 t = o = 0
             elif ".v" in glyph.name or glyph.name.endswith("_v"):
@@ -97,6 +101,13 @@ def breakOutLayers(familyName, source, style, outputPath):
                 )
 
     newFont.save(outputPath, overwrite=True)
+
+
+def allUsedGlyphNames(glyph, font):
+    names = {glyph.name}
+    for compo in glyph.components:
+        names.update(allUsedGlyphNames(font[compo.baseGlyph], font))
+    return names
 
 
 def doCompomentsOverlap(glyph, font):
