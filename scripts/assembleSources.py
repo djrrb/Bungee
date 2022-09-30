@@ -72,7 +72,7 @@ def breakOutLayers(familyName, source, style, outputPath):
         trackingAndOffset = {}
         shadeLayer = sourceFont.layers["shade"]
         for glyph in newFont:
-            if glyph.name != "space" and not any(
+            if glyph.name not in basicShadeTrackingExceptions and not any(
                 n in shadeLayer
                 for n in allUsedGlyphNames(sourceFont[glyph.name], sourceFont)
             ):
@@ -101,6 +101,31 @@ def breakOutLayers(familyName, source, style, outputPath):
                 )
 
     newFont.save(outputPath, overwrite=True)
+
+
+basicShadeTrackingExceptions = {
+    "space",
+    "indexdownleft.outline",
+    "indexdownleft.salt_outline",
+    "indexdownright.outline",
+    "indexdownright.salt_outline",
+    "indexupleft.outline",
+    "indexupleft.salt_outline",
+    "indexupright.outline",
+    "indexupright.salt_outline",
+    "uni261C",
+    "uni261C.salt",
+    "uni261D",
+    "uni261D.salt",
+    "uni261E",
+    "uni261E.salt",
+    "uni261F",
+    "uni261F.salt",
+    "whitedownpointingtriangle",
+    "whiteleftpointingtriangle",
+    "whiterightpointingtriangle",
+    "whiteuppointingtriangle",
+}
 
 
 def allUsedGlyphNames(glyph, font):
