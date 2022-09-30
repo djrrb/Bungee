@@ -103,6 +103,9 @@ def breakOutLayers(familyName, source, style, outputPath):
     newFont.save(outputPath, overwrite=True)
 
 
+# The following glyphs need tracking + offsetting in Bungee Basic Shade,
+# despite not having a shade themselves. But they have related glyphs
+# with shade. Except space.
 basicShadeTrackingExceptions = {
     "space",
     "indexdownleft.outline",
