@@ -91,7 +91,10 @@ def breakOutLayers(familyName, source, style, outputPath):
             for compo in glyph.components:
                 _, baseOffset = trackingAndOffset[compo.baseGlyph]
                 x, y = compo.transformation[-2:]
-                compo.transformation = compo.transformation[:4] + (x + o - baseOffset, y)
+                compo.transformation = compo.transformation[:4] + (
+                    x + o - baseOffset,
+                    y,
+                )
 
     newFont.save(outputPath, overwrite=True)
 
