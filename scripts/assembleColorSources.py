@@ -38,15 +38,17 @@ colorTableRegular = """
 """
 
 colorTableSpice = """
-    color1     C90900
-    color2     FFD700
+    color1     C90900  132A66  038F60
+    color2     FFD700  60A0EF  ABFE37
 """
+
 
 palettesRegular, colorIndexRegular = parseColorTable(colorTableRegular)
 palettesSpice, colorIndexSpice = parseColorTable(colorTableSpice)
 
 gradient_color1 = colorIndexSpice["color1"]
 gradient_color2 = colorIndexSpice["color2"]
+
 
 gradient_color1_color2 = {
     "Format": ot.PaintFormat.PaintLinearGradient,
@@ -105,7 +107,7 @@ for glyph in inlineFont:
     gradientLayers = [
         {
             "Format": ot.PaintFormat.PaintGlyph,
-            "Paint": gradient_color1_color2 if suffix else gradient_color2_color1,
+            "Paint": gradient_color2_color1 if suffix else gradient_color1_color2,
             "Glyph": glyph.name + suffix,
         }
         for suffix in ["", inlineSuffix]
