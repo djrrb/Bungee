@@ -81,11 +81,20 @@ def computeOffsetsAndWidths(
     rotatedGlyphNames, glyphNameMapping, rotatedSourceFont, regularSourceFont
 ):
     offsetsAndWidths = {}
+    selfReferentialGlyphs = set()
+
     for destGlyphName in rotatedGlyphNames:
         sourceGlyphName = glyphNameMapping[destGlyphName]
 
         rotatedGlyph = rotatedSourceFont[destGlyphName]
         regularGlyph = regularSourceFont[sourceGlyphName]
+
+        for compo in regularGlyph.components:
+            if compo.baseGlyph == destGlyphName:
+                # Glyph would reference itself, and will be decomposed. But other
+                # glyphs referencing the original glyphs will now point at a wrong
+                # version of the glyph. So collect these cases and warn later.
+                selfReferentialGlyphs.add(destGlyphName)
 
         rotatedBounds = rotatedGlyph.getControlBounds(rotatedSourceFont) or (0, 0, 0, 0)
         regularBounds = regularGlyph.getControlBounds(regularSourceFont) or (0, 0, 0, 0)
@@ -98,7 +107,7 @@ def computeOffsetsAndWidths(
         yOffset = 360 - regularGlyph.width / 2
         widthRot = leftMargin + (yMaxReg - yMinReg) + rightMargin
         offsetsAndWidths[destGlyphName] = xOffset, yOffset, widthRot
-    return offsetsAndWidths
+    return offsetsAndWidths, selfReferentialGlyphs
 
 
 def main():
@@ -133,7 +142,7 @@ def main():
 
     rotatedGlyphNames = sorted(rotatedGlyphNames)
 
-    offsetsAndWidths = computeOffsetsAndWidths(
+    offsetsAndWidths, selfReferentialGlyphs = computeOffsetsAndWidths(
         rotatedGlyphNames, glyphNameMapping, rotatedSourceFont, regularSourceFont
     )
 
@@ -164,11 +173,17 @@ def main():
                     decomposeComponents(sourceGlyph, layerSourceFont)
                     break
 
+            assert destGlyphName not in outputFont
             outputFont[destGlyphName] = sourceGlyph
             newGlyph = outputFont[destGlyphName]
             newGlyph.unicodes = rotatedSourceFont[destGlyphName].unicodes
 
             for compo in newGlyph.components:
+                if compo.baseGlyph in selfReferentialGlyphs and sourceGlyphName not in lcGlyphNames:
+                    print(
+                        f"WARNING: glyph {sourceGlyphName} references a non-verticalized "
+                        f"unavailable base glyph: {compo.baseGlyph}"
+                    )
                 compo.baseGlyph = unverticalGlyphName(compo.baseGlyph)
 
             if destGlyphName in lcGlyphNames:
