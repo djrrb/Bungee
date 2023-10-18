@@ -96,8 +96,8 @@ def computeOffsetsAndWidths(
                 # version of the glyph. So collect these cases and warn later.
                 selfReferentialGlyphs.add(destGlyphName)
 
-        rotatedBounds = rotatedGlyph.getControlBounds(rotatedSourceFont) or (0, 0, 0, 0)
-        regularBounds = regularGlyph.getControlBounds(regularSourceFont) or (0, 0, 0, 0)
+        rotatedBounds = rotatedGlyph.getBounds(rotatedSourceFont) or (0, 0, 0, 0)
+        regularBounds = regularGlyph.getBounds(regularSourceFont) or (0, 0, 0, 0)
         xMinRot, _, xMaxRot, _ = rotatedBounds
         _, yMinReg, _, yMaxReg = regularBounds
         leftMargin = xMinRot
