@@ -1,18 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="quotedblbase.v" format="2">
-  <advance width="1000"/>
-  <unicode hex="E236"/>
+<glyph name="periodcentered.v" format="2">
+  <advance width="364"/>
   <outline>
-    <component base="quotedblright.v"/>
+    <component base="period.v" xOffset="-318" yOffset="-2"/>
   </outline>
   <lib>
     <dict>
       <key>com.fontbureau.dateModified</key>
-      <string>2011-10-27 17:20:32</string>
+      <string>2011-07-30 07:41:33</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.markColor</key>
+      <string>0,0.5,0,0.5</string>
     </dict>
   </lib>
 </glyph>
