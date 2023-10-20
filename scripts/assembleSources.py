@@ -15,6 +15,8 @@ from assembleTools import (
     reverseContours,
 )
 
+repoDir = pathlib.Path(__file__).resolve().parent.parent
+
 
 def breakOutLayers(familyName, source, style, outputPath):
     styleName = style["styleName"]
@@ -273,7 +275,6 @@ families = [
 
 
 def main():
-    repoDir = pathlib.Path(__file__).resolve().parent.parent
     buildDir = repoDir / "build"
     buildDir.mkdir(exist_ok=True)
 
