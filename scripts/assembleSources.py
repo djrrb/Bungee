@@ -16,7 +16,7 @@ from assembleTools import (
 )
 
 
-def breakOutLayers(familyName, source, style, outputPath):
+def breakOutLayers(familyName, source, style, outputPath, exceptionsSource):
     styleName = style["styleName"]
     sourceFont = ufoLib2.Font.open(source)
     extraTracking = style.get("tracking", 0)
@@ -99,6 +99,12 @@ def breakOutLayers(familyName, source, style, outputPath):
                     x + o - baseOffset,
                     y,
                 )
+    # Insert exceptions for Bungee-Shade
+    if familyName == "Bungee" and styleName == "Shade":
+        exceptionsFont = ufoLib2.Font.open(exceptionsSource)
+        for glyph in exceptionsFont:
+            sourceGlyph = exceptionsFont[glyph.name]
+            newFont[glyph.name] = sourceGlyph.copy()
 
     newFont.save(outputPath, overwrite=True)
 
@@ -264,6 +270,8 @@ def main():
     buildDir = repoDir / "build"
     buildDir.mkdir(exist_ok=True)
 
+    exceptionsSource = repoDir/"sources/1-drawing/Bungee-Shade-Exceptions.ufo"
+
     for family in families:
         familyName = family["familyName"]
         folderName = family.get("folderName", familyName.replace(" ", "_"))
@@ -275,7 +283,7 @@ def main():
             styleName = style["styleName"]
             outputPath = outputFolder / f"{baseFileName}-{styleName}.ufo"
             print("assembling", outputPath.name)
-            breakOutLayers(familyName, sourcePath, style, outputPath)
+            breakOutLayers(familyName, sourcePath, style, outputPath, exceptionsSource)
 
 
 main()
