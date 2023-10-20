@@ -16,12 +16,19 @@ from assembleTools import (
 )
 
 
-def breakOutLayers(familyName, source, style, outputPath, exceptionsSource):
+def breakOutLayers(familyName, source, style, outputPath):
     styleName = style["styleName"]
     sourceFont = ufoLib2.Font.open(source)
     extraTracking = style.get("tracking", 0)
     trackingOffset = style.get("trackingOffset", 0)
     decomposeAllLayers = style.get("decompose", False)
+
+    exceptionsSourcePath = style.get("exceptionsSource")
+    exceptionsFont = (
+        ufoLib2.Font.open(repoDir / exceptionsSourcePath)
+        if exceptionsSourcePath is not None
+        else None
+    )
 
     newFont = ufoLib2.Font()
     newFont.info = deepcopy(sourceFont.info)
@@ -100,8 +107,7 @@ def breakOutLayers(familyName, source, style, outputPath, exceptionsSource):
                     y,
                 )
     # Insert exceptions for Bungee-Shade
-    if familyName == "Bungee" and styleName == "Shade":
-        exceptionsFont = ufoLib2.Font.open(exceptionsSource)
+    if exceptionsFont is not None:
         for glyph in exceptionsFont:
             sourceGlyph = exceptionsFont[glyph.name]
             newFont[glyph.name] = sourceGlyph.copy()
@@ -222,6 +228,7 @@ bungeeBasic = dict(
             tracking=100,
             trackingOffset=115,
             decompose=True,
+            exceptionsSource="sources/1-drawing/Bungee-Shade-Exceptions.ufo",
         ),
     ],
 )
@@ -270,8 +277,6 @@ def main():
     buildDir = repoDir / "build"
     buildDir.mkdir(exist_ok=True)
 
-    exceptionsSource = repoDir/"sources/1-drawing/Bungee-Shade-Exceptions.ufo"
-
     for family in families:
         familyName = family["familyName"]
         folderName = family.get("folderName", familyName.replace(" ", "_"))
@@ -283,7 +288,7 @@ def main():
             styleName = style["styleName"]
             outputPath = outputFolder / f"{baseFileName}-{styleName}.ufo"
             print("assembling", outputPath.name)
-            breakOutLayers(familyName, sourcePath, style, outputPath, exceptionsSource)
+            breakOutLayers(familyName, sourcePath, style, outputPath)
 
 
 main()
