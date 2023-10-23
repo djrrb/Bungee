@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Iacute.salt</key>
+    <string>I_acute.salt.glif</string>
+    <key>Ibreve.salt</key>
+    <string>I_breve.salt.glif</string>
+    <key>Icircumflex.salt</key>
+    <string>I_circumflex.salt.glif</string>
+    <key>Idieresis.salt</key>
+    <string>I_dieresis.salt.glif</string>
+    <key>Igrave.salt</key>
+    <string>I_grave.salt.glif</string>
+    <key>Imacron.salt</key>
+    <string>I_macron.salt.glif</string>
+    <key>Itilde.salt</key>
+    <string>I_tilde.salt.glif</string>
+    <key>Lcaron.salt_v</key>
+    <string>L_caron.salt_v.glif</string>
+    <key>backslash</key>
+    <string>backslash.glif</string>
+    <key>fi</key>
+    <string>fi.glif</string>
+    <key>fl</key>
+    <string>fl.glif</string>
+    <key>ogonek</key>
+    <string>ogonek.glif</string>
+    <key>ogonekcmb</key>
+    <string>ogonekcmb.glif</string>
+    <key>slash</key>
+    <string>slash.glif</string>
+    <key>turkishlira</key>
+    <string>turkishlira.glif</string>
+  </dict>
+</plist>

@@ -15,6 +15,8 @@ from assembleTools import (
     reverseContours,
 )
 
+repoDir = pathlib.Path(__file__).resolve().parent.parent
+
 
 def breakOutLayers(familyName, source, style, outputPath):
     styleName = style["styleName"]
@@ -22,6 +24,13 @@ def breakOutLayers(familyName, source, style, outputPath):
     extraTracking = style.get("tracking", 0)
     trackingOffset = style.get("trackingOffset", 0)
     decomposeAllLayers = style.get("decompose", False)
+
+    exceptionsSourcePath = style.get("exceptionsSource")
+    exceptionsFont = (
+        ufoLib2.Font.open(repoDir / exceptionsSourcePath)
+        if exceptionsSourcePath is not None
+        else None
+    )
 
     newFont = ufoLib2.Font()
     newFont.info = deepcopy(sourceFont.info)
@@ -99,6 +108,11 @@ def breakOutLayers(familyName, source, style, outputPath):
                     x + o - baseOffset,
                     y,
                 )
+    # Insert exceptions
+    if exceptionsFont is not None:
+        for glyph in exceptionsFont:
+            sourceGlyph = exceptionsFont[glyph.name]
+            newFont[glyph.name] = sourceGlyph.copy()
 
     newFont.save(outputPath, overwrite=True)
 
@@ -216,6 +230,7 @@ bungeeBasic = dict(
             tracking=100,
             trackingOffset=115,
             decompose=True,
+            exceptionsSource="sources/1-drawing/Bungee-Shade-Exceptions.ufo",
         ),
     ],
 )
@@ -260,7 +275,6 @@ families = [
 
 
 def main():
-    repoDir = pathlib.Path(__file__).resolve().parent.parent
     buildDir = repoDir / "build"
     buildDir.mkdir(exist_ok=True)
 
