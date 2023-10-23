@@ -108,7 +108,7 @@ def breakOutLayers(familyName, source, style, outputPath):
                     x + o - baseOffset,
                     y,
                 )
-    # Insert exceptions for Bungee-Shade
+    # Insert exceptions
     if exceptionsFont is not None:
         for glyph in exceptionsFont:
             sourceGlyph = exceptionsFont[glyph.name]
