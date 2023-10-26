@@ -152,6 +152,7 @@ def allUsedGlyphNames(glyph, font):
         names.update(allUsedGlyphNames(font[compo.baseGlyph], font))
     return names
 
+
 def computeWinAscentDescent(font):
     fontYMin = 0
     fontYMax = 0
@@ -164,6 +165,7 @@ def computeWinAscentDescent(font):
         fontYMax = max(fontYMax, yMax)
     font.info.openTypeOS2WinAscent = fontYMax
     font.info.openTypeOS2WinDescent = abs(fontYMin)
+
 
 def doCompomentsOverlap(glyph, font):
     boxes = []
