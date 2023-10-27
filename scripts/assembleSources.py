@@ -8,6 +8,7 @@ import ufoLib2
 
 
 from assembleTools import (
+    computeWinAscentDescent,
     DecomposingRecordingPointPen,
     decomposeComponents,
     fixFeatureIncludes,
@@ -114,6 +115,7 @@ def breakOutLayers(familyName, source, style, outputPath):
             sourceGlyph = exceptionsFont[glyph.name]
             newFont[glyph.name] = sourceGlyph.copy()
 
+    computeWinAscentDescent(newFont)
     newFont.save(outputPath, overwrite=True)
 
 
