@@ -8,6 +8,7 @@ import ufoLib2
 
 
 from assembleTools import (
+    computeWinAscentDescent,
     DecomposingRecordingPointPen,
     decomposeComponents,
     fixFeatureIncludes,
@@ -151,20 +152,6 @@ def allUsedGlyphNames(glyph, font):
     for compo in glyph.components:
         names.update(allUsedGlyphNames(font[compo.baseGlyph], font))
     return names
-
-
-def computeWinAscentDescent(font):
-    fontYMin = 0
-    fontYMax = 0
-    for glyph in font:
-        bounds = glyph.getBounds(font)
-        if bounds is None:
-            continue  # empty glyph
-        xMin, yMin, xMax, yMax = bounds
-        fontYMin = min(fontYMin, yMin)
-        fontYMax = max(fontYMax, yMax)
-    font.info.openTypeOS2WinAscent = fontYMax
-    font.info.openTypeOS2WinDescent = abs(fontYMin)
 
 
 def doCompomentsOverlap(glyph, font):

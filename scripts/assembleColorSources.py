@@ -3,6 +3,8 @@ from fontTools.ttLib.tables import otTables as ot
 import ufoLib2
 from ufo2ft.constants import COLOR_LAYERS_KEY, COLOR_PALETTES_KEY
 
+from assembleTools import computeWinAscentDescent
+
 
 def parseColorTable(colorTable):
     colorNames = []
@@ -127,4 +129,5 @@ sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphsSpice
 sourceFont.info.familyName = "Bungee Spice"
 sourceFont.info.styleName = "Regular"
 
+computeWinAscentDescent(sourceFont)
 sourceFont.save(outputDir / "BungeeSpice-Regular-COLRv1.ufo", overwrite=True)

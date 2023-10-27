@@ -6,6 +6,7 @@ import ufoLib2
 
 
 from assembleTools import (
+    computeWinAscentDescent,
     decomposeComponents,
     fixFeatureIncludes,
     transformGlyph,
@@ -179,7 +180,10 @@ def main():
             newGlyph.unicodes = rotatedSourceFont[destGlyphName].unicodes
 
             for compo in newGlyph.components:
-                if compo.baseGlyph in selfReferentialGlyphs and sourceGlyphName not in lcGlyphNames:
+                if (
+                    compo.baseGlyph in selfReferentialGlyphs
+                    and sourceGlyphName not in lcGlyphNames
+                ):
                     print(
                         f"WARNING: glyph {sourceGlyphName} references a non-verticalized "
                         f"unavailable base glyph: {compo.baseGlyph}"
@@ -212,6 +216,7 @@ def main():
 
                 newGlyph.width = widthRot
 
+        computeWinAscentDescent(outputFont)
         outputFont.save(outputPath, overwrite=True)
 
 
