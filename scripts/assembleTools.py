@@ -4,20 +4,6 @@ from fontTools.pens.reverseContourPen import ReverseContourPen
 from fontTools.pens.transformPen import TransformPointPen
 
 
-def computeWinAscentDescent(font):
-    fontYMin = 0
-    fontYMax = 0
-    for glyph in font:
-        bounds = glyph.getBounds(font)
-        if bounds is None:
-            continue  # empty glyph
-        xMin, yMin, xMax, yMax = bounds
-        fontYMin = min(fontYMin, yMin)
-        fontYMax = max(fontYMax, yMax)
-    font.info.openTypeOS2WinAscent = fontYMax
-    font.info.openTypeOS2WinDescent = abs(fontYMin)
-
-
 class DecomposingRecordingPointPen(RecordingPointPen):
     def __init__(self, glyphSet):
         super(DecomposingRecordingPointPen, self).__init__()
@@ -71,3 +57,17 @@ def transformGlyph(glyph, transformation):
     glyph.drawPoints(tPen)
     glyph.clear()
     recPen.replay(glyph.getPointPen())
+
+
+def computeWinAscentDescent(font):
+    fontYMin = 0
+    fontYMax = 0
+    for glyph in font:
+        bounds = glyph.getBounds(font)
+        if bounds is None:
+            continue  # empty glyph
+        xMin, yMin, xMax, yMax = bounds
+        fontYMin = min(fontYMin, yMin)
+        fontYMax = max(fontYMax, yMax)
+    font.info.openTypeOS2WinAscent = fontYMax
+    font.info.openTypeOS2WinDescent = abs(fontYMin)
