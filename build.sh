@@ -5,7 +5,7 @@ set -x  # echo commands
 
 
 python scripts/assembleSources.py
-python scripts/assembleRotatedSources.py
+python scripts/assembleRotatedSources.py    
 python scripts/assembleColorSources.py
 
 
@@ -19,4 +19,10 @@ do
             --no-production-names \
             -u $ufo
     done
+    for ttf in build/fonts/$folder/*.ttf
+    do
+        gftools fix-nonhinting $ttf $ttf
+    done
+    # Remove leftovers from gftools fix-nonhinting
+    rm build/fonts/$folder/*backup-fonttools*.ttf
 done
