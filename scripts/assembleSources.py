@@ -206,28 +206,32 @@ def moveGlyphHor(glyph, dx):
 
 
 bungeeBasic = dict(
-    familyName="Bungee",
     folderName="Bungee_Basic",
     source="sources/1-drawing/Bungee-Regular.ufo",
     styles=[
         dict(
+            familyName="Bungee",
             styleName="Regular",
             layers=["foreground"],
         ),
         dict(
-            styleName="Hairline",
+            familyName="Bungee Hairline",
+            styleName="Regular",
             layers=["inline"],
         ),
         dict(
-            styleName="Inline",
+            familyName="Bungee Inline",
+            styleName="Regular",
             layers=["foreground", "inline"],
         ),
         dict(
-            styleName="Outline",
+            familyName="Bungee Outline",
+            styleName="Regular",
             layers=["outline", "foreground", "inline"],
         ),
         dict(
-            styleName="Shade",
+            familyName="Bungee Shade",
+            styleName="Regular",
             layers=["shade", "foreground", "inline"],
             tracking=100,
             trackingOffset=115,
@@ -239,40 +243,37 @@ bungeeBasic = dict(
 
 layerStyles = [
     dict(
+        familyName="Bungee Layers",
         styleName="Regular",
         layers=["foreground"],
     ),
     dict(
-        styleName="Inline",
+        familyName="Bungee Layers Inline",
+        styleName="Regular",
         layers=["inline"],
     ),
     dict(
-        styleName="Outline",
+        familyName="Bungee Layers Outline",
+        styleName="Regular",
         layers=["outline"],
     ),
     dict(
-        styleName="Shade",
+        familyName="Bungee Layers Shade",
+        styleName="Regular",
         layers=["shade"],
     ),
 ]
 
 bungeeLayers = dict(
-    familyName="Bungee Layers",
+    folderName="Bungee_Layers",
     source="sources/1-drawing/Bungee-Regular.ufo",
     styles=layerStyles,
 )
 
-bungeeLayersRotated = dict(
-    familyName="Bungee Layers Rotated",
-    source="sources/1-drawing/Bungee_Rotated-Regular.ufo",
-    styles=layerStyles,
-    features="vertical",
-)
 
 families = [
     bungeeBasic,
     bungeeLayers,
-    # bungeeLayersRotated,
 ]
 
 
@@ -281,13 +282,13 @@ def main():
     buildDir.mkdir(exist_ok=True)
 
     for family in families:
-        familyName = family["familyName"]
-        folderName = family.get("folderName", familyName.replace(" ", "_"))
+        folderName = family["folderName"]
         outputFolder = buildDir / folderName
         outputFolder.mkdir(exist_ok=True)
         sourcePath = repoDir / family["source"]
-        baseFileName = familyName.replace(" ", "")
         for style in family["styles"]:
+            familyName = style["familyName"]
+            baseFileName = familyName.replace(" ", "")
             styleName = style["styleName"]
             outputPath = outputFolder / f"{baseFileName}-{styleName}.ufo"
             print("assembling", outputPath.name)

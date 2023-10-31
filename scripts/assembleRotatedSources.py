@@ -148,17 +148,22 @@ def main():
     )
 
     for styleName in ["Regular", "Inline", "Outline", "Shade"]:
-        outputPath = outputDir / f"BungeeRotated-{styleName}.ufo"
-        print("assembling", outputPath.name)
         outputFont = ufoLib2.Font()
+
         if styleName == "Regular":
             layerSourceFont = regularSourceFont
+            familyName = f"Bungee Rotated"
         else:
-            layerFontPath = layerDir / f"BungeeLayers-{styleName}.ufo"
+            layerFontPath = layerDir / f"BungeeLayers{styleName}-Regular.ufo"
             layerSourceFont = ufoLib2.Font.open(layerFontPath)
+            familyName = f"Bungee Rotated {styleName}"
+
+        baseFileName = familyName.replace(" ", "")
+        outputPath = outputDir / f"{baseFileName}-Regular.ufo"
+        print("assembling", outputPath.name)
 
         outputFont.info = deepcopy(rotatedSourceFont.info)
-        outputFont.info.styleName = styleName
+        outputFont.info.familyName = familyName
         outputFont.lib["public.glyphOrder"] = glyphOrder
         outputFont.groups = rotatedSourceFont.groups
         outputFont.kerning = rotatedSourceFont.kerning

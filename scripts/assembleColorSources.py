@@ -86,7 +86,7 @@ outputDir = repoDir / "build" / "Bungee_Color"
 outputDir.mkdir(exist_ok=True)
 
 sourceFont = ufoLib2.Font.open(layersDir / "BungeeLayers-Regular.ufo")
-inlineFont = ufoLib2.Font.open(layersDir / "BungeeLayers-Inline.ufo")
+inlineFont = ufoLib2.Font.open(layersDir / "BungeeLayersInline-Regular.ufo")
 
 colorGlyphsRegular = {}
 colorGlyphsSpice = {}
@@ -122,7 +122,7 @@ sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphsRegular
 sourceFont.info.familyName = "Bungee Color"
 sourceFont.info.styleName = "Regular"
 
-sourceFont.save(outputDir / "BungeeColor-Regular-COLRv0.ufo", overwrite=True)
+sourceFont.save(outputDir / "BungeeColor-Regular.ufo", overwrite=True)
 
 sourceFont.lib[COLOR_PALETTES_KEY] = palettesSpice
 sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphsSpice
@@ -130,4 +130,4 @@ sourceFont.info.familyName = "Bungee Spice"
 sourceFont.info.styleName = "Regular"
 
 computeWinAscentDescent(sourceFont)
-sourceFont.save(outputDir / "BungeeSpice-Regular-COLRv1.ufo", overwrite=True)
+sourceFont.save(outputDir / "BungeeSpice-Regular.ufo", overwrite=True)
