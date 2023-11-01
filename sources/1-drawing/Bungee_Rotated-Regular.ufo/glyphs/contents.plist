@@ -544,6 +544,10 @@
     <string>comma.glif</string>
     <key>commaaccent</key>
     <string>commaaccent.glif</string>
+    <key>commaturnedabovecmb</key>
+    <string>commaturnedabovecmb.glif</string>
+    <key>commaturnedmod</key>
+    <string>commaturnedmod.glif</string>
     <key>copyright</key>
     <string>copyright.glif</string>
     <key>currency</key>
@@ -574,6 +578,8 @@
     <string>dotaccentcmb.glif</string>
     <key>dotlessi</key>
     <string>dotlessi.glif</string>
+    <key>dotlessj</key>
+    <string>dotlessj.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>eacute</key>
