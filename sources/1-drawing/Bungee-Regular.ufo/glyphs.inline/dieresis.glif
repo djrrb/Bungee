@@ -4,18 +4,6 @@
   <anchor x="250.0" y="747.0" name="_top"/>
   <anchor x="250.0" y="0.0" name="_bottom"/>
   <outline>
-    <contour>
-      <point x="114" y="830" type="line"/>
-      <point x="114" y="877" type="line"/>
-      <point x="124" y="877" type="line"/>
-      <point x="124" y="830" type="line"/>
-    </contour>
-    <contour>
-      <point x="372" y="830" type="line"/>
-      <point x="372" y="877" type="line"/>
-      <point x="382" y="877" type="line"/>
-      <point x="382" y="830" type="line"/>
-    </contour>
   </outline>
   <lib>
     <dict>

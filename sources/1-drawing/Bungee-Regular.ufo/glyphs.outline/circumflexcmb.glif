@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcmb" format="2">
+  <outline>
+    <contour>
+      <point x="-9" y="787" type="curve"/>
+      <point x="-9" y="787" type="line"/>
+      <point x="-146" y="747" type="line" smooth="yes"/>
+      <point x="-190" y="733"/>
+      <point x="-200" y="740"/>
+      <point x="-200" y="788" type="curve"/>
+      <point x="-200" y="869" type="line" smooth="yes"/>
+      <point x="-200" y="911"/>
+      <point x="-190" y="916"/>
+      <point x="-152" y="931" type="curve" smooth="yes"/>
+      <point x="-25" y="977" type="line" smooth="yes"/>
+      <point x="-12" y="983"/>
+      <point x="4" y="986"/>
+      <point x="18" y="987" type="curve"/>
+      <point x="31" y="987"/>
+      <point x="43" y="986"/>
+      <point x="53" y="981" type="curve" smooth="yes"/>
+      <point x="191" y="931" type="line" smooth="yes"/>
+      <point x="231" y="916"/>
+      <point x="239" y="911"/>
+      <point x="239" y="869" type="curve" smooth="yes"/>
+      <point x="239" y="788" type="line" smooth="yes"/>
+      <point x="239" y="741"/>
+      <point x="230" y="733"/>
+      <point x="184" y="747" type="curve" smooth="yes"/>
+      <point x="47" y="787" type="line" smooth="yes"/>
+      <point x="26" y="793"/>
+      <point x="12" y="793"/>
+    </contour>
+  </outline>
+</glyph>

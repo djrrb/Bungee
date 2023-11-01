@@ -2,23 +2,5 @@
 <glyph name="dotaccent" format="2">
   <advance width="500"/>
   <outline>
-    <contour>
-      <point x="330" y="750" type="curve" smooth="yes"/>
-      <point x="172" y="750" type="line" smooth="yes"/>
-      <point x="140" y="750"/>
-      <point x="126" y="764"/>
-      <point x="126" y="796" type="curve" smooth="yes"/>
-      <point x="126" y="923" type="line" smooth="yes"/>
-      <point x="126" y="955"/>
-      <point x="140" y="969"/>
-      <point x="172" y="969" type="curve" smooth="yes"/>
-      <point x="330" y="969" type="line" smooth="yes"/>
-      <point x="362" y="969"/>
-      <point x="376" y="955"/>
-      <point x="376" y="923" type="curve" smooth="yes"/>
-      <point x="376" y="796" type="line" smooth="yes"/>
-      <point x="376" y="764"/>
-      <point x="362" y="750"/>
-    </contour>
   </outline>
 </glyph>

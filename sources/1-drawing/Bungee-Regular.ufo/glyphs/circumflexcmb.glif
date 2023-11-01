@@ -2,7 +2,35 @@
 <glyph name="circumflexcmb" format="2">
   <unicode hex="0302"/>
   <outline>
-    <component base="circumflex" xOffset="-250"/>
+    <contour>
+      <point x="-32" y="797" type="line"/>
+      <point x="-9" y="803"/>
+      <point x="7" y="803"/>
+      <point x="30" y="797" type="curve"/>
+      <point x="167" y="757" type="line" smooth="yes"/>
+      <point x="202" y="746"/>
+      <point x="209" y="752"/>
+      <point x="209" y="788" type="curve" smooth="yes"/>
+      <point x="209" y="869" type="line" smooth="yes"/>
+      <point x="209" y="905"/>
+      <point x="201" y="909"/>
+      <point x="167" y="922" type="curve" smooth="yes"/>
+      <point x="30" y="972" type="line" smooth="yes"/>
+      <point x="20" y="976"/>
+      <point x="10" y="977"/>
+      <point x="-2" y="977" type="curve" smooth="yes"/>
+      <point x="-14" y="976"/>
+      <point x="-29" y="973"/>
+      <point x="-41" y="968" type="curve" smooth="yes"/>
+      <point x="-169" y="922" type="line" smooth="yes"/>
+      <point x="-201" y="909"/>
+      <point x="-210" y="905"/>
+      <point x="-210" y="869" type="curve" smooth="yes"/>
+      <point x="-210" y="788" type="line" smooth="yes"/>
+      <point x="-210" y="752"/>
+      <point x="-203" y="746"/>
+      <point x="-169" y="757" type="curve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -2,16 +2,5 @@
 <glyph name="breve" format="2">
   <advance width="500"/>
   <outline>
-    <contour>
-      <point x="114" y="907" type="move"/>
-      <point x="114" y="898" type="line"/>
-      <point x="114" y="871"/>
-      <point x="133" y="823"/>
-      <point x="249" y="823" type="curve"/>
-      <point x="365" y="823"/>
-      <point x="389" y="871"/>
-      <point x="389" y="898" type="curve"/>
-      <point x="389" y="907" type="line"/>
-    </contour>
   </outline>
 </glyph>
