@@ -2,34 +2,34 @@
 <glyph name="caroncmb" format="2">
   <outline>
     <contour>
-      <point x="48" y="942" type="curve"/>
-      <point x="48" y="942" type="line"/>
-      <point x="185" y="982" type="line" smooth="yes"/>
-      <point x="229" y="996"/>
-      <point x="239" y="989"/>
-      <point x="239" y="941" type="curve" smooth="yes"/>
-      <point x="239" y="860" type="line" smooth="yes"/>
-      <point x="239" y="818"/>
-      <point x="229" y="813"/>
-      <point x="191" y="798" type="curve" smooth="yes"/>
-      <point x="64" y="752" type="line" smooth="yes"/>
-      <point x="51" y="746"/>
-      <point x="35" y="743"/>
-      <point x="21" y="742" type="curve"/>
-      <point x="8" y="742"/>
-      <point x="-4" y="743"/>
-      <point x="-14" y="748" type="curve" smooth="yes"/>
-      <point x="-152" y="798" type="line" smooth="yes"/>
-      <point x="-192" y="813"/>
-      <point x="-200" y="818"/>
-      <point x="-200" y="860" type="curve"/>
-      <point x="-200" y="941" type="line" smooth="yes"/>
-      <point x="-200" y="988"/>
-      <point x="-191" y="996"/>
-      <point x="-145" y="982" type="curve" smooth="yes"/>
-      <point x="-8" y="942" type="line" smooth="yes"/>
-      <point x="13" y="936"/>
-      <point x="27" y="936"/>
+      <point x="28.0" y="942.0" type="curve"/>
+      <point x="28.0" y="942.0" type="line"/>
+      <point x="165.0" y="982.0" type="line" smooth="yes"/>
+      <point x="209.0" y="996.0"/>
+      <point x="219.0" y="989.0"/>
+      <point x="219.0" y="941.0" type="curve" smooth="yes"/>
+      <point x="219.0" y="860.0" type="line" smooth="yes"/>
+      <point x="219.0" y="818.0"/>
+      <point x="209.0" y="813.0"/>
+      <point x="171.0" y="798.0" type="curve" smooth="yes"/>
+      <point x="44.0" y="752.0" type="line" smooth="yes"/>
+      <point x="31.0" y="746.0"/>
+      <point x="15.0" y="743.0"/>
+      <point x="1.0" y="742.0" type="curve"/>
+      <point x="-12.0" y="742.0"/>
+      <point x="-24.0" y="743.0"/>
+      <point x="-34.0" y="748.0" type="curve" smooth="yes"/>
+      <point x="-172.0" y="798.0" type="line" smooth="yes"/>
+      <point x="-212.0" y="813.0"/>
+      <point x="-220.0" y="818.0"/>
+      <point x="-220.0" y="860.0" type="curve"/>
+      <point x="-220.0" y="941.0" type="line" smooth="yes"/>
+      <point x="-220.0" y="988.0"/>
+      <point x="-211.0" y="996.0"/>
+      <point x="-165.0" y="982.0" type="curve" smooth="yes"/>
+      <point x="-28.0" y="942.0" type="line" smooth="yes"/>
+      <point x="-7.0" y="936.0"/>
+      <point x="7.0" y="936.0"/>
     </contour>
   </outline>
 </glyph>

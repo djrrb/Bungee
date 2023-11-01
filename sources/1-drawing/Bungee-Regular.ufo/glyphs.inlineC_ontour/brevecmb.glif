@@ -2,15 +2,15 @@
 <glyph name="brevecmb" format="2">
   <outline>
     <contour>
-      <point x="-116" y="907" type="move"/>
-      <point x="-116" y="898" type="line"/>
-      <point x="-116" y="871"/>
-      <point x="-97" y="823"/>
-      <point x="19" y="823" type="curve"/>
-      <point x="135" y="823"/>
-      <point x="159" y="871"/>
-      <point x="159" y="898" type="curve"/>
-      <point x="159" y="907" type="line"/>
+      <point x="-136.0" y="907.0" type="move"/>
+      <point x="-136.0" y="898.0" type="line"/>
+      <point x="-136.0" y="871.0"/>
+      <point x="-117.0" y="823.0"/>
+      <point x="-1.0" y="823.0" type="curve"/>
+      <point x="115.0" y="823.0"/>
+      <point x="139.0" y="871.0"/>
+      <point x="139.0" y="898.0" type="curve"/>
+      <point x="139.0" y="907.0" type="line"/>
     </contour>
   </outline>
 </glyph>
