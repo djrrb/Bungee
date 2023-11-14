@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcmb" format="2">
+  <outline>
+    <contour>
+      <point x="-136.0" y="975.0" type="line"/>
+      <point x="-136.0" y="1033.0"/>
+      <point x="-113.0" y="1071.0"/>
+      <point x="0.0" y="1071.0" type="curve"/>
+      <point x="113.0" y="1071.0"/>
+      <point x="138.0" y="1032.0"/>
+      <point x="138.0" y="975.0" type="curve"/>
+      <point x="138.0" y="920.0" type="line"/>
+      <point x="138.0" y="862.0"/>
+      <point x="113.0" y="825.0"/>
+      <point x="0.0" y="825.0" type="curve"/>
+      <point x="-113.0" y="825.0"/>
+      <point x="-136.0" y="862.0"/>
+      <point x="-136.0" y="920.0" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

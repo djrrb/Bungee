@@ -2,7 +2,42 @@
 <glyph name="dieresiscmb" format="2">
   <unicode hex="0308"/>
   <outline>
-    <component base="dieresis" xOffset="-247"/>
+    <contour>
+      <point x="-59" y="760" type="line" smooth="yes"/>
+      <point x="-36" y="760"/>
+      <point x="-26" y="770"/>
+      <point x="-26" y="793" type="curve" smooth="yes"/>
+      <point x="-26" y="914" type="line" smooth="yes"/>
+      <point x="-26" y="937"/>
+      <point x="-36" y="947"/>
+      <point x="-59" y="947" type="curve" smooth="yes"/>
+      <point x="-197" y="947" type="line" smooth="yes"/>
+      <point x="-220" y="947"/>
+      <point x="-231" y="937"/>
+      <point x="-231" y="914" type="curve" smooth="yes"/>
+      <point x="-231" y="793" type="line" smooth="yes"/>
+      <point x="-231" y="770"/>
+      <point x="-220" y="760"/>
+      <point x="-197" y="760" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="199" y="760" type="line" smooth="yes"/>
+      <point x="222" y="760"/>
+      <point x="232" y="770"/>
+      <point x="232" y="793" type="curve" smooth="yes"/>
+      <point x="232" y="914" type="line" smooth="yes"/>
+      <point x="232" y="937"/>
+      <point x="222" y="947"/>
+      <point x="199" y="947" type="curve" smooth="yes"/>
+      <point x="61" y="947" type="line" smooth="yes"/>
+      <point x="38" y="947"/>
+      <point x="28" y="937"/>
+      <point x="28" y="914" type="curve" smooth="yes"/>
+      <point x="28" y="793" type="line" smooth="yes"/>
+      <point x="28" y="770"/>
+      <point x="38" y="760"/>
+      <point x="61" y="760" type="curve" smooth="yes"/>
+    </contour>
   </outline>
   <lib>
     <dict>

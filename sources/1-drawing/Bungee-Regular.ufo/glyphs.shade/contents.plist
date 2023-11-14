@@ -286,6 +286,8 @@
     <string>acute.glif</string>
     <key>acute.vert</key>
     <string>acute.vert.glif</string>
+    <key>acutecmb</key>
+    <string>acutecmb.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
     <key>ampersand.salt</key>
@@ -354,6 +356,8 @@
     <string>bracketright.v.glif</string>
     <key>breve</key>
     <string>breve.glif</string>
+    <key>brevecmb</key>
+    <string>brevecmb.glif</string>
     <key>brokenbar</key>
     <string>brokenbar.glif</string>
     <key>bullet</key>
@@ -362,12 +366,18 @@
     <string>caron.glif</string>
     <key>caron.2</key>
     <string>caron.2.glif</string>
+    <key>caroncmb</key>
+    <string>caroncmb.glif</string>
     <key>cedilla</key>
     <string>cedilla.glif</string>
+    <key>cedillacmb</key>
+    <string>cedillacmb.glif</string>
     <key>cent</key>
     <string>cent.glif</string>
     <key>circumflex</key>
     <string>circumflex.glif</string>
+    <key>circumflexcmb</key>
+    <string>circumflexcmb.glif</string>
     <key>colonsign</key>
     <string>colonsign.glif</string>
     <key>comma</key>
@@ -390,6 +400,8 @@
     <string>degree.glif</string>
     <key>dieresis</key>
     <string>dieresis.glif</string>
+    <key>dieresiscmb</key>
+    <string>dieresiscmb.glif</string>
     <key>divide</key>
     <string>divide.glif</string>
     <key>dollar</key>
@@ -398,6 +410,8 @@
     <string>dong.glif</string>
     <key>dotaccent</key>
     <string>dotaccent.glif</string>
+    <key>dotaccentcmb</key>
+    <string>dotaccentcmb.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
     <key>eight.sups</key>
@@ -442,6 +456,8 @@
     <string>grave.glif</string>
     <key>grave.vert</key>
     <string>grave.vert.glif</string>
+    <key>gravecmb</key>
+    <string>gravecmb.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>greaterequal</key>
@@ -472,6 +488,8 @@
     <string>horncmb.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
+    <key>hungarumlautcmb</key>
+    <string>hungarumlautcmb.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
     <key>hyphen.v</key>
@@ -520,6 +538,8 @@
     <string>lozenge.glif</string>
     <key>macron</key>
     <string>macron.glif</string>
+    <key>macroncmb</key>
+    <string>macroncmb.glif</string>
     <key>minus</key>
     <string>minus.glif</string>
     <key>minute</key>
@@ -542,6 +562,8 @@
     <string>numbersign.glif</string>
     <key>ogonek</key>
     <string>ogonek.glif</string>
+    <key>ogonekcmb</key>
+    <string>ogonekcmb.glif</string>
     <key>one</key>
     <string>one.glif</string>
     <key>one.v</key>
@@ -618,6 +640,8 @@
     <string>registered.glif</string>
     <key>ring</key>
     <string>ring.glif</string>
+    <key>ringcmb</key>
+    <string>ringcmb.glif</string>
     <key>ringhalfleft</key>
     <string>ringhalfleft.glif</string>
     <key>ringhalfright</key>
@@ -654,6 +678,8 @@
     <string>threesuperior.glif</string>
     <key>tilde</key>
     <string>tilde.glif</string>
+    <key>tildecmb</key>
+    <string>tildecmb.glif</string>
     <key>trademark</key>
     <string>trademark.glif</string>
     <key>turkishlira</key>

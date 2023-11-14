@@ -63,7 +63,7 @@ def computeWinAscentDescent(font):
     fontYMin = 0
     fontYMax = 0
     for glyph in font:
-        bounds = glyph.getBounds(font)
+        bounds = glyph.getControlBounds(font)
         if bounds is None:
             continue  # empty glyph
         xMin, yMin, xMax, yMax = bounds

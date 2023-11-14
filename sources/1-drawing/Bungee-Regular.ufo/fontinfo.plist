@@ -7,7 +7,7 @@
     <key>capHeight</key>
     <integer>720</integer>
     <key>copyright</key>
-    <string>Copyright 2008 The Bungee Project Authors (david@djr.com)</string>
+    <string>Copyright 2023 The Bungee Project Authors (https://github.com/djrrb/Bungee)</string>
     <key>descender</key>
     <integer>-300</integer>
     <key>familyName</key>
@@ -81,15 +81,15 @@
     <key>openTypeNameDesigner</key>
     <string>David Jonathan Ross</string>
     <key>openTypeNameDesignerURL</key>
-    <string>http://www.djr.com</string>
+    <string>https://www.djr.com</string>
     <key>openTypeNameLicense</key>
-    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
-    <string>http://scripts.sil.org/OFL</string>
+    <string>https://scripts.sil.org/OFL</string>
     <key>openTypeNameManufacturer</key>
     <string>David Jonathan Ross</string>
     <key>openTypeNameManufacturerURL</key>
-    <string>http://www.djr.com</string>
+    <string>https://www.djr.com</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>0</integer>
@@ -151,7 +151,7 @@
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>versionMajor</key>
-    <integer>1</integer>
+    <integer>2</integer>
     <key>versionMinor</key>
     <integer>0</integer>
     <key>xHeight</key>

@@ -17,6 +17,13 @@ do
             --overlaps-backend pathops \
             --output-dir build/fonts/$folder \
             --no-production-names \
+            -f \
             -u $ufo
     done
+    for ttf in build/fonts/$folder/*.ttf
+    do
+        gftools fix-nonhinting $ttf $ttf
+    done
+    # Remove leftovers from gftools fix-nonhinting
+    rm build/fonts/$folder/*backup-fonttools*.ttf
 done

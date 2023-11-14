@@ -2,7 +2,23 @@
 <glyph name="ogonekcmb" format="2">
   <unicode hex="0328"/>
   <outline>
-    <component base="ogonek" xOffset="-230"/>
+    <contour>
+      <point x="87" y="67" type="line"/>
+      <point x="-76" y="67" type="line"/>
+      <point x="-97" y="-51" type="line" smooth="yes"/>
+      <point x="-111" y="-144"/>
+      <point x="-82" y="-186"/>
+      <point x="4" y="-186" type="curve" smooth="yes"/>
+      <point x="115" y="-186" type="line" smooth="yes"/>
+      <point x="141" y="-186"/>
+      <point x="148" y="-178"/>
+      <point x="148" y="-152" type="curve" smooth="yes"/>
+      <point x="148" y="-80" type="line" smooth="yes"/>
+      <point x="148" y="-54"/>
+      <point x="140" y="-46"/>
+      <point x="112" y="-46" type="curve" smooth="yes"/>
+      <point x="71" y="-46" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

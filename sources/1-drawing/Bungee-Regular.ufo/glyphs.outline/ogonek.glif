@@ -2,23 +2,5 @@
 <glyph name="ogonek" format="2">
   <advance width="500"/>
   <outline>
-    <contour>
-      <point x="146" y="77" type="line"/>
-      <point x="329" y="77" type="line"/>
-      <point x="311" y="-47" type="line"/>
-      <point x="301" y="-36" type="line"/>
-      <point x="342" y="-36" type="line" smooth="yes"/>
-      <point x="378" y="-36"/>
-      <point x="388" y="-47"/>
-      <point x="388" y="-80" type="curve" smooth="yes"/>
-      <point x="388" y="-152" type="line" smooth="yes"/>
-      <point x="388" y="-186"/>
-      <point x="379" y="-196"/>
-      <point x="345" y="-196" type="curve" smooth="yes"/>
-      <point x="234" y="-196" type="line" smooth="yes"/>
-      <point x="141" y="-196"/>
-      <point x="108" y="-152"/>
-      <point x="123" y="-49" type="curve" smooth="yes"/>
-    </contour>
   </outline>
 </glyph>
