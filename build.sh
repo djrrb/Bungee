@@ -5,7 +5,7 @@ set -x  # echo commands
 
 
 python scripts/assembleSources.py
-python scripts/assembleRotatedSources.py    
+python scripts/assembleRotatedSources.py
 python scripts/assembleColorSources.py
 
 
