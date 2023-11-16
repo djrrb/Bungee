@@ -1,4 +1,4 @@
-mkdir build/fontbakery/
+mkdir -p build/fontbakery/
 
 for folder in Bungee_Basic Bungee_Layers Bungee_Rotated Bungee_Color
 do
