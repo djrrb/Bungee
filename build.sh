@@ -27,3 +27,7 @@ do
     # Remove leftovers from gftools fix-nonhinting
     rm build/fonts/$folder/*backup-fonttools*.ttf
 done
+
+
+maximum_color build/fonts/Bungee_Color/BungeeSpice-Regular.ttf
+mv build/Font.ttf build/fonts/Bungee_Color/BungeeSpice-Regular.ttf
