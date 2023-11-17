@@ -1,3 +1,8 @@
+#!/bin/sh
+
+set -e  # make sure to abort on error
+set -x  # echo commands
+
 mkdir -p build/fontbakery/
 
 for folder in Bungee_Basic Bungee_Layers Bungee_Rotated Bungee_Color
