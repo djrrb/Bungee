@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ycircumflex.salt_v" format="2">
-  <advance width="1000"/>
+  <advance height="1009" width="1000"/>
   <unicode hex="E221"/>
   <outline>
     <component base="Y.salt_s_v"/>
@@ -14,6 +14,8 @@
       <string>DJR</string>
       <key>public.markColor</key>
       <string>0,0.5,0,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>954</integer>
     </dict>
   </lib>
 </glyph>

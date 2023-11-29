@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lslash.v" format="2">
-  <advance width="1000"/>
+  <advance height="855" width="1000"/>
   <unicode hex="E1E8"/>
   <outline>
     <contour>
@@ -29,6 +29,8 @@
       <string>2011-07-29 08:08:14</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>775</integer>
     </dict>
   </lib>
 </glyph>

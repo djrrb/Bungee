@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="AE.salt_v" format="2">
-  <advance width="1000"/>
+  <advance height="872" width="1000"/>
   <unicode hex="E224"/>
   <outline>
     <contour>
@@ -67,6 +67,8 @@
       <string>2011-08-09 19:56:19</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>792</integer>
     </dict>
   </lib>
 </glyph>

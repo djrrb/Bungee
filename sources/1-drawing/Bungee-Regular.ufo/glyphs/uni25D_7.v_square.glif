@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni25D7.v_square" format="2">
-  <advance width="1280"/>
+  <advance height="350" width="1280"/>
   <unicode hex="E174"/>
   <outline>
     <contour>
@@ -24,6 +24,8 @@
       <string>DJR</string>
       <key>public.markColor</key>
       <string>0,1,1,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>465</integer>
     </dict>
   </lib>
 </glyph>

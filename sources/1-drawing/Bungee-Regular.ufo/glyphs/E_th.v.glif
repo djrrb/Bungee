@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Eth.v" format="2">
-  <advance width="1000"/>
+  <advance height="880" width="1000"/>
   <unicode hex="E1E1"/>
   <outline>
     <contour>
@@ -58,6 +58,8 @@
       <string>2011-07-29 16:50:52</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>800</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="percent.v" format="2">
-  <advance width="1000"/>
+  <advance height="890" width="1000"/>
   <unicode hex="FF05"/>
   <outline>
     <contour>
@@ -92,6 +92,8 @@
       <string>2011-10-27 17:47:20</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>805</integer>
     </dict>
   </lib>
 </glyph>

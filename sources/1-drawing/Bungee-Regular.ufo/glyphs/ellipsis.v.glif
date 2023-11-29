@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ellipsis.v" format="2">
-  <advance width="1000"/>
+  <advance height="435" width="1000"/>
   <unicode hex="E23D"/>
   <outline>
     <component base="ellipsis" xOffset="-55" yOffset="222"/>
@@ -13,6 +13,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>577</integer>
     </dict>
   </lib>
 </glyph>

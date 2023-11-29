@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Wcircumflex.v" format="2">
-  <advance width="1000"/>
+  <advance height="1021" width="1000"/>
   <unicode hex="E1D5"/>
   <outline>
     <component base="W.s_v"/>
@@ -16,6 +16,8 @@
       <dict/>
       <key>public.markColor</key>
       <string>0,0.5,0,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>954</integer>
     </dict>
   </lib>
 </glyph>

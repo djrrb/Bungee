@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni25D6.v" format="2">
-  <advance width="1335"/>
+  <advance height="753" width="1335"/>
   <unicode hex="E158"/>
   <outline>
     <contour>
@@ -19,6 +19,8 @@
     <dict>
       <key>public.markColor</key>
       <string>0,1,1,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>
