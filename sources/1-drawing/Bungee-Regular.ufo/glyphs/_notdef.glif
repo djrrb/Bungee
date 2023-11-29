@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name=".notdef" format="2">
-  <advance width="1000"/>
+  <advance height="1000" width="1000"/>
   <outline>
     <contour>
       <point x="864" y="-40" type="curve" smooth="yes"/>
@@ -37,6 +37,8 @@
       </dict>
       <key>public.markColor</key>
       <string>0,1,1,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

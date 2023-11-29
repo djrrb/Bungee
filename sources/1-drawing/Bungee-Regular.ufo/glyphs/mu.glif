@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="mu" format="2">
-  <advance width="713"/>
+  <advance height="1000" width="713"/>
   <unicode hex="00B5"/>
   <unicode hex="03BC"/>
   <outline>
@@ -55,6 +55,8 @@
       <string>2011-07-30 07:46:02</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Iacute.salt" format="2">
-  <advance width="371"/>
+  <advance height="1000" width="371"/>
   <unicode hex="E116"/>
   <outline>
     <contour>
@@ -29,6 +29,8 @@
       <string>2011-07-29 07:25:35</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="OE" format="2">
-  <advance width="1015"/>
+  <advance height="1000" width="1015"/>
   <unicode hex="0152"/>
   <outline>
     <contour>
@@ -78,6 +78,8 @@
       <string>2011-07-29 07:45:24</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

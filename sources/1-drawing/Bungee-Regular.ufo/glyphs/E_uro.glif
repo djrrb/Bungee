@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Euro" format="2">
-  <advance width="648"/>
+  <advance height="1000" width="648"/>
   <unicode hex="20AC"/>
   <outline>
     <contour>
@@ -80,6 +80,8 @@
       <string>2011-07-30 06:37:18</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

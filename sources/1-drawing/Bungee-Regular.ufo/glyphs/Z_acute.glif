@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zacute" format="2">
-  <advance width="660"/>
+  <advance height="1000" width="660"/>
   <unicode hex="0179"/>
   <outline>
     <component base="Z"/>
@@ -14,6 +14,8 @@
       <string>DJR</string>
       <key>public.markColor</key>
       <string>0,0.5,0,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

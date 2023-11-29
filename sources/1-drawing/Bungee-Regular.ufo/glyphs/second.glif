@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="second" format="2">
-  <advance width="666"/>
+  <advance height="1000" width="666"/>
   <unicode hex="2033"/>
   <outline>
     <contour>
@@ -46,6 +46,8 @@
       <string>2011-07-29 09:28:42</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Hbar" format="2">
-  <advance width="779"/>
+  <advance height="1000" width="779"/>
   <unicode hex="0126"/>
   <outline>
     <contour>
@@ -66,6 +66,8 @@
       <string>2011-07-29 07:54:08</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

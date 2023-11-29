@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhorn" format="2">
-  <advance width="756"/>
+  <advance height="1000" width="756"/>
   <unicode hex="01B0"/>
   <outline>
     <component base="Uhorn"/>
@@ -9,6 +9,8 @@
     <dict>
       <key>public.markColor</key>
       <string>0.5,1,0.5,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

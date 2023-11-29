@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="grave.vert" format="2">
+  <advance height="1000"/>
   <outline>
     <contour>
       <point x="-69" y="1217" type="line" smooth="yes"/>
@@ -27,6 +28,8 @@
         <key>parentID</key>
         <string>none</string>
       </dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

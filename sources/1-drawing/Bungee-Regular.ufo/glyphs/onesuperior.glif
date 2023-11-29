@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onesuperior" format="2">
-  <advance width="457"/>
+  <advance height="1000" width="457"/>
   <unicode hex="00B9"/>
   <outline>
     <contour>
@@ -37,4 +37,10 @@
       <point x="74" y="202" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
+    </dict>
+  </lib>
 </glyph>

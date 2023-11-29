@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threesuperior" format="2">
-  <advance width="484"/>
+  <advance height="1000" width="484"/>
   <unicode hex="00B3"/>
   <outline>
     <contour>
@@ -61,4 +61,10 @@
       <point x="256" y="338" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
+    </dict>
+  </lib>
 </glyph>

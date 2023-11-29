@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="N" format="2">
-  <advance width="753"/>
+  <advance height="1000" width="753"/>
   <unicode hex="004E"/>
   <outline>
     <contour>
@@ -41,4 +41,10 @@
       <point x="105" y="0" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
+    </dict>
+  </lib>
 </glyph>

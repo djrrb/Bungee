@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphen" format="2">
-  <advance width="420"/>
+  <advance height="1000" width="420"/>
   <unicode hex="002D"/>
   <unicode hex="00AD"/>
   <unicode hex="2010"/>
@@ -32,6 +32,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

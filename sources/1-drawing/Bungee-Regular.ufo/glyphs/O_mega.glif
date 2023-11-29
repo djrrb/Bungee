@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Omega" format="2">
-  <advance width="777"/>
+  <advance height="1000" width="777"/>
   <unicode hex="2126"/>
   <unicode hex="03A9"/>
   <outline>
@@ -85,6 +85,8 @@
       <string>2011-07-29 15:01:33</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Delta" format="2">
-  <advance width="730"/>
+  <advance height="1000" width="730"/>
   <unicode hex="2206"/>
   <unicode hex="0394"/>
   <outline>
@@ -57,6 +57,8 @@
       <string>2011-07-29 09:47:47</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

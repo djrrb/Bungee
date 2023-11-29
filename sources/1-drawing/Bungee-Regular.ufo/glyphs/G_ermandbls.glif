@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Germandbls" format="2">
-  <advance width="759"/>
+  <advance height="1000" width="759"/>
   <unicode hex="1E9E"/>
   <outline>
     <contour>
@@ -55,4 +55,10 @@
       <point x="296" y="11"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
+    </dict>
+  </lib>
 </glyph>

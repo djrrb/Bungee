@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="N.salt" format="2">
-  <advance width="746"/>
+  <advance height="1000" width="746"/>
   <unicode hex="E125"/>
   <anchor x="373" y="747" name="top"/>
   <anchor x="373" y="0" name="bottom"/>
@@ -44,6 +44,8 @@
       <string>2011-07-30 06:44:30</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fi" format="2">
-  <advance width="1223"/>
+  <advance height="1000" width="1223"/>
   <unicode hex="FB01"/>
   <outline>
     <component base="f"/>
@@ -13,6 +13,8 @@
         <key>parentID</key>
         <string>none</string>
       </dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

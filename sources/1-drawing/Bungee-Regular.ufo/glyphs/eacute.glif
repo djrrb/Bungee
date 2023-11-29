@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eacute" format="2">
-  <advance width="654"/>
+  <advance height="1000" width="654"/>
   <unicode hex="00E9"/>
   <outline>
     <component base="Eacute"/>
@@ -13,6 +13,8 @@
       <string>DJR</string>
       <key>public.markColor</key>
       <string>0.5,0,1,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

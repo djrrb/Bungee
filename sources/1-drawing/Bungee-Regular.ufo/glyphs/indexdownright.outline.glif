@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="indexdownright.outline" format="2">
-  <advance width="1000"/>
+  <advance height="1000" width="1000"/>
   <unicode hex="E143"/>
   <outline>
     <contour>
@@ -144,6 +144,8 @@
     <dict>
       <key>public.markColor</key>
       <string>1,0,1,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

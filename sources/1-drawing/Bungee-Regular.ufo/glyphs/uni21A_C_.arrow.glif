@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni21AC.arrow" format="2">
-  <advance width="1000"/>
+  <advance height="1000" width="1000"/>
   <unicode hex="E17A"/>
   <outline>
     <contour>
@@ -38,6 +38,8 @@
       <string>DJR</string>
       <key>public.markColor</key>
       <string>0,1,1,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

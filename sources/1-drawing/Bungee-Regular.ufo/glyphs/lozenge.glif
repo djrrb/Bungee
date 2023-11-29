@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lozenge" format="2">
-  <advance width="731"/>
+  <advance height="1000" width="731"/>
   <unicode hex="25CA"/>
   <outline>
     <contour>
@@ -64,6 +64,8 @@
       <string>2011-10-31 06:14:25</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

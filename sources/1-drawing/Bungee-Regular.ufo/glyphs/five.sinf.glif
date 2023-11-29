@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="five.sinf" format="2">
-  <advance width="493"/>
+  <advance height="1000" width="493"/>
   <unicode hex="2085"/>
   <outline>
     <component base="five.sups" yOffset="-202"/>
@@ -9,6 +9,8 @@
     <dict>
       <key>public.markColor</key>
       <string>0.5,1,0.5,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>
