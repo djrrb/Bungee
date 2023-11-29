@@ -1,9 +1,10 @@
 #!/bin/sh
 
-set -e  # make sure to abort on error
 set -x  # echo commands
 
 mkdir -p build/fontbakery/
+
+result=0
 
 for folder in Bungee_Basic Bungee_Layers Bungee_Rotated Bungee_Color
 do
@@ -16,5 +17,10 @@ do
             -x com.google.fonts/check/vertical_metrics_regressions \
             --html build/fontbakery/$(basename $ttf .ttf).html \
             $ttf
+        if [ $? -ne 0 ]; then
+            result=$((result+1))
+        fi
     done
 done
+
+exit $result
