@@ -231,4 +231,5 @@ def main():
         outputFont.save(outputPath, overwrite=True)
 
 
-main()
+if __name__ == "__main__":
+    main()
