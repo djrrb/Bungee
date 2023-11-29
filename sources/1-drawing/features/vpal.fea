@@ -1,3 +1,11 @@
+#
+# This file is no longer used, but in an earlier version this determined the
+# correct vertical glyph metrics. The values here were used to compute UFO
+# glyph vertical metrics, which translate to a proper vmtx table.
+#
+# We keep the file for historical reasons.
+#
+
 # ==================================================
 # Vertical Spacing for Bungee
 # ==================================================

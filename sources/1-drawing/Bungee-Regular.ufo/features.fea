@@ -2,7 +2,6 @@
 include(features/classes.fea);
 include(features/features.fea);
 # vertical features
-include(features/vpal.fea);
 include(features/vertical.fea);
 include(features/blocks.fea);
 include(features/vkrn.fea);
