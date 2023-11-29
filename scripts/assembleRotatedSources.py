@@ -163,6 +163,12 @@ def main():
         print("assembling", outputPath.name)
 
         outputFont.info = deepcopy(rotatedSourceFont.info)
+        for fieldName in [
+            "openTypeVheaVertTypoAscender",
+            "openTypeVheaVertTypoDescender",
+            "openTypeVheaVertTypoLineGap",
+        ]:
+            delattr(outputFont.info, fieldName)
         outputFont.info.familyName = familyName
         outputFont.lib["public.glyphOrder"] = glyphOrder
         outputFont.groups = rotatedSourceFont.groups
