@@ -1,9 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fl" format="2">
-  <advance width="1313"/>
+  <advance height="1000" width="1313"/>
   <unicode hex="FB02"/>
   <outline>
     <component base="f"/>
     <component base="l" xOffset="618"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
+    </dict>
+  </lib>
 </glyph>

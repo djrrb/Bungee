@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="radical" format="2">
-  <advance width="741"/>
+  <advance height="1000" width="741"/>
   <unicode hex="221A"/>
   <outline>
     <contour>
@@ -49,6 +49,8 @@
       <string>2011-07-29 10:13:11</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

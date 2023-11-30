@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guilsinglright.v" format="2">
-  <advance width="1000"/>
+  <advance height="563" width="1000"/>
   <unicode hex="E238"/>
   <outline>
     <contour>
@@ -45,6 +45,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>641</integer>
     </dict>
   </lib>
 </glyph>

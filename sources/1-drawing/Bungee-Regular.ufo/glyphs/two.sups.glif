@@ -1,7 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two.sups" format="2">
-  <advance width="485"/>
+  <advance height="1000" width="485"/>
   <outline>
     <component base="twosuperior"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
+    </dict>
+  </lib>
 </glyph>

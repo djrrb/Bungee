@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guarani" format="2">
-  <advance width="688"/>
+  <advance height="1000" width="688"/>
   <unicode hex="20B2"/>
   <outline>
     <contour>
@@ -76,6 +76,8 @@
       </dict>
       <key>public.markColor</key>
       <string>0.5,1,0.5,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

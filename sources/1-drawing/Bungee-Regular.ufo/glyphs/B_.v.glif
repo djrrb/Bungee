@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="B.v" format="2">
-  <advance width="1000"/>
+  <advance height="861" width="1000"/>
   <unicode hex="FF22"/>
   <outline>
     <contour>
@@ -61,6 +61,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>790</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="section" format="2">
-  <advance width="650"/>
+  <advance height="1000" width="650"/>
   <unicode hex="00A7"/>
   <outline>
     <contour>
@@ -78,6 +78,8 @@
       <string>2011-07-29 09:22:38</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

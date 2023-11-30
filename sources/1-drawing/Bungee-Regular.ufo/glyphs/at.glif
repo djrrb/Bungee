@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="at" format="2">
-  <advance width="867"/>
+  <advance height="1000" width="867"/>
   <unicode hex="0040"/>
   <outline>
     <contour>
@@ -80,6 +80,8 @@
       <string>2011-08-16 00:51:52</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

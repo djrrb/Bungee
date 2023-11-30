@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="guillemotleft.v" format="2">
-  <advance width="1000"/>
+  <advance height="812" width="1000"/>
   <unicode hex="E239"/>
   <outline>
     <contour>
@@ -78,6 +78,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>766</integer>
     </dict>
   </lib>
 </glyph>

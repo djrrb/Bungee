@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="pi" format="2">
-  <advance width="721"/>
+  <advance height="1000" width="721"/>
   <unicode hex="03C0"/>
   <outline>
     <contour>
@@ -38,6 +38,8 @@
       <string>2011-07-29 09:49:10</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

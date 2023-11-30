@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Wcircumflex.salt" format="2">
-  <advance width="1070"/>
+  <advance height="1000" width="1070"/>
   <unicode hex="E12B"/>
   <outline>
     <component base="W.salt"/>
@@ -14,6 +14,8 @@
       <string>DJR</string>
       <key>public.markColor</key>
       <string>0,0.5,0,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

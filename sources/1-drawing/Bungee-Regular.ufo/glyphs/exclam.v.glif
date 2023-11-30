@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="exclam.v" format="2">
-  <advance width="1000"/>
+  <advance height="830" width="1000"/>
   <unicode hex="FF01"/>
   <outline>
     <component base="exclam" xOffset="289"/>
@@ -13,6 +13,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>775</integer>
     </dict>
   </lib>
 </glyph>

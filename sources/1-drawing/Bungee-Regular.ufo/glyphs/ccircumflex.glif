@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ccircumflex" format="2">
-  <advance width="628"/>
+  <advance height="1000" width="628"/>
   <unicode hex="0109"/>
   <outline>
     <component base="Ccircumflex"/>
@@ -13,6 +13,8 @@
       <string>DJR</string>
       <key>public.markColor</key>
       <string>0.5,0,1,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

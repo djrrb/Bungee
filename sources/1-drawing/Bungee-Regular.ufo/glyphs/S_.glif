@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="S" format="2">
-  <advance width="650"/>
+  <advance height="1000" width="650"/>
   <unicode hex="0053"/>
   <outline>
     <contour>
@@ -59,6 +59,8 @@
         <key>parentID</key>
         <string>none</string>
       </dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

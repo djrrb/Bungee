@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Igrave.salt" format="2">
-  <advance width="371"/>
+  <advance height="1000" width="371"/>
   <unicode hex="E115"/>
   <outline>
     <contour>
@@ -31,6 +31,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

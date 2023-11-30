@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quoteleft.salt_v" format="2">
-  <advance width="1000"/>
+  <advance height="344" width="1000"/>
   <unicode hex="E244"/>
   <outline>
     <contour>
@@ -43,6 +43,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>532</integer>
     </dict>
   </lib>
 </glyph>

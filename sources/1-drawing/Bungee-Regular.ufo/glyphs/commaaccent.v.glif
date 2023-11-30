@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaaccent.v" format="2">
-  <advance width="1000"/>
+  <advance height="309" width="1000"/>
   <unicode hex="E227"/>
   <outline>
     <contour>
@@ -35,4 +35,10 @@
       <point x="426" y="-330" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>-33</integer>
+    </dict>
+  </lib>
 </glyph>

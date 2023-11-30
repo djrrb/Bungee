@@ -122,9 +122,9 @@
     <key>openTypeOS2WidthClass</key>
     <integer>5</integer>
     <key>openTypeVheaVertTypoAscender</key>
-    <integer>860</integer>
+    <integer>500</integer>
     <key>openTypeVheaVertTypoDescender</key>
-    <integer>140</integer>
+    <integer>-500</integer>
     <key>openTypeVheaVertTypoLineGap</key>
     <integer>0</integer>
     <key>postscriptBlueValues</key>

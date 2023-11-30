@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Thorn" format="2">
-  <advance width="692"/>
+  <advance height="1000" width="692"/>
   <unicode hex="00DE"/>
   <outline>
     <contour>
@@ -50,6 +50,8 @@
       <string>2011-08-07 20:25:57</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

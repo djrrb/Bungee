@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Egrave.salt" format="2">
-  <advance width="643"/>
+  <advance height="1000" width="643"/>
   <unicode hex="E10B"/>
   <outline>
     <component base="E.salt"/>
@@ -10,6 +10,8 @@
     <dict>
       <key>public.markColor</key>
       <string>0,0.5,0,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

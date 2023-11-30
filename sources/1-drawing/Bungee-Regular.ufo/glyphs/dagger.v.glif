@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dagger.v" format="2">
-  <advance width="1000"/>
+  <advance height="880" width="1000"/>
   <unicode hex="E240"/>
   <outline>
     <component base="dagger" xOffset="141"/>
@@ -13,6 +13,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>800</integer>
     </dict>
   </lib>
 </glyph>

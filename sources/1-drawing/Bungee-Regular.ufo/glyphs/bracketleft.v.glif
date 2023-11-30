@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketleft.v" format="2">
-  <advance width="1000"/>
+  <advance height="429" width="1000"/>
   <unicode hex="E22D"/>
   <outline>
     <contour>
@@ -38,6 +38,8 @@
       <string>2011-10-27 17:17:46</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>576</integer>
     </dict>
   </lib>
 </glyph>

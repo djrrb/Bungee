@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="X.salt" format="2">
-  <advance width="737"/>
+  <advance height="1000" width="737"/>
   <unicode hex="E12F"/>
   <anchor x="368.0" y="747.0" name="top"/>
   <anchor x="368.0" y="0.0" name="bottom"/>
@@ -66,6 +66,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="degree" format="2">
-  <advance width="483"/>
+  <advance height="1000" width="483"/>
   <unicode hex="00B0"/>
   <outline>
     <contour>
@@ -42,6 +42,8 @@
       <string>2011-07-29 22:48:18</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

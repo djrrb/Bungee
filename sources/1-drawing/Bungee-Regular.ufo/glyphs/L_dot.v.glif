@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ldot.v" format="2">
-  <advance width="1000"/>
+  <advance height="1012" width="1000"/>
   <unicode hex="E1E7"/>
   <outline>
     <contour>
@@ -29,6 +29,8 @@
       <string>2011-10-27 18:10:20</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>775</integer>
     </dict>
   </lib>
 </glyph>

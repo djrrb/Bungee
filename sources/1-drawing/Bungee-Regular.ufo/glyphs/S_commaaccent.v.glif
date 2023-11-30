@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Scommaaccent.v" format="2">
-  <advance width="1000"/>
+  <advance height="1094" width="1000"/>
   <unicode hex="E1C8"/>
   <outline>
     <component base="S.s_v" yOffset="40"/>
@@ -14,6 +14,8 @@
       <string>DJR</string>
       <key>public.markColor</key>
       <string>0,0.5,0,0.5</string>
+      <key>public.verticalOrigin</key>
+      <integer>792</integer>
     </dict>
   </lib>
 </glyph>

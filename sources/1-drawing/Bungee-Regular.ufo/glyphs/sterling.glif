@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sterling" format="2">
-  <advance width="695"/>
+  <advance height="1000" width="695"/>
   <unicode hex="00A3"/>
   <outline>
     <contour>
@@ -69,6 +69,8 @@
         <key>parentID</key>
         <string>none</string>
       </dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

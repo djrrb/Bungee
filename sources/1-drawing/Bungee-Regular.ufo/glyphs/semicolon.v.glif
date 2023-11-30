@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semicolon.v" format="2">
-  <advance width="1000"/>
+  <advance height="859" width="1000"/>
   <unicode hex="FF1B"/>
   <outline>
     <component base="period.v" yOffset="217"/>
@@ -12,6 +12,8 @@
       <string>2011-10-27 17:14:31</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>789</integer>
     </dict>
   </lib>
 </glyph>

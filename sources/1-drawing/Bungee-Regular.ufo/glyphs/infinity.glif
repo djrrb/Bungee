@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="infinity" format="2">
-  <advance width="878"/>
+  <advance height="1000" width="878"/>
   <unicode hex="221E"/>
   <outline>
     <contour>
@@ -74,6 +74,8 @@
       <string>2011-07-29 15:03:22</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
     </dict>
   </lib>
 </glyph>

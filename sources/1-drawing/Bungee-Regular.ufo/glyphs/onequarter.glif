@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onequarter" format="2">
-  <advance width="1203"/>
+  <advance height="1000" width="1203"/>
   <unicode hex="00BC"/>
   <outline>
     <component base="onesuperior"/>
     <component base="foursuperior" xOffset="695" yOffset="-202"/>
     <component base="fraction" xOffset="420"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.verticalOrigin</key>
+      <integer>860</integer>
+    </dict>
+  </lib>
 </glyph>

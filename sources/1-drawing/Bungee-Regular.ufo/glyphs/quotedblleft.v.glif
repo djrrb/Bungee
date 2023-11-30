@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblleft.v" format="2">
-  <advance width="1000"/>
+  <advance height="499" width="1000"/>
   <unicode hex="E233"/>
   <outline>
     <component base="quotedblleft" xOffset="158" yOffset="-159"/>
@@ -13,6 +13,8 @@
       <string>DJR</string>
       <key>org.robofab.postScriptHintData</key>
       <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>613</integer>
     </dict>
   </lib>
 </glyph>
