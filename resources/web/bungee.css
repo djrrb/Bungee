@@ -2,73 +2,73 @@
 
 @font-face {
 	font-family: "Bungee Demo Regular";
-	src: url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Regular.eot?#ie") format("embedded-opentype"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Regular.woff2") format("woff2"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Regular.woff") format("woff"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Regular.svg#font") format("svg");
+	src: url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Regular.eot?#ie") format("embedded-opentype"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Regular.woff2") format("woff2"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Regular.woff") format("woff"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Regular.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Demo Outline";
-	src: url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Outline.eot?#ie") format("embedded-opentype"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Outline.woff2") format("woff2"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Outline.woff") format("woff"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Outline.svg#font") format("svg");
+	src: url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Outline.eot?#ie") format("embedded-opentype"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Outline.woff2") format("woff2"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Outline.woff") format("woff"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Outline.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Demo Inline";
-	src: url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Inline.eot?#ie") format("embedded-opentype"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Inline.woff2") format("woff2"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Inline.woff") format("woff"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Inline.svg#font") format("svg");
+	src: url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Inline.eot?#ie") format("embedded-opentype"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Inline.woff2") format("woff2"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Inline.woff") format("woff"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Inline.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Demo Shade";
-	src: url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Shade.eot?#ie") format("embedded-opentype"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Shade.woff2") format("woff2"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Shade.woff") format("woff"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Shade.svg#font") format("svg");
+	src: url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Shade.eot?#ie") format("embedded-opentype"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Shade.woff2") format("woff2"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Shade.woff") format("woff"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayers/BungeeLayers-Shade.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Demo Rotated Regular";
-	src: url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Regular.eot?#ie") format("embedded-opentype"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Regular.woff2") format("woff2"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Regular.woff") format("woff"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Regular.svg#font") format("svg");
+	src: url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Regular.eot?#ie") format("embedded-opentype"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Regular.woff2") format("woff2"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Regular.woff") format("woff"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Regular.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Demo Rotated Outline";
-	src: url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Outline.eot?#ie") format("embedded-opentype"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Outline.woff2") format("woff2"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Outline.woff") format("woff"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Outline.svg#font") format("svg");
+	src: url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Outline.eot?#ie") format("embedded-opentype"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Outline.woff2") format("woff2"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Outline.woff") format("woff"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Outline.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Demo Rotated Inline";
-	src: url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Inline.eot?#ie") format("embedded-opentype"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Inline.woff2") format("woff2"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Inline.woff") format("woff"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Inline.svg#font") format("svg");
+	src: url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Inline.eot?#ie") format("embedded-opentype"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Inline.woff2") format("woff2"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Inline.woff") format("woff"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Inline.svg#font") format("svg");
 }
 
 
 @font-face {
 	font-family: "Bungee Demo Rotated Shade";
-	src: url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Shade.eot?#ie") format("embedded-opentype"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Shade.woff2") format("woff2"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Shade.woff") format("woff"),
-		url("//bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Shade.svg#font") format("svg");
+	src: url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Shade.eot?#ie") format("embedded-opentype"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Shade.woff2") format("woff2"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Shade.woff") format("woff"),
+		url("https://bungee-project.djr.com/fonts/Bungee_Web/BungeeLayersRotated/BungeeLayersRotated-Shade.svg#font") format("svg");
 }
 
 /* top-level element classes */
