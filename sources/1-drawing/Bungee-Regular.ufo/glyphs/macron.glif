@@ -3,8 +3,6 @@
   <advance height="1000" width="500"/>
   <unicode hex="00AF"/>
   <unicode hex="0304"/>
-  <anchor x="250" y="747" name="_top"/>
-  <anchor x="250" y="0" name="_bottom"/>
   <outline>
     <component base="macroncmb" xOffset="250"/>
   </outline>

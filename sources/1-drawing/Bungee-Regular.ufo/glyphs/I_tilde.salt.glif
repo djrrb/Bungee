@@ -2,6 +2,7 @@
 <glyph name="Itilde.salt" format="2">
   <advance height="1000" width="371"/>
   <unicode hex="E119"/>
+  <anchor x="185.0" y="953.0" name="top"/>
   <outline>
     <component base="I.salt"/>
     <component base="tilde" xOffset="-64"/>

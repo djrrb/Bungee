@@ -2,6 +2,7 @@
 <glyph name="Acircumflexdotbelow" format="2">
   <advance height="1000" width="730"/>
   <unicode hex="1EAC"/>
+  <anchor x="365.0" y="-28.0" name="top"/>
   <outline>
     <component base="Acircumflex"/>
     <component base="dotaccent" xOffset="114" yOffset="-1000"/>

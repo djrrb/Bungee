@@ -2,6 +2,7 @@
 <glyph name="Ydieresis.salt_v" format="2">
   <advance height="1004" width="1000"/>
   <unicode hex="E222"/>
+  <anchor x="497.0" y="928.0" name="top"/>
   <outline>
     <component base="dieresis" xOffset="250" yOffset="-40"/>
     <component base="Y.salt_s_v"/>

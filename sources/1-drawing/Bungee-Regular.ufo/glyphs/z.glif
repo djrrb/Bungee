@@ -2,6 +2,7 @@
 <glyph name="z" format="2">
   <advance height="1000" width="660"/>
   <unicode hex="007A"/>
+  <anchor x="330" y="747" name="top"/>
   <outline>
     <component base="Z"/>
   </outline>

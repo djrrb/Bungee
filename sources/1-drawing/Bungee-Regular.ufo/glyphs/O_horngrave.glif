@@ -2,6 +2,7 @@
 <glyph name="Ohorngrave" format="2">
   <advance height="1000" width="747"/>
   <unicode hex="1EDC"/>
+  <anchor x="320.0" y="976.0" name="top"/>
   <outline>
     <component base="Ohorn"/>
     <component base="grave" xOffset="70" yOffset="10"/>

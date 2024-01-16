@@ -2,6 +2,7 @@
 <glyph name="Eacute.salt_v" format="2">
   <advance height="1020" width="1000"/>
   <unicode hex="E1F9"/>
+  <anchor x="500.0" y="929.0" name="top"/>
   <outline>
     <component base="acute" xOffset="250" yOffset="-40"/>
     <component base="E.salt_s_v"/>

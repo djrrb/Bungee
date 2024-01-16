@@ -2,6 +2,9 @@
 <glyph name="dotaccentcmb" format="2">
   <advance height="1000"/>
   <unicode hex="0307"/>
+  <anchor x="-1.0" y="747" name="_top"/>
+  <anchor x="-1.0" y="0" name="_bottom"/>
+  <anchor x="0" y="972" name="top"/>
   <outline>
     <contour>
       <point x="79" y="760" type="line" smooth="yes"/>

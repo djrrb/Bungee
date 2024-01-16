@@ -2,6 +2,7 @@
 <glyph name="Edieresis.salt_v" format="2">
   <advance height="1021" width="1000"/>
   <unicode hex="E1FB"/>
+  <anchor x="497.0" y="928.0" name="top"/>
   <outline>
     <component base="E.salt_s_v"/>
     <component base="dieresis" xOffset="250" yOffset="-40"/>

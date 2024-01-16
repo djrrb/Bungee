@@ -2,6 +2,9 @@
 <glyph name="brevecmb" format="2">
   <advance height="1000"/>
   <unicode hex="0306"/>
+  <anchor x="0.0" y="747" name="_top"/>
+  <anchor x="0.0" y="0" name="_bottom"/>
+  <anchor x="0" y="990" name="top"/>
   <outline>
     <contour>
       <point x="217" y="897" type="curve"/>

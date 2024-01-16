@@ -2,6 +2,7 @@
 <glyph name="Idotaccent.salt" format="2">
   <advance height="1000" width="371"/>
   <unicode hex="E11D"/>
+  <anchor x="185.0" y="972.0" name="top"/>
   <outline>
     <component base="I.salt"/>
     <component base="dotaccent" xOffset="-66"/>
