@@ -2,6 +2,7 @@
 <glyph name="Omacron.v" format="2">
   <advance height="999" width="1000"/>
   <unicode hex="E1BE"/>
+  <anchor x="500.0" y="913.0" name="top"/>
   <outline>
     <component base="O.s_v"/>
     <component base="macron" xOffset="250" yOffset="-40"/>

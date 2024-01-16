@@ -2,6 +2,7 @@
 <glyph name="Ldot.salt" format="2">
   <advance height="1000" width="615"/>
   <unicode hex="E122"/>
+  <anchor x="491.0" y="542.0" name="top"/>
   <outline>
     <component base="L.salt"/>
     <component base="dotaccent" xOffset="240" yOffset="-430"/>

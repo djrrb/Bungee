@@ -2,6 +2,7 @@
 <glyph name="Ygrave.salt" format="2">
   <advance height="1000" width="706"/>
   <unicode hex="E134"/>
+  <anchor x="343.0" y="966.0" name="top"/>
   <outline>
     <component base="Y.salt"/>
     <component base="grave" xOffset="93"/>

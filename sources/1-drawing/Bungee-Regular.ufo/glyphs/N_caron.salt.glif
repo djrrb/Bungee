@@ -2,6 +2,7 @@
 <glyph name="Ncaron.salt" format="2">
   <advance height="1000" width="746"/>
   <unicode hex="E129"/>
+  <anchor x="373.0" y="987.0" name="top"/>
   <outline>
     <component base="N.salt"/>
     <component base="caron" xOffset="123"/>

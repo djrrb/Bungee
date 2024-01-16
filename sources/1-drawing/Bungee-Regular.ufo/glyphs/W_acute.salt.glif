@@ -2,6 +2,7 @@
 <glyph name="Wacute.salt" format="2">
   <advance height="1000" width="1070"/>
   <unicode hex="E12D"/>
+  <anchor x="545.0" y="969.0" name="top"/>
   <outline>
     <component base="W.salt"/>
     <component base="acute" xOffset="295"/>
