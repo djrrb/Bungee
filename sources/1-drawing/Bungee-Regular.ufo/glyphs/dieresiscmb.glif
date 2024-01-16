@@ -2,6 +2,8 @@
 <glyph name="dieresiscmb" format="2">
   <advance height="1000"/>
   <unicode hex="0308"/>
+  <anchor x="3.0" y="747" name="_top"/>
+  <anchor x="3.0" y="0" name="_bottom"/>
   <outline>
     <contour>
       <point x="-59" y="760" type="line" smooth="yes"/>

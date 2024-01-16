@@ -2,8 +2,6 @@
 <glyph name="ring" format="2">
   <advance height="1000" width="500"/>
   <unicode hex="02DA"/>
-  <anchor x="250" y="747" name="_top"/>
-  <anchor x="250" y="0" name="_bottom"/>
   <outline>
     <component base="ringcmb" xOffset="250"/>
   </outline>

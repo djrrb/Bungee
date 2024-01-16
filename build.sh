@@ -29,6 +29,6 @@ do
 done
 
 
-# Add SVG table to COLRv1 font
-maximum_color --keep_glyph_names build/fonts/Bungee_Color/BungeeSpice-Regular.ttf
-mv build/Font.ttf build/fonts/Bungee_Color/BungeeSpice-Regular.ttf
+# # Add SVG table to COLRv1 font
+# maximum_color --keep_glyph_names build/fonts/Bungee_Color/BungeeSpice-Regular.ttf
+# mv build/Font.ttf build/fonts/Bungee_Color/BungeeSpice-Regular.ttf

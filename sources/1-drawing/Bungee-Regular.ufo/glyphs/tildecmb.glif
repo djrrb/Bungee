@@ -2,6 +2,8 @@
 <glyph name="tildecmb" format="2">
   <advance height="1000"/>
   <unicode hex="0303"/>
+  <anchor x="1.0" y="747" name="_top"/>
+  <anchor x="1.0" y="0" name="_bottom"/>
   <outline>
     <contour>
       <point x="0" y="764" type="line"/>
