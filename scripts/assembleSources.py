@@ -46,7 +46,10 @@ def breakOutLayers(familyName, source, style, outputPath):
         sourceGlyph = sourceFont[glyph.name]
         newFont[glyph.name] = sourceGlyph.copy()
         newGlyph = newFont[glyph.name]
-        newGlyph.clear()
+        newGlyph.clearContours()
+        newGlyph.clearComponents()
+        newGlyph.clearGuidelines()
+
         decomposeLayers = (
             (decomposeAllLayers and len(sourceGlyph.components) > 1)
             or bool(sourceGlyph.contours and sourceGlyph.components)
