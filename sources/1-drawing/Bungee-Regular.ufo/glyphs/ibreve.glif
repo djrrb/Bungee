@@ -2,6 +2,7 @@
 <glyph name="ibreve" format="2">
   <advance height="1000" width="605"/>
   <unicode hex="012D"/>
+  <anchor x="302.0" y="990.0" name="top"/>
   <outline>
     <component base="Ibreve"/>
   </outline>

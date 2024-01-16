@@ -2,6 +2,7 @@
 <glyph name="ycircumflex" format="2">
   <advance height="1000" width="705"/>
   <unicode hex="0177"/>
+  <anchor x="352.0" y="996.0" name="top"/>
   <outline>
     <component base="Ycircumflex"/>
   </outline>
