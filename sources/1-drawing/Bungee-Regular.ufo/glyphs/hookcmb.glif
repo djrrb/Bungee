@@ -2,6 +2,7 @@
 <glyph name="hookcmb" format="2">
   <advance height="1000"/>
   <unicode hex="0309"/>
+  <anchor x="0" y="747" name="_top"/>
   <outline>
     <contour>
       <point x="99" y="767" type="line" smooth="yes"/>
