@@ -2,6 +2,7 @@
 <glyph name="uring" format="2">
   <advance height="1000" width="746"/>
   <unicode hex="016F"/>
+  <anchor x="373.0" y="1147.0" name="top"/>
   <outline>
     <component base="Uring"/>
   </outline>

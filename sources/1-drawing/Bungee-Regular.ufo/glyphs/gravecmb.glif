@@ -2,6 +2,9 @@
 <glyph name="gravecmb" format="2">
   <advance height="1000"/>
   <unicode hex="0300"/>
+  <anchor x="0.0" y="747" name="_top"/>
+  <anchor x="0.0" y="0" name="_bottom"/>
+  <anchor x="0" y="966" name="top"/>
   <outline>
     <contour>
       <point x="175" y="753" type="line" smooth="yes"/>

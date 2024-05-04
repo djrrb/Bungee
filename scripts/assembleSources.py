@@ -25,6 +25,7 @@ def breakOutLayers(familyName, source, style, outputPath):
     extraTracking = style.get("tracking", 0)
     trackingOffset = style.get("trackingOffset", 0)
     decomposeAllLayers = style.get("decompose", False)
+    deleteAnchors = style.get("deleteAnchors", False)
 
     exceptionsSourcePath = style.get("exceptionsSource")
     exceptionsFont = (
@@ -46,7 +47,10 @@ def breakOutLayers(familyName, source, style, outputPath):
         sourceGlyph = sourceFont[glyph.name]
         newFont[glyph.name] = sourceGlyph.copy()
         newGlyph = newFont[glyph.name]
-        newGlyph.clear()
+        newGlyph.clearContours()
+        newGlyph.clearComponents()
+        newGlyph.clearGuidelines()
+
         decomposeLayers = (
             (decomposeAllLayers and len(sourceGlyph.components) > 1)
             or bool(sourceGlyph.contours and sourceGlyph.components)
@@ -114,6 +118,10 @@ def breakOutLayers(familyName, source, style, outputPath):
         for glyph in exceptionsFont:
             sourceGlyph = exceptionsFont[glyph.name]
             newFont[glyph.name] = sourceGlyph.copy()
+
+    if deleteAnchors:
+        for glyph in newFont:
+            glyph.clearAnchors()
 
     computeWinAscentDescent(newFont)
     newFont.save(outputPath, overwrite=True)
@@ -236,6 +244,7 @@ bungeeBasic = dict(
             tracking=100,
             trackingOffset=115,
             decompose=True,
+            deleteAnchors=True,
             exceptionsSource="sources/1-drawing/Bungee-Shade-Exceptions.ufo",
         ),
     ],

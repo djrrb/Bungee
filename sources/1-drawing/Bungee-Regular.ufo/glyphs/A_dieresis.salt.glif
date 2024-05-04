@@ -2,6 +2,7 @@
 <glyph name="Adieresis.salt" format="2">
   <advance height="1000" width="736"/>
   <unicode hex="E105"/>
+  <anchor x="365.0" y="968.0" name="top"/>
   <outline>
     <component base="A.salt"/>
     <component base="dieresis" xOffset="118"/>

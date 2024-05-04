@@ -2,6 +2,7 @@
 <glyph name="Lacute.salt" format="2">
   <advance height="1000" width="615"/>
   <unicode hex="E11F"/>
+  <anchor x="279.0" y="969.0" name="top"/>
   <outline>
     <component base="L.salt"/>
     <component base="acute" xOffset="29"/>

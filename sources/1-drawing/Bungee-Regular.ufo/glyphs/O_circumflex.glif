@@ -2,6 +2,7 @@
 <glyph name="Ocircumflex" format="2">
   <advance height="1000" width="737"/>
   <unicode hex="00D4"/>
+  <anchor x="368.0" y="996.0" name="top"/>
   <outline>
     <component base="O"/>
     <component base="circumflex" xOffset="118"/>
