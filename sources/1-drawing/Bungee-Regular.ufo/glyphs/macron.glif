@@ -2,7 +2,6 @@
 <glyph name="macron" format="2">
   <advance height="1000" width="500"/>
   <unicode hex="00AF"/>
-  <unicode hex="0304"/>
   <outline>
     <component base="macroncmb" xOffset="250"/>
   </outline>
