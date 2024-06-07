@@ -1,8 +1,0 @@
-# standard features
-include(../../1-drawing/features/classes.fea);
-include(../../1-drawing/features/features.fea);
-# vertical features
-include(../../1-drawing/features/vpal.fea);
-include(../../1-drawing/features/vertical.fea);
-include(../../1-drawing/features/blocks.fea);
-include(../../1-drawing/features/vkrn.fea);
