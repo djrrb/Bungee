@@ -119,10 +119,10 @@ for glyph in inlineFont:
 
 sourceFont.lib[COLOR_PALETTES_KEY] = palettesRegular
 sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphsRegular
-sourceFont.info.familyName = "Bungee Color"
+sourceFont.info.familyName = "Bungee Tint"
 sourceFont.info.styleName = "Regular"
 
-sourceFont.save(outputDir / "BungeeColor-Regular.ufo", overwrite=True)
+sourceFont.save(outputDir / "BungeeTint-Regular.ufo", overwrite=True)
 
 sourceFont.lib[COLOR_PALETTES_KEY] = palettesSpice
 sourceFont.lib[COLOR_LAYERS_KEY] = colorGlyphsSpice
