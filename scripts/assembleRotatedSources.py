@@ -171,6 +171,7 @@ def main():
             delattr(outputFont.info, fieldName)
         outputFont.info.familyName = familyName
         outputFont.lib["public.glyphOrder"] = glyphOrder
+        outputFont.lib["public.openTypeMeta"] = regularSourceFont.lib["public.openTypeMeta"]
         outputFont.groups = rotatedSourceFont.groups
         outputFont.kerning = rotatedSourceFont.kerning
         outputFont.features.text = fixFeatureIncludes(rotatedSourceFont.features.text)

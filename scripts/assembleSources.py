@@ -39,6 +39,7 @@ def breakOutLayers(familyName, source, style, outputPath):
     newFont.info.familyName = familyName
     newFont.info.styleName = styleName
     newFont.lib["public.glyphOrder"] = sourceFont.lib["public.glyphOrder"]
+    newFont.lib["public.openTypeMeta"] = sourceFont.lib["public.openTypeMeta"]
     newFont.kerning = sourceFont.kerning
     newFont.groups = sourceFont.groups
     newFont.features.text = fixFeatureIncludes(sourceFont.features.text)
