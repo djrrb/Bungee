@@ -11900,7 +11900,7 @@ unicode = 310;
 glyphname = L;
 kernLeft = H;
 kernRight = L;
-lastChange = "2026-01-31 01:31:10 +0000";
+lastChange = "2026-02-01 12:14:56 +0000";
 layers = (
 {
 anchors = (
@@ -12145,14 +12145,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(446,367,l),
+(451,367,l),
 (275,367,l),
 (275,155,l),
 (226,155,l),
 (226,720,l),
 (40,720,l),
 (40,0,l),
-(446,0,l)
+(451,0,l)
 );
 }
 );
@@ -12160,7 +12160,7 @@ userData = {
 public.verticalOrigin = 860;
 };
 vertWidth = 1000;
-width = 471;
+width = 476;
 }
 );
 unicode = 76;
@@ -12307,7 +12307,7 @@ com.fontbureau.dateModified = "2011-07-29 07:12:34";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 471;
+width = 476;
 }
 );
 unicode = 315;
@@ -12726,7 +12726,7 @@ ref = macronbelowcmb;
 userData = {
 public.verticalOrigin = 860;
 };
-width = 471;
+width = 476;
 }
 );
 unicode = 7738;
@@ -12734,7 +12734,7 @@ unicode = 7738;
 {
 glyphname = Lslash;
 kernRight = L;
-lastChange = "2026-01-31 01:35:28 +0000";
+lastChange = "2026-02-01 12:15:51 +0000";
 layers = (
 {
 anchors = (
@@ -12992,28 +12992,45 @@ name = top;
 pos = (248.933,747);
 }
 );
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(454,367,l),
+(278,367,l),
+(278,155,l),
+(229,155,l),
+(229,720,l),
+(43,720,l),
+(43,0,l),
+(454,0,l)
+);
+}
+);
+};
 layerId = "945C9806-A60E-46C0-BDD3-717690540CA8";
 shapes = (
 {
 closed = 1;
 nodes = (
-(15,299,l),
+(9,299,l),
 (370,432,l),
 (370,581,l),
-(15,448,l)
+(9,448,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(444,347,l),
-(273,347,l),
-(273,155,l),
+(454,347,l),
+(278,347,l),
+(278,155,l),
 (229,155,l),
 (229,720,l),
 (43,720,l),
 (43,0,l),
-(444,0,l)
+(454,0,l)
 );
 }
 );
@@ -13023,7 +13040,7 @@ com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
 vertWidth = 1000;
-width = 474;
+width = 479;
 }
 );
 metricWidth = "=L+3";
@@ -13033,7 +13050,7 @@ unicode = 321;
 glyphname = M;
 kernLeft = H;
 kernRight = H;
-lastChange = "2026-02-01 00:42:10 +0000";
+lastChange = "2026-02-01 12:14:02 +0000";
 layers = (
 {
 anchors = (
@@ -13389,11 +13406,11 @@ width = 849;
 anchors = (
 {
 name = bottom;
-pos = (268,-27);
+pos = (278,-27);
 },
 {
 name = top;
-pos = (268,747);
+pos = (278,747);
 }
 );
 layerId = "945C9806-A60E-46C0-BDD3-717690540CA8";
@@ -13401,28 +13418,28 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(224,399,l),
-(252,285,ls),
-(255.649,270.144,o),
-(260,264,o),
-(269,264,cs),
-(276,264,ls),
-(284,264,o),
-(289.599,270.086,o),
-(293,285,cs),
-(319,399,l),
-(319,0,l),
-(504,0,l),
-(504,720,l),
-(319,720,l),
-(280,553,ls),
-(278.125,544.97,o),
-(276,543,o),
-(273,543,cs),
-(272,543,ls),
-(269,543,o),
-(266.921,544.981,o),
-(265,553,cs),
+(224,419,l),
+(261,285,ls),
+(265,270,o),
+(269,264,o),
+(278,264,cs),
+(285,264,ls),
+(293,264,o),
+(298,270,o),
+(302,285,cs),
+(339,419,l),
+(339,0,l),
+(524,0,l),
+(524,720,l),
+(339,720,l),
+(290,553,ls),
+(288,545,o),
+(286,543,o),
+(283,543,cs),
+(282,543,ls),
+(279,543,o),
+(277,545,o),
+(275,553,cs),
 (225,720,l),
 (40,720,l),
 (40,0,l),
@@ -13434,7 +13451,7 @@ userData = {
 public.verticalOrigin = 860;
 };
 vertWidth = 1000;
-width = 544;
+width = 564;
 }
 );
 metricRight = "=|";
@@ -13470,14 +13487,14 @@ shapes = (
 ref = M;
 },
 {
-pos = (257,0);
+pos = (267,0);
 ref = dotbelowcmb;
 }
 );
 userData = {
 public.verticalOrigin = 860;
 };
-width = 544;
+width = 564;
 }
 );
 unicode = 7746;
@@ -22996,7 +23013,7 @@ unicode = 86;
 glyphname = W;
 kernLeft = W;
 kernRight = W;
-lastChange = "2026-01-30 04:54:15 +0000";
+lastChange = "2026-02-01 12:12:42 +0000";
 layers = (
 {
 anchors = (
@@ -23408,14 +23425,14 @@ width = 831;
 anchors = (
 {
 name = bottom;
-pos = (264,0);
+pos = (282,-27);
 },
 {
 name = top;
-pos = (264,747);
+pos = (282,747);
 }
 );
-layerId = "945C9806-A60E-46C0-BDD3-717690540CA8";
+background = {
 shapes = (
 {
 closed = 1;
@@ -23457,6 +23474,49 @@ nodes = (
 );
 }
 );
+};
+layerId = "945C9806-A60E-46C0-BDD3-717690540CA8";
+shapes = (
+{
+closed = 1;
+nodes = (
+(230,0,l),
+(274,167,ls),
+(276,174,o),
+(277,177,o),
+(281,177,cs),
+(282,177,ls),
+(286,177,o),
+(287,174,o),
+(289,167,cs),
+(333,0,l),
+(479,0,l),
+(518,172,ls),
+(526,208,o),
+(524,243,o),
+(524,296,cs),
+(524,720,l),
+(344,720,l),
+(344,285,l),
+(306,419,ls),
+(302,433,o),
+(297,439,o),
+(289,439,cs),
+(276,439,ls),
+(267,439,o),
+(263,433,o),
+(259,419,cs),
+(220,285,l),
+(220,720,l),
+(39,720,l),
+(39,298,ls),
+(39,245,o),
+(37,210,o),
+(45,174,cs),
+(83,0,l)
+);
+}
+);
 userData = {
 com.fontbureau.dateModified = "2011-08-07 20:22:37";
 com.fontbureau.modifiedBy = DJR;
@@ -23465,7 +23525,7 @@ org.robofab.postScriptHintData = {
 public.verticalOrigin = 860;
 };
 vertWidth = 1000;
-width = 543;
+width = 563;
 }
 );
 metricRight = "=|";
@@ -23503,7 +23563,7 @@ shapes = (
 ref = W;
 },
 {
-pos = (166,0);
+pos = (184,0);
 ref = acute;
 }
 );
@@ -23512,7 +23572,7 @@ com.fontbureau.dateModified = "2011-07-29 07:18:10";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 543;
+width = 563;
 }
 );
 unicode = 7810;
@@ -23547,14 +23607,14 @@ shapes = (
 ref = W;
 },
 {
-pos = (166,0);
+pos = (184,0);
 ref = circumflex;
 }
 );
 userData = {
 public.verticalOrigin = 860;
 };
-width = 543;
+width = 563;
 }
 );
 unicode = 372;
@@ -23589,14 +23649,14 @@ shapes = (
 ref = W;
 },
 {
-pos = (166,0);
+pos = (184,0);
 ref = dieresis;
 }
 );
 userData = {
 public.verticalOrigin = 860;
 };
-width = 543;
+width = 563;
 }
 );
 unicode = 7812;
@@ -23633,7 +23693,7 @@ shapes = (
 ref = W;
 },
 {
-pos = (166,0);
+pos = (184,0);
 ref = grave;
 }
 );
@@ -23642,7 +23702,7 @@ com.fontbureau.dateModified = "2011-07-29 07:18:10";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 543;
+width = 563;
 }
 );
 unicode = 7808;
@@ -23651,7 +23711,7 @@ unicode = 7808;
 glyphname = X;
 kernLeft = X;
 kernRight = X;
-lastChange = "2026-01-31 01:46:26 +0000";
+lastChange = "2026-02-01 12:19:50 +0000";
 layers = (
 {
 anchors = (
@@ -24287,15 +24347,15 @@ nodes = (
 (276,186,cs),
 (276,0,l),
 (461,0,l),
-(461,180,ls),
-(461,232,o),
-(456,261,o),
-(443,292,cs),
+(461,195,ls),
+(461,248,o),
+(459,261,o),
+(445,292,cs),
 (412,374,l),
-(442,454,ls),
-(456,491,o),
-(461,520,o),
-(461,570,cs),
+(444,454,ls),
+(459,490,o),
+(461,503,o),
+(461,555,cs),
 (461,720,l),
 (276,720,l),
 (276,564,ls),
@@ -24316,15 +24376,15 @@ nodes = (
 (223,564,cs),
 (223,720,l),
 (37,720,l),
-(37,570,ls),
-(37,528,o),
-(42,499,o),
-(57,454,cs),
+(37,555,ls),
+(37,511,o),
+(39,498,o),
+(54,454,cs),
 (87,375,l),
-(56,294,ls),
-(42,257,o),
-(37,228,o),
-(37,180,cs),
+(54,294,ls),
+(39,258,o),
+(37,245,o),
+(37,195,cs),
 (37,0,l),
 (222,0,l)
 );
@@ -37483,7 +37543,7 @@ color = (128,0,255,128);
 glyphname = l;
 kernLeft = H;
 kernRight = L;
-lastChange = "2026-01-31 02:32:15 +0000";
+lastChange = "2026-02-01 12:14:56 +0000";
 layers = (
 {
 anchors = (
@@ -37547,7 +37607,7 @@ com.fontbureau.dateModified = "2011-07-30 07:19:46";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 471;
+width = 476;
 }
 );
 unicode = 108;
@@ -37662,7 +37722,7 @@ com.fontbureau.dateModified = "2011-07-29 07:12:34";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 471;
+width = 476;
 }
 );
 unicode = 316;
@@ -37801,7 +37861,7 @@ ref = Llinebelow;
 userData = {
 public.verticalOrigin = 860;
 };
-width = 471;
+width = 476;
 }
 );
 unicode = 7739;
@@ -37837,7 +37897,7 @@ com.fontbureau.dateModified = "2011-07-29 08:08:14";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 474;
+width = 479;
 }
 );
 unicode = 322;
@@ -37895,7 +37955,7 @@ com.fontbureau.dateModified = "2011-07-30 07:19:46";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 544;
+width = 564;
 }
 );
 metricLeft = n;
@@ -37931,7 +37991,7 @@ ref = Mdotbelow;
 userData = {
 public.verticalOrigin = 860;
 };
-width = 544;
+width = 564;
 }
 );
 unicode = 7747;
@@ -41293,7 +41353,7 @@ com.fontbureau.dateModified = "2011-07-30 07:19:46";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 543;
+width = 563;
 }
 );
 unicode = 119;
@@ -41331,7 +41391,7 @@ com.fontbureau.dateModified = "2011-07-29 07:18:10";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 543;
+width = 563;
 }
 );
 unicode = 7811;
@@ -41365,7 +41425,7 @@ ref = Wcircumflex;
 userData = {
 public.verticalOrigin = 860;
 };
-width = 543;
+width = 563;
 }
 );
 unicode = 373;
@@ -41399,7 +41459,7 @@ ref = Wdieresis;
 userData = {
 public.verticalOrigin = 860;
 };
-width = 543;
+width = 563;
 }
 );
 unicode = 7813;
@@ -41437,7 +41497,7 @@ com.fontbureau.dateModified = "2011-07-29 07:18:10";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 543;
+width = 563;
 }
 );
 unicode = 7809;
@@ -42686,7 +42746,7 @@ ref = l;
 userData = {
 public.verticalOrigin = 860;
 };
-width = 886;
+width = 891;
 }
 );
 unicode = 64258;
