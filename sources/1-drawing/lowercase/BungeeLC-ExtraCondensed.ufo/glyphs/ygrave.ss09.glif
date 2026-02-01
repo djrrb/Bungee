@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ygrave.ss09" format="2">
+  <advance height="1320" width="463"/>
+  <anchor x="232" y="-167" name="bottom"/>
+  <anchor x="232" y="826" name="top"/>
+  <outline>
+    <component base="y.ss09"/>
+    <component base="grave" xOffset="134" yOffset="-140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-16 00:43:40</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 12:25:04</string>
+      <key>public.markColor</key>
+      <string>0.502,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1157,21 +1157,53 @@
       <string>parenright.sups</string>
       <string>periodcentered.v</string>
       <string>commaturnedabovecmb</string>
-      <string>l.salt_straight</string>
-      <string>lacute.salt_straight</string>
-      <string>lcaron.salt_straight</string>
-      <string>lcommaaccent.salt_straight</string>
-      <string>ldot.salt_straight</string>
-      <string>ldotbelow.salt_straight</string>
-      <string>ldotbelowmacron.salt_straight</string>
-      <string>llinebelow.salt_straight</string>
-      <string>lslash.salt_straight</string>
-      <string>w.salt_diag</string>
-      <string>wacute.salt_diag</string>
-      <string>wcircumflex.salt_diag</string>
-      <string>wdieresis.salt_diag</string>
-      <string>wgrave.salt_diag</string>
-      <string>m.salt_diag</string>
+      <string>l.ss08</string>
+      <string>lacute.ss08</string>
+      <string>lcaron.ss08</string>
+      <string>lcommaaccent.ss08</string>
+      <string>ldot.ss08</string>
+      <string>ldotbelow.ss08</string>
+      <string>ldotbelowmacron.ss08</string>
+      <string>llinebelow.ss08</string>
+      <string>lslash.ss08</string>
+      <string>w.ss09</string>
+      <string>wacute.ss09</string>
+      <string>wcircumflex.ss09</string>
+      <string>wdieresis.ss09</string>
+      <string>wgrave.ss09</string>
+      <string>y.ss09</string>
+      <string>yacute.ss09</string>
+      <string>ycircumflex.ss09</string>
+      <string>ydieresis.ss09</string>
+      <string>ydotaccent.ss09</string>
+      <string>ydotbelow.ss09</string>
+      <string>ygrave.ss09</string>
+      <string>yhookabove.ss09</string>
+      <string>ytilde.ss09</string>
+      <string>m.ss08</string>
+      <string>a.ss10</string>
+      <string>aacute.ss10</string>
+      <string>abreve.ss10</string>
+      <string>abreveacute.ss10</string>
+      <string>abrevedotbelow.ss10</string>
+      <string>abrevegrave.ss10</string>
+      <string>abrevehookabove.ss10</string>
+      <string>abrevetilde.ss10</string>
+      <string>acaron.ss10</string>
+      <string>acircumflex.ss10</string>
+      <string>acircumflexacute.ss10</string>
+      <string>acircumflexdotbelow.ss10</string>
+      <string>acircumflexgrave.ss10</string>
+      <string>acircumflexhookabove.ss10</string>
+      <string>acircumflextilde.ss10</string>
+      <string>adieresis.ss10</string>
+      <string>adotbelow.ss10</string>
+      <string>agrave.ss10</string>
+      <string>ahookabove.ss10</string>
+      <string>amacron.ss10</string>
+      <string>aogonek.ss10</string>
+      <string>aring.ss10</string>
+      <string>atilde.ss10</string>
       <string>u1F598</string>
       <string>u1F599</string>
       <string>u1F59A</string>
@@ -1441,30 +1473,56 @@
       <string>uni1E92</string>
       <key>abreveacute</key>
       <string>uni1EAF</string>
+      <key>abreveacute.ss10</key>
+      <string>uni1EAF.ss10</string>
       <key>abrevedotbelow</key>
       <string>uni1EB7</string>
+      <key>abrevedotbelow.ss10</key>
+      <string>uni1EB7.ss10</string>
       <key>abrevegrave</key>
       <string>uni1EB1</string>
+      <key>abrevegrave.ss10</key>
+      <string>uni1EB1.ss10</string>
       <key>abrevehookabove</key>
       <string>uni1EB3</string>
+      <key>abrevehookabove.ss10</key>
+      <string>uni1EB3.ss10</string>
       <key>abrevetilde</key>
       <string>uni1EB5</string>
+      <key>abrevetilde.ss10</key>
+      <string>uni1EB5.ss10</string>
       <key>acaron</key>
       <string>uni01CE</string>
+      <key>acaron.ss10</key>
+      <string>uni01CE.ss10</string>
       <key>acircumflexacute</key>
       <string>uni1EA5</string>
+      <key>acircumflexacute.ss10</key>
+      <string>uni1EA5.ss10</string>
       <key>acircumflexdotbelow</key>
       <string>uni1EAD</string>
+      <key>acircumflexdotbelow.ss10</key>
+      <string>uni1EAD.ss10</string>
       <key>acircumflexgrave</key>
       <string>uni1EA7</string>
+      <key>acircumflexgrave.ss10</key>
+      <string>uni1EA7.ss10</string>
       <key>acircumflexhookabove</key>
       <string>uni1EA9</string>
+      <key>acircumflexhookabove.ss10</key>
+      <string>uni1EA9.ss10</string>
       <key>acircumflextilde</key>
       <string>uni1EAB</string>
+      <key>acircumflextilde.ss10</key>
+      <string>uni1EAB.ss10</string>
       <key>adotbelow</key>
       <string>uni1EA1</string>
+      <key>adotbelow.ss10</key>
+      <string>uni1EA1.ss10</string>
       <key>ahookabove</key>
       <string>uni1EA3</string>
+      <key>ahookabove.ss10</key>
+      <string>uni1EA3.ss10</string>
       <key>ampersand.v</key>
       <string>uniFF06</string>
       <key>apostrophemod</key>
@@ -1609,22 +1667,22 @@
       <string>uni0137</string>
       <key>lcommaaccent</key>
       <string>uni013C</string>
-      <key>lcommaaccent.salt_straight</key>
-      <string>uni013C.salt_straight</string>
+      <key>lcommaaccent.ss08</key>
+      <string>uni013C.ss08</string>
       <key>ldotbelow</key>
       <string>uni1E37</string>
-      <key>ldotbelow.salt_straight</key>
-      <string>uni1E37.salt_straight</string>
+      <key>ldotbelow.ss08</key>
+      <string>uni1E37.ss08</string>
       <key>ldotbelowmacron</key>
       <string>uni1E39</string>
-      <key>ldotbelowmacron.salt_straight</key>
-      <string>uni1E39.salt_straight</string>
+      <key>ldotbelowmacron.ss08</key>
+      <string>uni1E39.ss08</string>
       <key>liter</key>
       <string>uni2113</string>
       <key>llinebelow</key>
       <string>uni1E3B</string>
-      <key>llinebelow.salt_straight</key>
-      <string>uni1E3B.salt_straight</string>
+      <key>llinebelow.ss08</key>
+      <string>uni1E3B.ss08</string>
       <key>macronbelowcmb</key>
       <string>uni0331</string>
       <key>macroncmb</key>
@@ -1801,12 +1859,20 @@
       <string>uni25B3</string>
       <key>ydotaccent</key>
       <string>uni1E8F</string>
+      <key>ydotaccent.ss09</key>
+      <string>uni1E8F.ss09</string>
       <key>ydotbelow</key>
       <string>uni1EF5</string>
+      <key>ydotbelow.ss09</key>
+      <string>uni1EF5.ss09</string>
       <key>yhookabove</key>
       <string>uni1EF7</string>
+      <key>yhookabove.ss09</key>
+      <string>uni1EF7.ss09</string>
       <key>ytilde</key>
       <string>uni1EF9</string>
+      <key>ytilde.ss09</key>
+      <string>uni1EF9.ss09</string>
       <key>zdotbelow</key>
       <string>uni1E93</string>
       <key>zero.v</key>

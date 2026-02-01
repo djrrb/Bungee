@@ -2,37 +2,37 @@
 <glyph name="Lslash" format="2">
   <advance height="1000" width="474"/>
   <unicode hex="0141"/>
-  <anchor x="249" y="747" name="top"/>
+  <anchor x="248.933" y="747" name="top"/>
   <outline>
     <contour>
-      <point x="15" y="431" type="curve" smooth="yes"/>
-      <point x="15" y="324" type="line" smooth="yes"/>
-      <point x="15" y="309"/>
-      <point x="24" y="303"/>
-      <point x="38" y="308" type="curve" smooth="yes"/>
+      <point x="9" y="431" type="curve" smooth="yes"/>
+      <point x="9" y="324" type="line" smooth="yes"/>
+      <point x="9" y="309"/>
+      <point x="18" y="302"/>
+      <point x="32" y="307" type="curve" smooth="yes"/>
       <point x="354" y="426" type="line" smooth="yes"/>
-      <point x="364" y="430"/>
+      <point x="365" y="430"/>
       <point x="370" y="437"/>
       <point x="370" y="449" type="curve" smooth="yes"/>
       <point x="370" y="556" type="line" smooth="yes"/>
       <point x="370" y="571"/>
-      <point x="361" y="577"/>
-      <point x="347" y="572" type="curve" smooth="yes"/>
-      <point x="31" y="454" type="line" smooth="yes"/>
-      <point x="21" y="450"/>
-      <point x="15" y="443"/>
+      <point x="361" y="578"/>
+      <point x="347" y="573" type="curve" smooth="yes"/>
+      <point x="25" y="454" type="line" smooth="yes"/>
+      <point x="14" y="450"/>
+      <point x="9" y="443"/>
     </contour>
     <contour>
-      <point x="444" y="20" type="curve" smooth="yes"/>
-      <point x="444" y="327" type="line" smooth="yes"/>
-      <point x="444" y="340"/>
-      <point x="437" y="347"/>
-      <point x="424" y="347" type="curve" smooth="yes"/>
-      <point x="293" y="347" type="line" smooth="yes"/>
-      <point x="280" y="347"/>
-      <point x="273" y="340"/>
-      <point x="273" y="327" type="curve" smooth="yes"/>
-      <point x="273" y="155" type="line"/>
+      <point x="454" y="20" type="curve" smooth="yes"/>
+      <point x="454" y="327" type="line" smooth="yes"/>
+      <point x="454" y="340"/>
+      <point x="447" y="347"/>
+      <point x="434" y="347" type="curve" smooth="yes"/>
+      <point x="298" y="347" type="line" smooth="yes"/>
+      <point x="285" y="347"/>
+      <point x="278" y="340"/>
+      <point x="278" y="327" type="curve" smooth="yes"/>
+      <point x="278" y="155" type="line"/>
       <point x="229" y="155" type="line"/>
       <point x="229" y="700" type="line" smooth="yes"/>
       <point x="229" y="713"/>
@@ -46,9 +46,9 @@
       <point x="43" y="7"/>
       <point x="50" y="0"/>
       <point x="63" y="0" type="curve" smooth="yes"/>
-      <point x="424" y="0" type="line" smooth="yes"/>
-      <point x="437" y="0"/>
-      <point x="444" y="7"/>
+      <point x="434" y="0" type="line" smooth="yes"/>
+      <point x="447" y="0"/>
+      <point x="454" y="7"/>
     </contour>
   </outline>
   <lib>
@@ -60,7 +60,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>=L+3</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/31 02:38:27</string>
+      <string>2026/02/01 12:34:24</string>
       <key>public.verticalOrigin</key>
       <integer>1020</integer>
     </dict>

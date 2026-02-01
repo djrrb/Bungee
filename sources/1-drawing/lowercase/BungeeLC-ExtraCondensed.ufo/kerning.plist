@@ -113,7 +113,7 @@
       <key>seven</key>
       <integer>-15</integer>
     </dict>
-    <key>lslash.salt_straight</key>
+    <key>lslash.ss08</key>
     <dict>
       <key>public.kern2.a</key>
       <integer>0</integer>
@@ -256,6 +256,8 @@
       <integer>-15</integer>
       <key>public.kern2.v</key>
       <integer>-5</integer>
+      <key>public.kern2.w</key>
+      <integer>-5</integer>
     </dict>
     <key>public.kern1.E</key>
     <dict>
@@ -306,6 +308,8 @@
       <integer>-5</integer>
       <key>public.kern2.v</key>
       <integer>-5</integer>
+      <key>public.kern2.w</key>
+      <integer>-5</integer>
       <key>slash</key>
       <integer>-27</integer>
       <key>space</key>
@@ -351,6 +355,8 @@
       <key>public.kern2.o</key>
       <integer>-5</integer>
       <key>public.kern2.v</key>
+      <integer>-5</integer>
+      <key>public.kern2.w</key>
       <integer>-5</integer>
     </dict>
     <key>public.kern1.K</key>
@@ -710,6 +716,10 @@
       <integer>-5</integer>
       <key>public.kern2.u</key>
       <integer>-5</integer>
+      <key>public.kern2.v</key>
+      <integer>-2</integer>
+      <key>public.kern2.w</key>
+      <integer>-2</integer>
       <key>slash</key>
       <integer>-12</integer>
       <key>space</key>
@@ -1127,6 +1137,11 @@
       <integer>-30</integer>
       <key>public.kern2.z</key>
       <integer>-30</integer>
+    </dict>
+    <key>public.kern1.v</key>
+    <dict>
+      <key>public.kern2.a</key>
+      <integer>-5</integer>
     </dict>
     <key>public.kern1.z</key>
     <dict>

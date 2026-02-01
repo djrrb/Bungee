@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ecaron" format="2">
-  <advance height="1320" width="439"/>
+  <advance height="1320" width="438"/>
   <unicode hex="011A"/>
-  <anchor x="220" y="-27" name="bottom"/>
-  <anchor x="218" y="0" name="ogonek"/>
-  <anchor x="217" y="987" name="top"/>
-  <anchor x="20" y="720" name="topleft"/>
+  <anchor x="219" y="-27" name="bottom"/>
+  <anchor x="217" y="0" name="ogonek"/>
+  <anchor x="216" y="987" name="top"/>
+  <anchor x="19" y="720" name="topleft"/>
   <outline>
     <component base="E"/>
-    <component base="caron" xOffset="119"/>
+    <component base="caron" xOffset="118"/>
   </outline>
   <lib>
     <dict>

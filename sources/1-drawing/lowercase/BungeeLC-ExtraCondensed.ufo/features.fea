@@ -283,25 +283,6 @@ feature ss07 { # Small Apostrophe
     } salt_quote;
 } ss07;
 
-feature ss08 { # Untailed el
-    featureNames {
-        name "Untailed el";
-        name 1 "Untailed el";
-	};
-    lookup salt_el {
-        sub [l lacute lcaron lcommaaccent ldot ldotbelow ldotbelowmacron llinebelow lslash ] by [l.salt_straight lacute.salt_straight lcaron.salt_straight lcommaaccent.salt_straight ldot.salt_straight ldotbelow.salt_straight ldotbelowmacron.salt_straight llinebelow.salt_straight lslash.salt_straight ];
-    } salt_el;
-} ss08;
-
-feature ss08 { # Diagonal w
-    featureNames {
-        name "Diagonal w";
-        name 1 "Diagonal w";
-	};
-    lookup salt_w {
-        sub [w wacute wcircumflex wdieresis wgrave  ] by [w.salt_diag wacute.salt_diag wcircumflex.salt_diag wdieresis.salt_diag wgrave.salt_diag  ];
-    } salt_w;
-} ss08;
 
 feature salt { # Stylistic alternates
     lookup salt_A;            
@@ -314,13 +295,38 @@ feature salt { # Stylistic alternates
     lookup salt_E;
     lookup salt_I;
 	lookup salt_L;
-lookup salt_w;
-lookup salt_el;
+
     ##
 	##
     lookup salt_ampersand;
     lookup salt_quote;
     ##
+
+sub w by w.ss09;
+sub wacute by wacute.ss09;
+sub wcircumflex by wcircumflex.ss09;
+sub wdieresis by wdieresis.ss09;
+sub wgrave by wgrave.ss09;
+sub y by y.ss09;
+sub yacute by yacute.ss09;
+sub ycircumflex by ycircumflex.ss09;
+sub ydieresis by ydieresis.ss09;
+sub ydotaccent by ydotaccent.ss09;
+sub ydotbelow by ydotbelow.ss09;
+sub ygrave by ygrave.ss09;
+sub yhookabove by yhookabove.ss09;
+sub ytilde by ytilde.ss09;
+
+sub l by l.ss08;
+sub lacute by lacute.ss08;
+sub lcaron by lcaron.ss08;
+sub lcommaaccent by lcommaaccent.ss08;
+sub ldot by ldot.ss08;
+sub ldotbelow by ldotbelow.ss08;
+sub ldotbelowmacron by ldotbelowmacron.ss08;
+sub llinebelow by llinebelow.ss08;
+sub lslash by lslash.ss08;
+
 
 } salt;
 
@@ -328,3 +334,44 @@ feature ornm { # Ornaments
     sub bullet from @ornm;
 } ornm;
 
+
+feature ss08 {
+featureNames {
+  name "Untailed el";
+  name 3 1 0x409 "Untailed el";
+};
+# automatic
+sub l by l.ss08;
+sub lacute by lacute.ss08;
+sub lcaron by lcaron.ss08;
+sub lcommaaccent by lcommaaccent.ss08;
+sub ldot by ldot.ss08;
+sub ldotbelow by ldotbelow.ss08;
+sub ldotbelowmacron by ldotbelowmacron.ss08;
+sub llinebelow by llinebelow.ss08;
+sub lslash by lslash.ss08;
+
+} ss08;
+
+feature ss09 {
+featureNames {
+  name "Diagonal w and y";
+  name 3 1 0x409 "Diagonal w and y";
+};
+# automatic
+sub w by w.ss09;
+sub wacute by wacute.ss09;
+sub wcircumflex by wcircumflex.ss09;
+sub wdieresis by wdieresis.ss09;
+sub wgrave by wgrave.ss09;
+sub y by y.ss09;
+sub yacute by yacute.ss09;
+sub ycircumflex by ycircumflex.ss09;
+sub ydieresis by ydieresis.ss09;
+sub ydotaccent by ydotaccent.ss09;
+sub ydotbelow by ydotbelow.ss09;
+sub ygrave by ygrave.ss09;
+sub yhookabove by yhookabove.ss09;
+sub ytilde by ytilde.ss09;
+
+} ss09;

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="ldot.salt_straight" format="2">
+<glyph name="ldot.ss08" format="2">
   <advance height="1320" width="414"/>
   <anchor x="127" y="-27" name="bottom"/>
   <anchor x="125" y="510" name="center"/>
   <anchor x="334" y="489" name="top"/>
   <anchor x="274" y="1020" name="topright"/>
   <outline>
-    <component base="l.salt_straight"/>
+    <component base="l.ss08"/>
     <component base="dotaccent" xOffset="243" yOffset="-483"/>
   </outline>
   <lib>
@@ -27,7 +27,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/31 23:34:17</string>
+      <string>2026/02/01 12:24:50</string>
       <key>public.markColor</key>
       <string>0.502,0,1,0.502</string>
       <key>public.verticalOrigin</key>

@@ -1,20 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="wacute.salt_diag" format="2">
-  <advance height="1320" width="529"/>
-  <anchor x="264" y="-27" name="bottom"/>
-  <anchor x="264" y="829" name="top"/>
+<glyph name="lcommaaccent.ss08" format="2">
+  <advance height="1320" width="251"/>
+  <anchor x="127" y="-27" name="bottom"/>
+  <anchor x="125" y="510" name="center"/>
+  <anchor x="127" y="768" name="top"/>
+  <anchor x="274" y="1020" name="topright"/>
   <outline>
-    <component base="w.salt_diag"/>
-    <component base="acute" xOffset="166" yOffset="-140"/>
+    <component base="l.ss08"/>
+    <component base="commaaccent" xOffset="29"/>
   </outline>
   <lib>
     <dict>
       <key>com.fontbureau.dateModified</key>
-      <string>2011-07-29 07:18:10</string>
+      <string>2011-07-29 07:12:34</string>
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/31 23:36:03</string>
+      <string>2026/02/01 12:24:50</string>
       <key>public.markColor</key>
       <string>0.502,0,1,0.502</string>
       <key>public.verticalOrigin</key>

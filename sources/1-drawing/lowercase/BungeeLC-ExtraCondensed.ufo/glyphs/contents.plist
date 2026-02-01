@@ -938,34 +938,64 @@
     <string>Z_dotbelow.glif</string>
     <key>a</key>
     <string>a.glif</string>
+    <key>a.ss10</key>
+    <string>a.ss10.glif</string>
     <key>aacute</key>
     <string>aacute.glif</string>
+    <key>aacute.ss10</key>
+    <string>aacute.ss10.glif</string>
     <key>abreve</key>
     <string>abreve.glif</string>
+    <key>abreve.ss10</key>
+    <string>abreve.ss10.glif</string>
     <key>abreveacute</key>
     <string>abreveacute.glif</string>
+    <key>abreveacute.ss10</key>
+    <string>abreveacute.ss10.glif</string>
     <key>abrevedotbelow</key>
     <string>abrevedotbelow.glif</string>
+    <key>abrevedotbelow.ss10</key>
+    <string>abrevedotbelow.ss10.glif</string>
     <key>abrevegrave</key>
     <string>abrevegrave.glif</string>
+    <key>abrevegrave.ss10</key>
+    <string>abrevegrave.ss10.glif</string>
     <key>abrevehookabove</key>
     <string>abrevehookabove.glif</string>
+    <key>abrevehookabove.ss10</key>
+    <string>abrevehookabove.ss10.glif</string>
     <key>abrevetilde</key>
     <string>abrevetilde.glif</string>
+    <key>abrevetilde.ss10</key>
+    <string>abrevetilde.ss10.glif</string>
     <key>acaron</key>
     <string>acaron.glif</string>
+    <key>acaron.ss10</key>
+    <string>acaron.ss10.glif</string>
     <key>acircumflex</key>
     <string>acircumflex.glif</string>
+    <key>acircumflex.ss10</key>
+    <string>acircumflex.ss10.glif</string>
     <key>acircumflexacute</key>
     <string>acircumflexacute.glif</string>
+    <key>acircumflexacute.ss10</key>
+    <string>acircumflexacute.ss10.glif</string>
     <key>acircumflexdotbelow</key>
     <string>acircumflexdotbelow.glif</string>
+    <key>acircumflexdotbelow.ss10</key>
+    <string>acircumflexdotbelow.ss10.glif</string>
     <key>acircumflexgrave</key>
     <string>acircumflexgrave.glif</string>
+    <key>acircumflexgrave.ss10</key>
+    <string>acircumflexgrave.ss10.glif</string>
     <key>acircumflexhookabove</key>
     <string>acircumflexhookabove.glif</string>
+    <key>acircumflexhookabove.ss10</key>
+    <string>acircumflexhookabove.ss10.glif</string>
     <key>acircumflextilde</key>
     <string>acircumflextilde.glif</string>
+    <key>acircumflextilde.ss10</key>
+    <string>acircumflextilde.ss10.glif</string>
     <key>acute</key>
     <string>acute.glif</string>
     <key>acute.vert</key>
@@ -974,16 +1004,26 @@
     <string>acutecmb.glif</string>
     <key>adieresis</key>
     <string>adieresis.glif</string>
+    <key>adieresis.ss10</key>
+    <string>adieresis.ss10.glif</string>
     <key>adotbelow</key>
     <string>adotbelow.glif</string>
+    <key>adotbelow.ss10</key>
+    <string>adotbelow.ss10.glif</string>
     <key>ae</key>
     <string>ae.glif</string>
     <key>agrave</key>
     <string>agrave.glif</string>
+    <key>agrave.ss10</key>
+    <string>agrave.ss10.glif</string>
     <key>ahookabove</key>
     <string>ahookabove.glif</string>
+    <key>ahookabove.ss10</key>
+    <string>ahookabove.ss10.glif</string>
     <key>amacron</key>
     <string>amacron.glif</string>
+    <key>amacron.ss10</key>
+    <string>amacron.ss10.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
     <key>ampersand.salt</key>
@@ -994,12 +1034,16 @@
     <string>ampersand.v.glif</string>
     <key>aogonek</key>
     <string>aogonek.glif</string>
+    <key>aogonek.ss10</key>
+    <string>aogonek.ss10.glif</string>
     <key>apostrophemod</key>
     <string>apostrophemod.glif</string>
     <key>approxequal</key>
     <string>approxequal.glif</string>
     <key>aring</key>
     <string>aring.glif</string>
+    <key>aring.ss10</key>
+    <string>aring.ss10.glif</string>
     <key>arrowdown</key>
     <string>arrowdown.glif</string>
     <key>arrowdown.chevron</key>
@@ -1038,6 +1082,8 @@
     <string>at.glif</string>
     <key>atilde</key>
     <string>atilde.glif</string>
+    <key>atilde.ss10</key>
+    <string>atilde.ss10.glif</string>
     <key>b</key>
     <string>b.glif</string>
     <key>backslash</key>
@@ -1460,32 +1506,32 @@
     <string>kgreenlandic.glif</string>
     <key>l</key>
     <string>l.glif</string>
-    <key>l.salt_straight</key>
-    <string>l.salt_straight.glif</string>
+    <key>l.ss08</key>
+    <string>l.ss08.glif</string>
     <key>lacute</key>
     <string>lacute.glif</string>
-    <key>lacute.salt_straight</key>
-    <string>lacute.salt_straight.glif</string>
+    <key>lacute.ss08</key>
+    <string>lacute.ss08.glif</string>
     <key>lcaron</key>
     <string>lcaron.glif</string>
-    <key>lcaron.salt_straight</key>
-    <string>lcaron.salt_straight.glif</string>
+    <key>lcaron.ss08</key>
+    <string>lcaron.ss08.glif</string>
     <key>lcommaaccent</key>
     <string>lcommaaccent.glif</string>
-    <key>lcommaaccent.salt_straight</key>
-    <string>lcommaaccent.salt_straight.glif</string>
+    <key>lcommaaccent.ss08</key>
+    <string>lcommaaccent.ss08.glif</string>
     <key>ldot</key>
     <string>ldot.glif</string>
-    <key>ldot.salt_straight</key>
-    <string>ldot.salt_straight.glif</string>
+    <key>ldot.ss08</key>
+    <string>ldot.ss08.glif</string>
     <key>ldotbelow</key>
     <string>ldotbelow.glif</string>
-    <key>ldotbelow.salt_straight</key>
-    <string>ldotbelow.salt_straight.glif</string>
+    <key>ldotbelow.ss08</key>
+    <string>ldotbelow.ss08.glif</string>
     <key>ldotbelowmacron</key>
     <string>ldotbelowmacron.glif</string>
-    <key>ldotbelowmacron.salt_straight</key>
-    <string>ldotbelowmacron.salt_straight.glif</string>
+    <key>ldotbelowmacron.ss08</key>
+    <string>ldotbelowmacron.ss08.glif</string>
     <key>less</key>
     <string>less.glif</string>
     <key>lessequal</key>
@@ -1496,20 +1542,20 @@
     <string>liter.glif</string>
     <key>llinebelow</key>
     <string>llinebelow.glif</string>
-    <key>llinebelow.salt_straight</key>
-    <string>llinebelow.salt_straight.glif</string>
+    <key>llinebelow.ss08</key>
+    <string>llinebelow.ss08.glif</string>
     <key>logicalnot</key>
     <string>logicalnot.glif</string>
     <key>lozenge</key>
     <string>lozenge.glif</string>
     <key>lslash</key>
     <string>lslash.glif</string>
-    <key>lslash.salt_straight</key>
-    <string>lslash.salt_straight.glif</string>
+    <key>lslash.ss08</key>
+    <string>lslash.ss08.glif</string>
     <key>m</key>
     <string>m.glif</string>
-    <key>m.salt_diag</key>
-    <string>m.salt_diag.glif</string>
+    <key>m.ss08</key>
+    <string>m.ss08.glif</string>
     <key>macron</key>
     <string>macron.glif</string>
     <key>macronbelowcmb</key>
@@ -2096,24 +2142,24 @@
     <string>verticallinemod.glif</string>
     <key>w</key>
     <string>w.glif</string>
-    <key>w.salt_diag</key>
-    <string>w.salt_diag.glif</string>
+    <key>w.ss09</key>
+    <string>w.ss09.glif</string>
     <key>wacute</key>
     <string>wacute.glif</string>
-    <key>wacute.salt_diag</key>
-    <string>wacute.salt_diag.glif</string>
+    <key>wacute.ss09</key>
+    <string>wacute.ss09.glif</string>
     <key>wcircumflex</key>
     <string>wcircumflex.glif</string>
-    <key>wcircumflex.salt_diag</key>
-    <string>wcircumflex.salt_diag.glif</string>
+    <key>wcircumflex.ss09</key>
+    <string>wcircumflex.ss09.glif</string>
     <key>wdieresis</key>
     <string>wdieresis.glif</string>
-    <key>wdieresis.salt_diag</key>
-    <string>wdieresis.salt_diag.glif</string>
+    <key>wdieresis.ss09</key>
+    <string>wdieresis.ss09.glif</string>
     <key>wgrave</key>
     <string>wgrave.glif</string>
-    <key>wgrave.salt_diag</key>
-    <string>wgrave.salt_diag.glif</string>
+    <key>wgrave.ss09</key>
+    <string>wgrave.ss09.glif</string>
     <key>whitedownpointingtriangle</key>
     <string>whitedownpointingtriangle.glif</string>
     <key>whiteleftpointingtriangle</key>
@@ -2126,24 +2172,42 @@
     <string>x.glif</string>
     <key>y</key>
     <string>y.glif</string>
+    <key>y.ss09</key>
+    <string>y.ss09.glif</string>
     <key>yacute</key>
     <string>yacute.glif</string>
+    <key>yacute.ss09</key>
+    <string>yacute.ss09.glif</string>
     <key>ycircumflex</key>
     <string>ycircumflex.glif</string>
+    <key>ycircumflex.ss09</key>
+    <string>ycircumflex.ss09.glif</string>
     <key>ydieresis</key>
     <string>ydieresis.glif</string>
+    <key>ydieresis.ss09</key>
+    <string>ydieresis.ss09.glif</string>
     <key>ydotaccent</key>
     <string>ydotaccent.glif</string>
+    <key>ydotaccent.ss09</key>
+    <string>ydotaccent.ss09.glif</string>
     <key>ydotbelow</key>
     <string>ydotbelow.glif</string>
+    <key>ydotbelow.ss09</key>
+    <string>ydotbelow.ss09.glif</string>
     <key>yen</key>
     <string>yen.glif</string>
     <key>ygrave</key>
     <string>ygrave.glif</string>
+    <key>ygrave.ss09</key>
+    <string>ygrave.ss09.glif</string>
     <key>yhookabove</key>
     <string>yhookabove.glif</string>
+    <key>yhookabove.ss09</key>
+    <string>yhookabove.ss09.glif</string>
     <key>ytilde</key>
     <string>ytilde.glif</string>
+    <key>ytilde.ss09</key>
+    <string>ytilde.ss09.glif</string>
     <key>z</key>
     <string>z.glif</string>
     <key>zacute</key>

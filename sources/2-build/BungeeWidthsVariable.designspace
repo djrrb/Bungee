@@ -332,6 +332,275 @@
         </dict>
       </lib>
     </instance>
+    <instance name="Bungee Widths Round Regular" familyname="Bungee Widths Round" stylename="Regular" filename="instance_ufos/BungeeWidthsRound-Regular.ufo">
+      <location>
+        <dimension name="Width" xvalue="100"/>
+        <dimension name="Round corners" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>PreFilter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RoundCorner;36;1</string>
+            </array>
+            <array>
+              <string>Style Name as STAT entry</string>
+              <string>wdth</string>
+            </array>
+            <array>
+              <string>Elidable STAT Axis Value Name</string>
+              <string>wdth</string>
+            </array>
+            <array>
+              <string>Include in Variable Font</string>
+              <integer>0</integer>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>CAA16460-163C-4C11-B330-D03AE569CE04</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.properties</key>
+          <array>
+            <array>
+              <string>styleMapFamilyNames</string>
+              <string>Bungee Widths Round</string>
+            </array>
+            <array>
+              <string>styleMapStyleNames</string>
+              <string>Regular</string>
+            </array>
+            <array>
+              <string>styleNames</string>
+              <string>Regular</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Bungee Widths Round Narrow" familyname="Bungee Widths Round" stylename="Narrow" filename="instance_ufos/BungeeWidthsRound-Narrow.ufo">
+      <location>
+        <dimension name="Width" xvalue="90"/>
+        <dimension name="Round corners" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Filter</string>
+              <string>RoundCorner;28;1</string>
+            </array>
+            <array>
+              <string>PreFilter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>90</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Style Name as STAT entry</string>
+              <string>wdth</string>
+            </array>
+            <array>
+              <string>Include in Variable Font</string>
+              <integer>0</integer>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>A77F3C96-2924-49C9-8C72-59B5A83CC85F</key>
+            <real>0.33333</real>
+            <key>CAA16460-163C-4C11-B330-D03AE569CE04</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.properties</key>
+          <array>
+            <array>
+              <string>styleMapFamilyNames</string>
+              <string>Bungee Widths Round Narrow</string>
+            </array>
+            <array>
+              <string>styleMapStyleNames</string>
+              <string>Regular</string>
+            </array>
+            <array>
+              <string>styleNames</string>
+              <string>Narrow</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <integer>4</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Bungee Widths Round Condensed" familyname="Bungee Widths Round" stylename="Condensed" filename="instance_ufos/BungeeWidthsRound-Condensed.ufo">
+      <location>
+        <dimension name="Width" xvalue="80"/>
+        <dimension name="Round corners" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Filter</string>
+              <string>RoundCorner;20;1</string>
+            </array>
+            <array>
+              <string>PreFilter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Style Name as STAT entry</string>
+              <string>wdth</string>
+            </array>
+            <array>
+              <string>Include in Variable Font</string>
+              <integer>0</integer>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>A77F3C96-2924-49C9-8C72-59B5A83CC85F</key>
+            <real>0.66667</real>
+            <key>CAA16460-163C-4C11-B330-D03AE569CE04</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.properties</key>
+          <array>
+            <array>
+              <string>styleMapFamilyNames</string>
+              <string>Bungee Widths Round Condensed</string>
+            </array>
+            <array>
+              <string>styleMapStyleNames</string>
+              <string>Regular</string>
+            </array>
+            <array>
+              <string>styleNames</string>
+              <string>Condensed</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <integer>3</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Bungee Widths Round Extra Condensed" familyname="Bungee Widths Round" stylename="Extra Condensed" filename="instance_ufos/BungeeWidthsRound-ExtraCondensed.ufo">
+      <location>
+        <dimension name="Width" xvalue="70"/>
+        <dimension name="Round corners" xvalue="100"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Filter</string>
+              <string>RoundCorner;16;1</string>
+            </array>
+            <array>
+              <string>PreFilter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>70</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Style Name as STAT entry</string>
+              <string>wdth</string>
+            </array>
+            <array>
+              <string>Include in Variable Font</string>
+              <integer>0</integer>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>A77F3C96-2924-49C9-8C72-59B5A83CC85F</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.properties</key>
+          <array>
+            <array>
+              <string>styleMapFamilyNames</string>
+              <string>Bungee Widths Round Extra Condensed</string>
+            </array>
+            <array>
+              <string>styleMapStyleNames</string>
+              <string>Regular</string>
+            </array>
+            <array>
+              <string>styleNames</string>
+              <string>Extra Condensed</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <integer>2</integer>
+        </dict>
+      </lib>
+    </instance>
   </instances>
   <lib>
     <dict>

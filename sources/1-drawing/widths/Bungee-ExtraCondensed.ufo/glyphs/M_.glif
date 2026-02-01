@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="M" format="2">
-  <advance height="1000" width="544"/>
+  <advance height="1000" width="564"/>
   <unicode hex="004D"/>
-  <anchor x="268" y="-27" name="bottom"/>
-  <anchor x="268" y="747" name="top"/>
+  <anchor x="278" y="-27" name="bottom"/>
+  <anchor x="278" y="747" name="top"/>
   <outline>
     <contour>
       <point x="224" y="0" type="line"/>
-      <point x="224" y="399" type="line"/>
-      <point x="252" y="285" type="line" smooth="yes"/>
-      <point x="255.649" y="270.144"/>
-      <point x="260" y="264"/>
-      <point x="269" y="264" type="curve" smooth="yes"/>
-      <point x="276" y="264" type="line" smooth="yes"/>
-      <point x="284" y="264"/>
-      <point x="289.599" y="270.086"/>
-      <point x="293" y="285" type="curve" smooth="yes"/>
-      <point x="319" y="399" type="line"/>
-      <point x="319" y="0" type="line"/>
-      <point x="504" y="0" type="line"/>
-      <point x="504" y="720" type="line"/>
-      <point x="319" y="720" type="line"/>
-      <point x="280" y="553" type="line" smooth="yes"/>
-      <point x="278.125" y="544.97"/>
-      <point x="276" y="543"/>
-      <point x="273" y="543" type="curve" smooth="yes"/>
-      <point x="272" y="543" type="line" smooth="yes"/>
-      <point x="269" y="543"/>
-      <point x="266.921" y="544.981"/>
-      <point x="265" y="553" type="curve" smooth="yes"/>
+      <point x="224" y="419" type="line"/>
+      <point x="261" y="285" type="line" smooth="yes"/>
+      <point x="265" y="270"/>
+      <point x="269" y="264"/>
+      <point x="278" y="264" type="curve" smooth="yes"/>
+      <point x="285" y="264" type="line" smooth="yes"/>
+      <point x="293" y="264"/>
+      <point x="298" y="270"/>
+      <point x="302" y="285" type="curve" smooth="yes"/>
+      <point x="339" y="419" type="line"/>
+      <point x="339" y="0" type="line"/>
+      <point x="524" y="0" type="line"/>
+      <point x="524" y="720" type="line"/>
+      <point x="339" y="720" type="line"/>
+      <point x="290" y="553" type="line" smooth="yes"/>
+      <point x="288" y="545"/>
+      <point x="286" y="543"/>
+      <point x="283" y="543" type="curve" smooth="yes"/>
+      <point x="282" y="543" type="line" smooth="yes"/>
+      <point x="279" y="543"/>
+      <point x="277" y="545"/>
+      <point x="275" y="553" type="curve" smooth="yes"/>
       <point x="225" y="720" type="line"/>
       <point x="40" y="720" type="line"/>
       <point x="40" y="0" type="line"/>
@@ -39,7 +39,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/02/01 00:42:10</string>
+      <string>2026/02/01 12:14:02</string>
       <key>public.verticalOrigin</key>
       <integer>1020</integer>
     </dict>

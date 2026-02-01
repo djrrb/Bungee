@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aring.ss10" format="2">
+  <advance height="1320" width="470"/>
+  <anchor x="235" y="-27" name="bottom"/>
+  <anchor x="270" y="0" name="ogonek"/>
+  <anchor x="235" y="1007" name="top"/>
+  <outline>
+    <component base="a.ss10"/>
+    <component base="ring" xOffset="137" yOffset="-140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:41:33</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 12:31:23</string>
+      <key>public.markColor</key>
+      <string>0.502,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

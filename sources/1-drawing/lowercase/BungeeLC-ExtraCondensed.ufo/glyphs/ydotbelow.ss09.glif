@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ydotbelow.ss09" format="2">
+  <advance height="1320" width="463"/>
+  <anchor x="232" y="-167" name="bottom"/>
+  <anchor x="232" y="607" name="top"/>
+  <outline>
+    <component base="y.ss09"/>
+    <component base="dotbelowcmb" xOffset="221" yOffset="-140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 12:25:04</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

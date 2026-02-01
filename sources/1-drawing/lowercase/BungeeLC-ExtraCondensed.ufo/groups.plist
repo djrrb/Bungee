@@ -32,21 +32,21 @@
     <array>
       <string>Eng</string>
       <string>A.salt</string>
-      <string>Agrave.salt</string>
       <string>Aacute.salt</string>
-      <string>Acircumflex.salt</string>
-      <string>Atilde.salt</string>
-      <string>Adieresis.salt</string>
-      <string>Aring.salt</string>
-      <string>Amacron.salt</string>
       <string>Abreve.salt</string>
+      <string>Acircumflex.salt</string>
+      <string>Adieresis.salt</string>
+      <string>Agrave.salt</string>
+      <string>Amacron.salt</string>
       <string>Aogonek.salt</string>
+      <string>Aring.salt</string>
+      <string>Atilde.salt</string>
       <string>M.salt</string>
       <string>N.salt</string>
-      <string>Ntilde.salt</string>
       <string>Nacute.salt</string>
-      <string>Ncommaaccent.salt</string>
       <string>Ncaron.salt</string>
+      <string>Ncommaaccent.salt</string>
+      <string>Ntilde.salt</string>
     </array>
     <key>public.kern1.B</key>
     <array>
@@ -85,17 +85,17 @@
       <string>Eogonek</string>
       <string>Etilde</string>
       <string>OE</string>
+      <string>AE.salt</string>
       <string>E.salt</string>
-      <string>Egrave.salt</string>
       <string>Eacute.salt</string>
+      <string>Ebreve.salt</string>
+      <string>Ecaron.salt</string>
       <string>Ecircumflex.salt</string>
       <string>Edieresis.salt</string>
-      <string>Emacron.salt</string>
-      <string>Ebreve.salt</string>
       <string>Edotaccent.salt</string>
+      <string>Egrave.salt</string>
+      <string>Emacron.salt</string>
       <string>Eogonek.salt</string>
-      <string>Ecaron.salt</string>
-      <string>AE.salt</string>
     </array>
     <key>public.kern1.F</key>
     <array>
@@ -127,6 +127,7 @@
       <string>Ndotbelow</string>
       <string>Nlinebelow</string>
       <string>Ntilde</string>
+      <string>I.salt</string>
       <string>Igrave.salt</string>
       <string>Iacute.salt</string>
       <string>Icircumflex.salt</string>
@@ -136,7 +137,6 @@
       <string>Ibreve.salt</string>
       <string>Iogonek.salt</string>
       <string>Idotaccent.salt</string>
-      <string>I.salt</string>
     </array>
     <key>public.kern1.I</key>
     <array>
@@ -171,10 +171,10 @@
     </array>
     <key>public.kern1.L.salt</key>
     <array>
-      <string>Lacute.salt</string>
-      <string>Lslash.salt</string>
       <string>L.salt</string>
       <string>Lcommaaccent.salt</string>
+      <string>Lacute.salt</string>
+      <string>Lslash.salt</string>
     </array>
     <key>public.kern1.O</key>
     <array>
@@ -274,10 +274,10 @@
       <string>Uring</string>
       <string>Utilde</string>
       <string>W.salt</string>
-      <string>Wcircumflex.salt</string>
-      <string>Wgrave.salt</string>
       <string>Wacute.salt</string>
+      <string>Wcircumflex.salt</string>
       <string>Wdieresis.salt</string>
+      <string>Wgrave.salt</string>
     </array>
     <key>public.kern1.Uhorn</key>
     <array>
@@ -369,7 +369,7 @@
     <key>public.kern1.dcaron</key>
     <array>
       <string>dcaron</string>
-      <string>lcaron.salt_straight</string>
+      <string>lcaron.ss08</string>
     </array>
     <key>public.kern1.e</key>
     <array>
@@ -451,12 +451,12 @@
       <string>ldotbelow</string>
       <string>ldotbelowmacron</string>
       <string>llinebelow</string>
-      <string>l.salt_straight</string>
-      <string>lacute.salt_straight</string>
-      <string>lcommaaccent.salt_straight</string>
-      <string>ldotbelow.salt_straight</string>
-      <string>ldotbelowmacron.salt_straight</string>
-      <string>llinebelow.salt_straight</string>
+      <string>l.ss08</string>
+      <string>lacute.ss08</string>
+      <string>lcommaaccent.ss08</string>
+      <string>ldotbelow.ss08</string>
+      <string>ldotbelowmacron.ss08</string>
+      <string>llinebelow.ss08</string>
     </array>
     <key>public.kern1.lcaron</key>
     <array>
@@ -533,6 +533,29 @@
       <string>otilde</string>
       <string>p</string>
       <string>thorn</string>
+      <string>a.ss10</string>
+      <string>aacute.ss10</string>
+      <string>abreve.ss10</string>
+      <string>abreveacute.ss10</string>
+      <string>abrevedotbelow.ss10</string>
+      <string>abrevegrave.ss10</string>
+      <string>abrevehookabove.ss10</string>
+      <string>abrevetilde.ss10</string>
+      <string>acaron.ss10</string>
+      <string>acircumflex.ss10</string>
+      <string>acircumflexacute.ss10</string>
+      <string>acircumflexdotbelow.ss10</string>
+      <string>acircumflexgrave.ss10</string>
+      <string>acircumflexhookabove.ss10</string>
+      <string>acircumflextilde.ss10</string>
+      <string>adieresis.ss10</string>
+      <string>adotbelow.ss10</string>
+      <string>agrave.ss10</string>
+      <string>ahookabove.ss10</string>
+      <string>amacron.ss10</string>
+      <string>aogonek.ss10</string>
+      <string>aring.ss10</string>
+      <string>atilde.ss10</string>
     </array>
     <key>public.kern1.ohorn</key>
     <array>
@@ -651,14 +674,27 @@
       <string>wcircumflex</string>
       <string>wdieresis</string>
       <string>wgrave</string>
-      <string>wacute.salt_diag</string>
-      <string>wcircumflex.salt_diag</string>
-      <string>wdieresis.salt_diag</string>
-      <string>wgrave.salt_diag</string>
     </array>
     <key>public.kern1.v</key>
     <array>
       <string>v</string>
+      <string>y.ss09</string>
+      <string>yacute.ss09</string>
+      <string>ycircumflex.ss09</string>
+      <string>ydieresis.ss09</string>
+      <string>ydotaccent.ss09</string>
+      <string>ydotbelow.ss09</string>
+      <string>ygrave.ss09</string>
+      <string>yhookabove.ss09</string>
+      <string>ytilde.ss09</string>
+    </array>
+    <key>public.kern1.w</key>
+    <array>
+      <string>w.ss09</string>
+      <string>wacute.ss09</string>
+      <string>wcircumflex.ss09</string>
+      <string>wdieresis.ss09</string>
+      <string>wgrave.ss09</string>
     </array>
     <key>public.kern1.x</key>
     <array>
@@ -715,22 +751,22 @@
     <array>
       <string>Eng</string>
       <string>A.salt</string>
-      <string>Agrave.salt</string>
       <string>Aacute.salt</string>
-      <string>Acircumflex.salt</string>
-      <string>Atilde.salt</string>
-      <string>Adieresis.salt</string>
-      <string>Aring.salt</string>
-      <string>Amacron.salt</string>
       <string>Abreve.salt</string>
+      <string>Acircumflex.salt</string>
+      <string>Adieresis.salt</string>
+      <string>Agrave.salt</string>
+      <string>Amacron.salt</string>
       <string>Aogonek.salt</string>
+      <string>Aring.salt</string>
+      <string>Atilde.salt</string>
+      <string>AE.salt</string>
       <string>M.salt</string>
       <string>N.salt</string>
-      <string>Ntilde.salt</string>
       <string>Nacute.salt</string>
-      <string>Ncommaaccent.salt</string>
       <string>Ncaron.salt</string>
-      <string>AE.salt</string>
+      <string>Ncommaaccent.salt</string>
+      <string>Ntilde.salt</string>
     </array>
     <key>public.kern2.Eth</key>
     <array>
@@ -796,8 +832,11 @@
       <string>Rdotbelowmacron</string>
       <string>Rlinebelow</string>
       <string>Germandbls</string>
+      <string>I.salt</string>
+      <string>L.salt</string>
+      <string>Lcommaaccent.salt</string>
       <string>ldot</string>
-      <string>ldot.salt_straight</string>
+      <string>ldot.ss08</string>
       <string>Igrave.salt</string>
       <string>Iacute.salt</string>
       <string>Icircumflex.salt</string>
@@ -810,9 +849,6 @@
       <string>Lacute.salt</string>
       <string>Lcaron.salt</string>
       <string>Ldot.salt</string>
-      <string>I.salt</string>
-      <string>L.salt</string>
-      <string>Lcommaaccent.salt</string>
     </array>
     <key>public.kern2.I</key>
     <array>
@@ -879,15 +915,15 @@
       <string>OE</string>
       <string>Q</string>
       <string>E.salt</string>
-      <string>Egrave.salt</string>
       <string>Eacute.salt</string>
+      <string>Ebreve.salt</string>
+      <string>Ecaron.salt</string>
       <string>Ecircumflex.salt</string>
       <string>Edieresis.salt</string>
-      <string>Emacron.salt</string>
-      <string>Ebreve.salt</string>
       <string>Edotaccent.salt</string>
+      <string>Egrave.salt</string>
+      <string>Emacron.salt</string>
       <string>Eogonek.salt</string>
-      <string>Ecaron.salt</string>
     </array>
     <key>public.kern2.S</key>
     <array>
@@ -935,10 +971,10 @@
       <string>Uring</string>
       <string>Utilde</string>
       <string>W.salt</string>
-      <string>Wcircumflex.salt</string>
-      <string>Wgrave.salt</string>
       <string>Wacute.salt</string>
+      <string>Wcircumflex.salt</string>
       <string>Wdieresis.salt</string>
+      <string>Wgrave.salt</string>
     </array>
     <key>public.kern2.V</key>
     <array>
@@ -1011,6 +1047,29 @@
       <string>aring</string>
       <string>atilde</string>
       <string>ae</string>
+      <string>a.ss10</string>
+      <string>aacute.ss10</string>
+      <string>abreve.ss10</string>
+      <string>abreveacute.ss10</string>
+      <string>abrevedotbelow.ss10</string>
+      <string>abrevegrave.ss10</string>
+      <string>abrevehookabove.ss10</string>
+      <string>abrevetilde.ss10</string>
+      <string>acaron.ss10</string>
+      <string>acircumflex.ss10</string>
+      <string>acircumflexacute.ss10</string>
+      <string>acircumflexdotbelow.ss10</string>
+      <string>acircumflexgrave.ss10</string>
+      <string>acircumflexhookabove.ss10</string>
+      <string>acircumflextilde.ss10</string>
+      <string>adieresis.ss10</string>
+      <string>adotbelow.ss10</string>
+      <string>agrave.ss10</string>
+      <string>ahookabove.ss10</string>
+      <string>amacron.ss10</string>
+      <string>aogonek.ss10</string>
+      <string>aring.ss10</string>
+      <string>atilde.ss10</string>
     </array>
     <key>public.kern2.b</key>
     <array>
@@ -1086,13 +1145,13 @@
       <string>ldotbelow</string>
       <string>ldotbelowmacron</string>
       <string>llinebelow</string>
-      <string>l.salt_straight</string>
-      <string>lacute.salt_straight</string>
-      <string>lcaron.salt_straight</string>
-      <string>lcommaaccent.salt_straight</string>
-      <string>ldotbelow.salt_straight</string>
-      <string>ldotbelowmacron.salt_straight</string>
-      <string>llinebelow.salt_straight</string>
+      <string>l.ss08</string>
+      <string>lacute.ss08</string>
+      <string>lcaron.ss08</string>
+      <string>lcommaaccent.ss08</string>
+      <string>ldotbelow.ss08</string>
+      <string>ldotbelowmacron.ss08</string>
+      <string>llinebelow.ss08</string>
     </array>
     <key>public.kern2.minute</key>
     <array>
@@ -1292,14 +1351,27 @@
       <string>ygrave</string>
       <string>yhookabove</string>
       <string>ytilde</string>
-      <string>wacute.salt_diag</string>
-      <string>wcircumflex.salt_diag</string>
-      <string>wdieresis.salt_diag</string>
-      <string>wgrave.salt_diag</string>
     </array>
     <key>public.kern2.v</key>
     <array>
       <string>v</string>
+      <string>y.ss09</string>
+      <string>yacute.ss09</string>
+      <string>ycircumflex.ss09</string>
+      <string>ydieresis.ss09</string>
+      <string>ydotaccent.ss09</string>
+      <string>ydotbelow.ss09</string>
+      <string>ygrave.ss09</string>
+      <string>yhookabove.ss09</string>
+      <string>ytilde.ss09</string>
+    </array>
+    <key>public.kern2.w</key>
+    <array>
+      <string>w.ss09</string>
+      <string>wacute.ss09</string>
+      <string>wcircumflex.ss09</string>
+      <string>wdieresis.ss09</string>
+      <string>wgrave.ss09</string>
     </array>
     <key>public.kern2.x</key>
     <array>

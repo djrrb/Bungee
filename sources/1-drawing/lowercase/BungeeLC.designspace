@@ -239,7 +239,70 @@
           <key>com.schriftgestaltung.weight</key>
           <string>Regular</string>
           <key>com.schriftgestaltung.width</key>
-          <string>Medium (normal)</string>
+          <integer>2</integer>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Bungee LC Round Extra Condensed" familyname="Bungee LC Round" stylename="Extra Condensed" filename="instance_ufos/BungeeLCRound-ExtraCondensed.ufo">
+      <location>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Filter</string>
+              <string>RoundCorner;20;1</string>
+            </array>
+            <array>
+              <string>PreFilter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>70</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>Style Name as STAT entry</string>
+              <string>wdth</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>AE794C32-6194-4C65-84F3-BA691F40E0FA</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.properties</key>
+          <array>
+            <array>
+              <string>styleMapFamilyNames</string>
+              <string>Bungee LC Round Extra Condensed</string>
+            </array>
+            <array>
+              <string>styleMapStyleNames</string>
+              <string>Regular</string>
+            </array>
+            <array>
+              <string>styleNames</string>
+              <string>Extra Condensed</string>
+            </array>
+          </array>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <integer>2</integer>
         </dict>
       </lib>
     </instance>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L" format="2">
-  <advance height="1000" width="471"/>
+  <advance height="1000" width="476"/>
   <unicode hex="004C"/>
   <anchor x="238" y="-27" name="bottom"/>
   <anchor x="233" y="360" name="center"/>
@@ -8,8 +8,8 @@
   <anchor x="446" y="720" name="topright"/>
   <outline>
     <contour>
-      <point x="446" y="0" type="line"/>
-      <point x="446" y="367" type="line"/>
+      <point x="451" y="0" type="line"/>
+      <point x="451" y="367" type="line"/>
       <point x="275" y="367" type="line"/>
       <point x="275" y="155" type="line"/>
       <point x="226" y="155" type="line"/>
@@ -21,7 +21,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/31 01:31:10</string>
+      <string>2026/02/01 12:14:56</string>
       <key>public.verticalOrigin</key>
       <integer>1020</integer>
     </dict>

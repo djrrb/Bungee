@@ -7,16 +7,16 @@
   <outline>
     <contour>
       <point x="224" y="0" type="line"/>
-      <point x="224" y="399" type="line"/>
-      <point x="262" y="285" type="line" smooth="yes"/>
-      <point x="267" y="270"/>
-      <point x="270" y="264"/>
-      <point x="279" y="264" type="curve" smooth="yes"/>
-      <point x="286" y="264" type="line" smooth="yes"/>
-      <point x="294" y="264"/>
+      <point x="224" y="419" type="line"/>
+      <point x="261" y="285" type="line" smooth="yes"/>
+      <point x="265" y="270"/>
+      <point x="269" y="264"/>
+      <point x="278" y="264" type="curve" smooth="yes"/>
+      <point x="285" y="264" type="line" smooth="yes"/>
+      <point x="293" y="264"/>
       <point x="298" y="270"/>
-      <point x="303" y="285" type="curve" smooth="yes"/>
-      <point x="339" y="399" type="line"/>
+      <point x="302" y="285" type="curve" smooth="yes"/>
+      <point x="339" y="419" type="line"/>
       <point x="339" y="0" type="line"/>
       <point x="524" y="0" type="line"/>
       <point x="524" y="720" type="line"/>
@@ -37,7 +37,7 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/31 12:53:17</string>
+      <string>2026/02/01 12:04:52</string>
       <key>public.verticalOrigin</key>
       <integer>1020</integer>
     </dict>
