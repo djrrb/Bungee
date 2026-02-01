@@ -1,12 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
   <axes>
-    <axis tag="wdth" name="Width" minimum="70" maximum="100" default="100">
-      <map input="70" output="70"/>
-      <map input="80" output="77"/>
-      <map input="90" output="84"/>
-      <map input="100" output="100"/>
-    </axis>
+    <axis tag="wdth" name="Width" minimum="70" maximum="100" default="100"/>
   </axes>
   <sources>
     <source filename="Bungee-Regular.ufo" name="Bungee Regular" familyname="Bungee" stylename="Regular">
@@ -111,7 +106,7 @@
     </instance>
     <instance name="Bungee Narrow" familyname="Bungee" stylename="Narrow" filename="instance_ufos/Bungee-Narrow.ufo">
       <location>
-        <dimension name="Width" xvalue="84"/>
+        <dimension name="Width" xvalue="90"/>
       </location>
       <lib>
         <dict>
@@ -146,9 +141,9 @@
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
             <key>945C9806-A60E-46C0-BDD3-717690540CA8</key>
-            <real>0.53333</real>
+            <real>0.33333</real>
             <key>m001</key>
-            <real>0.46667</real>
+            <real>0.66667</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
           <false/>
@@ -161,7 +156,7 @@
     </instance>
     <instance name="Bungee Condensed" familyname="Bungee" stylename="Condensed" filename="instance_ufos/Bungee-Condensed.ufo">
       <location>
-        <dimension name="Width" xvalue="77"/>
+        <dimension name="Width" xvalue="80"/>
       </location>
       <lib>
         <dict>
@@ -196,9 +191,9 @@
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
             <key>945C9806-A60E-46C0-BDD3-717690540CA8</key>
-            <real>0.76667</real>
+            <real>0.66667</real>
             <key>m001</key>
-            <real>0.23333</real>
+            <real>0.33333</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
           <false/>

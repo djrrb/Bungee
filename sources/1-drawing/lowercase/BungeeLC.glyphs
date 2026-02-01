@@ -11853,7 +11853,7 @@ color = (128,0,255,128);
 glyphname = dcaron;
 kernLeft = o;
 kernRight = dcaron;
-lastChange = "2026-01-31 20:57:35 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -11862,7 +11862,7 @@ shapes = (
 ref = d;
 },
 {
-pos = (413,153);
+pos = (470,0);
 ref = caron.2;
 }
 );
@@ -11871,7 +11871,7 @@ com.fontbureau.dateModified = "2011-07-29 16:50:52";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 590;
+width = 706;
 }
 );
 unicode = 271;
@@ -14149,7 +14149,7 @@ color = (128,0,255,128);
 glyphname = lcaron;
 kernLeft = l;
 kernRight = lcaron;
-lastChange = "2026-01-31 21:12:40 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -14158,7 +14158,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (192,153);
+pos = (294,0);
 ref = caron.2;
 }
 );
@@ -14167,7 +14167,7 @@ com.fontbureau.dateModified = "2011-07-29 07:12:34";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 364;
+width = 530;
 }
 );
 unicode = 318;
@@ -16571,7 +16571,7 @@ color = (128,0,255,128);
 glyphname = tcaron;
 kernLeft = t;
 kernRight = tcaron;
-lastChange = "2026-01-31 21:10:10 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -16580,14 +16580,14 @@ shapes = (
 ref = t;
 },
 {
-pos = (196,153);
+pos = (324,0);
 ref = caron.2;
 }
 );
 userData = {
 public.verticalOrigin = 860;
 };
-width = 367;
+width = 560;
 }
 );
 unicode = 357;
@@ -18330,7 +18330,7 @@ color = (128,0,255,128);
 glyphname = lcaron.salt_straight;
 kernLeft = l;
 kernRight = dcaron;
-lastChange = "2026-01-31 23:34:48 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -18339,7 +18339,7 @@ shapes = (
 ref = l.salt_straight;
 },
 {
-pos = (192,153);
+pos = (251,0);
 ref = caron.2;
 }
 );
@@ -18348,7 +18348,7 @@ com.fontbureau.dateModified = "2011-07-29 07:12:34";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-width = 364;
+width = 487;
 }
 );
 },
@@ -18897,13 +18897,12 @@ unicode = 186;
 {
 color = (128,255,128,128);
 glyphname = n.sups;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (10,202);
 ref = N.salt;
 scale = (0.72,0.72);
 }
@@ -18911,8 +18910,7 @@ scale = (0.72,0.72);
 userData = {
 public.verticalOrigin = 860;
 };
-vertWidth = 1000;
-width = 381;
+width = 362;
 }
 );
 unicode = 8319;
@@ -19039,7 +19037,7 @@ color = (0,128,0,128);
 glyphname = Icircumflex.salt;
 kernLeft = H;
 kernRight = H;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19061,7 +19059,6 @@ ref = circumflex;
 userData = {
 public.verticalOrigin = 860;
 };
-vertWidth = 1000;
 width = 268;
 }
 );
@@ -19074,7 +19071,7 @@ color = (0,128,0,128);
 glyphname = Idieresis.salt;
 kernLeft = H;
 kernRight = H;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19096,7 +19093,6 @@ ref = dieresis;
 userData = {
 public.verticalOrigin = 860;
 };
-vertWidth = 1000;
 width = 268;
 }
 );
@@ -19109,7 +19105,7 @@ color = (0,128,0,128);
 glyphname = Itilde.salt;
 kernLeft = H;
 kernRight = H;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19131,7 +19127,6 @@ ref = tilde;
 userData = {
 public.verticalOrigin = 860;
 };
-vertWidth = 1000;
 width = 268;
 }
 );
@@ -19144,7 +19139,7 @@ color = (0,128,0,128);
 glyphname = Imacron.salt;
 kernLeft = H;
 kernRight = H;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19166,7 +19161,6 @@ ref = macron;
 userData = {
 public.verticalOrigin = 860;
 };
-vertWidth = 1000;
 width = 268;
 }
 );
@@ -19179,7 +19173,7 @@ color = (0,128,0,128);
 glyphname = Ibreve.salt;
 kernLeft = H;
 kernRight = H;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19201,7 +19195,6 @@ ref = breve;
 userData = {
 public.verticalOrigin = 860;
 };
-vertWidth = 1000;
 width = 268;
 }
 );
@@ -19247,7 +19240,7 @@ color = (0,128,0,128);
 glyphname = Idotaccent.salt;
 kernLeft = H;
 kernRight = H;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19269,7 +19262,6 @@ ref = dotaccent;
 userData = {
 public.verticalOrigin = 860;
 };
-vertWidth = 1000;
 width = 268;
 }
 );
@@ -19282,7 +19274,7 @@ color = (0,128,0,128);
 glyphname = Lacute.salt;
 kernLeft = H;
 kernRight = L.salt;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -19300,7 +19292,6 @@ com.fontbureau.dateModified = "2011-08-07 19:43:07";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-vertWidth = 1000;
 width = 426;
 }
 );
@@ -19312,7 +19303,7 @@ category = Letter;
 color = (0,128,0,128);
 glyphname = Lcaron.salt;
 kernLeft = H;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -19321,7 +19312,7 @@ shapes = (
 ref = L.salt;
 },
 {
-pos = (213,0);
+pos = (426,0);
 ref = caron.2;
 }
 );
@@ -19330,8 +19321,7 @@ com.fontbureau.dateModified = "2011-07-29 07:12:34";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 860;
 };
-vertWidth = 1000;
-width = 426;
+width = 662;
 }
 );
 metricWidth = L.salt;
@@ -19412,7 +19402,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Agrave.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19427,7 +19417,7 @@ shapes = (
 ref = A.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = grave;
 }
 );
@@ -19436,8 +19426,7 @@ com.fontbureau.dateModified = "2011-10-27 18:16:01";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1015;
-width = 343;
+width = 539;
 }
 );
 unicode = 57738;
@@ -19447,7 +19436,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Aacute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19462,7 +19451,7 @@ shapes = (
 ref = A.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -19471,8 +19460,7 @@ com.fontbureau.dateModified = "2011-10-27 18:16:01";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1015;
-width = 343;
+width = 539;
 }
 );
 unicode = 57739;
@@ -19519,7 +19507,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Atilde.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19534,7 +19522,7 @@ shapes = (
 ref = A.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = tilde;
 }
 );
@@ -19543,8 +19531,7 @@ com.fontbureau.dateModified = "2011-10-27 18:16:01";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 938;
 };
-vertWidth = 1005;
-width = 343;
+width = 539;
 }
 );
 unicode = 57741;
@@ -19628,7 +19615,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Abreve.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19643,7 +19630,7 @@ shapes = (
 ref = A.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = breve;
 }
 );
@@ -19652,8 +19639,7 @@ com.fontbureau.dateModified = "2011-10-27 18:16:01";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1031;
-width = 343;
+width = 539;
 }
 );
 unicode = 57745;
@@ -19663,17 +19649,16 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Aogonek.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = A.s_v;
 },
 {
-pos = (135,40);
+pos = (356,0);
 ref = ogonek;
 }
 );
@@ -19682,8 +19667,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 782;
 };
-vertWidth = 945;
-width = 343;
+width = 539;
 }
 );
 unicode = 57746;
@@ -19693,17 +19677,16 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ccedilla.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = C.s_v;
 },
 {
-pos = (86,40);
+pos = (356,0);
 ref = cedilla;
 }
 );
@@ -19712,8 +19695,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 792;
 };
-vertWidth = 905;
-width = 343;
+width = 539;
 }
 );
 unicode = 57747;
@@ -19723,7 +19705,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Cacute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19738,7 +19720,7 @@ shapes = (
 ref = C.s_v;
 },
 {
-pos = (83,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -19747,8 +19729,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1020;
-width = 343;
+width = 539;
 }
 );
 unicode = 57748;
@@ -19869,7 +19850,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Dcaron.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19884,7 +19865,7 @@ shapes = (
 ref = D.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = caron;
 }
 );
@@ -19893,8 +19874,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1036;
-width = 343;
+width = 539;
 }
 );
 unicode = 57752;
@@ -19904,7 +19884,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Egrave.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -19919,7 +19899,7 @@ shapes = (
 ref = E.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = grave;
 }
 );
@@ -19928,8 +19908,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1028;
-width = 343;
+width = 539;
 }
 );
 unicode = 57753;
@@ -20013,7 +19992,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Edieresis.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20028,7 +20007,7 @@ shapes = (
 ref = E.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = dieresis;
 }
 );
@@ -20037,8 +20016,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 949;
 };
-vertWidth = 1029;
-width = 343;
+width = 539;
 }
 );
 unicode = 57756;
@@ -20085,7 +20063,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ebreve.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20100,7 +20078,7 @@ shapes = (
 ref = E.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = breve;
 }
 );
@@ -20109,8 +20087,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1044;
-width = 343;
+width = 539;
 }
 );
 unicode = 57758;
@@ -20157,17 +20134,16 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Eogonek.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = E.s_v;
 },
 {
-pos = (132,40);
+pos = (356,0);
 ref = ogonek;
 }
 );
@@ -20176,8 +20152,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 800;
 };
-vertWidth = 963;
-width = 343;
+width = 539;
 }
 );
 unicode = 57760;
@@ -20187,7 +20162,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ecaron.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20202,7 +20177,7 @@ shapes = (
 ref = E.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = caron;
 }
 );
@@ -20211,8 +20186,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1044;
-width = 343;
+width = 539;
 }
 );
 unicode = 57761;
@@ -20222,7 +20196,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Gcircumflex.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20237,7 +20211,7 @@ shapes = (
 ref = G.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -20246,8 +20220,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1026;
-width = 343;
+width = 539;
 }
 );
 unicode = 57762;
@@ -20257,7 +20230,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Gbreve.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20272,7 +20245,7 @@ shapes = (
 ref = G.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = breve;
 }
 );
@@ -20281,8 +20254,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1036;
-width = 343;
+width = 539;
 }
 );
 unicode = 57763;
@@ -20292,7 +20264,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Gdotaccent.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20307,7 +20279,7 @@ shapes = (
 ref = G.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = dotaccent;
 }
 );
@@ -20316,8 +20288,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 936;
 };
-vertWidth = 1008;
-width = 343;
+width = 539;
 }
 );
 unicode = 57764;
@@ -20327,13 +20298,12 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Gcommaaccent.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = G.s_v;
 },
 {
@@ -20357,7 +20327,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Hcircumflex.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20372,7 +20342,7 @@ shapes = (
 ref = H.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -20381,8 +20351,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1021;
-width = 343;
+width = 539;
 }
 );
 unicode = 57766;
@@ -20392,7 +20361,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Igrave.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20407,7 +20376,7 @@ shapes = (
 ref = I.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = grave;
 }
 );
@@ -20416,8 +20385,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1028;
-width = 343;
+width = 539;
 }
 );
 unicode = 57767;
@@ -20427,7 +20395,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Iacute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20442,7 +20410,7 @@ shapes = (
 ref = I.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -20451,8 +20419,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1028;
-width = 343;
+width = 539;
 }
 );
 unicode = 57768;
@@ -20462,7 +20429,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Icircumflex.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20477,7 +20444,7 @@ shapes = (
 ref = I.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -20486,8 +20453,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1034;
-width = 343;
+width = 539;
 }
 );
 unicode = 57769;
@@ -20497,7 +20463,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Idieresis.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20512,7 +20478,7 @@ shapes = (
 ref = I.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = dieresis;
 }
 );
@@ -20521,8 +20487,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 949;
 };
-vertWidth = 1029;
-width = 343;
+width = 539;
 }
 );
 unicode = 57770;
@@ -20532,7 +20497,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Itilde.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20547,7 +20512,7 @@ shapes = (
 ref = I.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = tilde;
 }
 );
@@ -20556,8 +20521,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 938;
 };
-vertWidth = 1018;
-width = 343;
+width = 539;
 }
 );
 unicode = 57771;
@@ -20567,7 +20531,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Imacron.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20582,7 +20546,7 @@ shapes = (
 ref = I.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = macron;
 }
 );
@@ -20591,8 +20555,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 927;
 };
-vertWidth = 1007;
-width = 343;
+width = 539;
 }
 );
 unicode = 57772;
@@ -20602,7 +20565,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ibreve.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20617,7 +20580,7 @@ shapes = (
 ref = I.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = breve;
 }
 );
@@ -20626,8 +20589,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1044;
-width = 343;
+width = 539;
 }
 );
 unicode = 57773;
@@ -20637,17 +20599,16 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Iogonek.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = I.s_v;
 },
 {
-pos = (132,40);
+pos = (356,0);
 ref = ogonek;
 }
 );
@@ -20656,8 +20617,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 800;
 };
-vertWidth = 963;
-width = 343;
+width = 539;
 }
 );
 unicode = 57774;
@@ -20667,7 +20627,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Idotaccent.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20682,7 +20642,7 @@ shapes = (
 ref = I.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = dotaccent;
 }
 );
@@ -20691,8 +20651,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 936;
 };
-vertWidth = 1016;
-width = 343;
+width = 539;
 }
 );
 unicode = 57775;
@@ -20702,7 +20661,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Jcircumflex.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20717,7 +20676,7 @@ shapes = (
 ref = J.s_v;
 },
 {
-pos = (109,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -20726,8 +20685,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1026;
-width = 343;
+width = 539;
 }
 );
 unicode = 57776;
@@ -20737,13 +20695,12 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Kcommaaccent.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = K.s_v;
 },
 {
@@ -20767,7 +20724,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Lacute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20782,7 +20739,7 @@ shapes = (
 ref = L.s_v;
 },
 {
-pos = (51,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -20791,8 +20748,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1028;
-width = 343;
+width = 539;
 }
 );
 unicode = 57778;
@@ -20802,13 +20758,12 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Lcommaaccent.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = L.s_v;
 },
 {
@@ -20832,7 +20787,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Lcaron.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -20841,7 +20796,7 @@ shapes = (
 ref = L.v;
 },
 {
-pos = (145,0);
+pos = (356,0);
 ref = caron.2;
 }
 );
@@ -20850,8 +20805,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 787;
 };
-vertWidth = 867;
-width = 343;
+width = 592;
 }
 );
 unicode = 57780;
@@ -20861,7 +20815,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ntilde.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20876,7 +20830,7 @@ shapes = (
 ref = N.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = tilde;
 }
 );
@@ -20885,8 +20839,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 938;
 };
-vertWidth = 1005;
-width = 343;
+width = 539;
 }
 );
 unicode = 57781;
@@ -20896,7 +20849,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Nacute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20911,7 +20864,7 @@ shapes = (
 ref = N.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -20920,8 +20873,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1015;
-width = 343;
+width = 539;
 }
 );
 unicode = 57782;
@@ -20931,13 +20883,12 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ncommaaccent.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = N.s_v;
 },
 {
@@ -20961,7 +20912,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ncaron.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -20976,7 +20927,7 @@ shapes = (
 ref = N.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = caron;
 }
 );
@@ -20985,8 +20936,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1031;
-width = 343;
+width = 539;
 }
 );
 unicode = 57784;
@@ -20996,7 +20946,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ograve.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21011,7 +20961,7 @@ shapes = (
 ref = O.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = grave;
 }
 );
@@ -21020,8 +20970,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1020;
-width = 343;
+width = 539;
 }
 );
 unicode = 57785;
@@ -21031,7 +20980,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Oacute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21046,7 +20995,7 @@ shapes = (
 ref = O.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -21055,8 +21004,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1020;
-width = 343;
+width = 539;
 }
 );
 unicode = 57786;
@@ -21066,7 +21014,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ocircumflex.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21081,7 +21029,7 @@ shapes = (
 ref = O.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -21090,8 +21038,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1026;
-width = 343;
+width = 539;
 }
 );
 unicode = 57787;
@@ -21101,7 +21048,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Otilde.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21116,7 +21063,7 @@ shapes = (
 ref = O.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = tilde;
 }
 );
@@ -21125,8 +21072,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 938;
 };
-vertWidth = 1010;
-width = 343;
+width = 539;
 }
 );
 unicode = 57788;
@@ -21136,7 +21082,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Odieresis.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21151,7 +21097,7 @@ shapes = (
 ref = O.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = dieresis;
 }
 );
@@ -21160,8 +21106,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 949;
 };
-vertWidth = 1021;
-width = 343;
+width = 539;
 }
 );
 unicode = 57789;
@@ -21171,7 +21116,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Omacron.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21186,7 +21131,7 @@ shapes = (
 ref = O.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = macron;
 }
 );
@@ -21195,8 +21140,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 927;
 };
-vertWidth = 999;
-width = 343;
+width = 539;
 }
 );
 unicode = 57790;
@@ -21206,7 +21150,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Obreve.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21221,7 +21165,7 @@ shapes = (
 ref = O.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = breve;
 }
 );
@@ -21230,8 +21174,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1036;
-width = 343;
+width = 539;
 }
 );
 unicode = 57791;
@@ -21241,7 +21184,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ohungarumlaut.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21256,7 +21199,7 @@ shapes = (
 ref = O.s_v;
 },
 {
-pos = (92,-40);
+pos = (356,0);
 ref = hungarumlaut;
 }
 );
@@ -21265,8 +21208,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 1034;
 };
-vertWidth = 1106;
-width = 343;
+width = 539;
 }
 );
 unicode = 57792;
@@ -21276,7 +21218,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Racute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21291,7 +21233,7 @@ shapes = (
 ref = R.s_v;
 },
 {
-pos = (74,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -21300,8 +21242,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1015;
-width = 343;
+width = 539;
 }
 );
 unicode = 57793;
@@ -21311,13 +21252,12 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Rcommaaccent.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = R.s_v;
 },
 {
@@ -21341,7 +21281,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Rcaron.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21356,7 +21296,7 @@ shapes = (
 ref = R.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = caron;
 }
 );
@@ -21365,8 +21305,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1031;
-width = 343;
+width = 539;
 }
 );
 unicode = 57795;
@@ -21376,7 +21315,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Sacute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21391,7 +21330,7 @@ shapes = (
 ref = S.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -21400,8 +21339,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1020;
-width = 343;
+width = 539;
 }
 );
 unicode = 57796;
@@ -21448,17 +21386,16 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Scedilla.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = S.s_v;
 },
 {
-pos = (75,40);
+pos = (356,0);
 ref = cedilla;
 }
 );
@@ -21467,8 +21404,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 792;
 };
-vertWidth = 905;
-width = 343;
+width = 539;
 }
 );
 unicode = 57798;
@@ -21478,7 +21414,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Scaron.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21493,7 +21429,7 @@ shapes = (
 ref = S.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = caron;
 }
 );
@@ -21502,8 +21438,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1036;
-width = 343;
+width = 539;
 }
 );
 unicode = 57799;
@@ -21513,13 +21448,12 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Scommaaccent.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = S.s_v;
 },
 {
@@ -21599,7 +21533,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Tcaron.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21614,7 +21548,7 @@ shapes = (
 ref = T.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = caron;
 }
 );
@@ -21623,8 +21557,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1019;
-width = 343;
+width = 539;
 }
 );
 unicode = 57802;
@@ -21634,7 +21567,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ugrave.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21649,7 +21582,7 @@ shapes = (
 ref = U.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = grave;
 }
 );
@@ -21658,8 +21591,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1020;
-width = 343;
+width = 539;
 }
 );
 unicode = 57803;
@@ -21669,7 +21601,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Uacute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21684,7 +21616,7 @@ shapes = (
 ref = U.s_v;
 },
 {
-pos = (86,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -21693,8 +21625,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1020;
-width = 343;
+width = 539;
 }
 );
 unicode = 57804;
@@ -21704,7 +21635,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ucircumflex.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21719,7 +21650,7 @@ shapes = (
 ref = U.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -21728,8 +21659,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1026;
-width = 343;
+width = 539;
 }
 );
 unicode = 57805;
@@ -21739,7 +21669,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Udieresis.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21754,7 +21684,7 @@ shapes = (
 ref = U.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = dieresis;
 }
 );
@@ -21763,8 +21693,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 949;
 };
-vertWidth = 1021;
-width = 343;
+width = 539;
 }
 );
 unicode = 57806;
@@ -21811,7 +21740,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Umacron.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21826,7 +21755,7 @@ shapes = (
 ref = U.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = macron;
 }
 );
@@ -21835,8 +21764,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 927;
 };
-vertWidth = 999;
-width = 343;
+width = 539;
 }
 );
 unicode = 57808;
@@ -21846,7 +21774,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ubreve.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21861,7 +21789,7 @@ shapes = (
 ref = U.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = breve;
 }
 );
@@ -21870,8 +21798,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1036;
-width = 343;
+width = 539;
 }
 );
 unicode = 57809;
@@ -21881,7 +21808,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Uring.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21896,7 +21823,7 @@ shapes = (
 ref = U.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = ring;
 }
 );
@@ -21905,8 +21832,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 1115;
 };
-vertWidth = 1187;
-width = 343;
+width = 539;
 }
 );
 unicode = 57810;
@@ -21916,7 +21842,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Uhungarumlaut.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21931,7 +21857,7 @@ shapes = (
 ref = U.s_v;
 },
 {
-pos = (93,-40);
+pos = (356,0);
 ref = hungarumlaut;
 }
 );
@@ -21940,8 +21866,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 1034;
 };
-vertWidth = 1106;
-width = 343;
+width = 539;
 }
 );
 unicode = 57811;
@@ -21951,17 +21876,16 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Uogonek.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = U.s_v;
 },
 {
-pos = (84,29);
+pos = (356,0);
 ref = ogonek;
 }
 );
@@ -21970,8 +21894,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 787;
 };
-vertWidth = 961;
-width = 343;
+width = 539;
 }
 );
 unicode = 57812;
@@ -21981,7 +21904,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Yacute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -21996,7 +21919,7 @@ shapes = (
 ref = Y.s_v;
 },
 {
-pos = (86,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -22005,8 +21928,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1003;
-width = 343;
+width = 539;
 }
 );
 unicode = 57817;
@@ -22016,7 +21938,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ycircumflex.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22031,7 +21953,7 @@ shapes = (
 ref = Y.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -22040,8 +21962,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1009;
-width = 343;
+width = 539;
 }
 );
 unicode = 57818;
@@ -22088,7 +22009,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ygrave.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22103,7 +22024,7 @@ shapes = (
 ref = Y.s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = grave;
 }
 );
@@ -22112,8 +22033,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1003;
-width = 343;
+width = 539;
 }
 );
 unicode = 57820;
@@ -22123,7 +22043,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Zacute.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22138,7 +22058,7 @@ shapes = (
 ref = Z.s_v;
 },
 {
-pos = (86,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -22147,8 +22067,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1028;
-width = 343;
+width = 539;
 }
 );
 unicode = 57821;
@@ -22231,7 +22150,7 @@ unicode = 57823;
 category = Letter;
 export = 0;
 glyphname = Dcroat.v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -22245,8 +22164,7 @@ com.fontbureau.dateModified = "2011-07-29 07:54:28";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 800;
 };
-vertWidth = 880;
-width = 343;
+width = 356;
 }
 );
 unicode = 57828;
@@ -22446,7 +22364,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Acircumflex.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22461,7 +22379,7 @@ shapes = (
 ref = A.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -22470,8 +22388,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1021;
-width = 343;
+width = 539;
 }
 );
 unicode = 57840;
@@ -22481,7 +22398,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Atilde.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22496,7 +22413,7 @@ shapes = (
 ref = A.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = tilde;
 }
 );
@@ -22505,8 +22422,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 938;
 };
-vertWidth = 1005;
-width = 343;
+width = 539;
 }
 );
 unicode = 57841;
@@ -22516,7 +22432,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Adieresis.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22531,7 +22447,7 @@ shapes = (
 ref = A.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = dieresis;
 }
 );
@@ -22540,8 +22456,7 @@ com.fontbureau.dateModified = "2011-10-27 18:16:01";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 949;
 };
-vertWidth = 1016;
-width = 343;
+width = 539;
 }
 );
 unicode = 57842;
@@ -22551,7 +22466,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Amacron.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22566,7 +22481,7 @@ shapes = (
 ref = A.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = macron;
 }
 );
@@ -22575,8 +22490,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 927;
 };
-vertWidth = 994;
-width = 343;
+width = 539;
 }
 );
 unicode = 57844;
@@ -22586,7 +22500,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Abreve.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22601,7 +22515,7 @@ shapes = (
 ref = A.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = breve;
 }
 );
@@ -22610,8 +22524,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1031;
-width = 343;
+width = 539;
 }
 );
 unicode = 57845;
@@ -22620,7 +22533,7 @@ unicode = 57845;
 category = Letter;
 export = 0;
 glyphname = Aogonek.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -22629,7 +22542,7 @@ shapes = (
 ref = A.salt_s_v;
 },
 {
-pos = (136,0);
+pos = (356,0);
 ref = ogonek;
 }
 );
@@ -22638,8 +22551,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 752;
 };
-vertWidth = 955;
-width = 343;
+width = 539;
 }
 );
 unicode = 57846;
@@ -22649,7 +22561,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Egrave.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22664,7 +22576,7 @@ shapes = (
 ref = E.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = grave;
 }
 );
@@ -22673,8 +22585,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1020;
-width = 343;
+width = 539;
 }
 );
 unicode = 57848;
@@ -22758,7 +22669,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Edieresis.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22773,7 +22684,7 @@ shapes = (
 ref = E.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = dieresis;
 }
 );
@@ -22782,8 +22693,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 949;
 };
-vertWidth = 1021;
-width = 343;
+width = 539;
 }
 );
 unicode = 57851;
@@ -22830,7 +22740,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ebreve.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22845,7 +22755,7 @@ shapes = (
 ref = E.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = breve;
 }
 );
@@ -22854,8 +22764,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1036;
-width = 343;
+width = 539;
 }
 );
 unicode = 57853;
@@ -22902,17 +22811,16 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Eogonek.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = E.salt_s_v;
 },
 {
-pos = (132,40);
+pos = (356,0);
 ref = ogonek;
 }
 );
@@ -22921,8 +22829,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 792;
 };
-vertWidth = 955;
-width = 343;
+width = 539;
 }
 );
 unicode = 57855;
@@ -22932,7 +22839,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ecaron.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22947,7 +22854,7 @@ shapes = (
 ref = E.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = caron;
 }
 );
@@ -22956,8 +22863,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1036;
-width = 343;
+width = 539;
 }
 );
 unicode = 57856;
@@ -22967,7 +22873,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Igrave.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -22982,7 +22888,7 @@ shapes = (
 ref = I.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = grave;
 }
 );
@@ -22991,8 +22897,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1003;
-width = 343;
+width = 539;
 }
 );
 unicode = 57859;
@@ -23039,7 +22944,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Icircumflex.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -23054,7 +22959,7 @@ shapes = (
 ref = I.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -23063,8 +22968,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1009;
-width = 343;
+width = 539;
 }
 );
 unicode = 57861;
@@ -23148,7 +23052,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Imacron.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -23163,7 +23067,7 @@ shapes = (
 ref = I.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = macron;
 }
 );
@@ -23172,8 +23076,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 927;
 };
-vertWidth = 982;
-width = 343;
+width = 539;
 }
 );
 unicode = 57864;
@@ -23183,7 +23086,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ibreve.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -23198,7 +23101,7 @@ shapes = (
 ref = I.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = breve;
 }
 );
@@ -23207,8 +23110,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 964;
 };
-vertWidth = 1019;
-width = 343;
+width = 539;
 }
 );
 unicode = 57865;
@@ -23217,7 +23119,7 @@ unicode = 57865;
 category = Letter;
 export = 0;
 glyphname = Iogonek.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -23226,7 +23128,7 @@ shapes = (
 ref = I.salt_s_v;
 },
 {
-pos = (74,0);
+pos = (356,0);
 ref = ogonek;
 }
 );
@@ -23235,8 +23137,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 735;
 };
-vertWidth = 938;
-width = 343;
+width = 539;
 }
 );
 unicode = 57866;
@@ -23283,7 +23184,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Lacute.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -23298,7 +23199,7 @@ shapes = (
 ref = L.salt_s_v;
 },
 {
-pos = (51,-40);
+pos = (356,0);
 ref = acute;
 }
 );
@@ -23307,8 +23208,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1028;
-width = 343;
+width = 539;
 }
 );
 unicode = 57869;
@@ -23318,13 +23218,12 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Lcommaaccent.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = L.salt_s_v;
 },
 {
@@ -23348,7 +23247,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Lcaron.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
@@ -23357,7 +23256,7 @@ shapes = (
 ref = L.salt_v;
 },
 {
-pos = (145,0);
+pos = (356,0);
 ref = caron.2;
 }
 );
@@ -23366,8 +23265,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 787;
 };
-vertWidth = 867;
-width = 343;
+width = 592;
 }
 );
 unicode = 57871;
@@ -23376,7 +23274,7 @@ unicode = 57871;
 category = Letter;
 export = 0;
 glyphname = Ldot.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -23388,11 +23286,10 @@ pos = (177,-8);
 layerId = "AE794C32-6194-4C65-84F3-BA691F40E0FA";
 shapes = (
 {
-pos = (0,40);
 ref = L.salt_s_v;
 },
 {
-pos = (85,-980);
+pos = (356,0);
 ref = dotaccent;
 }
 );
@@ -23401,8 +23298,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 775;
 };
-vertWidth = 1012;
-width = 343;
+width = 539;
 }
 );
 unicode = 57872;
@@ -23457,7 +23353,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ntilde.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -23472,7 +23368,7 @@ shapes = (
 ref = N.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = tilde;
 }
 );
@@ -23481,8 +23377,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 938;
 };
-vertWidth = 1005;
-width = 343;
+width = 539;
 }
 );
 unicode = 57877;
@@ -23626,7 +23521,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Wcircumflex.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -23641,7 +23536,7 @@ shapes = (
 ref = W.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -23650,8 +23545,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1036;
-width = 343;
+width = 539;
 }
 );
 unicode = 57882;
@@ -23809,7 +23703,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ycircumflex.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -23824,7 +23718,7 @@ shapes = (
 ref = Y.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = circumflex;
 }
 );
@@ -23833,8 +23727,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 954;
 };
-vertWidth = 1009;
-width = 343;
+width = 539;
 }
 );
 unicode = 57889;
@@ -23881,7 +23774,7 @@ category = Letter;
 color = (0,128,0,128);
 export = 0;
 glyphname = Ygrave.salt_v;
-lastChange = "2026-01-30 03:49:38 +0000";
+lastChange = "2026-02-01 04:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -23896,7 +23789,7 @@ shapes = (
 ref = Y.salt_s_v;
 },
 {
-pos = (80,-40);
+pos = (356,0);
 ref = grave;
 }
 );
@@ -23905,8 +23798,7 @@ com.fontbureau.dateModified = "2011-10-27 18:10:20";
 com.fontbureau.modifiedBy = DJR;
 public.verticalOrigin = 948;
 };
-vertWidth = 1003;
-width = 343;
+width = 539;
 }
 );
 unicode = 57891;
@@ -58211,6 +58103,6 @@ Latn
 UFOFormat = 3;
 UFOLayerName = foreground;
 };
-versionMajor = 2;
-versionMinor = 2;
+versionMajor = 3;
+versionMinor = 0;
 }

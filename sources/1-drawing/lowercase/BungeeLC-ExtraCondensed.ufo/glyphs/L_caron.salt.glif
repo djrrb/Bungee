@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lcaron.salt" format="2">
-  <advance height="1000" width="426"/>
+  <advance height="1320" width="662"/>
   <unicode hex="E121"/>
   <anchor x="224" y="0" name="bottom"/>
   <anchor x="213" y="510" name="center"/>
@@ -8,7 +8,7 @@
   <anchor x="406" y="1020" name="topright"/>
   <outline>
     <component base="L.salt"/>
-    <component base="caron.2" xOffset="213"/>
+    <component base="caron.2" xOffset="426"/>
   </outline>
   <lib>
     <dict>
@@ -21,7 +21,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>L.salt</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/30 03:49:38</string>
+      <string>2026/02/01 04:28:37</string>
       <key>public.markColor</key>
       <string>0,0.502,0,0.502</string>
       <key>public.verticalOrigin</key>

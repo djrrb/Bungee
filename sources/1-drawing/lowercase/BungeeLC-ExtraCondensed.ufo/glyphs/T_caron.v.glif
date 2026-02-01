@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tcaron.v" format="2">
-  <advance height="1019" width="343"/>
+  <advance height="1320" width="539"/>
   <unicode hex="E1CA"/>
   <anchor x="171" y="947" name="top"/>
   <outline>
     <component base="T.s_v"/>
-    <component base="caron" xOffset="80" yOffset="-40"/>
+    <component base="caron" xOffset="356"/>
   </outline>
   <lib>
     <dict>
@@ -18,7 +18,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/30 03:49:38</string>
+      <string>2026/02/01 04:28:37</string>
       <key>public.markColor</key>
       <string>0,0.502,0,0.502</string>
       <key>public.verticalOrigin</key>

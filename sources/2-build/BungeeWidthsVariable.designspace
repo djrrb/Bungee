@@ -1,12 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
   <axes>
-    <axis tag="wdth" name="Width" minimum="70" maximum="100" default="100">
-      <map input="70" output="70"/>
-      <map input="80" output="77"/>
-      <map input="90" output="84"/>
-      <map input="100" output="100"/>
-    </axis>
+    <axis tag="wdth" name="Width" minimum="70" maximum="100" default="100"/>
     <axis tag="ROND" name="Round corners" minimum="0" maximum="100" default="0"/>
   </axes>
   <sources>
@@ -143,7 +138,7 @@
     </instance>
     <instance name="Bungee Widths Narrow" familyname="Bungee Widths" stylename="Narrow" filename="instance_ufos/BungeeWidths-Narrow.ufo">
       <location>
-        <dimension name="Width" xvalue="84"/>
+        <dimension name="Width" xvalue="90"/>
         <dimension name="Round corners" xvalue="0"/>
       </location>
       <lib>
@@ -179,9 +174,9 @@
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
             <key>945C9806-A60E-46C0-BDD3-717690540CA8</key>
-            <real>0.53333</real>
+            <real>0.33333</real>
             <key>m001</key>
-            <real>0.46667</real>
+            <real>0.66667</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
           <false/>
@@ -209,7 +204,7 @@
     </instance>
     <instance name="Bungee Widths Condensed" familyname="Bungee Widths" stylename="Condensed" filename="instance_ufos/BungeeWidths-Condensed.ufo">
       <location>
-        <dimension name="Width" xvalue="77"/>
+        <dimension name="Width" xvalue="80"/>
         <dimension name="Round corners" xvalue="0"/>
       </location>
       <lib>
@@ -245,9 +240,9 @@
           <key>com.schriftgestaltung.intanceInterpolations</key>
           <dict>
             <key>945C9806-A60E-46C0-BDD3-717690540CA8</key>
-            <real>0.76667</real>
+            <real>0.66667</real>
             <key>m001</key>
-            <real>0.23333</real>
+            <real>0.33333</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
           <false/>

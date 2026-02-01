@@ -5,7 +5,7 @@
   <anchor x="251" y="747" name="top"/>
   <outline>
     <component base="N.salt"/>
-    <component base="commaaccent" xOffset="153"/>
+    <component base="commaaccent" xOffset="153" yOffset="27"/>
   </outline>
   <lib>
     <dict>
@@ -21,7 +21,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/31 02:38:27</string>
+      <string>2026/02/01 04:27:28</string>
       <key>public.verticalOrigin</key>
       <integer>1020</integer>
     </dict>

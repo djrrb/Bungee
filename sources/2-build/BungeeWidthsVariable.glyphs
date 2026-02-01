@@ -127805,7 +127805,7 @@ width = 426;
 glyphname = Lcommaaccent.salt;
 kernLeft = H;
 kernRight = L.salt;
-lastChange = "2026-01-31 02:38:27 +0000";
+lastChange = "2026-02-01 04:27:28 +0000";
 layers = (
 {
 layerId = m001;
@@ -127872,7 +127872,7 @@ alignment = 1;
 ref = L.salt;
 },
 {
-pos = (126,0);
+pos = (126,27);
 ref = commaaccent;
 }
 );
@@ -128669,7 +128669,7 @@ width = 497;
 glyphname = Ncommaaccent.salt;
 kernLeft = A.salt;
 kernRight = A.salt;
-lastChange = "2026-01-31 02:38:27 +0000";
+lastChange = "2026-02-01 04:27:28 +0000";
 layers = (
 {
 layerId = m001;
@@ -128730,7 +128730,7 @@ alignment = 1;
 ref = N.salt;
 },
 {
-pos = (153,0);
+pos = (153,27);
 ref = commaaccent;
 }
 );

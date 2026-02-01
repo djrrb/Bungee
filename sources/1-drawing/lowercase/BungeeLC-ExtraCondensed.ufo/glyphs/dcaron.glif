@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dcaron" format="2">
-  <advance height="1320" width="590"/>
+  <advance height="1320" width="706"/>
   <unicode hex="010F"/>
   <anchor x="239" y="580" name="top"/>
   <anchor x="239" y="-27" name="bottom"/>
@@ -8,7 +8,7 @@
   <anchor x="434" y="1020" name="topright"/>
   <outline>
     <component base="d"/>
-    <component base="caron.2" xOffset="413" yOffset="153"/>
+    <component base="caron.2" xOffset="470"/>
   </outline>
   <lib>
     <dict>
@@ -17,7 +17,7 @@
       <key>com.fontbureau.modifiedBy</key>
       <string>DJR</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/31 20:57:35</string>
+      <string>2026/02/01 04:28:37</string>
       <key>public.markColor</key>
       <string>0.502,0,1,0.502</string>
       <key>public.verticalOrigin</key>

@@ -3,7 +3,7 @@
   <advance height="1094" width="343"/>
   <unicode hex="E1C2"/>
   <outline>
-    <component base="R.s_v" yOffset="40"/>
+    <component base="R.s_v"/>
     <component base="commaaccent.v" yOffset="40"/>
   </outline>
   <lib>
@@ -17,7 +17,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/30 03:49:38</string>
+      <string>2026/02/01 04:28:37</string>
       <key>public.markColor</key>
       <string>0,0.502,0,0.502</string>
       <key>public.verticalOrigin</key>

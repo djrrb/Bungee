@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Eogonek.v" format="2">
-  <advance height="963" width="343"/>
+  <advance height="1320" width="539"/>
   <unicode hex="E1A0"/>
   <outline>
-    <component base="E.s_v" yOffset="40"/>
-    <component base="ogonek" xOffset="132" yOffset="40"/>
+    <component base="E.s_v"/>
+    <component base="ogonek" xOffset="356"/>
   </outline>
   <lib>
     <dict>
@@ -17,7 +17,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2026/01/30 03:49:38</string>
+      <string>2026/02/01 04:28:37</string>
       <key>public.markColor</key>
       <string>0,0.502,0,0.502</string>
       <key>public.verticalOrigin</key>
