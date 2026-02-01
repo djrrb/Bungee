@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotbelow" format="2">
+  <advance height="1320" width="605"/>
+  <unicode hex="1ECB"/>
+  <anchor x="303" y="-27" name="bottom"/>
+  <anchor x="545" y="10" name="ogonek"/>
+  <anchor x="302" y="747" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <outline>
+    <component base="Idotbelow"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

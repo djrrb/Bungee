@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Emacron" format="2">
+  <advance height="1320" width="439"/>
+  <unicode hex="0112"/>
+  <anchor x="220" y="-27" name="bottom"/>
+  <anchor x="218" y="0" name="ogonek"/>
+  <anchor x="217" y="953" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="macron" xOffset="126"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:10:06</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:30:20</string>
+      <key>public.markColor</key>
+      <string>0,0.502,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

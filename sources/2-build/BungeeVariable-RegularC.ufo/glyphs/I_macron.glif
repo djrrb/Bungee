@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Imacron" format="2">
+  <advance height="1320" width="605"/>
+  <unicode hex="012A"/>
+  <anchor x="303" y="0" name="bottom"/>
+  <anchor x="545" y="10" name="ogonek"/>
+  <anchor x="302" y="953" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="macron" xOffset="52"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

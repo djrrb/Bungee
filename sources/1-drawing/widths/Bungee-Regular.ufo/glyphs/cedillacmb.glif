@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedillacmb" format="2">
+  <advance height="1000"/>
+  <unicode hex="0327"/>
+  <anchor x="0" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="49" y="-126" type="line"/>
+      <point x="133" y="110" type="line"/>
+      <point x="-45" y="176" type="line"/>
+      <point x="-157" y="-126" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 14:33:02</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

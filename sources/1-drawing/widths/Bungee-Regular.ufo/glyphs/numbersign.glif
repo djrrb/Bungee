@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="numbersign" format="2">
+  <advance height="1000" width="750"/>
+  <unicode hex="0023"/>
+  <outline>
+    <contour>
+      <point x="90" y="0" type="line"/>
+      <point x="267" y="0" type="line"/>
+      <point x="370" y="720" type="line"/>
+      <point x="193" y="720" type="line"/>
+    </contour>
+    <contour>
+      <point x="380" y="0" type="line"/>
+      <point x="557" y="0" type="line"/>
+      <point x="660" y="720" type="line"/>
+      <point x="483" y="720" type="line"/>
+    </contour>
+    <contour>
+      <point x="35" y="135" type="line"/>
+      <point x="679" y="135" type="line"/>
+      <point x="679" y="314" type="line"/>
+      <point x="35" y="314" type="line"/>
+    </contour>
+    <contour>
+      <point x="71" y="411" type="line"/>
+      <point x="715" y="411" type="line"/>
+      <point x="715" y="590" type="line"/>
+      <point x="71" y="590" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:12:13</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

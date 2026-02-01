@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="backslash" format="2">
+  <advance height="1000" width="261"/>
+  <unicode hex="005C"/>
+  <outline>
+    <contour>
+      <point x="201" y="776" type="line"/>
+      <point x="18" y="776" type="line"/>
+      <point x="60" y="-56" type="line"/>
+      <point x="243" y="-56" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:15:58</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

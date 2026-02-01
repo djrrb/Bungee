@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="asterisk" format="2">
+  <advance height="1000" width="464"/>
+  <unicode hex="002A"/>
+  <outline>
+    <contour>
+      <point x="171" y="259" type="line"/>
+      <point x="232" y="398" type="line"/>
+      <point x="294" y="260" type="line"/>
+      <point x="401" y="351" type="line"/>
+      <point x="310" y="464" type="line"/>
+      <point x="438" y="489" type="line"/>
+      <point x="396" y="635" type="line"/>
+      <point x="281" y="572" type="line"/>
+      <point x="299" y="720" type="line"/>
+      <point x="167" y="720" type="line"/>
+      <point x="186" y="572" type="line"/>
+      <point x="67" y="635" type="line"/>
+      <point x="26" y="489" type="line"/>
+      <point x="155" y="464" type="line"/>
+      <point x="63" y="351" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:41:33</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

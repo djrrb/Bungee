@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="m" format="2">
+  <advance height="1320" width="662"/>
+  <unicode hex="006D"/>
+  <anchor x="331" y="-27" name="bottom"/>
+  <anchor x="331" y="607" name="top"/>
+  <outline>
+    <contour>
+      <point x="36" y="0" type="line"/>
+      <point x="205" y="0" type="line"/>
+      <point x="205" y="406" type="line" smooth="yes"/>
+      <point x="205" y="420"/>
+      <point x="209" y="435"/>
+      <point x="228" y="435" type="curve" smooth="yes"/>
+      <point x="248" y="435"/>
+      <point x="251" y="420"/>
+      <point x="251" y="406" type="curve" smooth="yes"/>
+      <point x="251" y="0" type="line"/>
+      <point x="411" y="0" type="line"/>
+      <point x="411" y="406" type="line" smooth="yes"/>
+      <point x="411" y="420"/>
+      <point x="414" y="435"/>
+      <point x="434" y="435" type="curve" smooth="yes"/>
+      <point x="453" y="435"/>
+      <point x="457" y="420"/>
+      <point x="457" y="406" type="curve" smooth="yes"/>
+      <point x="457" y="0" type="line"/>
+      <point x="626" y="0" type="line"/>
+      <point x="626" y="449" type="line" smooth="yes"/>
+      <point x="626" y="535"/>
+      <point x="561" y="590"/>
+      <point x="458" y="590" type="curve" smooth="yes"/>
+      <point x="404" y="590"/>
+      <point x="361" y="574"/>
+      <point x="331" y="546" type="curve"/>
+      <point x="301" y="574"/>
+      <point x="258" y="590"/>
+      <point x="204" y="590" type="curve" smooth="yes"/>
+      <point x="101" y="590"/>
+      <point x="36" y="535"/>
+      <point x="36" y="449" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:19:46</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 23:37:16</string>
+      <key>public.markColor</key>
+      <string>0.502,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

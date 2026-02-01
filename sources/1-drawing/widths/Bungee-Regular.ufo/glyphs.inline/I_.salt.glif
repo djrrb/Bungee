@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I.salt" format="2">
+  <advance height="1320" width="371"/>
+  <outline>
+    <contour>
+      <point x="181" y="630" type="line"/>
+      <point x="181" y="90" type="line"/>
+      <point x="191" y="90" type="line"/>
+      <point x="191" y="630" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:03:03</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

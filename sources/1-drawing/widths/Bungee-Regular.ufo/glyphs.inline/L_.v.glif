@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L.v" format="2">
+  <advance height="1320" width="1000"/>
+  <unicode hex="FF2C"/>
+  <unicode hex="FF4C"/>
+  <outline>
+    <contour>
+      <point x="697" y="297" type="line"/>
+      <point x="697" y="90" type="line"/>
+      <point x="310" y="90" type="line"/>
+      <point x="310" y="630" type="line"/>
+      <point x="320" y="630" type="line"/>
+      <point x="320" y="95" type="line"/>
+      <point x="315" y="100" type="line"/>
+      <point x="692" y="100" type="line"/>
+      <point x="687" y="95" type="line"/>
+      <point x="687" y="297" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

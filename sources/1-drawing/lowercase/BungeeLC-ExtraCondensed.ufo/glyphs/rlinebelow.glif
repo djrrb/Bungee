@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rlinebelow" format="2">
+  <advance height="1320" width="319"/>
+  <unicode hex="1E5F"/>
+  <anchor x="124" y="-27" name="bottom"/>
+  <anchor x="160" y="607" name="top"/>
+  <outline>
+    <component base="r"/>
+    <component base="macronbelowcmb" xOffset="113"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:45:13</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

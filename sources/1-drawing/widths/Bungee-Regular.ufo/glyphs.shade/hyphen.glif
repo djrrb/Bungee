@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen" format="2">
+  <advance height="1320" width="420"/>
+  <unicode hex="002D"/>
+  <unicode hex="2010"/>
+  <outline>
+    <contour>
+      <point x="215" y="138" type="line" smooth="yes"/>
+      <point x="228" y="138"/>
+      <point x="239" y="142"/>
+      <point x="247" y="147" type="curve" smooth="yes"/>
+      <point x="376" y="256" type="line" smooth="yes"/>
+      <point x="385" y="264"/>
+      <point x="390" y="275"/>
+      <point x="390" y="293" type="curve" smooth="yes"/>
+      <point x="390" y="427" type="line" smooth="yes"/>
+      <point x="390" y="460"/>
+      <point x="376" y="473"/>
+      <point x="344" y="473" type="curve" smooth="yes"/>
+      <point x="76" y="473" type="line" smooth="yes"/>
+      <point x="62" y="473"/>
+      <point x="51" y="470"/>
+      <point x="44" y="464" type="curve" smooth="yes"/>
+      <point x="-85" y="355" type="line" smooth="yes"/>
+      <point x="-94" y="347"/>
+      <point x="-99" y="336"/>
+      <point x="-99" y="318" type="curve" smooth="yes"/>
+      <point x="-99" y="184" type="line" smooth="yes"/>
+      <point x="-99" y="151"/>
+      <point x="-85" y="138"/>
+      <point x="-53" y="138" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

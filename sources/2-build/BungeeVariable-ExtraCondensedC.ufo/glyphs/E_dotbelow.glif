@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Edotbelow" format="2">
+  <advance height="1320" width="439"/>
+  <unicode hex="1EB8"/>
+  <anchor x="220" y="-27" name="bottom"/>
+  <anchor x="218" y="0" name="ogonek"/>
+  <anchor x="217" y="747" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="dotbelowcmb" xOffset="209"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:46:46</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

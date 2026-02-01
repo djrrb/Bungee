@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Hbar" format="2">
+  <advance height="1000" width="779"/>
+  <unicode hex="0126"/>
+  <outline>
+    <contour>
+      <point x="303" y="0" type="line"/>
+      <point x="303" y="148" type="line"/>
+      <point x="476" y="148" type="line"/>
+      <point x="476" y="0" type="line"/>
+      <point x="700" y="0" type="line"/>
+      <point x="700" y="720" type="line"/>
+      <point x="476" y="720" type="line"/>
+      <point x="476" y="347" type="line"/>
+      <point x="303" y="347" type="line"/>
+      <point x="303" y="720" type="line"/>
+      <point x="79" y="720" type="line"/>
+      <point x="79" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="30" y="425" type="line"/>
+      <point x="749" y="425" type="line"/>
+      <point x="749" y="594" type="line"/>
+      <point x="30" y="594" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:54:08</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

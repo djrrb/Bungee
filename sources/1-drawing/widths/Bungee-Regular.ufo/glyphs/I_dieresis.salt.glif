@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idieresis.salt" format="2">
+  <advance height="1320" width="371"/>
+  <unicode hex="E118"/>
+  <anchor x="185" y="0" name="bottom"/>
+  <anchor x="334" y="10" name="ogonek"/>
+  <anchor x="182" y="968" name="top"/>
+  <anchor x="20" y="1020" name="topleft"/>
+  <outline>
+    <component base="I.salt"/>
+    <component base="dieresis" xOffset="-65"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>I.salt</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:30:20</string>
+      <key>public.markColor</key>
+      <string>0,0.502,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

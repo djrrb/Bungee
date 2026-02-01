@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ldot.salt" format="2">
+  <advance height="1000" width="438"/>
+  <unicode hex="E122"/>
+  <anchor x="224" y="0" name="bottom"/>
+  <anchor x="213" y="510" name="center"/>
+  <anchor x="344" y="539" name="top"/>
+  <anchor x="406" y="1020" name="topright"/>
+  <outline>
+    <component base="L.salt"/>
+    <component base="dotaccent" xOffset="253" yOffset="-433"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:14:53</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotaccent</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:30:20</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

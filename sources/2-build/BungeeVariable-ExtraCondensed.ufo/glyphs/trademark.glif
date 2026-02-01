@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="trademark" format="2">
+  <advance height="1000" width="485"/>
+  <unicode hex="2122"/>
+  <outline>
+    <contour>
+      <point x="50" y="287" type="curve" smooth="yes"/>
+      <point x="153" y="287" type="line" smooth="yes"/>
+      <point x="154" y="287"/>
+      <point x="155" y="288"/>
+      <point x="155" y="289" type="curve" smooth="yes"/>
+      <point x="155" y="597" type="line"/>
+      <point x="187" y="597" type="line" smooth="yes"/>
+      <point x="188" y="597"/>
+      <point x="189" y="598"/>
+      <point x="189" y="599" type="curve" smooth="yes"/>
+      <point x="189" y="718" type="line" smooth="yes"/>
+      <point x="189" y="719"/>
+      <point x="188" y="720"/>
+      <point x="187" y="720" type="curve" smooth="yes"/>
+      <point x="15" y="720" type="line" smooth="yes"/>
+      <point x="14" y="720"/>
+      <point x="13" y="719"/>
+      <point x="13" y="718" type="curve" smooth="yes"/>
+      <point x="13" y="599" type="line" smooth="yes"/>
+      <point x="13" y="598"/>
+      <point x="14" y="597"/>
+      <point x="15" y="597" type="curve" smooth="yes"/>
+      <point x="48" y="597" type="line"/>
+      <point x="48" y="289" type="line" smooth="yes"/>
+      <point x="48" y="288"/>
+      <point x="49" y="287"/>
+    </contour>
+    <contour>
+      <point x="206" y="287" type="curve" smooth="yes"/>
+      <point x="308" y="287" type="line" smooth="yes"/>
+      <point x="309" y="287"/>
+      <point x="310" y="288"/>
+      <point x="310" y="289" type="curve" smooth="yes"/>
+      <point x="310" y="503" type="line"/>
+      <point x="318" y="454" type="line"/>
+      <point x="320" y="440"/>
+      <point x="324" y="432"/>
+      <point x="329" y="432" type="curve"/>
+      <point x="335" y="432" type="line"/>
+      <point x="340" y="432"/>
+      <point x="343" y="438"/>
+      <point x="346" y="454" type="curve"/>
+      <point x="354" y="503" type="line"/>
+      <point x="354" y="289" type="line" smooth="yes"/>
+      <point x="354" y="288"/>
+      <point x="355" y="287"/>
+      <point x="356" y="287" type="curve" smooth="yes"/>
+      <point x="459" y="287" type="line" smooth="yes"/>
+      <point x="460" y="287"/>
+      <point x="461" y="288"/>
+      <point x="461" y="289" type="curve" smooth="yes"/>
+      <point x="461" y="718" type="line" smooth="yes"/>
+      <point x="461" y="719"/>
+      <point x="460" y="720"/>
+      <point x="459" y="720" type="curve" smooth="yes"/>
+      <point x="367" y="720" type="line" smooth="yes"/>
+      <point x="366" y="720"/>
+      <point x="365" y="720"/>
+      <point x="365" y="718" type="curve" smooth="yes"/>
+      <point x="336" y="606" type="line"/>
+      <point x="334" y="598"/>
+      <point x="334" y="597"/>
+      <point x="334" y="597" type="curve"/>
+      <point x="332" y="597" type="line"/>
+      <point x="332" y="597"/>
+      <point x="331" y="597"/>
+      <point x="330" y="606" type="curve"/>
+      <point x="307" y="718" type="line" smooth="yes"/>
+      <point x="307" y="720"/>
+      <point x="306" y="720"/>
+      <point x="305" y="720" type="curve" smooth="yes"/>
+      <point x="206" y="720" type="line" smooth="yes"/>
+      <point x="205" y="720"/>
+      <point x="204" y="719"/>
+      <point x="204" y="718" type="curve" smooth="yes"/>
+      <point x="204" y="289" type="line" smooth="yes"/>
+      <point x="204" y="288"/>
+      <point x="205" y="287"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 16:54:01</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

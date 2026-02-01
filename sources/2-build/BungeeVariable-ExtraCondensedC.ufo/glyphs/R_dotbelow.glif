@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Rdotbelow" format="2">
+  <advance height="1320" width="510"/>
+  <unicode hex="1E5A"/>
+  <anchor x="260" y="-27" name="bottom"/>
+  <anchor x="242" y="747" name="top"/>
+  <outline>
+    <component base="R"/>
+    <component base="dotbelowcmb" xOffset="249"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:46:46</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

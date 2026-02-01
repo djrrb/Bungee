@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecmb" format="2">
+  <advance height="1320"/>
+  <unicode hex="0306"/>
+  <outline>
+    <contour>
+      <point x="-136" y="907" type="move"/>
+      <point x="-136" y="898" type="line"/>
+      <point x="-136" y="871"/>
+      <point x="-117" y="823"/>
+      <point x="-1" y="823" type="curve"/>
+      <point x="115" y="823"/>
+      <point x="139" y="871"/>
+      <point x="139" y="898" type="curve"/>
+      <point x="139" y="907" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

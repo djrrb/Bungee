@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zcaron.v" format="2">
+  <advance height="1320" width="1000"/>
+  <unicode hex="E1DF"/>
+  <outline>
+    <contour>
+      <point x="0" y="-80" type="line"/>
+      <point x="0" y="964" type="line"/>
+      <point x="1000" y="964" type="line"/>
+      <point x="1000" y="-80" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:30:20</string>
+      <key>public.markColor</key>
+      <string>0,0.502,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

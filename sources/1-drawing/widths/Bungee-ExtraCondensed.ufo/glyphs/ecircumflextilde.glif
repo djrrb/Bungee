@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecircumflextilde" format="2">
+  <advance height="1320" width="439"/>
+  <unicode hex="1EC5"/>
+  <anchor x="220" y="-27" name="bottom"/>
+  <anchor x="218" y="0" name="ogonek"/>
+  <anchor x="217" y="1152" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <outline>
+    <component base="Ecircumflextilde"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

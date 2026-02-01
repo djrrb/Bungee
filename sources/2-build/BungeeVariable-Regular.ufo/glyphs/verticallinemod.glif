@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticallinemod" format="2">
+  <advance height="1000" width="356"/>
+  <unicode hex="02C8"/>
+  <outline>
+    <contour>
+      <point x="295" y="347" type="curve" smooth="yes"/>
+      <point x="295" y="718" type="line" smooth="yes"/>
+      <point x="295" y="719"/>
+      <point x="294" y="720"/>
+      <point x="293" y="720" type="curve" smooth="yes"/>
+      <point x="63" y="720" type="line" smooth="yes"/>
+      <point x="62" y="720"/>
+      <point x="61" y="719"/>
+      <point x="61" y="718" type="curve" smooth="yes"/>
+      <point x="61" y="347" type="line" smooth="yes"/>
+      <point x="61" y="346"/>
+      <point x="62" y="345"/>
+      <point x="63" y="345" type="curve" smooth="yes"/>
+      <point x="293" y="345" type="line" smooth="yes"/>
+      <point x="294" y="345"/>
+      <point x="295" y="346"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

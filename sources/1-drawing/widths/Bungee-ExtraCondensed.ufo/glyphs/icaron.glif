@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="icaron" format="2">
+  <advance height="1320" width="406"/>
+  <unicode hex="01D0"/>
+  <anchor x="203" y="-27" name="bottom"/>
+  <anchor x="365" y="10" name="ogonek"/>
+  <anchor x="203" y="987" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <outline>
+    <component base="Icaron"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:32:15</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

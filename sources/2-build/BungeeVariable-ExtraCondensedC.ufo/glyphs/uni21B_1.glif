@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni21B1" format="2">
+  <advance height="723" width="850"/>
+  <unicode hex="21B1"/>
+  <outline>
+    <contour>
+      <point x="345" y="493" type="line" smooth="yes"/>
+      <point x="202" y="493"/>
+      <point x="160" y="433"/>
+      <point x="160" y="342" type="curve" smooth="yes"/>
+      <point x="160" y="74" type="line" smooth="yes"/>
+      <point x="160" y="61"/>
+      <point x="167" y="54"/>
+      <point x="180" y="54" type="curve" smooth="yes"/>
+      <point x="282" y="54" type="line" smooth="yes"/>
+      <point x="295" y="54"/>
+      <point x="302" y="61"/>
+      <point x="302" y="74" type="curve" smooth="yes"/>
+      <point x="302" y="301" type="line" smooth="yes"/>
+      <point x="302" y="338"/>
+      <point x="320" y="352"/>
+      <point x="359" y="352" type="curve" smooth="yes"/>
+      <point x="415" y="352" type="line"/>
+      <point x="380" y="217" type="line" smooth="yes"/>
+      <point x="378" y="200"/>
+      <point x="405" y="189"/>
+      <point x="424" y="201" type="curve" smooth="yes"/>
+      <point x="700" y="386" type="line" smooth="yes"/>
+      <point x="715" y="396"/>
+      <point x="725" y="406"/>
+      <point x="725" y="423" type="curve"/>
+      <point x="725" y="440"/>
+      <point x="715" y="450"/>
+      <point x="700" y="459" type="curve" smooth="yes"/>
+      <point x="424" y="644" type="line" smooth="yes"/>
+      <point x="405" y="657"/>
+      <point x="378" y="645"/>
+      <point x="380" y="628" type="curve" smooth="yes"/>
+      <point x="415" y="493" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-07 20:25:57</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

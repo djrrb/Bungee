@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="integral" format="2">
+  <advance height="1000" width="474"/>
+  <unicode hex="222B"/>
+  <outline>
+    <contour>
+      <point x="123" y="605" type="curve"/>
+      <point x="123" y="153" type="line" smooth="yes"/>
+      <point x="123" y="127"/>
+      <point x="117" y="103"/>
+      <point x="82" y="103" type="curve" smooth="yes"/>
+      <point x="15" y="103" type="line"/>
+      <point x="15" y="-90" type="line"/>
+      <point x="105" y="-90" type="line" smooth="yes"/>
+      <point x="294" y="-90"/>
+      <point x="351" y="-7"/>
+      <point x="351" y="115" type="curve" smooth="yes"/>
+      <point x="351" y="567" type="line" smooth="yes"/>
+      <point x="351" y="593"/>
+      <point x="357" y="617"/>
+      <point x="392" y="617" type="curve" smooth="yes"/>
+      <point x="459" y="617" type="line"/>
+      <point x="459" y="810" type="line"/>
+      <point x="369" y="810" type="line" smooth="yes"/>
+      <point x="180" y="810"/>
+      <point x="123" y="727"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 15:01:33</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 21:45:25</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

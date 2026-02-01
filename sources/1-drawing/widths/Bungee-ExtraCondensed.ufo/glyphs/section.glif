@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="section" format="2">
+  <advance height="1000" width="464"/>
+  <unicode hex="00A7"/>
+  <outline>
+    <contour>
+      <point x="284" y="205" type="line"/>
+      <point x="284" y="326" type="line"/>
+      <point x="234" y="326" type="line" smooth="yes"/>
+      <point x="216" y="326"/>
+      <point x="205" y="340"/>
+      <point x="205" y="364" type="curve" smooth="yes"/>
+      <point x="205" y="547" type="line" smooth="yes"/>
+      <point x="205" y="568"/>
+      <point x="214" y="577"/>
+      <point x="234" y="577" type="curve" smooth="yes"/>
+      <point x="402" y="577" type="line"/>
+      <point x="402" y="720" type="line"/>
+      <point x="203" y="720" type="line" smooth="yes"/>
+      <point x="74" y="720"/>
+      <point x="35" y="649"/>
+      <point x="35" y="545" type="curve" smooth="yes"/>
+      <point x="35" y="379" type="line" smooth="yes"/>
+      <point x="35" y="276"/>
+      <point x="74" y="205"/>
+      <point x="203" y="205" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="184" y="515" type="line"/>
+      <point x="184" y="394" type="line"/>
+      <point x="234" y="394" type="line" smooth="yes"/>
+      <point x="253" y="394"/>
+      <point x="264" y="380"/>
+      <point x="264" y="356" type="curve" smooth="yes"/>
+      <point x="264" y="173" type="line" smooth="yes"/>
+      <point x="264" y="152"/>
+      <point x="255" y="143"/>
+      <point x="234" y="143" type="curve" smooth="yes"/>
+      <point x="58" y="143" type="line"/>
+      <point x="58" y="0" type="line"/>
+      <point x="265" y="0" type="line" smooth="yes"/>
+      <point x="394" y="0"/>
+      <point x="433" y="71"/>
+      <point x="433" y="175" type="curve" smooth="yes"/>
+      <point x="433" y="341" type="line" smooth="yes"/>
+      <point x="433" y="444"/>
+      <point x="394" y="515"/>
+      <point x="265" y="515" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:22:38</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 14:05:05</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="m.salt_diag" format="2">
+  <advance height="1320" width="529"/>
+  <anchor x="265.0" y="607.0" name="top"/>
+  <anchor x="265.0" y="-27.0" name="bottom"/>
+  <outline>
+    <component base="w.salt_diag" xScale="-1.0" yScale="-1.0" xOffset="529" yOffset="580"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 23:36:12</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

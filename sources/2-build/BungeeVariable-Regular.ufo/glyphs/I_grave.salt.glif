@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Igrave.salt" format="2">
+  <advance height="1000" width="371"/>
+  <unicode hex="E115"/>
+  <anchor x="185" y="0" name="bottom"/>
+  <anchor x="334" y="10" name="ogonek"/>
+  <anchor x="185" y="747" name="top"/>
+  <anchor x="20" y="1020" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="379" y="753" type="curve" smooth="yes"/>
+      <point x="379" y="914" type="line" smooth="yes"/>
+      <point x="379" y="915"/>
+      <point x="378" y="916"/>
+      <point x="377" y="916" type="curve" smooth="yes"/>
+      <point x="-8" y="963" type="line" smooth="yes"/>
+      <point x="-9" y="963"/>
+      <point x="-10" y="962"/>
+      <point x="-10" y="961" type="curve" smooth="yes"/>
+      <point x="-10" y="800" type="line" smooth="yes"/>
+      <point x="-10" y="799"/>
+      <point x="-9" y="798"/>
+      <point x="-8" y="798" type="curve" smooth="yes"/>
+      <point x="377" y="751" type="line" smooth="yes"/>
+      <point x="378" y="751"/>
+      <point x="379" y="752"/>
+    </contour>
+    <component base="I.salt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 14:01:34</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=I.salt</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

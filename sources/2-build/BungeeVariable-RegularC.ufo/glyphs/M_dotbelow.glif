@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Mdotbelow" format="2">
+  <advance height="1320" width="849"/>
+  <unicode hex="1E42"/>
+  <anchor x="425" y="-27" name="bottom"/>
+  <anchor x="424" y="747" name="top"/>
+  <outline>
+    <component base="M"/>
+    <component base="dotbelowcmb" xOffset="425"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:46:46</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

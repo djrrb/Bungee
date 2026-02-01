@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ldot" format="2">
+  <advance height="1000" width="455"/>
+  <unicode hex="013F"/>
+  <outline>
+    <contour>
+      <point x="444" y="372" type="line"/>
+      <point x="444" y="571" type="line"/>
+      <point x="272" y="571" type="line"/>
+      <point x="272" y="372" type="line"/>
+    </contour>
+    <contour>
+      <point x="441" y="0" type="line"/>
+      <point x="441" y="307" type="line"/>
+      <point x="270" y="307" type="line"/>
+      <point x="270" y="155" type="line"/>
+      <point x="226" y="155" type="line"/>
+      <point x="226" y="720" type="line"/>
+      <point x="41" y="720" type="line"/>
+      <point x="41" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:14:53</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

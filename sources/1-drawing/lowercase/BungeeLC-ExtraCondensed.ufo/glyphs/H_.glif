@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="H" format="2">
+  <advance height="1000" width="506"/>
+  <unicode hex="0048"/>
+  <anchor x="253" y="-27" name="bottom"/>
+  <anchor x="253" y="576" name="center"/>
+  <anchor x="253" y="747" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="226" y="0" type="line"/>
+      <point x="226" y="275" type="line"/>
+      <point x="280" y="275" type="line"/>
+      <point x="279" y="0" type="line"/>
+      <point x="466" y="0" type="line"/>
+      <point x="466" y="720" type="line"/>
+      <point x="279" y="720" type="line"/>
+      <point x="280" y="450" type="line"/>
+      <point x="226" y="450" type="line"/>
+      <point x="226" y="720" type="line"/>
+      <point x="40" y="720" type="line"/>
+      <point x="40" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 12:19:09</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

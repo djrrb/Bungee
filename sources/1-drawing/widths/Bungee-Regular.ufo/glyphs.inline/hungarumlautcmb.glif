@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcmb" format="2">
+  <advance height="1320"/>
+  <unicode hex="030B"/>
+  <outline>
+    <contour>
+      <point x="141" y="850" type="line"/>
+      <point x="166" y="947" type="line"/>
+      <point x="177" y="947" type="line"/>
+      <point x="152" y="850" type="line"/>
+    </contour>
+    <contour>
+      <point x="-119" y="850" type="line"/>
+      <point x="-94" y="947" type="line"/>
+      <point x="-83" y="947" type="line"/>
+      <point x="-108" y="850" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

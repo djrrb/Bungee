@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Sdotbelow" format="2">
+  <advance height="1320" width="409"/>
+  <unicode hex="1E62"/>
+  <anchor x="203" y="-27" name="bottom"/>
+  <anchor x="221" y="747" name="top"/>
+  <outline>
+    <component base="S"/>
+    <component base="dotbelowcmb" xOffset="192"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:46:46</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

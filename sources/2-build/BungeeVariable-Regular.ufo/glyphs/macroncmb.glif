@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncmb" format="2">
+  <advance height="1000"/>
+  <unicode hex="0304"/>
+  <anchor x="0" y="747" name="_top"/>
+  <anchor x="0" y="953" name="top"/>
+  <outline>
+    <contour>
+      <point x="209" y="762" type="curve" smooth="yes"/>
+      <point x="209" y="923" type="line" smooth="yes"/>
+      <point x="209" y="924"/>
+      <point x="208" y="925"/>
+      <point x="207" y="925" type="curve" smooth="yes"/>
+      <point x="-208" y="925" type="line" smooth="yes"/>
+      <point x="-209" y="925"/>
+      <point x="-210" y="924"/>
+      <point x="-210" y="923" type="curve" smooth="yes"/>
+      <point x="-210" y="762" type="line" smooth="yes"/>
+      <point x="-210" y="761"/>
+      <point x="-209" y="760"/>
+      <point x="-208" y="760" type="curve" smooth="yes"/>
+      <point x="207" y="760" type="line" smooth="yes"/>
+      <point x="208" y="760"/>
+      <point x="209" y="761"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

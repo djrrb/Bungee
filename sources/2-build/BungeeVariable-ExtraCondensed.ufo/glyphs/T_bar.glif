@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tbar" format="2">
+  <advance height="1000" width="407"/>
+  <unicode hex="0166"/>
+  <anchor x="204" y="-27" name="bottom"/>
+  <anchor x="204" y="360" name="center"/>
+  <anchor x="204" y="747" name="top"/>
+  <outline>
+    <contour>
+      <point x="368" y="239" type="curve" smooth="yes"/>
+      <point x="368" y="384" type="line" smooth="yes"/>
+      <point x="368" y="385"/>
+      <point x="367" y="386"/>
+      <point x="366" y="386" type="curve" smooth="yes"/>
+      <point x="41" y="386" type="line" smooth="yes"/>
+      <point x="40" y="386"/>
+      <point x="39" y="385"/>
+      <point x="39" y="384" type="curve" smooth="yes"/>
+      <point x="39" y="239" type="line" smooth="yes"/>
+      <point x="39" y="238"/>
+      <point x="40" y="237"/>
+      <point x="41" y="237" type="curve" smooth="yes"/>
+      <point x="366" y="237" type="line" smooth="yes"/>
+      <point x="367" y="237"/>
+      <point x="368" y="238"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:57:27</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

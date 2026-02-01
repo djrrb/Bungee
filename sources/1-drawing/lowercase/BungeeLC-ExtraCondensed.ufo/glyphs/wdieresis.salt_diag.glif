@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wdieresis.salt_diag" format="2">
+  <advance height="1320" width="529"/>
+  <anchor x="264" y="-27" name="bottom"/>
+  <anchor x="263" y="828" name="top"/>
+  <outline>
+    <component base="w.salt_diag"/>
+    <component base="dieresis" xOffset="166" yOffset="-140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 23:36:03</string>
+      <key>public.markColor</key>
+      <string>0.502,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

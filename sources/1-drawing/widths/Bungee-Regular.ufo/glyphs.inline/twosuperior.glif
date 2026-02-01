@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twosuperior" format="2">
+  <advance height="1320" width="485"/>
+  <unicode hex="00B2"/>
+  <outline>
+    <contour>
+      <point x="158" y="439" type="line" smooth="yes"/>
+      <point x="127.215" y="428.922"/>
+      <point x="117" y="415"/>
+      <point x="117" y="379" type="curve" smooth="yes"/>
+      <point x="117" y="266" type="line"/>
+      <point x="369" y="266" type="line"/>
+      <point x="369" y="275" type="line"/>
+      <point x="126" y="275" type="line"/>
+      <point x="126" y="379" type="line" smooth="yes"/>
+      <point x="126" y="410"/>
+      <point x="133.859" y="420.899"/>
+      <point x="161" y="430" type="curve" smooth="yes"/>
+      <point x="328" y="486" type="line"/>
+      <point x="345.048" y="492.017"/>
+      <point x="355" y="504.45"/>
+      <point x="355" y="527" type="curve" smooth="yes"/>
+      <point x="355" y="593" type="line" smooth="yes"/>
+      <point x="355" y="642"/>
+      <point x="326.636" y="656"/>
+      <point x="277" y="656" type="curve" smooth="yes"/>
+      <point x="132" y="656" type="line"/>
+      <point x="132" y="647" type="line"/>
+      <point x="277" y="647" type="line" smooth="yes"/>
+      <point x="319.377" y="647"/>
+      <point x="345" y="636"/>
+      <point x="345" y="593" type="curve" smooth="yes"/>
+      <point x="345" y="527" type="line" smooth="yes"/>
+      <point x="345" y="509.529"/>
+      <point x="336.945" y="498.975"/>
+      <point x="326" y="494" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

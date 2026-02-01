@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a" format="2">
+  <advance height="1320" width="457"/>
+  <unicode hex="0061"/>
+  <outline>
+    <contour>
+      <point x="229" y="-9" type="curve" smooth="yes"/>
+      <point x="357.667" y="-9"/>
+      <point x="422" y="49"/>
+      <point x="422" y="165" type="curve"/>
+      <point x="422" y="406" type="line" smooth="yes"/>
+      <point x="422" y="509"/>
+      <point x="381.08" y="580"/>
+      <point x="244" y="580" type="curve" smooth="yes"/>
+      <point x="71" y="580" type="line"/>
+      <point x="71" y="430" type="line"/>
+      <point x="223" y="430" type="line" smooth="yes"/>
+      <point x="249" y="430"/>
+      <point x="252" y="414"/>
+      <point x="252" y="392" type="curve" smooth="yes"/>
+      <point x="252" y="374" type="line"/>
+      <point x="32" y="374" type="line"/>
+      <point x="32" y="165" type="line" smooth="yes"/>
+      <point x="32" y="49"/>
+      <point x="98.347" y="-9"/>
+    </contour>
+    <contour>
+      <point x="226" y="130" type="curve" smooth="yes"/>
+      <point x="207" y="130"/>
+      <point x="199" y="138"/>
+      <point x="199" y="157" type="curve" smooth="yes"/>
+      <point x="199" y="239" type="line"/>
+      <point x="252" y="239" type="line"/>
+      <point x="252" y="157" type="line"/>
+      <point x="252" y="138"/>
+      <point x="244" y="130"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:19:46</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 23:35:18</string>
+      <key>public.markColor</key>
+      <string>0.502,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gcaron" format="2">
+  <advance height="1320" width="708"/>
+  <unicode hex="01E6"/>
+  <anchor x="354" y="-27" name="bottom"/>
+  <anchor x="357" y="987" name="top"/>
+  <outline>
+    <component base="G"/>
+    <component base="caron" xOffset="107"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:30:20</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

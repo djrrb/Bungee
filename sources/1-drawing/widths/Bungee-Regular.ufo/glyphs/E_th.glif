@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eth" format="2">
+  <advance height="1000" width="756"/>
+  <unicode hex="00D0"/>
+  <anchor x="378" y="0" name="bottom"/>
+  <anchor x="378" y="720" name="top"/>
+  <outline>
+    <contour>
+      <point x="20" y="265" type="line"/>
+      <point x="380" y="265" type="line"/>
+      <point x="380" y="444" type="line"/>
+      <point x="20" y="444" type="line"/>
+    </contour>
+    <contour>
+      <point x="452" y="0" type="line" smooth="yes"/>
+      <point x="641" y="0"/>
+      <point x="698" y="83"/>
+      <point x="698" y="204" type="curve" smooth="yes"/>
+      <point x="698" y="516" type="line" smooth="yes"/>
+      <point x="698" y="637"/>
+      <point x="641" y="720"/>
+      <point x="452" y="720" type="curve" smooth="yes"/>
+      <point x="79" y="720" type="line"/>
+      <point x="79" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="303" y="529" type="line"/>
+      <point x="425" y="529" type="line" smooth="yes"/>
+      <point x="465" y="529"/>
+      <point x="472" y="507"/>
+      <point x="472" y="481" type="curve" smooth="yes"/>
+      <point x="472" y="238" type="line" smooth="yes"/>
+      <point x="472" y="211"/>
+      <point x="465" y="189"/>
+      <point x="425" y="189" type="curve" smooth="yes"/>
+      <point x="303" y="189" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 16:50:52</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 14:26:16</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

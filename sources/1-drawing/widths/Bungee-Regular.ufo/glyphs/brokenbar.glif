@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brokenbar" format="2">
+  <advance height="1000" width="347"/>
+  <unicode hex="00A6"/>
+  <outline>
+    <contour>
+      <point x="282" y="810" type="line"/>
+      <point x="65" y="810" type="line"/>
+      <point x="65" y="400" type="line"/>
+      <point x="282" y="400" type="line"/>
+    </contour>
+    <contour>
+      <point x="282" y="320" type="line"/>
+      <point x="65" y="320" type="line"/>
+      <point x="65" y="-90" type="line"/>
+      <point x="282" y="-90" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-07 20:25:57</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

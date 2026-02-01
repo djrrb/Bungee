@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sterling" format="2">
+  <advance height="1000" width="695"/>
+  <unicode hex="00A3"/>
+  <outline>
+    <contour>
+      <point x="650" y="0" type="line"/>
+      <point x="650" y="327" type="line"/>
+      <point x="433" y="327" type="line"/>
+      <point x="433" y="189" type="line"/>
+      <point x="296" y="189" type="line"/>
+      <point x="296" y="477" type="line" smooth="yes"/>
+      <point x="296" y="503"/>
+      <point x="305" y="527"/>
+      <point x="357" y="527" type="curve" smooth="yes"/>
+      <point x="541" y="527" type="line"/>
+      <point x="541" y="720" type="line"/>
+      <point x="315" y="720" type="line" smooth="yes"/>
+      <point x="126" y="720"/>
+      <point x="69" y="637"/>
+      <point x="69" y="516" type="curve"/>
+      <point x="69" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="265" type="line"/>
+      <point x="380" y="265" type="line"/>
+      <point x="380" y="444" type="line"/>
+      <point x="20" y="444" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 14:40:00</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 06:23:40</string>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

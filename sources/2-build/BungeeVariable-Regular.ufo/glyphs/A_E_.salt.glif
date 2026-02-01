@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AE.salt" format="2">
+  <advance height="1000" width="1013"/>
+  <anchor x="507" y="0" name="bottom"/>
+  <anchor x="507" y="1020" name="top"/>
+  <outline>
+    <contour>
+      <point x="66" y="0" type="curve" smooth="yes"/>
+      <point x="281" y="0" type="line" smooth="yes"/>
+      <point x="282" y="0"/>
+      <point x="283" y="1"/>
+      <point x="283" y="2" type="curve" smooth="yes"/>
+      <point x="283" y="489" type="line" smooth="yes"/>
+      <point x="283" y="516"/>
+      <point x="295" y="536"/>
+      <point x="366" y="536" type="curve"/>
+      <point x="448" y="536" type="line"/>
+      <point x="448" y="2" type="line" smooth="yes"/>
+      <point x="448" y="1"/>
+      <point x="449" y="0"/>
+      <point x="450" y="0" type="curve" smooth="yes"/>
+      <point x="962" y="0" type="line" smooth="yes"/>
+      <point x="963" y="0"/>
+      <point x="964" y="1"/>
+      <point x="964" y="2" type="curve" smooth="yes"/>
+      <point x="964" y="187" type="line" smooth="yes"/>
+      <point x="964" y="188"/>
+      <point x="963" y="189"/>
+      <point x="962" y="189" type="curve" smooth="yes"/>
+      <point x="675" y="189" type="line"/>
+      <point x="675" y="275" type="line"/>
+      <point x="881" y="275" type="line" smooth="yes"/>
+      <point x="882" y="275"/>
+      <point x="883" y="276"/>
+      <point x="883" y="277" type="curve" smooth="yes"/>
+      <point x="883" y="452" type="line" smooth="yes"/>
+      <point x="883" y="453"/>
+      <point x="882" y="454"/>
+      <point x="881" y="454" type="curve" smooth="yes"/>
+      <point x="675" y="454" type="line"/>
+      <point x="675" y="531" type="line"/>
+      <point x="962" y="531" type="line" smooth="yes"/>
+      <point x="963" y="531"/>
+      <point x="964" y="532"/>
+      <point x="964" y="533" type="curve" smooth="yes"/>
+      <point x="964" y="718" type="line" smooth="yes"/>
+      <point x="964" y="719"/>
+      <point x="963" y="720"/>
+      <point x="962" y="720" type="curve" smooth="yes"/>
+      <point x="367" y="720" type="line" smooth="yes"/>
+      <point x="119" y="720"/>
+      <point x="64" y="637"/>
+      <point x="64" y="516" type="curve" smooth="yes"/>
+      <point x="64" y="2" type="line" smooth="yes"/>
+      <point x="64" y="1"/>
+      <point x="65" y="0"/>
+    </contour>
+    <contour>
+      <point x="254" y="185" type="curve" smooth="yes"/>
+      <point x="464" y="185" type="line" smooth="yes"/>
+      <point x="465" y="185"/>
+      <point x="466" y="186"/>
+      <point x="466" y="187" type="curve" smooth="yes"/>
+      <point x="466" y="366" type="line" smooth="yes"/>
+      <point x="466" y="367"/>
+      <point x="465" y="368"/>
+      <point x="464" y="368" type="curve" smooth="yes"/>
+      <point x="254" y="368" type="line" smooth="yes"/>
+      <point x="253" y="368"/>
+      <point x="252" y="367"/>
+      <point x="252" y="366" type="curve" smooth="yes"/>
+      <point x="252" y="187" type="line" smooth="yes"/>
+      <point x="252" y="186"/>
+      <point x="253" y="185"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-09 19:56:19</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>A.salt</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>E</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

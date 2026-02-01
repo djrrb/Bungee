@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ampersand.salt_v" format="2">
+  <advance height="1320" width="1000"/>
+  <unicode hex="E243"/>
+  <outline>
+    <contour>
+      <point x="0" y="-145" type="line"/>
+      <point x="0" y="864" type="line"/>
+      <point x="1000" y="864" type="line"/>
+      <point x="1000" y="-145" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackrightpointingtriangle" format="2">
+  <advance height="1320" width="1000"/>
+  <unicode hex="25B6"/>
+  <outline>
+    <contour>
+      <point x="204" y="-23" type="curve" smooth="yes"/>
+      <point x="571" y="200" type="line"/>
+      <point x="572" y="201" type="line" smooth="yes"/>
+      <point x="584" y="210" type="line"/>
+      <point x="713" y="319" type="line" smooth="yes"/>
+      <point x="728" y="331"/>
+      <point x="736" y="345"/>
+      <point x="736" y="364" type="curve" smooth="yes"/>
+      <point x="736" y="390"/>
+      <point x="723" y="405"/>
+      <point x="700" y="419" type="curve" smooth="yes"/>
+      <point x="333" y="644" type="line" smooth="yes"/>
+      <point x="314" y="655"/>
+      <point x="291" y="653"/>
+      <point x="277" y="640" type="curve" smooth="yes"/>
+      <point x="148" y="533" type="line"/>
+      <point x="147" y="532" type="line" smooth="yes"/>
+      <point x="140" y="525"/>
+      <point x="136" y="517"/>
+      <point x="136" y="506" type="curve" smooth="yes"/>
+      <point x="136" y="5" type="line" smooth="yes"/>
+      <point x="136" y="-22"/>
+      <point x="173" y="-43"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:01:19</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

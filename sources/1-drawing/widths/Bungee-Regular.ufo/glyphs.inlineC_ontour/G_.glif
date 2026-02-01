@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="G" format="2">
+  <advance height="1320" width="708"/>
+  <unicode hex="0047"/>
+  <outline>
+    <contour>
+      <point x="500" y="625" type="move"/>
+      <point x="326" y="625" type="line"/>
+      <point x="203" y="625"/>
+      <point x="171" y="591"/>
+      <point x="171" y="499" type="curve"/>
+      <point x="171" y="219" type="line"/>
+      <point x="171" y="129"/>
+      <point x="205" y="95"/>
+      <point x="346" y="95" type="curve"/>
+      <point x="541" y="95" type="line"/>
+      <point x="541" y="291" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:40:43</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

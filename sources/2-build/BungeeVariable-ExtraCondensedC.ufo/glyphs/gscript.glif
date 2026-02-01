@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gscript" format="2">
+  <advance height="1000" width="265"/>
+  <unicode hex="0261"/>
+  <outline>
+    <contour>
+      <point x="159" y="496" type="curve"/>
+      <point x="159" y="399" type="line"/>
+      <point x="121" y="399" type="line" smooth="yes"/>
+      <point x="111" y="399"/>
+      <point x="106" y="414"/>
+      <point x="106" y="448" type="curve" smooth="yes"/>
+      <point x="106" y="494" type="line"/>
+      <point x="106" y="520"/>
+      <point x="110" y="540"/>
+      <point x="133" y="540" type="curve" smooth="yes"/>
+      <point x="156" y="540"/>
+      <point x="159" y="522"/>
+    </contour>
+    <contour>
+      <point x="34" y="530" type="curve"/>
+      <point x="34" y="414" type="line" smooth="yes"/>
+      <point x="34" y="275"/>
+      <point x="58" y="210"/>
+      <point x="112" y="210" type="curve" smooth="yes"/>
+      <point x="159" y="210" type="line"/>
+      <point x="159" y="176" type="line" smooth="yes"/>
+      <point x="159" y="148"/>
+      <point x="156" y="128"/>
+      <point x="139" y="128" type="curve" smooth="yes"/>
+      <point x="72" y="128" type="line" smooth="yes"/>
+      <point x="64" y="128"/>
+      <point x="60" y="117"/>
+      <point x="60" y="92" type="curve" smooth="yes"/>
+      <point x="60" y="-25" type="line" smooth="yes"/>
+      <point x="60" y="-50"/>
+      <point x="64" y="-61"/>
+      <point x="72" y="-61" type="curve" smooth="yes"/>
+      <point x="153" y="-61" type="line" smooth="yes"/>
+      <point x="213" y="-61"/>
+      <point x="232" y="22"/>
+      <point x="232" y="143" type="curve" smooth="yes"/>
+      <point x="232" y="530" type="line"/>
+      <point x="232" y="652"/>
+      <point x="212" y="735"/>
+      <point x="133" y="735" type="curve" smooth="yes"/>
+      <point x="54" y="735"/>
+      <point x="34" y="652"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

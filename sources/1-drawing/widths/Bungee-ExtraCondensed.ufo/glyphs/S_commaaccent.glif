@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Scommaaccent" format="2">
+  <advance height="1320" width="409"/>
+  <unicode hex="0218"/>
+  <anchor x="203" y="-27" name="bottom"/>
+  <anchor x="221" y="747" name="top"/>
+  <outline>
+    <component base="S"/>
+    <component base="commaaccent" xOffset="105"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:16:46</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>S</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:41:14</string>
+      <key>public.markColor</key>
+      <string>0,0.502,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

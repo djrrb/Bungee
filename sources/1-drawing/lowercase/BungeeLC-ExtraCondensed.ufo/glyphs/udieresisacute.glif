@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="udieresisacute" format="2">
+  <advance height="1320" width="473"/>
+  <unicode hex="01D8"/>
+  <anchor x="236" y="1020" name="top"/>
+  <anchor x="237" y="-27" name="bottom"/>
+  <anchor x="176" y="0" name="ogonek"/>
+  <anchor x="453" y="580" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="dieresis" xOffset="139" yOffset="-140"/>
+    <component base="acute" xOffset="138" yOffset="51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>acute</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 21:11:22</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Udieresismacron" format="2">
+  <advance height="1320" width="501"/>
+  <unicode hex="01D5"/>
+  <anchor x="251" y="-29" name="bottom"/>
+  <anchor x="176" y="-15" name="ogonek"/>
+  <anchor x="251" y="1141" name="top"/>
+  <anchor x="481" y="720" name="topright"/>
+  <outline>
+    <component base="Udieresis"/>
+    <component base="macron" xOffset="160" yOffset="188"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>macron</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

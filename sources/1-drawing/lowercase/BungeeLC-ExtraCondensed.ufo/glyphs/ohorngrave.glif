@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorngrave" format="2">
+  <advance height="1320" width="467"/>
+  <unicode hex="1EDD"/>
+  <anchor x="234" y="-27" name="bottom"/>
+  <anchor x="234" y="290" name="center"/>
+  <anchor x="420" y="10" name="ogonek"/>
+  <anchor x="224" y="896" name="top"/>
+  <anchor x="447" y="580" name="topright"/>
+  <outline>
+    <component base="ohorn"/>
+    <component base="grave" xOffset="126" yOffset="-70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>grave</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 21:07:54</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

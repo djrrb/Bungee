@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aring.v" format="2">
+  <advance height="1011" width="356"/>
+  <unicode hex="E18F"/>
+  <outline>
+    <contour>
+      <point x="140" y="0" type="line" smooth="yes"/>
+      <point x="148" y="0"/>
+      <point x="152" y="11"/>
+      <point x="152" y="36" type="curve" smooth="yes"/>
+      <point x="152" y="308" type="line"/>
+      <point x="168" y="474" type="line" smooth="yes"/>
+      <point x="170" y="488"/>
+      <point x="171" y="491"/>
+      <point x="174" y="491" type="curve" smooth="yes"/>
+      <point x="180" y="491" type="line" smooth="yes"/>
+      <point x="183" y="491"/>
+      <point x="184" y="488"/>
+      <point x="186" y="474" type="curve" smooth="yes"/>
+      <point x="202" y="308" type="line"/>
+      <point x="202" y="36" type="line" smooth="yes"/>
+      <point x="202" y="11"/>
+      <point x="206" y="0"/>
+      <point x="214" y="0" type="curve" smooth="yes"/>
+      <point x="263" y="0" type="line" smooth="yes"/>
+      <point x="271" y="0"/>
+      <point x="274" y="11"/>
+      <point x="274" y="36" type="curve" smooth="yes"/>
+      <point x="274" y="270" type="line" smooth="yes"/>
+      <point x="274" y="329"/>
+      <point x="271" y="371"/>
+      <point x="265" y="420" type="curve"/>
+      <point x="246" y="593" type="line"/>
+      <point x="242" y="624"/>
+      <point x="237" y="634"/>
+      <point x="226" y="634" type="curve" smooth="yes"/>
+      <point x="130" y="634" type="line" smooth="yes"/>
+      <point x="119" y="634"/>
+      <point x="114" y="622"/>
+      <point x="110" y="593" type="curve"/>
+      <point x="91" y="420" type="line" smooth="yes"/>
+      <point x="85" y="371"/>
+      <point x="82" y="329"/>
+      <point x="82" y="270" type="curve" smooth="yes"/>
+      <point x="82" y="36" type="line" smooth="yes"/>
+      <point x="82" y="11"/>
+      <point x="85" y="0"/>
+      <point x="93" y="0" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="215" y="176" type="curve" smooth="yes"/>
+      <point x="215" y="318" type="line" smooth="yes"/>
+      <point x="215" y="331"/>
+      <point x="208" y="338"/>
+      <point x="195" y="338" type="curve" smooth="yes"/>
+      <point x="159" y="338" type="line" smooth="yes"/>
+      <point x="146" y="338"/>
+      <point x="139" y="331"/>
+      <point x="139" y="318" type="curve" smooth="yes"/>
+      <point x="139" y="176" type="line" smooth="yes"/>
+      <point x="139" y="163"/>
+      <point x="146" y="156"/>
+      <point x="159" y="156" type="curve" smooth="yes"/>
+      <point x="195" y="156" type="line" smooth="yes"/>
+      <point x="208" y="156"/>
+      <point x="215" y="163"/>
+    </contour>
+    <contour>
+      <point x="248" y="789" type="line" smooth="yes"/>
+      <point x="248" y="874"/>
+      <point x="234" y="932"/>
+      <point x="178" y="932" type="curve" smooth="yes"/>
+      <point x="122" y="932"/>
+      <point x="109" y="874"/>
+      <point x="109" y="789" type="curve" smooth="yes"/>
+      <point x="109" y="731" type="line" smooth="yes"/>
+      <point x="109" y="646"/>
+      <point x="122" y="588"/>
+      <point x="178" y="588" type="curve" smooth="yes"/>
+      <point x="234" y="588"/>
+      <point x="248" y="646"/>
+      <point x="248" y="731" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="197" y="724" type="line" smooth="yes"/>
+      <point x="197" y="695"/>
+      <point x="194" y="681"/>
+      <point x="178" y="681" type="curve" smooth="yes"/>
+      <point x="163" y="681"/>
+      <point x="160" y="695"/>
+      <point x="160" y="724" type="curve" smooth="yes"/>
+      <point x="160" y="759" type="line" smooth="yes"/>
+      <point x="160" y="785"/>
+      <point x="163" y="799"/>
+      <point x="178" y="799" type="curve" smooth="yes"/>
+      <point x="194" y="799"/>
+      <point x="197" y="785"/>
+      <point x="197" y="759" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 18:16:01</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

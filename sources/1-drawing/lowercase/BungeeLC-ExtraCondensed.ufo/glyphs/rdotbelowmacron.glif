@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rdotbelowmacron" format="2">
+  <advance height="1320" width="319"/>
+  <unicode hex="1E5D"/>
+  <anchor x="124" y="-27" name="bottom"/>
+  <anchor x="160" y="813" name="top"/>
+  <outline>
+    <component base="r"/>
+    <component base="macroncmb" xOffset="142" yOffset="-140"/>
+    <component base="dotbelowcmb" xOffset="113"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 21:09:10</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

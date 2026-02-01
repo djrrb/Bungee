@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecmb" format="2">
+  <advance height="1320"/>
+  <unicode hex="0303"/>
+  <outline>
+    <contour>
+      <point x="46" y="648" type="curve" smooth="yes"/>
+      <point x="46" y="649" type="line"/>
+      <point x="47" y="649" type="line" smooth="yes"/>
+      <point x="58" y="653"/>
+      <point x="67" y="658"/>
+      <point x="73" y="663" type="curve" smooth="yes"/>
+      <point x="203" y="772" type="line" smooth="yes"/>
+      <point x="212" y="780"/>
+      <point x="218" y="790"/>
+      <point x="218" y="808" type="curve" smooth="yes"/>
+      <point x="218" y="909" type="line" smooth="yes"/>
+      <point x="218" y="943"/>
+      <point x="202" y="954"/>
+      <point x="169" y="945" type="curve" smooth="yes"/>
+      <point x="112" y="927"/>
+      <point x="108" y="924"/>
+      <point x="22" y="937" type="curve" smooth="yes"/>
+      <point x="0" y="940" type="line"/>
+      <point x="-17" y="942" type="line" smooth="yes"/>
+      <point x="-99" y="954"/>
+      <point x="-112" y="956"/>
+      <point x="-177" y="937" type="curve" smooth="yes"/>
+      <point x="-177" y="936" type="line"/>
+      <point x="-178" y="936" type="line" smooth="yes"/>
+      <point x="-189" y="932"/>
+      <point x="-199" y="927"/>
+      <point x="-205" y="922" type="curve" smooth="yes"/>
+      <point x="-334" y="814" type="line" smooth="yes"/>
+      <point x="-345" y="805"/>
+      <point x="-349" y="795"/>
+      <point x="-349" y="777" type="curve" smooth="yes"/>
+      <point x="-349" y="676" type="line" smooth="yes"/>
+      <point x="-349" y="642"/>
+      <point x="-333" y="631"/>
+      <point x="-300" y="640" type="curve" smooth="yes"/>
+      <point x="-249" y="656"/>
+      <point x="-233" y="660"/>
+      <point x="-159" y="649" type="curve" smooth="yes"/>
+      <point x="-131" y="645" type="line"/>
+      <point x="-115" y="643" type="line"/>
+      <point x="-33" y="631"/>
+      <point x="-19" y="629"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

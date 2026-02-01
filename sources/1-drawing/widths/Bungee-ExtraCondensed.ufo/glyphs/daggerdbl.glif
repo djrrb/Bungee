@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daggerdbl" format="2">
+  <advance height="1000" width="447"/>
+  <unicode hex="2021"/>
+  <outline>
+    <contour>
+      <point x="131" y="-20" type="line"/>
+      <point x="316" y="-20" type="line"/>
+      <point x="308" y="130" type="line"/>
+      <point x="413" y="104" type="line"/>
+      <point x="413" y="284" type="line"/>
+      <point x="305" y="259" type="line"/>
+      <point x="317" y="359" type="line"/>
+      <point x="305" y="461" type="line"/>
+      <point x="413" y="436" type="line"/>
+      <point x="413" y="615" type="line"/>
+      <point x="308" y="590" type="line"/>
+      <point x="316" y="740" type="line"/>
+      <point x="131" y="740" type="line"/>
+      <point x="139" y="590" type="line"/>
+      <point x="34" y="615" type="line"/>
+      <point x="34" y="436" type="line"/>
+      <point x="142" y="461" type="line"/>
+      <point x="130" y="359" type="line"/>
+      <point x="142" y="259" type="line"/>
+      <point x="34" y="284" type="line"/>
+      <point x="34" y="104" type="line"/>
+      <point x="139" y="130" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:41:33</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

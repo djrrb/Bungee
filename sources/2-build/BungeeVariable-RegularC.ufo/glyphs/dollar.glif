@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dollar" format="2">
+  <advance height="1000" width="650"/>
+  <unicode hex="0024"/>
+  <anchor x="325" y="-27" name="bottom"/>
+  <anchor x="328" y="747" name="top"/>
+  <outline>
+    <contour>
+      <point x="224" y="47" type="curve" smooth="yes"/>
+      <point x="224" y="-54" type="line" smooth="yes"/>
+      <point x="224" y="-77"/>
+      <point x="237" y="-90"/>
+      <point x="260" y="-90" type="curve" smooth="yes"/>
+      <point x="405" y="-90" type="line" smooth="yes"/>
+      <point x="428" y="-90"/>
+      <point x="441" y="-77"/>
+      <point x="441" y="-54" type="curve" smooth="yes"/>
+      <point x="441" y="47" type="line" smooth="yes"/>
+      <point x="441" y="70"/>
+      <point x="428" y="83"/>
+      <point x="405" y="83" type="curve" smooth="yes"/>
+      <point x="260" y="83" type="line" smooth="yes"/>
+      <point x="237" y="83"/>
+      <point x="224" y="70"/>
+    </contour>
+    <contour>
+      <point x="441" y="658" type="curve" smooth="yes"/>
+      <point x="441" y="774" type="line" smooth="yes"/>
+      <point x="441" y="797"/>
+      <point x="428" y="810"/>
+      <point x="405" y="810" type="curve" smooth="yes"/>
+      <point x="260" y="810" type="line" smooth="yes"/>
+      <point x="237" y="810"/>
+      <point x="224" y="797"/>
+      <point x="224" y="774" type="curve" smooth="yes"/>
+      <point x="224" y="658" type="line" smooth="yes"/>
+      <point x="224" y="635"/>
+      <point x="237" y="622"/>
+      <point x="260" y="622" type="curve" smooth="yes"/>
+      <point x="405" y="622" type="line" smooth="yes"/>
+      <point x="428" y="622"/>
+      <point x="441" y="635"/>
+    </contour>
+    <component base="S"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:09:07</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>S</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 13:20:12</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PPC</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

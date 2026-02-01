@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="P" format="2">
+  <advance height="1320" width="682"/>
+  <unicode hex="0050"/>
+  <outline>
+    <contour>
+      <point x="186" y="90" type="move"/>
+      <point x="186" y="625" type="line"/>
+      <point x="397" y="625" type="line"/>
+      <point x="519" y="625"/>
+      <point x="542" y="569"/>
+      <point x="542" y="494" type="curve"/>
+      <point x="542" y="420" type="line"/>
+      <point x="542" y="345"/>
+      <point x="518" y="292"/>
+      <point x="397" y="292" type="curve"/>
+      <point x="186" y="292" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

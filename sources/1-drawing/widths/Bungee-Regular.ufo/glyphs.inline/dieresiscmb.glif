@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscmb" format="2">
+  <advance height="1320"/>
+  <unicode hex="0308"/>
+  <outline>
+    <contour>
+      <point x="-136" y="830" type="line"/>
+      <point x="-136" y="877" type="line"/>
+      <point x="-126" y="877" type="line"/>
+      <point x="-126" y="830" type="line"/>
+    </contour>
+    <contour>
+      <point x="122" y="830" type="line"/>
+      <point x="122" y="877" type="line"/>
+      <point x="132" y="877" type="line"/>
+      <point x="132" y="830" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

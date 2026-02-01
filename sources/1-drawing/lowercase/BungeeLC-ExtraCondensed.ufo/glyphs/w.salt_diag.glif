@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="w.salt_diag" format="2">
+  <advance height="1320" width="529"/>
+  <anchor x="264" y="-27" name="bottom"/>
+  <anchor x="264" y="607" name="top"/>
+  <outline>
+    <contour>
+      <point x="77" y="0" type="line"/>
+      <point x="218" y="0" type="line"/>
+      <point x="257" y="167" type="line" smooth="yes"/>
+      <point x="259" y="174"/>
+      <point x="260" y="177"/>
+      <point x="264" y="177" type="curve" smooth="yes"/>
+      <point x="265" y="177" type="line" smooth="yes"/>
+      <point x="269" y="177"/>
+      <point x="270" y="174"/>
+      <point x="272" y="167" type="curve" smooth="yes"/>
+      <point x="311" y="0" type="line"/>
+      <point x="451" y="0" type="line"/>
+      <point x="490" y="172" type="line" smooth="yes"/>
+      <point x="498" y="208"/>
+      <point x="496" y="243"/>
+      <point x="496" y="296" type="curve" smooth="yes"/>
+      <point x="496" y="580" type="line"/>
+      <point x="322" y="580" type="line"/>
+      <point x="322" y="285" type="line"/>
+      <point x="289" y="399" type="line" smooth="yes"/>
+      <point x="285" y="413"/>
+      <point x="280" y="419"/>
+      <point x="272" y="419" type="curve" smooth="yes"/>
+      <point x="259" y="419" type="line" smooth="yes"/>
+      <point x="250" y="419"/>
+      <point x="246" y="413"/>
+      <point x="242" y="399" type="curve" smooth="yes"/>
+      <point x="208" y="285" type="line"/>
+      <point x="208" y="580" type="line"/>
+      <point x="33" y="580" type="line"/>
+      <point x="33" y="298" type="line" smooth="yes"/>
+      <point x="33" y="245"/>
+      <point x="31" y="210"/>
+      <point x="39" y="174" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 23:36:03</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

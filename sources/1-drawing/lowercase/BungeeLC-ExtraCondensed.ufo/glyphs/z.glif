@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z" format="2">
+  <advance height="1320" width="397"/>
+  <unicode hex="007A"/>
+  <anchor x="201" y="-27" name="bottom"/>
+  <anchor x="201" y="290" name="center"/>
+  <anchor x="201" y="607" name="top"/>
+  <outline>
+    <contour>
+      <point x="369" y="0" type="line"/>
+      <point x="369" y="150" type="line"/>
+      <point x="216" y="150" type="line"/>
+      <point x="363" y="411" type="line"/>
+      <point x="363" y="580" type="line"/>
+      <point x="34" y="580" type="line"/>
+      <point x="34" y="430" type="line"/>
+      <point x="180" y="430" type="line"/>
+      <point x="28" y="158" type="line"/>
+      <point x="29" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:19:46</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 21:13:28</string>
+      <key>public.markColor</key>
+      <string>0.502,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

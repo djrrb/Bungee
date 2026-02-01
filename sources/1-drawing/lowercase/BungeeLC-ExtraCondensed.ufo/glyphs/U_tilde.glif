@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Utilde" format="2">
+  <advance height="1320" width="503"/>
+  <unicode hex="0168"/>
+  <anchor x="251" y="-29" name="bottom"/>
+  <anchor x="176" y="-15" name="ogonek"/>
+  <anchor x="251" y="953" name="top"/>
+  <anchor x="481" y="720" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="tilde" xOffset="153"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 12:19:09</string>
+      <key>public.markColor</key>
+      <string>0,0.502,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

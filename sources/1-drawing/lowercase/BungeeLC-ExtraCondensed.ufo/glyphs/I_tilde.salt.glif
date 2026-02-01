@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Itilde.salt" format="2">
+  <advance height="1000" width="268"/>
+  <unicode hex="E119"/>
+  <anchor x="134" y="0" name="bottom"/>
+  <anchor x="241" y="10" name="ogonek"/>
+  <anchor x="71" y="953" name="top"/>
+  <anchor x="20" y="1020" name="topleft"/>
+  <outline>
+    <component base="I.salt"/>
+    <component base="tilde" xOffset="36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>I.salt</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.markColor</key>
+      <string>0,0.502,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

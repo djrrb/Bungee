@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="trademark" format="2">
+  <advance height="1000" width="903"/>
+  <unicode hex="2122"/>
+  <outline>
+    <contour>
+      <point x="124" y="287" type="line"/>
+      <point x="271" y="287" type="line"/>
+      <point x="271" y="597" type="line"/>
+      <point x="379" y="597" type="line"/>
+      <point x="379" y="720" type="line"/>
+      <point x="16" y="720" type="line"/>
+      <point x="16" y="597" type="line"/>
+      <point x="124" y="597" type="line"/>
+    </contour>
+    <contour>
+      <point x="426" y="287" type="line"/>
+      <point x="567" y="287" type="line"/>
+      <point x="567" y="503" type="line"/>
+      <point x="593" y="454" type="line"/>
+      <point x="600" y="439"/>
+      <point x="611" y="432"/>
+      <point x="627" y="432" type="curve"/>
+      <point x="646" y="432" type="line"/>
+      <point x="662" y="432"/>
+      <point x="673" y="439"/>
+      <point x="681" y="454" type="curve"/>
+      <point x="707" y="503" type="line"/>
+      <point x="707" y="287" type="line"/>
+      <point x="854" y="287" type="line"/>
+      <point x="854" y="720" type="line"/>
+      <point x="726" y="720" type="line"/>
+      <point x="650" y="606" type="line"/>
+      <point x="644" y="598"/>
+      <point x="643" y="597"/>
+      <point x="643" y="597" type="curve"/>
+      <point x="638" y="597" type="line"/>
+      <point x="637" y="597"/>
+      <point x="636" y="597"/>
+      <point x="631" y="606" type="curve"/>
+      <point x="561" y="720" type="line"/>
+      <point x="426" y="720" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 16:54:01</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 14:18:33</string>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

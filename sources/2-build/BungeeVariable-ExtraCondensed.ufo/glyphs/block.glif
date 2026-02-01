@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="block" format="2">
+  <advance height="1000" width="1000"/>
+  <unicode hex="2588"/>
+  <outline>
+    <contour>
+      <point x="1040" y="-180" type="line"/>
+      <point x="-40" y="-180" type="line"/>
+      <point x="-40" y="900" type="line"/>
+      <point x="1040" y="900" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

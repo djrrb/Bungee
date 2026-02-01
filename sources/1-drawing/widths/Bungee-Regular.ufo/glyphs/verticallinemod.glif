@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticallinemod" format="2">
+  <advance height="1000" width="356"/>
+  <unicode hex="02C8"/>
+  <outline>
+    <contour>
+      <point x="295" y="345" type="line"/>
+      <point x="295" y="720" type="line"/>
+      <point x="61" y="720" type="line"/>
+      <point x="61" y="345" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 14:21:44</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jcircumflex" format="2">
+  <advance height="1320" width="253"/>
+  <unicode hex="0135"/>
+  <anchor x="130" y="-300" name="bottom"/>
+  <anchor x="130" y="857" name="top"/>
+  <outline>
+    <component base="dotlessj"/>
+    <component base="circumflexcmb" xOffset="112" yOffset="-139"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 21:02:06</string>
+      <key>public.markColor</key>
+      <string>0.502,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brokenbar" format="2">
+  <advance height="1000" width="347"/>
+  <unicode hex="00A6"/>
+  <outline>
+    <contour>
+      <point x="280" y="810" type="curve" smooth="yes"/>
+      <point x="67" y="810" type="line" smooth="yes"/>
+      <point x="66" y="810"/>
+      <point x="65" y="809"/>
+      <point x="65" y="808" type="curve" smooth="yes"/>
+      <point x="65" y="402" type="line" smooth="yes"/>
+      <point x="65" y="401"/>
+      <point x="66" y="400"/>
+      <point x="67" y="400" type="curve" smooth="yes"/>
+      <point x="280" y="400" type="line" smooth="yes"/>
+      <point x="281" y="400"/>
+      <point x="282" y="401"/>
+      <point x="282" y="402" type="curve" smooth="yes"/>
+      <point x="282" y="808" type="line" smooth="yes"/>
+      <point x="282" y="809"/>
+      <point x="281" y="810"/>
+    </contour>
+    <contour>
+      <point x="280" y="320" type="curve" smooth="yes"/>
+      <point x="67" y="320" type="line" smooth="yes"/>
+      <point x="66" y="320"/>
+      <point x="65" y="319"/>
+      <point x="65" y="318" type="curve" smooth="yes"/>
+      <point x="65" y="-88" type="line" smooth="yes"/>
+      <point x="65" y="-89"/>
+      <point x="66" y="-90"/>
+      <point x="67" y="-90" type="curve" smooth="yes"/>
+      <point x="280" y="-90" type="line" smooth="yes"/>
+      <point x="281" y="-90"/>
+      <point x="282" y="-89"/>
+      <point x="282" y="-88" type="curve" smooth="yes"/>
+      <point x="282" y="318" type="line" smooth="yes"/>
+      <point x="282" y="319"/>
+      <point x="281" y="320"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-07 20:25:57</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

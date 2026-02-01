@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="t" format="2">
+  <advance height="1320" width="369"/>
+  <unicode hex="0074"/>
+  <outline>
+    <contour>
+      <point x="271" y="720" type="line"/>
+      <point x="98" y="720" type="line"/>
+      <point x="98" y="0" type="line"/>
+      <point x="271" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="580" type="line"/>
+      <point x="20" y="430" type="line"/>
+      <point x="349" y="430" type="line"/>
+      <point x="349" y="580" type="line"/>
+    </contour>
+    <contour>
+      <point x="98" y="740" type="line"/>
+      <point x="98" y="665" type="line"/>
+      <point x="271" y="665" type="line"/>
+      <point x="271" y="740" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:19:46</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 21:10:55</string>
+      <key>public.markColor</key>
+      <string>0.502,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance height="1000" width="698"/>
+  <unicode hex="0141"/>
+  <anchor x="367" y="747" name="top"/>
+  <outline>
+    <contour>
+      <point x="20" y="458" type="line"/>
+      <point x="20" y="279" type="line"/>
+      <point x="500" y="391" type="line"/>
+      <point x="500" y="570" type="line"/>
+    </contour>
+    <contour>
+      <point x="660" y="0" type="line"/>
+      <point x="660" y="347" type="line"/>
+      <point x="443" y="347" type="line"/>
+      <point x="443" y="189" type="line"/>
+      <point x="306" y="189" type="line"/>
+      <point x="306" y="720" type="line"/>
+      <point x="79" y="720" type="line"/>
+      <point x="79" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:08:14</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=L+3</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 01:35:28</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

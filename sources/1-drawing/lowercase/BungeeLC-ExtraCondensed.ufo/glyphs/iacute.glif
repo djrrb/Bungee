@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iacute" format="2">
+  <advance height="1320" width="249"/>
+  <unicode hex="00ED"/>
+  <anchor x="124" y="-27" name="bottom"/>
+  <anchor x="-176" y="0" name="ogonek"/>
+  <anchor x="124" y="607" name="top"/>
+  <outline>
+    <contour>
+      <point x="253" y="665" type="line"/>
+      <point x="253" y="800" type="line"/>
+      <point x="15" y="747" type="line"/>
+      <point x="15" y="613" type="line"/>
+    </contour>
+    <component base="dotlessi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>dotlessi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 23:28:17</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.502,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

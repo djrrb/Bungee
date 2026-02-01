@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohorndotbelow" format="2">
+  <advance height="1320" width="747"/>
+  <unicode hex="1EE2"/>
+  <anchor x="369" y="-29" name="bottom"/>
+  <anchor x="369" y="749" name="top"/>
+  <outline>
+    <component base="Ohorn"/>
+    <component base="dotbelowcmb" xOffset="369" yOffset="-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:46:46</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="six.v" format="2">
+  <advance height="1320" width="1000"/>
+  <unicode hex="FF16"/>
+  <outline>
+    <contour>
+      <point x="0" y="-72" type="line"/>
+      <point x="0" y="787" type="line"/>
+      <point x="1000" y="787" type="line"/>
+      <point x="1000" y="-72" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

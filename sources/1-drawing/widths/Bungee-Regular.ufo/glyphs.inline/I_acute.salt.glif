@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iacute.salt" format="2">
+  <advance height="1320" width="371"/>
+  <unicode hex="E116"/>
+  <outline>
+    <contour>
+      <point x="289" y="875" type="line"/>
+      <point x="289" y="865" type="line"/>
+      <point x="80" y="839" type="line"/>
+      <point x="80" y="849" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=I.salt</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

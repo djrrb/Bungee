@@ -1,0 +1,23 @@
+@vertical_off = [ space A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek B C Ccedilla Cacute Ccircumflex Cdotaccent Ccaron D Dcaron E Egrave Eacute Ecircumflex Edieresis Emacron Ebreve Edotaccent Eogonek Ecaron F G Gcircumflex Gbreve Gdotaccent Gcommaaccent H Hcircumflex I Igrave Iacute Icircumflex Idieresis Itilde Imacron Ibreve Iogonek Idotaccent J Jcircumflex K Kcommaaccent L Lacute Lcommaaccent Lcaron M N Ntilde Nacute Ncommaaccent Ncaron O Ograve Oacute Ocircumflex Otilde Odieresis Omacron Obreve Ohungarumlaut P Q R Racute Rcommaaccent Rcaron S Sacute Scircumflex Scedilla Scaron Scommaaccent T Tcommaaccent Tcaron U Ugrave Uacute Ucircumflex Udieresis Utilde Umacron Ubreve Uring Uhungarumlaut Uogonek V W Wcircumflex Wgrave Wacute Wdieresis X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zdotaccent Zcaron AE Eth Oslash Thorn Dcroat Hbar IJ Ldot Lslash Eng OE Tbar commaaccent zero one two three four five six seven eight nine numbersign percent perthousand quotesingle quotedbl quoteleft quoteright quotedblleft quotedblright quotesinglbase quotedblbase guilsinglleft guilsinglright guillemotleft guillemotright asterisk dagger daggerdbl period comma colon semicolon ellipsis exclam exclamdown question questiondown at ampersand
+];
+
+@vertical_sorts_off = [ hyphen braceleft endash parenright emdash parenleft bracketright braceright bracketleft
+];
+
+@vertical = [ space.v A.v Agrave.v Aacute.v Acircumflex.v Atilde.v Adieresis.v Aring.v Amacron.v Abreve.v Aogonek.v B.v C.v Ccedilla.v Cacute.v Ccircumflex.v Cdotaccent.v Ccaron.v D.v Dcaron.v E.v Egrave.v Eacute.v Ecircumflex.v Edieresis.v Emacron.v Ebreve.v Edotaccent.v Eogonek.v Ecaron.v F.v G.v Gcircumflex.v Gbreve.v Gdotaccent.v Gcommaaccent.v H.v Hcircumflex.v I.v Igrave.v Iacute.v Icircumflex.v Idieresis.v Itilde.v Imacron.v Ibreve.v Iogonek.v Idotaccent.v J.v Jcircumflex.v K.v Kcommaaccent.v L.v Lacute.v Lcommaaccent.v Lcaron.v M.v N.v Ntilde.v Nacute.v Ncommaaccent.v Ncaron.v O.v Ograve.v Oacute.v Ocircumflex.v Otilde.v Odieresis.v Omacron.v Obreve.v Ohungarumlaut.v P.v Q.v R.v Racute.v Rcommaaccent.v Rcaron.v S.v Sacute.v Scircumflex.v Scedilla.v Scaron.v Scommaaccent.v T.v Tcommaaccent.v Tcaron.v U.v Ugrave.v Uacute.v Ucircumflex.v Udieresis.v Utilde.v Umacron.v Ubreve.v Uring.v Uhungarumlaut.v Uogonek.v V.v W.v Wcircumflex.v Wgrave.v Wacute.v Wdieresis.v X.v Y.v Yacute.v Ycircumflex.v Ydieresis.v Ygrave.v Z.v Zacute.v Zdotaccent.v Zcaron.v AE.v Eth.v Oslash.v Thorn.v Dcroat.v Hbar.v IJ.v Ldot.v Lslash.v Eng.v OE.v Tbar.v commaaccent.v zero.v one.v two.v three.v four.v five.v six.v seven.v eight.v nine.v percent.v perthousand.v quotesingle.v quotedbl.v quoteleft.v quoteright.v quotedblleft.v quotedblright.v quotesinglbase.v quotedblbase.v guilsinglleft.v guilsinglright.v guillemotleft.v guillemotright.v period.v comma.v colon.v semicolon.v ellipsis.v exclam.v exclamdown.v question.v questiondown.v ampersand.v
+];
+
+@vertical_sorts = [ hyphen.v braceright.v endash.v parenleft.v emdash.v parenright.v bracketleft.v braceleft.v bracketright.v
+];
+
+@lc = [ 
+];
+
+# Prefix: Prefix
+# standard features
+include(features/classes.fea);
+include(features/features.fea);
+# vertical features
+include(features/vertical.fea);
+include(features/blocks.fea);
+include(features/vkrn.fea);

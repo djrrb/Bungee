@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ldotbelowmacron.salt_straight" format="2">
+  <advance height="1320" width="251"/>
+  <anchor x="127" y="-27" name="bottom"/>
+  <anchor x="125" y="510" name="center"/>
+  <anchor x="127" y="974" name="top"/>
+  <anchor x="274" y="1020" name="topright"/>
+  <outline>
+    <component base="l.salt_straight"/>
+    <component base="dotbelowcmb" xOffset="116"/>
+    <component base="macroncmb" xOffset="109" yOffset="21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 23:39:09</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

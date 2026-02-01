@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketleft.v" format="2">
+  <advance height="429" width="356"/>
+  <unicode hex="E22D"/>
+  <outline>
+    <contour>
+      <point x="258" y="300" type="line"/>
+      <point x="258" y="228" type="line" smooth="yes"/>
+      <point x="258" y="203"/>
+      <point x="262" y="192"/>
+      <point x="270" y="192" type="curve" smooth="yes"/>
+      <point x="308" y="192" type="line" smooth="yes"/>
+      <point x="316" y="192"/>
+      <point x="319" y="203"/>
+      <point x="319" y="228" type="curve" smooth="yes"/>
+      <point x="319" y="492" type="line" smooth="yes"/>
+      <point x="319" y="517"/>
+      <point x="316" y="528"/>
+      <point x="308" y="528" type="curve" smooth="yes"/>
+      <point x="49" y="528" type="line" smooth="yes"/>
+      <point x="41" y="528"/>
+      <point x="37" y="517"/>
+      <point x="37" y="492" type="curve" smooth="yes"/>
+      <point x="37" y="228" type="line" smooth="yes"/>
+      <point x="37" y="203"/>
+      <point x="41" y="192"/>
+      <point x="49" y="192" type="curve" smooth="yes"/>
+      <point x="88" y="192" type="line" smooth="yes"/>
+      <point x="96" y="192"/>
+      <point x="99" y="203"/>
+      <point x="99" y="228" type="curve" smooth="yes"/>
+      <point x="99" y="300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 17:17:46</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

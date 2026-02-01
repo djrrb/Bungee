@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowup" format="2">
+  <advance height="1000" width="1000"/>
+  <unicode hex="2191"/>
+  <outline>
+    <contour>
+      <point x="602" y="41" type="curve" smooth="yes"/>
+      <point x="589" y="250" type="line"/>
+      <point x="761" y="250" type="line" smooth="yes"/>
+      <point x="783" y="250"/>
+      <point x="796" y="281"/>
+      <point x="781" y="303" type="curve" smooth="yes"/>
+      <point x="547" y="650" type="line" smooth="yes"/>
+      <point x="535" y="669"/>
+      <point x="522" y="681"/>
+      <point x="501" y="681" type="curve"/>
+      <point x="479" y="681"/>
+      <point x="466" y="669"/>
+      <point x="454" y="650" type="curve" smooth="yes"/>
+      <point x="220" y="303" type="line" smooth="yes"/>
+      <point x="205" y="281"/>
+      <point x="217" y="250"/>
+      <point x="240" y="250" type="curve" smooth="yes"/>
+      <point x="412" y="250" type="line"/>
+      <point x="399" y="41" type="line" smooth="yes"/>
+      <point x="399" y="40"/>
+      <point x="400" y="39"/>
+      <point x="401" y="39" type="curve" smooth="yes"/>
+      <point x="600" y="39" type="line" smooth="yes"/>
+      <point x="601" y="39"/>
+      <point x="602" y="40"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-07 20:25:57</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

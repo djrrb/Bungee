@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N" format="2">
+  <advance height="1000" width="753"/>
+  <unicode hex="004E"/>
+  <anchor x="377" y="-27" name="bottom"/>
+  <anchor x="376" y="747" name="top"/>
+  <outline>
+    <contour>
+      <point x="291" y="2" type="curve" smooth="yes"/>
+      <point x="291" y="366" type="line"/>
+      <point x="462" y="159" type="line"/>
+      <point x="462" y="2" type="line" smooth="yes"/>
+      <point x="462" y="1"/>
+      <point x="463" y="0"/>
+      <point x="464" y="0" type="curve" smooth="yes"/>
+      <point x="682" y="0" type="line" smooth="yes"/>
+      <point x="683" y="0"/>
+      <point x="684" y="1"/>
+      <point x="684" y="2" type="curve" smooth="yes"/>
+      <point x="684" y="718" type="line" smooth="yes"/>
+      <point x="684" y="719"/>
+      <point x="683" y="720"/>
+      <point x="682" y="720" type="curve" smooth="yes"/>
+      <point x="464" y="720" type="line" smooth="yes"/>
+      <point x="463" y="720"/>
+      <point x="462" y="719"/>
+      <point x="462" y="718" type="curve" smooth="yes"/>
+      <point x="462" y="471" type="line"/>
+      <point x="245" y="719" type="line" smooth="yes"/>
+      <point x="245" y="719"/>
+      <point x="244" y="720"/>
+      <point x="243" y="720" type="curve" smooth="yes"/>
+      <point x="71" y="720" type="line" smooth="yes"/>
+      <point x="70" y="720"/>
+      <point x="69" y="719"/>
+      <point x="69" y="718" type="curve" smooth="yes"/>
+      <point x="69" y="2" type="line" smooth="yes"/>
+      <point x="69" y="1"/>
+      <point x="70" y="0"/>
+      <point x="71" y="0" type="curve" smooth="yes"/>
+      <point x="289" y="0" type="line" smooth="yes"/>
+      <point x="290" y="0"/>
+      <point x="291" y="1"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

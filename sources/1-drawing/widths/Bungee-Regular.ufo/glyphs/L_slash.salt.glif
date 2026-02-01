@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash.salt" format="2">
+  <advance height="1000" width="615"/>
+  <unicode hex="E123"/>
+  <anchor x="356" y="0" name="bottom"/>
+  <anchor x="318" y="510" name="center"/>
+  <anchor x="289" y="747" name="top"/>
+  <anchor x="605" y="1020" name="topright"/>
+  <outline>
+    <contour>
+      <point x="20" y="458" type="line"/>
+      <point x="20" y="279" type="line"/>
+      <point x="400" y="341" type="line"/>
+      <point x="400" y="520" type="line"/>
+    </contour>
+    <component base="L.salt" xOffset="10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:08:14</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=L.salt</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 01:35:28</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ncaron.salt" format="2">
+  <advance height="1320" width="503"/>
+  <anchor x="130" y="987" name="top"/>
+  <anchor x="176" y="735" name="ogonek"/>
+  <anchor x="251" y="0" name="bottom"/>
+  <anchor x="481" y="0" name="bottomright"/>
+  <outline>
+    <component base="N.salt"/>
+    <component base="caron" xOffset="153"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>N.salt</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 13:04:48</string>
+      <key>public.markColor</key>
+      <string>0,0.502,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

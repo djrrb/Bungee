@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="product" format="2">
+  <advance height="1320" width="759"/>
+  <unicode hex="220F"/>
+  <outline>
+    <contour>
+      <point x="581" y="630" type="line"/>
+      <point x="581" y="90" type="line"/>
+      <point x="571" y="90" type="line"/>
+      <point x="571" y="630" type="line"/>
+    </contour>
+    <contour>
+      <point x="182" y="630" type="line"/>
+      <point x="576" y="630" type="line"/>
+      <point x="576" y="620" type="line"/>
+      <point x="182" y="620" type="line"/>
+    </contour>
+    <contour>
+      <point x="187" y="630" type="line"/>
+      <point x="187" y="90" type="line"/>
+      <point x="177" y="90" type="line"/>
+      <point x="177" y="630" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 14:01:34</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 21:45:25</string>
+      <key>com.typemytype.robofont.layerData</key>
+      <dict>
+        <key>background</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>product</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>759</integer>
+        </dict>
+        <key>inlineContour</key>
+        <dict>
+          <key>anchors</key>
+          <array/>
+          <key>components</key>
+          <array/>
+          <key>contours</key>
+          <array/>
+          <key>lib</key>
+          <dict/>
+          <key>name</key>
+          <string>product</string>
+          <key>unicodes</key>
+          <array/>
+          <key>width</key>
+          <integer>759</integer>
+        </dict>
+      </dict>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

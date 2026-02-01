@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25D6.v_spike" format="2">
+  <advance height="1320" width="1280"/>
+  <unicode hex="E16F"/>
+  <outline>
+    <contour>
+      <point x="91.192" y="182" type="line"/>
+      <point x="1191.192" y="182" type="line"/>
+      <point x="1191.192" y="234" type="line" smooth="yes"/>
+      <point x="1191.192" y="254"/>
+      <point x="1191.192" y="259"/>
+      <point x="1195.192" y="291" type="curve" smooth="yes"/>
+      <point x="1215.192" y="461" type="line" smooth="yes"/>
+      <point x="1218.192" y="483"/>
+      <point x="1195.192" y="500"/>
+      <point x="1173.192" y="491" type="curve" smooth="yes"/>
+      <point x="883.192" y="377" type="line"/>
+      <point x="882.192" y="377" type="line" smooth="yes"/>
+      <point x="877.192" y="374"/>
+      <point x="868.192" y="375"/>
+      <point x="864.192" y="380" type="curve" smooth="yes"/>
+      <point x="674.192" y="537" type="line" smooth="yes"/>
+      <point x="656.192" y="553"/>
+      <point x="626.192" y="553"/>
+      <point x="607.192" y="537" type="curve" smooth="yes"/>
+      <point x="419.192" y="380" type="line" smooth="yes"/>
+      <point x="413.192" y="375"/>
+      <point x="405.192" y="375"/>
+      <point x="399.192" y="377" type="curve" smooth="yes"/>
+      <point x="109.192" y="491" type="line" smooth="yes"/>
+      <point x="87.192" y="500"/>
+      <point x="64.192" y="483"/>
+      <point x="67.192" y="461" type="curve" smooth="yes"/>
+      <point x="87.192" y="291" type="line" smooth="yes"/>
+      <point x="91.192" y="259"/>
+      <point x="91.192" y="254"/>
+      <point x="91.192" y="234" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.markColor</key>
+      <string>0,1,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

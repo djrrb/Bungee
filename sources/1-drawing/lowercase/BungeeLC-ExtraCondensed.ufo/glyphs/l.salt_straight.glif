@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.salt_straight" format="2">
+  <advance height="1320" width="251"/>
+  <anchor x="127" y="-27" name="bottom"/>
+  <anchor x="125" y="510" name="center"/>
+  <anchor x="127" y="768" name="top"/>
+  <anchor x="274" y="1020" name="topright"/>
+  <outline>
+    <contour>
+      <point x="214" y="740" type="line"/>
+      <point x="37" y="740" type="line"/>
+      <point x="37" y="0" type="line"/>
+      <point x="214" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-30 07:19:46</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 23:39:09</string>
+      <key>public.markColor</key>
+      <string>0.502,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

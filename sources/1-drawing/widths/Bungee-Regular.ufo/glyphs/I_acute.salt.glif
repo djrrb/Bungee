@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iacute.salt" format="2">
+  <advance height="1000" width="371"/>
+  <unicode hex="E116"/>
+  <anchor x="185" y="0" name="bottom"/>
+  <anchor x="334" y="10" name="ogonek"/>
+  <anchor x="185" y="747" name="top"/>
+  <anchor x="20" y="1020" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="381" y="801" type="line"/>
+      <point x="381" y="966" type="line"/>
+      <point x="-8" y="913" type="line"/>
+      <point x="-8" y="748" type="line"/>
+    </contour>
+    <component base="I.salt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:25:35</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=I.salt</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

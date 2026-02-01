@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackdownpointingtriangle" format="2">
+  <advance height="1320" width="1000"/>
+  <unicode hex="25BC"/>
+  <outline>
+    <contour>
+      <point x="500" y="334" type="line"/>
+      <point x="589" y="484" type="line"/>
+      <point x="411" y="484" type="line"/>
+    </contour>
+    <contour>
+      <point x="571" y="474" type="line"/>
+      <point x="500" y="354" type="line"/>
+      <point x="429" y="474" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:01:19</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

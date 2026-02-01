@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25DC" format="2">
+  <advance height="1280" width="446"/>
+  <unicode hex="25DC"/>
+  <outline>
+    <contour>
+      <point x="396" y="864" type="line" smooth="yes"/>
+      <point x="396" y="889"/>
+      <point x="392" y="900"/>
+      <point x="384" y="900" type="curve" smooth="yes"/>
+      <point x="342" y="900" type="line" smooth="yes"/>
+      <point x="146" y="900"/>
+      <point x="50" y="599"/>
+      <point x="50" y="-11" type="curve" smooth="yes"/>
+      <point x="50" y="-144" type="line" smooth="yes"/>
+      <point x="50" y="-169"/>
+      <point x="54" y="-180"/>
+      <point x="62" y="-180" type="curve" smooth="yes"/>
+      <point x="386" y="-180" type="line" smooth="yes"/>
+      <point x="392" y="-180"/>
+      <point x="396" y="-167"/>
+      <point x="396" y="-150" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-10-27 17:09:42</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>0,1,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

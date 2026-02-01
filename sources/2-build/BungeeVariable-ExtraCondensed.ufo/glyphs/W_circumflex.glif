@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Wcircumflex" format="2">
+  <advance height="1320" width="543"/>
+  <unicode hex="0174"/>
+  <anchor x="264" y="0" name="bottom"/>
+  <anchor x="264" y="996" name="top"/>
+  <outline>
+    <component base="W"/>
+    <component base="circumflex" xOffset="166"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

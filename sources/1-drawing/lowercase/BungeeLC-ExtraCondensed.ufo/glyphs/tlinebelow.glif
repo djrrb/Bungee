@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tlinebelow" format="2">
+  <advance height="1320" width="324"/>
+  <unicode hex="1E6F"/>
+  <anchor x="182" y="-27" name="bottom"/>
+  <anchor x="162" y="290" name="center"/>
+  <anchor x="126" y="767" name="top"/>
+  <anchor x="304" y="1020" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="macronbelowcmb" xOffset="171"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:45:13</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

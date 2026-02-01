@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Udieresis" format="2">
+  <advance height="1320" width="503"/>
+  <unicode hex="00DC"/>
+  <anchor x="251" y="-29" name="bottom"/>
+  <anchor x="176" y="-15" name="ogonek"/>
+  <anchor x="250" y="968" name="top"/>
+  <anchor x="481" y="720" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="dieresis" xOffset="153"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

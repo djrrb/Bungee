@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedbl" format="2">
+  <advance height="1000" width="486"/>
+  <unicode hex="0022"/>
+  <outline>
+    <contour>
+      <point x="217" y="381" type="curve" smooth="yes"/>
+      <point x="225" y="718" type="line" smooth="yes"/>
+      <point x="225" y="719"/>
+      <point x="224" y="720"/>
+      <point x="223" y="720" type="curve" smooth="yes"/>
+      <point x="34" y="720" type="line" smooth="yes"/>
+      <point x="33" y="720"/>
+      <point x="32" y="719"/>
+      <point x="32" y="718" type="curve" smooth="yes"/>
+      <point x="40" y="381" type="line" smooth="yes"/>
+      <point x="40" y="380"/>
+      <point x="41" y="379"/>
+      <point x="42" y="379" type="curve" smooth="yes"/>
+      <point x="215" y="379" type="line" smooth="yes"/>
+      <point x="216" y="379"/>
+      <point x="217" y="380"/>
+    </contour>
+    <contour>
+      <point x="446" y="381" type="curve" smooth="yes"/>
+      <point x="454" y="718" type="line" smooth="yes"/>
+      <point x="454" y="719"/>
+      <point x="453" y="720"/>
+      <point x="452" y="720" type="curve" smooth="yes"/>
+      <point x="264" y="720" type="line" smooth="yes"/>
+      <point x="263" y="720"/>
+      <point x="262" y="719"/>
+      <point x="262" y="718" type="curve" smooth="yes"/>
+      <point x="270" y="381" type="line" smooth="yes"/>
+      <point x="270" y="380"/>
+      <point x="271" y="379"/>
+      <point x="272" y="379" type="curve" smooth="yes"/>
+      <point x="444" y="379" type="line" smooth="yes"/>
+      <point x="445" y="379"/>
+      <point x="446" y="380"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 06:29:28</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

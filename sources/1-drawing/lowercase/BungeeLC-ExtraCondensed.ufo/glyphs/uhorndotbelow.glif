@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhorndotbelow" format="2">
+  <advance height="1320" width="473"/>
+  <unicode hex="1EF1"/>
+  <anchor x="237" y="607" name="top"/>
+  <anchor x="237" y="-26" name="bottom"/>
+  <outline>
+    <component base="uhorn"/>
+    <component base="dotbelowcmb" xOffset="226" yOffset="1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 23:23:42</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

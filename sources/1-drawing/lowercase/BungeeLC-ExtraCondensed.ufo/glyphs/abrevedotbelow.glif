@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abrevedotbelow" format="2">
+  <advance height="1320" width="453"/>
+  <unicode hex="1EB7"/>
+  <anchor x="227" y="-27" name="bottom"/>
+  <anchor x="237" y="0" name="ogonek"/>
+  <anchor x="227" y="850" name="top"/>
+  <outline>
+    <component base="abreve"/>
+    <component base="dotbelowcmb" xOffset="216"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 20:54:22</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

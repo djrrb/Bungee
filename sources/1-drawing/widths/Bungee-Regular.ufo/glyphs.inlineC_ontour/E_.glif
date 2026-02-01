@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E" format="2">
+  <advance height="1320" width="654"/>
+  <unicode hex="0045"/>
+  <outline>
+    <contour>
+      <point x="515" y="625" type="move"/>
+      <point x="183" y="625" type="line"/>
+      <point x="183" y="95" type="line"/>
+      <point x="515" y="95" type="line"/>
+    </contour>
+    <contour>
+      <point x="183" y="364" type="move"/>
+      <point x="434" y="364" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:42:26</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

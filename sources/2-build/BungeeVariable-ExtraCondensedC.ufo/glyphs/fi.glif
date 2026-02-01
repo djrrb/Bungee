@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fi" format="2">
+  <advance height="1320" width="821"/>
+  <unicode hex="FB01"/>
+  <anchor x="208" y="0" name="bottom_1"/>
+  <anchor x="208" y="1020" name="top_1"/>
+  <anchor x="618" y="0" name="bottom_2"/>
+  <anchor x="780" y="10" name="ogonek_2"/>
+  <anchor x="618" y="747" name="top_2"/>
+  <anchor x="435" y="720" name="topleft_2"/>
+  <outline>
+    <component base="f"/>
+    <component base="i" xOffset="415"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>floqMemesDict</key>
+      <dict>
+        <key>parentID</key>
+        <string>none</string>
+      </dict>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

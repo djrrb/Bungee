@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pi" format="2">
+  <advance height="1000" width="721"/>
+  <unicode hex="03C0"/>
+  <outline>
+    <contour>
+      <point x="660" y="0" type="line"/>
+      <point x="660" y="570" type="line"/>
+      <point x="61" y="570" type="line"/>
+      <point x="61" y="0" type="line"/>
+      <point x="288" y="0" type="line"/>
+      <point x="288" y="381" type="line"/>
+      <point x="433" y="381" type="line"/>
+      <point x="433" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 09:49:10</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

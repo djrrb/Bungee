@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccentcmb" format="2">
+  <advance height="1000"/>
+  <unicode hex="0307"/>
+  <anchor x="18" y="747" name="_top"/>
+  <anchor x="18" y="972" name="top"/>
+  <outline>
+    <contour>
+      <point x="112" y="762" type="curve" smooth="yes"/>
+      <point x="112" y="923" type="line" smooth="yes"/>
+      <point x="112" y="924"/>
+      <point x="111" y="925"/>
+      <point x="110" y="925" type="curve" smooth="yes"/>
+      <point x="-73" y="925" type="line" smooth="yes"/>
+      <point x="-74" y="925"/>
+      <point x="-75" y="924"/>
+      <point x="-75" y="923" type="curve" smooth="yes"/>
+      <point x="-75" y="762" type="line" smooth="yes"/>
+      <point x="-75" y="761"/>
+      <point x="-74" y="760"/>
+      <point x="-73" y="760" type="curve" smooth="yes"/>
+      <point x="110" y="760" type="line" smooth="yes"/>
+      <point x="111" y="760"/>
+      <point x="112" y="761"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>36</integer>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

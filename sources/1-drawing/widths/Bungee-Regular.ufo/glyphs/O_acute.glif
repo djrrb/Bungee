@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oacute" format="2">
+  <advance height="1320" width="737"/>
+  <unicode hex="00D3"/>
+  <anchor x="369" y="-29" name="bottom"/>
+  <anchor x="369" y="360" name="center"/>
+  <anchor x="663" y="10" name="ogonek"/>
+  <anchor x="369" y="971" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <anchor x="717" y="720" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="acute" xOffset="119" yOffset="2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:30:20</string>
+      <key>public.markColor</key>
+      <string>0,0.502,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

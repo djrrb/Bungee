@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="E" format="2">
+  <advance height="1000" width="654"/>
+  <unicode hex="0045"/>
+  <anchor x="327" y="-27" name="bottom"/>
+  <anchor x="589" y="10" name="ogonek"/>
+  <anchor x="337" y="747" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="605" y="0" type="line"/>
+      <point x="605" y="189" type="line"/>
+      <point x="293" y="189" type="line"/>
+      <point x="293" y="275" type="line"/>
+      <point x="524" y="275" type="line"/>
+      <point x="524" y="454" type="line"/>
+      <point x="293" y="454" type="line"/>
+      <point x="293" y="531" type="line"/>
+      <point x="605" y="531" type="line"/>
+      <point x="605" y="720" type="line"/>
+      <point x="69" y="720" type="line"/>
+      <point x="69" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:42:26</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

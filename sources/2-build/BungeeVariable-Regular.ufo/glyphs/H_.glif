@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="H" format="2">
+  <advance height="1000" width="759"/>
+  <unicode hex="0048"/>
+  <anchor x="380" y="-27" name="bottom"/>
+  <anchor x="380" y="576" name="center"/>
+  <anchor x="379" y="747" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="296" y="2" type="curve" smooth="yes"/>
+      <point x="296" y="258" type="line"/>
+      <point x="463" y="258" type="line"/>
+      <point x="463" y="2" type="line" smooth="yes"/>
+      <point x="463" y="1"/>
+      <point x="464" y="0"/>
+      <point x="465" y="0" type="curve" smooth="yes"/>
+      <point x="688" y="0" type="line" smooth="yes"/>
+      <point x="689" y="0"/>
+      <point x="690" y="1"/>
+      <point x="690" y="2" type="curve" smooth="yes"/>
+      <point x="690" y="718" type="line" smooth="yes"/>
+      <point x="690" y="719"/>
+      <point x="689" y="720"/>
+      <point x="688" y="720" type="curve" smooth="yes"/>
+      <point x="465" y="720" type="line" smooth="yes"/>
+      <point x="464" y="720"/>
+      <point x="463" y="719"/>
+      <point x="463" y="718" type="curve" smooth="yes"/>
+      <point x="463" y="467" type="line"/>
+      <point x="296" y="467" type="line"/>
+      <point x="296" y="718" type="line" smooth="yes"/>
+      <point x="296" y="719"/>
+      <point x="295" y="720"/>
+      <point x="294" y="720" type="curve" smooth="yes"/>
+      <point x="71" y="720" type="line" smooth="yes"/>
+      <point x="70" y="720"/>
+      <point x="69" y="719"/>
+      <point x="69" y="718" type="curve" smooth="yes"/>
+      <point x="69" y="2" type="line" smooth="yes"/>
+      <point x="69" y="1"/>
+      <point x="70" y="0"/>
+      <point x="71" y="0" type="curve" smooth="yes"/>
+      <point x="294" y="0" type="line" smooth="yes"/>
+      <point x="295" y="0"/>
+      <point x="296" y="1"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

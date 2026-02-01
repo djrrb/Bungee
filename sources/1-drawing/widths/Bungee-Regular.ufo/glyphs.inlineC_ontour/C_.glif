@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="C" format="2">
+  <advance height="1320" width="628"/>
+  <unicode hex="0043"/>
+  <outline>
+    <contour>
+      <point x="493" y="625" type="move"/>
+      <point x="326" y="625" type="line"/>
+      <point x="203" y="625"/>
+      <point x="171" y="591"/>
+      <point x="171" y="499" type="curve"/>
+      <point x="171" y="219" type="line"/>
+      <point x="171" y="129"/>
+      <point x="201" y="95"/>
+      <point x="326" y="95" type="curve"/>
+      <point x="493" y="95" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 01:40:21</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

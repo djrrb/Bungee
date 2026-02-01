@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni21AB" format="2">
+  <advance height="723" width="850"/>
+  <unicode hex="21AB"/>
+  <outline>
+    <contour>
+      <point x="435" y="25" type="line" smooth="yes"/>
+      <point x="454" y="12"/>
+      <point x="481" y="24"/>
+      <point x="479" y="41" type="curve" smooth="yes"/>
+      <point x="445" y="176" type="line"/>
+      <point x="531" y="176" type="line" smooth="yes"/>
+      <point x="674" y="176"/>
+      <point x="717" y="236"/>
+      <point x="717" y="327" type="curve" smooth="yes"/>
+      <point x="717" y="549" type="line" smooth="yes"/>
+      <point x="717" y="640"/>
+      <point x="674" y="700"/>
+      <point x="531" y="700" type="curve" smooth="yes"/>
+      <point x="243" y="700" type="line" smooth="yes"/>
+      <point x="226" y="700"/>
+      <point x="218" y="692"/>
+      <point x="218" y="674" type="curve" smooth="yes"/>
+      <point x="218" y="584" type="line" smooth="yes"/>
+      <point x="218" y="565"/>
+      <point x="226" y="559"/>
+      <point x="243" y="559" type="curve" smooth="yes"/>
+      <point x="518" y="559" type="line" smooth="yes"/>
+      <point x="556" y="559"/>
+      <point x="575" y="544"/>
+      <point x="575" y="507" type="curve" smooth="yes"/>
+      <point x="575" y="369" type="line" smooth="yes"/>
+      <point x="575" y="331"/>
+      <point x="556" y="317"/>
+      <point x="518" y="317" type="curve" smooth="yes"/>
+      <point x="445" y="317" type="line"/>
+      <point x="479" y="452" type="line" smooth="yes"/>
+      <point x="481" y="469"/>
+      <point x="454" y="480"/>
+      <point x="435" y="468" type="curve" smooth="yes"/>
+      <point x="160" y="283" type="line" smooth="yes"/>
+      <point x="145" y="273"/>
+      <point x="134" y="263"/>
+      <point x="134" y="246" type="curve"/>
+      <point x="134" y="229"/>
+      <point x="145" y="219"/>
+      <point x="160" y="210" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-07 20:25:57</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.markColor</key>
+      <string>1,0,1,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

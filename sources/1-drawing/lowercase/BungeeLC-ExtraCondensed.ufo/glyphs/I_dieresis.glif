@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idieresis" format="2">
+  <advance height="1320" width="406"/>
+  <unicode hex="00CF"/>
+  <anchor x="203" y="-27" name="bottom"/>
+  <anchor x="365" y="10" name="ogonek"/>
+  <anchor x="202" y="968" name="top"/>
+  <anchor x="20" y="720" name="topleft"/>
+  <outline>
+    <component base="I"/>
+    <component base="dieresis" xOffset="105"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 12:19:09</string>
+      <key>public.markColor</key>
+      <string>0,0.502,0,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

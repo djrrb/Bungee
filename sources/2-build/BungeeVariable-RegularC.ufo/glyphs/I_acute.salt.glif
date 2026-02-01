@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iacute.salt" format="2">
+  <advance height="1000" width="371"/>
+  <unicode hex="E116"/>
+  <anchor x="185" y="0" name="bottom"/>
+  <anchor x="334" y="10" name="ogonek"/>
+  <anchor x="185" y="747" name="top"/>
+  <anchor x="20" y="1020" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="381" y="835" type="curve" smooth="yes"/>
+      <point x="381" y="927" type="line" smooth="yes"/>
+      <point x="381" y="952"/>
+      <point x="367" y="964"/>
+      <point x="343" y="961" type="curve" smooth="yes"/>
+      <point x="25" y="918" type="line" smooth="yes"/>
+      <point x="3" y="915"/>
+      <point x="-8" y="902"/>
+      <point x="-8" y="879" type="curve" smooth="yes"/>
+      <point x="-8" y="787" type="line" smooth="yes"/>
+      <point x="-8" y="762"/>
+      <point x="6" y="750"/>
+      <point x="30" y="753" type="curve" smooth="yes"/>
+      <point x="348" y="796" type="line" smooth="yes"/>
+      <point x="370" y="799"/>
+      <point x="381" y="812"/>
+    </contour>
+    <component base="I.salt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 07:25:35</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=I.salt</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

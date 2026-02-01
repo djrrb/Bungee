@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni25D6.v_rounded" format="2">
+  <advance height="350" width="446"/>
+  <unicode hex="E177"/>
+  <outline>
+    <contour>
+      <point x="396" y="220" type="curve" smooth="yes"/>
+      <point x="396" y="265" type="line" smooth="yes"/>
+      <point x="396" y="418"/>
+      <point x="362" y="520"/>
+      <point x="223" y="520" type="curve" smooth="yes"/>
+      <point x="84" y="520"/>
+      <point x="50" y="418"/>
+      <point x="50" y="265" type="curve" smooth="yes"/>
+      <point x="50" y="220" type="line" smooth="yes"/>
+      <point x="50" y="207"/>
+      <point x="57" y="200"/>
+      <point x="70" y="200" type="curve" smooth="yes"/>
+      <point x="131" y="200"/>
+      <point x="315" y="200"/>
+      <point x="376" y="200" type="curve" smooth="yes"/>
+      <point x="389" y="200"/>
+      <point x="396" y="207"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-03-27 19:32:31</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

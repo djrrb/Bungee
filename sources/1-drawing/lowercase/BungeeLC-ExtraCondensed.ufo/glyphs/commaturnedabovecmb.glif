@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabovecmb" format="2">
+  <advance height="1000"/>
+  <unicode hex="0312"/>
+  <anchor x="11" y="421" name="_top"/>
+  <outline>
+    <component base="commaturnedmod" xOffset="-80"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 21:00:54</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>23</integer>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

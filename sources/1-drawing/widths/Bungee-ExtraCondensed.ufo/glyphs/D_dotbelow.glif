@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ddotbelow" format="2">
+  <advance height="1320" width="501"/>
+  <unicode hex="1E0C"/>
+  <anchor x="238" y="-27" name="bottom"/>
+  <anchor x="125" y="360" name="center"/>
+  <anchor x="238" y="747" name="top"/>
+  <outline>
+    <component base="D"/>
+    <component base="dotbelowcmb" xOffset="227"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/02/01 00:41:59</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

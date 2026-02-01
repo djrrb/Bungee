@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kgreenlandic" format="2">
+  <advance height="1320" width="472"/>
+  <unicode hex="0138"/>
+  <anchor x="300" y="0" name="bottom"/>
+  <anchor x="300" y="580" name="top"/>
+  <outline>
+    <contour>
+      <point x="212" y="0" type="line"/>
+      <point x="212" y="222" type="line"/>
+      <point x="243" y="222" type="line" smooth="yes"/>
+      <point x="257" y="222"/>
+      <point x="265" y="214"/>
+      <point x="265" y="199" type="curve" smooth="yes"/>
+      <point x="265" y="0" type="line"/>
+      <point x="439" y="0" type="line"/>
+      <point x="439" y="298" type="line" smooth="yes"/>
+      <point x="439" y="331"/>
+      <point x="421" y="357"/>
+      <point x="391" y="366" type="curve"/>
+      <point x="437" y="580" type="line"/>
+      <point x="270" y="580" type="line"/>
+      <point x="226" y="366" type="line"/>
+      <point x="212" y="366" type="line"/>
+      <point x="212" y="580" type="line"/>
+      <point x="38" y="580" type="line"/>
+      <point x="38" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>k</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 21:02:35</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

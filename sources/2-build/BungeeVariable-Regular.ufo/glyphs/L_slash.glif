@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lslash" format="2">
+  <advance height="1000" width="698"/>
+  <unicode hex="0141"/>
+  <anchor x="367" y="747" name="top"/>
+  <outline>
+    <contour>
+      <point x="20" y="456" type="curve" smooth="yes"/>
+      <point x="20" y="281" type="line" smooth="yes"/>
+      <point x="20" y="280"/>
+      <point x="21" y="280"/>
+      <point x="22" y="280" type="curve" smooth="yes"/>
+      <point x="498" y="391" type="line" smooth="yes"/>
+      <point x="499" y="391"/>
+      <point x="500" y="392"/>
+      <point x="500" y="393" type="curve" smooth="yes"/>
+      <point x="500" y="568" type="line" smooth="yes"/>
+      <point x="500" y="569"/>
+      <point x="499" y="569"/>
+      <point x="498" y="569" type="curve" smooth="yes"/>
+      <point x="22" y="458" type="line" smooth="yes"/>
+      <point x="21" y="458"/>
+      <point x="20" y="457"/>
+    </contour>
+    <contour>
+      <point x="660" y="2" type="curve" smooth="yes"/>
+      <point x="660" y="345" type="line" smooth="yes"/>
+      <point x="660" y="346"/>
+      <point x="659" y="347"/>
+      <point x="658" y="347" type="curve" smooth="yes"/>
+      <point x="445" y="347" type="line" smooth="yes"/>
+      <point x="444" y="347"/>
+      <point x="443" y="346"/>
+      <point x="443" y="345" type="curve" smooth="yes"/>
+      <point x="443" y="189" type="line"/>
+      <point x="306" y="189" type="line"/>
+      <point x="306" y="718" type="line" smooth="yes"/>
+      <point x="306" y="719"/>
+      <point x="305" y="720"/>
+      <point x="304" y="720" type="curve" smooth="yes"/>
+      <point x="81" y="720" type="line" smooth="yes"/>
+      <point x="80" y="720"/>
+      <point x="79" y="719"/>
+      <point x="79" y="718" type="curve" smooth="yes"/>
+      <point x="79" y="2" type="line" smooth="yes"/>
+      <point x="79" y="1"/>
+      <point x="80" y="0"/>
+      <point x="81" y="0" type="curve" smooth="yes"/>
+      <point x="658" y="0" type="line" smooth="yes"/>
+      <point x="659" y="0"/>
+      <point x="660" y="1"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 08:08:14</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=L+3</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 02:38:27</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

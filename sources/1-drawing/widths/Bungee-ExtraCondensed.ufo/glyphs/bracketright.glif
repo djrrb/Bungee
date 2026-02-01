@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bracketright" format="2">
+  <advance height="1000" width="310"/>
+  <unicode hex="005D"/>
+  <outline>
+    <contour>
+      <point x="90" y="111" type="line"/>
+      <point x="33" y="111" type="line"/>
+      <point x="33" y="-46" type="line"/>
+      <point x="276" y="-46" type="line"/>
+      <point x="276" y="766" type="line"/>
+      <point x="33" y="766" type="line"/>
+      <point x="33" y="607" type="line"/>
+      <point x="90" y="607" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-08-07 20:25:57</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcmb" format="2">
+  <advance height="1320"/>
+  <unicode hex="030A"/>
+  <outline>
+    <contour>
+      <point x="-136" y="975" type="line"/>
+      <point x="-136" y="1033"/>
+      <point x="-113" y="1071"/>
+      <point x="0" y="1071" type="curve"/>
+      <point x="113" y="1071"/>
+      <point x="138" y="1032"/>
+      <point x="138" y="975" type="curve"/>
+      <point x="138" y="920" type="line"/>
+      <point x="138" y="862"/>
+      <point x="113" y="825"/>
+      <point x="0" y="825" type="curve"/>
+      <point x="-113" y="825"/>
+      <point x="-136" y="862"/>
+      <point x="-136" y="920" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

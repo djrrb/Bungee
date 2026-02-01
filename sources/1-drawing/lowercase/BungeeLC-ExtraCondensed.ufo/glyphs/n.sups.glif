@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n.sups" format="2">
+  <advance height="1000" width="381"/>
+  <unicode hex="207F"/>
+  <anchor x="190.72" y="739.84" name="top"/>
+  <anchor x="136.72" y="731.2" name="ogonek"/>
+  <anchor x="190.72" y="202.0" name="bottom"/>
+  <anchor x="356.32" y="202.0" name="bottomright"/>
+  <outline>
+    <component base="N.salt" xScale="0.72" yScale="0.72" xOffset="10" yOffset="202"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

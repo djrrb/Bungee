@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Igrave.salt" format="2">
+  <advance height="1000" width="268"/>
+  <unicode hex="E115"/>
+  <anchor x="134" y="0" name="bottom"/>
+  <anchor x="241" y="10" name="ogonek"/>
+  <anchor x="77" y="747" name="top"/>
+  <anchor x="20" y="1020" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="253" y="751" type="line"/>
+      <point x="253" y="916" type="line"/>
+      <point x="15" y="963" type="line"/>
+      <point x="15" y="798" type="line"/>
+    </contour>
+    <component base="I.salt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontbureau.dateModified</key>
+      <string>2011-07-29 14:01:34</string>
+      <key>com.fontbureau.modifiedBy</key>
+      <string>DJR</string>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=I.salt</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>org.robofab.postScriptHintData</key>
+      <dict/>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

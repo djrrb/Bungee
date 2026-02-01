@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="endash" format="2">
+  <advance height="1320" width="734"/>
+  <unicode hex="2013"/>
+  <outline>
+    <contour>
+      <point x="106" y="247" type="line" smooth="yes"/>
+      <point x="74" y="247"/>
+      <point x="60" y="260"/>
+      <point x="60" y="293" type="curve" smooth="yes"/>
+      <point x="60" y="427" type="line" smooth="yes"/>
+      <point x="60" y="459"/>
+      <point x="74" y="473"/>
+      <point x="106" y="473" type="curve" smooth="yes"/>
+      <point x="628" y="473" type="line" smooth="yes"/>
+      <point x="660" y="473"/>
+      <point x="674" y="460"/>
+      <point x="674" y="427" type="curve" smooth="yes"/>
+      <point x="674" y="293" type="line" smooth="yes"/>
+      <point x="674" y="260"/>
+      <point x="660" y="247"/>
+      <point x="628" y="247" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

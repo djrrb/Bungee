@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncmb" format="2">
+  <advance height="1000"/>
+  <unicode hex="0304"/>
+  <anchor x="18" y="747" name="_top"/>
+  <anchor x="18" y="953" name="top"/>
+  <outline>
+    <contour>
+      <point x="152" y="760" type="line"/>
+      <point x="152" y="891" type="line"/>
+      <point x="-116" y="891" type="line"/>
+      <point x="-116" y="760" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/30 03:49:38</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>36</integer>
+      <key>public.markColor</key>
+      <string>0.502,1,0.502,0.502</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>

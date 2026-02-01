@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="L" format="2">
+  <advance height="1320" width="695"/>
+  <unicode hex="004C"/>
+  <outline>
+    <contour>
+      <point x="546" y="297" type="line"/>
+      <point x="546" y="90" type="line"/>
+      <point x="178" y="90" type="line"/>
+      <point x="178" y="630" type="line"/>
+      <point x="188" y="630" type="line"/>
+      <point x="188" y="95" type="line"/>
+      <point x="183" y="100" type="line"/>
+      <point x="541" y="100" type="line"/>
+      <point x="536" y="95" type="line"/>
+      <point x="536" y="297" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026/01/31 01:31:10</string>
+      <key>public.verticalOrigin</key>
+      <integer>1020</integer>
+    </dict>
+  </lib>
+</glyph>
