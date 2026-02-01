@@ -23711,7 +23711,7 @@ unicode = 7808;
 glyphname = X;
 kernLeft = X;
 kernRight = X;
-lastChange = "2026-02-01 12:19:50 +0000";
+lastChange = "2026-02-01 12:20:01 +0000";
 layers = (
 {
 anchors = (
@@ -24317,7 +24317,7 @@ width = 737;
 anchors = (
 {
 name = bottom;
-pos = (249,0);
+pos = (249,-27);
 },
 {
 name = top;
@@ -175557,6 +175557,6 @@ Latn
 UFOFormat = 3;
 UFOLayerName = foreground;
 };
-versionMajor = 2;
-versionMinor = 2;
+versionMajor = 3;
+versionMinor = 1;
 }
