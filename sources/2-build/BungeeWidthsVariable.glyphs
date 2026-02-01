@@ -1,19 +1,6 @@
 {
 .appVersion = "3513";
 .formatVersion = 3;
-DisplayStrings = (
-"Ņ",
-"🖞",
-"🖟",
-"🖙",
-"ARTISANAL QUALITY.",
-"̌",
-ABACUSI.,
-CS$alifJPJornia.,
-"ẶẬAẠḌỆEẸḤIỊḶLḸMṂṆỘỌỢRṚṜṢṬỤỰYYỴẒAĂẶặậạḍEÊỆệEẸẹḥIỊịḷḹṃṇộọợṛṝSṢṣṭụựỵẓ̄",
-"ẶẬẠḌḎỆẸḪḤỊḶḸḺḺ̣ṂṆṈṈỘỌỢṚṜṞ̣̦ṢṬṮỤỰỴẒặậạḍḏệẹḫḥịḷḹḻṃṇṉộọợṛṝṟṣṭṯụựỵẓ̣̤̮̱",
-"69"
-);
 axes = (
 {
 name = Width;
@@ -1182,10 +1169,14 @@ value = 1;
 {
 name = "Enforce Compatibility Check";
 value = 1;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
 }
 );
 date = "2026-01-25 00:44:35 +0000";
-familyName = "Bungee Variable";
+familyName = "Bungee Widths Variable";
 featurePrefixes = (
 {
 code = "# standard features
@@ -167998,7 +167989,7 @@ value = "RemoveOverlap;";
 },
 {
 name = fileName;
-value = "BungeeVariable[wdth]";
+value = "BungeeWidthsVariable[wdth]";
 }
 );
 name = Regular;
@@ -168008,7 +167999,7 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Bungee Variable";
+value = "Bungee Widths Variable";
 }
 );
 },
@@ -168017,7 +168008,7 @@ key = styleMapFamilyNames;
 values = (
 {
 language = dflt;
-value = "Bungee Variable";
+value = "Bungee Widths Variable";
 }
 );
 },
@@ -168118,7 +168109,7 @@ value = Regular;
 },
 {
 axesValues = (
-84,
+90,
 0
 );
 customParameters = (
@@ -168145,8 +168136,8 @@ value = wdth;
 }
 );
 instanceInterpolations = {
-"945C9806-A60E-46C0-BDD3-717690540CA8" = 0.53333;
-m001 = 0.46667;
+"945C9806-A60E-46C0-BDD3-717690540CA8" = 0.33333;
+m001 = 0.66667;
 };
 name = Narrow;
 properties = (
@@ -168191,7 +168182,7 @@ widthClass = 4;
 },
 {
 axesValues = (
-77,
+80,
 0
 );
 customParameters = (
@@ -168218,8 +168209,8 @@ value = wdth;
 }
 );
 instanceInterpolations = {
-"945C9806-A60E-46C0-BDD3-717690540CA8" = 0.76667;
-m001 = 0.23333;
+"945C9806-A60E-46C0-BDD3-717690540CA8" = 0.66667;
+m001 = 0.33333;
 };
 name = Condensed;
 properties = (

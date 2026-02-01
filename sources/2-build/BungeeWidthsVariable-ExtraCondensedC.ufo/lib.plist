@@ -36,22 +36,10 @@
     </array>
     <key>com.schriftgestaltung.appVersion</key>
     <string>3513</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <array>
-      <string>Ņ</string>
-      <string>🖞</string>
-      <string>🖟</string>
-      <string>🖙</string>
-      <string>ARTISANAL QUALITY.</string>
-      <string>̌</string>
-      <string>ABACUSI.</string>
-      <string>CS$alifJPJornia.</string>
-      <string>ẶẬAẠḌỆEẸḤIỊḶLḸMṂṆỘỌỢRṚṜṢṬỤỰYYỴẒAĂẶặậạḍEÊỆệEẸẹḥIỊịḷḹṃṇộọợṛṝSṢṣṭụựỵẓ̄</string>
-      <string>ẶẬẠḌḎỆẸḪḤỊḶḸḺḺ̣ṂṆṈṈỘỌỢṚṜṞ̣̦ṢṬṮỤỰỴẒặậạḍḏệẹḫḥịḷḹḻṃṇṉộọợṛṝṟṣṭṯụựỵẓ̣̤̮̱</string>
-      <string>69</string>
-    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Enforce Compatibility Check</key>
     <integer>1</integer>
+    <key>com.schriftgestaltung.customParameter.GSFont.Write DisplayStrings</key>
+    <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.licenseURL</key>

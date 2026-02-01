@@ -10,7 +10,7 @@
     <axis tag="ROND" name="Round corners" minimum="0" maximum="100" default="0"/>
   </axes>
   <sources>
-    <source filename="BungeeVariable-Regular.ufo" name="Bungee Variable Regular" familyname="Bungee Variable" stylename="Regular">
+    <source filename="BungeeWidthsVariable-Regular.ufo" name="Bungee Widths Variable Regular" familyname="Bungee Widths Variable" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -20,19 +20,19 @@
         <dimension name="Round corners" xvalue="0"/>
       </location>
     </source>
-    <source filename="BungeeVariable-ExtraCondensed.ufo" name="Bungee Variable Extra Condensed" familyname="Bungee Variable" stylename="Extra Condensed">
+    <source filename="BungeeWidthsVariable-ExtraCondensed.ufo" name="Bungee Widths Variable Extra Condensed" familyname="Bungee Widths Variable" stylename="Extra Condensed">
       <location>
         <dimension name="Width" xvalue="70"/>
         <dimension name="Round corners" xvalue="0"/>
       </location>
     </source>
-    <source filename="BungeeVariable-RegularC.ufo" name="Bungee Variable Regular C" familyname="Bungee Variable" stylename="Regular C">
+    <source filename="BungeeWidthsVariable-RegularC.ufo" name="Bungee Widths Variable Regular C" familyname="Bungee Widths Variable" stylename="Regular C">
       <location>
         <dimension name="Width" xvalue="100"/>
         <dimension name="Round corners" xvalue="100"/>
       </location>
     </source>
-    <source filename="BungeeVariable-ExtraCondensedC.ufo" name="Bungee Variable Extra Condensed C" familyname="Bungee Variable" stylename="Extra Condensed C">
+    <source filename="BungeeWidthsVariable-ExtraCondensedC.ufo" name="Bungee Widths Variable Extra Condensed C" familyname="Bungee Widths Variable" stylename="Extra Condensed C">
       <location>
         <dimension name="Width" xvalue="70"/>
         <dimension name="Round corners" xvalue="100"/>
@@ -40,7 +40,7 @@
     </source>
   </sources>
   <variable-fonts>
-    <variable-font name="Regular" filename="BungeeVariable[wdth]">
+    <variable-font name="Regular" filename="BungeeWidthsVariable[wdth]">
       <axis-subsets>
         <axis-subset name="Width"/>
         <axis-subset name="Round corners"/>
@@ -78,7 +78,7 @@
             <string>C</string>
           </array>
           <key>com.schriftgestaltung.customParameter.GSInstance.fileName</key>
-          <string>BungeeVariable[wdth]</string>
+          <string>BungeeWidthsVariable[wdth]</string>
         </dict>
       </lib>
     </variable-font>

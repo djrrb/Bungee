@@ -36,22 +36,10 @@
     </array>
     <key>com.schriftgestaltung.appVersion</key>
     <string>3513</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <array>
-      <string>Ņ</string>
-      <string>🖞</string>
-      <string>🖟</string>
-      <string>🖙</string>
-      <string>ARTISANAL QUALITY.</string>
-      <string>̌</string>
-      <string>ABACUSI.</string>
-      <string>CS$alifJPJornia.</string>
-      <string>ẶẬAẠḌỆEẸḤIỊḶLḸMṂṆỘỌỢRṚṜṢṬỤỰYYỴẒAĂẶặậạḍEÊỆệEẸẹḥIỊịḷḹṃṇộọợṛṝSṢṣṭụựỵẓ̄</string>
-      <string>ẶẬẠḌḎỆẸḪḤỊḶḸḺḺ̣ṂṆṈṈỘỌỢṚṜṞ̣̦ṢṬṮỤỰỴẒặậạḍḏệẹḫḥịḷḹḻṃṇṉộọợṛṝṟṣṭṯụựỵẓ̣̤̮̱</string>
-      <string>69</string>
-    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Enforce Compatibility Check</key>
     <integer>1</integer>
+    <key>com.schriftgestaltung.customParameter.GSFont.Write DisplayStrings</key>
+    <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.licenseURL</key>
@@ -69,6 +57,15 @@
     <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.vendorID</key>
     <string>djr </string>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.Axis Location</key>
+    <array>
+      <dict>
+        <key>Axis</key>
+        <string>Width</string>
+        <key>Location</key>
+        <integer>70</integer>
+      </dict>
+    </array>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
@@ -80,23 +77,21 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>100</integer>
+    <integer>70</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.fontMasterID</key>
-    <string>m001</string>
+    <string>945C9806-A60E-46C0-BDD3-717690540CA8</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.weightValue</key>
-    <integer>100</integer>
+    <integer>70</integer>
     <key>com.schriftgestaltung.width</key>
     <string>Regular</string>
-    <key>layerinfo.color</key>
-    <string>1,0.75,0,0.7</string>
     <key>public.glyphOrder</key>
     <array>
       <string>.notdef</string>

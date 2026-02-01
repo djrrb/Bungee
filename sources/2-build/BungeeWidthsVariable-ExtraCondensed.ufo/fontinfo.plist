@@ -11,7 +11,7 @@
     <key>descender</key>
     <integer>-300</integer>
     <key>familyName</key>
-    <string>Bungee Variable</string>
+    <string>Bungee Widths Variable</string>
     <key>guidelines</key>
     <array>
       <dict>
@@ -24,7 +24,7 @@
       </dict>
       <dict>
         <key>angle</key>
-        <integer>0</integer>
+        <integer>90</integer>
         <key>x</key>
         <integer>594</integer>
         <key>y</key>
@@ -34,7 +34,7 @@
         <key>angle</key>
         <integer>90</integer>
         <key>x</key>
-        <integer>200</integer>
+        <integer>440</integer>
         <key>y</key>
         <integer>768</integer>
       </dict>
@@ -122,7 +122,7 @@
     <key>postscriptUnderlineThickness</key>
     <integer>50</integer>
     <key>styleName</key>
-    <string>Regular C</string>
+    <string>Extra Condensed</string>
     <key>trademark</key>
     <string>Bungee is a trademark of The Font Bureau.</string>
     <key>unitsPerEm</key>
